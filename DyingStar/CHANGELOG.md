@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Mining V0: equip a perforator, aim at a rock's predefined faults and drill to break it
+- into pieces, visible and synchronized in multiplayer. Also removes the F4 third-person
+- camera, which conflicts with the aim-based mining.
+- See details on https://github.com/DyingStar-game/DyingStar/pull/186
 - Add button in pause UI to return to menu (disconnect from the server)
 - Fix pseudo on player and parent when changing parent (server and client fix)
 - Fix spawn in apartments

@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-06-07T08:36:17.147479+00:00",
+  "generated_at": "2026-06-07T09:34:23.302522+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Mining V0: equip a perforator, aim at a rock's predefined faults and drill to break it",
+          "into pieces, visible and synchronized in multiplayer. Also removes the F4 third-person",
+          "camera, which conflicts with the aim-based mining.",
+          "See details on https://github.com/DyingStar-game/DyingStar/pull/186",
           "Add button in pause UI to return to menu (disconnect from the server)",
           "Fix pseudo on player and parent when changing parent (server and client fix)",
           "Fix spawn in apartments",
@@ -25,6 +29,9 @@
           "Rewrite code for player out of server zone; Planet tech v1; update to Godot 4.6.1; new tree architecture; add planet data download"
         ],
         "fr": [
+          "Extraction minière V0 : équipez-vous d’un perforateur, visez les failles prédéfinies d’une roche et forez pour la briser",
+          "en morceaux, visible et synchronisé en multijoueur. Supprime également la caméra à la troisième personne (F4) qui entrait en conflit avec l’extraction minière basée sur la visée.",
+          "Voir les détails sur https://github.com/DyingStar-game/DyingStar/pull/186",
           "Ajout d'un bouton dans l'UI de pause pour retourner au menu (déconnexion du serveur)",
           "Correction du pseudo sur le joueur et le parent lors du changement de parent (correctif serveur et client)",
           "Correction du spawn dans les appartements",

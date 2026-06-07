@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Extraction minière V0 : équipez-vous d’un perforateur, visez les failles prédéfinies d’une roche et forez pour la briser
+- en morceaux, visible et synchronisé en multijoueur. Supprime également la caméra à la troisième personne (F4) qui entrait en conflit avec l’extraction minière basée sur la visée.
+- Voir les détails sur https://github.com/DyingStar-game/DyingStar/pull/186
 - Ajout d'un bouton dans l'UI de pause pour retourner au menu (déconnexion du serveur)
 - Correction du pseudo sur le joueur et le parent lors du changement de parent (correctif serveur et client)
 - Correction du spawn dans les appartements

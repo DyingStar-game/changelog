@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Press **E** to **pick up / drop** a mined ore (one at a time).
+  Only a **fully mined** ore (no fault left) can be carried; you can't take one already carried by someone else.
+  Carrying **slows you down**, the ore **floats in front of you** (no collision), and **everything is visible to other players**.
+  The **perforator** is always present: **stowed** by default / while carrying, **out** when equipped.
 - Mining V0: equip a perforator, aim at a rock's predefined faults and drill to break it into pieces, visible and synchronized in multiplayer
   Also removes the F4 third-person camera, which conflicts with the aim-based mining
   See https://github.com/DyingStar-game/DyingStar/pull/186

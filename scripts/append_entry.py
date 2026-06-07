@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Prepend one or more bullet entries under the [Unreleased] section
+Prepend a bullet entry under the [Unreleased] section
 of a component's CHANGELOG.md and CHANGELOG.fr.md.
 
 Usage:
@@ -11,8 +11,8 @@ Usage:
 
 If --entry-fr is empty or omitted, the EN text is used for the FR file.
 
-Multi-line entries (one bullet per line) are supported: each non-empty
-line in --entry-en / --entry-fr is inserted as a separate bullet.
+Multi-line entries are stored as a single bullet with the lines joined
+by a literal newline (continuation of the same list item in Markdown).
 """
 import argparse
 import os
@@ -33,13 +33,19 @@ UNRELEASED_HEADERS = {"## [Unreleased]", "## [Non publié]"}
 
 
 def _bullets(text: str) -> list[str]:
-    """Return a list of cleaned bullet strings from potentially multi-line text."""
+    """Return a single-element list containing all non-empty lines joined by '\n'.
+
+    Multiple lines in the PR body are kept as one bullet (continuation lines
+    in Markdown) rather than being split into separate entries.
+    """
     lines = []
     for raw in text.splitlines():
         line = raw.strip().lstrip("-* \t")
         if line:
             lines.append(line)
-    return lines
+    if not lines:
+        return []
+    return ["\n  ".join(lines)]
 
 
 def insert_entries(filepath: str, entries: list[str]) -> None:

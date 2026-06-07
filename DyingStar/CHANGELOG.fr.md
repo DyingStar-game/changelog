@@ -7,9 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
-- Extraction minière V0 : équipez-vous d’un perforateur, visez les failles prédéfinies d’une roche et forez pour la briser
-- en morceaux, visible et synchronisé en multijoueur. Supprime également la caméra à la troisième personne (F4) qui entrait en conflit avec l’extraction minière basée sur la visée.
-- Voir les détails sur https://github.com/DyingStar-game/DyingStar/pull/186
+- Extraction minière V0 : équipez-vous d'un perforateur, visez les failles prédéfinies d'une roche et forez pour la briser en morceaux, visible et synchronisé en multijoueur
+  Supprime également la caméra à la troisième personne (F4) qui entrait en conflit avec l'extraction minière basée sur la visée
+  Voir https://github.com/DyingStar-game/DyingStar/pull/186
 - Ajout d'un bouton dans l'UI de pause pour retourner au menu (déconnexion du serveur)
 - Correction du pseudo sur le joueur et le parent lors du changement de parent (correctif serveur et client)
 - Correction du spawn dans les appartements
@@ -28,7 +28,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - Correction de la suppression du joueur à la déconnexion
 - Correction de Wwise pour le serveur dédié
 - Installation du runtime dotnet dans le docker serveur
-- Réécriture du code pour les joueurs hors zone serveur ; Planet tech v1 ; mise à jour Godot 4.6.1 ; nouvelle architecture ; téléchargement des données planète
+- Réécriture du code pour les joueurs hors zone serveur
+  Planet tech v1
+  Mise à jour Godot 4.6.1
+  Mise à jour du docker pour le build serveur
+  Nouvelle architecture
+  Ajout du téléchargement des données planète pour le build et en local pour les développeurs
 
 ## [0.0.1-test5] - 2025-12-16
 

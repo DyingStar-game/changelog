@@ -7,10 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Mining V0: equip a perforator, aim at a rock's predefined faults and drill to break it
-- into pieces, visible and synchronized in multiplayer. Also removes the F4 third-person
-- camera, which conflicts with the aim-based mining.
-- See details on https://github.com/DyingStar-game/DyingStar/pull/186
+- Mining V0: equip a perforator, aim at a rock's predefined faults and drill to break it into pieces, visible and synchronized in multiplayer
+  Also removes the F4 third-person camera, which conflicts with the aim-based mining
+  See https://github.com/DyingStar-game/DyingStar/pull/186
 - Add button in pause UI to return to menu (disconnect from the server)
 - Fix pseudo on player and parent when changing parent (server and client fix)
 - Fix spawn in apartments
@@ -29,7 +28,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix delete player on disconnect
 - Fix Wwise for dedicated server
 - Install dotnet runtime in docker server
-- Rewrite code for player out of server zone; Planet tech v1; update to Godot 4.6.1; new tree architecture; add planet data download
+- Rewrite code for player out of server zone
+  Planet tech v1
+  Update to Godot 4.6.1
+  Update docker for build server
+  New tree architecture
+  Add planet data download for build and get locally for developers
 
 ## [0.0.1-test5] - 2025-12-16
 

@@ -93,6 +93,14 @@ def parse_changelog(filepath: str) -> tuple[list[str], list[dict]]:
                 unreleased.append(entry)
             elif isinstance(current_section, dict):
                 current_section["entries"].append(entry)
+            continue
+
+        # Continuation lines (indented, belonging to the previous bullet)
+        if line.startswith("  ") and stripped:
+            if current_section == "unreleased" and unreleased:
+                unreleased[-1] += "\n" + stripped
+            elif isinstance(current_section, dict) and current_section["entries"]:
+                current_section["entries"][-1] += "\n" + stripped
 
     # Flush the last open release block
     if isinstance(current_section, dict):

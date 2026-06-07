@@ -1,0 +1,169 @@
+{
+  "generated_at": "2026-06-07T08:36:17.147479+00:00",
+  "components": {
+    "DyingStar": {
+      "unreleased": {
+        "en": [
+          "Add button in pause UI to return to menu (disconnect from the server)",
+          "Fix pseudo on player and parent when changing parent (server and client fix)",
+          "Fix spawn in apartments",
+          "Fix light of the universe",
+          "Fix godot server (many errors)",
+          "Manage apartments spawn",
+          "Enhance server error messages",
+          "Fix crash on built game (wrong dotnet version)",
+          "Update to dotnet 9, remove login page (auth with JWT token)",
+          "Fix log in /tmp (crash on Windows)",
+          "Fix SSH deploy",
+          "Fix build and deploy",
+          "Add build game in GitHub Actions",
+          "Remove Wwise, replaced by audio directly in Godot",
+          "Review UI interface and settings: sound, livekit (vocal proximity)",
+          "Fix delete player on disconnect",
+          "Fix Wwise for dedicated server",
+          "Install dotnet runtime in docker server",
+          "Rewrite code for player out of server zone; Planet tech v1; update to Godot 4.6.1; new tree architecture; add planet data download"
+        ],
+        "fr": [
+          "Ajout d'un bouton dans l'UI de pause pour retourner au menu (déconnexion du serveur)",
+          "Correction du pseudo sur le joueur et le parent lors du changement de parent (correctif serveur et client)",
+          "Correction du spawn dans les appartements",
+          "Correction de la lumière de l'univers",
+          "Correction du serveur Godot (nombreuses erreurs)",
+          "Gestion du spawn dans les appartements",
+          "Amélioration des messages d'erreur du serveur",
+          "Correction du crash sur le jeu compilé (mauvaise version dotnet)",
+          "Mise à jour vers dotnet 9, suppression de la page de connexion (auth par JWT)",
+          "Correction des logs dans /tmp (crash sur Windows)",
+          "Correction du déploiement SSH",
+          "Correction du build et du déploiement",
+          "Ajout du build du jeu dans GitHub Actions",
+          "Suppression de Wwise, remplacé par l'audio natif Godot",
+          "Révision de l'interface et des paramètres : son, livekit (proximité vocale)",
+          "Correction de la suppression du joueur à la déconnexion",
+          "Correction de Wwise pour le serveur dédié",
+          "Installation du runtime dotnet dans le docker serveur",
+          "Réécriture du code pour les joueurs hors zone serveur ; Planet tech v1 ; mise à jour Godot 4.6.1 ; nouvelle architecture ; téléchargement des données planète"
+        ]
+      },
+      "releases": [
+        {
+          "version": "0.0.1-test5",
+          "date": "2025-12-16",
+          "entries": {
+            "en": [
+              "Version for the test5"
+            ],
+            "fr": [
+              "Version pour le test5"
+            ]
+          }
+        }
+      ]
+    },
+    "horizonserver": {
+      "unreleased": {
+        "en": [],
+        "fr": []
+      },
+      "releases": []
+    },
+    "services/monitoring": {
+      "unreleased": {
+        "en": [],
+        "fr": []
+      },
+      "releases": []
+    },
+    "services/persistence": {
+      "unreleased": {
+        "en": [],
+        "fr": []
+      },
+      "releases": []
+    },
+    "services/resourcesDynamic": {
+      "unreleased": {
+        "en": [],
+        "fr": []
+      },
+      "releases": []
+    },
+    "launcher": {
+      "unreleased": {
+        "en": [],
+        "fr": []
+      },
+      "releases": [
+        {
+          "version": "0.2.2",
+          "date": "2026-05-27",
+          "entries": {
+            "en": [
+              "fix player count on game panel",
+              "fix expiration authentication",
+              "fix game version update"
+            ],
+            "fr": [
+              "correction du nombre de joueur sur le panel game",
+              "correction expiration authentification",
+              "correction de la mise a jour d'une nouvelle version du jeu"
+            ]
+          }
+        },
+        {
+          "version": "0.2.1",
+          "date": "2026-05-17",
+          "entries": {
+            "en": [
+              "size of launcher, in some case expands on its own at startup",
+              "link to download the new version of the launcher"
+            ],
+            "fr": [
+              "taille du launcher, dans certains cas ça s'agrandi tout seul au démarrage",
+              "lien pour télécharger la nouvelle version du launcher"
+            ]
+          }
+        },
+        {
+          "version": "0.2.0",
+          "date": "2026-05-16",
+          "entries": {
+            "en": [
+              "Bilingual contributor docs under `docs/en/` and `docs/fr/` (onboarding, contributing, security, code of conduct)",
+              "Structured install progress labels with full UI i18n (`installProgress.*`)",
+              "Browser language detection and persisted UI language (`ds-language`)",
+              "github actions for build the launcher",
+              "Package manager standardized on **pnpm** (removed `package-lock.json`)",
+              "Native install folder dialog localized (fr/en) via main-process l10n",
+              "Social `addFriend` mock validates duplicate names and throws typed errors",
+              "Unused `game:get-state` IPC stub removed"
+            ],
+            "fr": [
+              "Documentation contributeur bilingue dans `docs/en/` et `docs/fr/` (onboarding, contribution, sécurité, code de conduite)",
+              "Libellés de progression d'installation structurés et i18n UI (`installProgress.*`)",
+              "Détection de la langue navigateur et persistance (`ds-language`)",
+              "github actions pour build le launcher",
+              "Gestionnaire de paquets **pnpm** uniquement (suppression de `package-lock.json`)",
+              "Dialogue natif de dossier d'installation localisé (fr/en) côté main",
+              "Mock `addFriend` : validation des doublons et erreurs typées",
+              "Stub IPC inutilisé `game:get-state` supprimé"
+            ]
+          }
+        },
+        {
+          "version": "0.1.0",
+          "date": "2025-01-01",
+          "entries": {
+            "en": [
+              "Initial open-source Electron launcher: auth, game install/update, server status, lore, social UI (mock)"
+            ],
+            "fr": [
+              "Premier launcher Electron open source : auth, install/mise à jour jeu, statut serveur, lore, UI social (mock)"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

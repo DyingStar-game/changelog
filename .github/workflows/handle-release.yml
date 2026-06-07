@@ -1,0 +1,38 @@
+name: Handle Release
+
+on:
+  repository_dispatch:
+    types: [release]
+
+jobs:
+  cut-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Cut release
+        env:
+          COMPONENT: ${{ github.event.client_payload.component }}
+          VERSION: ${{ github.event.client_payload.version }}
+          DATE: ${{ github.event.client_payload.date }}
+        run: |
+          python3 scripts/cut_release.py \
+            --component "$COMPONENT" \
+            --version "$VERSION" \
+            --date "$DATE"
+
+      - name: Generate global.json
+        run: python3 scripts/generate_global_json.py
+
+      - name: Commit and push
+        env:
+          COMPONENT: ${{ github.event.client_payload.component }}
+          VERSION: ${{ github.event.client_payload.version }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "release($COMPONENT): cut $VERSION"
+          git push

@@ -1,0 +1,39 @@
+name: Handle PR Merged
+
+on:
+  repository_dispatch:
+    types: [pr-merged]
+
+jobs:
+  append-entry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Append changelog entry
+        env:
+          COMPONENT: ${{ github.event.client_payload.component }}
+          ENTRY_EN: ${{ github.event.client_payload.entry_en }}
+          ENTRY_FR: ${{ github.event.client_payload.entry_fr }}
+        run: |
+          python3 scripts/append_entry.py \
+            --component "$COMPONENT" \
+            --entry-en "$ENTRY_EN" \
+            --entry-fr "$ENTRY_FR"
+
+      - name: Generate global.json
+        run: python3 scripts/generate_global_json.py
+
+      - name: Commit and push
+        env:
+          COMPONENT: ${{ github.event.client_payload.component }}
+          PR_NUMBER: ${{ github.event.client_payload.pr_number }}
+          REPO: ${{ github.event.client_payload.repo }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "changelog($COMPONENT): entry from $REPO#$PR_NUMBER"
+          git push

@@ -1,0 +1,32 @@
+# Changelog
+
+Toutes les modifications notables du projet sont documentées ici.
+
+Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
+versionnage [Semantic Versioning](https://semver.org/lang/fr/).
+
+## [Non publié]
+
+- Ajout d'un bouton dans l'UI de pause pour retourner au menu (déconnexion du serveur)
+- Correction du pseudo sur le joueur et le parent lors du changement de parent (correctif serveur et client)
+- Correction du spawn dans les appartements
+- Correction de la lumière de l'univers
+- Correction du serveur Godot (nombreuses erreurs)
+- Gestion du spawn dans les appartements
+- Amélioration des messages d'erreur du serveur
+- Correction du crash sur le jeu compilé (mauvaise version dotnet)
+- Mise à jour vers dotnet 9, suppression de la page de connexion (auth par JWT)
+- Correction des logs dans /tmp (crash sur Windows)
+- Correction du déploiement SSH
+- Correction du build et du déploiement
+- Ajout du build du jeu dans GitHub Actions
+- Suppression de Wwise, remplacé par l'audio natif Godot
+- Révision de l'interface et des paramètres : son, livekit (proximité vocale)
+- Correction de la suppression du joueur à la déconnexion
+- Correction de Wwise pour le serveur dédié
+- Installation du runtime dotnet dans le docker serveur
+- Réécriture du code pour les joueurs hors zone serveur ; Planet tech v1 ; mise à jour Godot 4.6.1 ; nouvelle architecture ; téléchargement des données planète
+
+## [0.0.1-test5] - 2025-12-16
+
+- Version pour le test5

@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Mining rocks now show their ore: a few small traces on the surface, while the real amount is revealed by breaking the rock — richer pieces contain more ore.
 - Press **E** to **pick up / drop** a mined ore (one at a time).
   Only a **fully mined** ore (no fault left) can be carried; you can't take one already carried by someone else.
   Carrying **slows you down**, the ore **floats in front of you** (no collision), and **everything is visible to other players**.

@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-07T21:35:51.196037+00:00",
+  "generated_at": "2026-06-08T22:12:19.576278+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Mining rocks now show their ore: a few small traces on the surface, while the real amount is revealed by breaking the rock — richer pieces contain more ore.",
           "Press **E** to **pick up / drop** a mined ore (one at a time).\n  Only a **fully mined** ore (no fault left) can be carried; you can't take one already carried by someone else.\n  Carrying **slows you down**, the ore **floats in front of you** (no collision), and **everything is visible to other players**.\n  The **perforator** is always present: **stowed** by default / while carrying, **out** when equipped.",
           "Mining V0: equip a perforator, aim at a rock's predefined faults and drill to break it into pieces, visible and synchronized in multiplayer\n  Also removes the F4 third-person camera, which conflicts with the aim-based mining\n  See https://github.com/DyingStar-game/DyingStar/pull/186",
           "Add button in pause UI to return to menu (disconnect from the server)",
@@ -27,6 +28,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Les rochers miniers montrent désormais leur minerai : quelques petites traces en surface, et la vraie quantité se révèle en cassant le rocher — les morceaux les plus riches contiennent plus de minerai.",
           "E** pour **porter** ou **lâcher** un minerai (un seul à la fois).\n  Seul un minerai **entièrement miné** (sans faille) est portable ; impossible de prendre celui d'un autre joueur.\n  Porter **ralentit**, le minerai **flotte devant** soi (sans collision) et **tout est visible des autres joueurs**.\n  Le **perforateur** est toujours là : **rangé** par défaut/pendant le port, **sorti** quand on l'équipe.",
           "Extraction minière V0 : équipez-vous d'un perforateur, visez les failles prédéfinies d'une roche et forez pour la briser en morceaux, visible et synchronisé en multijoueur\n  Supprime également la caméra à la troisième personne (F4) qui entrait en conflit avec l'extraction minière basée sur la visée\n  Voir https://github.com/DyingStar-game/DyingStar/pull/186",
           "Ajout d'un bouton dans l'UI de pause pour retourner au menu (déconnexion du serveur)",

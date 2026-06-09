@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-09T21:19:02.476575+00:00",
+  "generated_at": "2026-06-09T21:40:35.194858+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Unify how player and prop properties replicate to nearby players, and fix mining rocks sometimes appearing at the world origin.",
           "Press F6 to record the game screen (for bug reports or clips); recordings are saved as AVI files in your Documents/DyingStar/records folder.",
           "Add a mining depot: deposit mined ore, refine it by volume (ore purity, stock and per-crate fill shown on the depot screen) and extract a carryable crate of ore.",
           "Mining rocks now show their ore: a few small traces on the surface, while the real amount is revealed by breaking the rock — richer pieces contain more ore.",
@@ -30,6 +31,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Unify how player and prop properties replicate to nearby players, and fix mining rocks sometimes appearing at the world origin.",
           "Appuyez sur F6 pour enregistrer l'écran de jeu (report de bug ou clips) ; les enregistrements sont sauvegardés en AVI dans Documents/DyingStar/records.",
           "Add a mining depot: deposit mined ore, refine it by volume (ore purity, stock and per-crate fill shown on the depot screen) and extract a carryable crate of ore.",
           "Les rochers miniers montrent désormais leur minerai : quelques petites traces en surface, et la vraie quantité se révèle en cassant le rocher — les morceaux les plus riches contiennent plus de minerai.",

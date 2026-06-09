@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-09T21:13:18.262673+00:00",
+  "generated_at": "2026-06-09T21:19:02.476575+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Press F6 to record the game screen (for bug reports or clips); recordings are saved as AVI files in your Documents/DyingStar/records folder.",
           "Add a mining depot: deposit mined ore, refine it by volume (ore purity, stock and per-crate fill shown on the depot screen) and extract a carryable crate of ore.",
           "Mining rocks now show their ore: a few small traces on the surface, while the real amount is revealed by breaking the rock — richer pieces contain more ore.",
           "Press **E** to **pick up / drop** a mined ore (one at a time).\n  Only a **fully mined** ore (no fault left) can be carried; you can't take one already carried by someone else.\n  Carrying **slows you down**, the ore **floats in front of you** (no collision), and **everything is visible to other players**.\n  The **perforator** is always present: **stowed** by default / while carrying, **out** when equipped.",
@@ -29,6 +30,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Appuyez sur F6 pour enregistrer l'écran de jeu (report de bug ou clips) ; les enregistrements sont sauvegardés en AVI dans Documents/DyingStar/records.",
           "Add a mining depot: deposit mined ore, refine it by volume (ore purity, stock and per-crate fill shown on the depot screen) and extract a carryable crate of ore.",
           "Les rochers miniers montrent désormais leur minerai : quelques petites traces en surface, et la vraie quantité se révèle en cassant le rocher — les morceaux les plus riches contiennent plus de minerai.",
           "E** pour **porter** ou **lâcher** un minerai (un seul à la fois).\n  Seul un minerai **entièrement miné** (sans faille) est portable ; impossible de prendre celui d'un autre joueur.\n  Porter **ralentit**, le minerai **flotte devant** soi (sans collision) et **tout est visible des autres joueurs**.\n  Le **perforateur** est toujours là : **rangé** par défaut/pendant le port, **sorti** quand on l'équipe.",

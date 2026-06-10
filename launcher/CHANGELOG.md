@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Remote changelog: fetch from centralized JSON, dedicated page with environment filtering (Testing / Universe) and read/unread badges.
+  UI sounds: background music, hover/click SFX, volume/mute control in the navbar.
+  In-app OAuth: Discord/Keycloak login in a launcher window (no system browser), with handoff to the Discord app via discord://.
+  FilesPanel: “Select an install directory” message when no folder is set.
+  Linux (AppImage): GPU / accelerated video decode disabled at startup (no need for --disable-accelerated-video-decode).
+  Legacy local changelog in FilesPanel (CHANGELOG.md, related modal).
 ## [0.2.2] - 2026-05-27
 
 - fix player count on game panel

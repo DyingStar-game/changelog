@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T21:40:35.194858+00:00",
+  "generated_at": "2026-06-10T18:58:50.786005+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
@@ -107,8 +107,12 @@
     },
     "launcher": {
       "unreleased": {
-        "en": [],
-        "fr": []
+        "en": [
+          "Remote changelog: fetch from centralized JSON, dedicated page with environment filtering (Testing / Universe) and read/unread badges.\n  UI sounds: background music, hover/click SFX, volume/mute control in the navbar.\n  In-app OAuth: Discord/Keycloak login in a launcher window (no system browser), with handoff to the Discord app via discord://.\n  FilesPanel: “Select an install directory” message when no folder is set.\n  Linux (AppImage): GPU / accelerated video decode disabled at startup (no need for --disable-accelerated-video-decode).\n  Legacy local changelog in FilesPanel (CHANGELOG.md, related modal)."
+        ],
+        "fr": [
+          "Changelog distant : chargement depuis un JSON centralisé, page dédiée avec filtrage par environnement (Testing / Universe) et badges lu/non lu.\n  Sons UI : musique de fond, SFX hover/clic, contrôle volume/mute dans la navbar.\n  Auth OAuth intégrée : connexion Discord/Keycloak dans une fenêtre du launcher (plus besoin du navigateur système), avec bascule vers l’app Discord via discord://.\n  FilesPanel : message « Sélectionnez un répertoire d’installation » quand aucun dossier n’est défini.\n  Linux (AppImage) : désactivation GPU / décodage vidéo accéléré au démarrage (plus besoin de --disable-accelerated-video-decode).\n  Ancien changelog local dans FilesPanel (CHANGELOG.md, modal associée)."
+        ]
       },
       "releases": [
         {

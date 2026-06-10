@@ -7,6 +7,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Changelog distant : chargement depuis un JSON centralisé, page dédiée avec filtrage par environnement (Testing / Universe) et badges lu/non lu.
+  Sons UI : musique de fond, SFX hover/clic, contrôle volume/mute dans la navbar.
+  Auth OAuth intégrée : connexion Discord/Keycloak dans une fenêtre du launcher (plus besoin du navigateur système), avec bascule vers l’app Discord via discord://.
+  FilesPanel : message « Sélectionnez un répertoire d’installation » quand aucun dossier n’est défini.
+  Linux (AppImage) : désactivation GPU / décodage vidéo accéléré au démarrage (plus besoin de --disable-accelerated-video-decode).
+  Ancien changelog local dans FilesPanel (CHANGELOG.md, modal associée).
 ## [0.2.2] - 2026-05-27
 
 - correction du nombre de joueur sur le panel game

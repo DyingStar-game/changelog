@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T18:58:50.786005+00:00",
+  "generated_at": "2026-06-10T19:18:57.233368+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
@@ -75,8 +75,12 @@
     },
     "horizonserver": {
       "unreleased": {
-        "en": [],
-        "fr": []
+        "en": [
+          "Fix the ore shown on a fractured rock's cut faces so it stays consistent across clients."
+        ],
+        "fr": [
+          "Correction du minerai visible sur les faces de coupe d'une roche fracturée afin qu'il reste cohérent pour tous les clients."
+        ]
       },
       "releases": []
     },

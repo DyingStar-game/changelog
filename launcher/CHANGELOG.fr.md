@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.3.0] - 2026-06-10
+
 - Changelog distant : chargement depuis un JSON centralisé, page dédiée avec filtrage par environnement (Testing / Universe) et badges lu/non lu.
   Sons UI : musique de fond, SFX hover/clic, contrôle volume/mute dans la navbar.
   Auth OAuth intégrée : connexion Discord/Keycloak dans une fenêtre du launcher (plus besoin du navigateur système), avec bascule vers l’app Discord via discord://.

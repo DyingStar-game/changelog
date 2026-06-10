@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-06-10
+
 - Remote changelog: fetch from centralized JSON, dedicated page with environment filtering (Testing / Universe) and read/unread badges.
   UI sounds: background music, hover/click SFX, volume/mute control in the navbar.
   In-app OAuth: Discord/Keycloak login in a launcher window (no system browser), with handoff to the Discord app via discord://.

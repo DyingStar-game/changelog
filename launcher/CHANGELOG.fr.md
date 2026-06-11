@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Correctif sur les sons du launcher qui se jouaient lorsque le jeu est lancé.
 ## [0.3.0] - 2026-06-10
 
 - Changelog distant : chargement depuis un JSON centralisé, page dédiée avec filtrage par environnement (Testing / Universe) et badges lu/non lu.

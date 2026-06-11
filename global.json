@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T18:18:52.707926+00:00",
+  "generated_at": "2026-06-11T18:36:20.782271+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
@@ -111,14 +111,22 @@
     },
     "launcher": {
       "unreleased": {
-        "en": [
-          "Fix sounds playing when game is running."
-        ],
-        "fr": [
-          "Correctif sur les sons du launcher qui se jouaient lorsque le jeu est lancé."
-        ]
+        "en": [],
+        "fr": []
       },
       "releases": [
+        {
+          "version": "0.3.1",
+          "date": "2026-06-11",
+          "entries": {
+            "en": [
+              "Fix sounds playing when game is running."
+            ],
+            "fr": [
+              "Correctif sur les sons du launcher qui se jouaient lorsque le jeu est lancé."
+            ]
+          }
+        },
         {
           "version": "0.3.0",
           "date": "2026-06-10",

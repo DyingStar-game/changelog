@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-11T18:41:42.276797+00:00",
+  "generated_at": "2026-06-12T17:53:31.930148+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Fix the admin cleanup tool leaving ghost collisions after deleting a prop.",
           "Add admin cleanup tool: ray from the player's hand, red/yellow aim line, click to delete the targeted prop (rock / box / depot only).\n  Server-authoritative delete: frees the node (or forwards to Horizon) -> removed from GORC + database. World infrastructure is protected.\n  Tools 1 (perforator) and 2 (cleanup) are now mutually exclusive.\n  Mining depot placeholder spawns its networked copy on the game server (collision + collect/SEND logic), with a deterministic uuid (optional stable_id) to avoid duplicate accumulation; placed in Sandbox Capital.",
           "Unify how player and prop properties replicate to nearby players, and fix mining rocks sometimes appearing at the world origin.",
           "Press F6 to record the game screen (for bug reports or clips); recordings are saved as AVI files in your Documents/DyingStar/records folder.",
@@ -32,6 +33,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Corrige le problème des collisions fantômes laissées par l'outil de nettoyage d'administration après la suppression d'un élément.",
           "Ajout d'un outil de nettoyage pour les administrateurs : un rayon partant de la main du joueur, une ligne de visée rouge/jaune, cliquez pour supprimer l'élément ciblé (rocher/boîte/dépôt uniquement).\n  Suppression autorisée par le serveur : libère le nœud (ou le transfère à Horizon) -> supprimé de GORC et de la base de données. L'infrastructure du monde est protégée.\n  Les outils 1 (perforateur) et 2 (nettoyage) sont désormais incompatibles.\n  L'emplacement réservé au dépôt minier génère sa copie réseau sur le serveur de jeu (logique de collision et de collecte/envoi), avec un UUID déterministe (optionnel :\n  stable_id) pour éviter l'accumulation de doublons ; placé dans Sandbox Capital.",
           "Unify how player and prop properties replicate to nearby players, and fix mining rocks sometimes appearing at the world origin.",
           "Appuyez sur F6 pour enregistrer l'écran de jeu (report de bug ou clips) ; les enregistrements sont sauvegardés en AVI dans Documents/DyingStar/records.",

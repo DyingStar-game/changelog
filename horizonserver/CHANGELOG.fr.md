@@ -6,4 +6,6 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Ajout de la définition de réplication des propriétés du véhicule (canal d'état + canal de suppression).
+  Ajout de la définition de réplication des propriétés du véhicule (état, canal de suppression et vitesse).
 - Correction du minerai visible sur les faces de coupe d'une roche fracturée afin qu'il reste cohérent pour tous les clients.

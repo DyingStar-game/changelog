@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Add a drivable networked truck (driver and passenger seats, powertrain, in-cab dashboard, free look); the admin cleanup tool can now remove vehicles and depot crates.
+  Smooth networked vehicles and players (client interpolation), and let the admin cleanup tool remove vehicles and depot crates.
 - Fix carried props (boxes, ore) despawning for other players over distance.
 - Fix the admin cleanup tool leaving ghost collisions after deleting a prop.
 - Add admin cleanup tool: ray from the player's hand, red/yellow aim line, click to delete the targeted prop (rock / box / depot only).

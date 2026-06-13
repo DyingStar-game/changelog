@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Collision calculation reduction by 50 times (tested on 200 boxes and rocks)
 - Add a drivable networked truck (driver and passenger seats, powertrain, in-cab dashboard, free look); the admin cleanup tool can now remove vehicles and depot crates.
   Smooth networked vehicles and players (client interpolation), and let the admin cleanup tool remove vehicles and depot crates.
 - Fix carried props (boxes, ore) despawning for other players over distance.

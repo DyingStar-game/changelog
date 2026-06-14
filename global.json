@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-13T23:32:42.869866+00:00",
+  "generated_at": "2026-06-14T07:41:35.534395+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Mining rocks can hold different minerals (gold added); the ore look is data-driven per mineral.",
           "Collision calculation reduction by 50 times (tested on 200 boxes and rocks)",
           "Add a drivable networked truck (driver and passenger seats, powertrain, in-cab dashboard, free look); the admin cleanup tool can now remove vehicles and depot crates.\n  Smooth networked vehicles and players (client interpolation), and let the admin cleanup tool remove vehicles and depot crates.",
           "Fix carried props (boxes, ore) despawning for other players over distance.",
@@ -36,6 +37,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Les rochers minables peuvent contenir différents minéraux (or ajouté) ; l'aspect du minerai est piloté par des données.",
           "Réduction du calcul de collision de 50 fois (testé sur 200 boites et rochers)",
           "Ajout d'un camion réseau pilotable (sièges conducteur et passager, groupe motopropulseur, tableau de bord, vue libre) ; l'outil de nettoyage d'administration peut désormais supprimer les véhicules et les caisses de dépôt.\n  Fluidification des véhicules et des joueurs en réseau (interpolation côté client), et possibilité pour l'outil de nettoyage d'administration de supprimer les véhicules et les caisses de dépôt.",
           "Correction du problème de disparition des objets transportés (caisses, minerai) pour les autres joueurs au fil de la distance.",

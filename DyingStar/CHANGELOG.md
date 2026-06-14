@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- You can now retrieve a crate or rock you placed in a vehicle's bed.
+  Cargo placed in a bed no longer disappears in multiplayer.
+  A vehicle can no longer be loaded into another vehicle's bed.
+  Seated players now count toward the vehicle's load (OVERLOADED).
+  "[E] Carry" / "[E] Drop" prompts when aiming at a grabbable object or holding one.
+  Carried objects are solid to the world and other players (but not to the carrier).
+  A vehicle seat is freed when its occupant disconnects.
 - New truck parking hand brake: long-press Space under 3 km/h, released by throttle,
   stays engaged when you leave the truck. Shown on the dashboard, HUD and shortcut hint.
   Seated players now add their weight (75 kg) to the truck's load and total weight;

@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-14T14:12:52.729105+00:00",
+  "generated_at": "2026-06-14T22:49:39.834194+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "You can now retrieve a crate or rock you placed in a vehicle's bed.\n  Cargo placed in a bed no longer disappears in multiplayer.\n  A vehicle can no longer be loaded into another vehicle's bed.\n  Seated players now count toward the vehicle's load (OVERLOADED).\n  \"[E] Carry\" / \"[E] Drop\" prompts when aiming at a grabbable object or holding one.\n  Carried objects are solid to the world and other players (but not to the carrier).\n  A vehicle seat is freed when its occupant disconnects.",
           "New truck parking hand brake: long-press Space under 3 km/h, released by throttle,\n  stays engaged when you leave the truck. Shown on the dashboard, HUD and shortcut hint.\n  Seated players now add their weight (75 kg) to the truck's load and total weight;\n  OVERLOADED accounts for passengers + bed cargo.\n  Smoother ride: no more camera jitter once seated, and the truck moves smoothly for\n  everyone (driver included).\n  \"Driver seat taken\" message when the driver seat is occupied; the enter-seat prompt\n  no longer shows while already seated. You now exit beside the seat you used.\n  Fixed: cargo no longer disappears when dropped into the bed in multiplayer.\n  The vehicle UI is now in English.",
           "Mining rocks can hold different minerals (gold added); the ore look is data-driven per mineral.",
           "Collision calculation reduction by 50 times (tested on 200 boxes and rocks)",
@@ -38,6 +39,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "On peut désormais récupérer une caisse ou un rocher déposé dans la benne d'un véhicule.\n  Le chargement posé en benne ne disparaît plus en multijoueur.\n  Un véhicule ne peut plus être chargé dans la benne d'un autre véhicule.\n  Les passagers comptent dans la charge du véhicule (SURCHARGE).\n  Invites « [E] Carry » / « [E] Drop » quand on vise un objet ou qu'on en porte un.\n  Les objets portés sont solides pour le monde et les autres joueurs (pas pour le porteur).\n  Un siège de véhicule se libère quand son occupant se déconnecte.",
           "Nouveau frein à main du camion : appui long sur Espace sous 3 km/h, relâché par\n  l'accélération, reste actif quand on sort. Affiché sur le tableau de bord, le HUD et l'aide.\n  Les passagers assis ajoutent leur poids (75 kg) à la charge et au poids total ;\n  SURCHARGE prend en compte passagers + chargement de la benne.\n  Conduite plus fluide : plus de tremblement de caméra une fois assis, et le camion\n  bouge de façon lisse pour tout le monde (conducteur compris).\n  Message « Driver seat taken » quand le siège conducteur est occupé ; l'invite pour\n  monter ne s'affiche plus quand on est déjà assis. On ressort à côté du siège utilisé.\n  Correction : le chargement ne disparaît plus quand on le pose dans la benne en multijoueur.\n  L'interface du véhicule est désormais en anglais.",
           "Les rochers minables peuvent contenir différents minéraux (or ajouté) ; l'aspect du minerai est piloté par des données.",
           "Réduction du calcul de collision de 50 fois (testé sur 200 boites et rochers)",

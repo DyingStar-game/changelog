@@ -7,6 +7,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- On peut désormais récupérer une caisse ou un rocher déposé dans la benne d'un véhicule.
+  Le chargement posé en benne ne disparaît plus en multijoueur.
+  Un véhicule ne peut plus être chargé dans la benne d'un autre véhicule.
+  Les passagers comptent dans la charge du véhicule (SURCHARGE).
+  Invites « [E] Carry » / « [E] Drop » quand on vise un objet ou qu'on en porte un.
+  Les objets portés sont solides pour le monde et les autres joueurs (pas pour le porteur).
+  Un siège de véhicule se libère quand son occupant se déconnecte.
 - Nouveau frein à main du camion : appui long sur Espace sous 3 km/h, relâché par
   l'accélération, reste actif quand on sort. Affiché sur le tableau de bord, le HUD et l'aide.
   Les passagers assis ajoutent leur poids (75 kg) à la charge et au poids total ;

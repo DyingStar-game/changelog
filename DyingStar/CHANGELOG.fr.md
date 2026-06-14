@@ -7,6 +7,16 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Nouveau frein à main du camion : appui long sur Espace sous 3 km/h, relâché par
+  l'accélération, reste actif quand on sort. Affiché sur le tableau de bord, le HUD et l'aide.
+  Les passagers assis ajoutent leur poids (75 kg) à la charge et au poids total ;
+  SURCHARGE prend en compte passagers + chargement de la benne.
+  Conduite plus fluide : plus de tremblement de caméra une fois assis, et le camion
+  bouge de façon lisse pour tout le monde (conducteur compris).
+  Message « Driver seat taken » quand le siège conducteur est occupé ; l'invite pour
+  monter ne s'affiche plus quand on est déjà assis. On ressort à côté du siège utilisé.
+  Correction : le chargement ne disparaît plus quand on le pose dans la benne en multijoueur.
+  L'interface du véhicule est désormais en anglais.
 - Les rochers minables peuvent contenir différents minéraux (or ajouté) ; l'aspect du minerai est piloté par des données.
 - Réduction du calcul de collision de 50 fois (testé sur 200 boites et rochers)
 - Ajout d'un camion réseau pilotable (sièges conducteur et passager, groupe motopropulseur, tableau de bord, vue libre) ; l'outil de nettoyage d'administration peut désormais supprimer les véhicules et les caisses de dépôt.

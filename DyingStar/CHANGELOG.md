@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- New truck parking hand brake: long-press Space under 3 km/h, released by throttle,
+  stays engaged when you leave the truck. Shown on the dashboard, HUD and shortcut hint.
+  Seated players now add their weight (75 kg) to the truck's load and total weight;
+  OVERLOADED accounts for passengers + bed cargo.
+  Smoother ride: no more camera jitter once seated, and the truck moves smoothly for
+  everyone (driver included).
+  "Driver seat taken" message when the driver seat is occupied; the enter-seat prompt
+  no longer shows while already seated. You now exit beside the seat you used.
+  Fixed: cargo no longer disappears when dropped into the bed in multiplayer.
+  The vehicle UI is now in English.
 - Mining rocks can hold different minerals (gold added); the ore look is data-driven per mineral.
 - Collision calculation reduction by 50 times (tested on 200 boxes and rocks)
 - Add a drivable networked truck (driver and passenger seats, powertrain, in-cab dashboard, free look); the admin cleanup tool can now remove vehicles and depot crates.

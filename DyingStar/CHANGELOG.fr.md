@@ -7,6 +7,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Phares de véhicule : le dev pose juste des Light3D dans le groupe "vehicle_light" de sa scène
+  (aucun code) ; le conducteur les bascule avec L. Affichés sur le HUD et le tableau de bord.
+  L est contextuel : phares en conduite, torche du joueur à pied. La torche est maintenant visible
+  par les autres joueurs et démarre éteinte.
+  Un camion à l'arrêt ne flue plus avec le frein à main (il se fige une fois stoppé).
+  La benne déverse tout son chargement quand le véhicule se renverse.
 - On peut désormais récupérer une caisse ou un rocher déposé dans la benne d'un véhicule.
   Le chargement posé en benne ne disparaît plus en multijoueur.
   Un véhicule ne peut plus être chargé dans la benne d'un autre véhicule.

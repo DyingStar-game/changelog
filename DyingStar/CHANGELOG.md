@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Vehicle head lights: a dev just drops Light3D(s) into the "vehicle_light" group of their vehicle
+  scene (no code); the driver toggles them with L. Shown on the HUD and the in-cab dashboard.
+  L is contextual: head lights while driving, the player's flashlight on foot. The flashlight is
+  now visible to other players and starts off.
+  A parked truck no longer creeps with the hand brake on (it freezes once stopped).
+  The bed spills its whole load when the vehicle tips over.
 - You can now retrieve a crate or rock you placed in a vehicle's bed.
   Cargo placed in a bed no longer disappears in multiplayer.
   A vehicle can no longer be loaded into another vehicle's bed.

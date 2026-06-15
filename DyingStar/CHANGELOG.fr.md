@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les véhicules peuvent afficher une caméra de recul et des rétroviseurs en direct sur des écrans
+  de cabine (drop-in RearCamera réutilisable ; "mirror" inverse gauche/droite). Le camion embarque
+  une caméra de recul + deux rétros.
 - Phares de véhicule : le dev pose juste des Light3D dans le groupe "vehicle_light" de sa scène
   (aucun code) ; le conducteur les bascule avec L. Affichés sur le HUD et le tableau de bord.
   L est contextuel : phares en conduite, torche du joueur à pied. La torche est maintenant visible

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Vehicles can show a live rear-view camera and side mirrors on in-cab screens (reusable RearCamera
+  drop-in; "mirror" flips it left/right). The truck ships with a reversing camera + two mirrors.
 - Vehicle head lights: a dev just drops Light3D(s) into the "vehicle_light" group of their vehicle
   scene (no code); the driver toggles them with L. Shown on the HUD and the in-cab dashboard.
   L is contextual: head lights while driving, the player's flashlight on foot. The flashlight is

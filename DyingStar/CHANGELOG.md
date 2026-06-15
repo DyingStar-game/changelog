@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- All gameplay keys (vehicle reset/lights, brake & hand brake, the "Zapette" cleanup tool, the spawn
+  wheel) are rebindable in Settings → Controls.
+  The settings menu works: Controls list, Fullscreen/Windowed, Screen Resolution auto-filled from
+  your monitor, Monitor selection.
+  E embarks a vehicle; Y leaves it. one spawn wheel on T.
+  Pause menu reordered (Resume / Settings / Return to menu / Quit); Settings opens the full menu.
+  Start screen: a Quit button. The mouse cursor shows when opening the pause menu. The debug
+  overlay stays in the corner at any resolution.
 - Vehicles can show a live rear-view camera and side mirrors on in-cab screens (reusable RearCamera
   drop-in; "mirror" flips it left/right). The truck ships with a reversing camera + two mirrors.
 - Vehicle head lights: a dev just drops Light3D(s) into the "vehicle_light" group of their vehicle

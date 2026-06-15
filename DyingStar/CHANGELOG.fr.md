@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Toutes les touches gameplay (reset/phares véhicule, frein & frein à main, l'outil « Zapette », la
+  roue de spawn) sont reconfigurables dans Réglages → Contrôles.
+  Le menu réglages fonctionne : liste des contrôles, plein écran/fenêtré, résolution auto-remplie
+  depuis ton écran, choix du moniteur.
+  E permet d'embarquer ; Y pour descendre ; une seule roue de spawn sur T.
+  Menu pause réordonné (Reprendre / Réglages / Retour menu / Quitter) ; Réglages ouvre le menu complet.
+  Écran d'accueil : bouton Quitter. Le curseur apparaît à l'ouverture du menu pause. L'overlay de
+  debug reste dans le coin à toute résolution.
 - Les véhicules peuvent afficher une caméra de recul et des rétroviseurs en direct sur des écrans
   de cabine (drop-in RearCamera réutilisable ; "mirror" inverse gauche/droite). Le camion embarque
   une caméra de recul + deux rétros.

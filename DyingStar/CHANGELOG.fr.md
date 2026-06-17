@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Allumer/éteindre sa lampe torche assis dans un véhicule (conducteur ou passager).
+  Spammer la touche de reset du véhicule ne fait plus décoller le camion.
+  Se tenir dans la benne ajoute son poids à la charge, et on charge une caisse en la déposant dans la benne ; porter une caisse ne renverse plus un camion.
+  Les morceaux de rocher pèsent désormais selon leur taille, et en porter un dans la benne ajoute son poids à la charge.
 - On ne peut plus ramasser d'objets à travers les murs ; l'invite de ramassage n'apparaît que si l'objet est réellement atteignable.
 - Ajout d'un chat textuel en jeu : affiché par défaut à gauche, F12 pour masquer/afficher, Entrée pour écrire et envoyer, Échap pour annuler, Tab pour changer de canal.
 - Ajout des props de rations alimentaires (biscuit, nutrigris).

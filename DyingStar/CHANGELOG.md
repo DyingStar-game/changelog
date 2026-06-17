@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Toggle your flashlight while seated in a vehicle (driver or passenger).
+  Spamming the vehicle reset key no longer makes the truck fly off.
+  Stand in a truck bed to add your weight to its load, and load a crate by dropping it in the bed; carrying a crate no longer flips a truck.
+  Mining rock pieces now weigh according to their size, and carrying one into a truck bed adds its weight to the load.
 - You can no longer pick up items through walls; the carry prompt only shows when the item is actually reachable.
 - Add an in-game text chat: shown by default on the left, F12 to hide/show, Enter to write and send, Escape to cancel, Tab to switch channel.
 - Add food ration props (biscuit, nutrigris).

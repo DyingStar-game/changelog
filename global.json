@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-17T17:41:52.169103+00:00",
+  "generated_at": "2026-06-17T18:16:59.999471+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Add an in-game text chat: shown by default on the left, F12 to hide/show, Enter to write and send, Escape to cancel, Tab to switch channel.",
           "Add food ration props (biscuit, nutrigris).",
           "All gameplay keys (vehicle reset/lights, brake & hand brake, the \"Zapette\" cleanup tool, the spawn\n  wheel) are rebindable in Settings → Controls.\n  The settings menu works: Controls list, Fullscreen/Windowed, Screen Resolution auto-filled from\n  your monitor, Monitor selection.\n  E embarks a vehicle; Y leaves it. one spawn wheel on T.\n  Pause menu reordered (Resume / Settings / Return to menu / Quit); Settings opens the full menu.\n  Start screen: a Quit button. The mouse cursor shows when opening the pause menu. The debug\n  overlay stays in the corner at any resolution.",
           "Vehicles can show a live rear-view camera and side mirrors on in-cab screens (reusable RearCamera\n  drop-in; \"mirror\" flips it left/right). The truck ships with a reversing camera + two mirrors.",
@@ -43,6 +44,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Ajout d'un chat textuel en jeu : affiché par défaut à gauche, F12 pour masquer/afficher, Entrée pour écrire et envoyer, Échap pour annuler, Tab pour changer de canal.",
           "Ajout des props de rations alimentaires (biscuit, nutrigris).",
           "Toutes les touches gameplay (reset/phares véhicule, frein & frein à main, l'outil « Zapette », la\n  roue de spawn) sont reconfigurables dans Réglages → Contrôles.\n  Le menu réglages fonctionne : liste des contrôles, plein écran/fenêtré, résolution auto-remplie\n  depuis ton écran, choix du moniteur.\n  E permet d'embarquer ; Y pour descendre ; une seule roue de spawn sur T.\n  Menu pause réordonné (Reprendre / Réglages / Retour menu / Quitter) ; Réglages ouvre le menu complet.\n  Écran d'accueil : bouton Quitter. Le curseur apparaît à l'ouverture du menu pause. L'overlay de\n  debug reste dans le coin à toute résolution.",
           "Les véhicules peuvent afficher une caméra de recul et des rétroviseurs en direct sur des écrans\n  de cabine (drop-in RearCamera réutilisable ; \"mirror\" inverse gauche/droite). Le camion embarque\n  une caméra de recul + deux rétros.",

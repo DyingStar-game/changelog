@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Add an in-game text chat: shown by default on the left, F12 to hide/show, Enter to write and send, Escape to cancel, Tab to switch channel.
 - Add food ration props (biscuit, nutrigris).
 - All gameplay keys (vehicle reset/lights, brake & hand brake, the "Zapette" cleanup tool, the spawn
   wheel) are rebindable in Settings → Controls.

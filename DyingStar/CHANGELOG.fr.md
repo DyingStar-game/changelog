@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Ajout d'un chat textuel en jeu : affiché par défaut à gauche, F12 pour masquer/afficher, Entrée pour écrire et envoyer, Échap pour annuler, Tab pour changer de canal.
 - Ajout des props de rations alimentaires (biscuit, nutrigris).
 - Toutes les touches gameplay (reset/phares véhicule, frein & frein à main, l'outil « Zapette », la
   roue de spawn) sont reconfigurables dans Réglages → Contrôles.

@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Ajout des props de rations alimentaires (biscuit, nutrigris).
 - Toutes les touches gameplay (reset/phares véhicule, frein & frein à main, l'outil « Zapette », la
   roue de spawn) sont reconfigurables dans Réglages → Contrôles.
   Le menu réglages fonctionne : liste des contrôles, plein écran/fenêtré, résolution auto-remplie

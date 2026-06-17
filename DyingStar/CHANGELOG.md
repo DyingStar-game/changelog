@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Add food ration props (biscuit, nutrigris).
 - All gameplay keys (vehicle reset/lights, brake & hand brake, the "Zapette" cleanup tool, the spawn
   wheel) are rebindable in Settings → Controls.
   The settings menu works: Controls list, Fullscreen/Windowed, Screen Resolution auto-filled from

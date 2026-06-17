@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Your video settings (monitor, resolution, fullscreen, v-sync) are now kept between sessions.
+  New "Dev mode" toggle in the Video settings: it ignores the saved resolution/fullscreen on launch (handy when running several game windows at once).
+  Other players' name tags no longer jitter, and are hidden when too far away.
 - Toggle your flashlight while seated in a vehicle (driver or passenger).
   Spamming the vehicle reset key no longer makes the truck fly off.
   Stand in a truck bed to add your weight to its load, and load a crate by dropping it in the bed; carrying a crate no longer flips a truck.

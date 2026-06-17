@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Tes réglages vidéo (moniteur, résolution, plein écran, v-sync) sont conservés d'une session à l'autre.
+  Nouvelle case "Dev mode" dans les réglages Vidéo : elle ignore la résolution/plein écran sauvegardés au lancement (pratique pour lancer plusieurs fenêtres de jeu en même temps).
+  Le pseudo des autres joueurs ne tremble plus, et se masque quand ils sont trop loin.
 - Allumer/éteindre sa lampe torche assis dans un véhicule (conducteur ou passager).
   Spammer la touche de reset du véhicule ne fait plus décoller le camion.
   Se tenir dans la benne ajoute son poids à la charge, et on charge une caisse en la déposant dans la benne ; porter une caisse ne renverse plus un camion.

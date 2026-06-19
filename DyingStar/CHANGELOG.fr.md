@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Mise jour du projet sous Godot 4.7
+  Activation du HDR
 - Corrige la duplication des dépôts de minage en base à chaque redémarrage du serveur.
 - Ajout d'un cycle jour/nuit de 30 minutes et d'un ciel physique (couleurs de lever/coucher) au sandbox.
 - feat: FPS limit + field-of-view graphics settings (persisted)

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Upgrade the project to Godot 4.7
+  enable HDR
 - Fix designer-placed mining depots being duplicated in the database on every server restart.
 - Add a 30-minute day/night cycle and a physical sky (with sunrise/sunset colours) to the sandbox.
 - feat: FPS limit + field-of-view graphics settings (persisted)

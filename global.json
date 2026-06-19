@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-19T05:26:48.849277+00:00",
+  "generated_at": "2026-06-19T05:27:55.817041+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "You can now see other players turn their flashlight on and off.",
           "Improve cargo: drop an item in a truck's bed (or over the side) to load it, drive it around, and tip the truck to spill it. Changed render of  rear-view mirrors / reversing camera screens.",
           "Your video settings (monitor, resolution, fullscreen, v-sync) are now kept between sessions.\n  New \"Dev mode\" toggle in the Video settings: it ignores the saved resolution/fullscreen on launch (handy when running several game windows at once).\n  Other players' name tags no longer jitter, and are hidden when too far away.",
           "Toggle your flashlight while seated in a vehicle (driver or passenger).\n  Spamming the vehicle reset key no longer makes the truck fly off.\n  Stand in a truck bed to add your weight to its load, and load a crate by dropping it in the bed; carrying a crate no longer flips a truck.\n  Mining rock pieces now weigh according to their size, and carrying one into a truck bed adds its weight to the load.",
@@ -48,6 +49,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "On voit désormais les autres joueurs allumer et éteindre leur lampe torche.",
           "Modification du fret : déposez un objet dans la benne d'un camion (ou par-dessus le bord) pour le charger, roulez avec, et renversez le camion pour le décharger. Modif des rétroviseurs / caméra de recul au niveau des perf client.",
           "Tes réglages vidéo (moniteur, résolution, plein écran, v-sync) sont conservés d'une session à l'autre.\n  Nouvelle case \"Dev mode\" dans les réglages Vidéo : elle ignore la résolution/plein écran sauvegardés au lancement (pratique pour lancer plusieurs fenêtres de jeu en même temps).\n  Le pseudo des autres joueurs ne tremble plus, et se masque quand ils sont trop loin.",
           "Allumer/éteindre sa lampe torche assis dans un véhicule (conducteur ou passager).\n  Spammer la touche de reset du véhicule ne fait plus décoller le camion.\n  Se tenir dans la benne ajoute son poids à la charge, et on charge une caisse en la déposant dans la benne ; porter une caisse ne renverse plus un camion.\n  Les morceaux de rocher pèsent désormais selon leur taille, et en porter un dans la benne ajoute son poids à la charge.",

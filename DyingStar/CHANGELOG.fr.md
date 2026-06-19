@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- feat: FPS limit + field-of-view graphics settings (persisted)
+  feat: working audio settings (bus volumes, input/output device, mic test)
+  fix: settings menu active-category highlight + title; V-Sync label
+  fix: main-menu and ERROR 1337 layouts no longer shift on window resize
+  fix: pause menu button SFX
 - On voit désormais les autres joueurs allumer et éteindre leur lampe torche.
 - Modification du fret : déposez un objet dans la benne d'un camion (ou par-dessus le bord) pour le charger, roulez avec, et renversez le camion pour le décharger. Modif des rétroviseurs / caméra de recul au niveau des perf client.
 - Tes réglages vidéo (moniteur, résolution, plein écran, v-sync) sont conservés d'une session à l'autre.

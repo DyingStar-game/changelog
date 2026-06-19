@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- feat: FPS limit + field-of-view graphics settings (persisted)
+  feat: working audio settings (bus volumes, input/output device, mic test)
+  fix: settings menu active-category highlight + title; V-Sync label
+  fix: main-menu and ERROR 1337 layouts no longer shift on window resize
+  fix: pause menu button SFX
 - You can now see other players turn their flashlight on and off.
 - Improve cargo: drop an item in a truck's bed (or over the side) to load it, drive it around, and tip the truck to spill it. Changed render of  rear-view mirrors / reversing camera screens.
 - Your video settings (monitor, resolution, fullscreen, v-sync) are now kept between sessions.

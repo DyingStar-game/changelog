@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Improve cargo: drop an item in a truck's bed (or over the side) to load it, drive it around, and tip the truck to spill it. Changed render of  rear-view mirrors / reversing camera screens.
 - Your video settings (monitor, resolution, fullscreen, v-sync) are now kept between sessions.
   New "Dev mode" toggle in the Video settings: it ignores the saved resolution/fullscreen on launch (handy when running several game windows at once).
   Other players' name tags no longer jitter, and are hidden when too far away.

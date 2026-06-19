@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Ajout d'un cycle jour/nuit de 30 minutes et d'un ciel physique (couleurs de lever/coucher) au sandbox.
 - feat: FPS limit + field-of-view graphics settings (persisted)
   feat: working audio settings (bus volumes, input/output device, mic test)
   fix: settings menu active-category highlight + title; V-Sync label

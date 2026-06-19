@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Add a 30-minute day/night cycle and a physical sky (with sunrise/sunset colours) to the sandbox.
 - feat: FPS limit + field-of-view graphics settings (persisted)
   feat: working audio settings (bus volumes, input/output device, mic test)
   fix: settings menu active-category highlight + title; V-Sync label

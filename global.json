@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-19T15:21:28.523257+00:00",
+  "generated_at": "2026-06-20T20:10:37.282798+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Fix bug when player go out its appartment\n  Fix rock can't carry\n  Network optimisation\n  Add engine brake on vehicule\n  Enhance loading screen when join the universe",
           "Upgrade the project to Godot 4.7\n  enable HDR",
           "Fix designer-placed mining depots being duplicated in the database on every server restart.",
           "Add a 30-minute day/night cycle and a physical sky (with sunrise/sunset colours) to the sandbox.",
@@ -53,6 +54,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "fix bug visuel quand joueur sort de l'appartement\n  fix rocher insaisissable (petit morceau)\n  optimisation du réseau\n  ajout du moteur frein sur le camion\n  amélioration de l'affichage de l'écran de chargement",
           "Mise jour du projet sous Godot 4.7\n  Activation du HDR",
           "Corrige la duplication des dépôts de minage en base à chaque redémarrage du serveur.",
           "Ajout d'un cycle jour/nuit de 30 minutes et d'un ciel physique (couleurs de lever/coucher) au sandbox.",

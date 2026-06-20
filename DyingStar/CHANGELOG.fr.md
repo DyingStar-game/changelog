@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- fix bug visuel quand joueur sort de l'appartement
+  fix rocher insaisissable (petit morceau)
+  optimisation du réseau
+  ajout du moteur frein sur le camion
+  amélioration de l'affichage de l'écran de chargement
 - Mise jour du projet sous Godot 4.7
   Activation du HDR
 - Corrige la duplication des dépôts de minage en base à chaque redémarrage du serveur.

@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix bug when player go out its appartment
+  Fix rock can't carry
+  Network optimisation
+  Add engine brake on vehicule
+  Enhance loading screen when join the universe
 - Upgrade the project to Godot 4.7
   enable HDR
 - Fix designer-placed mining depots being duplicated in the database on every server restart.

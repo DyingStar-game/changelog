@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- feat: mining zones generate rock fields server-side on player entry (seeded, renewable)
+  feat: small / medium / large mineable rock variants
+  feat: per-zone mineral replicated via `mineral_id` (gold / iron / cryptonite)
 - Fix bug when player go out its appartment
   Fix rock can't carry
   Network optimisation

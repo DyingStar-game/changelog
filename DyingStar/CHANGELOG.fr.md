@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Fonctionnalité : les zones minières génèrent des champs rocheux côté serveur à l’entrée du joueur (ensemencés et renouvelables).
+  Fonctionnalité : variantes de roches exploitables de petite, moyenne et grande taille.
+  Fonctionnalité : chaque zone contient un minéral répliqué via `mineral_id` (or, fer, cryptonite).
 - fix bug visuel quand joueur sort de l'appartement
   fix rocher insaisissable (petit morceau)
   optimisation du réseau

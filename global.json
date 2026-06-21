@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T20:10:37.282798+00:00",
+  "generated_at": "2026-06-21T08:43:09.698838+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
@@ -122,6 +122,7 @@
     "horizonserver": {
       "unreleased": {
         "en": [
+          "feat: replicate `mineral_id` on miningrock\n  tweak: miningrock GORC distance 30 → 150 m",
           "Replicate the player's server-driven carry prompt to clients.",
           "Fix reparent object. The position calculation wasn't right and so the item is so far, it' not updated on client (because gorc works nicely :D)",
           "Fix the apartment attribution store in persistence (it wasn't the case, that's why when restart Horizon, we loose them)",
@@ -130,6 +131,7 @@
           "Fix the ore shown on a fractured rock's cut faces so it stays consistent across clients."
         ],
         "fr": [
+          "Feat : répliquer `mineral_id` sur miningrock\n  Modification : distance GORC de miningrock 30 → 150 m",
           "Replication de l'action attraper gérée par le serveur du serveur sur les clients.",
           "Correction du problème de reparent de l'objet. Le calcul de position était incorrect, l'élément est donc trop éloigné et n'est pas mis à jour côté client (grâce à gorc qui fonctionne parfaitement :D).",
           "Correction du stockage persistant des attributions d'appartements (ce n'était pas le cas, c'est pourquoi nous les perdons lors du redémarrage d'Horizon).",

@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Test des conteneur / habitations
 - Fonctionnalité : les zones minières génèrent des champs rocheux côté serveur à l’entrée du joueur (ensemencés et renouvelables).
   Fonctionnalité : variantes de roches exploitables de petite, moyenne et grande taille.
   Fonctionnalité : chaque zone contient un minéral répliqué via `mineral_id` (or, fer, cryptonite).

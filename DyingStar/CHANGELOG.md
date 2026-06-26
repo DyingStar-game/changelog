@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fixed wrong LOD settings for the VIP hab that caused a visual glitch. The correct model is now displayed when being close to it.
 - Habs test - container
 - feat: mining zones generate rock fields server-side on player entry (seeded, renewable)
   feat: small / medium / large mineable rock variants

@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-26T06:13:44.476504+00:00",
+  "generated_at": "2026-06-26T06:16:27.232533+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Vehicles can now use a real 3D model: working wheels and steering wheel, openable doors with look-at handles, Blender-authored collision, and in-cab screens. A door must be opened (look at its handle + E) before you can get in or out.",
           "Fixed wrong LOD settings for the VIP hab that caused a visual glitch. The correct model is now displayed when being close to it.",
           "Habs test - container",
           "feat: mining zones generate rock fields server-side on player entry (seeded, renewable)\n  feat: small / medium / large mineable rock variants\n  feat: per-zone mineral replicated via `mineral_id` (gold / iron / cryptonite)",
@@ -57,6 +58,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Les véhicules peuvent désormais utiliser un vrai modèle 3D : roues et volant animés, portes ouvrables via leur poignée (visée + E), collision réalisée sous Blender, et écrans dans la cabine. Il faut ouvrir une porte (viser la poignée + E) avant de pouvoir monter ou descendre.",
           "Correction du LOD de l'appartement VIP qui causait un soucis visuel. Le bon modèle est désormais affiché quand le joueur est proche de celui-ci.",
           "Test des conteneur / habitations",
           "Fonctionnalité : les zones minières génèrent des champs rocheux côté serveur à l’entrée du joueur (ensemencés et renouvelables).\n  Fonctionnalité : variantes de roches exploitables de petite, moyenne et grande taille.\n  Fonctionnalité : chaque zone contient un minéral répliqué via `mineral_id` (or, fer, cryptonite).",

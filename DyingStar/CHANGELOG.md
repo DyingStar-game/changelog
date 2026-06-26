@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Vehicles can now use a real 3D model: working wheels and steering wheel, openable doors with look-at handles, Blender-authored collision, and in-cab screens. A door must be opened (look at its handle + E) before you can get in or out.
 - Fixed wrong LOD settings for the VIP hab that caused a visual glitch. The correct model is now displayed when being close to it.
 - Habs test - container
 - feat: mining zones generate rock fields server-side on player entry (seeded, renewable)

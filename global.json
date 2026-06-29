@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-26T06:16:27.232533+00:00",
+  "generated_at": "2026-06-29T19:43:07.698470+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Vehicle fixes: an empty vehicle no longer drives off on its own (it coasts to a stop), vehicles spawn with the hand brake on, a door left open is now visible to players who join later, and the truck's steering wheel turns correctly around its column.",
           "Vehicles can now use a real 3D model: working wheels and steering wheel, openable doors with look-at handles, Blender-authored collision, and in-cab screens. A door must be opened (look at its handle + E) before you can get in or out.",
           "Fixed wrong LOD settings for the VIP hab that caused a visual glitch. The correct model is now displayed when being close to it.",
           "Habs test - container",
@@ -58,6 +59,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Corrections véhicule : un véhicule sans conducteur ne repart plus tout seul (il ralentit jusqu'à l'arrêt), les véhicules apparaissent frein à main serré, une porte laissée ouverte est visible par les joueurs qui se connectent ensuite, et le volant du camion tourne correctement autour de sa colonne.",
           "Les véhicules peuvent désormais utiliser un vrai modèle 3D : roues et volant animés, portes ouvrables via leur poignée (visée + E), collision réalisée sous Blender, et écrans dans la cabine. Il faut ouvrir une porte (viser la poignée + E) avant de pouvoir monter ou descendre.",
           "Correction du LOD de l'appartement VIP qui causait un soucis visuel. Le bon modèle est désormais affiché quand le joueur est proche de celui-ci.",
           "Test des conteneur / habitations",

@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- La direction du véhicule est désormais progressive et auto-centrante, avec un angle de braquage sensible à la vitesse (plus précis à basse vitesse, plus stable à haute vitesse).
 - Un joueur qui se connecte voit désormais l'état actuel de tous les joueurs déjà présents (lampe allumée/éteinte, outil équipé, objet porté…), au lieu de ne le voir qu'au prochain changement.
 - Corrections véhicule : un véhicule sans conducteur ne repart plus tout seul (il ralentit jusqu'à l'arrêt), les véhicules apparaissent frein à main serré, une porte laissée ouverte est visible par les joueurs qui se connectent ensuite, et le volant du camion tourne correctement autour de sa colonne.
 - Les véhicules peuvent désormais utiliser un vrai modèle 3D : roues et volant animés, portes ouvrables via leur poignée (visée + E), collision réalisée sous Blender, et écrans dans la cabine. Il faut ouvrir une porte (viser la poignée + E) avant de pouvoir monter ou descendre.

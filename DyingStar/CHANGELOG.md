@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Vehicle steering now feels progressive and self-centring, with a speed-sensitive steering lock (sharper at low speed, more stable at high speed).
 - Players who join now see the current state of everyone already in the world (torch on/off, equipped tool, carrying…), instead of only seeing it after the next change.
 - Vehicle fixes: an empty vehicle no longer drives off on its own (it coasts to a stop), vehicles spawn with the hand brake on, a door left open is now visible to players who join later, and the truck's steering wheel turns correctly around its column.
 - Vehicles can now use a real 3D model: working wheels and steering wheel, openable doors with look-at handles, Blender-authored collision, and in-cab screens. A door must be opened (look at its handle + E) before you can get in or out.

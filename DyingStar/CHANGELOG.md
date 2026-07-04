@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Editor-only: add a DyingStar tool to import/export a scene's server props to horizonserver's startup_items.json.
 - You can no longer interact with something you can't actually see: picking up an object now requires a clear line of sight to it, and a vehicle door only opens from the handle on your side (outside on foot, inside when seated) when it isn't blocked.
 - Vehicle steering now feels progressive and self-centring, with a speed-sensitive steering lock (sharper at low speed, more stable at high speed).
 - Players who join now see the current state of everyone already in the world (torch on/off, equipped tool, carrying…), instead of only seeing it after the next change.

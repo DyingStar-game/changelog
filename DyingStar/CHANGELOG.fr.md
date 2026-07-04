@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Éditeur uniquement : ajout d'un outil DyingStar pour importer/exporter les props serveur d'une scène vers le startup_items.json d'horizonserver.
 - Vous ne pouvez plus interagir avec quelque chose que vous ne pouvez pas voir : ramasser un objet nécessite désormais une ligne de vue dégagée, et une portière de véhicule ne s'ouvre par la poignée de votre côté (à l'extérieur à pied, à l'intérieur en position assise) que si elle n'est pas obstruée.
 - La direction du véhicule est désormais progressive et auto-centrante, avec un angle de braquage sensible à la vitesse (plus précis à basse vitesse, plus stable à haute vitesse).
 - Un joueur qui se connecte voit désormais l'état actuel de tous les joueurs déjà présents (lampe allumée/éteinte, outil équipé, objet porté…), au lieu de ne le voir qu'au prochain changement.

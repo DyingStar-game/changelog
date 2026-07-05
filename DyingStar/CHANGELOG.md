@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- fix planet folder && build
+  add Bardok house for test
+  add Kankan containers for test
 - Update planet tech, add valleys, texture...
 - Editor-only: add a DyingStar tool to import/export a scene's server props to horizonserver's startup_items.json.
 - You can no longer interact with something you can't actually see: picking up an object now requires a clear line of sight to it, and a vehicle door only opens from the handle on your side (outside on foot, inside when seated) when it isn't blocked.

@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Update export options for planets
 - fix planet folder && build
   add Bardok house for test
   add Kankan containers for test

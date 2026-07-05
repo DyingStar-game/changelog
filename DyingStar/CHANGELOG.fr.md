@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Mettre à jour les options d'exportation pour les planètes
 - Correction du dossier de la planète et compilation
   Ajout de la maison Bardok pour les tests
   Ajout des conteneurs Kankan pour les tests

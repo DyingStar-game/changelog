@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-07-05T07:31:06.664788+00:00",
+  "generated_at": "2026-07-05T17:50:43.459043+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Update export options for planets",
           "fix planet folder && build\n  add Bardok house for test\n  add Kankan containers for test",
           "Update planet tech, add valleys, texture...",
           "Editor-only: add a DyingStar tool to import/export a scene's server props to horizonserver's startup_items.json.",
@@ -65,6 +66,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Mettre à jour les options d'exportation pour les planètes",
           "Correction du dossier de la planète et compilation\n  Ajout de la maison Bardok pour les tests\n  Ajout des conteneurs Kankan pour les tests",
           "Mise à jour de la planet tech, ajout de vallées, texture...",
           "Éditeur uniquement : ajout d'un outil DyingStar pour importer/exporter les props serveur d'une scène vers le startup_items.json d'horizonserver.",

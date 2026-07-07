@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Update physics to 60 FPS.
+  fix per-chunk collision bodies for Jolt at astronomic coordinates
+  fix terrain data export + cache validation + idle physics sleep
 - Update export options for planets
 - fix planet folder && build
   add Bardok house for test

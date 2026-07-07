@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Mise à jour de la physique à 60 FPS.
+  Correction des collisions par chunk pour Jolt aux coordonnées astronomiques.
+  Correction de l'exportation des données de terrain, de la validation du cache et de la mise en veille de la physique en cas d'inactivité.
 - Mettre à jour les options d'exportation pour les planètes
 - Correction du dossier de la planète et compilation
   Ajout de la maison Bardok pour les tests

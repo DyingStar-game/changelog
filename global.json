@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-07-05T17:50:43.459043+00:00",
+  "generated_at": "2026-07-07T06:03:53.349406+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Update physics to 60 FPS.\n  fix per-chunk collision bodies for Jolt at astronomic coordinates\n  fix terrain data export + cache validation + idle physics sleep",
           "Update export options for planets",
           "fix planet folder && build\n  add Bardok house for test\n  add Kankan containers for test",
           "Update planet tech, add valleys, texture...",
@@ -66,6 +67,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Mise à jour de la physique à 60 FPS.\n  Correction des collisions par chunk pour Jolt aux coordonnées astronomiques.\n  Correction de l'exportation des données de terrain, de la validation du cache et de la mise en veille de la physique en cas d'inactivité.",
           "Mettre à jour les options d'exportation pour les planètes",
           "Correction du dossier de la planète et compilation\n  Ajout de la maison Bardok pour les tests\n  Ajout des conteneurs Kankan pour les tests",
           "Mise à jour de la planet tech, ajout de vallées, texture...",

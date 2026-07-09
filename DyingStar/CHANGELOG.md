@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Carried objects now physically collide with the world: you can bump and rest them against the ground, walls and vehicles, and stack them by looking up or down to raise/lower a held object. An object dragged out of reach (e.g. stuck behind a wall) is dropped automatically.
 - You can now show/hide the on-screen debug panels from Settings → General, or with a rebindable key (default Alt+²) available in the Controls menu.
 - Truck: the steering wheel now turns the right way at a sensible speed, and the reverse camera is no longer mirrored.
 - The dev spawn wheel (T) is now a two-level menu (category → variant);

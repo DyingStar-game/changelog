@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les objets transportés interagissent désormais physiquement avec le monde : vous pouvez les heurter et les poser contre le sol, les murs et les véhicules, et les empiler en regardant vers le haut ou vers le bas pour lever ou abaisser un objet tenu. Un objet hors de portée (par exemple, coincé derrière un mur) est automatiquement lâché.
 - Vous pouvez désormais afficher/masquer les panneaux de débogage à l'écran depuis Paramètres → Général, ou avec une touche réattribuable (par défaut Alt+²) disponible dans le menu Commandes.
 - Camion : le volant tourne désormais dans le bon sens à une vitesse raisonnable, et l'image de la caméra de recul n'est plus inversée.
 - La roue d'apparition des développeurs (T) est désormais un menu à deux niveaux (catégorie → variante)

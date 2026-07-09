@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Truck: the steering wheel now turns the right way at a sensible speed, and the reverse camera is no longer mirrored.
 - The dev spawn wheel (T) is now a two-level menu (category → variant);
   the pallet crates it spawns can be picked up and carried.
   Test containers now have collision.

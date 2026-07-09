@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-07-09T11:39:33.827680+00:00",
+  "generated_at": "2026-07-09T11:44:51.881964+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Truck: the steering wheel now turns the right way at a sensible speed, and the reverse camera is no longer mirrored.",
           "The dev spawn wheel (T) is now a two-level menu (category → variant);\n  the pallet crates it spawns can be picked up and carried.\n  Test containers now have collision.\n  Fixed truck doors that could refuse to open once a prop was spawned nearby, and carrying crates from a normal distance\n  held items now float a bit further ahead.",
           "Update physics to 60 FPS.\n  fix per-chunk collision bodies for Jolt at astronomic coordinates\n  fix terrain data export + cache validation + idle physics sleep",
           "Update export options for planets",
@@ -68,6 +69,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Camion : le volant tourne désormais dans le bon sens à une vitesse raisonnable, et l'image de la caméra de recul n'est plus inversée.",
           "La roue d'apparition des développeurs (T) est désormais un menu à deux niveaux (catégorie → variante)\n  les caisses-palettes qu'elle génère peuvent être ramassées et transportées.\n  Les conteneurs de test sont désormais sensibles aux collisions.\n  Correction d'un bug : les portes des camions pouvaient refuser de s'ouvrir lorsqu'un élément de décor apparaissait à proximité, et le transport des caisses à distance normale est désormais possible\n  les objets tenus en main flottent désormais un peu plus loin.",
           "Mise à jour de la physique à 60 FPS.\n  Correction des collisions par chunk pour Jolt aux coordonnées astronomiques.\n  Correction de l'exportation des données de terrain, de la validation du cache et de la mise en veille de la physique en cas d'inactivité.",
           "Mettre à jour les options d'exportation pour les planètes",

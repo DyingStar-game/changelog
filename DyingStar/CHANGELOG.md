@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- You can now show/hide the on-screen debug panels from Settings → General, or with a rebindable key (default Alt+²) available in the Controls menu.
 - Truck: the steering wheel now turns the right way at a sensible speed, and the reverse camera is no longer mirrored.
 - The dev spawn wheel (T) is now a two-level menu (category → variant);
   the pallet crates it spawns can be picked up and carried.

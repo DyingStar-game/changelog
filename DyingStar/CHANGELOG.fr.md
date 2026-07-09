@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Vous pouvez désormais afficher/masquer les panneaux de débogage à l'écran depuis Paramètres → Général, ou avec une touche réattribuable (par défaut Alt+²) disponible dans le menu Commandes.
 - Camion : le volant tourne désormais dans le bon sens à une vitesse raisonnable, et l'image de la caméra de recul n'est plus inversée.
 - La roue d'apparition des développeurs (T) est désormais un menu à deux niveaux (catégorie → variante)
   les caisses-palettes qu'elle génère peuvent être ramassées et transportées.

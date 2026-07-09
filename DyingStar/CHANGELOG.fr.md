@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- La roue d'apparition des développeurs (T) est désormais un menu à deux niveaux (catégorie → variante)
+  les caisses-palettes qu'elle génère peuvent être ramassées et transportées.
+  Les conteneurs de test sont désormais sensibles aux collisions.
+  Correction d'un bug : les portes des camions pouvaient refuser de s'ouvrir lorsqu'un élément de décor apparaissait à proximité, et le transport des caisses à distance normale est désormais possible
+  les objets tenus en main flottent désormais un peu plus loin.
 - Mise à jour de la physique à 60 FPS.
   Correction des collisions par chunk pour Jolt aux coordonnées astronomiques.
   Correction de l'exportation des données de terrain, de la validation du cache et de la mise en veille de la physique en cas d'inactivité.

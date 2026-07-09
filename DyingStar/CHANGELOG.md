@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The dev spawn wheel (T) is now a two-level menu (category → variant);
+  the pallet crates it spawns can be picked up and carried.
+  Test containers now have collision.
+  Fixed truck doors that could refuse to open once a prop was spawned nearby, and carrying crates from a normal distance
+  held items now float a bit further ahead.
 - Update physics to 60 FPS.
   fix per-chunk collision bodies for Jolt at astronomic coordinates
   fix terrain data export + cache validation + idle physics sleep

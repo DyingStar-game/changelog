@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- L'état du moteur et des klaxons d'un véhicule est désormais répliqué : tous les joueurs autour d'un camion l'entendent démarrer, tourner au ralenti, monter en régime et klaxonner.
 - Feat : répliquer `mineral_id` sur miningrock
   Modification : distance GORC de miningrock 30 → 150 m
 - Replication de l'action attraper gérée par le serveur du serveur sur les clients.

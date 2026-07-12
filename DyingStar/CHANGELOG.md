@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Vehicles have sound: doors, engine start/stop, an engine note that rises with the revs, a horn (H) and a special horn (Alt+H), hand brake and head lights. The engine must now be started with the ignition key (I) while standing still before the vehicle will drive.
 - Updated the mini truck model (fixing the wheel spin axis and the cargo-bay weight zone).
   The pause menu no longer closes when you click in the void — use Esc or the Resume button.
   Changing the screen resolution now asks you to confirm within 10 seconds and reverts automatically otherwise, so a too-large resolution can't lock you out.

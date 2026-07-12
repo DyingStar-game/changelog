@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Le modèle du mini-camion a été mis à jour (correction de l'axe de rotation des roues et de la zone de poids de la benne).
+  Le menu pause ne se ferme plus lorsque vous cliquez dans le vide : utilisez la touche Échap ou le bouton Reprendre.
+  Le changement de résolution d'écran nécessite désormais une confirmation sous 10 secondes et est automatiquement annulé en cas de non-respect de cette consigne. Ainsi, une résolution trop élevée ne peut plus vous bloquer.
 - Les objets transportés interagissent désormais physiquement avec le monde : vous pouvez les heurter et les poser contre le sol, les murs et les véhicules, et les empiler en regardant vers le haut ou vers le bas pour lever ou abaisser un objet tenu. Un objet hors de portée (par exemple, coincé derrière un mur) est automatiquement lâché.
 - Vous pouvez désormais afficher/masquer les panneaux de débogage à l'écran depuis Paramètres → Général, ou avec une touche réattribuable (par défaut Alt+²) disponible dans le menu Commandes.
 - Camion : le volant tourne désormais dans le bon sens à une vitesse raisonnable, et l'image de la caméra de recul n'est plus inversée.

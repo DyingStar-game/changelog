@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Mise à jour des technologies planétaires. Génération de cartes de hauteur pour chaque niveau de détail. Correction du téléporteur vers une autre planète/un autre point.
+  Sur le réseau, les planètes sont désormais des objets génériques.
 - Les véhicules ont du son : portes, démarrage et coupure du moteur, un régime moteur qui monte avec les tours, un klaxon (H) et un klaxon spécial (Alt+H), frein à main et phares. Le moteur doit désormais être démarré avec la clé de contact (I), à l'arrêt, avant que le véhicule puisse rouler.
 - Le modèle du mini-camion a été mis à jour (correction de l'axe de rotation des roues et de la zone de poids de la benne).
   Le menu pause ne se ferme plus lorsque vous cliquez dans le vide : utilisez la touche Échap ou le bouton Reprendre.

@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Players have sound: footsteps (random samples, cadence following your speed), the torch switch and the jump. They are positional and replicated, so you hear the players around you walk, jump and light their torch.
 - Update planet tech. generate heightmap for each LOD, fix teleport to another planet / point.
   On network, planets are now generic objects.
 - Vehicles have sound: doors, engine start/stop, an engine note that rises with the revs, a horn (H) and a special horn (Alt+H), hand brake and head lights. The engine must now be started with the ignition key (I) while standing still before the vehicle will drive.

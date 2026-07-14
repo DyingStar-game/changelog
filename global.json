@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-07-14T05:32:42.485397+00:00",
+  "generated_at": "2026-07-14T05:44:19.336768+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Players have sound: footsteps (random samples, cadence following your speed), the torch switch and the jump. They are positional and replicated, so you hear the players around you walk, jump and light their torch.",
           "Update planet tech. generate heightmap for each LOD, fix teleport to another planet / point.\n  On network, planets are now generic objects.",
           "Vehicles have sound: doors, engine start/stop, an engine note that rises with the revs, a horn (H) and a special horn (Alt+H), hand brake and head lights. The engine must now be started with the ignition key (I) while standing still before the vehicle will drive.",
           "Updated the mini truck model (fixing the wheel spin axis and the cargo-bay weight zone).\n  The pause menu no longer closes when you click in the void — use Esc or the Resume button.\n  Changing the screen resolution now asks you to confirm within 10 seconds and reverts automatically otherwise, so a too-large resolution can't lock you out.",
@@ -74,6 +75,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Les joueurs ont du son : bruits de pas (échantillons aléatoires, cadence qui suit votre vitesse), interrupteur de la lampe torche et saut. Ils sont spatialisés et répliqués : vous entendez les joueurs autour de vous marcher, sauter et allumer leur lampe.",
           "Mise à jour des technologies planétaires. Génération de cartes de hauteur pour chaque niveau de détail. Correction du téléporteur vers une autre planète/un autre point.\n  Sur le réseau, les planètes sont désormais des objets génériques.",
           "Les véhicules ont du son : portes, démarrage et coupure du moteur, un régime moteur qui monte avec les tours, un klaxon (H) et un klaxon spécial (Alt+H), frein à main et phares. Le moteur doit désormais être démarré avec la clé de contact (I), à l'arrêt, avant que le véhicule puisse rouler.",
           "Le modèle du mini-camion a été mis à jour (correction de l'axe de rotation des roues et de la zone de poids de la benne).\n  Le menu pause ne se ferme plus lorsque vous cliquez dans le vide : utilisez la touche Échap ou le bouton Reprendre.\n  Le changement de résolution d'écran nécessite désormais une confirmation sous 10 secondes et est automatiquement annulé en cas de non-respect de cette consigne. Ainsi, une résolution trop élevée ne peut plus vous bloquer.",

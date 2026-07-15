@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- La roue de spawn de dev est désormais gérée par le serveur : les objets apparaissent devant vous, posés au sol et droits, et c'est le serveur qui décide où. La molette tourne un objet porté par paliers de 15°, et maintenir le clic molette permet de le faire pivoter librement sur tous les axes à la souris — le tout autour du centre de l'objet.
+  Le dépôt de minerai n'est plus spawnable et empaquette son minerai dans une caisse de transport.
+  Utiliser un écran 3D ne laisse plus votre caméra perdue dans l'espace.
+  Les véhicules se braquent et freinent moteur éteint, et le moteur peut être coupé à toute vitesse.
+  Dans le menu des paramètres, Échap fait maintenant « retour » au lieu de libérer la souris.
+  Une caisse qui tombe ou est jetée dans la benne d'un camion est désormais pesée comme si elle avait été chargée à la main.
+  On ne peut plus attraper un objet ni ouvrir une porte de véhicule à travers un mur de bâtiment.
+  Les phares de camion plus lumineux et une famille de crashs client corrigée.
 - Les joueurs ont du son : bruits de pas (échantillons aléatoires, cadence qui suit votre vitesse), interrupteur de la lampe torche et saut. Ils sont spatialisés et répliqués : vous entendez les joueurs autour de vous marcher, sauter et allumer leur lampe.
 - Mise à jour des technologies planétaires. Génération de cartes de hauteur pour chaque niveau de détail. Correction du téléporteur vers une autre planète/un autre point.
   Sur le réseau, les planètes sont désormais des objets génériques.

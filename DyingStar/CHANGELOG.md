@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The dev spawn wheel is now server-authoritative: objects land in front of you, on the ground and upright, and the server decides where. The mouse wheel rotates a carried object by 15° notches, and holding the middle mouse button free-rotates it on all axes with the mouse — both about the object's centre.
+  The mining depot is no longer spawnable and packs its ore into a hauling box.
+  Using a 3D screen no longer strands your camera in space.
+  Vehicles steer and brake with the engine off, and the engine can be cut at any speed.
+  In the settings menu, Esc now goes back instead of releasing the mouse.
+  A crate that falls or is thrown into a truck bed is now weighed like a hand-loaded one.
+  You can no longer grab an object or open a vehicle door through a building wall.
+  Plus brighter truck headlights and a class of client crashes fixed.
 - Players have sound: footsteps (random samples, cadence following your speed), the torch switch and the jump. They are positional and replicated, so you hear the players around you walk, jump and light their torch.
 - Update planet tech. generate heightmap for each LOD, fix teleport to another planet / point.
   On network, planets are now generic objects.

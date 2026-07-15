@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-07-15T22:23:31.412488+00:00",
+  "generated_at": "2026-07-15T22:25:13.816845+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "The dev spawn wheel is now server-authoritative: objects land in front of you, on the ground and upright, and the server decides where. The mouse wheel rotates a carried object by 15° notches, and holding the middle mouse button free-rotates it on all axes with the mouse — both about the object's centre.\n  The mining depot is no longer spawnable and packs its ore into a hauling box.\n  Using a 3D screen no longer strands your camera in space.\n  Vehicles steer and brake with the engine off, and the engine can be cut at any speed.\n  In the settings menu, Esc now goes back instead of releasing the mouse.\n  A crate that falls or is thrown into a truck bed is now weighed like a hand-loaded one.\n  You can no longer grab an object or open a vehicle door through a building wall.\n  Plus brighter truck headlights and a class of client crashes fixed.",
           "Players have sound: footsteps (random samples, cadence following your speed), the torch switch and the jump. They are positional and replicated, so you hear the players around you walk, jump and light their torch.",
           "Update planet tech. generate heightmap for each LOD, fix teleport to another planet / point.\n  On network, planets are now generic objects.",
           "Vehicles have sound: doors, engine start/stop, an engine note that rises with the revs, a horn (H) and a special horn (Alt+H), hand brake and head lights. The engine must now be started with the ignition key (I) while standing still before the vehicle will drive.",
@@ -75,6 +76,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "La roue de spawn de dev est désormais gérée par le serveur : les objets apparaissent devant vous, posés au sol et droits, et c'est le serveur qui décide où. La molette tourne un objet porté par paliers de 15°, et maintenir le clic molette permet de le faire pivoter librement sur tous les axes à la souris — le tout autour du centre de l'objet.\n  Le dépôt de minerai n'est plus spawnable et empaquette son minerai dans une caisse de transport.\n  Utiliser un écran 3D ne laisse plus votre caméra perdue dans l'espace.\n  Les véhicules se braquent et freinent moteur éteint, et le moteur peut être coupé à toute vitesse.\n  Dans le menu des paramètres, Échap fait maintenant « retour » au lieu de libérer la souris.\n  Une caisse qui tombe ou est jetée dans la benne d'un camion est désormais pesée comme si elle avait été chargée à la main.\n  On ne peut plus attraper un objet ni ouvrir une porte de véhicule à travers un mur de bâtiment.\n  Les phares de camion plus lumineux et une famille de crashs client corrigée.",
           "Les joueurs ont du son : bruits de pas (échantillons aléatoires, cadence qui suit votre vitesse), interrupteur de la lampe torche et saut. Ils sont spatialisés et répliqués : vous entendez les joueurs autour de vous marcher, sauter et allumer leur lampe.",
           "Mise à jour des technologies planétaires. Génération de cartes de hauteur pour chaque niveau de détail. Correction du téléporteur vers une autre planète/un autre point.\n  Sur le réseau, les planètes sont désormais des objets génériques.",
           "Les véhicules ont du son : portes, démarrage et coupure du moteur, un régime moteur qui monte avec les tours, un klaxon (H) et un klaxon spécial (Alt+H), frein à main et phares. Le moteur doit désormais être démarré avec la clé de contact (I), à l'arrêt, avant que le véhicule puisse rouler.",

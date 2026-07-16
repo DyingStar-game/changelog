@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Le portage d'objets est bien plus agréable : plus de « snap » dans les mains à la prise — l'objet rejoint la main en douceur et traîne quand on bouge, réagit aux chocs, et est solide tout de suite. Regarde en bas pour poser un objet au sol, en haut pour le placer en hauteur.
+  Un objet porté ne te repousse plus, et lever la tête dans un container ne l'envoie plus sur le toit.
+  La portée d'interaction est désormais une valeur configurable sur le joueur.
+  Les nouveaux containers de stockage verrouillent toute caisse qui se pose sur leur sol (impossible à bouler) ; on la reprend pour la libérer.
 - La roue de spawn de dev est désormais gérée par le serveur : les objets apparaissent devant vous, posés au sol et droits, et c'est le serveur qui décide où. La molette tourne un objet porté par paliers de 15°, et maintenir le clic molette permet de le faire pivoter librement sur tous les axes à la souris — le tout autour du centre de l'objet.
   Le dépôt de minerai n'est plus spawnable et empaquette son minerai dans une caisse de transport.
   Utiliser un écran 3D ne laisse plus votre caméra perdue dans l'espace.

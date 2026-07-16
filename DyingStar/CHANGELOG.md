@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Carried objects now feel much better: they don't snap to your hands on pickup — they ease in and trail as you move, react to bumps, and are solid immediately. Look down to set an object on the floor, or up to place it high.
+  A carried object no longer shoves you around, and looking up inside a container no longer flings it onto the roof.
+  The interaction reach is now a single configurable value on the player.
+  New storage containers lock any crate that settles on their floor so it can't be knocked around — pick it back up to free it.
 - The dev spawn wheel is now server-authoritative: objects land in front of you, on the ground and upright, and the server decides where. The mouse wheel rotates a carried object by 15° notches, and holding the middle mouse button free-rotates it on all axes with the mouse — both about the object's centre.
   The mining depot is no longer spawnable and packs its ore into a hauling box.
   Using a 3D screen no longer strands your camera in space.

@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Mise à jour des URL des serveurs vers la nouvelle infrastructure.
 - Ajout de réglages Graphics pour activer/désactiver les ombres temps réel et régler la distance d'affichage des ombres du soleil (persistés, appliqués en direct).
 - Correction d'un pic de charge CPU physique au démarrage du serveur : les props rechargés depuis la persistance ne recalculent plus tous leurs collisions d'un coup — ils repartent gelés et se réveillent à l'approche d'un joueur.
 - Le portage d'objets est bien plus agréable : plus de « snap » dans les mains à la prise — l'objet rejoint la main en douceur et traîne quand on bouge, réagit aux chocs, et est solide tout de suite. Regarde en bas pour poser un objet au sol, en haut pour le placer en hauteur.

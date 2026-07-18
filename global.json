@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-07-18T17:47:10.045286+00:00",
+  "generated_at": "2026-07-18T17:48:57.268987+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Update server URLs to the new infrastructure",
           "Added Graphics settings to toggle real-time shadows on/off and adjust the sun shadow draw distance (persisted, applied live).",
           "Fixed a physics CPU spike on server start-up: props reloaded from persistence no longer all re-run collision at once — they reload frozen and wake up when a player approaches.",
           "Carried objects now feel much better: they don't snap to your hands on pickup — they ease in and trail as you move, react to bumps, and are solid immediately. Look down to set an object on the floor, or up to place it high.\n  A carried object no longer shoves you around, and looking up inside a container no longer flings it onto the roof.\n  The interaction reach is now a single configurable value on the player.\n  New storage containers lock any crate that settles on their floor so it can't be knocked around — pick it back up to free it.",
@@ -79,6 +80,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Mise à jour des URL des serveurs vers la nouvelle infrastructure.",
           "Ajout de réglages Graphics pour activer/désactiver les ombres temps réel et régler la distance d'affichage des ombres du soleil (persistés, appliqués en direct).",
           "Correction d'un pic de charge CPU physique au démarrage du serveur : les props rechargés depuis la persistance ne recalculent plus tous leurs collisions d'un coup — ils repartent gelés et se réveillent à l'approche d'un joueur.",
           "Le portage d'objets est bien plus agréable : plus de « snap » dans les mains à la prise — l'objet rejoint la main en douceur et traîne quand on bouge, réagit aux chocs, et est solide tout de suite. Regarde en bas pour poser un objet au sol, en haut pour le placer en hauteur.\n  Un objet porté ne te repousse plus, et lever la tête dans un container ne l'envoie plus sur le toit.\n  La portée d'interaction est désormais une valeur configurable sur le joueur.\n  Les nouveaux containers de stockage verrouillent toute caisse qui se pose sur leur sol (impossible à bouler) ; on la reprend pour la libérer.",

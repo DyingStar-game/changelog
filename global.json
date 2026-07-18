@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-07-18T17:48:57.268987+00:00",
+  "generated_at": "2026-07-18T17:56:44.612024+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Fix text chat (connection to the server)",
           "Update server URLs to the new infrastructure",
           "Added Graphics settings to toggle real-time shadows on/off and adjust the sun shadow draw distance (persisted, applied live).",
           "Fixed a physics CPU spike on server start-up: props reloaded from persistence no longer all re-run collision at once — they reload frozen and wake up when a player approaches.",
@@ -80,6 +81,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Correction du chat texte (connexion avec le serveur)",
           "Mise à jour des URL des serveurs vers la nouvelle infrastructure.",
           "Ajout de réglages Graphics pour activer/désactiver les ombres temps réel et régler la distance d'affichage des ombres du soleil (persistés, appliqués en direct).",
           "Correction d'un pic de charge CPU physique au démarrage du serveur : les props rechargés depuis la persistance ne recalculent plus tous leurs collisions d'un coup — ils repartent gelés et se réveillent à l'approche d'un joueur.",

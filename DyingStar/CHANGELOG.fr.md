@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Correction du chat texte (connexion avec le serveur)
 - Mise à jour des URL des serveurs vers la nouvelle infrastructure.
 - Ajout de réglages Graphics pour activer/désactiver les ombres temps réel et régler la distance d'affichage des ombres du soleil (persistés, appliqués en direct).
 - Correction d'un pic de charge CPU physique au démarrage du serveur : les props rechargés depuis la persistance ne recalculent plus tous leurs collisions d'un coup — ils repartent gelés et se réveillent à l'approche d'un joueur.

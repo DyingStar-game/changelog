@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix text chat (connection to the server)
 - Update server URLs to the new infrastructure
 - Added Graphics settings to toggle real-time shadows on/off and adjust the sun shadow draw distance (persisted, applied live).
 - Fixed a physics CPU spike on server start-up: props reloaded from persistence no longer all re-run collision at once — they reload frozen and wake up when a player approaches.

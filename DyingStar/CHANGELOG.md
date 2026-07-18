@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fixed a physics CPU spike on server start-up: props reloaded from persistence no longer all re-run collision at once — they reload frozen and wake up when a player approaches.
 - Carried objects now feel much better: they don't snap to your hands on pickup — they ease in and trail as you move, react to bumps, and are solid immediately. Look down to set an object on the floor, or up to place it high.
   A carried object no longer shoves you around, and looking up inside a container no longer flings it onto the roof.
   The interaction reach is now a single configurable value on the player.

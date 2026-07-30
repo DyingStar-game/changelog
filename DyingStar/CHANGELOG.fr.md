@@ -7,6 +7,19 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- 🌌 Système stellaire
+  Le monde est désormais entièrement éclairé par Starsis, l'étoile du système.
+  Le cycle jour/nuit est maintenant calculé à partir de la position réelle de Starsis.
+  Les couleurs des levers et couchers de l'étoile sont désormais dynamiques et physiquement cohérentes.
+  Les planètes et les lunes sont correctement éclairées, même à des distances astronomiques.
+  Le ciel suit désormais la position de Starsis, aussi bien dans la vue principale que dans les rétroviseurs des véhicules.
+  La voûte céleste s'estompe progressivement vers le noir de l'espace en fonction de l'altitude.
+  Chaque corps céleste tourne désormais sur son axe selon sa période de rotation réelle.
+  🛰️ Interface
+  Le HUD affiche maintenant la longitude, la latitude et l'heure locale du corps céleste sur lequel vous vous trouvez. (Debug)
+  🛠️ Outils
+  Ajout d'un mode de vol libre ($) pour explorer le système sans contrainte.
+  Ajout de marqueurs de navigation permettant d'inspecter rapidement les planètes, lunes et autres objets du système stellaire. (A activer dans les settings)
 - Correction du chat texte (connexion avec le serveur)
 - Mise à jour des URL des serveurs vers la nouvelle infrastructure.
 - Ajout de réglages Graphics pour activer/désactiver les ombres temps réel et régler la distance d'affichage des ombres du soleil (persistés, appliqués en direct).

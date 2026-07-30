@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The world is now lit and animated by the real star system: sunlight, day/night and
+  sunrise/sunset colours follow the actual star, distant planets and moons are correctly lit
+  even at astronomic range, the sky follows the star — in the main view AND in vehicle mirrors —
+  and fades to space with altitude, and every body rotates on its axis at its real period. The
+  HUD now also shows your longitude/latitude and the local time of the body you stand on. Adds
+  free-flight and marker tools for inspecting the system.
 - Fix text chat (connection to the server)
 - Update server URLs to the new infrastructure
 - Added Graphics settings to toggle real-time shadows on/off and adjust the sun shadow draw distance (persisted, applied live).

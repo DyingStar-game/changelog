@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Réplique la posture du joueur (accroupi/allongé) et le yaw du regard assis, ainsi que l'occupation des sièges de véhicule, pour que les autres joueurs les voient.
 - Correction de la déconnexion du joueur
   Correction du pont en cas de nombreux événements (persistances)
 - L'état du moteur et des klaxons d'un véhicule est désormais répliqué : tous les joueurs autour d'un camion l'entendent démarrer, tourner au ralenti, monter en régime et klaxonner.

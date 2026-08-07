@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Players now have an animated body: you see your own body in first person and other players are fully animated — walk/run/jump, crouch (C) and prone (W), in-place turn, sit/drive in vehicles, emotes (T wheel) and carrying. Carrying a box is only possible while standing, and holstered tools follow the body.
 - The world is now lit and animated by the real star system: sunlight, day/night and
   sunrise/sunset colours follow the actual star, distant planets and moons are correctly lit
   even at astronomic range, the sky follows the star — in the main view AND in vehicle mirrors —

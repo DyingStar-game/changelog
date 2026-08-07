@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les personnages ont un corps animé : vous voyez votre propre corps en 1re personne et les autres joueurs sont entièrement animés — marche/course/saut, accroupi (C) et allongé (W), pivot sur place, assis/conduite en véhicule, emotes (roue T) et port d'objets. Porter une caisse n'est possible que debout, et les outils rangés suivent le corps.
 - 🌌 Système stellaire
   Le monde est désormais entièrement éclairé par Starsis, l'étoile du système.
   Le cycle jour/nuit est maintenant calculé à partir de la position réelle de Starsis.

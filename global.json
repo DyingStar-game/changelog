@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-08-07T22:30:38.636253+00:00",
+  "generated_at": "2026-08-07T22:32:05.459882+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Players now have an animated body: you see your own body in first person and other players are fully animated — walk/run/jump, crouch (C) and prone (W), in-place turn, sit/drive in vehicles, emotes (T wheel) and carrying. Carrying a box is only possible while standing, and holstered tools follow the body.",
           "The world is now lit and animated by the real star system: sunlight, day/night and\n  sunrise/sunset colours follow the actual star, distant planets and moons are correctly lit\n  even at astronomic range, the sky follows the star — in the main view AND in vehicle mirrors —\n  and fades to space with altitude, and every body rotates on its axis at its real period. The\n  HUD now also shows your longitude/latitude and the local time of the body you stand on. Adds\n  free-flight and marker tools for inspecting the system.",
           "Fix text chat (connection to the server)",
           "Update server URLs to the new infrastructure",
@@ -82,6 +83,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Les personnages ont un corps animé : vous voyez votre propre corps en 1re personne et les autres joueurs sont entièrement animés — marche/course/saut, accroupi (C) et allongé (W), pivot sur place, assis/conduite en véhicule, emotes (roue T) et port d'objets. Porter une caisse n'est possible que debout, et les outils rangés suivent le corps.",
           "🌌 Système stellaire\n  Le monde est désormais entièrement éclairé par Starsis, l'étoile du système.\n  Le cycle jour/nuit est maintenant calculé à partir de la position réelle de Starsis.\n  Les couleurs des levers et couchers de l'étoile sont désormais dynamiques et physiquement cohérentes.\n  Les planètes et les lunes sont correctement éclairées, même à des distances astronomiques.\n  Le ciel suit désormais la position de Starsis, aussi bien dans la vue principale que dans les rétroviseurs des véhicules.\n  La voûte céleste s'estompe progressivement vers le noir de l'espace en fonction de l'altitude.\n  Chaque corps céleste tourne désormais sur son axe selon sa période de rotation réelle.\n  🛰️ Interface\n  Le HUD affiche maintenant la longitude, la latitude et l'heure locale du corps céleste sur lequel vous vous trouvez. (Debug)\n  🛠️ Outils\n  Ajout d'un mode de vol libre ($) pour explorer le système sans contrainte.\n  Ajout de marqueurs de navigation permettant d'inspecter rapidement les planètes, lunes et autres objets du système stellaire. (A activer dans les settings)",
           "Correction du chat texte (connexion avec le serveur)",
           "Mise à jour des URL des serveurs vers la nouvelle infrastructure.",

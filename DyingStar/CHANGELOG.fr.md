@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- gestion des PNJ
+  ajout des propsync (objet réseau)
 - Franchissement automatique** : le personnage franchit les obstacles tout seul — vault par-dessus les bas, grimpe sur les rebords (y compris surélevés), et enjambe en douceur les petites marches qui bloquaient.
   Nouveaux sons** : les 3 types de vault, le perforateur (boucle de perçage, fin, raté, équiper/ranger), la torche du joueur, les phares du camion / moteur électrique.
   Écrans de cabine** des véhicules (rétroviseurs et tableau de bord) : éteints moteur coupé, rallumés à l'allumage.

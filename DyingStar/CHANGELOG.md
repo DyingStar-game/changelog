@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Add NPC management
+  Add propsync (network object)
 - Auto-vault, climb and step-up**: your character crosses obstacles automatically — vaulting over low ones, climbing onto ledges (including elevated platforms), and stepping smoothly up small obstacles that used to block you.
   New sounds**: the three vault types, the mining perforator (drilling loop, end, fail, equip/unequip), the player torch, and truck head lights / electric engine.
   Vehicle cab screens** (rear-view mirrors and dashboard) turn off when the engine is off and back on with ignition.

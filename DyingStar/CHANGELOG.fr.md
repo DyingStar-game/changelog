@@ -7,6 +7,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Franchissement automatique** : le personnage franchit les obstacles tout seul — vault par-dessus les bas, grimpe sur les rebords (y compris surélevés), et enjambe en douceur les petites marches qui bloquaient.
+  Nouveaux sons** : les 3 types de vault, le perforateur (boucle de perçage, fin, raté, équiper/ranger), la torche du joueur, les phares du camion / moteur électrique.
+  Écrans de cabine** des véhicules (rétroviseurs et tableau de bord) : éteints moteur coupé, rallumés à l'allumage.
+  Spawn** : un écran « Spawning... » tient jusqu'à ce que le monde soit prêt — plus de flash de jour ni de caméra qui se redresse juste après l'apparition.
+  Menu pause** : plus possible de bouger, agir, percer ou regarder autour tant qu'il est ouvert.
+  Chat** : affiché par défaut, ordre des messages plus clair, lisible sur fond clair.
+  Les icônes son/micro à l'écran sont en bas à gauche et plus petites.
 - Les personnages ont un corps animé : vous voyez votre propre corps en 1re personne et les autres joueurs sont entièrement animés — marche/course/saut, accroupi (C) et allongé (W), pivot sur place, assis/conduite en véhicule, emotes (roue T) et port d'objets. Porter une caisse n'est possible que debout, et les outils rangés suivent le corps.
 - 🌌 Système stellaire
   Le monde est désormais entièrement éclairé par Starsis, l'étoile du système.

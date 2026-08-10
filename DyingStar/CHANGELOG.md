@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Auto-vault, climb and step-up**: your character crosses obstacles automatically — vaulting over low ones, climbing onto ledges (including elevated platforms), and stepping smoothly up small obstacles that used to block you.
+  New sounds**: the three vault types, the mining perforator (drilling loop, end, fail, equip/unequip), the player torch, and truck head lights / electric engine.
+  Vehicle cab screens** (rear-view mirrors and dashboard) turn off when the engine is off and back on with ignition.
+  Spawn**: a "Spawning..." screen now holds until the world is ready, so you no longer see a daytime flash or the camera snapping straight right after spawning.
+  Pause menu** no longer lets the character move, act, drill, or look around while it is open.
+  Chat**: shown by default, clearer message order, and readable on bright backgrounds.
+  The on-screen sound/microphone icons sit in the bottom-left corner and are smaller.
 - Players now have an animated body: you see your own body in first person and other players are fully animated — walk/run/jump, crouch (C) and prone (W), in-place turn, sit/drive in vehicles, emotes (T wheel) and carrying. Carrying a box is only possible while standing, and holstered tools follow the body.
 - The world is now lit and animated by the real star system: sunlight, day/night and
   sunrise/sunset colours follow the actual star, distant planets and moons are correctly lit

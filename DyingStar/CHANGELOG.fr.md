@@ -7,6 +7,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- La roue d'emotes (T) ne fait plus apparaître d'objet lorsque la roue de spawn (Alt+T) a été utilisée auparavant.
+  Enchaîner les sauts en sprintant n'accumule plus une vitesse illimitée : un saut conserve l'élan qu'on avait au décollage.
+  La marche, le sprint et l'accroupi se déplacent désormais aux vitesses décrites dans le document de design, et la vitesse de marche à la molette progresse régulièrement entre 0,5 et 3 m/s au lieu de faire des bonds.
+  L'animation des personnages ne clignote plus entre la marche et le trot lorsqu'on se déplace à allure constante près d'un changement d'allure.
+  Chat : maintenir TAB ne fait plus défiler les boutons de l'interface, et taper un message ne déclenche plus d'actions de jeu comme s'accroupir ou s'allonger.
+  Chat vocal : couper son micro coupe réellement l'émission, et la voix n'est plus captée en double.
+  Chat vocal : à plusieurs, toutes les voix sont entendues, et un joueur qui s'en va cesse d'être audible au lieu de persister ou d'être entendu deux fois à son retour.
 - gestion des PNJ
   ajout des propsync (objet réseau)
 - Franchissement automatique** : le personnage franchit les obstacles tout seul — vault par-dessus les bas, grimpe sur les rebords (y compris surélevés), et enjambe en douceur les petites marches qui bloquaient.

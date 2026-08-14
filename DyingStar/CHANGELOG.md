@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Emote wheel (T) no longer spawns a prop when the spawn wheel (Alt+T) was used before.
+  Repeatedly jumping while sprinting no longer builds up unlimited speed; a jump now carries the momentum it took off with.
+  Walking, sprinting and crouching now move at the speeds described in the design doc, and the mouse-wheel walk speed steps smoothly between 0.5 and 3 m/s instead of jumping around.
+  Character animation no longer flickers between walking and jogging when moving at a steady pace near a gait change.
+  Chat: holding TAB no longer cycles through interface buttons, and typing a message no longer triggers gameplay actions such as crouching or going prone.
+  Voice chat: muting your microphone actually stops transmitting, and your voice is no longer captured twice.
+  Voice chat: with several players around, every voice is heard, and a player who leaves stops being audible instead of lingering or being heard twice after rejoining.
 - Add NPC management
   Add propsync (network object)
 - Auto-vault, climb and step-up**: your character crosses obstacles automatically — vaulting over low ones, climbing onto ledges (including elevated platforms), and stepping smoothly up small obstacles that used to block you.

@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Server performance near cities is greatly improved, and players and vehicles no longer tremble on the spot.
+  Trucks placed in the world now actually appear, instead of silently falling through the ground before anyone could see them.
+  Spawning no longer drops you through the floor of your habitation on the first connection after a server restart.
+  3D screens, like the mining depot's, can be used again: the pointer no longer trembles or snaps back to the middle of the screen, and buttons can be clicked anywhere on the surface.
+  Walking through a teleporter pad now shows up correctly for the other players.
+  The planets and moons of the Tarsis system travel their real orbits, and a new system chart on F2 shows where everything is — including you.
+  Nights have a starry sky, and dusk now lasts, fading over the point where the star set.
+  The developer spawn wheel, the prop cleanup tool and EVA free-flight are no longer available in game, and their shortcuts no longer appear in the control settings.
+  fix build and version of the build. Now it's same for linux and windows client (try fix launcher and update the game)
+  Addition of kilometer markers (placed by hand, so it's approximate)
 - Emote wheel (T) no longer spawns a prop when the spawn wheel (Alt+T) was used before.
   Repeatedly jumping while sprinting no longer builds up unlimited speed; a jump now carries the momentum it took off with.
   Walking, sprinting and crouching now move at the speeds described in the design doc, and the mouse-wheel walk speed steps smoothly between 0.5 and 3 m/s instead of jumping around.

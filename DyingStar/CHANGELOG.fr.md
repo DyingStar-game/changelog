@@ -7,6 +7,16 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les performances du serveur près des villes sont nettement améliorées, et les joueurs comme les véhicules ne tremblent plus sur place.
+  Les camions placés dans le monde apparaissent enfin, au lieu de traverser le sol sans que personne ait pu les voir.
+  On ne traverse plus le sol de son habitation à la première connexion suivant un redémarrage du serveur.
+  Les écrans 3D, comme celui du dépôt minier, sont de nouveau utilisables : le curseur ne tremble plus et ne revient plus se coller au milieu de l'écran, et les boutons se cliquent sur toute la surface.
+  Emprunter un téléporteur s'affiche maintenant correctement pour les autres joueurs.
+  Les planètes et les lunes du système Tarsis parcourent leurs véritables orbites, et une carte du système, sur F2, montre où se trouve chaque astre — et vous avec.
+  Les nuits ont un ciel étoilé, et le crépuscule dure, en s'éteignant au-dessus du point où l'étoile s'est couchée.
+  La roue de spawn de développement, l'outil de suppression d'objets et le vol libre EVA ne sont plus accessibles en jeu, et leurs raccourcis n'apparaissent plus dans les réglages de contrôles.
+  Correction de la compilation et de la version. Le problème est désormais identique pour les clients Linux et Windows (essayez de corriger le lanceur et de mettre à jour le jeu).
+  ajout de bornes kilométrique (posé à la main donc c'est du à peu près)
 - La roue d'emotes (T) ne fait plus apparaître d'objet lorsque la roue de spawn (Alt+T) a été utilisée auparavant.
   Enchaîner les sauts en sprintant n'accumule plus une vitesse illimitée : un saut conserve l'élan qu'on avait au décollage.
   La marche, le sprint et l'accroupi se déplacent désormais aux vitesses décrites dans le document de design, et la vitesse de marche à la molette progresse régulièrement entre 0,5 et 3 m/s au lieu de faire des bonds.

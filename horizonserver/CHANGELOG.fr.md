@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Mise à jour des objets qui apparaissent, car ils se trouvent désormais directement sur la planète.
 - Réplique la posture du joueur (accroupi/allongé) et le yaw du regard assis, ainsi que l'occupation des sièges de véhicule, pour que les autres joueurs les voient.
 - Correction de la déconnexion du joueur
   Correction du pont en cas de nombreux événements (persistances)

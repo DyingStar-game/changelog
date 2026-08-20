@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Update items to spawn, because now it's directly on the planet
 - Replicate the player stance (crouch/prone) and seated look yaw, plus per-seat vehicle occupancy, so other players see them.
 - fix player disconnect
   fix bridge when have many events (persistences)

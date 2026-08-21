@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-08-21T05:33:26.924917+00:00",
+  "generated_at": "2026-08-21T06:22:02.198460+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Limit threads for server to enhance performances on the kubernetes",
           "Update server godot version to 4.7, missed to use 4.7 like the client ;(",
           "Fix loading page indefinitely",
           "Server performance near cities is greatly improved, and players and vehicles no longer tremble on the spot.\n  Trucks placed in the world now actually appear, instead of silently falling through the ground before anyone could see them.\n  Spawning no longer drops you through the floor of your habitation on the first connection after a server restart.\n  3D screens, like the mining depot's, can be used again: the pointer no longer trembles or snaps back to the middle of the screen, and buttons can be clicked anywhere on the surface.\n  Walking through a teleporter pad now shows up correctly for the other players.\n  The planets and moons of the Tarsis system travel their real orbits, and a new system chart on F2 shows where everything is — including you.\n  Nights have a starry sky, and dusk now lasts, fading over the point where the star set.\n  The developer spawn wheel, the prop cleanup tool and EVA free-flight are no longer available in game, and their shortcuts no longer appear in the control settings.\n  fix build and version of the build. Now it's same for linux and windows client (try fix launcher and update the game)\n  Addition of kilometer markers (placed by hand, so it's approximate)",
@@ -89,6 +90,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Limitation du nombre de threads pour le serveur pour améliorer les performances sur Kubernetes.",
           "Mise à jour de la version de Godot sur le serveur vers la 4.7 ; j'avais oublié d'utiliser la 4.7 comme pour le client ;(",
           "Correction du problème de chargement infini de la page",
           "Les performances du serveur près des villes sont nettement améliorées, et les joueurs comme les véhicules ne tremblent plus sur place.\n  Les camions placés dans le monde apparaissent enfin, au lieu de traverser le sol sans que personne ait pu les voir.\n  On ne traverse plus le sol de son habitation à la première connexion suivant un redémarrage du serveur.\n  Les écrans 3D, comme celui du dépôt minier, sont de nouveau utilisables : le curseur ne tremble plus et ne revient plus se coller au milieu de l'écran, et les boutons se cliquent sur toute la surface.\n  Emprunter un téléporteur s'affiche maintenant correctement pour les autres joueurs.\n  Les planètes et les lunes du système Tarsis parcourent leurs véritables orbites, et une carte du système, sur F2, montre où se trouve chaque astre — et vous avec.\n  Les nuits ont un ciel étoilé, et le crépuscule dure, en s'éteignant au-dessus du point où l'étoile s'est couchée.\n  La roue de spawn de développement, l'outil de suppression d'objets et le vol libre EVA ne sont plus accessibles en jeu, et leurs raccourcis n'apparaissent plus dans les réglages de contrôles.\n  Correction de la compilation et de la version. Le problème est désormais identique pour les clients Linux et Windows (essayez de corriger le lanceur et de mettre à jour le jeu).\n  ajout de bornes kilométrique (posé à la main donc c'est du à peu près)",

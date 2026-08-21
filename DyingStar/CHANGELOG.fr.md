@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Correction du problème de chargement infini de la page
 - Les performances du serveur près des villes sont nettement améliorées, et les joueurs comme les véhicules ne tremblent plus sur place.
   Les camions placés dans le monde apparaissent enfin, au lieu de traverser le sol sans que personne ait pu les voir.
   On ne traverse plus le sol de son habitation à la première connexion suivant un redémarrage du serveur.

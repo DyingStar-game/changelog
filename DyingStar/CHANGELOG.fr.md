@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Mise à jour de la version de Godot sur le serveur vers la 4.7 ; j'avais oublié d'utiliser la 4.7 comme pour le client ;(
 - Correction du problème de chargement infini de la page
 - Les performances du serveur près des villes sont nettement améliorées, et les joueurs comme les véhicules ne tremblent plus sur place.
   Les camions placés dans le monde apparaissent enfin, au lieu de traverser le sol sans que personne ait pu les voir.

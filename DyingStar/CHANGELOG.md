@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Update server godot version to 4.7, missed to use 4.7 like the client ;(
 - Fix loading page indefinitely
 - Server performance near cities is greatly improved, and players and vehicles no longer tremble on the spot.
   Trucks placed in the world now actually appear, instead of silently falling through the ground before anyone could see them.

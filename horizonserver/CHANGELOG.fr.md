@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Le patch Horizon a été remplacé par un sous-module DyingStar-game/Horizon
 - Correction d'un plantage qui pouvait faire tomber le serveur à chaque connexion d'un joueur, laissant les clients sur un écran gris avec l'erreur 1337.
 - Mise à jour des objets qui apparaissent, car ils se trouvent désormais directement sur la planète.
 - Réplique la posture du joueur (accroupi/allongé) et le yaw du regard assis, ainsi que l'occupation des sièges de véhicule, pour que les autres joueurs les voient.

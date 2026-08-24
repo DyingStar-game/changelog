@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T06:22:02.198460+00:00",
+  "generated_at": "2026-08-24T07:23:52.411294+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
@@ -194,6 +194,7 @@
     "horizonserver": {
       "unreleased": {
         "en": [
+          "The Horizon patch has been replaced by a DyingStar-game/Horizon submodule.",
           "Fixed a crash that could take the server down whenever a player connected, leaving clients on a grey screen with `ERROR 1337`.",
           "Update items to spawn, because now it's directly on the planet",
           "Replicate the player stance (crouch/prone) and seated look yaw, plus per-seat vehicle occupancy, so other players see them.",
@@ -208,6 +209,7 @@
           "Fix the ore shown on a fractured rock's cut faces so it stays consistent across clients."
         ],
         "fr": [
+          "Le patch Horizon a été remplacé par un sous-module DyingStar-game/Horizon",
           "Correction d'un plantage qui pouvait faire tomber le serveur à chaque connexion d'un joueur, laissant les clients sur un écran gris avec l'erreur 1337.",
           "Mise à jour des objets qui apparaissent, car ils se trouvent désormais directement sur la planète.",
           "Réplique la posture du joueur (accroupi/allongé) et le yaw du regard assis, ainsi que l'occupation des sièges de véhicule, pour que les autres joueurs les voient.",

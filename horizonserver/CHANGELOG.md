@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Fix player connection
 - The Horizon patch has been replaced by a DyingStar-game/Horizon submodule.
 - Fixed a crash that could take the server down whenever a player connected, leaving clients on a grey screen with `ERROR 1337`.
 - Update items to spawn, because now it's directly on the planet

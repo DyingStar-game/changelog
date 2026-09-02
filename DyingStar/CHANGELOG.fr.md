@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Fix la rotation joueur et joueurs sort de sa zone (gorc)
 - Le ciel est désormais calculé à partir de l'atmosphère réelle de chaque monde — ses gaz, sa pression,
   sa poussière — au lieu d'un dégradé peint. Les couchers d'étoile, la couleur de l'éloignement et le
   voile sur les montagnes lointaines découlent tous de la même physique, et changent d'une planète à

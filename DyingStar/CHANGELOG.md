@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix rotation and player exit zone (gorc)
 - The sky is now computed from each world's real atmosphere — its gases, its pressure, its dust —
   instead of a painted gradient. Sunsets, the colour of distance and the haze on far mountains all
   follow from the same physics, and change from one planet to the next. Two bugs that lit the world

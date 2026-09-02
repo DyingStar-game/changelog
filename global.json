@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-02T17:20:20.694099+00:00",
+  "generated_at": "2026-09-02T17:44:58.979338+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Fix rotation and player exit zone (gorc)",
           "The sky is now computed from each world's real atmosphere — its gases, its pressure, its dust —\n  instead of a painted gradient. Sunsets, the colour of distance and the haze on far mountains all\n  follow from the same physics, and change from one planet to the next. Two bugs that lit the world\n  at night, making buildings and distant peaks look backlit after dark, are fixed.",
           "Limit threads for server to enhance performances on the kubernetes",
           "Update server godot version to 4.7, missed to use 4.7 like the client ;(",
@@ -91,6 +92,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Fix la rotation joueur et joueurs sort de sa zone (gorc)",
           "Le ciel est désormais calculé à partir de l'atmosphère réelle de chaque monde — ses gaz, sa pression,\n  sa poussière — au lieu d'un dégradé peint. Les couchers d'étoile, la couleur de l'éloignement et le\n  voile sur les montagnes lointaines découlent tous de la même physique, et changent d'une planète à\n  l'autre. Deux bugs qui éclairaient le monde la nuit, et donnaient aux bâtiments et aux sommets\n  lointains un air rétroéclairé, sont corrigés.",
           "Limitation du nombre de threads pour le serveur pour améliorer les performances sur Kubernetes.",
           "Mise à jour de la version de Godot sur le serveur vers la 4.7 ; j'avais oublié d'utiliser la 4.7 comme pour le client ;(",

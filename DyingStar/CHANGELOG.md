@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The sky is now computed from each world's real atmosphere — its gases, its pressure, its dust —
+  instead of a painted gradient. Sunsets, the colour of distance and the haze on far mountains all
+  follow from the same physics, and change from one planet to the next. Two bugs that lit the world
+  at night, making buildings and distant peaks look backlit after dark, are fixed.
 - Limit threads for server to enhance performances on the kubernetes
 - Update server godot version to 4.7, missed to use 4.7 like the client ;(
 - Fix loading page indefinitely

@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Le ciel est désormais calculé à partir de l'atmosphère réelle de chaque monde — ses gaz, sa pression,
+  sa poussière — au lieu d'un dégradé peint. Les couchers d'étoile, la couleur de l'éloignement et le
+  voile sur les montagnes lointaines découlent tous de la même physique, et changent d'une planète à
+  l'autre. Deux bugs qui éclairaient le monde la nuit, et donnaient aux bâtiments et aux sommets
+  lointains un air rétroéclairé, sont corrigés.
 - Limitation du nombre de threads pour le serveur pour améliorer les performances sur Kubernetes.
 - Mise à jour de la version de Godot sur le serveur vers la 4.7 ; j'avais oublié d'utiliser la 4.7 comme pour le client ;(
 - Correction du problème de chargement infini de la page

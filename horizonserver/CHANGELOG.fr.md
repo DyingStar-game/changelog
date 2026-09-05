@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- L'etoile du systeme n'est plus perdue au chargement d'un monde.
 - Fix/player network
 - Fix player connection
 - Le patch Horizon a été remplacé par un sous-module DyingStar-game/Horizon

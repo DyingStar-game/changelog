@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les joueurs sont desormais representes par un vrai modele de personnage au lieu du mannequin provisoire, en conservant toutes les animations existantes. La lampe torche est fixee a la tete, son faisceau suit donc le corps.
 - Correction de la détection des falaises : les parois raides sont désormais reconnues correctement
   partout, au lieu que tout l'hémisphère éclairé soit rendu comme une falaise et que de vraies parois
   verticales soient ignorées.

@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Players are now represented by a proper character model instead of the placeholder mannequin, with all existing animations preserved. The flashlight is attached to the head, so its beam follows the body.
 - Fixed cliff detection on planet surfaces: steep faces are now correctly identified everywhere,
   instead of the whole star-facing hemisphere being rendered as cliff and genuine vertical faces being
   missed.

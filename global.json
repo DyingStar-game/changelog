@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-05T17:23:05.674888+00:00",
+  "generated_at": "2026-09-05T17:24:02.223196+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Fixed cliff detection on planet surfaces: steep faces are now correctly identified everywhere,\n  instead of the whole star-facing hemisphere being rendered as cliff and genuine vertical faces being\n  missed.",
           "The system chart (F2) and the debug readouts now work while seated in a vehicle, and the chart is properly modal: nothing else reacts while it is up, and the truck coasts instead of keeping your last throttle.\n  Alt+L and Alt+I no longer switch the head lights and the engine on and off along with their debug tool.\n  Vaulting and climbing now happen when you PRESS JUMP in front of an obstacle, instead of on their own as you walk into one. Stairs and low steps are still walked up automatically.\n  Footsteps and dropped crates now sound like the surface they are on — metal, sand, stone, concrete — instead of one sample everywhere. Crates are heard when lifted and when they land.\n  The SFX volume slider now affects every sound in the game, and a sound's own volume setting works even when it comes from your own hands or feet.\n  A truck left with a door open no longer ejects you when you try to sit in it.\n  You can no longer board a vehicle with your hands full, and boarding puts your tools away.\n  Fixed the game server sometimes starting with no world at all, which left players unable to move.",
           "Sandbox is now the third world of the Tarsis system, closer to its star and shielded by its corundum\n  veil; Gaea takes the fourth orbit. Sandbox and its moons Korax and Xarok are renamed accordingly.",
           "Fix rotation and player exit zone (gorc)",
@@ -94,6 +95,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Correction de la détection des falaises : les parois raides sont désormais reconnues correctement\n  partout, au lieu que tout l'hémisphère éclairé soit rendu comme une falaise et que de vraies parois\n  verticales soient ignorées.",
           "La carte stellaire (F2) et les affichages de debug fonctionnent désormais assis dans un véhicule, et la carte est réellement modale : plus rien ne réagit tant qu'elle est ouverte, et le camion se met en roue libre au lieu de garder les gaz.\n  Alt+L et Alt+I n'allument plus les phares et le moteur en même temps que leur outil de debug.\n  Le franchissement et l'escalade se déclenchent maintenant en APPUYANT SUR SAUT devant un obstacle, au lieu de se produire tout seuls quand on marche dedans. Les marches et petits rebords se montent toujours automatiquement.\n  Les bruits de pas et les caisses posées sonnent selon la surface — métal, sable, pierre, béton — au lieu d'un échantillon unique partout. Les caisses s'entendent à la prise et à l'impact.\n  Le curseur de volume SFX agit enfin sur tous les sons du jeu, et le réglage propre à un son fonctionne même quand il vient de vos mains ou de vos pieds.\n  Un camion dont une porte est restée ouverte ne vous éjecte plus quand vous essayez de vous y asseoir.\n  On ne peut plus monter dans un véhicule les mains pleines, et monter range vos outils.\n  Correction d'un démarrage du serveur de jeu sans aucun monde, qui laissait les joueurs immobiles.",
           "Sandbox est desormais le troisieme monde du systeme Tarsis, plus proche de son etoile et protegee par\n  son voile de corindon ; Gaea prend la quatrieme orbite. Sandbox et ses lunes Korax et Xarok sont\n  renommees en consequence.",
           "Fix la rotation joueur et joueurs sort de sa zone (gorc)",

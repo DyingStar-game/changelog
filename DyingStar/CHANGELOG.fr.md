@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Correction de la détection des falaises : les parois raides sont désormais reconnues correctement
+  partout, au lieu que tout l'hémisphère éclairé soit rendu comme une falaise et que de vraies parois
+  verticales soient ignorées.
 - La carte stellaire (F2) et les affichages de debug fonctionnent désormais assis dans un véhicule, et la carte est réellement modale : plus rien ne réagit tant qu'elle est ouverte, et le camion se met en roue libre au lieu de garder les gaz.
   Alt+L et Alt+I n'allument plus les phares et le moteur en même temps que leur outil de debug.
   Le franchissement et l'escalade se déclenchent maintenant en APPUYANT SUR SAUT devant un obstacle, au lieu de se produire tout seuls quand on marche dedans. Les marches et petits rebords se montent toujours automatiquement.

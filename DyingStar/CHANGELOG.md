@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The system chart (F2) and the debug readouts now work while seated in a vehicle, and the chart is properly modal: nothing else reacts while it is up, and the truck coasts instead of keeping your last throttle.
+  Alt+L and Alt+I no longer switch the head lights and the engine on and off along with their debug tool.
+  Vaulting and climbing now happen when you PRESS JUMP in front of an obstacle, instead of on their own as you walk into one. Stairs and low steps are still walked up automatically.
+  Footsteps and dropped crates now sound like the surface they are on — metal, sand, stone, concrete — instead of one sample everywhere. Crates are heard when lifted and when they land.
+  The SFX volume slider now affects every sound in the game, and a sound's own volume setting works even when it comes from your own hands or feet.
+  A truck left with a door open no longer ejects you when you try to sit in it.
+  You can no longer board a vehicle with your hands full, and boarding puts your tools away.
+  Fixed the game server sometimes starting with no world at all, which left players unable to move.
 - Sandbox is now the third world of the Tarsis system, closer to its star and shielded by its corundum
   veil; Gaea takes the fourth orbit. Sandbox and its moons Korax and Xarok are renamed accordingly.
 - Fix rotation and player exit zone (gorc)

@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- La carte stellaire (F2) et les affichages de debug fonctionnent désormais assis dans un véhicule, et la carte est réellement modale : plus rien ne réagit tant qu'elle est ouverte, et le camion se met en roue libre au lieu de garder les gaz.
+  Alt+L et Alt+I n'allument plus les phares et le moteur en même temps que leur outil de debug.
+  Le franchissement et l'escalade se déclenchent maintenant en APPUYANT SUR SAUT devant un obstacle, au lieu de se produire tout seuls quand on marche dedans. Les marches et petits rebords se montent toujours automatiquement.
+  Les bruits de pas et les caisses posées sonnent selon la surface — métal, sable, pierre, béton — au lieu d'un échantillon unique partout. Les caisses s'entendent à la prise et à l'impact.
+  Le curseur de volume SFX agit enfin sur tous les sons du jeu, et le réglage propre à un son fonctionne même quand il vient de vos mains ou de vos pieds.
+  Un camion dont une porte est restée ouverte ne vous éjecte plus quand vous essayez de vous y asseoir.
+  On ne peut plus monter dans un véhicule les mains pleines, et monter range vos outils.
+  Correction d'un démarrage du serveur de jeu sans aucun monde, qui laissait les joueurs immobiles.
 - Sandbox est desormais le troisieme monde du systeme Tarsis, plus proche de son etoile et protegee par
   son voile de corindon ; Gaea prend la quatrieme orbite. Sandbox et ses lunes Korax et Xarok sont
   renommees en consequence.

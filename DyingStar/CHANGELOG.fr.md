@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Sandbox est desormais le troisieme monde du systeme Tarsis, plus proche de son etoile et protegee par
+  son voile de corindon ; Gaea prend la quatrieme orbite. Sandbox et ses lunes Korax et Xarok sont
+  renommees en consequence.
 - Fix la rotation joueur et joueurs sort de sa zone (gorc)
 - Le ciel est désormais calculé à partir de l'atmosphère réelle de chaque monde — ses gaz, sa pression,
   sa poussière — au lieu d'un dégradé peint. Les couchers d'étoile, la couleur de l'éloignement et le

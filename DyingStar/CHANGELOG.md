@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Sandbox is now the third world of the Tarsis system, closer to its star and shielded by its corundum
+  veil; Gaea takes the fourth orbit. Sandbox and its moons Korax and Xarok are renamed accordingly.
 - Fix rotation and player exit zone (gorc)
 - The sky is now computed from each world's real atmosphere — its gases, its pressure, its dust —
   instead of a painted gradient. Sunsets, the colour of distance and the haze on far mountains all

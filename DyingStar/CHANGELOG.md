@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix bridges
+  disable spawn by player
+  modify possibility of spawn rocks on chunk from 70% to 90%
 - Users can activate perf debug in logs when have few FPS
 - Players are now represented by a proper character model instead of the placeholder mannequin, with all existing animations preserved. The flashlight is attached to the head, so its beam follows the body.
 - Fixed cliff detection on planet surfaces: steep faces are now correctly identified everywhere,

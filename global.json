@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-05T21:28:33.140788+00:00",
+  "generated_at": "2026-09-06T17:51:35.909464+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Fix bridges\n  disable spawn by player\n  modify possibility of spawn rocks on chunk from 70% to 90%",
           "Users can activate perf debug in logs when have few FPS",
           "Players are now represented by a proper character model instead of the placeholder mannequin, with all existing animations preserved. The flashlight is attached to the head, so its beam follows the body.",
           "Fixed cliff detection on planet surfaces: steep faces are now correctly identified everywhere,\n  instead of the whole star-facing hemisphere being rendered as cliff and genuine vertical faces being\n  missed.",
@@ -97,6 +98,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Correction des ponts\n  Désactivation de l'apparition de ressources par le joueur\n  Augmentation de la probabilité d'apparition de rochers sur un chunk de 70 % à 90 %",
           "Les utilisateurs peuvent activer le débogage des performances dans les journaux lorsqu'ils ont peu d'images par seconde.",
           "Les joueurs sont desormais representes par un vrai modele de personnage au lieu du mannequin provisoire, en conservant toutes les animations existantes. La lampe torche est fixee a la tete, son faisceau suit donc le corps.",
           "Correction de la détection des falaises : les parois raides sont désormais reconnues correctement\n  partout, au lieu que tout l'hémisphère éclairé soit rendu comme une falaise et que de vraies parois\n  verticales soient ignorées.",

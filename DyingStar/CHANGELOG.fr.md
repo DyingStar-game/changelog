@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Correction des ponts
+  Désactivation de l'apparition de ressources par le joueur
+  Augmentation de la probabilité d'apparition de rochers sur un chunk de 70 % à 90 %
 - Les utilisateurs peuvent activer le débogage des performances dans les journaux lorsqu'ils ont peu d'images par seconde.
 - Les joueurs sont desormais representes par un vrai modele de personnage au lieu du mannequin provisoire, en conservant toutes les animations existantes. La lampe torche est fixee a la tete, son faisceau suit donc le corps.
 - Correction de la détection des falaises : les parois raides sont désormais reconnues correctement

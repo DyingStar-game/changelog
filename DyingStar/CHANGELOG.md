@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Trucks no longer tip over in a hard turn, their wheels now move with the suspension for everyone who can see them, and their tyres are audible — scuffing as you turn on the spot, rolling as you pick up speed. The mini truck comes with a new model and four interchangeable beds.
 - Fix bridges
   disable spawn by player
   modify possibility of spawn rocks on chunk from 70% to 90%

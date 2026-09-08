@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les camions ne se retournent plus en virage serré, leurs roues bougent désormais avec la suspension pour tous ceux qui les voient, et leurs pneus s'entendent — ils crissent quand on braque sur place et roulent quand on prend de la vitesse. Le mini camion arrive avec un nouveau modèle et quatre bennes interchangeables.
 - Correction des ponts
   Désactivation de l'apparition de ressources par le joueur
   Augmentation de la probabilité d'apparition de rochers sur un chunk de 70 % à 90 %

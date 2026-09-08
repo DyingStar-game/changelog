@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-08T15:11:58.028145+00:00",
+  "generated_at": "2026-09-08T15:14:01.341520+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Low steps, kerbs and stairs are climbed reliably, including through doorways and under low ceilings where they used to block you.",
           "Trucks no longer tip over in a hard turn, their wheels now move with the suspension for everyone who can see them, and their tyres are audible — scuffing as you turn on the spot, rolling as you pick up speed. The mini truck comes with a new model and four interchangeable beds.",
           "Fix bridges\n  disable spawn by player\n  modify possibility of spawn rocks on chunk from 70% to 90%",
           "Users can activate perf debug in logs when have few FPS",
@@ -99,6 +100,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Les marches basses, bordures et escaliers se franchissent de façon fiable, y compris dans les portes et sous les plafonds bas où ils bloquaient.",
           "Les camions ne se retournent plus en virage serré, leurs roues bougent désormais avec la suspension pour tous ceux qui les voient, et leurs pneus s'entendent — ils crissent quand on braque sur place et roulent quand on prend de la vitesse. Le mini camion arrive avec un nouveau modèle et quatre bennes interchangeables.",
           "Correction des ponts\n  Désactivation de l'apparition de ressources par le joueur\n  Augmentation de la probabilité d'apparition de rochers sur un chunk de 70 % à 90 %",
           "Les utilisateurs peuvent activer le débogage des performances dans les journaux lorsqu'ils ont peu d'images par seconde.",

@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Enhance calculation of chunks from -26 to -66 %
 - usage of tiles (points) into a web server and use it as streaming
 - Enhance client perf debug
 - The first-person view no longer swings off centre as you look around, and you no longer see your own neck when running or turning your head.

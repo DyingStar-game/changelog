@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-09T17:47:18.399009+00:00",
+  "generated_at": "2026-09-09T18:04:11.212808+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Enhance calculation of chunks from -26 to -66 %",
           "usage of tiles (points) into a web server and use it as streaming",
           "Enhance client perf debug",
           "The first-person view no longer swings off centre as you look around, and you no longer see your own neck when running or turning your head.",
@@ -103,6 +104,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Amelioration du calcul des chunks de -26 a -66 %",
           "Utilisation des tuiles (points) sur un serveur web et utiisation en streaming.",
           "Amélioration du débogage des performances côté client",
           "La vue à la première personne ne dérive plus quand on regarde autour de soi, et on ne voit plus son propre cou en courant ou en tournant la tête.",

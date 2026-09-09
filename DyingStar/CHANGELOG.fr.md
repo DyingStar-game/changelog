@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Amelioration du calcul des chunks de -26 a -66 %
 - Utilisation des tuiles (points) sur un serveur web et utiisation en streaming.
 - Amélioration du débogage des performances côté client
 - La vue à la première personne ne dérive plus quand on regarde autour de soi, et on ne voit plus son propre cou en courant ou en tournant la tête.

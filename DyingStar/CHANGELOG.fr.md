@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Utilisation des tuiles (points) sur un serveur web et utiisation en streaming.
 - Amélioration du débogage des performances côté client
 - La vue à la première personne ne dérive plus quand on regarde autour de soi, et on ne voit plus son propre cou en courant ou en tournant la tête.
 - Les marches basses, bordures et escaliers se franchissent de façon fiable, y compris dans les portes et sous les plafonds bas où ils bloquaient.

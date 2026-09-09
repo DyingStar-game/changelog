@@ -6,6 +6,8 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Mise à jour de la position/rotation de départ
+  augmentation server meshing dynamic (50 joueurs)
 - Les véhicules peuvent désormais montrer leur suspension bouger aux autres joueurs.
 - Suppression des rochers statiques au démarrage et mise à jour de leurs propriétés.
 - L'etoile du systeme n'est plus perdue au chargement d'un monde.

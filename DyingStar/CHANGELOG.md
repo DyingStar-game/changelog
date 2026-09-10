@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Players riding a vehicle now belong to that vehicle's frame: the ride is smooth for driver and passenger alike, and their position is no longer re-sent over the network on every tick while the vehicle moves.
 - Editor only: a "Fly in planet frame" toggle in the 3D viewport toolbar flies the view over a body with up always up and forward following the curvature, instead of the world-aligned camera that goes sideways away from the pole.
 - The debug panel now shows the real altitude above the reference sphere alongside the height above the ground, and player coordinates keep updating while riding a vehicle.
 - Fixed the pause menu opening over a game that kept running (the camera still turned underneath), being unable to leave Settings > Controls with Escape, and player name tags staying at standing height while crouched or prone. Remapped keys are applied again at startup instead of only after opening the controls page. Escape now cancels a key rebinding instead of being bound, and the jump binding is named "Jump / Vault".

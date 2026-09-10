@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Un joueur à bord d'un véhicule appartient désormais au repère de ce véhicule : le trajet est fluide pour le conducteur comme pour le passager, et sa position n'est plus renvoyée sur le réseau à chaque tick pendant que le véhicule roule.
 - Éditeur uniquement : un bouton « Fly in planet frame » dans la barre d'outils de la vue 3D fait survoler un corps avec le haut toujours en haut et l'avance qui suit la courbure, au lieu de la caméra alignée sur le monde qui part de travers dès qu'on s'éloigne du pôle.
 - Le panneau de debug affiche désormais l'altitude réelle au-dessus de la sphère de référence en plus de la hauteur au-dessus du sol, et les coordonnées du joueur continuent de se mettre à jour en véhicule.
 - Correction du menu pause qui pouvait s'ouvrir par-dessus un jeu resté actif (la caméra continuait de tourner en dessous), de l'impossibilité de quitter Réglages > Contrôles avec Échap, et des étiquettes de nom qui restaient à hauteur d'homme debout quand le joueur était accroupi ou allongé. Les touches réassignées sont de nouveau appliquées au démarrage, et non plus seulement après avoir ouvert la page des contrôles. Échap annule désormais une réassignation de touche au lieu d'être assigné, et la touche de saut s'appelle « Jump / Vault ».

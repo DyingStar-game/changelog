@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-10T22:58:33.524622+00:00",
+  "generated_at": "2026-09-10T22:59:28.263467+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Walking at the top of the mouse-wheel range no longer breaks into a jog: the whole range is a walk, played faster, and only sprint changes gait.",
           "Players sitting in a vehicle are now shown seated to everyone, including players who connect or come into range after they sat down.",
           "Fix client locked at 6 FPS: LiveKit mic queue size was in ms, not samples\n  add debug code",
           "Enhance calculation of chunks from -26 to -66 %",
@@ -106,6 +107,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Le dernier cran de la molette ne fait plus passer le personnage au petit trot : toute la plage reste une marche, jouée plus vite, et seul le sprint change de démarche.",
           "Un joueur assis dans un véhicule est désormais affiché assis pour tout le monde, y compris pour les joueurs qui se connectent ou qui s'approchent après qu'il se soit assis.",
           "Correction du blocage du client à 6 FPS : la taille de la file d'attente du micro LiveKit était exprimée en millisecondes et non en échantillons\n  Ajout de code de débogage",
           "Amelioration du calcul des chunks de -26 a -66 %",

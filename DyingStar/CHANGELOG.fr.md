@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Correction de la vue passager trop basse en véhicule : les poses conducteur et passager ne placent pas la tête au même endroit, et chacune a désormais sa propre hauteur d'œil.
 - Un joueur à bord d'un véhicule appartient désormais au repère de ce véhicule : le trajet est fluide pour le conducteur comme pour le passager, et sa position n'est plus renvoyée sur le réseau à chaque tick pendant que le véhicule roule.
 - Éditeur uniquement : un bouton « Fly in planet frame » dans la barre d'outils de la vue 3D fait survoler un corps avec le haut toujours en haut et l'avance qui suit la courbure, au lieu de la caméra alignée sur le monde qui part de travers dès qu'on s'éloigne du pôle.
 - Le panneau de debug affiche désormais l'altitude réelle au-dessus de la sphère de référence en plus de la hauteur au-dessus du sol, et les coordonnées du joueur continuent de se mettre à jour en véhicule.

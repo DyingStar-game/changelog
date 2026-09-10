@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-10T23:04:44.408225+00:00",
+  "generated_at": "2026-09-10T23:06:24.509190+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Fixed the passenger's seated view sitting too low in vehicles: the driver and passenger poses place the head differently, and each now has its own eye height.",
           "Players riding a vehicle now belong to that vehicle's frame: the ride is smooth for driver and passenger alike, and their position is no longer re-sent over the network on every tick while the vehicle moves.",
           "Editor only: a \"Fly in planet frame\" toggle in the 3D viewport toolbar flies the view over a body with up always up and forward following the curvature, instead of the world-aligned camera that goes sideways away from the pole.",
           "The debug panel now shows the real altitude above the reference sphere alongside the height above the ground, and player coordinates keep updating while riding a vehicle.",
@@ -111,6 +112,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Correction de la vue passager trop basse en véhicule : les poses conducteur et passager ne placent pas la tête au même endroit, et chacune a désormais sa propre hauteur d'œil.",
           "Un joueur à bord d'un véhicule appartient désormais au repère de ce véhicule : le trajet est fluide pour le conducteur comme pour le passager, et sa position n'est plus renvoyée sur le réseau à chaque tick pendant que le véhicule roule.",
           "Éditeur uniquement : un bouton « Fly in planet frame » dans la barre d'outils de la vue 3D fait survoler un corps avec le haut toujours en haut et l'avance qui suit la courbure, au lieu de la caméra alignée sur le monde qui part de travers dès qu'on s'éloigne du pôle.",
           "Le panneau de debug affiche désormais l'altitude réelle au-dessus de la sphère de référence en plus de la hauteur au-dessus du sol, et les coordonnées du joueur continuent de se mettre à jour en véhicule.",

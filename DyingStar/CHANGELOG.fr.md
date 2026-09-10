@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Un joueur assis dans un véhicule est désormais affiché assis pour tout le monde, y compris pour les joueurs qui se connectent ou qui s'approchent après qu'il se soit assis.
 - Correction du blocage du client à 6 FPS : la taille de la file d'attente du micro LiveKit était exprimée en millisecondes et non en échantillons
   Ajout de code de débogage
 - Amelioration du calcul des chunks de -26 a -66 %

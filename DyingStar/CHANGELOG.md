@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Players sitting in a vehicle are now shown seated to everyone, including players who connect or come into range after they sat down.
 - Fix client locked at 6 FPS: LiveKit mic queue size was in ms, not samples
   add debug code
 - Enhance calculation of chunks from -26 to -66 %

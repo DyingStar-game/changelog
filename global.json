@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-10T23:00:45.109931+00:00",
+  "generated_at": "2026-09-10T23:02:20.136604+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "The debug panel now shows the real altitude above the reference sphere alongside the height above the ground, and player coordinates keep updating while riding a vehicle.",
           "Fixed the pause menu opening over a game that kept running (the camera still turned underneath), being unable to leave Settings > Controls with Escape, and player name tags staying at standing height while crouched or prone. Remapped keys are applied again at startup instead of only after opening the controls page. Escape now cancels a key rebinding instead of being bound, and the jump binding is named \"Jump / Vault\".",
           "Walking at the top of the mouse-wheel range no longer breaks into a jog: the whole range is a walk, played faster, and only sprint changes gait.",
           "Players sitting in a vehicle are now shown seated to everyone, including players who connect or come into range after they sat down.",
@@ -108,6 +109,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Le panneau de debug affiche désormais l'altitude réelle au-dessus de la sphère de référence en plus de la hauteur au-dessus du sol, et les coordonnées du joueur continuent de se mettre à jour en véhicule.",
           "Correction du menu pause qui pouvait s'ouvrir par-dessus un jeu resté actif (la caméra continuait de tourner en dessous), de l'impossibilité de quitter Réglages > Contrôles avec Échap, et des étiquettes de nom qui restaient à hauteur d'homme debout quand le joueur était accroupi ou allongé. Les touches réassignées sont de nouveau appliquées au démarrage, et non plus seulement après avoir ouvert la page des contrôles. Échap annule désormais une réassignation de touche au lieu d'être assigné, et la touche de saut s'appelle « Jump / Vault ».",
           "Le dernier cran de la molette ne fait plus passer le personnage au petit trot : toute la plage reste une marche, jouée plus vite, et seul le sprint change de démarche.",
           "Un joueur assis dans un véhicule est désormais affiché assis pour tout le monde, y compris pour les joueurs qui se connectent ou qui s'approchent après qu'il se soit assis.",

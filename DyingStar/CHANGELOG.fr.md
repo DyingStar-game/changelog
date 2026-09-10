@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Le panneau de debug affiche désormais l'altitude réelle au-dessus de la sphère de référence en plus de la hauteur au-dessus du sol, et les coordonnées du joueur continuent de se mettre à jour en véhicule.
 - Correction du menu pause qui pouvait s'ouvrir par-dessus un jeu resté actif (la caméra continuait de tourner en dessous), de l'impossibilité de quitter Réglages > Contrôles avec Échap, et des étiquettes de nom qui restaient à hauteur d'homme debout quand le joueur était accroupi ou allongé. Les touches réassignées sont de nouveau appliquées au démarrage, et non plus seulement après avoir ouvert la page des contrôles. Échap annule désormais une réassignation de touche au lieu d'être assigné, et la touche de saut s'appelle « Jump / Vault ».
 - Le dernier cran de la molette ne fait plus passer le personnage au petit trot : toute la plage reste une marche, jouée plus vite, et seul le sprint change de démarche.
 - Un joueur assis dans un véhicule est désormais affiché assis pour tout le monde, y compris pour les joueurs qui se connectent ou qui s'approchent après qu'il se soit assis.

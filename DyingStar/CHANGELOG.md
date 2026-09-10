@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The debug panel now shows the real altitude above the reference sphere alongside the height above the ground, and player coordinates keep updating while riding a vehicle.
 - Fixed the pause menu opening over a game that kept running (the camera still turned underneath), being unable to leave Settings > Controls with Escape, and player name tags staying at standing height while crouched or prone. Remapped keys are applied again at startup instead of only after opening the controls page. Escape now cancels a key rebinding instead of being bound, and the jump binding is named "Jump / Vault".
 - Walking at the top of the mouse-wheel range no longer breaks into a jog: the whole range is a walk, played faster, and only sprint changes gait.
 - Players sitting in a vehicle are now shown seated to everyone, including players who connect or come into range after they sat down.

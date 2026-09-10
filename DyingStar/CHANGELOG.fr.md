@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Correction du blocage du client à 6 FPS : la taille de la file d'attente du micro LiveKit était exprimée en millisecondes et non en échantillons
+  Ajout de code de débogage
 - Amelioration du calcul des chunks de -26 a -66 %
 - Utilisation des tuiles (points) sur un serveur web et utiisation en streaming.
 - Amélioration du débogage des performances côté client

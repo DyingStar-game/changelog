@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix client locked at 6 FPS: LiveKit mic queue size was in ms, not samples
+  add debug code
 - Enhance calculation of chunks from -26 to -66 %
 - usage of tiles (points) into a web server and use it as streaming
 - Enhance client perf debug

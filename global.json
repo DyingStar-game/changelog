@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T23:06:24.509190+00:00",
+  "generated_at": "2026-09-13T18:36:33.459337+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
@@ -238,6 +238,7 @@
     "horizonserver": {
       "unreleased": {
         "en": [
+          "Fix gorc when player in vehicule",
           "Update startup position / rotation\n  increase server meshing dynamic (50 players)",
           "Vehicles can now show their suspension moving to other players.",
           "Remove static rocks at startup and update rocks properties",
@@ -259,6 +260,7 @@
           "Fix the ore shown on a fractured rock's cut faces so it stays consistent across clients."
         ],
         "fr": [
+          "Correction du problème de gorc lorsque le joueur est dans un véhicule",
           "Mise à jour de la position/rotation de départ\n  augmentation server meshing dynamic (50 joueurs)",
           "Les véhicules peuvent désormais montrer leur suspension bouger aux autres joueurs.",
           "Suppression des rochers statiques au démarrage et mise à jour de leurs propriétés.",

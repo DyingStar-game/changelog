@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-13T20:37:27.495844+00:00",
+  "generated_at": "2026-09-14T17:40:48.668771+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Embossing highway\n  fix enable debug items\n  fix hex-tiles AMD cards",
           "Planet tech wth roads, QGIS export, refactoring",
           "Fixed the passenger's seated view sitting too low in vehicles: the driver and passenger poses place the head differently, and each now has its own eye height.",
           "Players riding a vehicle now belong to that vehicle's frame: the ride is smooth for driver and passenger alike, and their position is no longer re-sent over the network on every tick while the vehicle moves.",
@@ -113,6 +114,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Autoroute en relief\n  Correction : activation des éléments de débogage\n  Correction : tuiles hexagonales sur les cartes AMD",
           "PlanetTech avec routes, exportation QGIS, refactorisation",
           "Correction de la vue passager trop basse en véhicule : les poses conducteur et passager ne placent pas la tête au même endroit, et chacune a désormais sa propre hauteur d'œil.",
           "Un joueur à bord d'un véhicule appartient désormais au repère de ce véhicule : le trajet est fluide pour le conducteur comme pour le passager, et sa position n'est plus renvoyée sur le réseau à chaque tick pendant que le véhicule roule.",

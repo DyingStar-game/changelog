@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Embossing highway
+  fix enable debug items
+  fix hex-tiles AMD cards
 - Planet tech wth roads, QGIS export, refactoring
 - Fixed the passenger's seated view sitting too low in vehicles: the driver and passenger poses place the head differently, and each now has its own eye height.
 - Players riding a vehicle now belong to that vehicle's frame: the ride is smooth for driver and passenger alike, and their position is no longer re-sent over the network on every tick while the vehicle moves.

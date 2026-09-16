@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Correction d'un problème de « chunk »
+  Correction du maillage de sécurité du joueur pour les tunnels
+  Optimisations : évitement du rendu des rails et des routes trop éloignés et invisibles
+  Correction du sol du tunnel
 - Autoroute en relief
   Correction : activation des éléments de débogage
   Correction : tuiles hexagonales sur les cartes AMD

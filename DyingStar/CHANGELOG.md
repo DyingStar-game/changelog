@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- fix chunk problem
+  fix player safety mesh for tunnels
+  Optimizations, prevent draw rail and roads too far away and it's not visible
+  fix floor of tunnel
 - Embossing highway
   fix enable debug items
   fix hex-tiles AMD cards

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Problem: 50 to 90 walking NPCs were dragging the server down to 5 fps. Each NPC was baking its own navmesh (analyzing the entire planet on the main thread, Recast bake at 0.1m, re-baking every 18m).
+  Shared navmesh cache (NpcNavCache): 72m tiles on a grid, one map per 5×5 cell block to allow roads to span tiles; geometry collected via physics queries and extracted on a worker thread; TTL, invalidation, eviction; parked trucks carve out the mesh.
+  Lightweight NPCs: interleaved 30Hz tick, unnecessary sub-trees disabled server-side (UI, mining tool, raycasts, NavigationAgent3D), replication only when the pose changes.
+  Reduced overhead: static props and parked vehicles at 6Hz, cached HEALPix rings for pins, time-sliced ​​pin scanning, mining logic running without the NPCs.
+  Server performance profiling setup ([debug] perf=true): frame breakdown ([Perf/frame]), script-based attribution ([Perf/bands], opt-in), node census, Horizon messages, NPC tick breakdown—each of these issues was identified using this tool.
+  Measured: 47 NPCs → from 5 fps / 43 TPS to 60 / 60; 93 NPCs → 60 TPS.
 - fix chunk problem
   fix player safety mesh for tunnels
   Optimizations, prevent draw rail and roads too far away and it's not visible

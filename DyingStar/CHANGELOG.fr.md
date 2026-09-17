@@ -7,6 +7,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Problème : 50 à 90 PNJ marcheurs faisaient tomber le serveur à 5 fps. Chaque PNJ bakait son propre navmesh (parse de toute la planète sur le main thread, bake Recast à 0,1 m, re-bake tous les 18 m).
+  Cache navmesh partagé (NpcNavCache) : tuiles de 72 m sur un treillis, une map par bloc de 5×5 cellules pour que les routes traversent les tuiles ; géométrie collectée par requête physique et extraite sur un worker ; TTL, invalidation, éviction ; les camions garés creusent le mesh.
+  PNJ allégés : tick à 30 Hz entrelacé, sous-arbres inutiles désactivés côté serveur (UI, outil de minage, rayons, NavigationAgent3D), réplication seulement quand la pose change.
+  Coûts annexes réduits : props statiques et véhicules garés à 6 Hz, anneaux HEALPix des pins mis en cache, balayage des pins cadencé au temps, planificateur de minage sans les PNJ.
+  Rig de perf serveur ([debug] perf=true) : anatomie de la frame ([Perf/frame]), attribution par script ([Perf/bands], opt-in), recensement des nœuds, messages Horizon, ventilation du tick PNJ — chacun de ces postes a été trouvé grâce à lui.
+  Mesuré : 47 PNJ → de 5 fps / 43 TPS à 60 / 60 ; 93 PNJ → 60 TPS.
 - Correction d'un problème de « chunk »
   Correction du maillage de sécurité du joueur pour les tunnels
   Optimisations : évitement du rendu des rails et des routes trop éloignés et invisibles

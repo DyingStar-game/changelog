@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Mise à jour du système de server meshing dynamic avec le nouveau système world dans le serveur Godot.
 - Déplacement du fichier plugin.toml (configuration des plugins) dans l'image Docker horizon-data.
 - Correction du problème de gorc lorsque le joueur est dans un véhicule
 - Mise à jour de la position/rotation de départ

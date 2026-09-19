@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T08:28:41.059690+00:00",
+  "generated_at": "2026-09-19T18:21:42.485102+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
@@ -248,6 +248,7 @@
     "horizonserver": {
       "unreleased": {
         "en": [
+          "Update server meshing dynamic with new world system in godot server",
           "Moving plugin.toml (plugins config) into the horizon-data docker image",
           "Fix gorc when player in vehicule",
           "Update startup position / rotation\n  increase server meshing dynamic (50 players)",
@@ -271,6 +272,7 @@
           "Fix the ore shown on a fractured rock's cut faces so it stays consistent across clients."
         ],
         "fr": [
+          "Mise à jour du système de server meshing dynamic avec le nouveau système world dans le serveur Godot.",
           "Déplacement du fichier plugin.toml (configuration des plugins) dans l'image Docker horizon-data.",
           "Correction du problème de gorc lorsque le joueur est dans un véhicule",
           "Mise à jour de la position/rotation de départ\n  augmentation server meshing dynamic (50 joueurs)",

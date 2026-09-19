@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-19T18:21:42.485102+00:00",
+  "generated_at": "2026-09-19T19:49:37.549048+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Add mountain",
           "Atomic file cache for server meshing dynamic (collision mesh for server)",
           "Problem: 50 to 90 walking NPCs were dragging the server down to 5 fps. Each NPC was baking its own navmesh (analyzing the entire planet on the main thread, Recast bake at 0.1m, re-baking every 18m).\n  Shared navmesh cache (NpcNavCache): 72m tiles on a grid, one map per 5×5 cell block to allow roads to span tiles; geometry collected via physics queries and extracted on a worker thread; TTL, invalidation, eviction; parked trucks carve out the mesh.\n  Lightweight NPCs: interleaved 30Hz tick, unnecessary sub-trees disabled server-side (UI, mining tool, raycasts, NavigationAgent3D), replication only when the pose changes.\n  Reduced overhead: static props and parked vehicles at 6Hz, cached HEALPix rings for pins, time-sliced ​​pin scanning, mining logic running without the NPCs.\n  Server performance profiling setup ([debug] perf=true): frame breakdown ([Perf/frame]), script-based attribution ([Perf/bands], opt-in), node census, Horizon messages, NPC tick breakdown—each of these issues was identified using this tool.\n  Measured: 47 NPCs → from 5 fps / 43 TPS to 60 / 60; 93 NPCs → 60 TPS.",
           "fix chunk problem\n  fix player safety mesh for tunnels\n  Optimizations, prevent draw rail and roads too far away and it's not visible\n  fix floor of tunnel",
@@ -117,6 +118,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Ajout des montagnes",
           "Cache de fichiers atomique pour le server meshing dynamic  (mesh de collision pour le serveur)",
           "Problème : 50 à 90 PNJ marcheurs faisaient tomber le serveur à 5 fps. Chaque PNJ bakait son propre navmesh (parse de toute la planète sur le main thread, bake Recast à 0,1 m, re-bake tous les 18 m).\n  Cache navmesh partagé (NpcNavCache) : tuiles de 72 m sur un treillis, une map par bloc de 5×5 cellules pour que les routes traversent les tuiles ; géométrie collectée par requête physique et extraite sur un worker ; TTL, invalidation, éviction ; les camions garés creusent le mesh.\n  PNJ allégés : tick à 30 Hz entrelacé, sous-arbres inutiles désactivés côté serveur (UI, outil de minage, rayons, NavigationAgent3D), réplication seulement quand la pose change.\n  Coûts annexes réduits : props statiques et véhicules garés à 6 Hz, anneaux HEALPix des pins mis en cache, balayage des pins cadencé au temps, planificateur de minage sans les PNJ.\n  Rig de perf serveur ([debug] perf=true) : anatomie de la frame ([Perf/frame]), attribution par script ([Perf/bands], opt-in), recensement des nœuds, messages Horizon, ventilation du tick PNJ — chacun de ces postes a été trouvé grâce à lui.\n  Mesuré : 47 PNJ → de 5 fps / 43 TPS à 60 / 60 ; 93 PNJ → 60 TPS.",
           "Correction d'un problème de « chunk »\n  Correction du maillage de sécurité du joueur pour les tunnels\n  Optimisations : évitement du rendu des rails et des routes trop éloignés et invisibles\n  Correction du sol du tunnel",

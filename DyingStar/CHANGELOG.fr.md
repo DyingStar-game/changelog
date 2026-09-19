@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Cache de fichiers atomique pour le server meshing dynamic  (mesh de collision pour le serveur)
 - Problème : 50 à 90 PNJ marcheurs faisaient tomber le serveur à 5 fps. Chaque PNJ bakait son propre navmesh (parse de toute la planète sur le main thread, bake Recast à 0,1 m, re-bake tous les 18 m).
   Cache navmesh partagé (NpcNavCache) : tuiles de 72 m sur un treillis, une map par bloc de 5×5 cellules pour que les routes traversent les tuiles ; géométrie collectée par requête physique et extraite sur un worker ; TTL, invalidation, éviction ; les camions garés creusent le mesh.
   PNJ allégés : tick à 30 Hz entrelacé, sous-arbres inutiles désactivés côté serveur (UI, outil de minage, rayons, NavigationAgent3D), réplication seulement quand la pose change.

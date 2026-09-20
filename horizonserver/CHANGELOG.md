@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Manage frequency in zones + manage different frequency depends on distance on a same zone
 - Update server meshing dynamic with new world system in godot server
 - Moving plugin.toml (plugins config) into the horizon-data docker image
 - Fix gorc when player in vehicule

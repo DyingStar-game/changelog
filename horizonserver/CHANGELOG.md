@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Update number player split server from 30 to 75
+  Fix move & reparent missed in some cases because of LOD
+  Send velocity when transfer player to another player
 - disable audio for NPC
   Resolve godot server pool list from DNS when run instead of when pod start
   add LOD for player movement

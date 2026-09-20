@@ -6,6 +6,9 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Augmentation de la limite de joueurs par serveur de 30 à 75
+  Correction d'un problème de déplacement et de changement de parenté (manqué dans certains cas à cause du LOD)
+  Envoi de la vélocité lors du transfert d'un joueur vers un autre joueur
 - Désactivation l'audio pour les PNJ
   Résolution de la liste du pool de serveurs Godot via DNS lors de l'exécution plutôt qu'au démarrage du pod
   Ajouter du LOD pour les déplacements du joueur

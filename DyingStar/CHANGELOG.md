@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- [server] Increase number of items managed in jolt
+  [server] add secutiry for vehicle (like players)
+  [server] Fix stdout
 - Add mountain
 - Atomic file cache for server meshing dynamic (collision mesh for server)
 - Problem: 50 to 90 walking NPCs were dragging the server down to 5 fps. Each NPC was baking its own navmesh (analyzing the entire planet on the main thread, Recast bake at 0.1m, re-baking every 18m).

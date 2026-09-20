@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- [serveur] Augmentation du nombre d'objets gérés dans Jolt
+  [serveur] Ajout une sécurité pour les véhicules (similaire à celle des joueurs)
+  [serveur] Correction stdout
 - Ajout des montagnes
 - Cache de fichiers atomique pour le server meshing dynamic  (mesh de collision pour le serveur)
 - Problème : 50 à 90 PNJ marcheurs faisaient tomber le serveur à 5 fps. Chaque PNJ bakait son propre navmesh (parse de toute la planète sur le main thread, bake Recast à 0,1 m, re-bake tous les 18 m).

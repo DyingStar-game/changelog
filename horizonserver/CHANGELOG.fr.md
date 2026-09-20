@@ -6,6 +6,10 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Désactivation l'audio pour les PNJ
+  Résolution de la liste du pool de serveurs Godot via DNS lors de l'exécution plutôt qu'au démarrage du pod
+  Ajouter du LOD pour les déplacements du joueur
+  logs la transmission du LOD pour le débogage
 - Gérer la fréquence par zone + gérer des fréquences différentes selon la distance au sein d'une même zone.
 - Mise à jour du système de server meshing dynamic avec le nouveau système world dans le serveur Godot.
 - Déplacement du fichier plugin.toml (configuration des plugins) dans l'image Docker horizon-data.

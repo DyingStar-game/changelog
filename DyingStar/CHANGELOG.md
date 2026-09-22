@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- players optimization when have many players near me
 - Rock impurities: mountain-driven colour and ore for every corundum
   Update montain to have canyon on corundum zones. Fix border of canyons and finish in the begin of mountains
 - Vehicles are powered by engines you can actually see. The T1 motor is an object you pick up, carry and bolt into one of the truck's four hatches — and what is fitted is what decides how hard it pulls, how steep a slope it climbs and how fast it gets there. Take one out and the truck suffers; take them all out and it will not start. A new Settings option hides the driver dashboard.

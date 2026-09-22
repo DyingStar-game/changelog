@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-22T16:15:02.554359+00:00",
+  "generated_at": "2026-09-22T16:19:00.595122+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "players optimization when have many players near me",
           "Rock impurities: mountain-driven colour and ore for every corundum\n  Update montain to have canyon on corundum zones. Fix border of canyons and finish in the begin of mountains",
           "Vehicles are powered by engines you can actually see. The T1 motor is an object you pick up, carry and bolt into one of the truck's four hatches — and what is fitted is what decides how hard it pulls, how steep a slope it climbs and how fast it gets there. Take one out and the truck suffers; take them all out and it will not start. A new Settings option hides the driver dashboard.",
           "Added a teleporter cabin for testing: pick a system, a body and a point of interest from its screen,\n  or type a longitude, latitude and height, and you are put down on the ground there. Vehicles parked\n  in the cabin and anybody standing in it travel with you, and RETURN brings you back. Replaces the old\n  seven fixed pads. Known limitation: leave the vehicle before jumping — a seated passenger's own view\n  and controls may not survive the trip yet.",
@@ -122,6 +123,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "optimistions joueur quand on a beaucoup de joueurs près de nous",
           "Impuretés rocheuses : couleur et minerai issus de la montagne pour chaque corindon\n  Mise à jour des montagnes pour intégrer des canyons dans les zones de corindon ; correction des bordures des canyons et raccordement à la base des montagnes",
           "Les véhicules sont mus par des moteurs qu'on peut voir. Le moteur T1 est un objet qu'on ramasse, qu'on porte et qu'on boulonne dans l'une des quatre trappes du camion — et ce qui est installé détermine sa force de traction, la pente qu'il franchit et son accélération. Retirez-en un et le camion s'essouffle ; retirez-les tous et il ne démarre plus. Une nouvelle option des réglages masque le tableau de bord du conducteur.",
           "Ajout d'une cabine de téléportation pour les tests : on choisit un système, un corps et un point\n  d'intérêt sur son écran, ou on saisit une longitude, une latitude et une hauteur, et on est posé au\n  sol à cet endroit. Les véhicules garés dans la cabine et les joueurs qui s'y trouvent voyagent avec\n  vous, et RETOUR ramène au point de départ. Corrige aussi un défaut préexistant qui faisait\n  disparaître un véhicule pour le passager qui venait d'en descendre. Remplace les sept anciens pads fixes. Limite connue :\n  descendre du véhicule avant de sauter — la vue et les commandes d'un passager assis peuvent ne pas\n  survivre au trajet.",

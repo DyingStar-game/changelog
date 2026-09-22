@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-20T18:17:23.639384+00:00",
+  "generated_at": "2026-09-22T16:00:18.305100+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Added a teleporter cabin for testing: pick a system, a body and a point of interest from its screen,\n  or type a longitude, latitude and height, and you are put down on the ground there. Vehicles parked\n  in the cabin and anybody standing in it travel with you, and RETURN brings you back. Replaces the old\n  seven fixed pads. Known limitation: leave the vehicle before jumping — a seated passenger's own view\n  and controls may not survive the trip yet.",
           "[server] Increase number of items managed in jolt\n  [server] add secutiry for vehicle (like players)\n  [server] Fix stdout",
           "Add mountain",
           "Atomic file cache for server meshing dynamic (collision mesh for server)",
@@ -119,6 +120,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Ajout d'une cabine de téléportation pour les tests : on choisit un système, un corps et un point\n  d'intérêt sur son écran, ou on saisit une longitude, une latitude et une hauteur, et on est posé au\n  sol à cet endroit. Les véhicules garés dans la cabine et les joueurs qui s'y trouvent voyagent avec\n  vous, et RETOUR ramène au point de départ. Corrige aussi un défaut préexistant qui faisait\n  disparaître un véhicule pour le passager qui venait d'en descendre. Remplace les sept anciens pads fixes. Limite connue :\n  descendre du véhicule avant de sauter — la vue et les commandes d'un passager assis peuvent ne pas\n  survivre au trajet.",
           "[serveur] Augmentation du nombre d'objets gérés dans Jolt\n  [serveur] Ajout une sécurité pour les véhicules (similaire à celle des joueurs)\n  [serveur] Correction stdout",
           "Ajout des montagnes",
           "Cache de fichiers atomique pour le server meshing dynamic  (mesh de collision pour le serveur)",

@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Added a teleporter cabin for testing: pick a system, a body and a point of interest from its screen,
+  or type a longitude, latitude and height, and you are put down on the ground there. Vehicles parked
+  in the cabin and anybody standing in it travel with you, and RETURN brings you back. Replaces the old
+  seven fixed pads. Known limitation: leave the vehicle before jumping — a seated passenger's own view
+  and controls may not survive the trip yet.
 - [server] Increase number of items managed in jolt
   [server] add secutiry for vehicle (like players)
   [server] Fix stdout

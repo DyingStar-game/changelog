@@ -7,6 +7,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Ajout d'une cabine de téléportation pour les tests : on choisit un système, un corps et un point
+  d'intérêt sur son écran, ou on saisit une longitude, une latitude et une hauteur, et on est posé au
+  sol à cet endroit. Les véhicules garés dans la cabine et les joueurs qui s'y trouvent voyagent avec
+  vous, et RETOUR ramène au point de départ. Corrige aussi un défaut préexistant qui faisait
+  disparaître un véhicule pour le passager qui venait d'en descendre. Remplace les sept anciens pads fixes. Limite connue :
+  descendre du véhicule avant de sauter — la vue et les commandes d'un passager assis peuvent ne pas
+  survivre au trajet.
 - [serveur] Augmentation du nombre d'objets gérés dans Jolt
   [serveur] Ajout une sécurité pour les véhicules (similaire à celle des joueurs)
   [serveur] Correction stdout

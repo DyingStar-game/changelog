@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Vehicles are powered by engines you can actually see. The T1 motor is an object you pick up, carry and bolt into one of the truck's four hatches — and what is fitted is what decides how hard it pulls, how steep a slope it climbs and how fast it gets there. Take one out and the truck suffers; take them all out and it will not start. A new Settings option hides the driver dashboard.
 - Added a teleporter cabin for testing: pick a system, a body and a point of interest from its screen,
   or type a longitude, latitude and height, and you are put down on the ground there. Vehicles parked
   in the cabin and anybody standing in it travel with you, and RETURN brings you back. Replaces the old

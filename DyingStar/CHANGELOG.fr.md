@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les véhicules sont mus par des moteurs qu'on peut voir. Le moteur T1 est un objet qu'on ramasse, qu'on porte et qu'on boulonne dans l'une des quatre trappes du camion — et ce qui est installé détermine sa force de traction, la pente qu'il franchit et son accélération. Retirez-en un et le camion s'essouffle ; retirez-les tous et il ne démarre plus. Une nouvelle option des réglages masque le tableau de bord du conducteur.
 - Ajout d'une cabine de téléportation pour les tests : on choisit un système, un corps et un point
   d'intérêt sur son écran, ou on saisit une longitude, une latitude et une hauteur, et on est posé au
   sol à cet endroit. Les véhicules garés dans la cabine et les joueurs qui s'y trouvent voyagent avec

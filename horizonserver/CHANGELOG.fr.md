@@ -6,6 +6,8 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Optimisation des relations parent-enfant par l'ajout d'un index
+  Correction du problème de déconnexion du joueur (dans certains cas, les événements continuaient d'être envoyés à personne).
 - Les composants de véhicule (moteurs, et plus tard batteries et réservoirs) sont répliqués et persistés : quelle baie contient quelle pièce est désormais transmis à tous les clients.
 - Augmentation de la limite de joueurs par serveur de 30 à 75
   Correction d'un problème de déplacement et de changement de parenté (manqué dans certains cas à cause du LOD)

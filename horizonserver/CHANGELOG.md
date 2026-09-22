@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- optimization of parent-children by addeing index
+  fix disconnect player (on some cases events continues to send to nobody
 - Vehicle components (engines, and later batteries and tanks) replicate and persist: which bay holds which part now travels to every client.
 - Update number player split server from 30 to 75
   Fix move & reparent missed in some cases because of LOD

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:19:00.595122+00:00",
+  "generated_at": "2026-09-23T18:51:39.652119+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
@@ -347,8 +347,12 @@
     },
     "launcher": {
       "unreleased": {
-        "en": [],
-        "fr": []
+        "en": [
+          "Added **Fullscreen** and **Minimize** buttons.\n  Added a **hamburger menu** when the launcher is in a smaller size. This will allow the launcher to be resized even further for those who prefer a more compact layout, although not everything has been moved into the menu yet.\n  Added **game launch detection** to disable the **Launch** button as soon as it is clicked, preventing multiple launch attempts.\n  Added **changelog read detection**, which should fix the issue where notification badges would reappear after every release."
+        ],
+        "fr": [
+          "Ajout d'un bouton d'affichage plein écran (et réduit).\n  Ajout d'un menu burger quand le launcher est petit (ce qui permettra de mettre le launcher un peu plus petit pour ceux qui veulent même si pour le moment tout n'est pas mis dans le burger).\n  Ajout de la détection du lancement du jeu pour bloquer le bouton de lancement dès que l'on clique dessus.\n  Ajout de la détection de lecture de changelog ce qui devrait résoudre le soucis des pastilles après chaque release."
+        ]
       },
       "releases": [
         {

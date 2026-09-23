@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.2] - 2026-09-23
+
 - Added **Fullscreen** and **Minimize** buttons.
   Added a **hamburger menu** when the launcher is in a smaller size. This will allow the launcher to be resized even further for those who prefer a more compact layout, although not everything has been moved into the menu yet.
   Added **game launch detection** to disable the **Launch** button as soon as it is clicked, preventing multiple launch attempts.

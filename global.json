@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-25T05:33:09.785164+00:00",
+  "generated_at": "2026-09-25T05:35:17.753337+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Added a language setting (Automatic / English / French) under Settings ▸ General, applied immediately and remembered between sessions.",
           "Standing at a console no longer drags your view towards it. Lean the pointer on the edge of the window to look across a screen too wide to take in at once, the view holds still while you read, and typing into a field no longer triggers gameplay keys — Escape hands the keyboard back. Panels now redraw only when they are visible, and a keystroke reaches the console you are using instead of every screen in the world.",
           "The teleporter and the system chart list the planets again in exported builds.",
           "The driver's dashboard now shows the slope you are actually on next to the steepest one your engines can climb, so you can see how much is left. And vehicle components are marked with a pictogram of what they are — readable from either side of the truck, and from above when one is lying on the ground.",
@@ -128,6 +129,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Ajout d'un choix de langue (Automatique / Anglais / Français) dans Paramètres ▸ Général, appliqué immédiatement et conservé d'une session à l'autre.",
           "S'approcher d'un écran n' \"aspire\" plus votre regard en mode sticky. Vous pouvez désormais déplacez le pointeur contre le bord de la fenêtre pour balayer un écran trop large, la vue reste stable pendant la lecture, et taper dans un champ ne déclenche plus les touches de jeu . Échap rend le clavier. Les panneaux ne se redessinent plus que lorsqu'ils sont visibles, et une touche frappée va à la console utilisée, non à tous les écrans du monde (oupsy)",
           "Le téléporteur et la carte du système affichent de nouveau la liste des planètes dans les builds exportés.",
           "Le HUD de debug des véhicules affiche désormais la pente sur laquelle vous êtes, à côté des stats que vos moteurs peuvent franchir. Les composants de véhicule portent le pictogramme et numéro de série de ce qu'ils sont,  lisible des deux côtés du camion, et du dessus quand la pièce est posée au sol.",

@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-25T05:35:17.753337+00:00",
+  "generated_at": "2026-09-25T05:41:46.680751+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Objects resting on a planet now blend into the ground instead of meeting it on a hard cut line: the terrain's own colour and texture rise over the base of buildings, rocks, crates and props, with an irregular, wind-drifted edge. Interior walls and flat surfaces are left clean, and the band is lit like the ground it imitates, so it no longer darkens against a shaded wall.",
           "Added a language setting (Automatic / English / French) under Settings ▸ General, applied immediately and remembered between sessions.",
           "Standing at a console no longer drags your view towards it. Lean the pointer on the edge of the window to look across a screen too wide to take in at once, the view holds still while you read, and typing into a field no longer triggers gameplay keys — Escape hands the keyboard back. Panels now redraw only when they are visible, and a keystroke reaches the console you are using instead of every screen in the world.",
           "The teleporter and the system chart list the planets again in exported builds.",
@@ -129,6 +130,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Les objets posés sur une planète se fondent désormais dans le sol : la couleur et la texture du terrain remontent sur la base des bâtiments, rochers, caisses et props, avec une limite irrégulière façonnée par le vent. Les murs intérieurs et les surfaces horizontales restent propres, et la frange est éclairée comme le sol qu'elle imite. Elle ne s'assombrit donc pas contre un mur à l'ombre.",
           "Ajout d'un choix de langue (Automatique / Anglais / Français) dans Paramètres ▸ Général, appliqué immédiatement et conservé d'une session à l'autre.",
           "S'approcher d'un écran n' \"aspire\" plus votre regard en mode sticky. Vous pouvez désormais déplacez le pointeur contre le bord de la fenêtre pour balayer un écran trop large, la vue reste stable pendant la lecture, et taper dans un champ ne déclenche plus les touches de jeu . Échap rend le clavier. Les panneaux ne se redessinent plus que lorsqu'ils sont visibles, et une touche frappée va à la console utilisée, non à tous les écrans du monde (oupsy)",
           "Le téléporteur et la carte du système affichent de nouveau la liste des planètes dans les builds exportés.",

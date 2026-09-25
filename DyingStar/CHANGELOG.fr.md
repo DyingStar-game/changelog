@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les objets posés sur une planète se fondent désormais dans le sol : la couleur et la texture du terrain remontent sur la base des bâtiments, rochers, caisses et props, avec une limite irrégulière façonnée par le vent. Les murs intérieurs et les surfaces horizontales restent propres, et la frange est éclairée comme le sol qu'elle imite. Elle ne s'assombrit donc pas contre un mur à l'ombre.
 - Ajout d'un choix de langue (Automatique / Anglais / Français) dans Paramètres ▸ Général, appliqué immédiatement et conservé d'une session à l'autre.
 - S'approcher d'un écran n' "aspire" plus votre regard en mode sticky. Vous pouvez désormais déplacez le pointeur contre le bord de la fenêtre pour balayer un écran trop large, la vue reste stable pendant la lecture, et taper dans un champ ne déclenche plus les touches de jeu . Échap rend le clavier. Les panneaux ne se redessinent plus que lorsqu'ils sont visibles, et une touche frappée va à la console utilisée, non à tous les écrans du monde (oupsy)
 - Le téléporteur et la carte du système affichent de nouveau la liste des planètes dans les builds exportés.

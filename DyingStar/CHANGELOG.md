@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Manage snap to planet surface + update terrain mesh in editor and runtime
 - Objects resting on a planet now blend into the ground instead of meeting it on a hard cut line: the terrain's own colour and texture rise over the base of buildings, rocks, crates and props, with an irregular, wind-drifted edge. Interior walls and flat surfaces are left clean, and the band is lit like the ground it imitates, so it no longer darkens against a shaded wall.
 - Added a language setting (Automatic / English / French) under Settings ▸ General, applied immediately and remembered between sessions.
 - Standing at a console no longer drags your view towards it. Lean the pointer on the edge of the window to look across a screen too wide to take in at once, the view holds still while you read, and typing into a field no longer triggers gameplay keys — Escape hands the keyboard back. Panels now redraw only when they are visible, and a keystroke reaches the console you are using instead of every screen in the world.

@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les pas sur le sable et la pierre ont enfin leur son, au lieu d'un marqueur d'erreur. Les pas sur le métal jouent toujours ce marqueur, en attendant un son sous licence libre.
 - Fix le problème lié au siège du véhicule.
   Fix du dispositif de sécurité du véhicule : il semble ne pas monter suffisamment au-dessus du chunk lorsqu'il passe en dessous.
 - optimistions joueur quand on a beaucoup de joueurs près de nous

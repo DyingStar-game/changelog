@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Footsteps on sand and stone now play their own sounds instead of an error marker. Footsteps on metal still play that marker, pending a freely licensed replacement.
 - Fix problem with seat in the vehicule
   Vehicle safety mechanism fix: it does not appear to rise high enough above the chunk when passing underneath it.
 - players optimization when have many players near me

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix problem with seat in the vehicule
+  Vehicle safety mechanism fix: it does not appear to rise high enough above the chunk when passing underneath it.
 - players optimization when have many players near me
 - Rock impurities: mountain-driven colour and ore for every corundum
   Update montain to have canyon on corundum zones. Fix border of canyons and finish in the begin of mountains

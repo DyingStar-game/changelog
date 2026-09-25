@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Fix le problème lié au siège du véhicule.
+  Fix du dispositif de sécurité du véhicule : il semble ne pas monter suffisamment au-dessus du chunk lorsqu'il passe en dessous.
 - optimistions joueur quand on a beaucoup de joueurs près de nous
 - Impuretés rocheuses : couleur et minerai issus de la montagne pour chaque corindon
   Mise à jour des montagnes pour intégrer des canyons dans les zones de corindon ; correction des bordures des canyons et raccordement à la base des montagnes

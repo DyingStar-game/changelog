@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-23T19:52:45.073466+00:00",
+  "generated_at": "2026-09-25T05:20:48.953988+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Fix problem with seat in the vehicule\n  Vehicle safety mechanism fix: it does not appear to rise high enough above the chunk when passing underneath it.",
           "players optimization when have many players near me",
           "Rock impurities: mountain-driven colour and ore for every corundum\n  Update montain to have canyon on corundum zones. Fix border of canyons and finish in the begin of mountains",
           "Vehicles are powered by engines you can actually see. The T1 motor is an object you pick up, carry and bolt into one of the truck's four hatches — and what is fitted is what decides how hard it pulls, how steep a slope it climbs and how fast it gets there. Take one out and the truck suffers; take them all out and it will not start. A new Settings option hides the driver dashboard.",
@@ -123,6 +124,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Fix le problème lié au siège du véhicule.\n  Fix du dispositif de sécurité du véhicule : il semble ne pas monter suffisamment au-dessus du chunk lorsqu'il passe en dessous.",
           "optimistions joueur quand on a beaucoup de joueurs près de nous",
           "Impuretés rocheuses : couleur et minerai issus de la montagne pour chaque corindon\n  Mise à jour des montagnes pour intégrer des canyons dans les zones de corindon ; correction des bordures des canyons et raccordement à la base des montagnes",
           "Les véhicules sont mus par des moteurs qu'on peut voir. Le moteur T1 est un objet qu'on ramasse, qu'on porte et qu'on boulonne dans l'une des quatre trappes du camion — et ce qui est installé détermine sa force de traction, la pente qu'il franchit et son accélération. Retirez-en un et le camion s'essouffle ; retirez-les tous et il ne démarre plus. Une nouvelle option des réglages masque le tableau de bord du conducteur.",

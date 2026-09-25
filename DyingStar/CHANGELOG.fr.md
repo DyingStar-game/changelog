@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- L'interface en jeu est désormais traduite en anglais et en français. Les invites d'interaction affichent la touche réellement configurée, selon votre disposition de clavier, au lieu d'une touche figée.
 - Les menus sont désormais entièrement traduits en anglais et en français. Les touches sont regroupées par familles (Général, À pied, En véhicule, En vol, Débogage), et les lignes de réglages se surlignent au survol.
 - Gestion du snap à la surface de la planète + mise à jour du mesh de terrain dans l'éditeur et runtime
 - Les objets posés sur une planète se fondent désormais dans le sol : la couleur et la texture du terrain remontent sur la base des bâtiments, rochers, caisses et props, avec une limite irrégulière façonnée par le vent. Les murs intérieurs et les surfaces horizontales restent propres, et la frange est éclairée comme le sol qu'elle imite. Elle ne s'assombrit donc pas contre un mur à l'ombre.

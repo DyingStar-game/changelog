@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Le téléporteur et la carte du système affichent de nouveau la liste des planètes dans les builds exportés.
 - Le HUD de debug des véhicules affiche désormais la pente sur laquelle vous êtes, à côté des stats que vos moteurs peuvent franchir. Les composants de véhicule portent le pictogramme et numéro de série de ce qu'ils sont,  lisible des deux côtés du camion, et du dessus quand la pièce est posée au sol.
 - Les pas sur le sable et la pierre ont enfin leur son, au lieu d'un marqueur d'erreur. Les pas sur le métal jouent toujours ce marqueur, en attendant un son sous licence libre.
 - Fix le problème lié au siège du véhicule.

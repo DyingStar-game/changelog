@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-25T05:58:40.816960+00:00",
+  "generated_at": "2026-09-25T07:14:11.588459+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "The menus are now fully translated in English and French. Keybindings are grouped into families (General, On foot, In a vehicle, In flight, Debug), and settings rows highlight under the pointer.",
           "Manage snap to planet surface + update terrain mesh in editor and runtime",
           "Objects resting on a planet now blend into the ground instead of meeting it on a hard cut line: the terrain's own colour and texture rise over the base of buildings, rocks, crates and props, with an irregular, wind-drifted edge. Interior walls and flat surfaces are left clean, and the band is lit like the ground it imitates, so it no longer darkens against a shaded wall.",
           "Added a language setting (Automatic / English / French) under Settings ▸ General, applied immediately and remembered between sessions.",
@@ -131,6 +132,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Les menus sont désormais entièrement traduits en anglais et en français. Les touches sont regroupées par familles (Général, À pied, En véhicule, En vol, Débogage), et les lignes de réglages se surlignent au survol.",
           "Gestion du snap à la surface de la planète + mise à jour du mesh de terrain dans l'éditeur et runtime",
           "Les objets posés sur une planète se fondent désormais dans le sol : la couleur et la texture du terrain remontent sur la base des bâtiments, rochers, caisses et props, avec une limite irrégulière façonnée par le vent. Les murs intérieurs et les surfaces horizontales restent propres, et la frange est éclairée comme le sol qu'elle imite. Elle ne s'assombrit donc pas contre un mur à l'ombre.",
           "Ajout d'un choix de langue (Automatique / Anglais / Français) dans Paramètres ▸ Général, appliqué immédiatement et conservé d'une session à l'autre.",

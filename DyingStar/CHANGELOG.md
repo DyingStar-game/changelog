@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The menus are now fully translated in English and French. Keybindings are grouped into families (General, On foot, In a vehicle, In flight, Debug), and settings rows highlight under the pointer.
 - Manage snap to planet surface + update terrain mesh in editor and runtime
 - Objects resting on a planet now blend into the ground instead of meeting it on a hard cut line: the terrain's own colour and texture rise over the base of buildings, rocks, crates and props, with an irregular, wind-drifted edge. Interior walls and flat surfaces are left clean, and the band is lit like the ground it imitates, so it no longer darkens against a shaded wall.
 - Added a language setting (Automatic / English / French) under Settings ▸ General, applied immediately and remembered between sessions.

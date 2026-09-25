@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The driver's dashboard now shows the slope you are actually on next to the steepest one your engines can climb, so you can see how much is left. And vehicle components are marked with a pictogram of what they are — readable from either side of the truck, and from above when one is lying on the ground.
 - Footsteps on sand and stone now play their own sounds instead of an error marker. Footsteps on metal still play that marker, pending a freely licensed replacement.
 - Fix problem with seat in the vehicule
   Vehicle safety mechanism fix: it does not appear to rise high enough above the chunk when passing underneath it.

@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Update road to can't have more than 10 degres of slope
 - The in-game HUD is now translated in English and French. Interaction prompts show the key you actually bound, on your own keyboard layout, instead of a hardcoded one.
 - The menus are now fully translated in English and French. Keybindings are grouped into families (General, On foot, In a vehicle, In flight, Debug), and settings rows highlight under the pointer.
 - Manage snap to planet surface + update terrain mesh in editor and runtime

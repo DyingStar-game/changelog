@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The star map now draws real ground: relief at its true height, coloured by the rock it is made of, with its mountains, its roads and its railways. Towns show how high they stand. The ground refines as you approach and fills itself in from the tile service, and it no longer claims detail it does not have.
 - Update road to can't have more than 10 degres of slope
 - The in-game HUD is now translated in English and French. Interaction prompts show the key you actually bound, on your own keyboard layout, instead of a hardcoded one.
 - The menus are now fully translated in English and French. Keybindings are grouped into families (General, On foot, In a vehicle, In flight, Debug), and settings rows highlight under the pointer.

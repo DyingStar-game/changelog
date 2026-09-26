@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Amélioration de la StarMap. Les planètes ont leur biomes, leur reliefs, leur ville, villages, gare, routes etc....
 - Modification de la route pour qu'elle ne dépasse pas une pente de 10 degrés.
 - L'interface en jeu est désormais traduite en anglais et en français. Les invites d'interaction affichent la touche réellement configurée, selon votre disposition de clavier, au lieu d'une touche figée.
 - Les menus sont désormais entièrement traduits en anglais et en français. Les touches sont regroupées par familles (Général, À pied, En véhicule, En vol, Débogage), et les lignes de réglages se surlignent au survol.

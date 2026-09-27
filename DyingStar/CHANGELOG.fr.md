@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Véhicules : direction progressive. Un appui bref ou maintenu sur les flèches tourne les roues petit à petit ; elles gardent leur angle quand on relâche, et se redressent doucement en roulant.
+  Véhicules : limiteur de vitesse. T l'active ou le désactive, Alt + molette règle la limite par crans de 5 km/h. Affiché sur le tableau de bord : vert quand il est actif, rouge quand il retient le camion.
+  Véhicules : compteur kilométrique sur le tableau de bord, conservé entre les sessions et les redémarrages du serveur.
+  F7 prend une photo sans aucune interface ; F8 prend une capture avec les panneaux de débogage pour les rapports de bug. Les deux sont rangées dans le dossier screenshots du jeu et copiées dans le presse-papiers.
+  Les enregistrements F6 sont désormais rangés dans screenshots/records.
+  Réglages › Vidéo : un bouton ouvre la galerie de captures.
+  Corrigé : une touche souris avec modificateur (ex. Alt + molette) perdait son modificateur une fois remappée.
+  Corrigé : panneaux de débogage affichant « Soon™ » juste après leur activation.
 - Amélioration de la StarMap. Les planètes ont leur biomes, leur reliefs, leur ville, villages, gare, routes etc....
 - Modification de la route pour qu'elle ne dépasse pas une pente de 10 degrés.
 - L'interface en jeu est désormais traduite en anglais et en français. Les invites d'interaction affichent la touche réellement configurée, selon votre disposition de clavier, au lieu d'une touche figée.

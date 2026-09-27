@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Vehicles: progressive steering. Tap or hold the arrows to turn the wheels little by little; they keep their angle when you let go, and straighten up gently while rolling.
+  Vehicles: speed limiter. T turns it on or off, Alt + mouse wheel sets the limit in 5 km/h steps. Shown on the dashboard: green when on, red while it holds the truck back.
+  Vehicles: odometer on the dashboard, kept across sessions and server restarts.
+  F7 takes a photo without any interface; F8 takes a screenshot with the debug panels for bug reports. Both are saved in the game's screenshots folder and copied to the clipboard.
+  F6 recordings are now saved in screenshots/records.
+  Settings › Video: a button opens the screenshot gallery.
+  Fixed: a mouse binding with a modifier (e.g. Alt + wheel) lost its modifier once remapped.
+  Fixed: debug panels showing "Soon™" right after being turned on.
 - The star map now draws real ground: relief at its true height, coloured by the rock it is made of, with its mountains, its roads and its railways. Towns show how high they stand. The ground refines as you approach and fills itself in from the tile service, and it no longer claims detail it does not have.
 - Update road to can't have more than 10 degres of slope
 - The in-game HUD is now translated in English and French. Interaction prompts show the key you actually bound, on your own keyboard layout, instead of a hardcoded one.

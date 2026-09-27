@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Enhance performances on chunks
+  Enhance starmap
+  add/fix CI for GUT tests
 - Vehicles: progressive steering. Tap or hold the arrows to turn the wheels little by little; they keep their angle when you let go, and straighten up gently while rolling.
   Vehicles: speed limiter. T turns it on or off, Alt + mouse wheel sets the limit in 5 km/h steps. Shown on the dashboard: green when on, red while it holds the truck back.
   Vehicles: odometer on the dashboard, kept across sessions and server restarts.

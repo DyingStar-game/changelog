@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-27T12:03:05.039506+00:00",
+  "generated_at": "2026-09-27T12:08:09.985792+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Enhance performances on chunks\n  Enhance starmap\n  add/fix CI for GUT tests",
           "Vehicles: progressive steering. Tap or hold the arrows to turn the wheels little by little; they keep their angle when you let go, and straighten up gently while rolling.\n  Vehicles: speed limiter. T turns it on or off, Alt + mouse wheel sets the limit in 5 km/h steps. Shown on the dashboard: green when on, red while it holds the truck back.\n  Vehicles: odometer on the dashboard, kept across sessions and server restarts.\n  F7 takes a photo without any interface; F8 takes a screenshot with the debug panels for bug reports. Both are saved in the game's screenshots folder and copied to the clipboard.\n  F6 recordings are now saved in screenshots/records.\n  Settings › Video: a button opens the screenshot gallery.\n  Fixed: a mouse binding with a modifier (e.g. Alt + wheel) lost its modifier once remapped.\n  Fixed: debug panels showing \"Soon™\" right after being turned on.",
           "The star map now draws real ground: relief at its true height, coloured by the rock it is made of, with its mountains, its roads and its railways. Towns show how high they stand. The ground refines as you approach and fills itself in from the tile service, and it no longer claims detail it does not have.",
           "Update road to can't have more than 10 degres of slope",
@@ -136,6 +137,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Amélioration des performances sur les segments\n  Amélioration de la StarMap\n  Ajout/correction de l'intégration continue pour les tests GUT",
           "Véhicules : direction progressive. Un appui bref ou maintenu sur les flèches tourne les roues petit à petit ; elles gardent leur angle quand on relâche, et se redressent doucement en roulant.\n  Véhicules : limiteur de vitesse. T l'active ou le désactive, Alt + molette règle la limite par crans de 5 km/h. Affiché sur le tableau de bord : vert quand il est actif, rouge quand il retient le camion.\n  Véhicules : compteur kilométrique sur le tableau de bord, conservé entre les sessions et les redémarrages du serveur.\n  F7 prend une photo sans aucune interface ; F8 prend une capture avec les panneaux de débogage pour les rapports de bug. Les deux sont rangées dans le dossier screenshots du jeu et copiées dans le presse-papiers.\n  Les enregistrements F6 sont désormais rangés dans screenshots/records.\n  Réglages › Vidéo : un bouton ouvre la galerie de captures.\n  Corrigé : une touche souris avec modificateur (ex. Alt + molette) perdait son modificateur une fois remappée.\n  Corrigé : panneaux de débogage affichant « Soon™ » juste après leur activation.",
           "Amélioration de la StarMap. Les planètes ont leur biomes, leur reliefs, leur ville, villages, gare, routes etc....",
           "Modification de la route pour qu'elle ne dépasse pas une pente de 10 degrés.",

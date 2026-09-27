@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Amélioration des performances sur les segments
+  Amélioration de la StarMap
+  Ajout/correction de l'intégration continue pour les tests GUT
 - Véhicules : direction progressive. Un appui bref ou maintenu sur les flèches tourne les roues petit à petit ; elles gardent leur angle quand on relâche, et se redressent doucement en roulant.
   Véhicules : limiteur de vitesse. T l'active ou le désactive, Alt + molette règle la limite par crans de 5 km/h. Affiché sur le tableau de bord : vert quand il est actif, rouge quand il retient le camion.
   Véhicules : compteur kilométrique sur le tableau de bord, conservé entre les sessions et les redémarrages du serveur.

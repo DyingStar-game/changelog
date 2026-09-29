@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- New: Palaka-Pital Orbital Station, on a real orbit around SandBox (400 km, 1 h 44 per orbit), reachable by teleporter and with a cabin aboard to come back, with rings that turn to give their floor gravity.
+  New: EVA with real inertia: roll (A/E), up/down (Space/Ctrl), brake (X), a new EVA tab in the key settings, a floating animation, and orbital drift beside a station.
+  Changed: `action` moved from E to F, and the separate `interact` key is gone: F does one thing at a time.
+  New: star map shows stations, a view cone, and opens on you the first time and after you travel.
+  Removed: the teleporter's Return button.
+  Fixed: leaving a planet's air no longer drops you in the middle of the system.
+  Fixed: a crate carried through the teleporter (or a truck's load sent to another body) is no longer deleted and can be put down.
 - Enhance performances on chunks
   Enhance starmap
   add/fix CI for GUT tests

@@ -7,6 +7,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Nouveau : la Station orbitale Palaka-Pital, sur une vraie orbite autour de SandBox (400 km, 1 h 44 par tour), accessible par téléporteur avec une cabine à bord pour revenir, et des anneaux qui tournent pour donner de la gravité à leur plancher.
+  Nouveau : une EVA avec une vraie inertie : roulis (A/E), monter/descendre (Espace/Ctrl), frein (X), un onglet EVA dans les touches, une animation de flottement, et la dérive orbitale près d'une station.
+  Modifié : `action` passe de E à F, et la touche `interact` séparée disparaît : F ne fait qu'une chose à la fois.
+  Nouveau : la carte stellaire montre les stations et un cône de vue, et s'ouvre sur vous la première fois et après un voyage.
+  Retiré : le bouton Retour du téléporteur.
+  Corrigé : quitter l'atmosphère d'une planète ne vous envoie plus au milieu du système.
+  Corrigé : une caisse portée à travers le téléporteur (ou le chargement d'un camion envoyé vers un autre astre) n'est plus supprimée et peut être posée.
 - Amélioration des performances sur les segments
   Amélioration de la StarMap
   Ajout/correction de l'intégration continue pour les tests GUT

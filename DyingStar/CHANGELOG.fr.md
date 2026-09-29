@@ -7,6 +7,26 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- [Crevasses] Murs verticaux nets : diagonale des quads corrigée, portée du snap 1,6 pas, normales dédiées aux murs
+  Bords organiques : méandres (domain warp) et bords rongés (fBm)
+  [Crevasses] Hash entier à la place de sin : résultat identique au bit près sur toutes les plateformes
+  [Crevasses] Jumeaux C# bit-exacts (TileFrameNative, CrackVoronoiNative)
+  [volcans] Nouveaux types de pack : volcans (8), coulées de lave (9), fumerolles (10), dessinés dans QGIS
+  [volcans] Volcans : 5 presets (strato, bouclier, caldera, cône de scories, dôme), lac de lave et panache côté client
+  [volcans] Lave : ne remonte jamais les pentes (règle DESCENT), shader actif / en refroidissement / solide
+  [volcans] Fumerolles : évents placés de façon déterministe, dépôts de gaz dans les couleurs de sommets
+  [volcans] Suppression des anciens biomes volcaniques (script de migration fourni)
+  [volcans] Le bord du cratère s'abaisse du côté de la coulée : la lave déborde de 2 m au lieu de creuser un canyon de 203 m
+  [Performances ] Creusement des lignes en C# (GradeCarveNative) : 32 → 12 µs par appel
+  [Performances ] Chunks sous une coulée de lave : de −30 à −50 % de temps de génération
+  [Performances ] Passe des chunks périmés indexée : 200–440 ms → 1–5 ms (le 1–3 FPS près de la lave)
+  [Performances ] Cache disque des chunks lu et écrit hors du thread principal : ~330 ms/s → < 7 ms/s
+  [Performances ] Construction d'un chunk près d'une ligne : elle ne lit plus que le morceau de profil qui la concerne, au lieu de reparcourir toute la ligne (212 000 nœuds pour le rail en anneau). Le résultat est identique au bit près.
+  [Performances ] Mémoire : les relevés de terrain tous les 5 m ne sont plus gardés une fois le profil calculé, soit ~140 Mo de libérés.
+  [Performances ] Précalcul : un nouvel outil, tools/bake_grade_profiles.tscn, calcule une fois pour toutes les profils des lignes, les franchissements de crevasses et les tabliers de pont. Il les écrit dans grade_profiles.pack, que le jeu charge au démarrage : 827 ms au lieu de plusieurs minutes.
+  [Performances ] Données périmées : si le bake ne correspond plus aux données (nouvel export, crevasses ou routes modifiées), le jeu recalcule lui-même et affiche un avertissement. Un test échoue, et link_modifiers.py rappelle la commande à relancer.
+  [Performances ] Bug de performance corrigé : le cache des tuiles de modificateurs faisait un parcours linéaire, sous verrou, à chaque lecture de hauteur. Tous les threads s'attendaient les uns les autres, et c'était de pire en pire avec le temps.
+  [Divers] limite de lint portée à 6 000 lignes, et deux nouvelles suites de tests (découpage des profils, bake).
 - Nouveau : la Station orbitale Palaka-Pital, sur une vraie orbite autour de SandBox (400 km, 1 h 44 par tour), accessible par téléporteur avec une cabine à bord pour revenir, et des anneaux qui tournent pour donner de la gravité à leur plancher.
   Nouveau : une EVA avec une vraie inertie : roulis (A/E), monter/descendre (Espace/Ctrl), frein (X), un onglet EVA dans les touches, une animation de flottement, et la dérive orbitale près d'une station.
   Modifié : `action` passe de E à F, et la touche `interact` séparée disparaît : F ne fait qu'une chose à la fois.

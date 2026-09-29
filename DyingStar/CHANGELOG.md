@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- [Crevasses] Clean vertical walls: corrected quad diagonals, 1.6-step snap range, wall-specific normals
+  Organic edges: meandering (domain warp) and eroded edges (fBm)
+  [Crevasses] Integer hash instead of sine: bit-identical results across all platforms
+  [Crevasses] Bit-exact C# counterparts (TileFrameNative, CrackVoronoiNative)
+  [Volcanoes] New pack types: volcanoes (8), lava flows (9), fumaroles (10), drawn in QGIS
+  [Volcanoes] Volcanoes: 5 presets (stratovolcano, shield, caldera, cinder cone, dome), client-side lava lake and plume
+  [Volcanoes] Lava: never flows uphill (DESCENT rule); shader states: active / cooling / solid
+  [Volcanoes] Fumaroles: deterministically placed events, gas deposits in vertex colors
+  [Volcanoes] Removal of old volcanic biomes (migration script provided)
+  [Volcanoes] Crater rim lowers on the flow side: lava spills over by 2m instead of carving a 203m canyon
+  [Performance] Line carving in C# (GradeCarveNative): 32 → 12 µs per call
+  [Performance] Chunks beneath a lava flow: 30–50% reduction in generation time
+  [Performance] Indexed stale chunk pass: 200–440 ms → 1–5 ms (fixing the 1–3 FPS drop near lava)
+  [Performance] Chunk disk cache read/write off the main thread: ~330 ms/s → < 7 ms/s ms/s
+  [Performance] Chunk construction near a line: it now reads only the relevant section of the profile instead of traversing the entire line (212,000 nodes for the loop rail). The result is bit-for-bit identical.
+  [Performance] Memory: terrain samples taken every 5m are discarded once the profile is calculated, freeing up ~140 MB.
+  [Performance] Pre-calculation: a new tool, `tools/bake_grade_profiles.tscn`, calculates line profiles, crevasse crossings, and bridge decks once and for all. It writes them to `grade_profiles.pack`, which the game loads at startup: 827 ms instead of several minutes.
+  [Performance] Stale data: if the baked data no longer matches the source data (new export, modified crevasses or roads), the game recalculates it and displays a warning. A test fails, and `link_modifiers.py` reminds the user which command to run again.
+  [Performance] Performance bug fixed: the modifier tile cache performed a linear traversal—under a lock—every time a height was read. Threads were blocking each other, and performance degraded over time.
+  [Miscellaneous] Lint limit raised to 6,000 lines; two new test suites added (profile splitting, baking).
 - New: Palaka-Pital Orbital Station, on a real orbit around SandBox (400 km, 1 h 44 per orbit), reachable by teleporter and with a cabin aboard to come back, with rings that turn to give their floor gravity.
   New: EVA with real inertia: roll (A/E), up/down (Space/Ctrl), brake (X), a new EVA tab in the key settings, a floating animation, and orbital drift beside a station.
   Changed: `action` moved from E to F, and the separate `interact` key is gone: F does one thing at a time.

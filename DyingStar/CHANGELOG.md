@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- New graphics options: presets (auto-detected for your GPU on first launch), FSR 1 / FSR 2.2 upscaling, render scale, MSAA / FXAA / SMAA / TAA, shadow quality, SSAO / SSIL / SSR, bloom, anisotropic filtering, debanding, atmosphere and ground quality, and terrain / buildings / vegetation draw distances. Every option explains itself on hover.
+  An in-game graphics panel (Settings > General) to compare options live, with FPS and GPU time; hold AltGr to use the mouse.
+  The screenshot and video folders open from the top of Settings > Graphics.
+  Fixed: holding AltGr made you sink in EVA; F7 photos showed the graphics panel.
 - [Crevasses] Clean vertical walls: corrected quad diagonals, 1.6-step snap range, wall-specific normals
   Organic edges: meandering (domain warp) and eroded edges (fBm)
   [Crevasses] Integer hash instead of sine: bit-identical results across all platforms

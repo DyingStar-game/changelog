@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Nouvelles options graphiques : préréglages (détectés selon votre carte au premier lancement), mise à l'échelle FSR 1 / FSR 2.2, échelle de rendu, MSAA / FXAA / SMAA / TAA, qualité des ombres, SSAO / SSIL / SSR, halo lumineux, filtrage anisotrope, réduction du banding, qualité de l'atmosphère et du sol, et distances d'affichage du terrain / des bâtiments / de la végétation. Chaque option s'explique au survol.
+  Un panneau graphique en jeu (Paramètres > Général) pour comparer les options en direct, avec FPS et temps GPU ; maintenir AltGr pour utiliser la souris.
+  Les dossiers de captures et de vidéos s'ouvrent depuis le haut de Paramètres > Graphismes.
+  Corrigé : maintenir AltGr faisait descendre en EVA ; les photos F7 montraient le panneau graphique.
 - [Crevasses] Murs verticaux nets : diagonale des quads corrigée, portée du snap 1,6 pas, normales dédiées aux murs
   Bords organiques : méandres (domain warp) et bords rongés (fBm)
   [Crevasses] Hash entier à la place de sin : résultat identique au bit près sur toutes les plateformes

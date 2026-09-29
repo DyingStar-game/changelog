@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fixed: the game could freeze when entering the universe from the main menu.
+  Fixed: the dev clock offset carried over to the next connection.
 - The main menu is now a live scene on Tarsis 3 at sunrise, with an outpost, workers and trucks on the road; the camera moves with each menu screen. It can be switched off in Settings > General.
   A tuning scene to compare the graphics options on real ground, at any hour, from Settings > Graphics or the home screen.
   A progress bar on the loading screens.

@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Corrigé : le jeu pouvait se figer en entrant dans l'univers depuis le menu principal.
+  Corrigé : le décalage de l'horloge de dev restait actif à la connexion suivante.
 - Le menu principal est maintenant une scène vivante sur Tarsis 3 au lever du soleil, avec un avant-poste, des ouvriers et des camions sur la route ; la caméra se déplace selon l'écran du menu. Désactivable dans Paramètres > Général.
   Une scène de réglage pour comparer les options graphiques sur le vrai terrain, à toute heure, depuis Paramètres > Graphismes ou l'accueil.
   Une barre de progression sur les écrans de chargement.

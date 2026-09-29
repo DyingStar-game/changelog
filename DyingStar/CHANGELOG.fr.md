@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les panneaux de débogage (Alt+²) forment maintenant un seul panneau à droite, sans chevauchement, qui regroupe les relevés du sol, du déplacement et du véhicule, et le nombre de chunks de terrain affichés.
+  L'alerte d'horloge de dev apparaît désormais dans ce panneau.
 - Nouvelles options graphiques : préréglages (détectés selon votre carte au premier lancement), mise à l'échelle FSR 1 / FSR 2.2, échelle de rendu, MSAA / FXAA / SMAA / TAA, qualité des ombres, SSAO / SSIL / SSR, halo lumineux, filtrage anisotrope, réduction du banding, qualité de l'atmosphère et du sol, et distances d'affichage du terrain / des bâtiments / de la végétation. Chaque option s'explique au survol.
   Un panneau graphique en jeu (Paramètres > Général) pour comparer les options en direct, avec FPS et temps GPU ; maintenir AltGr pour utiliser la souris.
   Les dossiers de captures et de vidéos s'ouvrent depuis le haut de Paramètres > Graphismes.

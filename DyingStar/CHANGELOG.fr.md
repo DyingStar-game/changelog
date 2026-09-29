@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Le menu principal est maintenant une scène vivante sur Tarsis 3 au lever du soleil, avec un avant-poste, des ouvriers et des camions sur la route ; la caméra se déplace selon l'écran du menu. Désactivable dans Paramètres > Général.
+  Une scène de réglage pour comparer les options graphiques sur le vrai terrain, à toute heure, depuis Paramètres > Graphismes ou l'accueil.
+  Une barre de progression sur les écrans de chargement.
+  Les menus tiennent dans une zone centrale 16:9 sur les écrans larges, et suivent le passage entre fenêtré et plein écran.
+  Les boutons de l'accueil et du menu pause partagent le même style ; ceux de l'accueil sont sur une seule ligne.
 - Les panneaux de débogage (Alt+²) forment maintenant un seul panneau à droite, sans chevauchement, qui regroupe les relevés du sol, du déplacement et du véhicule, et le nombre de chunks de terrain affichés.
   L'alerte d'horloge de dev apparaît désormais dans ce panneau.
 - Nouvelles options graphiques : préréglages (détectés selon votre carte au premier lancement), mise à l'échelle FSR 1 / FSR 2.2, échelle de rendu, MSAA / FXAA / SMAA / TAA, qualité des ombres, SSAO / SSIL / SSR, halo lumineux, filtrage anisotrope, réduction du banding, qualité de l'atmosphère et du sol, et distances d'affichage du terrain / des bâtiments / de la végétation. Chaque option s'explique au survol.

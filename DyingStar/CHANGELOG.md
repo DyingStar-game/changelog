@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The main menu is now a live scene on Tarsis 3 at sunrise, with an outpost, workers and trucks on the road; the camera moves with each menu screen. It can be switched off in Settings > General.
+  A tuning scene to compare the graphics options on real ground, at any hour, from Settings > Graphics or the home screen.
+  A progress bar on the loading screens.
+  The menus fit a centred 16:9 area on wide screens, and follow a switch between windowed and fullscreen.
+  The home and pause menu buttons share one look; the home buttons stand on one row.
 - The debug panels (Alt+²) are now one panel on the right that never overlaps itself, with the ground, movement and vehicle readouts in it, and the number of terrain chunks on screen.
   The dev-clock warning now appears in that panel.
 - New graphics options: presets (auto-detected for your GPU on first launch), FSR 1 / FSR 2.2 upscaling, render scale, MSAA / FXAA / SMAA / TAA, shadow quality, SSAO / SSIL / SSR, bloom, anisotropic filtering, debanding, atmosphere and ground quality, and terrain / buildings / vegetation draw distances. Every option explains itself on hover.

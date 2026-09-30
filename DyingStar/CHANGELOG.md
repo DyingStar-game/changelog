@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Star chart (F2): the canyons now show, as real relief near the ground and as dark strips from higher up.
+  Star chart: tunnels and bridges are marked on roads and railways when you are close enough (about 30 km up); railways are drawn with their sleepers.
+  Star chart: points of interest that overlap are grouped under one marker with a count; they separate as you zoom in, and clicking a group zooms onto it.
+  Star chart: over a selected orbital station, the middle mouse button now orbits around the station.
+  Fixed: roads and railways on the star chart were cut into pieces when seen from high up.
+  Controls: you can now bind key combinations (Ctrl, Alt, Shift + a key) and any mouse button, the wheel click included.
+  Controls: a combination no longer also triggers the action bound to the key alone (Ctrl+E no longer fires E).
+  Graphics settings: the frame rate and GPU time are shown at the top of the tab, colour-coded; the hour slider is back in the menu.
+  Fixed: the Medium ground detail lost the hex tiling of the terrain.
+  Debug panel: the Server box lists every zone as a table that scrolls on its own.
+  Truck: gentler steering.
 - New menu layout: a bar across the top with the logo, settings in tabs, smaller text, and the scene visible beside the settings.
   Esc in game opens the settings directly, over the game.
   New setting: interface size (Settings > General).

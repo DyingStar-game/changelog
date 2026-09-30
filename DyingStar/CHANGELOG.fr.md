@@ -7,6 +7,18 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Carte stellaire (F2) : les canyons sont maintenant visibles, en vrai relief près du sol et en bandes sombres vus de plus haut.
+  Carte stellaire : les tunnels et les ponts sont indiqués sur les routes et les voies ferrées quand on est assez près (environ 30 km d'altitude) ; les voies ferrées sont dessinées avec leurs traverses.
+  Carte stellaire : les points d'intérêt qui se chevauchent sont regroupés sous un seul repère avec leur nombre ; ils se séparent en zoomant, et un clic sur un groupe zoome dessus.
+  Carte stellaire : au-dessus d'une station orbitale sélectionnée, le clic molette fait tourner la vue autour de la station.
+  Corrigé : les routes et les voies ferrées apparaissaient en morceaux sur la carte vue de haut.
+  Contrôles : on peut attribuer des combinaisons de touches (Ctrl, Alt, Maj + une touche) et n'importe quel bouton de souris, clic molette compris.
+  Contrôles : une combinaison ne déclenche plus aussi l'action liée à la touche seule (Ctrl+E ne déclenche plus E).
+  Paramètres graphiques : les FPS et le temps GPU s'affichent en haut de l'onglet, avec un code couleur ; le curseur d'heure est de retour dans le menu.
+  Corrigé : le détail du sol en Moyen perdait le pavage hexagonal du terrain.
+  Panneau de debug : la Boîte serveur liste toutes les zones dans un tableau qui défile tout seul.
+  Camion : direction plus douce.
+  Fusion du travail de The_Moye sur les panel de debug
 - Rework complet des menus
   Échap en jeu ouvre directement les paramètres, par-dessus le jeu.
   Nouveau réglage : taille de l'interface (Paramètres > Général).

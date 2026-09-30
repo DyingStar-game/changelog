@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Music now follows where you are: menu, space, points of interest and places with their own music, with cross-fades between tracks.
+  New tracks: Beyond the Horizon, Tin Can.
+  Footsteps on metal.
+  Controls: mute all game sound (N) and mute your microphone (M) are now listed in Controls > General and can be rebound.
+  Fixed: N and M could not be typed in text fields, such as the controls search box.
+  Settings: the line under the pointer is highlighted again, and the background behind the settings is darker and fades out more smoothly.
+  The chat and the HUD are hidden while the pause menu is open.
+  Debug panel: a Music section shows which track plays and why.
 - Holes in front of the teleporter: in the village, terrain vertices are no longer offset toward the edge of an un-excavated fissure, and the terrain around buildings connects seamlessly again—both visually (mesh) and physically (collision).
   Step between chunks: on either side of a trimmed tile boundary, both chunks now read the same height. The 24.5 cm step is gone, in both GDScript and C#.
   Chunk disk cache: the version has been bumped from v56 to v58, so old chunks with holes or offsets are being rebuilt.

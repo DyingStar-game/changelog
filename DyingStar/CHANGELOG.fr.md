@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- La musique change selon où vous êtes : menu, espace, points d'intérêt et lieux avec leur propre musique, avec des fondus entre les morceaux. Mise en place de l'architecture permettant l'ajout facile de nouvelles musiques.
+  Nouveaux morceaux : Beyond the Horizon et Tin Can.
+  Bruits de pas sur le métal.
+  Contrôles : couper tout le son du jeu (N) et couper votre micro (M) apparaissent dans Contrôles > Général et peuvent être réattribués.
+  Corrigé : N et M ne pouvaient pas être tapés dans les champs de texte, comme la recherche des touches.
+  Paramètres : la ligne survolée est de nouveau visible, et le fond derrière les paramètres est plus sombre et s'estompe plus doucement.
+  Le chat et le HUD sont masqués quand le menu pause est ouvert.
+  Panneau de debug : une section Musique indique quel morceau joue et pourquoi.
 - Trous devant le téléporteur : au village, les sommets du terrain n'étaient plus décalés vers la lèvre d'une fissure qui n'est pas creusée, et le terrain autour des bâtiments se rejoint à nouveau, en mesh comme en collision.
   Marche entre chunks : de chaque côté d'une frontière de tuile élaguée, les deux chunks lisent maintenant la même hauteur. La marche de 24,5 cm a disparu, en GDScript comme en C#.
   Cache disque des chunks : il est passé de v56 à v58, donc les anciens chunks troués ou décalés sont reconstruits.

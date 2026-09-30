@@ -7,6 +7,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Rework complet des menus
+  Échap en jeu ouvre directement les paramètres, par-dessus le jeu.
+  Nouveau réglage : taille de l'interface (Paramètres > Général).
+  Les options de débogage ont leur propre onglet Debug.
+  Les infobulles sont lisibles : fond sombre, texte à la ligne.
+  La scène de réglage graphique disparaît : on voit le jeu à droite
+  Corrigé : les menus ne se redimensionnaient pas en passant du mode fenêtré au plein écran.
 - Corrigé : le jeu pouvait se figer en entrant dans l'univers depuis le menu principal.
   Corrigé : le décalage de l'horloge de dev restait actif à la connexion suivante.
 - Le menu principal est maintenant une scène vivante sur Tarsis 3 au lever du soleil, avec un avant-poste, des ouvriers et des camions sur la route ; la caméra se déplace selon l'écran du menu. Désactivable dans Paramètres > Général.

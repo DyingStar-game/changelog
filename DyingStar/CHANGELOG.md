@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Holes in front of the teleporter: in the village, terrain vertices are no longer offset toward the edge of an un-excavated fissure, and the terrain around buildings connects seamlessly again—both visually (mesh) and physically (collision).
+  Step between chunks: on either side of a trimmed tile boundary, both chunks now read the same height. The 24.5 cm step is gone, in both GDScript and C#.
+  Chunk disk cache: the version has been bumped from v56 to v58, so old chunks with holes or offsets are being rebuilt.
 - added ESG (EntityStreamingGodot)
 - Star chart (F2): the canyons now show, as real relief near the ground and as dark strips from higher up.
   Star chart: tunnels and bridges are marked on roads and railways when you are close enough (about 30 km up); railways are drawn with their sleepers.

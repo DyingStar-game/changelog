@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Trous devant le téléporteur : au village, les sommets du terrain n'étaient plus décalés vers la lèvre d'une fissure qui n'est pas creusée, et le terrain autour des bâtiments se rejoint à nouveau, en mesh comme en collision.
+  Marche entre chunks : de chaque côté d'une frontière de tuile élaguée, les deux chunks lisent maintenant la même hauteur. La marche de 24,5 cm a disparu, en GDScript comme en C#.
+  Cache disque des chunks : il est passé de v56 à v58, donc les anciens chunks troués ou décalés sont reconstruits.
 - ajout de l'ESG (EntityStreamingGodot)
 - Carte stellaire (F2) : les canyons sont maintenant visibles, en vrai relief près du sol et en bandes sombres vus de plus haut.
   Carte stellaire : les tunnels et les ponts sont indiqués sur les routes et les voies ferrées quand on est assez près (environ 30 km d'altitude) ; les voies ferrées sont dessinées avec leurs traverses.

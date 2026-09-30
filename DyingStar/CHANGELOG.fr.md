@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- ajout de l'ESG (EntityStreamingGodot)
 - Carte stellaire (F2) : les canyons sont maintenant visibles, en vrai relief près du sol et en bandes sombres vus de plus haut.
   Carte stellaire : les tunnels et les ponts sont indiqués sur les routes et les voies ferrées quand on est assez près (environ 30 km d'altitude) ; les voies ferrées sont dessinées avec leurs traverses.
   Carte stellaire : les points d'intérêt qui se chevauchent sont regroupés sous un seul repère avec leur nombre ; ils se séparent en zoomant, et un clic sur un groupe zoome dessus.

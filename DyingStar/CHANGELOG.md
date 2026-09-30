@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- added ESG (EntityStreamingGodot)
 - Star chart (F2): the canyons now show, as real relief near the ground and as dark strips from higher up.
   Star chart: tunnels and bridges are marked on roads and railways when you are close enough (about 30 km up); railways are drawn with their sleepers.
   Star chart: points of interest that overlap are grouped under one marker with a count; they separate as you zoom in, and clicking a group zooms onto it.

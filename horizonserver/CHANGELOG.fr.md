@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- serverinfo relaie scenes_number_actives aux clients.
 - Optimisation des relations parent-enfant par l'ajout d'un index
   Correction du problème de déconnexion du joueur (dans certains cas, les événements continuaient d'être envoyés à personne).
 - Les composants de véhicule (moteurs, et plus tard batteries et réservoirs) sont répliqués et persistés : quelle baie contient quelle pièce est désormais transmis à tous les clients.

@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Villages POI : le serveur crée les bâtiments d'un village et peut le réveiller quand Horizon demande des logements pour de nouveaux joueurs.
+  Terrain : sur une pente, les bâtiments reposent bien sur leur plateau et le sol entre eux n'est plus en dents de scie.
+  Perf serveur : le TPS remonte de 7 à 55 environ et les entrées des joueurs ne sont plus en retard.
+  NPC bloqués : ils espacent leurs nouvelles tentatives, ce qui divise environ par 10 les requêtes de navigation.
+  NPC en attente de route : ils passent en veille comme les NPC inactifs, pour économiser de la physique.
 - Ajout d'un sous-sol et d'un escalier pour y accéder.
   Mise à jour de la scène de lumière "led_panel_1x0.3m.tscn" (notamment un ajustement de l'intensité lumineuse).
   Création d'une nouvelle scène de lumière "led_panel_1x1m.tscn".

@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- POI Villages: The server generates village buildings and can activate the village when Horizon requests housing for new players.
+  Terrain: On slopes, buildings sit flush on their platforms, and the ground between them no longer has a jagged, saw-tooth appearance.
+  Server performance: TPS has risen from around 7 to 55, and player logins are no longer delayed.
+  Stuck NPCs: They now space out their retry attempts, reducing navigation requests by approximately tenfold.
+  NPCs awaiting a path: They switch to standby mode—just like inactive NPCs—to save on physics processing.
 - Added a basement area and a connecting staircase leading down to it.
   Updated the led_panel_1x0.3m.tscn light scene (including a light intensity adjustment).
   Created a new led_panel_1x1m.tscn light scene.

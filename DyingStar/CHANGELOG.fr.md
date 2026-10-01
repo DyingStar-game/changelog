@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Si vous rencontrez des problèmes de perf, nouveau benchmark en jeu (Paramètres > Graphismes > Benchmark) : la vue tourne lentement sur place pendant que chaque option graphique est baissée tour à tour, puis vos réglages sont remis. Il écrit un rapport de ce que coûte chaque option sur votre machine (copié aussi dans le presse-papiers) à envoyer à WarpZone/KiFouine ; « Ouvrir le dossier » affiche les rapports.
 - Support de la manette : jouer à la manette (disposition Xbox par défaut), réattribuer ses boutons dans Contrôles (colonnes Clavier / souris et Manette séparées), et les indications à l'écran suivent l'appareil utilisé.
   Les menus se pilotent à la manette : croix / stick pour se déplacer, A pour valider, B pour revenir, LB / RB pour les catégories, LT / RT pour la barre du haut.
   La carte stellaire affiche longitude, latitude et altitude sous le curseur près d'un astre.

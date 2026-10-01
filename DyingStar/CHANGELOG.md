@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- New in-game benchmark (Settings > Graphics > Benchmark): the view turns slowly on the spot while each graphics option is lowered in turn, then your settings are put back. It writes a report of what each option costs on your machine (also copied to the clipboard) to send to the team; "Open folder" shows the reports.
 - Gamepad support: play with a controller (Xbox layout by default), rebind its buttons in Controls (separate Keyboard / mouse and Gamepad columns), and on-screen prompts follow the device you use.
   Menus can be driven from the gamepad: D-pad / stick to move, A to confirm, B to go back, LB / RB for categories, LT / RT for the top bar.
   The star map shows longitude, latitude and altitude under the cursor near a body.

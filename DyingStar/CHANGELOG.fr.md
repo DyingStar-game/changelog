@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Fréquence d'images bien plus élevée dans une atmosphère : le ciel et le voile sont calculés avec une table précalculée au lieu d'une boucle par pixel (environ 41 → 70 FPS en Ultra sur une RTX 3090 au spawn).
+  Les lampes des bâtiments ne clignotent plus : seules les plus proches projettent une ombre (les autres éclairent toujours), ce qui est aussi plus rapide la nuit.
+  Moins d'à-coups réguliers dus à la rotation de la planète.
+  Les tableaux de bord des camions et la StarMap sont dessinés que quand on les regarde.
+  Mise à jour du menu avec la position des PNJ et des camions
 - Si vous rencontrez des problèmes de perf, nouveau benchmark en jeu (Paramètres > Graphismes > Benchmark) : la vue tourne lentement sur place pendant que chaque option graphique est baissée tour à tour, puis vos réglages sont remis. Il écrit un rapport de ce que coûte chaque option sur votre machine (copié aussi dans le presse-papiers) à envoyer à WarpZone/KiFouine ; « Ouvrir le dossier » affiche les rapports.
 - Support de la manette : jouer à la manette (disposition Xbox par défaut), réattribuer ses boutons dans Contrôles (colonnes Clavier / souris et Manette séparées), et les indications à l'écran suivent l'appareil utilisé.
   Les menus se pilotent à la manette : croix / stick pour se déplacer, A pour valider, B pour revenir, LB / RB pour les catégories, LT / RT pour la barre du haut.

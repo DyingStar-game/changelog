@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Much higher frame rate in an atmosphere: the sky and the haze are computed with a precomputed table instead of a per-pixel loop (about 41 → 70 fps at Ultra on an RTX 3090 at the spawn).
+  Building lamps no longer blink: only the nearest lamps cast shadows (the others still light), which is also faster at night.
+  Fewer periodic hitches from the planet's rotation.
+  Truck dashboards and the star map are no longer redrawn when nobody looks at them.
+  Main menu: trucks stand on their wheels and the workers' feet are on the ground.
 - New in-game benchmark (Settings > Graphics > Benchmark): the view turns slowly on the spot while each graphics option is lowered in turn, then your settings are put back. It writes a report of what each option costs on your machine (also copied to the clipboard) to send to the team; "Open folder" shows the reports.
 - Gamepad support: play with a controller (Xbox layout by default), rebind its buttons in Controls (separate Keyboard / mouse and Gamepad columns), and on-screen prompts follow the device you use.
   Menus can be driven from the gamepad: D-pad / stick to move, A to confirm, B to go back, LB / RB for categories, LT / RT for the top bar.

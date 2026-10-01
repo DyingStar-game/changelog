@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The terrain loads about three times faster on a first launch or in a new area: its data is now downloaded over several connections at once.
 - POI Villages: The server generates village buildings and can activate the village when Horizon requests housing for new players.
   Terrain: On slopes, buildings sit flush on their platforms, and the ground between them no longer has a jagged, saw-tooth appearance.
   Server performance: TPS has risen from around 7 to 55, and player logins are no longer delayed.

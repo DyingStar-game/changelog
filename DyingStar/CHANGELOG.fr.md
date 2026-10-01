@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Le terrain se charge environ trois fois plus vite au premier lancement ou dans une nouvelle zone : ses données sont désormais téléchargées par plusieurs connexions à la fois.
 - Villages POI : le serveur crée les bâtiments d'un village et peut le réveiller quand Horizon demande des logements pour de nouveaux joueurs.
   Terrain : sur une pente, les bâtiments reposent bien sur leur plateau et le sol entre eux n'est plus en dents de scie.
   Perf serveur : le TPS remonte de 7 à 55 environ et les entrées des joueurs ne sont plus en retard.

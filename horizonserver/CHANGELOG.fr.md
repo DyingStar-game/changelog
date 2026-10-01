@@ -6,6 +6,10 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Seed des villages : les 4 POI « mining village » de l'export QGIS de tarsis_3 sont ajoutés dans startup_items.json, avec un uuid fixe et une position calculée depuis leur lat/lon. mining_village_01 est déjà marqué spawné, ses habs étant les 23 spawnbuildings existants.
+  Lien bâtiment → village : la nouvelle propriété poi_uuid rattache chaque spawnbuilding à son village (parent_id reste informatif). Le village reçoit aussi une propriété spawn_requested.
+  Attribution des appartements : un nouveau joueur va dans le village le plus rempli encore sous le plafond (50, configurable via max_players_per_village). Le plafond est strict pour un joueur seul. Le dépassement est prévu pour le futur matchmaking (amis / groupe) via AssignRequest, mais pas encore actif.
+  Spawn à la demande : à 80 % du plafond (village_prespawn_ratio), si aucun autre village n'a de place, Horizon passe spawn_requested sur le village non spawné le plus proche, un seul à la fois. Seul le serveur Godot qui possède sa zone reçoit la demande et crée les habs.
 - serverinfo relaie scenes_number_actives aux clients.
 - Optimisation des relations parent-enfant par l'ajout d'un index
   Correction du problème de déconnexion du joueur (dans certains cas, les événements continuaient d'être envoyés à personne).

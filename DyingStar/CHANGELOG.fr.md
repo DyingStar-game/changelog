@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Un corps planétaire attend sa collision avec le terrain avant de devenir dynamique.
 - La musique change selon où vous êtes : menu, espace, points d'intérêt et lieux avec leur propre musique, avec des fondus entre les morceaux. Mise en place de l'architecture permettant l'ajout facile de nouvelles musiques.
   Nouveaux morceaux : Beyond the Horizon et Tin Can.
   Bruits de pas sur le métal.

@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- a planet body waits for its terrain collision before turning dynamic
 - Music now follows where you are: menu, space, points of interest and places with their own music, with cross-fades between tracks.
   New tracks: Beyond the Horizon, Tin Can.
   Footsteps on metal.

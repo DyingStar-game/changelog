@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Added a basement area and a connecting staircase leading down to it.
+  Updated the led_panel_1x0.3m.tscn light scene (including a light intensity adjustment).
+  Created a new led_panel_1x1m.tscn light scene.
 - Much higher frame rate in an atmosphere: the sky and the haze are computed with a precomputed table instead of a per-pixel loop (about 41 → 70 fps at Ultra on an RTX 3090 at the spawn).
   Building lamps no longer blink: only the nearest lamps cast shadows (the others still light), which is also faster at night.
   Fewer periodic hitches from the planet's rotation.

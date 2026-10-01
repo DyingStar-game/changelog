@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Ajout d'un sous-sol et d'un escalier pour y accéder.
+  Mise à jour de la scène de lumière "led_panel_1x0.3m.tscn" (notamment un ajustement de l'intensité lumineuse).
+  Création d'une nouvelle scène de lumière "led_panel_1x1m.tscn".
 - Fréquence d'images bien plus élevée dans une atmosphère : le ciel et le voile sont calculés avec une table précalculée au lieu d'une boucle par pixel (environ 41 → 70 FPS en Ultra sur une RTX 3090 au spawn).
   Les lampes des bâtiments ne clignotent plus : seules les plus proches projettent une ombre (les autres éclairent toujours), ce qui est aussi plus rapide la nuit.
   Moins d'à-coups réguliers dus à la rotation de la planète.

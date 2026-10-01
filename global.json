@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T21:30:35.551996+00:00",
+  "generated_at": "2026-10-01T23:23:32.686258+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
@@ -324,6 +324,7 @@
     "horizonserver": {
       "unreleased": {
         "en": [
+          "change in how available housing slots work to manage the sudden influx of players",
           "Village seeds: The 4 \"mining village\" POIs from the tarsis_3 QGIS export are added to `startup_items.json` with fixed UUIDs and positions calculated from their lat/lon coordinates. `mining_village_01` is already marked as spawned, with its habs consisting of the 23 existing spawn buildings.\n  Building-to-village link: The new `poi_uuid` property links each spawn building to its village (while `parent_id` remains for informational purposes). The village also receives a `spawn_requested` property.\n  Apartment assignment: A new player is assigned to the fullest village that is still below the capacity limit (50, configurable via `max_players_per_village`). This limit is strict for individual players. Exceeding the limit is planned for future matchmaking (friends/groups) via `AssignRequest`, but this feature is not yet active.\n  On-demand spawning: At 80% capacity (`village_prespawn_ratio`), if no other village has space, Horizon sets `spawn_requested` for the nearest unspawned village—one at a time. Only the Godot server responsible for that zone receives the request and creates the habs.",
           "serverinfo relays scenes_number_actives to clients.",
           "optimization of parent-children by addeing index\n  fix disconnect player (on some cases events continues to send to nobody",
@@ -355,6 +356,7 @@
           "Fix the ore shown on a fractured rock's cut faces so it stays consistent across clients."
         ],
         "fr": [
+          "changement de fonctionnement sur le nombre de place d'habitations disponible pour gérer la charge de joueurs d'un coup",
           "Seed des villages : les 4 POI « mining village » de l'export QGIS de tarsis_3 sont ajoutés dans startup_items.json, avec un uuid fixe et une position calculée depuis leur lat/lon. mining_village_01 est déjà marqué spawné, ses habs étant les 23 spawnbuildings existants.\n  Lien bâtiment → village : la nouvelle propriété poi_uuid rattache chaque spawnbuilding à son village (parent_id reste informatif). Le village reçoit aussi une propriété spawn_requested.\n  Attribution des appartements : un nouveau joueur va dans le village le plus rempli encore sous le plafond (50, configurable via max_players_per_village). Le plafond est strict pour un joueur seul. Le dépassement est prévu pour le futur matchmaking (amis / groupe) via AssignRequest, mais pas encore actif.\n  Spawn à la demande : à 80 % du plafond (village_prespawn_ratio), si aucun autre village n'a de place, Horizon passe spawn_requested sur le village non spawné le plus proche, un seul à la fois. Seul le serveur Godot qui possède sa zone reçoit la demande et crée les habs.",
           "serverinfo relaie scenes_number_actives aux clients.",
           "Optimisation des relations parent-enfant par l'ajout d'un index\n  Correction du problème de déconnexion du joueur (dans certains cas, les événements continuaient d'être envoyés à personne).",

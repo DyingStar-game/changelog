@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Support de la manette : jouer à la manette (disposition Xbox par défaut), réattribuer ses boutons dans Contrôles (colonnes Clavier / souris et Manette séparées), et les indications à l'écran suivent l'appareil utilisé.
+  Les menus se pilotent à la manette : croix / stick pour se déplacer, A pour valider, B pour revenir, LB / RB pour les catégories, LT / RT pour la barre du haut.
+  La carte stellaire affiche longitude, latitude et altitude sous le curseur près d'un astre.
+  FPS / GPU affichés dans la rangée d'onglets des paramètres ; nouveau curseur de volume Interface.
+  Menu Audio : nouveau slider pour changer le volume de l'interface
 - Un corps planétaire attend sa collision avec le terrain avant de devenir dynamique.
 - La musique change selon où vous êtes : menu, espace, points d'intérêt et lieux avec leur propre musique, avec des fondus entre les morceaux. Mise en place de l'architecture permettant l'ajout facile de nouvelles musiques.
   Nouveaux morceaux : Beyond the Horizon et Tin Can.

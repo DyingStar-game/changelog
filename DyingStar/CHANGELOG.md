@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Gamepad support: play with a controller (Xbox layout by default), rebind its buttons in Controls (separate Keyboard / mouse and Gamepad columns), and on-screen prompts follow the device you use.
+  Menus can be driven from the gamepad: D-pad / stick to move, A to confirm, B to go back, LB / RB for categories, LT / RT for the top bar.
+  The star map shows longitude, latitude and altitude under the cursor near a body.
+  FPS / GPU shown in the settings tab row; new Interface volume slider.
 - a planet body waits for its terrain collision before turning dynamic
 - Music now follows where you are: menu, space, points of interest and places with their own music, with cross-fades between tracks.
   New tracks: Beyond the Horizon, Tin Can.

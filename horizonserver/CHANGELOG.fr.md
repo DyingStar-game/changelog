@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- un seul serveur par joueur, donc plus de doublons ni de total à 6 372.
 - changement de fonctionnement sur le nombre de place d'habitations disponible pour gérer la charge de joueurs d'un coup
 - Seed des villages : les 4 POI « mining village » de l'export QGIS de tarsis_3 sont ajoutés dans startup_items.json, avec un uuid fixe et une position calculée depuis leur lat/lon. mining_village_01 est déjà marqué spawné, ses habs étant les 23 spawnbuildings existants.
   Lien bâtiment → village : la nouvelle propriété poi_uuid rattache chaque spawnbuilding à son village (parent_id reste informatif). Le village reçoit aussi une propriété spawn_requested.

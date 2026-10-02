@@ -7,6 +7,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Nouveau : la batterie T1. Le camion roule désormais à l'énergie : il ne démarre pas sans batterie chargée, et la batterie se vide selon l'effort des moteurs (les pentes et les lourdes charges la vident plus vite).
+  Un camion utilise une batterie à la fois et passe à la suivante quand elle est vide ; la batterie en service ne peut pas être retirée moteur allumé.
+  Chaque batterie affiche sa charge (en kWh) sur ses flancs, et le tableau de bord du camion montre une barre par batterie avec son pourcentage (vert, orange, rouge).
+  Les camions sortent désormais d'usine avec deux moteurs T1 et une batterie T1.
+  Les batteries peuvent être apparues avec la roue d'apparition.
+  Nouvelles musiques : « Balade » (LRC), « A starry night » et « Meloncholia » (Koothka), « EVA Atmo 1 » (Solstium), « Syd where are you » (spaceman), en EVA, en station spatiale et en pleine nature.
 - Carte stellaire : toutes les commandes (clic, double-clic, clic droit, clic molette, molette, manette) sont réassignables dans Paramètres > Contrôles, et la ligne d'aide en bas de la carte affiche vos propres touches.
   Carte stellaire : le bouton X de la manette réinitialise la vue.
   Carte stellaire : ses chiffres de debug passent dans le panneau de debug, avec leur propre case dans Paramètres > Debug.

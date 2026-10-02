@@ -7,6 +7,17 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Beaucoup moins d'à-coups à pied et en véhicule : le niveau de détail du terrain est désormais calculé en arrière-plan.
+  Au premier lancement, le sol autour de vous apparaît en premier au lieu du paysage lointain.
+  Voler vite (EVA) ne fige plus le jeu pendant des secondes le temps que le terrain suive.
+  Plus de trous qui clignotent dans le sol devant vous quand vous avancez.
+  Plus de gel du jeu quand vous vous éloignez d'une zone chargée.
+  Le terrain se charge environ trois fois plus vite au premier lancement ou dans une nouvelle zone.
+  En vol rapide, le sol nouveau est affiché avec moins de détails pour suivre votre vitesse ; le sol déjà vu reste détaillé, et le détail complet revient quand vous ralentissez.
+  Correction d'un plantage quelques secondes après l'ouverture du menu principal au premier lancement.
+  Le terrain que vous regardez arrive désormais en premier.
+  Plus de long gel en ralentissant ou en arrivant sur un sol déjà vu.
+  Décollage et arrêt plus fluides en vol rapide.
 - Le terrain se charge environ trois fois plus vite au premier lancement ou dans une nouvelle zone : ses données sont désormais téléchargées par plusieurs connexions à la fois.
 - Villages POI : le serveur crée les bâtiments d'un village et peut le réveiller quand Horizon demande des logements pour de nouveaux joueurs.
   Terrain : sur une pente, les bâtiments reposent bien sur leur plateau et le sol entre eux n'est plus en dents de scie.

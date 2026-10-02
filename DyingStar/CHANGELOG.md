@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Far fewer hitches when walking and driving: the terrain's level of detail is now worked out in the background.
+  On a first launch, the ground around you appears first instead of the distant landscape.
+  Flying fast (EVA) no longer freezes the game for seconds while the terrain catches up.
+  No more holes blinking in the ground ahead of you while you move.
+  No more freeze when you fly away from a busy area.
+  The terrain loads about three times faster on a first launch or in a new area.
+  When flying fast, new ground is drawn in less detail so it keeps up with you; ground you have already seen stays detailed, and full detail comes back when you slow down.
+  Fixed a crash a few seconds into the main menu on a first launch.
+  The terrain where you look now comes in first.
+  No more long freeze when slowing down or arriving over ground you have already seen.
+  Smoother take-off and stopping when flying fast.
 - The terrain loads about three times faster on a first launch or in a new area: its data is now downloaded over several connections at once.
 - POI Villages: The server generates village buildings and can activate the village when Horizon requests housing for new players.
   Terrain: On slopes, buildings sit flush on their platforms, and the ground between them no longer has a jagged, saw-tooth appearance.

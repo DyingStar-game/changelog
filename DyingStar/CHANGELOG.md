@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Star map: every control (click, double click, right click, middle click, wheel, gamepad) can now be rebound in Settings > Controls, and the help line at the bottom of the map shows your own keys.
+  Star map: the gamepad's X button resets the view.
+  Star map: its debug numbers moved to the debug panel, behind their own switch in Settings > Debug.
+  Mouse buttons are named in your language in the controls page.
+  No more head bob: the first-person view stays steady when walking, running, standing still or turning on the spot, while still lowering when you crouch or lie down.
+  The truck has a registration plate.
+  Engines put back into a truck stay in their bay after a server restart.
+  The "Gamepad detected" window's OK looks like a button.
+  New music in the wilderness, by Plx.
+  Every setting in the Godot inspector now explains itself when hovered (for creators).
 - Far fewer hitches when walking and driving: the terrain's level of detail is now worked out in the background.
   On a first launch, the ground around you appears first instead of the distant landscape.
   Flying fast (EVA) no longer freezes the game for seconds while the terrain catches up.

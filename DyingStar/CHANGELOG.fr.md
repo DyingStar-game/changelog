@@ -7,6 +7,16 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Carte stellaire : toutes les commandes (clic, double-clic, clic droit, clic molette, molette, manette) sont réassignables dans Paramètres > Contrôles, et la ligne d'aide en bas de la carte affiche vos propres touches.
+  Carte stellaire : le bouton X de la manette réinitialise la vue.
+  Carte stellaire : ses chiffres de debug passent dans le panneau de debug, avec leur propre case dans Paramètres > Debug.
+  Les boutons de la souris sont nommés dans votre langue dans la page des contrôles.
+  Plus de balancement de la caméra : la vue à la première personne reste stable en marchant, en courant, à l'arrêt ou en tournant sur place, et descend toujours quand vous vous accroupissez ou vous couchez.
+  Le camion a une plaque d'immatriculation.
+  Les moteurs remis dans un camion restent dans leur baie après un redémarrage du serveur.
+  Le OK de la fenêtre « Manette détectée » a l'allure d'un bouton.
+  Nouvelle musique en pleine nature, par Plx.
+  Chaque réglage de l'inspecteur Godot s'explique désormais au survol (pour les créateurs).
 - Beaucoup moins d'à-coups à pied et en véhicule : le niveau de détail du terrain est désormais calculé en arrière-plan.
   Au premier lancement, le sol autour de vous apparaît en premier au lieu du paysage lointain.
   Voler vite (EVA) ne fige plus le jeu pendant des secondes le temps que le terrain suive.

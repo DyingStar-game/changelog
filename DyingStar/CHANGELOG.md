@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- add garage
 - New: the T1 battery. The truck now runs on energy: it will not start without a charged battery, and a battery empties as the motors pull (slopes and heavy loads drain it faster).
   A truck uses one battery at a time and moves on to the next when it is empty; the battery in use cannot be removed while the engine runs.
   Each battery shows its charge (in kWh) on its side, and the truck's dashboard shows one bar per battery with its percentage (green, orange, red).

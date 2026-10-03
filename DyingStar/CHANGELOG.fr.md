@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- ajout du garage
 - Nouveau : la batterie T1. Le camion roule désormais à l'énergie : il ne démarre pas sans batterie chargée, et la batterie se vide selon l'effort des moteurs (les pentes et les lourdes charges la vident plus vite).
   Un camion utilise une batterie à la fois et passe à la suivante quand elle est vide ; la batterie en service ne peut pas être retirée moteur allumé.
   Chaque batterie affiche sa charge (en kWh) sur ses flancs, et le tableau de bord du camion montre une barre par batterie avec son pourcentage (vert, orange, rouge).

@@ -6,6 +6,9 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Au démarrage, plus de bâtiments, seulement les villages ; M0001 est demandé d'office. Un nouveau joueur attend ses habs jusqu'à 40 s, sinon il reçoit Server not ready et est déconnecté. Ajoute aussi les définitions des nouveaux props (simple_building, ascenseurs à véhicules).
+  Les nouveaux joueurs sont placés sur le serveur Godot le moins chargé, et non plus village après village.
+  Le pool de serveurs Godot ne s'effondre plus quand certains se figent sous la charge. Ajoute aussi un état [mesh] loggué toutes les 5 s et des scripts pour analyser les tests de charge.
 - un seul serveur par joueur, donc plus de doublons ni de total à 6 372.
 - changement de fonctionnement sur le nombre de place d'habitations disponible pour gérer la charge de joueurs d'un coup
 - Seed des villages : les 4 POI « mining village » de l'export QGIS de tarsis_3 sont ajoutés dans startup_items.json, avec un uuid fixe et une position calculée depuis leur lat/lon. mining_village_01 est déjà marqué spawné, ses habs étant les 23 spawnbuildings existants.

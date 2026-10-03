@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- At startup, there are no longer any buildings, only villages; M0001 is requested by default. New players wait up to 40 seconds for their housing units to load; otherwise, they receive a "Server not ready" error and are disconnected. Definitions for new props (simple_building, vehicle elevators) have also been added.
+  New players are assigned to the least loaded Godot server, rather than being placed sequentially from village to village.
+  The Godot server pool no longer collapses when specific servers freeze under load. A [mesh] state is now logged every 5 seconds, and scripts have been added to analyze load test results.
 - only one server per player, so no more duplicates or a total of 6,372.
 - change in how available housing slots work to manage the sudden influx of players
 - Village seeds: The 4 "mining village" POIs from the tarsis_3 QGIS export are added to `startup_items.json` with fixed UUIDs and positions calculated from their lat/lon coordinates. `mining_village_01` is already marked as spawned, with its habs consisting of the 23 existing spawn buildings.

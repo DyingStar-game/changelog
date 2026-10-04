@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- nouveau système lors de la création d'un nouveau serveur (maillage de serveurs dynamique) et transfert des objets et des joueurs vers ce nouveau serveur
 - Gel ordonné : après un split, l'ancien serveur gèle d'abord les joueurs, puis les véhicules occupés, puis le reste des ~20 000 objets. Le joueur transféré n'est plus simulé 3 s par deux serveurs, ce qui supprime le saut en arrière du camion et le freeze.
   Photo fraîche réduite : après le préchauffage, horizon ne redemande à genericprops que les joueurs et leurs véhicules, au lieu de tout le monde (~2,5 s). Ils arrivent sur le nouveau serveur avec leur position actuelle au lieu de 2 à 3 s de retard.
   Mesure : chaque split écrit une ligne [mesh] freeze coverage, qui compte les objets cédés absents de la liste du serveur. On saura ainsi si on peut ne geler que ce qu'il simule.

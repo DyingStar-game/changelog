@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- new system when create new server (server meshing dynamic) and send items and players on the new server
 - Ordered freeze: after a split, the old server first freezes players, then occupied vehicles, and finally the remaining ~20,000 objects. The transferred player is no longer simulated by two servers simultaneously for 3 seconds, eliminating the truck "rubber-banding" and the freeze.
   Reduced snapshot: after the warm-up phase, Horizon requests only the players and their vehicles from `genericprops`, rather than everything (~2.5s). They arrive on the new server at their current position instead of being 2–3 seconds behind.
   Measurement: each split logs a `[mesh] freeze coverage` line, counting the handed-over objects that are missing from the server's list. This will determine whether it is possible to freeze only the objects currently being simulated.

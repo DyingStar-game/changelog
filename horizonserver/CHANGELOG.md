@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Ordered freeze: after a split, the old server first freezes players, then occupied vehicles, and finally the remaining ~20,000 objects. The transferred player is no longer simulated by two servers simultaneously for 3 seconds, eliminating the truck "rubber-banding" and the freeze.
+  Reduced snapshot: after the warm-up phase, Horizon requests only the players and their vehicles from `genericprops`, rather than everything (~2.5s). They arrive on the new server at their current position instead of being 2–3 seconds behind.
+  Measurement: each split logs a `[mesh] freeze coverage` line, counting the handed-over objects that are missing from the server's list. This will determine whether it is possible to freeze only the objects currently being simulated.
 - [server meshing dynamic]  change to the way the initial server is split: splitting across two new pre-warmed servers instead of moving everything to a single new server.
 - At startup, there are no longer any buildings, only villages; M0001 is requested by default. New players wait up to 40 seconds for their housing units to load; otherwise, they receive a "Server not ready" error and are disconnected. Definitions for new props (simple_building, vehicle elevators) have also been added.
   New players are assigned to the least loaded Godot server, rather than being placed sequentially from village to village.

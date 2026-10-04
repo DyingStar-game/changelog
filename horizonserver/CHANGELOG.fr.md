@@ -6,6 +6,9 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Gel ordonné : après un split, l'ancien serveur gèle d'abord les joueurs, puis les véhicules occupés, puis le reste des ~20 000 objets. Le joueur transféré n'est plus simulé 3 s par deux serveurs, ce qui supprime le saut en arrière du camion et le freeze.
+  Photo fraîche réduite : après le préchauffage, horizon ne redemande à genericprops que les joueurs et leurs véhicules, au lieu de tout le monde (~2,5 s). Ils arrivent sur le nouveau serveur avec leur position actuelle au lieu de 2 à 3 s de retard.
+  Mesure : chaque split écrit une ligne [mesh] freeze coverage, qui compte les objets cédés absents de la liste du serveur. On saura ainsi si on peut ne geler que ce qu'il simule.
 - [server meshing dynamic] changement de la façon de spliter le tout premier server : split sur 2 nouveaux serveurs pré-chauffés au lieu de tout envoyer sur un nouveau serveur
 - Au démarrage, plus de bâtiments, seulement les villages ; M0001 est demandé d'office. Un nouveau joueur attend ses habs jusqu'à 40 s, sinon il reçoit Server not ready et est déconnecté. Ajoute aussi les définitions des nouveaux props (simple_building, ascenseurs à véhicules).
   Les nouveaux joueurs sont placés sur le serveur Godot le moins chargé, et non plus village après village.

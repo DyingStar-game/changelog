@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-04T12:09:36.248447+00:00",
+  "generated_at": "2026-10-04T12:20:28.752285+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "new system when create new server (server meshing dynamic) and send items and players on the new server",
           "If your body leaves the scene tree during a transfer, it is placed under the recreated truck (or under the planet).\n  You sit back behind the wheel, and the camera returns to you. You no longer see through another player's eyes.\n  The seat is vacated before a transferred driver is erased, and their body is removed from the truck.\n  The truck is destroyed at least two physical frames after its driver, and removed from physical space beforehand. This should fix the Godot server crashes.\n  The driver registered in the database is now the actual occupant of the seat. A departing driver is erased after 10 seconds.",
           "add garage",
           "New: the T1 battery. The truck now runs on energy: it will not start without a charged battery, and a battery empties as the motors pull (slopes and heavy loads drain it faster).\n  A truck uses one battery at a time and moves on to the next when it is empty; the battery in use cannot be removed while the engine runs.\n  Each battery shows its charge (in kWh) on its side, and the truck's dashboard shows one bar per battery with its percentage (green, orange, red).\n  Trucks now leave the factory with two T1 motors and a T1 battery.\n  Batteries can be spawned from the spawn wheel.\n  New music: \"Balade\" (LRC), \"A starry night\" and \"Meloncholia\" (Koothka), \"EVA Atmo 1\" (Solstium), \"Syd where are you\" (spaceman), in EVA, space stations and the wilderness.",
@@ -160,6 +161,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "nouveau système lors de la création d'un nouveau serveur (maillage de serveurs dynamique) et transfert des objets et des joueurs vers ce nouveau serveur",
           "Si ton corps sort de l'arbre de scène pendant un transfert, il est remis sous le camion recréé (sinon sous la planète).\n  Tu es rassis au volant et la caméra revient sur toi. Tu ne vois plus à travers les yeux d'un autre joueur.\n  Le siège est libéré avant d'effacer un conducteur transféré, et son corps est retiré du camion.\n  Le camion est détruit au moins 2 frames physiques après son conducteur, et sorti de l'espace physique avant. Ça doit corriger les crashs du serveur Godot.\n  Le conducteur enregistré en base est maintenant l'occupant réel du siège. Un conducteur parti est effacé au bout de 10 s",
           "ajout du garage",
           "Nouveau : la batterie T1. Le camion roule désormais à l'énergie : il ne démarre pas sans batterie chargée, et la batterie se vide selon l'effort des moteurs (les pentes et les lourdes charges la vident plus vite).\n  Un camion utilise une batterie à la fois et passe à la suivante quand elle est vide ; la batterie en service ne peut pas être retirée moteur allumé.\n  Chaque batterie affiche sa charge (en kWh) sur ses flancs, et le tableau de bord du camion montre une barre par batterie avec son pourcentage (vert, orange, rouge).\n  Les camions sortent désormais d'usine avec deux moteurs T1 et une batterie T1.\n  Les batteries peuvent être apparues avec la roue d'apparition.\n  Nouvelles musiques : « Balade » (LRC), « A starry night » et « Meloncholia » (Koothka), « EVA Atmo 1 » (Solstium), « Syd where are you » (spaceman), en EVA, en station spatiale et en pleine nature.",

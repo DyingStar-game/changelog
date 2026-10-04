@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- nouveau système lors de la création d'un nouveau serveur (maillage de serveurs dynamique) et transfert des objets et des joueurs vers ce nouveau serveur
 - Si ton corps sort de l'arbre de scène pendant un transfert, il est remis sous le camion recréé (sinon sous la planète).
   Tu es rassis au volant et la caméra revient sur toi. Tu ne vois plus à travers les yeux d'un autre joueur.
   Le siège est libéré avant d'effacer un conducteur transféré, et son corps est retiré du camion.

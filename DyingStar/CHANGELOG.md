@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- new system when create new server (server meshing dynamic) and send items and players on the new server
 - If your body leaves the scene tree during a transfer, it is placed under the recreated truck (or under the planet).
   You sit back behind the wheel, and the camera returns to you. You no longer see through another player's eyes.
   The seat is vacated before a transferred driver is erased, and their body is removed from the truck.

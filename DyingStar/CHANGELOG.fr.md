@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Si ton corps sort de l'arbre de scène pendant un transfert, il est remis sous le camion recréé (sinon sous la planète).
+  Tu es rassis au volant et la caméra revient sur toi. Tu ne vois plus à travers les yeux d'un autre joueur.
+  Le siège est libéré avant d'effacer un conducteur transféré, et son corps est retiré du camion.
+  Le camion est détruit au moins 2 frames physiques après son conducteur, et sorti de l'espace physique avant. Ça doit corriger les crashs du serveur Godot.
+  Le conducteur enregistré en base est maintenant l'occupant réel du siège. Un conducteur parti est effacé au bout de 10 s
 - ajout du garage
 - Nouveau : la batterie T1. Le camion roule désormais à l'énergie : il ne démarre pas sans batterie chargée, et la batterie se vide selon l'effort des moteurs (les pentes et les lourdes charges la vident plus vite).
   Un camion utilise une batterie à la fois et passe à la suivante quand elle est vide ; la batterie en service ne peut pas être retirée moteur allumé.

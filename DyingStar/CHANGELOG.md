@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- If your body leaves the scene tree during a transfer, it is placed under the recreated truck (or under the planet).
+  You sit back behind the wheel, and the camera returns to you. You no longer see through another player's eyes.
+  The seat is vacated before a transferred driver is erased, and their body is removed from the truck.
+  The truck is destroyed at least two physical frames after its driver, and removed from physical space beforehand. This should fix the Godot server crashes.
+  The driver registered in the database is now the actual occupant of the seat. A departing driver is erased after 10 seconds.
 - add garage
 - New: the T1 battery. The truck now runs on energy: it will not start without a charged battery, and a battery empties as the motors pull (slopes and heavy loads drain it faster).
   A truck uses one battery at a time and moves on to the next when it is empty; the battery in use cannot be removed while the engine runs.

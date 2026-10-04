@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:33:34.061055+00:00",
+  "generated_at": "2026-10-04T08:03:31.423253+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
@@ -332,6 +332,7 @@
     "horizonserver": {
       "unreleased": {
         "en": [
+          "[server meshing dynamic]  change to the way the initial server is split: splitting across two new pre-warmed servers instead of moving everything to a single new server.",
           "At startup, there are no longer any buildings, only villages; M0001 is requested by default. New players wait up to 40 seconds for their housing units to load; otherwise, they receive a \"Server not ready\" error and are disconnected. Definitions for new props (simple_building, vehicle elevators) have also been added.\n  New players are assigned to the least loaded Godot server, rather than being placed sequentially from village to village.\n  The Godot server pool no longer collapses when specific servers freeze under load. A [mesh] state is now logged every 5 seconds, and scripts have been added to analyze load test results.",
           "only one server per player, so no more duplicates or a total of 6,372.",
           "change in how available housing slots work to manage the sudden influx of players",
@@ -366,6 +367,7 @@
           "Fix the ore shown on a fractured rock's cut faces so it stays consistent across clients."
         ],
         "fr": [
+          "[server meshing dynamic] changement de la façon de spliter le tout premier server : split sur 2 nouveaux serveurs pré-chauffés au lieu de tout envoyer sur un nouveau serveur",
           "Au démarrage, plus de bâtiments, seulement les villages ; M0001 est demandé d'office. Un nouveau joueur attend ses habs jusqu'à 40 s, sinon il reçoit Server not ready et est déconnecté. Ajoute aussi les définitions des nouveaux props (simple_building, ascenseurs à véhicules).\n  Les nouveaux joueurs sont placés sur le serveur Godot le moins chargé, et non plus village après village.\n  Le pool de serveurs Godot ne s'effondre plus quand certains se figent sous la charge. Ajoute aussi un état [mesh] loggué toutes les 5 s et des scripts pour analyser les tests de charge.",
           "un seul serveur par joueur, donc plus de doublons ni de total à 6 372.",
           "changement de fonctionnement sur le nombre de place d'habitations disponible pour gérer la charge de joueurs d'un coup",

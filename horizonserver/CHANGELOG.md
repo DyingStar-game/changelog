@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- [server meshing dynamic]  change to the way the initial server is split: splitting across two new pre-warmed servers instead of moving everything to a single new server.
 - At startup, there are no longer any buildings, only villages; M0001 is requested by default. New players wait up to 40 seconds for their housing units to load; otherwise, they receive a "Server not ready" error and are disconnected. Definitions for new props (simple_building, vehicle elevators) have also been added.
   New players are assigned to the least loaded Godot server, rather than being placed sequentially from village to village.
   The Godot server pool no longer collapses when specific servers freeze under load. A [mesh] state is now logged every 5 seconds, and scripts have been added to analyze load test results.

@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- [server meshing dynamic] changement de la façon de spliter le tout premier server : split sur 2 nouveaux serveurs pré-chauffés au lieu de tout envoyer sur un nouveau serveur
 - Au démarrage, plus de bâtiments, seulement les villages ; M0001 est demandé d'office. Un nouveau joueur attend ses habs jusqu'à 40 s, sinon il reçoit Server not ready et est déconnecté. Ajoute aussi les définitions des nouveaux props (simple_building, ascenseurs à véhicules).
   Les nouveaux joueurs sont placés sur le serveur Godot le moins chargé, et non plus village après village.
   Le pool de serveurs Godot ne s'effondre plus quand certains se figent sous la charge. Ajoute aussi un état [mesh] loggué toutes les 5 s et des scripts pour analyser les tests de charge.

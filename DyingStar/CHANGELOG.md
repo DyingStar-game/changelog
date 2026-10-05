@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Mining villages get container yards, stacked up to three high, and ore skips.
+  Factory cities: industrial zones with mining depots, cargo depots, garages, two teleporters and container yards.
+  Containers carry the ARES logo and keep their detail much further away.
 - Every mining village has a teleporter cabin, and the orbital station has its own again.
   Teleporting to the orbital station works again.
   Village buildings wear neon signs (garage, teleporter, cargo and mining depots), in your language.

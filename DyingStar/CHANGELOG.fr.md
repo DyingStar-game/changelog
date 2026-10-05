@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les villages miniers reçoivent des parcs à conteneurs, empilés jusqu'à trois, et des bennes à minerai.
+  Villes-usines : zones industrielles avec dépôts miniers, dépôts de fret, garages, deux téléporteurs et parcs à conteneurs.
+  Les conteneurs portent le logo ARES et gardent leurs détails bien plus loin.
 - Chaque village minier a sa cabine de téléportation, et la station orbitale retrouve la sienne.
   La téléportation vers la station orbitale fonctionne de nouveau.
   Les bâtiments des villages portent des enseignes néon (garage, téléporteur, dépôts de fret et minier), dans votre langue.

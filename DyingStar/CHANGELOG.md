@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- fix(vehicle): server no longer crashes when a battery is removed.
+  batteries() and the vehicle display now ignore batteries that have already been removed.
+  The dashboard display no longer runs on the server, eliminating "String formatting error" spam.
+  fix(vehicle): an installed part no longer collides with its truck.
+  Parts (battery, engine) disable collision with their truck upon creation, preventing the truck from flying off when changing servers.
+  fix(server): trucks continue moving when changing servers.
+  At the border, the transferred truck resumes its previous state and speed (this does not apply when loading from the base).
+  Speed ​​is applied as soon as the truck is no longer frozen, within a 1.5-second limit.
+  An active copy is adopted, preventing the driver from being "rubber-banded" back.
+  The "no ground" freeze is lifted upon adoption.
 - New controls help: press F1 (or hold View on the gamepad) to see your keys, with what each one does.
   The truck can be started and stopped at any speed, and its engine revs now follow its wheels.
   A vehicle's parts can no longer be removed while its engine runs.

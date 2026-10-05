@@ -7,6 +7,16 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- fix(vehicle) : plus de crash serveur sur une batterie supprimée
+  batteries() et l'affichage véhicule ignorent une batterie déjà supprimée.
+  L'écran de bord ne tourne plus sur le serveur, ce qui supprime aussi le spam « String formatting error ».
+  fix(vehicle) : une pièce montée ne collisionne plus avec son camion
+  La pièce (batterie, moteur) exclut la collision avec son camion dès sa création, ce qui supprime l'envol du camion au changement de serveur.
+  fix(server) : un camion qui change de serveur continue de rouler
+  À la frontière, le camion reçu reprend son état et sa vitesse. Ce n'est pas fait au chargement depuis la base.
+  La vitesse est appliquée dès que le camion n'est plus figé, dans la limite de 1,5 s.
+  Une copie restée active est adoptée, ce qui supprime le retour en arrière du conducteur.
+  Le gel « pas de sol » est levé à l'adoption.
 - Nouvelle aide des commandes : F1 (ou maintenir View à la manette) affiche vos touches et ce que fait chacune.
   Le camion se démarre et se coupe à toute vitesse, et son régime suit maintenant ses roues.
   Les composants d'un véhicule ne peuvent plus être retirés moteur allumé.

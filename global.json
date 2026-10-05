@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T13:05:40.811353+00:00",
+  "generated_at": "2026-10-05T15:28:39.362212+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
@@ -344,6 +344,7 @@
     "horizonserver": {
       "unreleased": {
         "en": [
+          "The orbital station has its teleporter cabin again.",
           "fix(mesh): server zones that go offline are reassigned to an available server\n  Previously, zones from a lost server would remain unhosted if other servers were still running, leaving their players stranded. Now, they are preserved and handed over to the next available server. If no servers remain active, the system reverts to the initial partitioning, just as before.\n  fix(mesh): ongoing player actions are replayed on the new server\n  Horizon stores the last value for each active input—driving, sprinting, zero-G thrusting/stabilizing, and walking speed—and replays them immediately after the player arrives or wakes up on the new server; this prevents the truck from coming to an abrupt halt and ensures the sprint continues.",
           "The truck's engine revs follow its wheels: no more screaming engine in a fall or a jump.\n  Releasing a movement key is no longer occasionally ignored by the server.",
           "new system when create new server (server meshing dynamic) and send items and players on the new server",
@@ -383,6 +384,7 @@
           "Fix the ore shown on a fractured rock's cut faces so it stays consistent across clients."
         ],
         "fr": [
+          "La station orbitale retrouve sa cabine de téléportation.",
           "fix(mesh) : les zones d'un serveur qui meurt vont à un serveur libre\n  Avant, les zones d'un serveur perdu restaient sans serveur si d'autres tournaient encore, et leurs joueurs étaient orphelins. Elles sont maintenant gardées, puis données au prochain serveur libre. Si plus aucun serveur ne tourne, on revient au découpage initial, comme avant.\n  fix(mesh) : les actions tenues du joueur sont rejouées sur son nouveau serveur\n  Horizon retient la dernière valeur de chaque action maintenue : conduite, sprint, poussée et stabilisation en apesanteur, vitesse de marche. Il les rejoue juste après l'arrivée ou le réveil du joueur sur le nouveau serveur : le camion ne s'arrête plus net et le sprint tient.",
           "Le régime du camion suit ses roues : plus de moteur qui hurle en chute ou en saut.\n  Relâcher une touche de déplacement n'est plus parfois ignoré par le serveur.",
           "nouveau système lors de la création d'un nouveau serveur (maillage de serveurs dynamique) et transfert des objets et des joueurs vers ce nouveau serveur",

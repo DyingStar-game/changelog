@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- New Credits screen in the main menu and the pause menu: everyone who made the game's music, sounds, models and textures, scrolling like a film's credits with one of the community's tracks playing.
+  Footsteps on sand, dirt and gravel play a placeholder sound for now (their sounds had no known source).
+  Every track on the Credits screen has a play button to listen to it.
+  Ten new music tracks: in space, in the wild, in the menu, and in the mining and factory villages, which had no music until now. Tracks whose author is unknown say so in the credits: if one is yours, contact us on Discord.
 - new system when create new server (server meshing dynamic) and send items and players on the new server
 - If your body leaves the scene tree during a transfer, it is placed under the recreated truck (or under the planet).
   You sit back behind the wheel, and the camera returns to you. You no longer see through another player's eyes.

@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Nouvel écran Crédits dans le menu principal et le menu pause : toutes celles et ceux qui ont fait les musiques, sons, modèles et textures du jeu, en défilement comme un générique de film, sur une musique de la communauté.
+  Les pas sur le sable, la terre et le gravier jouent un son provisoire pour l'instant (leurs sons n'avaient pas de source connue).
+  Chaque musique de l'écran Crédits a un bouton pour l'écouter.
+  Dix nouvelles musiques : dans l'espace, en pleine nature, au menu, et dans les villages miniers et usines, jusqu'ici sans musique. Les morceaux dont on ne connaît pas l'auteur le disent dans les crédits : si l'un d'eux est à toi, contacte-nous sur Discord.
 - nouveau système lors de la création d'un nouveau serveur (maillage de serveurs dynamique) et transfert des objets et des joueurs vers ce nouveau serveur
 - Si ton corps sort de l'arbre de scène pendant un transfert, il est remis sous le camion recréé (sinon sous la planète).
   Tu es rassis au volant et la caméra revient sur toi. Tu ne vois plus à travers les yeux d'un autre joueur.

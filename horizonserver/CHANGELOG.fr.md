@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- Douze villes-usines apparaissent sur Tarsis 3.
 - La station orbitale retrouve sa cabine de téléportation.
 - fix(mesh) : les zones d'un serveur qui meurt vont à un serveur libre
   Avant, les zones d'un serveur perdu restaient sans serveur si d'autres tournaient encore, et leurs joueurs étaient orphelins. Elles sont maintenant gardées, puis données au prochain serveur libre. Si plus aucun serveur ne tourne, on revient au découpage initial, comme avant.

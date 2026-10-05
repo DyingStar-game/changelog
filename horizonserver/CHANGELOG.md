@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Twelve factory cities appear on Tarsis 3.
 - The orbital station has its teleporter cabin again.
 - fix(mesh): server zones that go offline are reassigned to an available server
   Previously, zones from a lost server would remain unhosted if other servers were still running, leaving their players stranded. Now, they are preserved and handed over to the next available server. If no servers remain active, the system reverts to the initial partitioning, just as before.

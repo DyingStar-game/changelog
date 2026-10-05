@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Containers now stand in levelled storage yards in the mining villages and factory cities, and no longer float or sink on slopes.
+  Street lamps, floodlights and neon signs now switch on when it gets dark, not only at sunset: in the valleys under the corundum veil they light up in broad daylight.
+  Brighter floodlights.
 - Mining villages get container yards, stacked up to three high, and ore skips.
   Factory cities: industrial zones with mining depots, cargo depots, garages, two teleporters and container yards.
   Containers carry the ARES logo and keep their detail much further away.

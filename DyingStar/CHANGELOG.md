@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- New controls help: press F1 (or hold View on the gamepad) to see your keys, with what each one does.
+  The truck can be started and stopped at any speed, and its engine revs now follow its wheels.
+  A vehicle's parts can no longer be removed while its engine runs.
+  Fixed: the character could keep walking up a slope after the key was released.
+  Fixed: screenshots taken after resizing the window were cut off.
+  Fixed: on AZERTY and other layouts, the F1 help lit the microphone key at the wrong place.
+  Dev: the + / - time keys change the hour instantly again.
 - New Credits screen in the main menu and the pause menu: everyone who made the game's music, sounds, models and textures, scrolling like a film's credits with one of the community's tracks playing.
   Footsteps on sand, dirt and gravel play a placeholder sound for now (their sounds had no known source).
   Every track on the Credits screen has a play button to listen to it.

@@ -7,6 +7,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Nouvelle aide des commandes : F1 (ou maintenir View à la manette) affiche vos touches et ce que fait chacune.
+  Le camion se démarre et se coupe à toute vitesse, et son régime suit maintenant ses roues.
+  Les composants d'un véhicule ne peuvent plus être retirés moteur allumé.
+  Corrigé : le personnage pouvait continuer à monter une pente après avoir relâché la touche.
+  Corrigé : les captures prises après avoir redimensionné la fenêtre étaient coupées.
+  Corrigé : en AZERTY et autres dispositions, l'aide F1 allumait la touche du micro au mauvais endroit.
+  Dev : les touches + / - de l'heure changent à nouveau l'heure instantanément.
 - Nouvel écran Crédits dans le menu principal et le menu pause : toutes celles et ceux qui ont fait les musiques, sons, modèles et textures du jeu, en défilement comme un générique de film, sur une musique de la communauté.
   Les pas sur le sable, la terre et le gravier jouent un son provisoire pour l'instant (leurs sons n'avaient pas de source connue).
   Chaque musique de l'écran Crédits a un bouton pour l'écouter.

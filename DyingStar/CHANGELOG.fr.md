@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Carte stellaire : cliquer sur une planète, une lune ou un point d'intérêt affiche de nouveau sa fiche.
 - Les conteneurs reposent désormais sur des aires de stockage aplanies dans les villages miniers et les villes-usines, et ne flottent plus ni ne s'enfoncent dans les pentes.
   Les lampadaires, projecteurs et enseignes néon s'allument quand il fait sombre, plus seulement au coucher du soleil : dans les vallées sous le voile de corindon, ils s'allument en plein jour.
   Projecteurs plus lumineux.

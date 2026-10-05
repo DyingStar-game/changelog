@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Your torch beam is no longer cut by the shadow of your own shoulders.
 - fix(vehicle): server no longer crashes when a battery is removed.
   batteries() and the vehicle display now ignore batteries that have already been removed.
   The dashboard display no longer runs on the server, eliminating "String formatting error" spam.

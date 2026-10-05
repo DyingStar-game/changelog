@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Le faisceau de votre lampe torche n'est plus coupé par l'ombre de vos propres épaules.
 - fix(vehicle) : plus de crash serveur sur une batterie supprimée
   batteries() et l'affichage véhicule ignorent une batterie déjà supprimée.
   L'écran de bord ne tourne plus sur le serveur, ce qui supprime aussi le spam « String formatting error ».

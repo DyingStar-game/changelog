@@ -7,6 +7,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Chaque village minier a sa cabine de téléportation, et la station orbitale retrouve la sienne.
+  La téléportation vers la station orbitale fonctionne de nouveau.
+  Les bâtiments des villages portent des enseignes néon (garage, téléporteur, dépôts de fret et minier), dans votre langue.
+  Lampadaires, projecteurs et enseignes s'allument au crépuscule et s'éteignent à l'aube, l'un après l'autre.
+  Les villages miniers reçoivent projecteurs, lampadaires et caisses ; les groupes électrogènes des projecteurs ronronnent.
+  Les caisses moyennes ne se portent plus à la main, et l'invite « Porter » n'apparaît que sur ce qu'on peut porter.
 - Le faisceau de votre lampe torche n'est plus coupé par l'ombre de vos propres épaules.
 - fix(vehicle) : plus de crash serveur sur une batterie supprimée
   batteries() et l'affichage véhicule ignorent une batterie déjà supprimée.

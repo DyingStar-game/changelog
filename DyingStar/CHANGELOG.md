@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Every mining village has a teleporter cabin, and the orbital station has its own again.
+  Teleporting to the orbital station works again.
+  Village buildings wear neon signs (garage, teleporter, cargo and mining depots), in your language.
+  Street lamps, floodlights and signs come on at dusk and go off at dawn, one after the other.
+  Mining villages get floodlights, lampposts and crates; the floodlights' generators hum.
+  Crates can no longer be picked up by hand, and the "Carry" prompt only shows on what you can carry.
 - Your torch beam is no longer cut by the shadow of your own shoulders.
 - fix(vehicle): server no longer crashes when a battery is removed.
   batteries() and the vehicle display now ignore batteries that have already been removed.

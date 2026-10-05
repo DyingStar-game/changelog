@@ -6,6 +6,10 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- fix(mesh) : les zones d'un serveur qui meurt vont à un serveur libre
+  Avant, les zones d'un serveur perdu restaient sans serveur si d'autres tournaient encore, et leurs joueurs étaient orphelins. Elles sont maintenant gardées, puis données au prochain serveur libre. Si plus aucun serveur ne tourne, on revient au découpage initial, comme avant.
+  fix(mesh) : les actions tenues du joueur sont rejouées sur son nouveau serveur
+  Horizon retient la dernière valeur de chaque action maintenue : conduite, sprint, poussée et stabilisation en apesanteur, vitesse de marche. Il les rejoue juste après l'arrivée ou le réveil du joueur sur le nouveau serveur : le camion ne s'arrête plus net et le sprint tient.
 - Le régime du camion suit ses roues : plus de moteur qui hurle en chute ou en saut.
   Relâcher une touche de déplacement n'est plus parfois ignoré par le serveur.
 - nouveau système lors de la création d'un nouveau serveur (maillage de serveurs dynamique) et transfert des objets et des joueurs vers ce nouveau serveur

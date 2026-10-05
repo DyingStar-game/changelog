@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- fix(mesh): server zones that go offline are reassigned to an available server
+  Previously, zones from a lost server would remain unhosted if other servers were still running, leaving their players stranded. Now, they are preserved and handed over to the next available server. If no servers remain active, the system reverts to the initial partitioning, just as before.
+  fix(mesh): ongoing player actions are replayed on the new server
+  Horizon stores the last value for each active input—driving, sprinting, zero-G thrusting/stabilizing, and walking speed—and replays them immediately after the player arrives or wakes up on the new server; this prevents the truck from coming to an abrupt halt and ensures the sprint continues.
 - The truck's engine revs follow its wheels: no more screaming engine in a fall or a jump.
   Releasing a movement key is no longer occasionally ignored by the server.
 - new system when create new server (server meshing dynamic) and send items and players on the new server

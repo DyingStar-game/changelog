@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-06T04:24:30.040535+00:00",
+  "generated_at": "2026-10-06T04:26:41.441182+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "fixed a game crash under certain conditions",
           "The truck no longer has a light inside its cabin.",
           "Star Map: clicking a planet, moon or point of interest shows its info card again.",
           "Containers now stand in levelled storage yards in the mining villages and factory cities, and no longer float or sink on slopes.\n  Street lamps, floodlights and neon signs now switch on when it gets dark, not only at sunset: in the valleys under the corundum veil they light up in broad daylight.\n  Brighter floodlights.",
@@ -170,6 +171,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "fix crash du jeu dans certaines conditions",
           "Le camion n'a plus de lumière dans sa cabine.",
           "Carte stellaire : cliquer sur une planète, une lune ou un point d'intérêt affiche de nouveau sa fiche.",
           "Les conteneurs reposent désormais sur des aires de stockage aplanies dans les villages miniers et les villes-usines, et ne flottent plus ni ne s'enfoncent dans les pentes.\n  Les lampadaires, projecteurs et enseignes néon s'allument quand il fait sombre, plus seulement au coucher du soleil : dans les vallées sous le voile de corindon, ils s'allument en plein jour.\n  Projecteurs plus lumineux.",

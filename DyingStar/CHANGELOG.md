@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- fixed a game crash under certain conditions
 - The truck no longer has a light inside its cabin.
 - Star Map: clicking a planet, moon or point of interest shows its info card again.
 - Containers now stand in levelled storage yards in the mining villages and factory cities, and no longer float or sink on slopes.

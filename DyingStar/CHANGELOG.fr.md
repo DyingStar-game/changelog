@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- fix crash du jeu dans certaines conditions
 - Le camion n'a plus de lumière dans sa cabine.
 - Carte stellaire : cliquer sur une planète, une lune ou un point d'intérêt affiche de nouveau sa fiche.
 - Les conteneurs reposent désormais sur des aires de stockage aplanies dans les villages miniers et les villes-usines, et ne flottent plus ni ne s'enfoncent dans les pentes.

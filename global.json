@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-06T04:26:41.441182+00:00",
+  "generated_at": "2026-10-06T11:28:30.011560+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Get into a vehicle by looking at its seat through the open door, then pressing the action key.\n  An open vehicle door now slams shut once you drive fast enough — sooner in thick air, later up on the plateaus.\n  Every planet and moon with an atmosphere now has its own sky.",
           "fixed a game crash under certain conditions",
           "The truck no longer has a light inside its cabin.",
           "Star Map: clicking a planet, moon or point of interest shows its info card again.",
@@ -171,6 +172,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "On monte dans un véhicule en regardant le siège, plus besoin d'être dans la zone, qui interférait parfois avec les composants et la benne\n  Une porte de véhicule restée ouverte claque toute seule au-delà d'une certaine vitesse — plus tôt dans un air épais, plus tard sur les plateaux.\n  Chaque planète et chaque lune dotée d'une atmosphère a maintenant son propre ciel basé sur les calculs de physique des matériaux, gazs présents, taille etc...",
           "fix crash du jeu dans certaines conditions",
           "Le camion n'a plus de lumière dans sa cabine.",
           "Carte stellaire : cliquer sur une planète, une lune ou un point d'intérêt affiche de nouveau sa fiche.",

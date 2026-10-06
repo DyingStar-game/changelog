@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Get into a vehicle by looking at its seat through the open door, then pressing the action key.
+  An open vehicle door now slams shut once you drive fast enough — sooner in thick air, later up on the plateaus.
+  Every planet and moon with an atmosphere now has its own sky.
 - fixed a game crash under certain conditions
 - The truck no longer has a light inside its cabin.
 - Star Map: clicking a planet, moon or point of interest shows its info card again.

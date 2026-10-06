@@ -7,6 +7,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- On monte dans un véhicule en regardant le siège, plus besoin d'être dans la zone, qui interférait parfois avec les composants et la benne
+  Une porte de véhicule restée ouverte claque toute seule au-delà d'une certaine vitesse — plus tôt dans un air épais, plus tard sur les plateaux.
+  Chaque planète et chaque lune dotée d'une atmosphère a maintenant son propre ciel basé sur les calculs de physique des matériaux, gazs présents, taille etc...
 - fix crash du jeu dans certaines conditions
 - Le camion n'a plus de lumière dans sa cabine.
 - Carte stellaire : cliquer sur une planète, une lune ou un point d'intérêt affiche de nouveau sa fiche.

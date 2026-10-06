@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Corrigé : la lumière du soleil ne suivait plus l'heure ni le trajet une fois assis dans un véhicule, et sautait à la sortie.
 - Une courte liste à gauche de l'écran montre les touches utiles du moment — à pied, au volant, en portant, foreuse en main — et apprend : chaque ligne disparaît une fois sa touche utilisée, puis les suivantes (limiteur de vitesse, allure de marche, roulis…) arrivent après les bases.
   La carte stellaire affiche ses commandes de la même façon, à sa gauche.
   Composants de véhicule : « Installer » s'affiche en vert, « Enlever » en jaune, et chaque invite d'interaction repose sur un fond sombre qui la garde lisible.

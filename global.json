@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-06T11:30:48.994885+00:00",
+  "generated_at": "2026-10-06T11:32:17.532275+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Fixed the sunlight not following the time of day or the ride while seated in a vehicle, and jumping when getting out.",
           "A short list on the left of the screen shows the keys you can use right now — on foot, at the wheel, carrying, with the drill — and learns: each line goes once you have used its key, and the next ones (speed limiter, walking pace, roll…) come after the basics.\n  The star map shows its controls the same way, on its left.\n  Vehicle parts: \"Fit\" shows in green, \"Remove\" in yellow, and every interaction prompt sits on a dark patch that keeps it readable.\n  A separate volume for the menu music (Settings > Audio), and the music no longer cuts off when you arrive in a town.\n  Accelerate and slow down at the wheel have their own controls: put them on the gamepad triggers without changing how you walk.",
           "Get into a vehicle by looking at its seat through the open door, then pressing the action key.\n  An open vehicle door now slams shut once you drive fast enough — sooner in thick air, later up on the plateaus.\n  Every planet and moon with an atmosphere now has its own sky.",
           "fixed a game crash under certain conditions",
@@ -173,6 +174,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Corrigé : la lumière du soleil ne suivait plus l'heure ni le trajet une fois assis dans un véhicule, et sautait à la sortie.",
           "Une courte liste à gauche de l'écran montre les touches utiles du moment — à pied, au volant, en portant, foreuse en main — et apprend : chaque ligne disparaît une fois sa touche utilisée, puis les suivantes (limiteur de vitesse, allure de marche, roulis…) arrivent après les bases.\n  La carte stellaire affiche ses commandes de la même façon, à sa gauche.\n  Composants de véhicule : « Installer » s'affiche en vert, « Enlever » en jaune, et chaque invite d'interaction repose sur un fond sombre qui la garde lisible.\n  Un volume à part pour la musique du menu (Paramètres > Audio), et la musique ne se coupe plus net en arrivant dans une ville.\n  Accélérer et ralentir au volant ont leurs propres commandes configurable à lamanette : on peut les mettre sur les gâchettes de la manette sans changer les actions à pied.",
           "On monte dans un véhicule en regardant le siège, plus besoin d'être dans la zone, qui interférait parfois avec les composants et la benne\n  Une porte de véhicule restée ouverte claque toute seule au-delà d'une certaine vitesse — plus tôt dans un air épais, plus tard sur les plateaux.\n  Chaque planète et chaque lune dotée d'une atmosphère a maintenant son propre ciel basé sur les calculs de physique des matériaux, gazs présents, taille etc...",
           "fix crash du jeu dans certaines conditions",

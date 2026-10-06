@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- A short list on the left of the screen shows the keys you can use right now — on foot, at the wheel, carrying, with the drill — and learns: each line goes once you have used its key, and the next ones (speed limiter, walking pace, roll…) come after the basics.
+  The star map shows its controls the same way, on its left.
+  Vehicle parts: "Fit" shows in green, "Remove" in yellow, and every interaction prompt sits on a dark patch that keeps it readable.
+  A separate volume for the menu music (Settings > Audio), and the music no longer cuts off when you arrive in a town.
+  Accelerate and slow down at the wheel have their own controls: put them on the gamepad triggers without changing how you walk.
 - Get into a vehicle by looking at its seat through the open door, then pressing the action key.
   An open vehicle door now slams shut once you drive fast enough — sooner in thick air, later up on the plateaus.
   Every planet and moon with an atmosphere now has its own sky.

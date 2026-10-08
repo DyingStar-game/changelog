@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Other planets and moons now show their atmosphere from afar: a hazy world looks brighter, a thick one paler or whiter, and the air's edge glows once it is large enough on screen.
 - Add client connectivity to the game service
   Add social service
   Add economy service

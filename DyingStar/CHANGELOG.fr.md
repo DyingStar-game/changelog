@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les autres planètes et lunes montrent désormais leur atmosphère de loin : un monde voilé paraît plus clair, un air épais plus pâle ou plus blanc, et le bord de l'air s'illumine quand il est assez grand à l'écran.
 - ajoute de la connection client au service de jeux
   ajout du service social
   ajout du service economie

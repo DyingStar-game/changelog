@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-08T21:58:58.462674+00:00",
+  "generated_at": "2026-10-08T22:04:17.190838+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Vehicles and players now raise dust from the ground: a trail behind the truck's wheels and a puff at each step, thicker on sand and dirt, lighter on rock, none on metal. The truck's headlights now cast shadows.",
           "Other planets and moons now show their atmosphere from afar: a hazy world looks brighter, a thick one paler or whiter, and the air's edge glows once it is large enough on screen.",
           "Add client connectivity to the game service\n  Add social service\n  Add economy service\n  Add mission service\n  Add inventory service\n  Add market service\n  Create an interface (F3) with applications that call these services\n  Initialized code allowing the Godot server to authenticate with Keycloak to access internal service APIs",
           "Planets and moons seen from orbit are now fully lit: no more black squares over rocky or grassy regions, and no more grid pattern in the air over hazy worlds.",
@@ -177,6 +178,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Les véhicules et les joueurs soulèvent désormais la poussière du sol : une traînée derrière les roues du camion et une bouffée à chaque pas, plus épaisse sur le sable et la terre, plus légère sur la roche, aucune sur le métal. Les phares du camion projettent maintenant des ombres.",
           "Les autres planètes et lunes montrent désormais leur atmosphère de loin : un monde voilé paraît plus clair, un air épais plus pâle ou plus blanc, et le bord de l'air s'illumine quand il est assez grand à l'écran.",
           "ajoute de la connection client au service de jeux\n  ajout du service social\n  ajout du service economie\n  ajout du service mission\n  ajout du service inventory\n  ajout du service market\n  création d'une interface (F3)  avec des application qui appel ces service\n  init du code pour que le server godot puisse s'authentifier sur keycloak pour acceder a des api interne des services",
           "Les planètes et lunes vues d'orbite sont désormais entièrement éclairées : plus de carrés noirs sur les régions rocheuses ou herbeuses, ni de quadrillage dans l'air des mondes voilés.",

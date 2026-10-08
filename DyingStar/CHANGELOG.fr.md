@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Les véhicules et les joueurs soulèvent désormais la poussière du sol : une traînée derrière les roues du camion et une bouffée à chaque pas, plus épaisse sur le sable et la terre, plus légère sur la roche, aucune sur le métal. Les phares du camion projettent maintenant des ombres.
 - Les autres planètes et lunes montrent désormais leur atmosphère de loin : un monde voilé paraît plus clair, un air épais plus pâle ou plus blanc, et le bord de l'air s'illumine quand il est assez grand à l'écran.
 - ajoute de la connection client au service de jeux
   ajout du service social

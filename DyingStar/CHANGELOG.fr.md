@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- ajoute de la connection client au service de jeux
+  ajout du service social
+  ajout du service economie
+  ajout du service mission
+  ajout du service inventory
+  ajout du service market
+  création d'une interface (F3)  avec des application qui appel ces service
+  init du code pour que le server godot puisse s'authentifier sur keycloak pour acceder a des api interne des services
 - Les planètes et lunes vues d'orbite sont désormais entièrement éclairées : plus de carrés noirs sur les régions rocheuses ou herbeuses, ni de quadrillage dans l'air des mondes voilés.
 - Corrigé : la lumière du soleil ne suivait plus l'heure ni le trajet une fois assis dans un véhicule, et sautait à la sortie.
 - Une courte liste à gauche de l'écran montre les touches utiles du moment — à pied, au volant, en portant, foreuse en main — et apprend : chaque ligne disparaît une fois sa touche utilisée, puis les suivantes (limiteur de vitesse, allure de marche, roulis…) arrivent après les bases.

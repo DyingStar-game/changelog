@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Add client connectivity to the game service
+  Add social service
+  Add economy service
+  Add mission service
+  Add inventory service
+  Add market service
+  Create an interface (F3) with applications that call these services
+  Initialized code allowing the Godot server to authenticate with Keycloak to access internal service APIs
 - Planets and moons seen from orbit are now fully lit: no more black squares over rocky or grassy regions, and no more grid pattern in the air over hazy worlds.
 - Fixed the sunlight not following the time of day or the ride while seated in a vehicle, and jumping when getting out.
 - A short list on the left of the screen shows the keys you can use right now — on foot, at the wheel, carrying, with the drill — and learns: each line goes once you have used its key, and the next ones (speed limiter, walking pace, roll…) come after the basics.

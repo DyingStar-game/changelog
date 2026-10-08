@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- no more 400ms stutter every 2 seconds on the client side;
+  village buildings are now streamed in rather than all being built at once;
+  $BoxDetectorEnd removed from mining_depot.gd;
+  the bake tool and hole_probe.gd have been fixed.
+  feat(planet), your work in progress (85 files): longitude convention aligned with QGIS, along with the corresponding scenes and tests, plus the new tarsis_3 export and its re-baked grade_profiles.pack.
 - Vehicles: the decelerate key now brakes while rolling forward and only backs up once stopped, and the brakes stop a loaded truck as hard as an empty one.
 - Vehicles and players now raise dust from the ground: a trail behind the truck's wheels and a puff at each step, thicker on sand and dirt, lighter on rock, none on metal. The truck's headlights now cast shadows.
 - Other planets and moons now show their atmosphere from afar: a hazy world looks brighter, a thick one paler or whiter, and the air's edge glows once it is large enough on screen.

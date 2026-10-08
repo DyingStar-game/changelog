@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- plus d'à-coup de 400 ms toutes les 2 s côté client ;
+  les bâtiments des villages passent par le streaming au lieu d'être tous construits d'un coup ;
+  $BoxDetectorEnd est retiré de mining_depot.gd ;
+  l'outil de bake et hole_probe.gd sont réparés.
+  feat(planet), ton travail en cours (85 fichiers) : la convention de longitude alignée sur QGIS, avec les scènes et les tests qui suivent, plus le nouvel export de tarsis_3 et son grade_profiles.pack re-baké.
 - Véhicules : la touche de décélération freine désormais en roulant vers l'avant et ne recule qu'une fois à l'arrêt, et les freins arrêtent un camion chargé aussi fort qu'un camion vide.
 - Les véhicules et les joueurs soulèvent désormais la poussière du sol : une traînée derrière les roues du camion et une bouffée à chaque pas, plus épaisse sur le sable et la terre, plus légère sur la roche, aucune sur le métal. Les phares du camion projettent maintenant des ombres.
 - Les autres planètes et lunes montrent désormais leur atmosphère de loin : un monde voilé paraît plus clair, un air épais plus pâle ou plus blanc, et le bord de l'air s'illumine quand il est assez grand à l'écran.

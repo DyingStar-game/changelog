@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Véhicules : le camion atteint la même vitesse maximale quel que soit le nombre de moteurs installés (environ 100 km/h) ; plus de moteurs donnent plus de force en côte, pas plus de vitesse.
+  Véhicules : le camion ralentit toujours de lui-même quand on lâche l'accélérateur.
 - La carte stellaire s'ouvre désormais dans l'onglet Navigation du DataPad (F2, ou F3 ▸ Navigation), dans le cadre de la tablette.
 - Menu principal : Correction de la scène du menu après réimport QGIS
 - Le DataPad (F3) apparaît maintenant dans Réglages > Contrôles sous son nom, dans l'aide des commandes (F1) et dans les indications de jeu.

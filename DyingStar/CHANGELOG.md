@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Vehicles: the truck reaches the same top speed whatever the number of motors fitted (about 100 km/h); more motors mean more pull on slopes, not more speed.
+  Vehicles: the truck still slows down by itself when you release the accelerator.
 - The star chart now opens inside the DataPad's Navigation tab (F2, or F3 ▸ Navigation), in the tablet's frame.
 - Main menu: the outpost stands upright again after the map re-export, the figures and trucks rest on the ground instead of sinking into it, and the lampposts are now large floodlights.
 - The DataPad (F3) now appears in Settings > Controls under its name, in the controls help (F1) and in the play hints.

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The terrain cache is moving to v60 to account for re-exported roads.
+  Each export (server, Linux, Windows) receives its own build number (date, time, and random number), which invalidates the chunk cache upon the first launch. In the editor, there is no number, and nothing changes.
 - QGIS modifications: new POI types, auto-filling of population/radius, and zones colored by rock type.
   new tarsis_3 export from QGIS.
 - Weather: the wind now blows dust across the plains: it streams around you, veils the distant relief and glows in the beams of lamps at night.

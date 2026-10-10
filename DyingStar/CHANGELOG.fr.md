@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Le cache terrain passe en v60 pour prendre en compte les routes ré-exportées.
+  Chaque export (serveur, Linux, Windows) reçoit son propre numéro de build (date, heure et nombre aléatoire), qui invalide le cache de chunks au premier lancement. Dans l'éditeur, il n'y a pas de numéro et rien ne change.
 - modifications QGIS : les nouveaux types de POI, le remplissage auto de population/radius et les zones colorées par roche.
   nouvel export de tarsis_3 depuis QGIS
 - Météo : le vent soulève la poussière des plaines : elle défile autour de vous, voile le relief lointain et s'illumine dans le faisceau des lampes la nuit.

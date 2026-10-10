@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-10-10
+
 - Social: friends, friend requests and organisations now use the game's social service, with a player search
   Player and organisation pages, opened by clicking a player or an organisation; Back returns where you were
   Fixed the launcher window not appearing on Linux Wayland sessions (sound only)

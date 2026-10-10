@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.4.0] - 2026-10-10
+
 - Social : amis, demandes d'ami et organisations passent par le service social du jeu, avec une recherche de joueurs
   Pages joueur et organisation, ouvertes en cliquant sur un joueur ou une organisation ; Retour ramène là où on était
   Correction de la fenêtre du launcher qui ne s'affichait pas sous Linux en session Wayland (seul le son était présent)

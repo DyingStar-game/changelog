@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Social : amis, demandes d'ami et organisations passent par le service social du jeu, avec une recherche de joueurs
+  Pages joueur et organisation, ouvertes en cliquant sur un joueur ou une organisation ; Retour ramène là où on était
+  Correction de la fenêtre du launcher qui ne s'affichait pas sous Linux en session Wayland (seul le son était présent)
+  L'en-tête s'adapte aux fenêtres étroites : les sections et le choix d'univers passent dans le menu
+  Les statuts (membre, ami, demande envoyée…) ne ressemblent plus à des boutons ; tous les boutons affichent le curseur main
+  Nouveau menu des langues dans l'en-tête, et infobulles sur les boutons de l'en-tête
+  Les menus et le réglage du volume sont utilisables au clavier
+  Les pages et les listes affichent un aperçu de leur contenu pendant le chargement
 ## [0.3.2] - 2026-09-23
 
 - Ajout d'un bouton d'affichage plein écran (et réduit).

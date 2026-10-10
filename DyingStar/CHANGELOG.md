@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The DataPad (F3) now appears in Settings > Controls under its name, in the controls help (F1) and in the play hints.
 - Developer free-flight renamed "God mode": the mouse wheel now changes its speed (shown at the top of the screen), and the middle mouse button lands you on the ground below; your own body is hidden while flying.
 - no more 400ms stutter every 2 seconds on the client side;
   village buildings are now streamed in rather than all being built at once;

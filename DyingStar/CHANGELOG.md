@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Weather: the wind now blows dust across the plains: it streams around you, veils the distant relief and glows in the beams of lamps at night.
+  Weather: footstep and tyre dust drifts with the wind.
+  Weather: you hear the wind, muffled in a cab or behind walls.
+  Graphics: new "Wind-blown dust" setting (Off / Low / High).
 - [Rock] Rock weight: a factor reduces rock density (WEIGHT_REDUCTION_FACTOR, set to 25). They are lighter, can be carried sooner, and require fewer cuts.
   [Rock] Carrying: a broken piece is now held by its actual center, rather than the origin point of the original rock. It no longer appears offset in your hands and rotates on its own axis.
   [Rock] Rock lighting: texture relief has been corrected. A rock no longer appears entirely bright or entirely dark depending on how it is placed.

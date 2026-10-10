@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Véhicules : les moteurs et batteries du camion rentrent dans leurs trappes (60 × 40 × 30 cm) au lieu de dépasser du flanc.
 - correction reparent en sortie d'habitation ou ça nous propulsait dans l'espace
 - Véhicules : le camion atteint la même vitesse maximale quel que soit le nombre de moteurs installés (environ 100 km/h) ; plus de moteurs donnent plus de force en côte, pas plus de vitesse.
   Véhicules : le camion ralentit toujours de lui-même quand on lâche l'accélérateur.

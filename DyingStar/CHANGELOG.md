@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Vehicles: the truck's motors and batteries now fit their hatches (60 × 40 × 30 cm) instead of sticking out of the truck's side.
 - Fixed the respawn point at the house exit; it used to launch us into space.
 - Vehicles: the truck reaches the same top speed whatever the number of motors fitted (about 100 km/h); more motors mean more pull on slopes, not more speed.
   Vehicles: the truck still slows down by itself when you release the accelerator.

@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-10T18:35:02.374870+00:00",
+  "generated_at": "2026-10-10T19:07:50.582699+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Vehicles: the truck's motors and batteries now fit their hatches (60 × 40 × 30 cm) instead of sticking out of the truck's side.",
           "Fixed the respawn point at the house exit; it used to launch us into space.",
           "Vehicles: the truck reaches the same top speed whatever the number of motors fitted (about 100 km/h); more motors mean more pull on slopes, not more speed.\n  Vehicles: the truck still slows down by itself when you release the accelerator.",
           "The star chart now opens inside the DataPad's Navigation tab (F2, or F3 ▸ Navigation), in the tablet's frame.",
@@ -186,6 +187,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Véhicules : les moteurs et batteries du camion rentrent dans leurs trappes (60 × 40 × 30 cm) au lieu de dépasser du flanc.",
           "correction reparent en sortie d'habitation ou ça nous propulsait dans l'espace",
           "Véhicules : le camion atteint la même vitesse maximale quel que soit le nombre de moteurs installés (environ 100 km/h) ; plus de moteurs donnent plus de force en côte, pas plus de vitesse.\n  Véhicules : le camion ralentit toujours de lui-même quand on lâche l'accélérateur.",
           "La carte stellaire s'ouvre désormais dans l'onglet Navigation du DataPad (F2, ou F3 ▸ Navigation), dans le cadre de la tablette.",

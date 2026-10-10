@@ -7,6 +7,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Menu principal : Correction de la scène du menu après réimport QGIS
 - Le DataPad (F3) apparaît maintenant dans Réglages > Contrôles sous son nom, dans l'aide des commandes (F1) et dans les indications de jeu.
 - Le vol libre de développement s'appelle désormais « Mode Dieu » : la molette règle sa vitesse (affichée en haut de l'écran) et le clic molette vous pose au sol juste en dessous ; votre corps est masqué pendant le vol.
 - plus d'à-coup de 400 ms toutes les 2 s côté client ;

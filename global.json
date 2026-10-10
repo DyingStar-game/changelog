@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-10T17:58:53.111292+00:00",
+  "generated_at": "2026-10-10T18:12:24.644626+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "Developer free-flight renamed \"God mode\": the mouse wheel now changes its speed (shown at the top of the screen), and the middle mouse button lands you on the ground below; your own body is hidden while flying.",
           "no more 400ms stutter every 2 seconds on the client side;\n  village buildings are now streamed in rather than all being built at once;\n  $BoxDetectorEnd removed from mining_depot.gd;\n  the bake tool and hole_probe.gd have been fixed.\n  feat(planet), your work in progress (85 files): longitude convention aligned with QGIS, along with the corresponding scenes and tests, plus the new tarsis_3 export and its re-baked grade_profiles.pack.",
           "Vehicles: the decelerate key now brakes while rolling forward and only backs up once stopped, and the brakes stop a loaded truck as hard as an empty one.",
           "Vehicles and players now raise dust from the ground: a trail behind the truck's wheels and a puff at each step, thicker on sand and dirt, lighter on rock, none on metal. The truck's headlights now cast shadows.",
@@ -180,6 +181,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "Le vol libre de développement s'appelle désormais « Mode Dieu » : la molette règle sa vitesse (affichée en haut de l'écran) et le clic molette vous pose au sol juste en dessous ; votre corps est masqué pendant le vol.",
           "plus d'à-coup de 400 ms toutes les 2 s côté client ;\n  les bâtiments des villages passent par le streaming au lieu d'être tous construits d'un coup ;\n  $BoxDetectorEnd est retiré de mining_depot.gd ;\n  l'outil de bake et hole_probe.gd sont réparés.\n  feat(planet), ton travail en cours (85 fichiers) : la convention de longitude alignée sur QGIS, avec les scènes et les tests qui suivent, plus le nouvel export de tarsis_3 et son grade_profiles.pack re-baké.",
           "Véhicules : la touche de décélération freine désormais en roulant vers l'avant et ne recule qu'une fois à l'arrêt, et les freins arrêtent un camion chargé aussi fort qu'un camion vide.",
           "Les véhicules et les joueurs soulèvent désormais la poussière du sol : une traînée derrière les roues du camion et une bouffée à chaque pas, plus épaisse sur le sable et la terre, plus légère sur la roche, aucune sur le métal. Les phares du camion projettent maintenant des ombres.",

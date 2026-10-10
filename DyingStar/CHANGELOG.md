@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- [Rock] Rock weight: a factor reduces rock density (WEIGHT_REDUCTION_FACTOR, set to 25). They are lighter, can be carried sooner, and require fewer cuts.
+  [Rock] Carrying: a broken piece is now held by its actual center, rather than the origin point of the original rock. It no longer appears offset in your hands and rotates on its own axis.
+  [Rock] Rock lighting: texture relief has been corrected. A rock no longer appears entirely bright or entirely dark depending on how it is placed.
+  [Rock] Rock color: rocks take on the color of the ground where they spawn, including its brightness and matte finish. Broken pieces retain this color.
 - Vehicles: the truck's motors and batteries now fit their hatches (60 × 40 × 30 cm) instead of sticking out of the truck's side.
 - Fixed the respawn point at the house exit; it used to launch us into space.
 - Vehicles: the truck reaches the same top speed whatever the number of motors fitted (about 100 km/h); more motors mean more pull on slopes, not more speed.

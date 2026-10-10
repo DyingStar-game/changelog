@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- [rocher] Poids des rochers : un facteur réduit la densité des rochers (WEIGHT_REDUCTION_FACTOR, réglé à 25). Ils sont plus légers, on peut les porter plus tôt et il faut moins de découpes.
+  [rocher] Portage : un morceau cassé est maintenant tenu par son centre réel, et non plus par l'origine du rocher entier. Il n'est plus décalé dans les mains et tourne sur lui-même.
+  [rocher] Éclairage des rochers : le relief des textures est corrigé. Un rocher n'est plus tout clair ou tout noir selon la façon dont il est posé.
+  [rocher] Couleur des rochers : les rochers prennent la couleur du sol où ils apparaissent, avec sa luminosité et son aspect mat. Les morceaux cassés gardent cette couleur.
 - Véhicules : les moteurs et batteries du camion rentrent dans leurs trappes (60 × 40 × 30 cm) au lieu de dépasser du flanc.
 - correction reparent en sortie d'habitation ou ça nous propulsait dans l'espace
 - Véhicules : le camion atteint la même vitesse maximale quel que soit le nombre de moteurs installés (environ 100 km/h) ; plus de moteurs donnent plus de force en côte, pas plus de vitesse.

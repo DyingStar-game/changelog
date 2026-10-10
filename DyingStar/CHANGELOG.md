@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- The star chart now opens inside the DataPad's Navigation tab (F2, or F3 ▸ Navigation), in the tablet's frame.
 - Main menu: the outpost stands upright again after the map re-export, the figures and trucks rest on the ground instead of sinking into it, and the lampposts are now large floodlights.
 - The DataPad (F3) now appears in Settings > Controls under its name, in the controls help (F1) and in the play hints.
 - Developer free-flight renamed "God mode": the mouse wheel now changes its speed (shown at the top of the screen), and the middle mouse button lands you on the ground below; your own body is hidden while flying.

@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-10T18:29:14.197656+00:00",
+  "generated_at": "2026-10-10T18:30:50.022359+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "The star chart now opens inside the DataPad's Navigation tab (F2, or F3 ▸ Navigation), in the tablet's frame.",
           "Main menu: the outpost stands upright again after the map re-export, the figures and trucks rest on the ground instead of sinking into it, and the lampposts are now large floodlights.",
           "The DataPad (F3) now appears in Settings > Controls under its name, in the controls help (F1) and in the play hints.",
           "Developer free-flight renamed \"God mode\": the mouse wheel now changes its speed (shown at the top of the screen), and the middle mouse button lands you on the ground below; your own body is hidden while flying.",
@@ -183,6 +184,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "La carte stellaire s'ouvre désormais dans l'onglet Navigation du DataPad (F2, ou F3 ▸ Navigation), dans le cadre de la tablette.",
           "Menu principal : Correction de la scène du menu après réimport QGIS",
           "Le DataPad (F3) apparaît maintenant dans Réglages > Contrôles sous son nom, dans l'aide des commandes (F1) et dans les indications de jeu.",
           "Le vol libre de développement s'appelle désormais « Mode Dieu » : la molette règle sa vitesse (affichée en haut de l'écran) et le clic molette vous pose au sol juste en dessous ; votre corps est masqué pendant le vol.",

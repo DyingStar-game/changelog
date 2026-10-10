@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- QGIS modifications: new POI types, auto-filling of population/radius, and zones colored by rock type.
+  new tarsis_3 export from QGIS.
 - Weather: the wind now blows dust across the plains: it streams around you, veils the distant relief and glows in the beams of lamps at night.
   Weather: footstep and tyre dust drifts with the wind.
   Weather: you hear the wind, muffled in a cab or behind walls.

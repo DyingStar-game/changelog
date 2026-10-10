@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- modifications QGIS : les nouveaux types de POI, le remplissage auto de population/radius et les zones colorées par roche.
+  nouvel export de tarsis_3 depuis QGIS
 - Météo : le vent soulève la poussière des plaines : elle défile autour de vous, voile le relief lointain et s'illumine dans le faisceau des lampes la nuit.
   Météo : la poussière des pas et des roues dérive avec le vent.
   Météo : on entend le vent, étouffé dans une cabine ou derrière un mur.

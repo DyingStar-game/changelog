@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-10T19:20:59.680947+00:00",
+  "generated_at": "2026-10-10T19:56:12.823483+00:00",
   "components": {
     "DyingStar": {
       "unreleased": {
         "en": [
+          "QGIS modifications: new POI types, auto-filling of population/radius, and zones colored by rock type.\n  new tarsis_3 export from QGIS.",
           "Weather: the wind now blows dust across the plains: it streams around you, veils the distant relief and glows in the beams of lamps at night.\n  Weather: footstep and tyre dust drifts with the wind.\n  Weather: you hear the wind, muffled in a cab or behind walls.\n  Graphics: new \"Wind-blown dust\" setting (Off / Low / High).",
           "[Rock] Rock weight: a factor reduces rock density (WEIGHT_REDUCTION_FACTOR, set to 25). They are lighter, can be carried sooner, and require fewer cuts.\n  [Rock] Carrying: a broken piece is now held by its actual center, rather than the origin point of the original rock. It no longer appears offset in your hands and rotates on its own axis.\n  [Rock] Rock lighting: texture relief has been corrected. A rock no longer appears entirely bright or entirely dark depending on how it is placed.\n  [Rock] Rock color: rocks take on the color of the ground where they spawn, including its brightness and matte finish. Broken pieces retain this color.",
           "Vehicles: the truck's motors and batteries now fit their hatches (60 × 40 × 30 cm) instead of sticking out of the truck's side.",
@@ -189,6 +190,7 @@
           "Rewrite code for player out of server zone\n  Planet tech v1\n  Update to Godot 4.6.1\n  Update docker for build server\n  New tree architecture\n  Add planet data download for build and get locally for developers"
         ],
         "fr": [
+          "modifications QGIS : les nouveaux types de POI, le remplissage auto de population/radius et les zones colorées par roche.\n  nouvel export de tarsis_3 depuis QGIS",
           "Météo : le vent soulève la poussière des plaines : elle défile autour de vous, voile le relief lointain et s'illumine dans le faisceau des lampes la nuit.\n  Météo : la poussière des pas et des roues dérive avec le vent.\n  Météo : on entend le vent, étouffé dans une cabine ou derrière un mur.\n  Graphismes : nouveau réglage « Poussière soulevée par le vent » (Désactivé / Bas / Élevé).",
           "[rocher] Poids des rochers : un facteur réduit la densité des rochers (WEIGHT_REDUCTION_FACTOR, réglé à 25). Ils sont plus légers, on peut les porter plus tôt et il faut moins de découpes.\n  [rocher] Portage : un morceau cassé est maintenant tenu par son centre réel, et non plus par l'origine du rocher entier. Il n'est plus décalé dans les mains et tourne sur lui-même.\n  [rocher] Éclairage des rochers : le relief des textures est corrigé. Un rocher n'est plus tout clair ou tout noir selon la façon dont il est posé.\n  [rocher] Couleur des rochers : les rochers prennent la couleur du sol où ils apparaissent, avec sa luminosité et son aspect mat. Les morceaux cassés gardent cette couleur.",
           "Véhicules : les moteurs et batteries du camion rentrent dans leurs trappes (60 × 40 × 30 cm) au lieu de dépasser du flanc.",

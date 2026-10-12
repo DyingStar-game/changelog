@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- 2026-10-11 Fold the services tablet's eleven apps into Social, Economy and Properties — eight tabs in the bar, Reports and System left in PLUS.
+  2026-10-11 Fix the tablet drawing nothing: a mounted section was nested too deep and was given no height.
+  2026-10-11 Points of interest no longer ask for coordinates — take where you stand, or pick a point on the chart.
+  2026-10-11 Mission zones take a star system or one of your own POIs; the old scene and area kinds were always rejected.
+  2026-10-11 "My contracts" lists what you raised, and an issuer objective can be confirmed.
+  2026-10-11 The group share line is on your own contracts only, and names the group.
 - Cargo depot shelves: each depot creates its 193 network shelves only once, and a saved flag prevents them from being recreated upon server restart.
   Building aprons: the flat area around a building is no longer deformed by neighboring buildings.
   Adjacent buildings: when two buildings are close enough for their flat areas to touch, the smaller one adjusts to the level of the larger one.

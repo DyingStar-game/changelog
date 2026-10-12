@@ -7,6 +7,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- 2026-10-11 Regroupe les onze apps de la tablette en Social, Économie et Propriétés — huit onglets à la barre, Signalements et Système restent dans Plus.
+  2026-10-11 Corrige une tablette qui ne dessinait rien : une section hébergée était imbriquée trop profond et n'avait pas de hauteur.
+  2026-10-11 Les points d'intérêt ne demandent plus de coordonnées — prends ta position, ou place le point sur la carte.
+  2026-10-11 Les zones de mission acceptent un système ou un de tes POI ; les anciens kinds scène et aire étaient toujours rejetés.
+  2026-10-11 « Mes contrats » liste ce que tu as créé, et un objectif à validation manuelle se confirme.
+  2026-10-11 La ligne de partage par groupe n'apparaît que sur tes missions, et nomme le groupe.
 - Étagères des cargo_depot : chaque dépôt crée une seule fois ses 193 étagères réseau, et un drapeau enregistré empêche de les recréer au redémarrage du serveur.
   Apron des bâtiments : la zone plate autour d'un bâtiment n'est plus déformée par les bâtiments voisins.
   Bâtiments collés : quand deux bâtiments sont assez proches pour que leurs zones plates se touchent, le plus petit se met au niveau du plus grand.

@@ -7,6 +7,25 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Corrige les joueurs affichés hors ligne dans la liste des contacts et sur les profils : le client
+  utilise désormais le `sub` du token comme identifiant, au lieu d'un UUID aléatoire régénéré à
+  chaque session. Cela supprime aussi la duplication de profils (`Player_xxxxxxx`) à chaque
+  reconnexion.
+  Corrige les noms des joueurs dans le social : ils viennent désormais du compte
+  (`preferred_username`) au lieu du pseudo généré par le serveur de jeu.
+  Corrige la position de présence qui utilisait le nom réseau de la planète : un joueur sur SandBox
+  annonce maintenant `tarsis · tarsis_3` au lieu d'un système vide et d'une scène inconnue.
+  Corrige le chat qui ne s'ouvrait pas avec F12. Le chat n'était jamais relié au broker de messages :
+  aucun message ne pouvait donc être reçu ni envoyé.
+  Messages privés : une conversation épinglée à la fois dans la zone de message, avec le nom du
+  correspondant. L'en-tête est cliquable et liste toutes les conversations, celles ayant un nouveau
+  message en premier, et se ferme avec le ✕.
+  Le journal n'affiche plus que la conversation épinglée au lieu de mélanger tous les messages privés.
+  Écrire à un contact directement depuis sa fiche, Entrée pour envoyer, sans quitter la fiche.
+  Les notifications sociales (demande d'ami, demande acceptée, adhésion à une corporation)
+  s'affichent en pile en haut de l'écran. Un clic ouvre l'écran où elles peuvent être traitées.
+  Diagnostics : un nouveau bloc indiquant l'état de la connexion au broker du chat et de la salle
+  vocale, rafraîchi chaque seconde tant que le panneau est ouvert.
 - Le cache terrain passe en v60 pour prendre en compte les routes ré-exportées.
   Chaque export (serveur, Linux, Windows) reçoit son propre numéro de build (date, heure et nombre aléatoire), qui invalide le cache de chunks au premier lancement. Dans l'éditeur, il n'y a pas de numéro et rien ne change.
 - modifications QGIS : les nouveaux types de POI, le remplissage auto de population/radius et les zones colorées par roche.

@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix players showing as offline in the contacts list and on profiles: the client now uses the
+  token's `sub` as its player id, instead of a random UUID regenerated on every session. This also
+  stops the duplication of profiles (`Player_xxxxxxx`) on each reconnection.
+  Fix player names in social: they now come from the account (`preferred_username`) instead of the
+  generated pseudo sent by the game server.
+  Fix presence location reporting the planet's network name: a player on SandBox now reports
+  `tarsis · tarsis_3` instead of an empty system and an unknown scene.
+  Fix the chat not opening with F12. The chat was never connected to the message broker, so no
+  message could be received or sent.
+  Private messages: pin one conversation at a time in the message box, showing the correspondent's
+  name. The header is clickable and lists every conversation, those with a new message first, and
+  can be closed with the ✕.
+  The message log now shows only the pinned conversation instead of mixing every private message
+  together.
+  Write to a contact straight from their card, with Enter sending, without leaving the card.
+  Social notifications (friend request, friend request accepted, corporation joined) now appear as
+  a stack at the top of the screen. Clicking one opens the screen where it can be handled.
+  Diagnostics: a new panel block showing the chat broker connection and the voice room, refreshed
+  every second while the panel is open.
 - The terrain cache is moving to v60 to account for re-exported roads.
   Each export (server, Linux, Windows) receives its own build number (date, time, and random number), which invalidates the chunk cache upon the first launch. In the editor, there is no number, and nothing changes.
 - QGIS modifications: new POI types, auto-filling of population/radius, and zones colored by rock type.

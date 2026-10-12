@@ -6,6 +6,7 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- spawn des étagères dans l'entrepôt
 - Douze villes-usines apparaissent sur Tarsis 3.
 - La station orbitale retrouve sa cabine de téléportation.
 - fix(mesh) : les zones d'un serveur qui meurt vont à un serveur libre

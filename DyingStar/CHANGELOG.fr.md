@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Étagères des cargo_depot : chaque dépôt crée une seule fois ses 193 étagères réseau, et un drapeau enregistré empêche de les recréer au redémarrage du serveur.
+  Apron des bâtiments : la zone plate autour d'un bâtiment n'est plus déformée par les bâtiments voisins.
+  Bâtiments collés : quand deux bâtiments sont assez proches pour que leurs zones plates se touchent, le plus petit se met au niveau du plus grand.
+  Texture du sol : elle ne s'étire plus sur les pentes raides autour des bâtiments.
 - Corrige les joueurs affichés hors ligne dans la liste des contacts et sur les profils : le client
   utilise désormais le `sub` du token comme identifiant, au lieu d'un UUID aléatoire régénéré à
   chaque session. Cela supprime aussi la duplication de profils (`Player_xxxxxxx`) à chaque

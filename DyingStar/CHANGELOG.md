@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Cargo depot shelves: each depot creates its 193 network shelves only once, and a saved flag prevents them from being recreated upon server restart.
+  Building aprons: the flat area around a building is no longer deformed by neighboring buildings.
+  Adjacent buildings: when two buildings are close enough for their flat areas to touch, the smaller one adjusts to the level of the larger one.
+  Ground texture: it no longer stretches on steep slopes around buildings.
 - Fix players showing as offline in the contacts list and on profiles: the client now uses the
   token's `sub` as its player id, instead of a random UUID regenerated on every session. This also
   stops the duplication of profiles (`Player_xxxxxxx`) on each reconnection.

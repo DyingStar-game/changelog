@@ -6,6 +6,8 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+- ajout d'un ascenseur route du village M0001 vers la factory, à gauche avant le premier pont. Plusieurs au village M0059
+  fix sortie habitation -> espace
 - spawn des étagères dans l'entrepôt
 - Douze villes-usines apparaissent sur Tarsis 3.
 - La station orbitale retrouve sa cabine de téléportation.

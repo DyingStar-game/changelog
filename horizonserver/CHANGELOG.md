@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Added an elevator from the village road (M0001) to the factory, on the left before the first bridge. Several added in village M0059.
+  Fixed exit from dwelling to open area.
 - spawn shelves in cargo depot
 - Twelve factory cities appear on Tarsis 3.
 - The orbital station has its teleporter cabin again.

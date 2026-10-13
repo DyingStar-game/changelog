@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- New truck dashboard, readable on its screen: speed, warning lights, a box per component bay, power gauge, batteries.
+  An open door blinks and beeps on the dashboard, faster as the wind is about to slam it.
+  Engine and battery parts show the same icons as the dashboard.
+  "Stand up to fit or remove a part" when crouched or prone at a vehicle part.
+  Teleporter: destinations grouped by type and sorted, bodies marked planet / moon / giant, works with a gamepad.
+  Building lights switch on at dusk (1900 lux), the garage is lit at night.
+  Wind-blown dust takes the colour of the ground and fades between biomes; much cheaper, and gone high above the ground.
+  Play hints no longer cover the chat or the voice buttons; Escape closes the tablet opened with F2.
+  Your own head now casts its shadow.
+  The home screen says the game is in development and many assets are placeholders.
 - Added a "vehicle_lift" folder and its contents to "addons" (scripts, models, textures, etc.)
   Enabled the addon in project settings
   Added a test in guid_3d to ensure the presence of a viewport

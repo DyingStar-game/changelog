@@ -7,6 +7,16 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Nouveau tableau de bord pour le camion
+  Une porte ouverte clignote et bipe au tableau de bord, de plus en plus vite quand le vent va la claquer.
+  Les pièces moteur et batterie portent les mêmes icônes que le tableau de bord.
+  « Relevez-vous pour installer ou retirer un composant » quand on est accroupi ou allongé devant une pièce.
+  Téléporteur : destinations regroupées par type et triées, astres marqués planète / lune / géante, utilisable à la manette.
+  Les lumières des bâtiments s'allument au crépuscule (1900 lux), le garage est éclairé la nuit.
+  La poussière soulevée par le vent prend la couleur du sol et passe en douceur d'un biome à l'autre
+  Les bulles d'aide ne couvrent plus le chat ni les boutons vocaux ; Échap ferme la tablette ouverte par F2.
+  Votre propre tête projette maintenant son ombre.
+  L'écran d'accueil indique que le jeu est en développement et que beaucoup d'éléments sont provisoires.
 - Ajout d'un dossier "vehicle_lift" et son contenu dans "addons" (scripts, modèles, textures...)
   Activation de l'addon dans les paramètres du projet
   Ajout d'un test dans guid_3d pour être certain de la présence d'un viewport

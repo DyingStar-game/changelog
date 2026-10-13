@@ -7,6 +7,24 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Modification du profil ajoutée : faction, biographie et fiche RP.
+  Gestion des organisations ajoutée : infos, invitations, membres, grades et direction ; possibilité de quitter une organisation ; invitation d'un joueur depuis son profil.
+  Page Social séparée en Amis et Organisations, chacune avec sa liste, une recherche et les demandes en attente.
+  En-tête séparé en deux barres : le launcher en haut, l'univers en cours en dessous (Accueil, Social, Changelog et compte).
+  Connexion déplacée en haut à droite ; hors connexion, le bouton Jouer est remplacé par « Se connecter avec Discord ».
+  Compteurs ajoutés pour les demandes d'ami en attente et les versions du changelog non lues.
+  Environnement de test signalé sur toutes les pages ; le launcher s'ouvre désormais dessus.
+  Page Lore supprimée.
+  Grésillements des sons de l'interface corrigés.
+  Page d'accueil repensée : l'univers sur un diaporama d'images plein écran, et une seule barre en bas avec l'état du serveur, l'état du jeu et son action principale (installer, mettre à jour, se connecter, jouer).
+  Téléchargement du jeu : pause, reprise (même après avoir fermé le launcher) et annulation ; vitesse et temps restant affichés.
+  Fichiers du jeu (version, répertoire d'installation, cache) déplacés derrière un bouton ⚙ à côté de l'action principale.
+  Une mise à jour du jeu disponible affiche la version installée et la nouvelle, avec un lien vers son changelog.
+  Amis de l'accueil listés par ordre alphabétique, tous.
+  Notifications (profil enregistré, organisation créée, cache vidé…) affichées dans un coin de l'écran.
+  La déconnexion n'ouvre plus de page dans le navigateur ; la connexion suivante redemande le compte.
+  Liste d'amis vidée à la déconnexion.
+  Captures d'écran et vidéos du dossier du jeu conservées lors d'une mise à jour.
 ## [0.4.0] - 2026-10-10
 
 - Social : amis, demandes d'ami et organisations passent par le service social du jeu, avec une recherche de joueurs

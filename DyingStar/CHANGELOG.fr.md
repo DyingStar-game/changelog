@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Ajout d'un dossier "vehicle_lift" et son contenu dans "addons" (scripts, modèles, textures...)
+  Activation de l'addon dans les paramètres du projet
+  Ajout d'un test dans guid_3d pour être certain de la présence d'un viewport
+  Modification du paramètre "rollForward" du fichier global.json pour laisser le projet C# se construire si le SDK est dans une version supérieur à celle recommandée
+  La ligne "websocket_url" du fichier "client.ini" a également été modifiée, elle ne devrait probablement pas l'être
 - 2026-10-11 Regroupe les onze apps de la tablette en Social, Économie et Propriétés — huit onglets à la barre, Signalements et Système restent dans Plus.
   2026-10-11 Corrige une tablette qui ne dessinait rien : une section hébergée était imbriquée trop profond et n'avait pas de hauteur.
   2026-10-11 Les points d'intérêt ne demandent plus de coordonnées — prends ta position, ou place le point sur la carte.

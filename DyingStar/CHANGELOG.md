@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Added a "vehicle_lift" folder and its contents to "addons" (scripts, models, textures, etc.)
+  Enabled the addon in project settings
+  Added a test in guid_3d to ensure the presence of a viewport
+  Modified the "rollForward" parameter in global.json to allow the C# project to build if the SDK version is higher than recommended
+  The "websocket_url" line in "client.ini" was also modified; it probably shouldn't have been.
 - 2026-10-11 Fold the services tablet's eleven apps into Social, Economy and Properties — eight tabs in the bar, Reports and System left in PLUS.
   2026-10-11 Fix the tablet drawing nothing: a mounted section was nested too deep and was given no height.
   2026-10-11 Points of interest no longer ask for coordinates — take where you stand, or pick a point on the chart.

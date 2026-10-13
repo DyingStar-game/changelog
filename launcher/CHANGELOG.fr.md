@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [1.0.0] - 2026-10-13
+
 - Modification du profil ajoutée : faction, biographie et fiche RP.
   Gestion des organisations ajoutée : infos, invitations, membres, grades et direction ; possibilité de quitter une organisation ; invitation d'un joueur depuis son profil.
   Page Social séparée en Amis et Organisations, chacune avec sa liste, une recherche et les demandes en attente.

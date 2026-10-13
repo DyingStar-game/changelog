@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-10-13
+
 - Profile editing added: faction, biography and role-play sheet.
   Organisation management added: details, invitations, members, ranks and leadership; leaving an organisation; inviting a player from their profile.
   Social page split into Friends and Organisations, each with its list, a search and the pending requests.

@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ARES vending machines: vehicle parts in the garage, rations in the mining villages, the mining tool at the cargo depot. Pick on the screen, wait for the delivery, take your items from the hatch.
+  You no longer start with a mining tool: get one at the ARES Mining machine of the cargo depot. Press the action key to take it or to put it down; it stays yours.
+  3D screens are used with the crosshair: walking past a console no longer locks the view.
+  Small items on the floor can be picked up standing.
+  The vehicle lift is heard: its winch, the platform rolling along the rail, and a heavy clunk when it starts and stops.
 - New truck dashboard, readable on its screen: speed, warning lights, a box per component bay, power gauge, batteries.
   An open door blinks and beeps on the dashboard, faster as the wind is about to slam it.
   Engine and battery parts show the same icons as the dashboard.

@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+- Distributeurs ARES : pièces de véhicule au garage, rations dans les villages miniers, outil de minage au dépôt de cargo. Choisissez sur l'écran, attendez la livraison, prenez vos objets dans la trappe.
+  On ne commence plus avec un outil de minage : allez le chercher à la machine ARES Mining du dépôt de cargo. La touche d'action le prend ou le pose ; il reste à vous.
+  Les écrans 3D s'utilisent au viseur : passer devant une console ne bloque plus la vue.
+  Les petits objets posés au sol se ramassent debout.
+  L'ascenseur à ses sons: son treuil, le roulement de la plateforme sur le rail, et un lourd choc au départ et à l'arrêt.
 - Nouveau tableau de bord pour le camion
   Une porte ouverte clignote et bipe au tableau de bord, de plus en plus vite quand le vent va la claquer.
   Les pièces moteur et batterie portent les mêmes icônes que le tableau de bord.

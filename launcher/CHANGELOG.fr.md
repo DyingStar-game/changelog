@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [1.0.1] - 2026-10-14
+
 ### Changed
 
 - **Changelog** : Sur Universe Testing, les changements sont listés build par build, regroupés par la version qu'ils préparent.
@@ -95,7 +97,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 - Premier launcher Electron open source : auth, install/mise à jour jeu, statut serveur, lore, UI social (mock)
 
-[non publié]: https://github.com/DyingStar-game/launcher/compare/v1.0.0...HEAD
+[non publié]: https://github.com/DyingStar-game/launcher/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/DyingStar-game/launcher/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/DyingStar-game/launcher/compare/v0.4.0...v1.0.0
 [0.4.0]: https://github.com/DyingStar-game/launcher/compare/v0.3.2...v0.4.0
 [0.3.2]: https://github.com/DyingStar-game/launcher/compare/v0.3.1...v0.3.2

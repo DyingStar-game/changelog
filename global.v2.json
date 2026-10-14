@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T19:38:38.390308+00:00",
+  "generated_at": "2026-10-14T21:34:49.888622+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -5655,105 +5655,116 @@
         }
       },
       "unreleased": {
-        "url": "https://github.com/DyingStar-game/launcher/compare/v1.0.0...HEAD",
+        "url": "https://github.com/DyingStar-game/launcher/compare/v1.0.1...HEAD",
         "entries": {
-          "en": [
-            {
-              "type": "changed",
-              "area": "changelog",
-              "text": "On Universe Testing, changes are listed build by build, grouped by the version they lead to."
-            },
-            {
-              "type": "changed",
-              "area": "changelog",
-              "text": "On Universe, the development builds of a version are folded under it, and the version shows all of their changes."
-            },
-            {
-              "type": "changed",
-              "area": "download",
-              "text": "Play checks for a new game version before launching the game."
-            },
-            {
-              "type": "changed",
-              "area": "changelog",
-              "text": "Changelog entries are grouped by type and show the area they concern (vehicles, interface…)."
-            },
-            {
-              "type": "changed",
-              "area": "changelog",
-              "text": "A withdrawn version is marked as such."
-            },
-            {
-              "type": "fixed",
-              "area": "download",
-              "text": "A game update released while the launcher is open is now offered without restarting it."
-            },
-            {
-              "type": "fixed",
-              "area": "download",
-              "text": "A download stuck on a slow connection now recovers by itself."
-            },
-            {
-              "type": "fixed",
-              "area": "download",
-              "text": "A download cut off by the connection now resumes by itself; when it cannot, a message says so."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "A part of the launcher that fails to display no longer leaves the whole window black."
-            }
-          ],
-          "fr": [
-            {
-              "type": "changed",
-              "area": "changelog",
-              "text": "Sur Universe Testing, les changements sont listés build par build, regroupés par la version qu'ils préparent."
-            },
-            {
-              "type": "changed",
-              "area": "changelog",
-              "text": "Sur Universe, les builds de développement d'une version sont repliés sous elle, et la version montre tous leurs changements."
-            },
-            {
-              "type": "changed",
-              "area": "download",
-              "text": "Jouer vérifie la présence d'une nouvelle version du jeu avant de lancer le jeu."
-            },
-            {
-              "type": "changed",
-              "area": "changelog",
-              "text": "Les entrées du changelog sont regroupées par type et indiquent le domaine concerné (véhicules, interface…)."
-            },
-            {
-              "type": "changed",
-              "area": "changelog",
-              "text": "Une version retirée est signalée comme telle."
-            },
-            {
-              "type": "fixed",
-              "area": "download",
-              "text": "Une mise à jour du jeu publiée pendant que le launcher est ouvert est désormais proposée sans redémarrage."
-            },
-            {
-              "type": "fixed",
-              "area": "download",
-              "text": "Un téléchargement bloqué sur une connexion lente reprend désormais de lui-même."
-            },
-            {
-              "type": "fixed",
-              "area": "download",
-              "text": "Un téléchargement coupé par la connexion reprend désormais de lui-même ; s'il ne le peut pas, un message le signale."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Une partie du launcher qui ne s'affiche pas ne laisse plus toute la fenêtre noire."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "1.0.1",
+          "date": "2026-10-14",
+          "yanked": false,
+          "dev": false,
+          "url": "https://github.com/DyingStar-game/launcher/compare/v1.0.0...v1.0.1",
+          "entries": {
+            "en": [
+              {
+                "type": "changed",
+                "area": "changelog",
+                "text": "On Universe Testing, changes are listed build by build, grouped by the version they lead to."
+              },
+              {
+                "type": "changed",
+                "area": "changelog",
+                "text": "On Universe, the development builds of a version are folded under it, and the version shows all of their changes."
+              },
+              {
+                "type": "changed",
+                "area": "download",
+                "text": "Play checks for a new game version before launching the game."
+              },
+              {
+                "type": "changed",
+                "area": "changelog",
+                "text": "Changelog entries are grouped by type and show the area they concern (vehicles, interface…)."
+              },
+              {
+                "type": "changed",
+                "area": "changelog",
+                "text": "A withdrawn version is marked as such."
+              },
+              {
+                "type": "fixed",
+                "area": "download",
+                "text": "A game update released while the launcher is open is now offered without restarting it."
+              },
+              {
+                "type": "fixed",
+                "area": "download",
+                "text": "A download stuck on a slow connection now recovers by itself."
+              },
+              {
+                "type": "fixed",
+                "area": "download",
+                "text": "A download cut off by the connection now resumes by itself; when it cannot, a message says so."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "A part of the launcher that fails to display no longer leaves the whole window black."
+              }
+            ],
+            "fr": [
+              {
+                "type": "changed",
+                "area": "changelog",
+                "text": "Sur Universe Testing, les changements sont listés build par build, regroupés par la version qu'ils préparent."
+              },
+              {
+                "type": "changed",
+                "area": "changelog",
+                "text": "Sur Universe, les builds de développement d'une version sont repliés sous elle, et la version montre tous leurs changements."
+              },
+              {
+                "type": "changed",
+                "area": "download",
+                "text": "Jouer vérifie la présence d'une nouvelle version du jeu avant de lancer le jeu."
+              },
+              {
+                "type": "changed",
+                "area": "changelog",
+                "text": "Les entrées du changelog sont regroupées par type et indiquent le domaine concerné (véhicules, interface…)."
+              },
+              {
+                "type": "changed",
+                "area": "changelog",
+                "text": "Une version retirée est signalée comme telle."
+              },
+              {
+                "type": "fixed",
+                "area": "download",
+                "text": "Une mise à jour du jeu publiée pendant que le launcher est ouvert est désormais proposée sans redémarrage."
+              },
+              {
+                "type": "fixed",
+                "area": "download",
+                "text": "Un téléchargement bloqué sur une connexion lente reprend désormais de lui-même."
+              },
+              {
+                "type": "fixed",
+                "area": "download",
+                "text": "Un téléchargement coupé par la connexion reprend désormais de lui-même ; s'il ne le peut pas, un message le signale."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Une partie du launcher qui ne s'affiche pas ne laisse plus toute la fenêtre noire."
+              }
+            ]
+          }
+        },
         {
           "version": "1.0.0",
           "date": "2026-10-13",

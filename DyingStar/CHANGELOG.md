@@ -47,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Interface**: With a larger interface size, the settings no longer lose their left side off the screen: long setting names now wrap onto two lines.
 - **Player**: Players no longer hop on the spot on sharp mountain crests and crater rims.
 - **Vehicles**: A truck parked on a sharp mountain crest is no longer dropped back onto it over and over.
 - **PlanetTech**: On Tarsis 3, no more holes in the ground beside the roads that run along the edge of a crack.

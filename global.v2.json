@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T21:34:49.888622+00:00",
+  "generated_at": "2026-10-14T23:00:55.126924+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -266,6 +266,11 @@
             },
             {
               "type": "fixed",
+              "area": "ui",
+              "text": "With a larger interface size, the settings no longer lose their left side off the screen: long setting names now wrap onto two lines."
+            },
+            {
+              "type": "fixed",
               "area": "player",
               "text": "Players no longer hop on the spot on sharp mountain crests and crater rims."
             },
@@ -515,6 +520,11 @@
               "type": "changed",
               "area": "vehicles",
               "text": "Écrans de cabine** des véhicules (rétroviseurs et tableau de bord) : éteints moteur coupé, rallumés à l'allumage."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Avec une taille d'interface agrandie, les réglages ne sortent plus par la gauche de l'écran : les noms de réglages trop longs passent sur deux lignes."
             },
             {
               "type": "fixed",

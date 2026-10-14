@@ -47,6 +47,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Interface** : Avec une taille d'interface agrandie, les réglages ne sortent plus par la gauche de l'écran : les noms de réglages trop longs passent sur deux lignes.
 - **Joueur** : Le joueur ne sautille plus sur place sur les crêtes de montagne et les bords de cratère.
 - **Véhicules** : Un camion garé sur une crête de montagne n'est plus relâché dessus en boucle.
 - **PlanetTech** : Sur Tarsis 3, plus de trous dans le sol au bord des routes qui longent une fissure.

@@ -408,7 +408,7 @@ class GenerateGlobalJsonTest(RepoTestCase):
     def generate(self) -> dict:
         r = self.repo.run("generate_global_json.py")
         self.assertEqual(r.returncode, 0, r.stderr)
-        with open(os.path.join(self.repo.root, "global.json"), encoding="utf-8") as f:
+        with open(os.path.join(self.repo.root, "global.v2.json"), encoding="utf-8") as f:
             return json.load(f)
 
     def test_schema(self):
@@ -541,19 +541,19 @@ class RepositoryTest(unittest.TestCase):
                 body = lib.render_section_body(cfg, before, lang)
                 self.assertEqual(lib.parse_section_lines(cfg, body), before, path)
 
-    def test_global_json_is_up_to_date(self):
+    def test_global_v2_json_is_up_to_date(self):
         repo = TempRepo()
         self.addCleanup(repo.cleanup)
         for path in glob.glob(os.path.join(REPO_ROOT, "**", "CHANGELOG*.md"), recursive=True):
             shutil.copy(path, os.path.join(repo.root, os.path.relpath(path, REPO_ROOT)))
         self.assertEqual(repo.run("generate_global_json.py").returncode, 0)
-        with open(os.path.join(repo.root, "global.json"), encoding="utf-8") as f:
+        with open(os.path.join(repo.root, "global.v2.json"), encoding="utf-8") as f:
             generated = json.load(f)
-        with open(os.path.join(REPO_ROOT, "global.json"), encoding="utf-8") as f:
+        with open(os.path.join(REPO_ROOT, "global.v2.json"), encoding="utf-8") as f:
             committed = json.load(f)
         generated.pop("generated_at")
         committed.pop("generated_at")
-        self.assertEqual(generated, committed, "global.json is stale: run scripts/generate_global_json.py")
+        self.assertEqual(generated, committed, "global.v2.json is stale: run scripts/generate_global_json.py")
 
     def test_plugin_files(self):
         for path in [".claude-plugin/marketplace.json", "plugins/changelog/.claude-plugin/plugin.json"]:

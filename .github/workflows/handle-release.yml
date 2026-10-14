@@ -23,7 +23,7 @@ jobs:
             --version "$VERSION" \
             --date "$DATE"
 
-      - name: Generate global.json
+      - name: Generate global.v2.json
         run: python3 scripts/generate_global_json.py
 
       - name: Commit and push

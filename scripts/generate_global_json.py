@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
 Parse all component CHANGELOG.md and CHANGELOG.fr.md files and emit
-a single global.json at the repository root (schema version 2, ADR 0001).
+a single global.v2.json at the repository root (schema version 2, ADR 0001).
+
+global.json is a frozen schema version 1 snapshot for launcher 1.0.0, never
+regenerated, removed once players have moved to a newer launcher (ADR 0002).
 
 Schema:
 {
@@ -94,12 +97,12 @@ def main() -> None:
     if missing:
         print(f"Warning: skipped missing components: {missing}", file=sys.stderr)
 
-    output_path = os.path.join(lib.REPO_ROOT, "global.json")
+    output_path = os.path.join(lib.REPO_ROOT, "global.v2.json")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
-    print(f"global.json written to {output_path}")
+    print(f"global.v2.json written to {output_path}")
 
 
 if __name__ == "__main__":

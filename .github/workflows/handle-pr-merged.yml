@@ -23,7 +23,7 @@ jobs:
             --entry-en="$ENTRY_EN" \
             --entry-fr="$ENTRY_FR"
 
-      - name: Generate global.json
+      - name: Generate global.v2.json
         run: python3 scripts/generate_global_json.py
 
       - name: Commit and push

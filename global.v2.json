@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T11:34:36.490052+00:00",
+  "generated_at": "2026-10-14T11:42:15.100049+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -50,6 +50,10 @@
         "mining": {
           "en": "Mining",
           "fr": "Minage"
+        },
+        "props": {
+          "en": "Props",
+          "fr": "Objets"
         },
         "star-map": {
           "en": "Star map",

@@ -7,6 +7,7 @@
       "vehicles": { "en": "Vehicles", "fr": "Véhicules" },
       "buildings": { "en": "Buildings", "fr": "Bâtiments" },
       "mining": { "en": "Mining", "fr": "Minage" },
+      "props": { "en": "Props", "fr": "Objets" },
       "star-map": { "en": "Star map", "fr": "Carte stellaire" },
       "economy": { "en": "Economy", "fr": "Économie" },
       "social": { "en": "Social", "fr": "Social" },

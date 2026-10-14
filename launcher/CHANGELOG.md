@@ -10,23 +10,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2026-10-13
 
 - Profile editing added: faction, biography and role-play sheet.
-  Organisation management added: details, invitations, members, ranks and leadership; leaving an organisation; inviting a player from their profile.
-  Social page split into Friends and Organisations, each with its list, a search and the pending requests.
-  Header split into two bars: the launcher on top, the current universe below (Home, Social, Changelog and account).
-  Sign-in moved to the top right corner; while signed out, the Play button is replaced by "Sign in with Discord".
-  Counters added for pending friend requests and unread changelog versions.
-  Test environment flagged on every page; the launcher now opens on it.
-  Lore page removed.
-  Crackling in the interface sounds fixed.
-  Home page redesigned: the universe over a full-screen image slideshow, and a single bar at the bottom with the server status, the game's state and its main action (install, update, sign in, play).
-  Game downloads can be paused, resumed (even after closing the launcher) and cancelled; the speed and time left are shown.
-  Game files (version, install folder, cache) moved behind a ⚙ button next to the main action.
-  A pending game update shows the installed and new versions, with a link to its changelog.
-  Friends on the home page listed alphabetically, all of them.
-  Notifications (profile saved, organisation created, cache cleared…) shown in a corner of the screen.
-  Signing out no longer opens a browser page; the next sign-in asks for the account again.
-  Friend list cleared when signing out.
-  Screenshots and videos in the game folder kept when the game is updated.
+- Organisation management added: details, invitations, members, ranks and leadership; leaving an organisation; inviting a player from their profile.
+- Social page split into Friends and Organisations, each with its list, a search and the pending requests.
+- Header split into two bars: the launcher on top, the current universe below (Home, Social, Changelog and account).
+- Sign-in moved to the top right corner; while signed out, the Play button is replaced by "Sign in with Discord".
+- Counters added for pending friend requests and unread changelog versions.
+- Test environment flagged on every page; the launcher now opens on it.
+- Lore page removed.
+- Crackling in the interface sounds fixed.
+- Home page redesigned: the universe over a full-screen image slideshow, and a single bar at the bottom with the server status, the game's state and its main action (install, update, sign in, play).
+- Game downloads can be paused, resumed (even after closing the launcher) and cancelled; the speed and time left are shown.
+- Game files (version, install folder, cache) moved behind a ⚙ button next to the main action.
+- A pending game update shows the installed and new versions, with a link to its changelog.
+- Friends on the home page listed alphabetically, all of them.
+- Notifications (profile saved, organisation created, cache cleared…) shown in a corner of the screen.
+- Signing out no longer opens a browser page; the next sign-in asks for the account again.
+- Friend list cleared when signing out.
+- Screenshots and videos in the game folder kept when the game is updated.
 ## [0.4.0] - 2026-10-10
 
 - Social: friends, friend requests and organisations now use the game's social service, with a player search
@@ -79,3 +79,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - 2025-01-01
 
 - Initial open-source Electron launcher: auth, game install/update, server status, lore, social UI (mock)
+
+[unreleased]: https://github.com/DyingStar-game/launcher/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/DyingStar-game/launcher/compare/v0.4.0...v1.0.0
+[0.4.0]: https://github.com/DyingStar-game/launcher/compare/v0.3.2...v0.4.0
+[0.3.2]: https://github.com/DyingStar-game/launcher/compare/v0.3.1...v0.3.2
+[0.3.1]: https://github.com/DyingStar-game/launcher/compare/v0.3.0...v0.3.1
+[0.3.0]: https://github.com/DyingStar-game/launcher/compare/v0.2.2...v0.3.0
+[0.2.2]: https://github.com/DyingStar-game/launcher/compare/v0.2.1...v0.2.2
+[0.2.1]: https://github.com/DyingStar-game/launcher/compare/v0.2.0...v0.2.1
+[0.2.0]: https://github.com/DyingStar-game/launcher/compare/0.1.0...v0.2.0
+[0.1.0]: https://github.com/DyingStar-game/launcher/releases/tag/0.1.0

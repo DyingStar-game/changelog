@@ -374,6 +374,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **PlanetTech** : Sur Tarsis 3, plus de trous dans le sol au bord des routes qui longent une fissure.
+- **PlanetTech** : Sur Tarsis 3, les petites marches et fentes là où deux portions de sol se rejoignent ont disparu, en pleine nature comme dans les villages.
 - **Interface** : Les noms de périphériques audio trop longs ne font plus sortir les réglages Audio par la gauche de l'écran ; ils sont raccourcis et affichés en entier au survol.
 - **Interface** : Dès le lancement du jeu, Paramètres, Crédits et Retour fonctionnent de nouveau dans le menu principal.
 - **Joueur** : Un joueur qui a quitté le jeu accroupi, allongé, en apesanteur ou au volant n'est plus bloqué dans cette posture à la reconnexion.

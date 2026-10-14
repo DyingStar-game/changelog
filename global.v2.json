@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T14:40:35.773964+00:00",
+  "generated_at": "2026-10-14T14:42:15.869222+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -1603,6 +1603,16 @@
               "type": "removed",
               "area": "player",
               "text": "Also removes the F4 third-person camera, which conflicts with the aim-based mining"
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "On Tarsis 3, no more holes in the ground beside the roads that run along the edge of a crack."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "On Tarsis 3, the small steps and slits where two stretches of ground meet are gone, in the open as in the villages."
             },
             {
               "type": "fixed",
@@ -3845,6 +3855,16 @@
               "type": "removed",
               "area": "player",
               "text": "Supprime également la caméra à la troisième personne (F4) qui entrait en conflit avec l'extraction minière basée sur la visée"
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Sur Tarsis 3, plus de trous dans le sol au bord des routes qui longent une fissure."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Sur Tarsis 3, les petites marches et fentes là où deux portions de sol se rejoignent ont disparu, en pleine nature comme dans les villages."
             },
             {
               "type": "fixed",

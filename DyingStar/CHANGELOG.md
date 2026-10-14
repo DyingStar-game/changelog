@@ -361,6 +361,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **PlanetTech**: On Tarsis 3, no more holes in the ground beside the roads that run along the edge of a crack.
+- **PlanetTech**: On Tarsis 3, the small steps and slits where two stretches of ground meet are gone, in the open as in the villages.
 - **Interface**: Long audio device names no longer push the Audio settings off the left of the screen; they are shortened, and shown whole on hover.
 - **Interface**: Right after launching the game, Settings, Credits and Back work again in the main menu.
 - **Player**: A player who left the game crouched, prone, floating or at the wheel is no longer stuck in that posture on reconnecting.

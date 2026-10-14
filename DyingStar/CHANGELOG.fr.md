@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **PlanetTech** : Nouvelle vue de débogage des filets de sécurité sous le sol (Réglages > Debug), en rouge là où le sol de secours dépasse du terrain, en magenta là où le rattrapage de chute passe au-dessus.
 - **Carte stellaire** : Sous 6 500 km, la vue suit la rotation de la planète : le sol ne glisse plus.
 - **Objets** : Distributeurs ARES : pièces de véhicule au garage, rations dans les villages miniers, outil de minage au dépôt de cargo. Choisissez sur l'écran, attendez la livraison, prenez vos objets dans la trappe.
 - **Audio** : L'ascenseur à ses sons: son treuil, le roulement de la plateforme sur le rail, et un lourd choc au départ et à l'arrêt.
@@ -374,6 +375,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Joueur** : Le joueur ne sautille plus sur place sur les crêtes de montagne et les bords de cratère.
+- **Véhicules** : Un camion garé sur une crête de montagne n'est plus relâché dessus en boucle.
 - **PlanetTech** : Sur Tarsis 3, plus de trous dans le sol au bord des routes qui longent une fissure.
 - **PlanetTech** : Sur Tarsis 3, les petites marches et fentes là où deux portions de sol se rejoignent ont disparu, en pleine nature comme dans les villages.
 - **Interface** : Les noms de périphériques audio trop longs ne font plus sortir les réglages Audio par la gauche de l'écran ; ils sont raccourcis et affichés en entier au survol.

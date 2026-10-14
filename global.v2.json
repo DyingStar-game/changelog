@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T14:42:15.869222+00:00",
+  "generated_at": "2026-10-14T14:43:02.188473+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -104,6 +104,11 @@
         "url": null,
         "entries": {
           "en": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "New debug view of the safety nets under the ground (Settings > Debug), in red where the fallback floor pokes out of the terrain, in magenta where the fall catch rises above it."
+            },
             {
               "type": "added",
               "area": "star-map",
@@ -1606,6 +1611,16 @@
             },
             {
               "type": "fixed",
+              "area": "player",
+              "text": "Players no longer hop on the spot on sharp mountain crests and crater rims."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "A truck parked on a sharp mountain crest is no longer dropped back onto it over and over."
+            },
+            {
+              "type": "fixed",
               "area": "planettech",
               "text": "On Tarsis 3, no more holes in the ground beside the roads that run along the edge of a crack."
             },
@@ -2356,6 +2371,11 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Nouvelle vue de débogage des filets de sécurité sous le sol (Réglages > Debug), en rouge là où le sol de secours dépasse du terrain, en magenta là où le rattrapage de chute passe au-dessus."
+            },
             {
               "type": "added",
               "area": "star-map",
@@ -3855,6 +3875,16 @@
               "type": "removed",
               "area": "player",
               "text": "Supprime également la caméra à la troisième personne (F4) qui entrait en conflit avec l'extraction minière basée sur la visée"
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Le joueur ne sautille plus sur place sur les crêtes de montagne et les bords de cratère."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Un camion garé sur une crête de montagne n'est plus relâché dessus en boucle."
             },
             {
               "type": "fixed",

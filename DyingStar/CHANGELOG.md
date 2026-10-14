@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **PlanetTech**: New debug view of the safety nets under the ground (Settings > Debug), in red where the fallback floor pokes out of the terrain, in magenta where the fall catch rises above it.
 - **Star map**: Below 6,500 km, the view follows the planet's rotation: the ground no longer slides away.
 - **Props**: ARES vending machines: vehicle parts in the garage, rations in the mining villages, the mining tool at the cargo depot. Pick on the screen, wait for the delivery, take your items from the hatch.
 - **Audio**: The vehicle lift is heard: its winch, the platform rolling along the rail, and a heavy clunk when it starts and stops.
@@ -361,6 +362,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Player**: Players no longer hop on the spot on sharp mountain crests and crater rims.
+- **Vehicles**: A truck parked on a sharp mountain crest is no longer dropped back onto it over and over.
 - **PlanetTech**: On Tarsis 3, no more holes in the ground beside the roads that run along the edge of a crack.
 - **PlanetTech**: On Tarsis 3, the small steps and slits where two stretches of ground meet are gone, in the open as in the villages.
 - **Interface**: Long audio device names no longer push the Audio settings off the left of the screen; they are shortened, and shown whole on hover.

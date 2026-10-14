@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T12:11:22.339972+00:00",
+  "generated_at": "2026-10-14T14:34:20.964494+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -104,6 +104,11 @@
         "url": null,
         "entries": {
           "en": [
+            {
+              "type": "added",
+              "area": "star-map",
+              "text": "Below 6,500 km, the view follows the planet's rotation: the ground no longer slides away."
+            },
             {
               "type": "added",
               "area": "props",
@@ -793,6 +798,11 @@
               "type": "added",
               "area": "planettech",
               "text": "Add planet data download for build and get locally for developers"
+            },
+            {
+              "type": "changed",
+              "area": "star-map",
+              "text": "Canyons are drawn lighter and as curves, as the ground shows them."
             },
             {
               "type": "changed",
@@ -1586,6 +1596,31 @@
             },
             {
               "type": "fixed",
+              "area": "player",
+              "text": "A player who left the game crouched, prone, floating or at the wheel is no longer stuck in that posture on reconnecting."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "Players no longer spawn with the mining drill on their belt before taking one from the ARES Mining machine."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "Players no longer stay on \"Spawning\" near the cargo depot, whose ground was rebuilt without end."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "The debug panel shows over the star map again."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "Canyons no longer show darker blocks where they meet."
+            },
+            {
+              "type": "fixed",
               "area": "ui",
               "text": "Play hints no longer cover the chat or the voice buttons; Escape closes the tablet opened with F2."
             },
@@ -2293,6 +2328,11 @@
           "fr": [
             {
               "type": "added",
+              "area": "star-map",
+              "text": "Sous 6 500 km, la vue suit la rotation de la planète : le sol ne glisse plus."
+            },
+            {
+              "type": "added",
               "area": "props",
               "text": "Distributeurs ARES : pièces de véhicule au garage, rations dans les villages miniers, outil de minage au dépôt de cargo. Choisissez sur l'écran, attendez la livraison, prenez vos objets dans la trappe."
             },
@@ -2980,6 +3020,11 @@
               "type": "added",
               "area": "planettech",
               "text": "Ajout du téléchargement des données planète pour le build et en local pour les développeurs"
+            },
+            {
+              "type": "changed",
+              "area": "star-map",
+              "text": "Les canyons sont plus légers et tracés en courbes, comme le sol les montre."
             },
             {
               "type": "changed",
@@ -3770,6 +3815,31 @@
               "type": "removed",
               "area": "player",
               "text": "Supprime également la caméra à la troisième personne (F4) qui entrait en conflit avec l'extraction minière basée sur la visée"
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Un joueur qui a quitté le jeu accroupi, allongé, en apesanteur ou au volant n'est plus bloqué dans cette posture à la reconnexion."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "Les joueurs n'apparaissent plus avec l'outil de minage à la ceinture avant de l'avoir pris à la machine ARES Mining."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "Les joueurs ne restent plus sur « Apparition » près du dépôt de cargo, dont le sol était recalculé sans fin."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "Le panneau de debug s'affiche de nouveau par-dessus la carte stellaire."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "Les canyons n'ont plus de taches plus foncées là où ils se rejoignent."
             },
             {
               "type": "fixed",

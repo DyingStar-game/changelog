@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Carte stellaire** : Sous 6 500 km, la vue suit la rotation de la planète : le sol ne glisse plus.
 - **Objets** : Distributeurs ARES : pièces de véhicule au garage, rations dans les villages miniers, outil de minage au dépôt de cargo. Choisissez sur l'écran, attendez la livraison, prenez vos objets dans la trappe.
 - **Audio** : L'ascenseur à ses sons: son treuil, le roulement de la plateforme sur le rail, et un lourd choc au départ et à l'arrêt.
 - **Véhicules** : Nouveau tableau de bord pour le camion
@@ -197,6 +198,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Carte stellaire** : Les canyons sont plus légers et tracés en courbes, comme le sol les montre.
 - **Minage** : On ne commence plus avec un outil de minage : allez le chercher à la machine ARES Mining du dépôt de cargo. La touche d'action le prend ou le pose ; il reste à vous.
 - **Interface** : Les écrans 3D s'utilisent au viseur : passer devant une console ne bloque plus la vue.
 - **Objets** : Les petits objets posés au sol se ramassent debout.
@@ -370,6 +372,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Joueur** : Un joueur qui a quitté le jeu accroupi, allongé, en apesanteur ou au volant n'est plus bloqué dans cette posture à la reconnexion.
+- **Minage** : Les joueurs n'apparaissent plus avec l'outil de minage à la ceinture avant de l'avoir pris à la machine ARES Mining.
+- **Bâtiments** : Les joueurs ne restent plus sur « Apparition » près du dépôt de cargo, dont le sol était recalculé sans fin.
+- **Carte stellaire** : Le panneau de debug s'affiche de nouveau par-dessus la carte stellaire.
+- **Carte stellaire** : Les canyons n'ont plus de taches plus foncées là où ils se rejoignent.
 - **Interface** : Les bulles d'aide ne couvrent plus le chat ni les boutons vocaux ; Échap ferme la tablette ouverte par F2.
 - **Interface** : Corrige une tablette qui ne dessinait rien : une section hébergée était imbriquée trop profond et n'avait pas de hauteur.
 - **Objets** : Étagères des cargo_depot : chaque dépôt crée une seule fois ses 193 étagères réseau, et un drapeau enregistré empêche de les recréer au redémarrage du serveur.

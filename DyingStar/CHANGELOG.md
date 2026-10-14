@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Star map**: Below 6,500 km, the view follows the planet's rotation: the ground no longer slides away.
 - **Props**: ARES vending machines: vehicle parts in the garage, rations in the mining villages, the mining tool at the cargo depot. Pick on the screen, wait for the delivery, take your items from the hatch.
 - **Audio**: The vehicle lift is heard: its winch, the platform rolling along the rail, and a heavy clunk when it starts and stops.
 - **Vehicles**: New truck dashboard, readable on its screen: speed, warning lights, a box per component bay, power gauge, batteries.
@@ -185,6 +186,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Star map**: Canyons are drawn lighter and as curves, as the ground shows them.
 - **Mining**: You no longer start with a mining tool: get one at the ARES Mining machine of the cargo depot. Press the action key to take it or to put it down; it stays yours.
 - **Interface**: 3D screens are used with the crosshair: walking past a console no longer locks the view.
 - **Props**: Small items on the floor can be picked up standing.
@@ -357,6 +359,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Player**: A player who left the game crouched, prone, floating or at the wheel is no longer stuck in that posture on reconnecting.
+- **Mining**: Players no longer spawn with the mining drill on their belt before taking one from the ARES Mining machine.
+- **Buildings**: Players no longer stay on "Spawning" near the cargo depot, whose ground was rebuilt without end.
+- **Star map**: The debug panel shows over the star map again.
+- **Star map**: Canyons no longer show darker blocks where they meet.
 - **Interface**: Play hints no longer cover the chat or the voice buttons; Escape closes the tablet opened with F2.
 - **Interface**: Fix the tablet drawing nothing: a mounted section was nested too deep and was given no height.
 - **Props**: Cargo depot shelves: each depot creates its 193 network shelves only once, and a saved flag prevents them from being recreated upon server restart.

@@ -1,0 +1,65 @@
+{
+  "DyingStar": {
+    "repo": "DyingStar-game/DyingStar",
+    "areas": {
+      "planettech": { "en": "PlanetTech", "fr": "PlanetTech" },
+      "weather": { "en": "Weather", "fr": "Météo" },
+      "vehicles": { "en": "Vehicles", "fr": "Véhicules" },
+      "buildings": { "en": "Buildings", "fr": "Bâtiments" },
+      "star-map": { "en": "Star map", "fr": "Carte stellaire" },
+      "economy": { "en": "Economy", "fr": "Économie" },
+      "social": { "en": "Social", "fr": "Social" },
+      "ui": { "en": "Interface", "fr": "Interface" },
+      "controls": { "en": "Controls", "fr": "Commandes" },
+      "audio": { "en": "Audio", "fr": "Audio" },
+      "graphics": { "en": "Graphics", "fr": "Graphismes" },
+      "performance": { "en": "Performance", "fr": "Performances" },
+      "server": { "en": "Server", "fr": "Serveur" }
+    }
+  },
+  "horizonserver": {
+    "repo": "DyingStar-game/horizonserver",
+    "areas": {
+      "mesh": { "en": "Server meshing", "fr": "Maillage de serveurs" },
+      "persistence": { "en": "Persistence", "fr": "Persistance" },
+      "performance": { "en": "Performance", "fr": "Performances" }
+    }
+  },
+  "services/monitoring": {
+    "repo": "DyingStar-game/services",
+    "areas": {
+      "metrics": { "en": "Metrics", "fr": "Métriques" },
+      "alerts": { "en": "Alerts", "fr": "Alertes" },
+      "dashboards": { "en": "Dashboards", "fr": "Tableaux de bord" }
+    }
+  },
+  "services/persistence": {
+    "repo": "DyingStar-game/services",
+    "areas": {
+      "storage": { "en": "Storage", "fr": "Stockage" },
+      "api": { "en": "API", "fr": "API" },
+      "performance": { "en": "Performance", "fr": "Performances" }
+    }
+  },
+  "services/resourcesDynamic": {
+    "repo": "DyingStar-game/services",
+    "areas": {
+      "resources": { "en": "Resources", "fr": "Ressources" },
+      "api": { "en": "API", "fr": "API" },
+      "performance": { "en": "Performance", "fr": "Performances" }
+    }
+  },
+  "launcher": {
+    "repo": "DyingStar-game/launcher",
+    "tag_format": "v{version}",
+    "tag_overrides": { "0.1.0": "0.1.0" },
+    "areas": {
+      "ui": { "en": "Interface", "fr": "Interface" },
+      "account": { "en": "Account", "fr": "Compte" },
+      "social": { "en": "Social", "fr": "Social" },
+      "download": { "en": "Download and install", "fr": "Téléchargement et installation" },
+      "changelog": { "en": "Changelog", "fr": "Changelog" },
+      "audio": { "en": "Audio", "fr": "Audio" }
+    }
+  }
+}

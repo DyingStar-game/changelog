@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T23:00:55.126924+00:00",
+  "generated_at": "2026-10-14T23:13:05.532753+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -266,6 +266,26 @@
             },
             {
               "type": "fixed",
+              "area": "planettech",
+              "text": "The canyon wall no longer has a large triangular hole next to the road."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "The ground no longer flickers along the edge of the canyons."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "The canyon under a bridge is no longer filled with ground."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "The depot belts carry rocks and crates to the end even when the server is busy."
+            },
+            {
+              "type": "fixed",
               "area": "ui",
               "text": "With a larger interface size, the settings no longer lose their left side off the screen: long setting names now wrap onto two lines."
             },
@@ -520,6 +540,26 @@
               "type": "changed",
               "area": "vehicles",
               "text": "Écrans de cabine** des véhicules (rétroviseurs et tableau de bord) : éteints moteur coupé, rallumés à l'allumage."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "La paroi du canyon n'a plus de grand trou triangulaire à côté de la route."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Le sol ne scintille plus au bord des canyons."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Le canyon sous un pont n'est plus comblé de terrain."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "Les tapis du dépôt amènent les roches et les caisses jusqu'au bout, même quand le serveur est chargé."
             },
             {
               "type": "fixed",

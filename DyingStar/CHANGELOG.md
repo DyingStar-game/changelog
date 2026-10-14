@@ -47,6 +47,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **PlanetTech**: The canyon wall no longer has a large triangular hole next to the road.
+- **PlanetTech**: The ground no longer flickers along the edge of the canyons.
+- **PlanetTech**: The canyon under a bridge is no longer filled with ground.
+- **Mining**: The depot belts carry rocks and crates to the end even when the server is busy.
 - **Interface**: With a larger interface size, the settings no longer lose their left side off the screen: long setting names now wrap onto two lines.
 - **Player**: Players no longer hop on the spot on sharp mountain crests and crater rims.
 - **Vehicles**: A truck parked on a sharp mountain crest is no longer dropped back onto it over and over.

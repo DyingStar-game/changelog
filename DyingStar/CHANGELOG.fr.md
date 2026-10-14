@@ -47,6 +47,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **PlanetTech** : La paroi du canyon n'a plus de grand trou triangulaire à côté de la route.
+- **PlanetTech** : Le sol ne scintille plus au bord des canyons.
+- **PlanetTech** : Le canyon sous un pont n'est plus comblé de terrain.
+- **Minage** : Les tapis du dépôt amènent les roches et les caisses jusqu'au bout, même quand le serveur est chargé.
 - **Interface** : Avec une taille d'interface agrandie, les réglages ne sortent plus par la gauche de l'écran : les noms de réglages trop longs passent sur deux lignes.
 - **Joueur** : Le joueur ne sautille plus sur place sur les crêtes de montagne et les bords de cratère.
 - **Véhicules** : Un camion garé sur une crête de montagne n'est plus relâché dessus en boucle.

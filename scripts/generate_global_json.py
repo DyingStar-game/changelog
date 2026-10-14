@@ -1,17 +1,25 @@
 #!/usr/bin/env python3
 """
 Parse all component CHANGELOG.md and CHANGELOG.fr.md files and emit
-a single global.json at the repository root.
+a single global.json at the repository root (schema version 2, ADR 0001).
 
 Schema:
 {
+  "schema_version": 2,
   "generated_at": "<ISO-8601 UTC>",
+  "types": { "added": { "en": "Added", "fr": "Ajouts" }, ... },   // display order
   "components": {
     "<component>": {
-      "unreleased": { "en": ["entry", ...], "fr": ["entrée", ...] },
+      "repo": "DyingStar-game/<repo>",
+      "areas": { "<area>": { "en": "...", "fr": "..." }, ... },  // display order
+      "unreleased": {
+        "url": "<compare URL>" | null,
+        "entries": { "en": [<entry>, ...], "fr": [<entry>, ...] }
+      },
       "releases": [
-        { "version": "1.2.3", "date": "YYYY-MM-DD",
-          "entries": { "en": [...], "fr": [...] } },
+        { "version": "1.2.3", "date": "YYYY-MM-DD", "yanked": false,
+          "url": "<compare URL>" | null,
+          "entries": { "en": [<entry>, ...], "fr": [<entry>, ...] } },
         ...
       ]
     },
@@ -19,148 +27,74 @@ Schema:
   }
 }
 
+<entry> = { "type": "<type>" | null, "area": "<area>" | null, "text": "line\nline" }
+type and area are null for entries written before they existed; "general" is
+the area of an entry merged without one. The text is Markdown, one display
+line per "\n" (the first is the bullet, the others its sub-lines).
+
 Releases are ordered newest-first (as they appear in CHANGELOG files).
-The FR unreleased list falls back to the EN list if empty.
-For each release, FR entries fall back to EN entries if the FR CHANGELOG
-does not contain that version.
+FR entries fall back to the EN ones when the FR section is empty or missing.
 """
 import json
 import os
-import re
 import sys
 from datetime import datetime, timezone
 
-COMPONENTS = [
-    "DyingStar",
-    "horizonserver",
-    "services/monitoring",
-    "services/persistence",
-    "services/resourcesDynamic",
-    "launcher",
-]
-
-UNRELEASED_HEADERS = {"## [Unreleased]", "## [Non publié]"}
-VERSION_RE = re.compile(r"^## \[(.+)\] - (\d{4}-\d{2}-\d{2})\s*$")
-
-
-def parse_changelog(filepath: str) -> tuple[list[str], list[dict]]:
-    """
-    Returns:
-        unreleased  – list of bullet strings for the [Unreleased] section
-        releases    – list of {"version": str, "date": str, "entries": [str, ...]}
-                      ordered as they appear in the file (newest first)
-    """
-    if not os.path.isfile(filepath):
-        return [], []
-
-    with open(filepath, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-
-    unreleased: list[str] = []
-    releases: list[dict] = []
-    # current_section: None | "unreleased" | dict (release block)
-    current_section = None
-
-    for line in lines:
-        stripped = line.rstrip()
-
-        if stripped in UNRELEASED_HEADERS:
-            current_section = "unreleased"
-            continue
-
-        m = VERSION_RE.match(stripped)
-        if m:
-            if isinstance(current_section, dict):
-                releases.append(current_section)
-            current_section = {"version": m.group(1), "date": m.group(2), "entries": []}
-            continue
-
-        # Any other ## header closes the current section
-        if stripped.startswith("## "):
-            if isinstance(current_section, dict):
-                releases.append(current_section)
-            current_section = None
-            continue
-
-        # ### sub-section headers (e.g. ### Added) are skipped but we stay in the section
-        if stripped.startswith("### "):
-            continue
-
-        # Collect bullet lines
-        if stripped.startswith("- ") or stripped.startswith("* "):
-            entry = stripped[2:].strip()
-            if current_section == "unreleased":
-                unreleased.append(entry)
-            elif isinstance(current_section, dict):
-                current_section["entries"].append(entry)
-            continue
-
-        # Continuation lines (indented, belonging to the previous bullet)
-        if line.startswith("  ") and stripped:
-            if current_section == "unreleased" and unreleased:
-                unreleased[-1] += "\n" + stripped
-            elif isinstance(current_section, dict) and current_section["entries"]:
-                current_section["entries"][-1] += "\n" + stripped
-
-    # Flush the last open release block
-    if isinstance(current_section, dict):
-        releases.append(current_section)
-
-    return unreleased, releases
+import changelog_lib as lib
 
 
 def main() -> None:
-    repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-
+    config = lib.load_config()
     result: dict = {
+        "schema_version": 2,
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "types": lib.TYPES,
         "components": {},
     }
 
     missing: list[str] = []
-    for component in COMPONENTS:
-        comp_dir = os.path.join(repo_root, component)
-        en_file = os.path.join(comp_dir, "CHANGELOG.md")
-        fr_file = os.path.join(comp_dir, "CHANGELOG.fr.md")
-
+    for component, cfg in config.items():
+        comp_dir = os.path.join(lib.REPO_ROOT, component)
         if not os.path.isdir(comp_dir):
             print(f"Warning: component directory not found: {comp_dir}", file=sys.stderr)
             missing.append(component)
             continue
 
-        unreleased_en, releases_en = parse_changelog(en_file)
-        unreleased_fr, releases_fr = parse_changelog(fr_file)
+        sections = {lang: lib.parse_changelog(cfg, os.path.join(comp_dir, lib.FILES[lang]))
+                    for lang in lib.LANGS}
+        fr_by_version = {s["version"]: s["entries"] for s in sections["fr"]}
+        en_sections = sections["en"]
+        versions = [s["version"] for s in en_sections if s["version"] is not None]
 
-        # Build a version → FR entries lookup for fast access
-        fr_by_version: dict[str, list[str]] = {r["version"]: r["entries"] for r in releases_fr}
-
-        merged_releases = []
-        for rel in releases_en:
-            merged_releases.append(
-                {
-                    "version": rel["version"],
-                    "date": rel["date"],
-                    "entries": {
-                        "en": rel["entries"],
-                        # Fall back to EN if no matching version in FR file
-                        "fr": fr_by_version.get(rel["version"], rel["entries"]),
-                    },
-                }
-            )
+        unreleased = {"url": None, "entries": {"en": [], "fr": []}}
+        releases = []
+        for s in en_sections:
+            entries = {"en": s["entries"], "fr": fr_by_version.get(s["version"]) or s["entries"]}
+            if s["version"] is None:
+                if versions and cfg.get("tag_format"):
+                    unreleased["url"] = (f"https://github.com/{cfg['repo']}/compare/"
+                                         f"{lib.tag_for(cfg, versions[0])}...HEAD")
+                unreleased["entries"] = entries
+                continue
+            releases.append({
+                "version": s["version"],
+                "date": s["date"],
+                "yanked": s["yanked"],
+                "url": lib.release_url(cfg, versions, versions.index(s["version"])),
+                "entries": entries,
+            })
 
         result["components"][component] = {
-            "unreleased": {
-                "en": unreleased_en,
-                # Fall back to EN if FR unreleased is empty
-                "fr": unreleased_fr if unreleased_fr else unreleased_en,
-            },
-            "releases": merged_releases,
+            "repo": cfg["repo"],
+            "areas": {**cfg["areas"], lib.FALLBACK_AREA: lib.FALLBACK_AREA_LABELS},
+            "unreleased": unreleased,
+            "releases": releases,
         }
 
     if missing:
         print(f"Warning: skipped missing components: {missing}", file=sys.stderr)
 
-    output_path = os.path.join(repo_root, "global.json")
+    output_path = os.path.join(lib.REPO_ROOT, "global.json")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
         f.write("\n")

@@ -1,0 +1,34 @@
+name: Check Changelog Entry
+
+# Reusable: called by each component repository on its pull requests, checks
+# the CHANGELOG_EN / CHANGELOG_FR blocks of the PR description (ADR 0001).
+#
+#   jobs:
+#     changelog-check:
+#       if: github.event.action != 'closed'
+#       uses: DyingStar-game/changelog/.github/workflows/check-entry.yml@main
+#       with:
+#         component: launcher
+
+on:
+  workflow_call:
+    inputs:
+      component:
+        description: "Component key (e.g. DyingStar, services/monitoring)"
+        required: true
+        type: string
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: DyingStar-game/changelog
+          ref: main
+
+      - name: Check the PR description
+        env:
+          COMPONENT: ${{ inputs.component }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: python3 scripts/check_entry.py --component="$COMPONENT"

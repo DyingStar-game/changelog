@@ -1,113 +1,76 @@
 #!/usr/bin/env python3
 """
-Prepend a bullet entry under the [Unreleased] section
-of a component's CHANGELOG.md and CHANGELOG.fr.md.
+Add the changelog entries of a merged PR to the [Unreleased] section of a
+component's CHANGELOG.md and CHANGELOG.fr.md (ADR 0001).
 
 Usage:
     python3 scripts/append_entry.py \
-        --component "services/monitoring" \
-        --entry-en "fix crash on startup" \
-        --entry-fr "correction du crash au démarrage"
+        --component "launcher" \
+        --entry-en="### Fixed
+- [download] The download resumes after a restart." \
+        --entry-fr="### Fixed
+- [download] Le téléchargement reprend après un redémarrage."
 
-If --entry-fr is empty or omitted, the EN text is used for the FR file.
+The entries text is the PR's CHANGELOG_EN / CHANGELOG_FR block (see
+changelog_lib.parse_block). If --entry-fr is empty or omitted, the EN entries
+are used for the FR file.
 
-Multi-line entries are stored as a single bullet with the lines joined
-by a literal newline (continuation of the same list item in Markdown).
+The PR check (check_entry.py) refuses a block with errors; one merged anyway
+is still recorded (fallback type and area) and the errors printed as warnings.
+New entries go first in their type group.
 """
 import argparse
 import os
 import sys
 
-COMPONENTS = [
-    "DyingStar",
-    "horizonserver",
-    "services/monitoring",
-    "services/persistence",
-    "services/resourcesDynamic",
-    "launcher",
-]
-
-# Both EN and FR unreleased headers are recognised so the script is robust
-# to existing files using either convention.
-UNRELEASED_HEADERS = {"## [Unreleased]", "## [Non publié]"}
+import changelog_lib as lib
 
 
-def _bullets(text: str) -> list[str]:
-    """Return a single-element list containing all non-empty lines joined by '\n'.
-
-    Multiple lines in the PR body are kept as one bullet (continuation lines
-    in Markdown) rather than being split into separate entries.
-    """
-    lines = []
-    for raw in text.splitlines():
-        line = raw.strip().lstrip("-* \t")
-        if line:
-            lines.append(line)
-    if not lines:
-        return []
-    return ["\n  ".join(lines)]
-
-
-def insert_entries(filepath: str, entries: list[str]) -> None:
-    """Prepend bullet entries under the first recognised [Unreleased] header."""
-    if not entries:
+def insert_entries(cfg: dict, path: str, entries: list[dict], lang: str) -> None:
+    if not os.path.isfile(path):
+        print(f"Warning: {path} not found, skipping.", file=sys.stderr)
         return
-    if not os.path.isfile(filepath):
-        print(f"Warning: {filepath} not found, skipping.", file=sys.stderr)
-        return
-
-    with open(filepath, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-
-    header_idx = None
-    for i, line in enumerate(lines):
-        if line.rstrip() in UNRELEASED_HEADERS:
-            header_idx = i
-            break
-
-    if header_idx is None:
-        print(f"Error: no unreleased header found in {filepath}", file=sys.stderr)
+    lines = lib.read_lines(path)
+    start = lib.find_unreleased(lines)
+    if start is None:
+        print(f"Error: no unreleased header found in {path}", file=sys.stderr)
         sys.exit(1)
-
-    # Find insertion point: right after the header (skip one blank line if present)
-    insert_idx = header_idx + 1
-    if insert_idx < len(lines) and lines[insert_idx].strip() == "":
-        insert_idx += 1
-
-    new_bullets = [f"- {e}\n" for e in entries]
-    lines[insert_idx:insert_idx] = new_bullets
-
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.writelines(lines)
+    end = lib.section_end(lines, start)
+    existing = lib.parse_section_lines(cfg, lines[start + 1:end])
+    body = lib.render_section_body(cfg, entries + existing, lang)
+    lines[start + 1:end] = body
+    lib.write_lines(path, lines)
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Append changelog entries to [Unreleased].")
+    parser = argparse.ArgumentParser(description="Add a PR's changelog entries to [Unreleased].")
     parser.add_argument("--component", required=True,
                         help="Component key, e.g. 'DyingStar' or 'services/monitoring'")
-    parser.add_argument("--entry-en", required=True, help="English entry text (may be multi-line)")
-    parser.add_argument("--entry-fr", default="", help="French entry text (falls back to EN if empty)")
+    parser.add_argument("--entry-en", required=True, help="CHANGELOG_EN block of the PR")
+    parser.add_argument("--entry-fr", default="", help="CHANGELOG_FR block (falls back to EN if empty)")
     args = parser.parse_args()
 
-    if args.component not in COMPONENTS:
-        print(
-            f"Error: unknown component '{args.component}'.\nValid values: {COMPONENTS}",
-            file=sys.stderr,
-        )
+    config = lib.load_config()
+    if args.component not in config:
+        print(f"Error: unknown component '{args.component}'.\nValid values: {list(config)}",
+              file=sys.stderr)
         sys.exit(1)
+    cfg = config[args.component]
 
-    bullets_en = _bullets(args.entry_en)
-    bullets_fr = _bullets(args.entry_fr) or bullets_en  # fallback to EN
+    entries = {}
+    for lang, text in (("en", args.entry_en), ("fr", args.entry_fr)):
+        entries[lang], errors = lib.parse_block(text, cfg, strict=False)
+        for e in errors:
+            print(f"::warning title=Changelog {lang.upper()}::{e}")
+    if not entries["en"]:
+        print("No entry in --entry-en (template left unfilled): nothing to add.")
+        return
+    if not entries["fr"]:
+        entries["fr"] = entries["en"]
 
-    if not bullets_en:
-        print("Error: --entry-en is empty after stripping.", file=sys.stderr)
-        sys.exit(1)
-
-    repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    comp_dir = os.path.join(repo_root, args.component)
-
-    insert_entries(os.path.join(comp_dir, "CHANGELOG.md"), bullets_en)
-    insert_entries(os.path.join(comp_dir, "CHANGELOG.fr.md"), bullets_fr)
+    comp_dir = os.path.join(lib.REPO_ROOT, args.component)
+    for lang in lib.LANGS:
+        insert_entries(cfg, os.path.join(comp_dir, lib.FILES[lang]), entries[lang], lang)
 
 
 if __name__ == "__main__":

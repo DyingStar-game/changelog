@@ -20,8 +20,8 @@ jobs:
         run: |
           python3 scripts/append_entry.py \
             --component "$COMPONENT" \
-            --entry-en "$ENTRY_EN" \
-            --entry-fr "$ENTRY_FR"
+            --entry-en="$ENTRY_EN" \
+            --entry-fr="$ENTRY_FR"
 
       - name: Generate global.json
         run: python3 scripts/generate_global_json.py

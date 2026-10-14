@@ -374,6 +374,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Interface** : Les noms de périphériques audio trop longs ne font plus sortir les réglages Audio par la gauche de l'écran ; ils sont raccourcis et affichés en entier au survol.
 - **Interface** : Dès le lancement du jeu, Paramètres, Crédits et Retour fonctionnent de nouveau dans le menu principal.
 - **Joueur** : Un joueur qui a quitté le jeu accroupi, allongé, en apesanteur ou au volant n'est plus bloqué dans cette posture à la reconnexion.
 - **Minage** : Les joueurs n'apparaissent plus avec l'outil de minage à la ceinture avant de l'avoir pris à la machine ARES Mining.

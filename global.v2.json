@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T23:13:05.532753+00:00",
+  "generated_at": "2026-10-14T23:29:37.546345+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,563 +103,574 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "New debug view of the safety nets under the ground (Settings > Debug), in red where the fallback floor pokes out of the terrain, in magenta where the fall catch rises above it."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "Below 6,500 km, the view follows the planet's rotation: the ground no longer slides away."
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "ARES vending machines: vehicle parts in the garage, rations in the mining villages, the mining tool at the cargo depot. Pick on the screen, wait for the delivery, take your items from the hatch."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "The vehicle lift is heard: its winch, the platform rolling along the rail, and a heavy clunk when it starts and stops."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "New truck dashboard, readable on its screen: speed, warning lights, a box per component bay, power gauge, batteries."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "An open door blinks and beeps on the dashboard, faster as the wind is about to slam it."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "\"Stand up to fit or remove a part\" when crouched or prone at a vehicle part."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Your own head now casts its shadow."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "The home screen says the game is in development and many assets are placeholders."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Added a \"vehicle_lift\" folder and its contents to \"addons\" (scripts, models, textures, etc.)"
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Added a test in guid_3d to ensure the presence of a viewport"
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "\"My contracts\" lists what you raised, and an issuer objective can be confirmed."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Auto-vault, climb and step-up: your character crosses obstacles automatically — vaulting over low ones, climbing onto ledges (including elevated platforms), and stepping smoothly up small obstacles that used to block you."
-            },
-            {
-              "type": "changed",
-              "area": "controls",
-              "text": "The torch has its own key, U (D-pad up on a gamepad): switching on the head lights no longer switches the torch on."
-            },
-            {
-              "type": "changed",
-              "area": "controls",
-              "text": "Vehicle head lights stay on L and move to D-pad down on a gamepad."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "Canyons are drawn lighter and as curves, as the ground shows them."
-            },
-            {
-              "type": "changed",
-              "area": "mining",
-              "text": "You no longer start with a mining tool: get one at the ARES Mining machine of the cargo depot. Press the action key to take it or to put it down; it stays yours."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "3D screens are used with the crosshair: walking past a console no longer locks the view."
-            },
-            {
-              "type": "changed",
-              "area": "props",
-              "text": "Small items on the floor can be picked up standing."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Engine and battery parts show the same icons as the dashboard."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Teleporter: destinations grouped by type and sorted, bodies marked planet / moon / giant, works with a gamepad."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Building lights switch on at dusk (1900 lux), the garage is lit at night."
-            },
-            {
-              "type": "changed",
-              "area": "weather",
-              "text": "Wind-blown dust takes the colour of the ground and fades between biomes; much cheaper, and gone high above the ground."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Enabled the addon in project settings"
-            },
-            {
-              "type": "changed",
-              "area": "server",
-              "text": "Modified the \"rollForward\" parameter in global.json to allow the C# project to build if the SDK version is higher than recommended"
-            },
-            {
-              "type": "changed",
-              "area": "server",
-              "text": "The \"websocket_url\" line in \"client.ini\" was also modified; it probably shouldn't have been."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Fold the services tablet's eleven apps into Social, Economy and Properties — eight tabs in the bar, Reports and System left in PLUS."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "Points of interest no longer ask for coordinates — take where you stand, or pick a point on the chart."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "Mission zones take a star system or one of your own POIs; the old scene and area kinds were always rejected."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "The group share line is on your own contracts only, and names the group."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Adjacent buildings: when two buildings are close enough for their flat areas to touch, the smaller one adjusts to the level of the larger one."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Vehicle cab screens** (rear-view mirrors and dashboard) turn off when the engine is off and back on with ignition."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "The canyon wall no longer has a large triangular hole next to the road."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "The ground no longer flickers along the edge of the canyons."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "The canyon under a bridge is no longer filled with ground."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "The depot belts carry rocks and crates to the end even when the server is busy."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "With a larger interface size, the settings no longer lose their left side off the screen: long setting names now wrap onto two lines."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Players no longer hop on the spot on sharp mountain crests and crater rims."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "A truck parked on a sharp mountain crest is no longer dropped back onto it over and over."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "On Tarsis 3, no more holes in the ground beside the roads that run along the edge of a crack."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "On Tarsis 3, the small steps and slits where two stretches of ground meet are gone, in the open as in the villages."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Long audio device names no longer push the Audio settings off the left of the screen; they are shortened, and shown whole on hover."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Right after launching the game, Settings, Credits and Back work again in the main menu."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "A player who left the game crouched, prone, floating or at the wheel is no longer stuck in that posture on reconnecting."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "Players no longer spawn with the mining drill on their belt before taking one from the ARES Mining machine."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Players no longer stay on \"Spawning\" near the cargo depot, whose ground was rebuilt without end."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "The debug panel shows over the star map again."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Canyons no longer show darker blocks where they meet."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Play hints no longer cover the chat or the voice buttons; Escape closes the tablet opened with F2."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Fix the tablet drawing nothing: a mounted section was nested too deep and was given no height."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "Cargo depot shelves: each depot creates its 193 network shelves only once, and a saved flag prevents them from being recreated upon server restart."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Building aprons: the flat area around a building is no longer deformed by neighboring buildings."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Ground texture: it no longer stretches on steep slopes around buildings."
-            },
-            {
-              "type": "fixed",
-              "area": "social",
-              "text": "Fix players showing as offline in the contacts list and on profiles: the client now uses the\ntoken's `sub` as its player id, instead of a random UUID regenerated on every session. This also\nstops the duplication of profiles (`Player_xxxxxxx`) on each reconnection.\nFix player names in social: they now come from the account (`preferred_username`) instead of the\ngenerated pseudo sent by the game server.\nFix presence location reporting the planet's network name: a player on SandBox now reports\n`tarsis · tarsis_3` instead of an empty system and an unknown scene.\nFix the chat not opening with F12. The chat was never connected to the message broker, so no\nmessage could be received or sent.\nPrivate messages: pin one conversation at a time in the message box, showing the correspondent's\nname. The header is clickable and lists every conversation, those with a new message first, and\ncan be closed with the ✕.\nThe message log now shows only the pinned conversation instead of mixing every private message\ntogether.\nWrite to a contact straight from their card, with Enter sending, without leaving the card.\nSocial notifications (friend request, friend request accepted, corporation joined) now appear as\na stack at the top of the screen. Clicking one opens the screen where it can be handled.\nDiagnostics: a new panel block showing the chat broker connection and the voice room, refreshed\nevery second while the panel is open."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Pause menu** no longer lets the character move, act, drill, or look around while it is open."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Nouvelle vue de débogage des filets de sécurité sous le sol (Réglages > Debug), en rouge là où le sol de secours dépasse du terrain, en magenta là où le rattrapage de chute passe au-dessus."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "Sous 6 500 km, la vue suit la rotation de la planète : le sol ne glisse plus."
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Distributeurs ARES : pièces de véhicule au garage, rations dans les villages miniers, outil de minage au dépôt de cargo. Choisissez sur l'écran, attendez la livraison, prenez vos objets dans la trappe."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "L'ascenseur à ses sons: son treuil, le roulement de la plateforme sur le rail, et un lourd choc au départ et à l'arrêt."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Nouveau tableau de bord pour le camion"
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Une porte ouverte clignote et bipe au tableau de bord, de plus en plus vite quand le vent va la claquer."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "« Relevez-vous pour installer ou retirer un composant » quand on est accroupi ou allongé devant une pièce."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Votre propre tête projette maintenant son ombre."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "L'écran d'accueil indique que le jeu est en développement et que beaucoup d'éléments sont provisoires."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Ajout d'un dossier \"vehicle_lift\" et son contenu dans \"addons\" (scripts, modèles, textures...)"
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Ajout d'un test dans guid_3d pour être certain de la présence d'un viewport"
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "« Mes contrats » liste ce que tu as créé, et un objectif à validation manuelle se confirme."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Franchissement automatique** : le personnage franchit les obstacles tout seul — vault par-dessus les bas, grimpe sur les rebords (y compris surélevés), et enjambe en douceur les petites marches qui bloquaient."
-            },
-            {
-              "type": "changed",
-              "area": "controls",
-              "text": "La lampe torche a sa propre touche, U (croix haut à la manette) : allumer les phares n'allume plus la torche."
-            },
-            {
-              "type": "changed",
-              "area": "controls",
-              "text": "Les phares des véhicules restent sur L et passent sur la croix bas à la manette."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "Les canyons sont plus légers et tracés en courbes, comme le sol les montre."
-            },
-            {
-              "type": "changed",
-              "area": "mining",
-              "text": "On ne commence plus avec un outil de minage : allez le chercher à la machine ARES Mining du dépôt de cargo. La touche d'action le prend ou le pose ; il reste à vous."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Les écrans 3D s'utilisent au viseur : passer devant une console ne bloque plus la vue."
-            },
-            {
-              "type": "changed",
-              "area": "props",
-              "text": "Les petits objets posés au sol se ramassent debout."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Les pièces moteur et batterie portent les mêmes icônes que le tableau de bord."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Téléporteur : destinations regroupées par type et triées, astres marqués planète / lune / géante, utilisable à la manette."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Les lumières des bâtiments s'allument au crépuscule (1900 lux), le garage est éclairé la nuit."
-            },
-            {
-              "type": "changed",
-              "area": "weather",
-              "text": "La poussière soulevée par le vent prend la couleur du sol et passe en douceur d'un biome à l'autre"
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Activation de l'addon dans les paramètres du projet"
-            },
-            {
-              "type": "changed",
-              "area": "server",
-              "text": "Modification du paramètre \"rollForward\" du fichier global.json pour laisser le projet C# se construire si le SDK est dans une version supérieur à celle recommandée"
-            },
-            {
-              "type": "changed",
-              "area": "server",
-              "text": "La ligne \"websocket_url\" du fichier \"client.ini\" a également été modifiée, elle ne devrait probablement pas l'être"
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Regroupe les onze apps de la tablette en Social, Économie et Propriétés — huit onglets à la barre, Signalements et Système restent dans Plus."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "Les points d'intérêt ne demandent plus de coordonnées — prends ta position, ou place le point sur la carte."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "Les zones de mission acceptent un système ou un de tes POI ; les anciens kinds scène et aire étaient toujours rejetés."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "La ligne de partage par groupe n'apparaît que sur tes missions, et nomme le groupe."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Bâtiments collés : quand deux bâtiments sont assez proches pour que leurs zones plates se touchent, le plus petit se met au niveau du plus grand."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Écrans de cabine** des véhicules (rétroviseurs et tableau de bord) : éteints moteur coupé, rallumés à l'allumage."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "La paroi du canyon n'a plus de grand trou triangulaire à côté de la route."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Le sol ne scintille plus au bord des canyons."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Le canyon sous un pont n'est plus comblé de terrain."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "Les tapis du dépôt amènent les roches et les caisses jusqu'au bout, même quand le serveur est chargé."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Avec une taille d'interface agrandie, les réglages ne sortent plus par la gauche de l'écran : les noms de réglages trop longs passent sur deux lignes."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Le joueur ne sautille plus sur place sur les crêtes de montagne et les bords de cratère."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Un camion garé sur une crête de montagne n'est plus relâché dessus en boucle."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Sur Tarsis 3, plus de trous dans le sol au bord des routes qui longent une fissure."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Sur Tarsis 3, les petites marches et fentes là où deux portions de sol se rejoignent ont disparu, en pleine nature comme dans les villages."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Les noms de périphériques audio trop longs ne font plus sortir les réglages Audio par la gauche de l'écran ; ils sont raccourcis et affichés en entier au survol."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Dès le lancement du jeu, Paramètres, Crédits et Retour fonctionnent de nouveau dans le menu principal."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Un joueur qui a quitté le jeu accroupi, allongé, en apesanteur ou au volant n'est plus bloqué dans cette posture à la reconnexion."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "Les joueurs n'apparaissent plus avec l'outil de minage à la ceinture avant de l'avoir pris à la machine ARES Mining."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Les joueurs ne restent plus sur « Apparition » près du dépôt de cargo, dont le sol était recalculé sans fin."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Le panneau de debug s'affiche de nouveau par-dessus la carte stellaire."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Les canyons n'ont plus de taches plus foncées là où ils se rejoignent."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Les bulles d'aide ne couvrent plus le chat ni les boutons vocaux ; Échap ferme la tablette ouverte par F2."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Corrige une tablette qui ne dessinait rien : une section hébergée était imbriquée trop profond et n'avait pas de hauteur."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "Étagères des cargo_depot : chaque dépôt crée une seule fois ses 193 étagères réseau, et un drapeau enregistré empêche de les recréer au redémarrage du serveur."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Apron des bâtiments : la zone plate autour d'un bâtiment n'est plus déformée par les bâtiments voisins."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Texture du sol : elle ne s'étire plus sur les pentes raides autour des bâtiments."
-            },
-            {
-              "type": "fixed",
-              "area": "social",
-              "text": "Corrige les joueurs affichés hors ligne dans la liste des contacts et sur les profils : le client\nutilise désormais le `sub` du token comme identifiant, au lieu d'un UUID aléatoire régénéré à\nchaque session. Cela supprime aussi la duplication de profils (`Player_xxxxxxx`) à chaque\nreconnexion.\nCorrige les noms des joueurs dans le social : ils viennent désormais du compte\n(`preferred_username`) au lieu du pseudo généré par le serveur de jeu.\nCorrige la position de présence qui utilisait le nom réseau de la planète : un joueur sur SandBox\nannonce maintenant `tarsis · tarsis_3` au lieu d'un système vide et d'une scène inconnue.\nCorrige le chat qui ne s'ouvrait pas avec F12. Le chat n'était jamais relié au broker de messages :\naucun message ne pouvait donc être reçu ni envoyé.\nMessages privés : une conversation épinglée à la fois dans la zone de message, avec le nom du\ncorrespondant. L'en-tête est cliquable et liste toutes les conversations, celles ayant un nouveau\nmessage en premier, et se ferme avec le ✕.\nLe journal n'affiche plus que la conversation épinglée au lieu de mélanger tous les messages privés.\nÉcrire à un contact directement depuis sa fiche, Entrée pour envoyer, sans quitter la fiche.\nLes notifications sociales (demande d'ami, demande acceptée, adhésion à une corporation)\ns'affichent en pile en haut de l'écran. Un clic ouvre l'écran où elles peuvent être traitées.\nDiagnostics : un nouveau bloc indiquant l'état de la connexion au broker du chat et de la salle\nvocale, rafraîchi chaque seconde tant que le panneau est ouvert."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Menu pause** : plus possible de bouger, agir, percer ou regarder autour tant qu'il est ouvert."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610142314",
+          "date": "2026-10-14",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "New debug view of the safety nets under the ground (Settings > Debug), in red where the fallback floor pokes out of the terrain, in magenta where the fall catch rises above it."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "Below 6,500 km, the view follows the planet's rotation: the ground no longer slides away."
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "ARES vending machines: vehicle parts in the garage, rations in the mining villages, the mining tool at the cargo depot. Pick on the screen, wait for the delivery, take your items from the hatch."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "The vehicle lift is heard: its winch, the platform rolling along the rail, and a heavy clunk when it starts and stops."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "New truck dashboard, readable on its screen: speed, warning lights, a box per component bay, power gauge, batteries."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "An open door blinks and beeps on the dashboard, faster as the wind is about to slam it."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "\"Stand up to fit or remove a part\" when crouched or prone at a vehicle part."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Your own head now casts its shadow."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "The home screen says the game is in development and many assets are placeholders."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Added a \"vehicle_lift\" folder and its contents to \"addons\" (scripts, models, textures, etc.)"
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Added a test in guid_3d to ensure the presence of a viewport"
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "\"My contracts\" lists what you raised, and an issuer objective can be confirmed."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Auto-vault, climb and step-up: your character crosses obstacles automatically — vaulting over low ones, climbing onto ledges (including elevated platforms), and stepping smoothly up small obstacles that used to block you."
+              },
+              {
+                "type": "changed",
+                "area": "controls",
+                "text": "The torch has its own key, U (D-pad up on a gamepad): switching on the head lights no longer switches the torch on."
+              },
+              {
+                "type": "changed",
+                "area": "controls",
+                "text": "Vehicle head lights stay on L and move to D-pad down on a gamepad."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "Canyons are drawn lighter and as curves, as the ground shows them."
+              },
+              {
+                "type": "changed",
+                "area": "mining",
+                "text": "You no longer start with a mining tool: get one at the ARES Mining machine of the cargo depot. Press the action key to take it or to put it down; it stays yours."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "3D screens are used with the crosshair: walking past a console no longer locks the view."
+              },
+              {
+                "type": "changed",
+                "area": "props",
+                "text": "Small items on the floor can be picked up standing."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Engine and battery parts show the same icons as the dashboard."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Teleporter: destinations grouped by type and sorted, bodies marked planet / moon / giant, works with a gamepad."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Building lights switch on at dusk (1900 lux), the garage is lit at night."
+              },
+              {
+                "type": "changed",
+                "area": "weather",
+                "text": "Wind-blown dust takes the colour of the ground and fades between biomes; much cheaper, and gone high above the ground."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Enabled the addon in project settings"
+              },
+              {
+                "type": "changed",
+                "area": "server",
+                "text": "Modified the \"rollForward\" parameter in global.json to allow the C# project to build if the SDK version is higher than recommended"
+              },
+              {
+                "type": "changed",
+                "area": "server",
+                "text": "The \"websocket_url\" line in \"client.ini\" was also modified; it probably shouldn't have been."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Fold the services tablet's eleven apps into Social, Economy and Properties — eight tabs in the bar, Reports and System left in PLUS."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "Points of interest no longer ask for coordinates — take where you stand, or pick a point on the chart."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "Mission zones take a star system or one of your own POIs; the old scene and area kinds were always rejected."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "The group share line is on your own contracts only, and names the group."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Adjacent buildings: when two buildings are close enough for their flat areas to touch, the smaller one adjusts to the level of the larger one."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Vehicle cab screens** (rear-view mirrors and dashboard) turn off when the engine is off and back on with ignition."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "The canyon wall no longer has a large triangular hole next to the road."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "The ground no longer flickers along the edge of the canyons."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "The canyon under a bridge is no longer filled with ground."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "The depot belts carry rocks and crates to the end even when the server is busy."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "With a larger interface size, the settings no longer lose their left side off the screen: long setting names now wrap onto two lines."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Players no longer hop on the spot on sharp mountain crests and crater rims."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "A truck parked on a sharp mountain crest is no longer dropped back onto it over and over."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "On Tarsis 3, no more holes in the ground beside the roads that run along the edge of a crack."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "On Tarsis 3, the small steps and slits where two stretches of ground meet are gone, in the open as in the villages."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Long audio device names no longer push the Audio settings off the left of the screen; they are shortened, and shown whole on hover."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Right after launching the game, Settings, Credits and Back work again in the main menu."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "A player who left the game crouched, prone, floating or at the wheel is no longer stuck in that posture on reconnecting."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "Players no longer spawn with the mining drill on their belt before taking one from the ARES Mining machine."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Players no longer stay on \"Spawning\" near the cargo depot, whose ground was rebuilt without end."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "The debug panel shows over the star map again."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Canyons no longer show darker blocks where they meet."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Play hints no longer cover the chat or the voice buttons; Escape closes the tablet opened with F2."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Fix the tablet drawing nothing: a mounted section was nested too deep and was given no height."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "Cargo depot shelves: each depot creates its 193 network shelves only once, and a saved flag prevents them from being recreated upon server restart."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Building aprons: the flat area around a building is no longer deformed by neighboring buildings."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Ground texture: it no longer stretches on steep slopes around buildings."
+              },
+              {
+                "type": "fixed",
+                "area": "social",
+                "text": "Fix players showing as offline in the contacts list and on profiles: the client now uses the\ntoken's `sub` as its player id, instead of a random UUID regenerated on every session. This also\nstops the duplication of profiles (`Player_xxxxxxx`) on each reconnection.\nFix player names in social: they now come from the account (`preferred_username`) instead of the\ngenerated pseudo sent by the game server.\nFix presence location reporting the planet's network name: a player on SandBox now reports\n`tarsis · tarsis_3` instead of an empty system and an unknown scene.\nFix the chat not opening with F12. The chat was never connected to the message broker, so no\nmessage could be received or sent.\nPrivate messages: pin one conversation at a time in the message box, showing the correspondent's\nname. The header is clickable and lists every conversation, those with a new message first, and\ncan be closed with the ✕.\nThe message log now shows only the pinned conversation instead of mixing every private message\ntogether.\nWrite to a contact straight from their card, with Enter sending, without leaving the card.\nSocial notifications (friend request, friend request accepted, corporation joined) now appear as\na stack at the top of the screen. Clicking one opens the screen where it can be handled.\nDiagnostics: a new panel block showing the chat broker connection and the voice room, refreshed\nevery second while the panel is open."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Pause menu** no longer lets the character move, act, drill, or look around while it is open."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Nouvelle vue de débogage des filets de sécurité sous le sol (Réglages > Debug), en rouge là où le sol de secours dépasse du terrain, en magenta là où le rattrapage de chute passe au-dessus."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "Sous 6 500 km, la vue suit la rotation de la planète : le sol ne glisse plus."
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Distributeurs ARES : pièces de véhicule au garage, rations dans les villages miniers, outil de minage au dépôt de cargo. Choisissez sur l'écran, attendez la livraison, prenez vos objets dans la trappe."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "L'ascenseur à ses sons: son treuil, le roulement de la plateforme sur le rail, et un lourd choc au départ et à l'arrêt."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Nouveau tableau de bord pour le camion"
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Une porte ouverte clignote et bipe au tableau de bord, de plus en plus vite quand le vent va la claquer."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "« Relevez-vous pour installer ou retirer un composant » quand on est accroupi ou allongé devant une pièce."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Votre propre tête projette maintenant son ombre."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "L'écran d'accueil indique que le jeu est en développement et que beaucoup d'éléments sont provisoires."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Ajout d'un dossier \"vehicle_lift\" et son contenu dans \"addons\" (scripts, modèles, textures...)"
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Ajout d'un test dans guid_3d pour être certain de la présence d'un viewport"
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "« Mes contrats » liste ce que tu as créé, et un objectif à validation manuelle se confirme."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Franchissement automatique** : le personnage franchit les obstacles tout seul — vault par-dessus les bas, grimpe sur les rebords (y compris surélevés), et enjambe en douceur les petites marches qui bloquaient."
+              },
+              {
+                "type": "changed",
+                "area": "controls",
+                "text": "La lampe torche a sa propre touche, U (croix haut à la manette) : allumer les phares n'allume plus la torche."
+              },
+              {
+                "type": "changed",
+                "area": "controls",
+                "text": "Les phares des véhicules restent sur L et passent sur la croix bas à la manette."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "Les canyons sont plus légers et tracés en courbes, comme le sol les montre."
+              },
+              {
+                "type": "changed",
+                "area": "mining",
+                "text": "On ne commence plus avec un outil de minage : allez le chercher à la machine ARES Mining du dépôt de cargo. La touche d'action le prend ou le pose ; il reste à vous."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Les écrans 3D s'utilisent au viseur : passer devant une console ne bloque plus la vue."
+              },
+              {
+                "type": "changed",
+                "area": "props",
+                "text": "Les petits objets posés au sol se ramassent debout."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Les pièces moteur et batterie portent les mêmes icônes que le tableau de bord."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Téléporteur : destinations regroupées par type et triées, astres marqués planète / lune / géante, utilisable à la manette."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Les lumières des bâtiments s'allument au crépuscule (1900 lux), le garage est éclairé la nuit."
+              },
+              {
+                "type": "changed",
+                "area": "weather",
+                "text": "La poussière soulevée par le vent prend la couleur du sol et passe en douceur d'un biome à l'autre"
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Activation de l'addon dans les paramètres du projet"
+              },
+              {
+                "type": "changed",
+                "area": "server",
+                "text": "Modification du paramètre \"rollForward\" du fichier global.json pour laisser le projet C# se construire si le SDK est dans une version supérieur à celle recommandée"
+              },
+              {
+                "type": "changed",
+                "area": "server",
+                "text": "La ligne \"websocket_url\" du fichier \"client.ini\" a également été modifiée, elle ne devrait probablement pas l'être"
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Regroupe les onze apps de la tablette en Social, Économie et Propriétés — huit onglets à la barre, Signalements et Système restent dans Plus."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "Les points d'intérêt ne demandent plus de coordonnées — prends ta position, ou place le point sur la carte."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "Les zones de mission acceptent un système ou un de tes POI ; les anciens kinds scène et aire étaient toujours rejetés."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "La ligne de partage par groupe n'apparaît que sur tes missions, et nomme le groupe."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Bâtiments collés : quand deux bâtiments sont assez proches pour que leurs zones plates se touchent, le plus petit se met au niveau du plus grand."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Écrans de cabine** des véhicules (rétroviseurs et tableau de bord) : éteints moteur coupé, rallumés à l'allumage."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "La paroi du canyon n'a plus de grand trou triangulaire à côté de la route."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Le sol ne scintille plus au bord des canyons."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Le canyon sous un pont n'est plus comblé de terrain."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "Les tapis du dépôt amènent les roches et les caisses jusqu'au bout, même quand le serveur est chargé."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Avec une taille d'interface agrandie, les réglages ne sortent plus par la gauche de l'écran : les noms de réglages trop longs passent sur deux lignes."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Le joueur ne sautille plus sur place sur les crêtes de montagne et les bords de cratère."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Un camion garé sur une crête de montagne n'est plus relâché dessus en boucle."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Sur Tarsis 3, plus de trous dans le sol au bord des routes qui longent une fissure."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Sur Tarsis 3, les petites marches et fentes là où deux portions de sol se rejoignent ont disparu, en pleine nature comme dans les villages."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Les noms de périphériques audio trop longs ne font plus sortir les réglages Audio par la gauche de l'écran ; ils sont raccourcis et affichés en entier au survol."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Dès le lancement du jeu, Paramètres, Crédits et Retour fonctionnent de nouveau dans le menu principal."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Un joueur qui a quitté le jeu accroupi, allongé, en apesanteur ou au volant n'est plus bloqué dans cette posture à la reconnexion."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "Les joueurs n'apparaissent plus avec l'outil de minage à la ceinture avant de l'avoir pris à la machine ARES Mining."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Les joueurs ne restent plus sur « Apparition » près du dépôt de cargo, dont le sol était recalculé sans fin."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Le panneau de debug s'affiche de nouveau par-dessus la carte stellaire."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Les canyons n'ont plus de taches plus foncées là où ils se rejoignent."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Les bulles d'aide ne couvrent plus le chat ni les boutons vocaux ; Échap ferme la tablette ouverte par F2."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Corrige une tablette qui ne dessinait rien : une section hébergée était imbriquée trop profond et n'avait pas de hauteur."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "Étagères des cargo_depot : chaque dépôt crée une seule fois ses 193 étagères réseau, et un drapeau enregistré empêche de les recréer au redémarrage du serveur."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Apron des bâtiments : la zone plate autour d'un bâtiment n'est plus déformée par les bâtiments voisins."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Texture du sol : elle ne s'étire plus sur les pentes raides autour des bâtiments."
+              },
+              {
+                "type": "fixed",
+                "area": "social",
+                "text": "Corrige les joueurs affichés hors ligne dans la liste des contacts et sur les profils : le client\nutilise désormais le `sub` du token comme identifiant, au lieu d'un UUID aléatoire régénéré à\nchaque session. Cela supprime aussi la duplication de profils (`Player_xxxxxxx`) à chaque\nreconnexion.\nCorrige les noms des joueurs dans le social : ils viennent désormais du compte\n(`preferred_username`) au lieu du pseudo généré par le serveur de jeu.\nCorrige la position de présence qui utilisait le nom réseau de la planète : un joueur sur SandBox\nannonce maintenant `tarsis · tarsis_3` au lieu d'un système vide et d'une scène inconnue.\nCorrige le chat qui ne s'ouvrait pas avec F12. Le chat n'était jamais relié au broker de messages :\naucun message ne pouvait donc être reçu ni envoyé.\nMessages privés : une conversation épinglée à la fois dans la zone de message, avec le nom du\ncorrespondant. L'en-tête est cliquable et liste toutes les conversations, celles ayant un nouveau\nmessage en premier, et se ferme avec le ✕.\nLe journal n'affiche plus que la conversation épinglée au lieu de mélanger tous les messages privés.\nÉcrire à un contact directement depuis sa fiche, Entrée pour envoyer, sans quitter la fiche.\nLes notifications sociales (demande d'ami, demande acceptée, adhésion à une corporation)\ns'affichent en pile en haut de l'écran. Un clic ouvre l'écran où elles peuvent être traitées.\nDiagnostics : un nouveau bloc indiquant l'état de la connexion au broker du chat et de la salle\nvocale, rafraîchi chaque seconde tant que le panneau est ouvert."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Menu pause** : plus possible de bouger, agir, percer ou regarder autour tant qu'il est ouvert."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610112359",
           "date": "2026-10-11",

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610142314] - 2026-10-14
+
 ### Added
 
 - **PlanetTech**: New debug view of the safety nets under the ground (Settings > Debug), in red where the fallback floor pokes out of the terrain, in magenta where the fall catch rises above it.

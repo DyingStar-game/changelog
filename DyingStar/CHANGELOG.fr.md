@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610142314] - 2026-10-14
+
 ### Added
 
 - **PlanetTech** : Nouvelle vue de débogage des filets de sécurité sous le sol (Réglages > Debug), en rouge là où le sol de secours dépasse du terrain, en magenta là où le rattrapage de chute passe au-dessus.

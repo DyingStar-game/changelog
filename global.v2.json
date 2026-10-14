@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T09:51:44.372661+00:00",
+  "generated_at": "2026-10-14T11:42:15.100049+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -47,6 +47,14 @@
           "en": "Buildings",
           "fr": "Bâtiments"
         },
+        "mining": {
+          "en": "Mining",
+          "fr": "Minage"
+        },
+        "props": {
+          "en": "Props",
+          "fr": "Objets"
+        },
         "star-map": {
           "en": "Star map",
           "fr": "Carte stellaire"
@@ -62,6 +70,10 @@
         "ui": {
           "en": "Interface",
           "fr": "Interface"
+        },
+        "player": {
+          "en": "Player",
+          "fr": "Joueur"
         },
         "controls": {
           "en": "Controls",

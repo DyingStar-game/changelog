@@ -359,6 +359,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Interface**: Right after launching the game, Settings, Credits and Back work again in the main menu.
 - **Player**: A player who left the game crouched, prone, floating or at the wheel is no longer stuck in that posture on reconnecting.
 - **Mining**: Players no longer spawn with the mining drill on their belt before taking one from the ARES Mining machine.
 - **Buildings**: Players no longer stay on "Spawning" near the cargo depot, whose ground was rebuilt without end.

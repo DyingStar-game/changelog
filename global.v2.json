@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T14:34:20.964494+00:00",
+  "generated_at": "2026-10-14T14:37:19.331665+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -1593,6 +1593,11 @@
               "type": "removed",
               "area": "player",
               "text": "Also removes the F4 third-person camera, which conflicts with the aim-based mining"
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Right after launching the game, Settings, Credits and Back work again in the main menu."
             },
             {
               "type": "fixed",
@@ -3815,6 +3820,11 @@
               "type": "removed",
               "area": "player",
               "text": "Supprime également la caméra à la troisième personne (F4) qui entrait en conflit avec l'extraction minière basée sur la visée"
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Dès le lancement du jeu, Paramètres, Crédits et Retour fonctionnent de nouveau dans le menu principal."
             },
             {
               "type": "fixed",

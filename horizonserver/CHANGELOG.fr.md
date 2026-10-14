@@ -6,9 +6,13 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
+
 - ajout d'un ascenseur route du village M0001 vers la factory, à gauche avant le premier pont. Plusieurs au village M0059
   fix sortie habitation -> espace
 - spawn des étagères dans l'entrepôt
+
+## [0.1.0-dev.202610112359] - 2026-10-11
+
 - Douze villes-usines apparaissent sur Tarsis 3.
 - La station orbitale retrouve sa cabine de téléportation.
 - fix(mesh) : les zones d'un serveur qui meurt vont à un serveur libre
@@ -17,6 +21,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
   Horizon retient la dernière valeur de chaque action maintenue : conduite, sprint, poussée et stabilisation en apesanteur, vitesse de marche. Il les rejoue juste après l'arrivée ou le réveil du joueur sur le nouveau serveur : le camion ne s'arrête plus net et le sprint tient.
 - Le régime du camion suit ses roues : plus de moteur qui hurle en chute ou en saut.
   Relâcher une touche de déplacement n'est plus parfois ignoré par le serveur.
+
+## [0.1.0-dev.202610042359] - 2026-10-04
+
 - nouveau système lors de la création d'un nouveau serveur (maillage de serveurs dynamique) et transfert des objets et des joueurs vers ce nouveau serveur
 - Gel ordonné : après un split, l'ancien serveur gèle d'abord les joueurs, puis les véhicules occupés, puis le reste des ~20 000 objets. Le joueur transféré n'est plus simulé 3 s par deux serveurs, ce qui supprime le saut en arrière du camion et le freeze.
   Photo fraîche réduite : après le préchauffage, horizon ne redemande à genericprops que les joueurs et leurs véhicules, au lieu de tout le monde (~2,5 s). Ils arrivent sur le nouveau serveur avec leur position actuelle au lieu de 2 à 3 s de retard.
@@ -32,9 +39,15 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
   Attribution des appartements : un nouveau joueur va dans le village le plus rempli encore sous le plafond (50, configurable via max_players_per_village). Le plafond est strict pour un joueur seul. Le dépassement est prévu pour le futur matchmaking (amis / groupe) via AssignRequest, mais pas encore actif.
   Spawn à la demande : à 80 % du plafond (village_prespawn_ratio), si aucun autre village n'a de place, Horizon passe spawn_requested sur le village non spawné le plus proche, un seul à la fois. Seul le serveur Godot qui possède sa zone reçoit la demande et crée les habs.
 - serverinfo relaie scenes_number_actives aux clients.
+
+## [0.1.0-dev.202609272359] - 2026-09-27
+
 - Optimisation des relations parent-enfant par l'ajout d'un index
   Correction du problème de déconnexion du joueur (dans certains cas, les événements continuaient d'être envoyés à personne).
 - Les composants de véhicule (moteurs, et plus tard batteries et réservoirs) sont répliqués et persistés : quelle baie contient quelle pièce est désormais transmis à tous les clients.
+
+## [0.1.0-dev.202609202359] - 2026-09-20
+
 - Augmentation de la limite de joueurs par serveur de 30 à 75
   Correction d'un problème de déplacement et de changement de parenté (manqué dans certains cas à cause du LOD)
   Envoi de la vélocité lors du transfert d'un joueur vers un autre joueur
@@ -45,24 +58,51 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - Gérer la fréquence par zone + gérer des fréquences différentes selon la distance au sein d'une même zone.
 - Mise à jour du système de server meshing dynamic avec le nouveau système world dans le serveur Godot.
 - Déplacement du fichier plugin.toml (configuration des plugins) dans l'image Docker horizon-data.
+
+## [0.1.0-dev.202609132359] - 2026-09-13
+
 - Correction du problème de gorc lorsque le joueur est dans un véhicule
 - Mise à jour de la position/rotation de départ
   augmentation server meshing dynamic (50 joueurs)
 - Les véhicules peuvent désormais montrer leur suspension bouger aux autres joueurs.
+
+## [0.1.0-dev.202609062359] - 2026-09-06
+
 - Suppression des rochers statiques au démarrage et mise à jour de leurs propriétés.
 - L'etoile du systeme n'est plus perdue au chargement d'un monde.
 - Fix/player network
+
+## [0.1.0-dev.202608302359] - 2026-08-30
+
 - Fix player connection
 - Le patch Horizon a été remplacé par un sous-module DyingStar-game/Horizon
+
+## [0.1.0-dev.202608232359] - 2026-08-23
+
 - Correction d'un plantage qui pouvait faire tomber le serveur à chaque connexion d'un joueur, laissant les clients sur un écran gris avec l'erreur 1337.
 - Mise à jour des objets qui apparaissent, car ils se trouvent désormais directement sur la planète.
+
+## [0.1.0-dev.202608092359] - 2026-08-09
+
 - Réplique la posture du joueur (accroupi/allongé) et le yaw du regard assis, ainsi que l'occupation des sièges de véhicule, pour que les autres joueurs les voient.
+
+## [0.1.0-dev.202607192359] - 2026-07-19
+
 - Correction de la déconnexion du joueur
   Correction du pont en cas de nombreux événements (persistances)
+
+## [0.1.0-dev.202607122359] - 2026-07-12
+
 - L'état du moteur et des klaxons d'un véhicule est désormais répliqué : tous les joueurs autour d'un camion l'entendent démarrer, tourner au ralenti, monter en régime et klaxonner.
+
+## [0.1.0-dev.202606212359] - 2026-06-21
+
 - Feat : répliquer `mineral_id` sur miningrock
   Modification : distance GORC de miningrock 30 → 150 m
 - Replication de l'action attraper gérée par le serveur du serveur sur les clients.
+
+## [0.1.0-dev.202606142359] - 2026-06-14
+
 - Correction du problème de reparent de l'objet. Le calcul de position était incorrect, l'élément est donc trop éloigné et n'est pas mis à jour côté client (grâce à gorc qui fonctionne parfaitement :D).
 - Correction du stockage persistant des attributions d'appartements (ce n'était pas le cas, c'est pourquoi nous les perdons lors du redémarrage d'Horizon).
 - Lorsqu'un joueur se déconnecte, la fonction remove_player le désabonne de tous ses abonnements, mais ne le supprime pas de la base de données interne de gorc. Nous le supprimons désormais. Correction du joueur déconnecté visible pour les nouveaux joueurs connectés

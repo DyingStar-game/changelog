@@ -44,11 +44,17 @@ VERSION_HEADER_RE = re.compile(
     r"^## \[(?P<version>[^\]]+)\] - (?P<date>\d{4}-\d{2}-\d{2})(?P<yanked> \[YANKED\])?\s*$"
 )
 LINK_REF_RE = re.compile(r"^\[[^\]]+\]: \S+\s*$")
+# A dev release, cut by a preprod build (ADR 0003): <next version>-dev.<stamp>
+DEV_VERSION_RE = re.compile(r"^\d+\.\d+\.\d+-dev\.")
 
 
 def load_config() -> dict:
     with open(CONFIG_PATH, encoding="utf-8") as f:
         return json.load(f)
+
+
+def is_dev(version: str) -> bool:
+    return bool(DEV_VERSION_RE.match(version))
 
 
 def area_labels(cfg: dict, area: str | None, lang: str) -> str | None:

@@ -21,6 +21,7 @@ Schema:
       },
       "releases": [
         { "version": "1.2.3", "date": "YYYY-MM-DD", "yanked": false,
+          "dev": false,
           "url": "<compare URL>" | null,
           "entries": { "en": [<entry>, ...], "fr": [<entry>, ...] } },
         ...
@@ -36,6 +37,8 @@ the area of an entry merged without one. The text is Markdown, one display
 line per "\n" (the first is the bullet, the others its sub-lines).
 
 Releases are ordered newest-first (as they appear in CHANGELOG files).
+"dev" marks a dev release (x.y.z-dev.<stamp>, ADR 0003), cut by a preprod
+build: readers group the dev releases under the version they lead to (x.y.z).
 FR entries fall back to the EN ones when the FR section is empty or missing.
 """
 import json
@@ -83,6 +86,7 @@ def main() -> None:
                 "version": s["version"],
                 "date": s["date"],
                 "yanked": s["yanked"],
+                "dev": lib.is_dev(s["version"]),
                 "url": lib.release_url(cfg, versions, versions.index(s["version"])),
                 "entries": entries,
             })

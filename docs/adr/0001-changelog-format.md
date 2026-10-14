@@ -105,6 +105,9 @@ required. A PR may hold several types and areas:
   launcher has release tags (`vX.Y.Z`); DyingStar and horizonserver are still in development
   (their changelog is `[Unreleased]` only) and get links once they tag releases.
 
+  > Amended by [ADR 0003](./0003-dev-releases.md): DyingStar and horizonserver cut a dev release
+  > (`x.y.z-dev.<stamp>`) at each preprod build.
+
 ### `global.json` (schema version 2)
 
 > Amended by [ADR 0002](./0002-global-v2-json-and-frozen-v1.md): version 2 is published in

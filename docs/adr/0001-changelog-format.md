@@ -107,6 +107,10 @@ required. A PR may hold several types and areas:
 
 ### `global.json` (schema version 2)
 
+> Amended by [ADR 0002](./0002-global-v2-json-and-frozen-v1.md): version 2 is published in
+> `global.v2.json`; `global.json` is a frozen version 1 snapshot for launcher 1.0.0, removed once
+> players have a newer launcher.
+
 The schema is documented at the top of
 [`generate_global_json.py`](../../scripts/generate_global_json.py). Changes from version 1:
 

@@ -12,27 +12,33 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Cut release
+      - name: Cut the release, commit and push
         env:
           COMPONENT: ${{ github.event.client_payload.component }}
           VERSION: ${{ github.event.client_payload.version }}
           DATE: ${{ github.event.client_payload.date }}
         run: |
-          python3 scripts/cut_release.py \
-            --component "$COMPONENT" \
-            --version "$VERSION" \
-            --date "$DATE"
-
-      - name: Generate global.v2.json
-        run: python3 scripts/generate_global_json.py
-
-      - name: Commit and push
-        env:
-          COMPONENT: ${{ github.event.client_payload.component }}
-          VERSION: ${{ github.event.client_payload.version }}
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git diff --cached --quiet || git commit -m "release($COMPONENT): cut $VERSION"
-          git push
+          # Another run (a merged PR, a preprod build of another component) may
+          # push between our checkout and our push: start again from the new
+          # main rather than lose this change.
+          for attempt in 1 2 3 4 5; do
+            if [ "$attempt" -gt 1 ]; then
+              sleep $((attempt * 3))
+              git fetch -q origin main
+              git reset -q --hard origin/main
+            fi
+            python3 scripts/cut_release.py \
+              --component "$COMPONENT" \
+              --version "$VERSION" \
+              --date "$DATE"
+            # Nothing written (no entry, or a dev release with nothing unreleased)
+            git diff --quiet -- '*.md' && exit 0
+            python3 scripts/generate_global_json.py
+            git add .
+            git commit -q -m "release($COMPONENT): cut $VERSION"
+            git push -q origin HEAD:main && exit 0
+          done
+          echo "::error::Could not push after 5 attempts"
+          exit 1

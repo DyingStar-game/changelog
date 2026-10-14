@@ -388,6 +388,22 @@ class CutReleaseTest(RepoTestCase):
         self.assertEqual(r.returncode, 1)
         self.assertIn("already", r.stderr)
 
+    def test_dev_release_needs_entries(self):
+        r = self.cut("DyingStar", "0.1.0-dev.202610141530")
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn("not cut", r.stdout)
+        self.assertEqual(self.repo.body("DyingStar", "en"), "## [Unreleased]\n")
+        self.repo.write("DyingStar", "en", "## [Unreleased]\n\n### Fixed\n\n- **Interface**: a\n")
+        self.assertEqual(self.cut("DyingStar", "0.1.0-dev.202610141530").returncode, 0)
+        self.assertEqual(self.repo.body("DyingStar", "en"),
+                         "## [Unreleased]\n\n## [0.1.0-dev.202610141530] - 2026-10-14\n\n### Fixed\n\n- **Interface**: a\n")
+
+    def test_stable_release_after_dev_releases_is_cut_empty(self):
+        self.repo.write("DyingStar", "en", "## [Unreleased]\n\n## [0.1.0-dev.202610141530] - 2026-10-14\n\n- a\n")
+        self.assertEqual(self.cut("DyingStar", "0.1.0").returncode, 0)
+        self.assertTrue(self.repo.body("DyingStar", "en").startswith(
+            "## [Unreleased]\n\n## [0.1.0] - 2026-10-14\n\n## [0.1.0-dev.202610141530] - 2026-10-14\n"))
+
     def test_links(self):
         self.repo.write("launcher", "en", "## [Unreleased]\n\n- c\n\n## [0.2.0] - 2026-02-01\n\n- b\n\n"
                         "## [0.1.0] - 2026-01-01\n\n- a\n\n[unreleased]: https://stale\n")
@@ -450,6 +466,16 @@ class GenerateGlobalJsonTest(RepoTestCase):
         # Version missing from the FR file: EN entries
         self.assertEqual(c["releases"][1]["entries"]["fr"], [entry("added", "general", "first")])
         self.assertIsNone(data["components"]["DyingStar"]["unreleased"]["url"])
+
+    def test_dev_flag(self):
+        self.assertTrue(lib.is_dev("0.1.0-dev.202610141530"))
+        for version in ["0.1.0", "0.0.1-test5", "0.1.0-devel.1", "0.1.0-rc.1+dev.2"]:
+            self.assertFalse(lib.is_dev(version), version)
+        self.repo.write("DyingStar", "en", "## [Unreleased]\n\n## [0.1.0] - 2026-11-01\n\n"
+                        "## [0.1.0-dev.202610141530] - 2026-10-14\n\n- a\n")
+        releases = self.generate()["components"]["DyingStar"]["releases"]
+        self.assertEqual([(r["version"], r["dev"]) for r in releases],
+                         [("0.1.0", False), ("0.1.0-dev.202610141530", True)])
 
 
 class CheckEntryTest(RepoTestCase):

@@ -4,6 +4,10 @@ Move the [Unreleased] section to a versioned block in a component's
 CHANGELOG.md and CHANGELOG.fr.md, then insert a fresh empty [Unreleased]
 header at the top and rewrite the version links (ADR 0001).
 
+A dev release (x.y.z-dev.<stamp>, ADR 0003) is not cut when [Unreleased] has
+no entry: a preprod build with nothing merged since the last one adds no
+empty section. A stable release is always cut.
+
 Usage:
     python3 scripts/cut_release.py \
         --component "launcher" \
@@ -64,6 +68,11 @@ def main() -> None:
 
     cfg = config[args.component]
     comp_dir = os.path.join(lib.REPO_ROOT, args.component)
+    if lib.is_dev(args.version):
+        en = lib.parse_changelog(cfg, os.path.join(comp_dir, lib.FILES["en"]))
+        if not any(s["version"] is None and s["entries"] for s in en):
+            print(f"Nothing unreleased in {args.component}: dev release {args.version} not cut.")
+            return
     for lang in lib.LANGS:
         path = os.path.join(comp_dir, lib.FILES[lang])
         cut_release(path, args.version, args.date, lang)

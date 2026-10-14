@@ -6,9 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
 - Added an elevator from the village road (M0001) to the factory, on the left before the first bridge. Several added in village M0059.
   Fixed exit from dwelling to open area.
 - spawn shelves in cargo depot
+
+## [0.1.0-dev.202610112359] - 2026-10-11
+
 - Twelve factory cities appear on Tarsis 3.
 - The orbital station has its teleporter cabin again.
 - fix(mesh): server zones that go offline are reassigned to an available server
@@ -17,6 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   Horizon stores the last value for each active input—driving, sprinting, zero-G thrusting/stabilizing, and walking speed—and replays them immediately after the player arrives or wakes up on the new server; this prevents the truck from coming to an abrupt halt and ensures the sprint continues.
 - The truck's engine revs follow its wheels: no more screaming engine in a fall or a jump.
   Releasing a movement key is no longer occasionally ignored by the server.
+
+## [0.1.0-dev.202610042359] - 2026-10-04
+
 - new system when create new server (server meshing dynamic) and send items and players on the new server
 - Ordered freeze: after a split, the old server first freezes players, then occupied vehicles, and finally the remaining ~20,000 objects. The transferred player is no longer simulated by two servers simultaneously for 3 seconds, eliminating the truck "rubber-banding" and the freeze.
   Reduced snapshot: after the warm-up phase, Horizon requests only the players and their vehicles from `genericprops`, rather than everything (~2.5s). They arrive on the new server at their current position instead of being 2–3 seconds behind.
@@ -32,9 +39,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   Apartment assignment: A new player is assigned to the fullest village that is still below the capacity limit (50, configurable via `max_players_per_village`). This limit is strict for individual players. Exceeding the limit is planned for future matchmaking (friends/groups) via `AssignRequest`, but this feature is not yet active.
   On-demand spawning: At 80% capacity (`village_prespawn_ratio`), if no other village has space, Horizon sets `spawn_requested` for the nearest unspawned village—one at a time. Only the Godot server responsible for that zone receives the request and creates the habs.
 - serverinfo relays scenes_number_actives to clients.
+
+## [0.1.0-dev.202609272359] - 2026-09-27
+
 - optimization of parent-children by addeing index
   fix disconnect player (on some cases events continues to send to nobody
 - Vehicle components (engines, and later batteries and tanks) replicate and persist: which bay holds which part now travels to every client.
+
+## [0.1.0-dev.202609202359] - 2026-09-20
+
 - Update number player split server from 30 to 75
   Fix move & reparent missed in some cases because of LOD
   Send velocity when transfer player to another player
@@ -45,24 +58,51 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Manage frequency in zones + manage different frequency depends on distance on a same zone
 - Update server meshing dynamic with new world system in godot server
 - Moving plugin.toml (plugins config) into the horizon-data docker image
+
+## [0.1.0-dev.202609132359] - 2026-09-13
+
 - Fix gorc when player in vehicule
 - Update startup position / rotation
   increase server meshing dynamic (50 players)
 - Vehicles can now show their suspension moving to other players.
+
+## [0.1.0-dev.202609062359] - 2026-09-06
+
 - Remove static rocks at startup and update rocks properties
 - The system's star is no longer dropped when a world loads.
 - Fix/player network
+
+## [0.1.0-dev.202608302359] - 2026-08-30
+
 - Fix player connection
 - The Horizon patch has been replaced by a DyingStar-game/Horizon submodule.
+
+## [0.1.0-dev.202608232359] - 2026-08-23
+
 - Fixed a crash that could take the server down whenever a player connected, leaving clients on a grey screen with `ERROR 1337`.
 - Update items to spawn, because now it's directly on the planet
+
+## [0.1.0-dev.202608092359] - 2026-08-09
+
 - Replicate the player stance (crouch/prone) and seated look yaw, plus per-seat vehicle occupancy, so other players see them.
+
+## [0.1.0-dev.202607192359] - 2026-07-19
+
 - fix player disconnect
   fix bridge when have many events (persistences)
+
+## [0.1.0-dev.202607122359] - 2026-07-12
+
 - The state of a vehicle's engine and horns is now replicated: every player around a truck hears it start, idle, rev and honk.
+
+## [0.1.0-dev.202606212359] - 2026-06-21
+
 - feat: replicate `mineral_id` on miningrock
   tweak: miningrock GORC distance 30 → 150 m
 - Replicate the player's server-driven carry prompt to clients.
+
+## [0.1.0-dev.202606142359] - 2026-06-14
+
 - Fix reparent object. The position calculation wasn't right and so the item is so far, it' not updated on client (because gorc works nicely :D)
 - Fix the apartment attribution store in persistence (it wasn't the case, that's why when restart Horizon, we loose them)
 - When player disconnect, the remove_player will unscribe to all subscription, but not delete player from gorc internal database. Now, we delete it. Fix disconnected player seen for new players connected.

@@ -21,6 +21,73 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Véhicules** : Ajout d'un dossier "vehicle_lift" et son contenu dans "addons" (scripts, modèles, textures...)
 - **Interface** : Ajout d'un test dans guid_3d pour être certain de la présence d'un viewport
 - **Économie** : « Mes contrats » liste ce que tu as créé, et un objectif à validation manuelle se confirme.
+- **Joueur** : Franchissement automatique** : le personnage franchit les obstacles tout seul — vault par-dessus les bas, grimpe sur les rebords (y compris surélevés), et enjambe en douceur les petites marches qui bloquaient.
+
+### Changed
+
+- **Commandes** : La lampe torche a sa propre touche, U (croix haut à la manette) : allumer les phares n'allume plus la torche.
+- **Commandes** : Les phares des véhicules restent sur L et passent sur la croix bas à la manette.
+- **Carte stellaire** : Les canyons sont plus légers et tracés en courbes, comme le sol les montre.
+- **Minage** : On ne commence plus avec un outil de minage : allez le chercher à la machine ARES Mining du dépôt de cargo. La touche d'action le prend ou le pose ; il reste à vous.
+- **Interface** : Les écrans 3D s'utilisent au viseur : passer devant une console ne bloque plus la vue.
+- **Objets** : Les petits objets posés au sol se ramassent debout.
+- **Véhicules** : Les pièces moteur et batterie portent les mêmes icônes que le tableau de bord.
+- **Bâtiments** : Téléporteur : destinations regroupées par type et triées, astres marqués planète / lune / géante, utilisable à la manette.
+- **Bâtiments** : Les lumières des bâtiments s'allument au crépuscule (1900 lux), le garage est éclairé la nuit.
+- **Météo** : La poussière soulevée par le vent prend la couleur du sol et passe en douceur d'un biome à l'autre
+- **Véhicules** : Activation de l'addon dans les paramètres du projet
+- **Serveur** : Modification du paramètre "rollForward" du fichier global.json pour laisser le projet C# se construire si le SDK est dans une version supérieur à celle recommandée
+- **Serveur** : La ligne "websocket_url" du fichier "client.ini" a également été modifiée, elle ne devrait probablement pas l'être
+- **Interface** : Regroupe les onze apps de la tablette en Social, Économie et Propriétés — huit onglets à la barre, Signalements et Système restent dans Plus.
+- **Carte stellaire** : Les points d'intérêt ne demandent plus de coordonnées — prends ta position, ou place le point sur la carte.
+- **Économie** : Les zones de mission acceptent un système ou un de tes POI ; les anciens kinds scène et aire étaient toujours rejetés.
+- **Économie** : La ligne de partage par groupe n'apparaît que sur tes missions, et nomme le groupe.
+- **Bâtiments** : Bâtiments collés : quand deux bâtiments sont assez proches pour que leurs zones plates se touchent, le plus petit se met au niveau du plus grand.
+- **Véhicules** : Écrans de cabine** des véhicules (rétroviseurs et tableau de bord) : éteints moteur coupé, rallumés à l'allumage.
+
+### Fixed
+
+- **Joueur** : Le joueur ne sautille plus sur place sur les crêtes de montagne et les bords de cratère.
+- **Véhicules** : Un camion garé sur une crête de montagne n'est plus relâché dessus en boucle.
+- **PlanetTech** : Sur Tarsis 3, plus de trous dans le sol au bord des routes qui longent une fissure.
+- **PlanetTech** : Sur Tarsis 3, les petites marches et fentes là où deux portions de sol se rejoignent ont disparu, en pleine nature comme dans les villages.
+- **Interface** : Les noms de périphériques audio trop longs ne font plus sortir les réglages Audio par la gauche de l'écran ; ils sont raccourcis et affichés en entier au survol.
+- **Interface** : Dès le lancement du jeu, Paramètres, Crédits et Retour fonctionnent de nouveau dans le menu principal.
+- **Joueur** : Un joueur qui a quitté le jeu accroupi, allongé, en apesanteur ou au volant n'est plus bloqué dans cette posture à la reconnexion.
+- **Minage** : Les joueurs n'apparaissent plus avec l'outil de minage à la ceinture avant de l'avoir pris à la machine ARES Mining.
+- **Bâtiments** : Les joueurs ne restent plus sur « Apparition » près du dépôt de cargo, dont le sol était recalculé sans fin.
+- **Carte stellaire** : Le panneau de debug s'affiche de nouveau par-dessus la carte stellaire.
+- **Carte stellaire** : Les canyons n'ont plus de taches plus foncées là où ils se rejoignent.
+- **Interface** : Les bulles d'aide ne couvrent plus le chat ni les boutons vocaux ; Échap ferme la tablette ouverte par F2.
+- **Interface** : Corrige une tablette qui ne dessinait rien : une section hébergée était imbriquée trop profond et n'avait pas de hauteur.
+- **Objets** : Étagères des cargo_depot : chaque dépôt crée une seule fois ses 193 étagères réseau, et un drapeau enregistré empêche de les recréer au redémarrage du serveur.
+- **Bâtiments** : Apron des bâtiments : la zone plate autour d'un bâtiment n'est plus déformée par les bâtiments voisins.
+- **PlanetTech** : Texture du sol : elle ne s'étire plus sur les pentes raides autour des bâtiments.
+- **Social** : Corrige les joueurs affichés hors ligne dans la liste des contacts et sur les profils : le client
+  utilise désormais le `sub` du token comme identifiant, au lieu d'un UUID aléatoire régénéré à
+  chaque session. Cela supprime aussi la duplication de profils (`Player_xxxxxxx`) à chaque
+  reconnexion.
+  Corrige les noms des joueurs dans le social : ils viennent désormais du compte
+  (`preferred_username`) au lieu du pseudo généré par le serveur de jeu.
+  Corrige la position de présence qui utilisait le nom réseau de la planète : un joueur sur SandBox
+  annonce maintenant `tarsis · tarsis_3` au lieu d'un système vide et d'une scène inconnue.
+  Corrige le chat qui ne s'ouvrait pas avec F12. Le chat n'était jamais relié au broker de messages :
+  aucun message ne pouvait donc être reçu ni envoyé.
+  Messages privés : une conversation épinglée à la fois dans la zone de message, avec le nom du
+  correspondant. L'en-tête est cliquable et liste toutes les conversations, celles ayant un nouveau
+  message en premier, et se ferme avec le ✕.
+  Le journal n'affiche plus que la conversation épinglée au lieu de mélanger tous les messages privés.
+  Écrire à un contact directement depuis sa fiche, Entrée pour envoyer, sans quitter la fiche.
+  Les notifications sociales (demande d'ami, demande acceptée, adhésion à une corporation)
+  s'affichent en pile en haut de l'écran. Un clic ouvre l'écran où elles peuvent être traitées.
+  Diagnostics : un nouveau bloc indiquant l'état de la connexion au broker du chat et de la salle
+  vocale, rafraîchi chaque seconde tant que le panneau est ouvert.
+- **Interface** : Menu pause** : plus possible de bouger, agir, percer ou regarder autour tant qu'il est ouvert.
+
+## [0.1.0-dev.202610112359] - 2026-10-11
+
+### Added
+
 - **Météo** : Le vent soulève la poussière des plaines : elle défile autour de vous, voile le relief lointain et s'illumine dans le faisceau des lampes la nuit.
 - **Météo** : La poussière des pas et des roues dérive avec le vent.
 - **Météo** : On entend le vent, étouffé dans une cabine ou derrière un mur.
@@ -50,6 +117,71 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Interface** : Nouvel écran Crédits dans le menu principal et le menu pause : toutes celles et ceux qui ont fait les musiques, sons, modèles et textures du jeu, en défilement comme un générique de film, sur une musique de la communauté.
 - **Interface** : Chaque musique de l'écran Crédits a un bouton pour l'écouter.
 - **Audio** : Dix nouvelles musiques : dans l'espace, en pleine nature, au menu, et dans les villages miniers et usines, jusqu'ici sans musique. Les morceaux dont on ne connaît pas l'auteur le disent dans les crédits : si l'un d'eux est à toi, contacte-nous sur Discord.
+
+### Changed
+
+- **PlanetTech** : Le cache terrain passe en v60 pour prendre en compte les routes ré-exportées.
+- **Performances** : Chaque export (serveur, Linux, Windows) reçoit son propre numéro de build (date, heure et nombre aléatoire), qui invalide le cache de chunks au premier lancement. Dans l'éditeur, il n'y a pas de numéro et rien ne change.
+- **PlanetTech** : Modifications QGIS : les nouveaux types de POI, le remplissage auto de population/radius et les zones colorées par roche.
+- **PlanetTech** : Nouvel export de tarsis_3 depuis QGIS
+- **Minage** : Poids des rochers : un facteur réduit la densité des rochers (WEIGHT_REDUCTION_FACTOR, réglé à 25). Ils sont plus légers, on peut les porter plus tôt et il faut moins de découpes.
+- **Minage** : Couleur des rochers : les rochers prennent la couleur du sol où ils apparaissent, avec sa luminosité et son aspect mat. Les morceaux cassés gardent cette couleur.
+- **Véhicules** : Le camion atteint la même vitesse maximale quel que soit le nombre de moteurs installés (environ 100 km/h) ; plus de moteurs donnent plus de force en côte, pas plus de vitesse.
+- **Véhicules** : Le camion ralentit toujours de lui-même quand on lâche l'accélérateur.
+- **Carte stellaire** : La carte stellaire s'ouvre désormais dans l'onglet Navigation du DataPad (F2, ou F3 ▸ Navigation), dans le cadre de la tablette.
+- **Commandes** : Le DataPad (F3) apparaît maintenant dans Réglages > Contrôles sous son nom, dans l'aide des commandes (F1) et dans les indications de jeu.
+- **Joueur** : Le vol libre de développement s'appelle désormais « Mode Dieu » : la molette règle sa vitesse (affichée en haut de l'écran) et le clic molette vous pose au sol juste en dessous ; votre corps est masqué pendant le vol.
+- **Performances** : Les bâtiments des villages passent par le streaming au lieu d'être tous construits d'un coup ;
+- **Bâtiments** : $BoxDetectorEnd est retiré de mining_depot.gd ;
+- **PlanetTech** : Feat(planet), ton travail en cours (85 fichiers) : la convention de longitude alignée sur QGIS, avec les scènes et les tests qui suivent, plus le nouvel export de tarsis_3 et son grade_profiles.pack re-baké.
+- **Véhicules** : La touche de décélération freine désormais en roulant vers l'avant et ne recule qu'une fois à l'arrêt, et les freins arrêtent un camion chargé aussi fort qu'un camion vide.
+- **Véhicules** : Composants de véhicule : « Installer » s'affiche en vert, « Enlever » en jaune, et chaque invite d'interaction repose sur un fond sombre qui la garde lisible.
+- **Véhicules** : On monte dans un véhicule en regardant le siège, plus besoin d'être dans la zone, qui interférait parfois avec les composants et la benne
+- **Bâtiments** : Les lampadaires, projecteurs et enseignes néon s'allument quand il fait sombre, plus seulement au coucher du soleil : dans les vallées sous le voile de corindon, ils s'allument en plein jour.
+- **Bâtiments** : Projecteurs plus lumineux.
+- **Objets** : Les conteneurs portent le logo ARES et gardent leurs détails bien plus loin.
+- **Bâtiments** : Lampadaires, projecteurs et enseignes s'allument au crépuscule et s'éteignent à l'aube, l'un après l'autre.
+- **Véhicules** : Le camion se démarre et se coupe à toute vitesse, et son régime suit maintenant ses roues.
+- **Véhicules** : Les composants d'un véhicule ne peuvent plus être retirés moteur allumé.
+- **Audio** : Les pas sur le sable, la terre et le gravier jouent un son provisoire pour l'instant (leurs sons n'avaient pas de source connue).
+
+### Fixed
+
+- **Minage** : Portage : un morceau cassé est maintenant tenu par son centre réel, et non plus par l'origine du rocher entier. Il n'est plus décalé dans les mains et tourne sur lui-même.
+- **Minage** : Éclairage des rochers : le relief des textures est corrigé. Un rocher n'est plus tout clair ou tout noir selon la façon dont il est posé.
+- **Véhicules** : Les moteurs et batteries du camion rentrent dans leurs trappes (60 × 40 × 30 cm) au lieu de dépasser du flanc.
+- **Joueur** : Correction reparent en sortie d'habitation ou ça nous propulsait dans l'espace
+- **Interface** : Menu principal : Correction de la scène du menu après réimport QGIS
+- **Performances** : Plus d'à-coup de 400 ms toutes les 2 s côté client ;
+- **PlanetTech** : L'outil de bake et hole_probe.gd sont réparés.
+- **Graphismes** : Les planètes et lunes vues d'orbite sont désormais entièrement éclairées : plus de carrés noirs sur les régions rocheuses ou herbeuses, ni de quadrillage dans l'air des mondes voilés.
+- **Graphismes** : La lumière du soleil ne suivait plus l'heure ni le trajet une fois assis dans un véhicule, et sautait à la sortie.
+- **Serveur** : Fix crash du jeu dans certaines conditions
+- **Véhicules** : Le camion n'a plus de lumière dans sa cabine.
+- **Carte stellaire** : Cliquer sur une planète, une lune ou un point d'intérêt affiche de nouveau sa fiche.
+- **Objets** : Les conteneurs reposent désormais sur des aires de stockage aplanies dans les villages miniers et les villes-usines, et ne flottent plus ni ne s'enfoncent dans les pentes.
+- **Bâtiments** : La téléportation vers la station orbitale fonctionne de nouveau.
+- **Objets** : Les caisses moyennes ne se portent plus à la main, et l'invite « Porter » n'apparaît que sur ce qu'on peut porter.
+- **Joueur** : Le faisceau de votre lampe torche n'est plus coupé par l'ombre de vos propres épaules.
+- **Véhicules** : Plus de crash serveur sur une batterie supprimée
+  batteries() et l'affichage véhicule ignorent une batterie déjà supprimée.
+  L'écran de bord ne tourne plus sur le serveur, ce qui supprime aussi le spam « String formatting error ».
+  fix(vehicle) : une pièce montée ne collisionne plus avec son camion
+  La pièce (batterie, moteur) exclut la collision avec son camion dès sa création, ce qui supprime l'envol du camion au changement de serveur.
+  fix(server) : un camion qui change de serveur continue de rouler
+  À la frontière, le camion reçu reprend son état et sa vitesse. Ce n'est pas fait au chargement depuis la base.
+  La vitesse est appliquée dès que le camion n'est plus figé, dans la limite de 1,5 s.
+  Une copie restée active est adoptée, ce qui supprime le retour en arrière du conducteur.
+  Le gel « pas de sol » est levé à l'adoption.
+- **Joueur** : Le personnage pouvait continuer à monter une pente après avoir relâché la touche.
+- **Interface** : Les captures prises après avoir redimensionné la fenêtre étaient coupées.
+- **Commandes** : En AZERTY et autres dispositions, l'aide F1 allumait la touche du micro au mauvais endroit.
+- **Commandes** : Dev : les touches + / - de l'heure changent à nouveau l'heure instantanément.
+
+## [0.1.0-dev.202610042359] - 2026-10-04
+
+### Added
+
 - **Serveur** : Nouveau système lors de la création d'un nouveau serveur (maillage de serveurs dynamique) et transfert des objets et des joueurs vers ce nouveau serveur
 - **Bâtiments** : Ajout du garage
 - **Véhicules** : Nouveau : la batterie T1. Le camion roule désormais à l'énergie : il ne démarre pas sans batterie chargée, et la batterie se vide selon l'effort des moteurs (les pentes et les lourdes charges la vident plus vite).
@@ -103,144 +235,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Bâtiments** : Nouveau : la Station orbitale Palaka-Pital, sur une vraie orbite autour de SandBox (400 km, 1 h 44 par tour), accessible par téléporteur avec une cabine à bord pour revenir, et des anneaux qui tournent pour donner de la gravité à leur plancher.
 - **Joueur** : Nouveau : une EVA avec une vraie inertie : roulis (A/E), monter/descendre (Espace/Ctrl), frein (X), un onglet EVA dans les touches, une animation de flottement, et la dérive orbitale près d'une station.
 - **Carte stellaire** : Nouveau : la carte stellaire montre les stations et un cône de vue, et s'ouvre sur vous la première fois et après un voyage.
-- **Véhicules** : Direction progressive. Un appui bref ou maintenu sur les flèches tourne les roues petit à petit ; elles gardent leur angle quand on relâche, et se redressent doucement en roulant.
-- **Véhicules** : Limiteur de vitesse. T l'active ou le désactive, Alt + molette règle la limite par crans de 5 km/h. Affiché sur le tableau de bord : vert quand il est actif, rouge quand il retient le camion.
-- **Véhicules** : Compteur kilométrique sur le tableau de bord, conservé entre les sessions et les redémarrages du serveur.
-- **Interface** : F7 prend une photo sans aucune interface ; F8 prend une capture avec les panneaux de débogage pour les rapports de bug. Les deux sont rangées dans le dossier screenshots du jeu et copiées dans le presse-papiers.
-- **Interface** : Réglages › Vidéo : un bouton ouvre la galerie de captures.
-- **Carte stellaire** : Amélioration de la StarMap. Les planètes ont leur biomes, leur reliefs, leur ville, villages, gare, routes etc....
-- **Graphismes** : Les objets posés sur une planète se fondent désormais dans le sol : la couleur et la texture du terrain remontent sur la base des bâtiments, rochers, caisses et props, avec une limite irrégulière façonnée par le vent. Les murs intérieurs et les surfaces horizontales restent propres, et la frange est éclairée comme le sol qu'elle imite. Elle ne s'assombrit donc pas contre un mur à l'ombre.
-- **Interface** : Ajout d'un choix de langue (Automatique / Anglais / Français) dans Paramètres ▸ Général, appliqué immédiatement et conservé d'une session à l'autre.
-- **Véhicules** : Le HUD de debug des véhicules affiche désormais la pente sur laquelle vous êtes, à côté des stats que vos moteurs peuvent franchir. Les composants de véhicule portent le pictogramme et numéro de série de ce qu'ils sont,  lisible des deux côtés du camion, et du dessus quand la pièce est posée au sol.
-- **Véhicules** : Les véhicules sont mus par des moteurs qu'on peut voir. Le moteur T1 est un objet qu'on ramasse, qu'on porte et qu'on boulonne dans l'une des quatre trappes du camion — et ce qui est installé détermine sa force de traction, la pente qu'il franchit et son accélération. Retirez-en un et le camion s'essouffle ; retirez-les tous et il ne démarre plus. Une nouvelle option des réglages masque le tableau de bord du conducteur.
-- **Bâtiments** : Ajout d'une cabine de téléportation pour les tests : on choisit un système, un corps et un point
-  d'intérêt sur son écran, ou on saisit une longitude, une latitude et une hauteur, et on est posé au
-  sol à cet endroit. Les véhicules garés dans la cabine et les joueurs qui s'y trouvent voyagent avec
-  vous, et RETOUR ramène au point de départ. Corrige aussi un défaut préexistant qui faisait
-  disparaître un véhicule pour le passager qui venait d'en descendre. Remplace les sept anciens pads fixes. Limite connue :
-  descendre du véhicule avant de sauter — la vue et les commandes d'un passager assis peuvent ne pas
-  survivre au trajet.
-- **Serveur** : [serveur] Ajout une sécurité pour les véhicules (similaire à celle des joueurs)
-- **PlanetTech** : Ajout des montagnes
-- **Serveur** : Rig de perf serveur ([debug] perf=true) : anatomie de la frame ([Perf/frame]), attribution par script ([Perf/bands], opt-in), recensement des nœuds, messages Horizon, ventilation du tick PNJ — chacun de ces postes a été trouvé grâce à lui.
-- **PlanetTech** : PlanetTech avec routes, exportation QGIS, refactorisation
-- **PlanetTech** : Éditeur uniquement : un bouton « Fly in planet frame » dans la barre d'outils de la vue 3D fait survoler un corps avec le haut toujours en haut et l'avance qui suit la courbure, au lieu de la caméra alignée sur le monde qui part de travers dès qu'on s'éloigne du pôle.
-- **Performances** : Les utilisateurs peuvent activer le débogage des performances dans les journaux lorsqu'ils ont peu d'images par seconde.
-- **Audio** : Les bruits de pas et les caisses posées sonnent selon la surface — métal, sable, pierre, béton — au lieu d'un échantillon unique partout. Les caisses s'entendent à la prise et à l'impact.
-- **Carte stellaire** : Les planètes et les lunes du système Tarsis parcourent leurs véritables orbites, et une carte du système, sur F2, montre où se trouve chaque astre — et vous avec.
-- **Graphismes** : Les nuits ont un ciel étoilé, et le crépuscule dure, en s'éteignant au-dessus du point où l'étoile s'est couchée.
-- **PlanetTech** : Ajout de bornes kilométrique (posé à la main donc c'est du à peu près)
-- **Serveur** : Gestion des PNJ
-  ajout des propsync (objet réseau)
-- **Joueur** : Franchissement automatique** : le personnage franchit les obstacles tout seul — vault par-dessus les bas, grimpe sur les rebords (y compris surélevés), et enjambe en douceur les petites marches qui bloquaient.
-- **Audio** : Nouveaux sons** : les 3 types de vault, le perforateur (boucle de perçage, fin, raté, équiper/ranger), la torche du joueur, les phares du camion / moteur électrique.
-- **Joueur** : Les personnages ont un corps animé : vous voyez votre propre corps en 1re personne et les autres joueurs sont entièrement animés — marche/course/saut, accroupi (C) et allongé (W), pivot sur place, assis/conduite en véhicule, emotes (roue T) et port d'objets. Porter une caisse n'est possible que debout, et les outils rangés suivent le corps.
-- **Graphismes** : 🌌 Système stellaire
-  Le monde est désormais entièrement éclairé par Starsis, l'étoile du système.
-  Le cycle jour/nuit est maintenant calculé à partir de la position réelle de Starsis.
-  Les couleurs des levers et couchers de l'étoile sont désormais dynamiques et physiquement cohérentes.
-  Les planètes et les lunes sont correctement éclairées, même à des distances astronomiques.
-  Le ciel suit désormais la position de Starsis, aussi bien dans la vue principale que dans les rétroviseurs des véhicules.
-  La voûte céleste s'estompe progressivement vers le noir de l'espace en fonction de l'altitude.
-  Chaque corps céleste tourne désormais sur son axe selon sa période de rotation réelle.
-  🛰️ Interface
-  Le HUD affiche maintenant la longitude, la latitude et l'heure locale du corps céleste sur lequel vous vous trouvez. (Debug)
-  🛠️ Outils
-  Ajout d'un mode de vol libre ($) pour explorer le système sans contrainte.
-  Ajout de marqueurs de navigation permettant d'inspecter rapidement les planètes, lunes et autres objets du système stellaire. (A activer dans les settings)
-- **Graphismes** : Ajout de réglages Graphics pour activer/désactiver les ombres temps réel et régler la distance d'affichage des ombres du soleil (persistés, appliqués en direct).
-- **Objets** : Les nouveaux containers de stockage verrouillent toute caisse qui se pose sur leur sol (impossible à bouler) ; on la reprend pour la libérer.
-- **Audio** : Les joueurs ont du son : bruits de pas (échantillons aléatoires, cadence qui suit votre vitesse), interrupteur de la lampe torche et saut. Ils sont spatialisés et répliqués : vous entendez les joueurs autour de vous marcher, sauter et allumer leur lampe.
-- **Audio** : Les véhicules ont du son : portes, démarrage et coupure du moteur, un régime moteur qui monte avec les tours, un klaxon (H) et un klaxon spécial (Alt+H), frein à main et phares. Le moteur doit désormais être démarré avec la clé de contact (I), à l'arrêt, avant que le véhicule puisse rouler.
-- **Interface** : Le changement de résolution d'écran nécessite désormais une confirmation sous 10 secondes et est automatiquement annulé en cas de non-respect de cette consigne. Ainsi, une résolution trop élevée ne peut plus vous bloquer.
-- **Interface** : Vous pouvez désormais afficher/masquer les panneaux de débogage à l'écran depuis Paramètres → Général, ou avec une touche réattribuable (par défaut Alt+²) disponible dans le menu Commandes.
-- **Objets** : Les conteneurs de test sont désormais sensibles aux collisions.
-- **PlanetTech** : Mise à jour de la planet tech, ajout de vallées, texture...
-- **Objets** : Éditeur uniquement : ajout d'un outil DyingStar pour importer/exporter les props serveur d'une scène vers le startup_items.json d'horizonserver.
-- **Véhicules** : Les véhicules peuvent désormais utiliser un vrai modèle 3D : roues et volant animés, portes ouvrables via leur poignée (visée + E), collision réalisée sous Blender, et écrans dans la cabine. Il faut ouvrir une porte (viser la poignée + E) avant de pouvoir monter ou descendre.
-- **Bâtiments** : Test des conteneur / habitations
-- **Minage** : Fonctionnalité : les zones minières génèrent des champs rocheux côté serveur à l’entrée du joueur (ensemencés et renouvelables).
-  Fonctionnalité : variantes de roches exploitables de petite, moyenne et grande taille.
-  Fonctionnalité : chaque zone contient un minéral répliqué via `mineral_id` (or, fer, cryptonite).
-- **Graphismes** : Ajout d'un cycle jour/nuit de 30 minutes et d'un ciel physique (couleurs de lever/coucher) au sandbox.
-- **Graphismes** : Feat: FPS limit + field-of-view graphics settings (persisted)
-- **Audio** : Feat: working audio settings (bus volumes, input/output device, mic test)
-- **Joueur** : On voit désormais les autres joueurs allumer et éteindre leur lampe torche.
-- **Véhicules** : Modification du fret : déposez un objet dans la benne d'un camion (ou par-dessus le bord) pour le charger, roulez avec, et renversez le camion pour le décharger. Modif des rétroviseurs / caméra de recul au niveau des perf client.
-- **Interface** : Nouvelle case "Dev mode" dans les réglages Vidéo : elle ignore la résolution/plein écran sauvegardés au lancement (pratique pour lancer plusieurs fenêtres de jeu en même temps).
-- **Véhicules** : Allumer/éteindre sa lampe torche assis dans un véhicule (conducteur ou passager).
-- **Véhicules** : Se tenir dans la benne ajoute son poids à la charge, et on charge une caisse en la déposant dans la benne ; porter une caisse ne renverse plus un camion.
-- **Social** : Ajout d'un chat textuel en jeu : affiché par défaut à gauche, F12 pour masquer/afficher, Entrée pour écrire et envoyer, Échap pour annuler, Tab pour changer de canal.
-- **Objets** : Ajout des props de rations alimentaires (biscuit, nutrigris).
-- **Interface** : Écran d'accueil : bouton Quitter. Le curseur apparaît à l'ouverture du menu pause. L'overlay de debug reste dans le coin à toute résolution.
-- **Véhicules** : Les véhicules peuvent afficher une caméra de recul et des rétroviseurs en direct sur des écrans de cabine (drop-in RearCamera réutilisable ; "mirror" inverse gauche/droite). Le camion embarque une caméra de recul + deux rétros.
-- **Véhicules** : Phares de véhicule : le dev pose juste des Light3D dans le groupe "vehicle_light" de sa scène (aucun code) ; le conducteur les bascule avec L. Affichés sur le HUD et le tableau de bord.
-- **Véhicules** : La benne déverse tout son chargement quand le véhicule se renverse.
-- **Véhicules** : On peut désormais récupérer une caisse ou un rocher déposé dans la benne d'un véhicule.
-- **Objets** : Invites « [E] Carry » / « [E] Drop » quand on vise un objet ou qu'on en porte un.
-- **Véhicules** : Nouveau frein à main du camion : appui long sur Espace sous 3 km/h, relâché par l'accélération, reste actif quand on sort. Affiché sur le tableau de bord, le HUD et l'aide.
-- **Minage** : Les rochers minables peuvent contenir différents minéraux (or ajouté) ; l'aspect du minerai est piloté par des données.
-- **Véhicules** : Ajout d'un camion réseau pilotable (sièges conducteur et passager, groupe motopropulseur, tableau de bord, vue libre) ; l'outil de nettoyage d'administration peut désormais supprimer les véhicules et les caisses de dépôt.
-- **Objets** : Ajout d'un outil de nettoyage pour les administrateurs : un rayon partant de la main du joueur, une ligne de visée rouge/jaune, cliquez pour supprimer l'élément ciblé (rocher/boîte/dépôt uniquement).
-  Suppression autorisée par le serveur : libère le nœud (ou le transfère à Horizon) -> supprimé de GORC et de la base de données. L'infrastructure du monde est protégée.
-  Les outils 1 (perforateur) et 2 (nettoyage) sont désormais incompatibles.
-  L'emplacement réservé au dépôt minier génère sa copie réseau sur le serveur de jeu (logique de collision et de collecte/envoi), avec un UUID déterministe (optionnel :
-  stable_id) pour éviter l'accumulation de doublons ; placé dans Sandbox Capital.
-- **Interface** : Appuyez sur F6 pour enregistrer l'écran de jeu (report de bug ou clips) ; les enregistrements sont sauvegardés en AVI dans Documents/DyingStar/records.
-- **Minage** : Add a mining depot: deposit mined ore, refine it by volume (ore purity, stock and per-crate fill shown on the depot screen) and extract a carryable crate of ore.
-- **Minage** : Les rochers miniers montrent désormais leur minerai : quelques petites traces en surface, et la vraie quantité se révèle en cassant le rocher — les morceaux les plus riches contiennent plus de minerai.
-- **Minage** : E** pour **porter** ou **lâcher** un minerai (un seul à la fois).
-- **Minage** : Extraction minière V0 : équipez-vous d'un perforateur, visez les failles prédéfinies d'une roche et forez pour la briser en morceaux, visible et synchronisé en multijoueur
-- **Interface** : Ajout d'un bouton dans l'UI de pause pour retourner au menu (déconnexion du serveur)
-- **Bâtiments** : Gestion du spawn dans les appartements
-- **Serveur** : Ajout du build du jeu dans GitHub Actions
-- **PlanetTech** : Planet tech v1
-- **PlanetTech** : Ajout du téléchargement des données planète pour le build et en local pour les développeurs
 
 ### Changed
 
-- **Commandes** : La lampe torche a sa propre touche, U (croix haut à la manette) : allumer les phares n'allume plus la torche.
-- **Commandes** : Les phares des véhicules restent sur L et passent sur la croix bas à la manette.
-- **Carte stellaire** : Les canyons sont plus légers et tracés en courbes, comme le sol les montre.
-- **Minage** : On ne commence plus avec un outil de minage : allez le chercher à la machine ARES Mining du dépôt de cargo. La touche d'action le prend ou le pose ; il reste à vous.
-- **Interface** : Les écrans 3D s'utilisent au viseur : passer devant une console ne bloque plus la vue.
-- **Objets** : Les petits objets posés au sol se ramassent debout.
-- **Véhicules** : Les pièces moteur et batterie portent les mêmes icônes que le tableau de bord.
-- **Bâtiments** : Téléporteur : destinations regroupées par type et triées, astres marqués planète / lune / géante, utilisable à la manette.
-- **Bâtiments** : Les lumières des bâtiments s'allument au crépuscule (1900 lux), le garage est éclairé la nuit.
-- **Météo** : La poussière soulevée par le vent prend la couleur du sol et passe en douceur d'un biome à l'autre
-- **Véhicules** : Activation de l'addon dans les paramètres du projet
-- **Serveur** : Modification du paramètre "rollForward" du fichier global.json pour laisser le projet C# se construire si le SDK est dans une version supérieur à celle recommandée
-- **Serveur** : La ligne "websocket_url" du fichier "client.ini" a également été modifiée, elle ne devrait probablement pas l'être
-- **Interface** : Regroupe les onze apps de la tablette en Social, Économie et Propriétés — huit onglets à la barre, Signalements et Système restent dans Plus.
-- **Carte stellaire** : Les points d'intérêt ne demandent plus de coordonnées — prends ta position, ou place le point sur la carte.
-- **Économie** : Les zones de mission acceptent un système ou un de tes POI ; les anciens kinds scène et aire étaient toujours rejetés.
-- **Économie** : La ligne de partage par groupe n'apparaît que sur tes missions, et nomme le groupe.
-- **Bâtiments** : Bâtiments collés : quand deux bâtiments sont assez proches pour que leurs zones plates se touchent, le plus petit se met au niveau du plus grand.
-- **PlanetTech** : Le cache terrain passe en v60 pour prendre en compte les routes ré-exportées.
-- **Performances** : Chaque export (serveur, Linux, Windows) reçoit son propre numéro de build (date, heure et nombre aléatoire), qui invalide le cache de chunks au premier lancement. Dans l'éditeur, il n'y a pas de numéro et rien ne change.
-- **PlanetTech** : Modifications QGIS : les nouveaux types de POI, le remplissage auto de population/radius et les zones colorées par roche.
-- **PlanetTech** : Nouvel export de tarsis_3 depuis QGIS
-- **Minage** : Poids des rochers : un facteur réduit la densité des rochers (WEIGHT_REDUCTION_FACTOR, réglé à 25). Ils sont plus légers, on peut les porter plus tôt et il faut moins de découpes.
-- **Minage** : Couleur des rochers : les rochers prennent la couleur du sol où ils apparaissent, avec sa luminosité et son aspect mat. Les morceaux cassés gardent cette couleur.
-- **Véhicules** : Le camion atteint la même vitesse maximale quel que soit le nombre de moteurs installés (environ 100 km/h) ; plus de moteurs donnent plus de force en côte, pas plus de vitesse.
-- **Véhicules** : Le camion ralentit toujours de lui-même quand on lâche l'accélérateur.
-- **Carte stellaire** : La carte stellaire s'ouvre désormais dans l'onglet Navigation du DataPad (F2, ou F3 ▸ Navigation), dans le cadre de la tablette.
-- **Commandes** : Le DataPad (F3) apparaît maintenant dans Réglages > Contrôles sous son nom, dans l'aide des commandes (F1) et dans les indications de jeu.
-- **Joueur** : Le vol libre de développement s'appelle désormais « Mode Dieu » : la molette règle sa vitesse (affichée en haut de l'écran) et le clic molette vous pose au sol juste en dessous ; votre corps est masqué pendant le vol.
-- **Performances** : Les bâtiments des villages passent par le streaming au lieu d'être tous construits d'un coup ;
-- **Bâtiments** : $BoxDetectorEnd est retiré de mining_depot.gd ;
-- **PlanetTech** : Feat(planet), ton travail en cours (85 fichiers) : la convention de longitude alignée sur QGIS, avec les scènes et les tests qui suivent, plus le nouvel export de tarsis_3 et son grade_profiles.pack re-baké.
-- **Véhicules** : La touche de décélération freine désormais en roulant vers l'avant et ne recule qu'une fois à l'arrêt, et les freins arrêtent un camion chargé aussi fort qu'un camion vide.
-- **Véhicules** : Composants de véhicule : « Installer » s'affiche en vert, « Enlever » en jaune, et chaque invite d'interaction repose sur un fond sombre qui la garde lisible.
-- **Véhicules** : On monte dans un véhicule en regardant le siège, plus besoin d'être dans la zone, qui interférait parfois avec les composants et la benne
-- **Bâtiments** : Les lampadaires, projecteurs et enseignes néon s'allument quand il fait sombre, plus seulement au coucher du soleil : dans les vallées sous le voile de corindon, ils s'allument en plein jour.
-- **Bâtiments** : Projecteurs plus lumineux.
-- **Objets** : Les conteneurs portent le logo ARES et gardent leurs détails bien plus loin.
-- **Bâtiments** : Lampadaires, projecteurs et enseignes s'allument au crépuscule et s'éteignent à l'aube, l'un après l'autre.
-- **Véhicules** : Le camion se démarre et se coupe à toute vitesse, et son régime suit maintenant ses roues.
-- **Véhicules** : Les composants d'un véhicule ne peuvent plus être retirés moteur allumé.
-- **Audio** : Les pas sur le sable, la terre et le gravier jouent un son provisoire pour l'instant (leurs sons n'avaient pas de source connue).
 - **Véhicules** : Les camions sortent désormais d'usine avec deux moteurs T1 et une batterie T1.
 - **Carte stellaire** : Ses chiffres de debug passent dans le panneau de debug, avec leur propre case dans Paramètres > Debug.
 - **Commandes** : Les boutons de la souris sont nommés dans votre langue dans la page des contrôles.
@@ -283,163 +280,15 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **PlanetTech** : [Performances ] Données périmées : si le bake ne correspond plus aux données (nouvel export, crevasses ou routes modifiées), le jeu recalcule lui-même et affiche un avertissement. Un test échoue, et link_modifiers.py rappelle la commande à relancer.
 - **Serveur** : [Divers] limite de lint portée à 6 000 lignes, et deux nouvelles suites de tests (découpage des profils, bake).
 - **Commandes** : Modifié : `action` passe de E à F, et la touche `interact` séparée disparaît : F ne fait qu'une chose à la fois.
-- **Performances** : Amélioration des performances sur les segments
-  Amélioration de la StarMap
-  Ajout/correction de l'intégration continue pour les tests GUT
-- **Interface** : Les enregistrements F6 sont désormais rangés dans screenshots/records.
-- **PlanetTech** : Modification de la route pour qu'elle ne dépasse pas une pente de 10 degrés.
-- **Interface** : L'interface en jeu est désormais traduite en anglais et en français. Les invites d'interaction affichent la touche réellement configurée, selon votre disposition de clavier, au lieu d'une touche figée.
-- **Interface** : Les menus sont désormais entièrement traduits en anglais et en français. Les touches sont regroupées par familles (Général, À pied, En véhicule, En vol, Débogage), et les lignes de réglages se surlignent au survol.
-- **PlanetTech** : Gestion du snap à la surface de la planète + mise à jour du mesh de terrain dans l'éditeur et runtime
-- **Performances** : Optimistions joueur quand on a beaucoup de joueurs près de nous
-- **Minage** : Impuretés rocheuses : couleur et minerai issus de la montagne pour chaque corindon
-- **PlanetTech** : Mise à jour des montagnes pour intégrer des canyons dans les zones de corindon ; correction des bordures des canyons et raccordement à la base des montagnes
-- **Serveur** : [serveur] Augmentation du nombre d'objets gérés dans Jolt
-- **Serveur** : Cache de fichiers atomique pour le server meshing dynamic  (mesh de collision pour le serveur)
-- **Performances** : Cache navmesh partagé (NpcNavCache) : tuiles de 72 m sur un treillis, une map par bloc de 5×5 cellules pour que les routes traversent les tuiles ; géométrie collectée par requête physique et extraite sur un worker ; TTL, invalidation, éviction ; les camions garés creusent le mesh.
-- **Performances** : PNJ allégés : tick à 30 Hz entrelacé, sous-arbres inutiles désactivés côté serveur (UI, outil de minage, rayons, NavigationAgent3D), réplication seulement quand la pose change.
-- **Performances** : Coûts annexes réduits : props statiques et véhicules garés à 6 Hz, anneaux HEALPix des pins mis en cache, balayage des pins cadencé au temps, planificateur de minage sans les PNJ.
-- **Performances** : Mesuré : 47 PNJ → de 5 fps / 43 TPS à 60 / 60 ; 93 PNJ → 60 TPS.
-- **Performances** : Amelioration du calcul des chunks de -26 a -66 %
-- **PlanetTech** : Utilisation des tuiles (points) sur un serveur web et utiisation en streaming.
-- **Performances** : Amélioration du débogage des performances côté client
-- **Joueur** : Les joueurs sont desormais representes par un vrai modele de personnage au lieu du mannequin provisoire, en conservant toutes les animations existantes. La lampe torche est fixee a la tete, son faisceau suit donc le corps.
-- **Joueur** : Le franchissement et l'escalade se déclenchent maintenant en APPUYANT SUR SAUT devant un obstacle, au lieu de se produire tout seuls quand on marche dedans. Les marches et petits rebords se montent toujours automatiquement.
-- **Véhicules** : On ne peut plus monter dans un véhicule les mains pleines, et monter range vos outils.
-- **PlanetTech** : Sandbox est desormais le troisieme monde du systeme Tarsis, plus proche de son etoile et protegee par son voile de corindon ; Gaea prend la quatrieme orbite. Sandbox et ses lunes Korax et Xarok sont renommees en consequence.
-- **Graphismes** : Le ciel est désormais calculé à partir de l'atmosphère réelle de chaque monde — ses gaz, sa pression,
-  sa poussière — au lieu d'un dégradé peint. Les couchers d'étoile, la couleur de l'éloignement et le
-  voile sur les montagnes lointaines découlent tous de la même physique, et changent d'une planète à
-  l'autre. Deux bugs qui éclairaient le monde la nuit, et donnaient aux bâtiments et aux sommets
-  lointains un air rétroéclairé, sont corrigés.
-- **Performances** : Limitation du nombre de threads pour le serveur pour améliorer les performances sur Kubernetes.
-- **Serveur** : Mise à jour de la version de Godot sur le serveur vers la 4.7 ; j'avais oublié d'utiliser la 4.7 comme pour le client ;(
-- **Joueur** : La marche, le sprint et l'accroupi se déplacent désormais aux vitesses décrites dans le document de design, et la vitesse de marche à la molette progresse régulièrement entre 0,5 et 3 m/s au lieu de faire des bonds.
-- **Véhicules** : Écrans de cabine** des véhicules (rétroviseurs et tableau de bord) : éteints moteur coupé, rallumés à l'allumage.
-- **Social** : Chat** : affiché par défaut, ordre des messages plus clair, lisible sur fond clair.
-- **Interface** : Les icônes son/micro à l'écran sont en bas à gauche et plus petites.
-- **Serveur** : Mise à jour des URL des serveurs vers la nouvelle infrastructure.
-- **Objets** : Le portage d'objets est bien plus agréable : plus de « snap » dans les mains à la prise — l'objet rejoint la main en douceur et traîne quand on bouge, réagit aux chocs, et est solide tout de suite. Regarde en bas pour poser un objet au sol, en haut pour le placer en hauteur.
-- **Joueur** : La portée d'interaction est désormais une valeur configurable sur le joueur.
-- **Objets** : La roue de spawn de dev est désormais gérée par le serveur : les objets apparaissent devant vous, posés au sol et droits, et c'est le serveur qui décide où. La molette tourne un objet porté par paliers de 15°, et maintenir le clic molette permet de le faire pivoter librement sur tous les axes à la souris — le tout autour du centre de l'objet.
-- **Minage** : Le dépôt de minerai n'est plus spawnable et empaquette son minerai dans une caisse de transport.
-- **Véhicules** : Les véhicules se braquent et freinent moteur éteint, et le moteur peut être coupé à toute vitesse.
-- **Interface** : Dans le menu des paramètres, Échap fait maintenant « retour » au lieu de libérer la souris.
-- **PlanetTech** : Mise à jour des technologies planétaires. Génération de cartes de hauteur pour chaque niveau de détail. Correction du téléporteur vers une autre planète/un autre point.
-- **Serveur** : Sur le réseau, les planètes sont désormais des objets génériques.
-- **Véhicules** : Le modèle du mini-camion a été mis à jour (correction de l'axe de rotation des roues et de la zone de poids de la benne).
-- **Objets** : Les objets transportés interagissent désormais physiquement avec le monde : vous pouvez les heurter et les poser contre le sol, les murs et les véhicules, et les empiler en regardant vers le haut ou vers le bas pour lever ou abaisser un objet tenu. Un objet hors de portée (par exemple, coincé derrière un mur) est automatiquement lâché.
-- **Interface** : La roue d'apparition des développeurs (T) est désormais un menu à deux niveaux (catégorie → variante)
-- **Objets** : Les caisses-palettes qu'elle génère peuvent être ramassées et transportées.
-- **Performances** : Mise à jour de la physique à 60 FPS.
-  Correction des collisions par chunk pour Jolt aux coordonnées astronomiques.
-  Correction de l'exportation des données de terrain, de la validation du cache et de la mise en veille de la physique en cas d'inactivité.
-- **PlanetTech** : Mettre à jour les options d'exportation pour les planètes
-- **Véhicules** : La direction du véhicule est désormais progressive et auto-centrante, avec un angle de braquage sensible à la vitesse (plus précis à basse vitesse, plus stable à haute vitesse).
-- **Serveur** : Mise jour du projet sous Godot 4.7
-  Activation du HDR
-- **Interface** : Tes réglages vidéo (moniteur, résolution, plein écran, v-sync) sont conservés d'une session à l'autre.
-- **Minage** : Les morceaux de rocher pèsent désormais selon leur taille, et en porter un dans la benne ajoute son poids à la charge.
-- **Commandes** : Toutes les touches gameplay (reset/phares véhicule, frein & frein à main, l'outil « Zapette », la roue de spawn) sont reconfigurables dans Réglages → Contrôles.
-- **Commandes** : E permet d'embarquer ; Y pour descendre ; une seule roue de spawn sur T.
-- **Interface** : Menu pause réordonné (Reprendre / Réglages / Retour menu / Quitter) ; Réglages ouvre le menu complet.
-- **Commandes** : L est contextuel : phares en conduite, torche du joueur à pied. La torche est maintenant visible par les autres joueurs et démarre éteinte.
-- **Véhicules** : Les passagers comptent dans la charge du véhicule (SURCHARGE).
-- **Objets** : Les objets portés sont solides pour le monde et les autres joueurs (pas pour le porteur).
-- **Véhicules** : Les passagers assis ajoutent leur poids (75 kg) à la charge et au poids total ;
-- **Véhicules** : SURCHARGE prend en compte passagers + chargement de la benne.
-- **Interface** : L'interface du véhicule est désormais en anglais.
-- **Performances** : Réduction du calcul de collision de 50 fois (testé sur 200 boites et rochers)
-- **Véhicules** : Fluidification des véhicules et des joueurs en réseau (interpolation côté client), et possibilité pour l'outil de nettoyage d'administration de supprimer les véhicules et les caisses de dépôt.
-- **Minage** : Seul un minerai **entièrement miné** (sans faille) est portable ; impossible de prendre celui d'un autre joueur.
-- **Minage** : Porter **ralentit**, le minerai **flotte devant** soi (sans collision) et **tout est visible des autres joueurs**.
-- **Minage** : Le **perforateur** est toujours là : **rangé** par défaut/pendant le port, **sorti** quand on l'équipe.
-- **Minage** : Voir https://github.com/DyingStar-game/DyingStar/pull/186
-- **Serveur** : Amélioration des messages d'erreur du serveur
-- **Serveur** : Mise à jour vers dotnet 9, suppression de la page de connexion (auth par JWT)
-- **Audio** : Suppression de Wwise, remplacé par l'audio natif Godot
-- **Interface** : Révision de l'interface et des paramètres : son, livekit (proximité vocale)
-- **Serveur** : Installation du runtime dotnet dans le docker serveur
-- **Serveur** : Réécriture du code pour les joueurs hors zone serveur
-- **Serveur** : Mise à jour Godot 4.6.1
-- **Serveur** : Mise à jour du docker pour le build serveur
-- **Serveur** : Nouvelle architecture
 
 ### Removed
 
 - **Graphismes** : La scène de réglage graphique disparaît : on voit le jeu à droite
 - **PlanetTech** : [volcans] Suppression des anciens biomes volcaniques (script de migration fourni)
 - **Bâtiments** : Retiré : le bouton Retour du téléporteur.
-- **Interface** : La roue de spawn de développement, l'outil de suppression d'objets et le vol libre EVA ne sont plus accessibles en jeu, et leurs raccourcis n'apparaissent plus dans les réglages de contrôles.
-- **Joueur** : Supprime également la caméra à la troisième personne (F4) qui entrait en conflit avec l'extraction minière basée sur la visée
 
 ### Fixed
 
-- **Joueur** : Le joueur ne sautille plus sur place sur les crêtes de montagne et les bords de cratère.
-- **Véhicules** : Un camion garé sur une crête de montagne n'est plus relâché dessus en boucle.
-- **PlanetTech** : Sur Tarsis 3, plus de trous dans le sol au bord des routes qui longent une fissure.
-- **PlanetTech** : Sur Tarsis 3, les petites marches et fentes là où deux portions de sol se rejoignent ont disparu, en pleine nature comme dans les villages.
-- **Interface** : Les noms de périphériques audio trop longs ne font plus sortir les réglages Audio par la gauche de l'écran ; ils sont raccourcis et affichés en entier au survol.
-- **Interface** : Dès le lancement du jeu, Paramètres, Crédits et Retour fonctionnent de nouveau dans le menu principal.
-- **Joueur** : Un joueur qui a quitté le jeu accroupi, allongé, en apesanteur ou au volant n'est plus bloqué dans cette posture à la reconnexion.
-- **Minage** : Les joueurs n'apparaissent plus avec l'outil de minage à la ceinture avant de l'avoir pris à la machine ARES Mining.
-- **Bâtiments** : Les joueurs ne restent plus sur « Apparition » près du dépôt de cargo, dont le sol était recalculé sans fin.
-- **Carte stellaire** : Le panneau de debug s'affiche de nouveau par-dessus la carte stellaire.
-- **Carte stellaire** : Les canyons n'ont plus de taches plus foncées là où ils se rejoignent.
-- **Interface** : Les bulles d'aide ne couvrent plus le chat ni les boutons vocaux ; Échap ferme la tablette ouverte par F2.
-- **Interface** : Corrige une tablette qui ne dessinait rien : une section hébergée était imbriquée trop profond et n'avait pas de hauteur.
-- **Objets** : Étagères des cargo_depot : chaque dépôt crée une seule fois ses 193 étagères réseau, et un drapeau enregistré empêche de les recréer au redémarrage du serveur.
-- **Bâtiments** : Apron des bâtiments : la zone plate autour d'un bâtiment n'est plus déformée par les bâtiments voisins.
-- **PlanetTech** : Texture du sol : elle ne s'étire plus sur les pentes raides autour des bâtiments.
-- **Social** : Corrige les joueurs affichés hors ligne dans la liste des contacts et sur les profils : le client
-  utilise désormais le `sub` du token comme identifiant, au lieu d'un UUID aléatoire régénéré à
-  chaque session. Cela supprime aussi la duplication de profils (`Player_xxxxxxx`) à chaque
-  reconnexion.
-  Corrige les noms des joueurs dans le social : ils viennent désormais du compte
-  (`preferred_username`) au lieu du pseudo généré par le serveur de jeu.
-  Corrige la position de présence qui utilisait le nom réseau de la planète : un joueur sur SandBox
-  annonce maintenant `tarsis · tarsis_3` au lieu d'un système vide et d'une scène inconnue.
-  Corrige le chat qui ne s'ouvrait pas avec F12. Le chat n'était jamais relié au broker de messages :
-  aucun message ne pouvait donc être reçu ni envoyé.
-  Messages privés : une conversation épinglée à la fois dans la zone de message, avec le nom du
-  correspondant. L'en-tête est cliquable et liste toutes les conversations, celles ayant un nouveau
-  message en premier, et se ferme avec le ✕.
-  Le journal n'affiche plus que la conversation épinglée au lieu de mélanger tous les messages privés.
-  Écrire à un contact directement depuis sa fiche, Entrée pour envoyer, sans quitter la fiche.
-  Les notifications sociales (demande d'ami, demande acceptée, adhésion à une corporation)
-  s'affichent en pile en haut de l'écran. Un clic ouvre l'écran où elles peuvent être traitées.
-  Diagnostics : un nouveau bloc indiquant l'état de la connexion au broker du chat et de la salle
-  vocale, rafraîchi chaque seconde tant que le panneau est ouvert.
-- **Minage** : Portage : un morceau cassé est maintenant tenu par son centre réel, et non plus par l'origine du rocher entier. Il n'est plus décalé dans les mains et tourne sur lui-même.
-- **Minage** : Éclairage des rochers : le relief des textures est corrigé. Un rocher n'est plus tout clair ou tout noir selon la façon dont il est posé.
-- **Véhicules** : Les moteurs et batteries du camion rentrent dans leurs trappes (60 × 40 × 30 cm) au lieu de dépasser du flanc.
-- **Joueur** : Correction reparent en sortie d'habitation ou ça nous propulsait dans l'espace
-- **Interface** : Menu principal : Correction de la scène du menu après réimport QGIS
-- **Performances** : Plus d'à-coup de 400 ms toutes les 2 s côté client ;
-- **PlanetTech** : L'outil de bake et hole_probe.gd sont réparés.
-- **Graphismes** : Les planètes et lunes vues d'orbite sont désormais entièrement éclairées : plus de carrés noirs sur les régions rocheuses ou herbeuses, ni de quadrillage dans l'air des mondes voilés.
-- **Graphismes** : La lumière du soleil ne suivait plus l'heure ni le trajet une fois assis dans un véhicule, et sautait à la sortie.
-- **Serveur** : Fix crash du jeu dans certaines conditions
-- **Véhicules** : Le camion n'a plus de lumière dans sa cabine.
-- **Carte stellaire** : Cliquer sur une planète, une lune ou un point d'intérêt affiche de nouveau sa fiche.
-- **Objets** : Les conteneurs reposent désormais sur des aires de stockage aplanies dans les villages miniers et les villes-usines, et ne flottent plus ni ne s'enfoncent dans les pentes.
-- **Bâtiments** : La téléportation vers la station orbitale fonctionne de nouveau.
-- **Objets** : Les caisses moyennes ne se portent plus à la main, et l'invite « Porter » n'apparaît que sur ce qu'on peut porter.
-- **Joueur** : Le faisceau de votre lampe torche n'est plus coupé par l'ombre de vos propres épaules.
-- **Véhicules** : Plus de crash serveur sur une batterie supprimée
-  batteries() et l'affichage véhicule ignorent une batterie déjà supprimée.
-  L'écran de bord ne tourne plus sur le serveur, ce qui supprime aussi le spam « String formatting error ».
-  fix(vehicle) : une pièce montée ne collisionne plus avec son camion
-  La pièce (batterie, moteur) exclut la collision avec son camion dès sa création, ce qui supprime l'envol du camion au changement de serveur.
-  fix(server) : un camion qui change de serveur continue de rouler
-  À la frontière, le camion reçu reprend son état et sa vitesse. Ce n'est pas fait au chargement depuis la base.
-  La vitesse est appliquée dès que le camion n'est plus figé, dans la limite de 1,5 s.
-  Une copie restée active est adoptée, ce qui supprime le retour en arrière du conducteur.
-  Le gel « pas de sol » est levé à l'adoption.
-- **Joueur** : Le personnage pouvait continuer à monter une pente après avoir relâché la touche.
-- **Interface** : Les captures prises après avoir redimensionné la fenêtre étaient coupées.
-- **Commandes** : En AZERTY et autres dispositions, l'aide F1 allumait la touche du micro au mauvais endroit.
-- **Commandes** : Dev : les touches + / - de l'heure changent à nouveau l'heure instantanément.
 - **Serveur** : Si ton corps sort de l'arbre de scène pendant un transfert, il est remis sous le camion recréé (sinon sous la planète).
 - **Serveur** : Tu es rassis au volant et la caméra revient sur toi. Tu ne vois plus à travers les yeux d'un autre joueur.
 - **Serveur** : Le siège est libéré avant d'effacer un conducteur transféré, et son corps est retiré du camion.
@@ -468,6 +317,45 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Performances** : [Performances ] Bug de performance corrigé : le cache des tuiles de modificateurs faisait un parcours linéaire, sous verrou, à chaque lecture de hauteur. Tous les threads s'attendaient les uns les autres, et c'était de pire en pire avec le temps.
 - **Joueur** : Quitter l'atmosphère d'une planète ne vous envoie plus au milieu du système.
 - **Objets** : Une caisse portée à travers le téléporteur (ou le chargement d'un camion envoyé vers un autre astre) n'est plus supprimée et peut être posée.
+
+## [0.1.0-dev.202609272359] - 2026-09-27
+
+### Added
+
+- **Véhicules** : Direction progressive. Un appui bref ou maintenu sur les flèches tourne les roues petit à petit ; elles gardent leur angle quand on relâche, et se redressent doucement en roulant.
+- **Véhicules** : Limiteur de vitesse. T l'active ou le désactive, Alt + molette règle la limite par crans de 5 km/h. Affiché sur le tableau de bord : vert quand il est actif, rouge quand il retient le camion.
+- **Véhicules** : Compteur kilométrique sur le tableau de bord, conservé entre les sessions et les redémarrages du serveur.
+- **Interface** : F7 prend une photo sans aucune interface ; F8 prend une capture avec les panneaux de débogage pour les rapports de bug. Les deux sont rangées dans le dossier screenshots du jeu et copiées dans le presse-papiers.
+- **Interface** : Réglages › Vidéo : un bouton ouvre la galerie de captures.
+- **Carte stellaire** : Amélioration de la StarMap. Les planètes ont leur biomes, leur reliefs, leur ville, villages, gare, routes etc....
+- **Graphismes** : Les objets posés sur une planète se fondent désormais dans le sol : la couleur et la texture du terrain remontent sur la base des bâtiments, rochers, caisses et props, avec une limite irrégulière façonnée par le vent. Les murs intérieurs et les surfaces horizontales restent propres, et la frange est éclairée comme le sol qu'elle imite. Elle ne s'assombrit donc pas contre un mur à l'ombre.
+- **Interface** : Ajout d'un choix de langue (Automatique / Anglais / Français) dans Paramètres ▸ Général, appliqué immédiatement et conservé d'une session à l'autre.
+- **Véhicules** : Le HUD de debug des véhicules affiche désormais la pente sur laquelle vous êtes, à côté des stats que vos moteurs peuvent franchir. Les composants de véhicule portent le pictogramme et numéro de série de ce qu'ils sont,  lisible des deux côtés du camion, et du dessus quand la pièce est posée au sol.
+- **Véhicules** : Les véhicules sont mus par des moteurs qu'on peut voir. Le moteur T1 est un objet qu'on ramasse, qu'on porte et qu'on boulonne dans l'une des quatre trappes du camion — et ce qui est installé détermine sa force de traction, la pente qu'il franchit et son accélération. Retirez-en un et le camion s'essouffle ; retirez-les tous et il ne démarre plus. Une nouvelle option des réglages masque le tableau de bord du conducteur.
+- **Bâtiments** : Ajout d'une cabine de téléportation pour les tests : on choisit un système, un corps et un point
+  d'intérêt sur son écran, ou on saisit une longitude, une latitude et une hauteur, et on est posé au
+  sol à cet endroit. Les véhicules garés dans la cabine et les joueurs qui s'y trouvent voyagent avec
+  vous, et RETOUR ramène au point de départ. Corrige aussi un défaut préexistant qui faisait
+  disparaître un véhicule pour le passager qui venait d'en descendre. Remplace les sept anciens pads fixes. Limite connue :
+  descendre du véhicule avant de sauter — la vue et les commandes d'un passager assis peuvent ne pas
+  survivre au trajet.
+
+### Changed
+
+- **Performances** : Amélioration des performances sur les segments
+  Amélioration de la StarMap
+  Ajout/correction de l'intégration continue pour les tests GUT
+- **Interface** : Les enregistrements F6 sont désormais rangés dans screenshots/records.
+- **PlanetTech** : Modification de la route pour qu'elle ne dépasse pas une pente de 10 degrés.
+- **Interface** : L'interface en jeu est désormais traduite en anglais et en français. Les invites d'interaction affichent la touche réellement configurée, selon votre disposition de clavier, au lieu d'une touche figée.
+- **Interface** : Les menus sont désormais entièrement traduits en anglais et en français. Les touches sont regroupées par familles (Général, À pied, En véhicule, En vol, Débogage), et les lignes de réglages se surlignent au survol.
+- **PlanetTech** : Gestion du snap à la surface de la planète + mise à jour du mesh de terrain dans l'éditeur et runtime
+- **Performances** : Optimistions joueur quand on a beaucoup de joueurs près de nous
+- **Minage** : Impuretés rocheuses : couleur et minerai issus de la montagne pour chaque corindon
+- **PlanetTech** : Mise à jour des montagnes pour intégrer des canyons dans les zones de corindon ; correction des bordures des canyons et raccordement à la base des montagnes
+
+### Fixed
+
 - **Commandes** : Une touche souris avec modificateur (ex. Alt + molette) perdait son modificateur une fois remappée.
 - **Interface** : Panneaux de débogage affichant « Soon™ » juste après leur activation.
 - **Interface** : S'approcher d'un écran n' "aspire" plus votre regard en mode sticky. Vous pouvez désormais déplacez le pointeur contre le bord de la fenêtre pour balayer un écran trop large, la vue reste stable pendant la lecture, et taper dans un champ ne déclenche plus les touches de jeu . Échap rend le clavier. Les panneaux ne se redessinent plus que lorsqu'ils sont visibles, et une touche frappée va à la console utilisée, non à tous les écrans du monde (oupsy)
@@ -475,6 +363,26 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Audio** : Les pas sur le sable et la pierre ont enfin leur son, au lieu d'un marqueur d'erreur. Les pas sur le métal jouent toujours ce marqueur, en attendant un son sous licence libre.
 - **Véhicules** : Fix le problème lié au siège du véhicule.
 - **Véhicules** : Fix du dispositif de sécurité du véhicule : il semble ne pas monter suffisamment au-dessus du chunk lorsqu'il passe en dessous.
+
+## [0.1.0-dev.202609202359] - 2026-09-20
+
+### Added
+
+- **Serveur** : [serveur] Ajout une sécurité pour les véhicules (similaire à celle des joueurs)
+- **PlanetTech** : Ajout des montagnes
+- **Serveur** : Rig de perf serveur ([debug] perf=true) : anatomie de la frame ([Perf/frame]), attribution par script ([Perf/bands], opt-in), recensement des nœuds, messages Horizon, ventilation du tick PNJ — chacun de ces postes a été trouvé grâce à lui.
+
+### Changed
+
+- **Serveur** : [serveur] Augmentation du nombre d'objets gérés dans Jolt
+- **Serveur** : Cache de fichiers atomique pour le server meshing dynamic  (mesh de collision pour le serveur)
+- **Performances** : Cache navmesh partagé (NpcNavCache) : tuiles de 72 m sur un treillis, une map par bloc de 5×5 cellules pour que les routes traversent les tuiles ; géométrie collectée par requête physique et extraite sur un worker ; TTL, invalidation, éviction ; les camions garés creusent le mesh.
+- **Performances** : PNJ allégés : tick à 30 Hz entrelacé, sous-arbres inutiles désactivés côté serveur (UI, outil de minage, rayons, NavigationAgent3D), réplication seulement quand la pose change.
+- **Performances** : Coûts annexes réduits : props statiques et véhicules garés à 6 Hz, anneaux HEALPix des pins mis en cache, balayage des pins cadencé au temps, planificateur de minage sans les PNJ.
+- **Performances** : Mesuré : 47 PNJ → de 5 fps / 43 TPS à 60 / 60 ; 93 PNJ → 60 TPS.
+
+### Fixed
+
 - **Serveur** : [serveur] Correction stdout
 - **Performances** : Problème : 50 à 90 PNJ marcheurs faisaient tomber le serveur à 5 fps. Chaque PNJ bakait son propre navmesh (parse de toute la planète sur le main thread, bake Recast à 0,1 m, re-bake tous les 18 m).
 - **PlanetTech** : Correction d'un problème de « chunk »
@@ -484,6 +392,22 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **PlanetTech** : Autoroute en relief
   Correction : activation des éléments de débogage
   Correction : tuiles hexagonales sur les cartes AMD
+
+## [0.1.0-dev.202609132359] - 2026-09-13
+
+### Added
+
+- **PlanetTech** : PlanetTech avec routes, exportation QGIS, refactorisation
+- **PlanetTech** : Éditeur uniquement : un bouton « Fly in planet frame » dans la barre d'outils de la vue 3D fait survoler un corps avec le haut toujours en haut et l'avance qui suit la courbure, au lieu de la caméra alignée sur le monde qui part de travers dès qu'on s'éloigne du pôle.
+
+### Changed
+
+- **Performances** : Amelioration du calcul des chunks de -26 a -66 %
+- **PlanetTech** : Utilisation des tuiles (points) sur un serveur web et utiisation en streaming.
+- **Performances** : Amélioration du débogage des performances côté client
+
+### Fixed
+
 - **Véhicules** : Correction de la vue passager trop basse en véhicule : les poses conducteur et passager ne placent pas la tête au même endroit, et chacune a désormais sa propre hauteur d'œil.
 - **Véhicules** : Un joueur à bord d'un véhicule appartient désormais au repère de ce véhicule : le trajet est fluide pour le conducteur comme pour le passager, et sa position n'est plus renvoyée sur le réseau à chaque tick pendant que le véhicule roule.
 - **Interface** : Le panneau de debug affiche désormais l'altitude réelle au-dessus de la sphère de référence en plus de la hauteur au-dessus du sol, et les coordonnées du joueur continuent de se mettre à jour en véhicule.
@@ -495,6 +419,28 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Joueur** : La vue à la première personne ne dérive plus quand on regarde autour de soi, et on ne voit plus son propre cou en courant ou en tournant la tête.
 - **Joueur** : Les marches basses, bordures et escaliers se franchissent de façon fiable, y compris dans les portes et sous les plafonds bas où ils bloquaient.
 - **Véhicules** : Les camions ne se retournent plus en virage serré, leurs roues bougent désormais avec la suspension pour tous ceux qui les voient, et leurs pneus s'entendent — ils crissent quand on braque sur place et roulent quand on prend de la vitesse. Le mini camion arrive avec un nouveau modèle et quatre bennes interchangeables.
+
+## [0.1.0-dev.202609062359] - 2026-09-06
+
+### Added
+
+- **Performances** : Les utilisateurs peuvent activer le débogage des performances dans les journaux lorsqu'ils ont peu d'images par seconde.
+- **Audio** : Les bruits de pas et les caisses posées sonnent selon la surface — métal, sable, pierre, béton — au lieu d'un échantillon unique partout. Les caisses s'entendent à la prise et à l'impact.
+
+### Changed
+
+- **Joueur** : Les joueurs sont desormais representes par un vrai modele de personnage au lieu du mannequin provisoire, en conservant toutes les animations existantes. La lampe torche est fixee a la tete, son faisceau suit donc le corps.
+- **Joueur** : Le franchissement et l'escalade se déclenchent maintenant en APPUYANT SUR SAUT devant un obstacle, au lieu de se produire tout seuls quand on marche dedans. Les marches et petits rebords se montent toujours automatiquement.
+- **Véhicules** : On ne peut plus monter dans un véhicule les mains pleines, et monter range vos outils.
+- **PlanetTech** : Sandbox est desormais le troisieme monde du systeme Tarsis, plus proche de son etoile et protegee par son voile de corindon ; Gaea prend la quatrieme orbite. Sandbox et ses lunes Korax et Xarok sont renommees en consequence.
+- **Graphismes** : Le ciel est désormais calculé à partir de l'atmosphère réelle de chaque monde — ses gaz, sa pression,
+  sa poussière — au lieu d'un dégradé peint. Les couchers d'étoile, la couleur de l'éloignement et le
+  voile sur les montagnes lointaines découlent tous de la même physique, et changent d'une planète à
+  l'autre. Deux bugs qui éclairaient le monde la nuit, et donnaient aux bâtiments et aux sommets
+  lointains un air rétroéclairé, sont corrigés.
+
+### Fixed
+
 - **PlanetTech** : Correction des ponts
   Désactivation de l'apparition de ressources par le joueur
   Augmentation de la probabilité d'apparition de rochers sur un chunk de 70 % à 90 %
@@ -505,6 +451,26 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Véhicules** : Un camion dont une porte est restée ouverte ne vous éjecte plus quand vous essayez de vous y asseoir.
 - **Serveur** : Correction d'un démarrage du serveur de jeu sans aucun monde, qui laissait les joueurs immobiles.
 - **Serveur** : Fix la rotation joueur et joueurs sort de sa zone (gorc)
+
+## [0.1.0-dev.202608232359] - 2026-08-23
+
+### Added
+
+- **Carte stellaire** : Les planètes et les lunes du système Tarsis parcourent leurs véritables orbites, et une carte du système, sur F2, montre où se trouve chaque astre — et vous avec.
+- **Graphismes** : Les nuits ont un ciel étoilé, et le crépuscule dure, en s'éteignant au-dessus du point où l'étoile s'est couchée.
+- **PlanetTech** : Ajout de bornes kilométrique (posé à la main donc c'est du à peu près)
+
+### Changed
+
+- **Performances** : Limitation du nombre de threads pour le serveur pour améliorer les performances sur Kubernetes.
+- **Serveur** : Mise à jour de la version de Godot sur le serveur vers la 4.7 ; j'avais oublié d'utiliser la 4.7 comme pour le client ;(
+
+### Removed
+
+- **Interface** : La roue de spawn de développement, l'outil de suppression d'objets et le vol libre EVA ne sont plus accessibles en jeu, et leurs raccourcis n'apparaissent plus dans les réglages de contrôles.
+
+### Fixed
+
 - **Interface** : Correction du problème de chargement infini de la page
 - **Performances** : Les performances du serveur près des villes sont nettement améliorées, et les joueurs comme les véhicules ne tremblent plus sur place.
 - **Véhicules** : Les camions placés dans le monde apparaissent enfin, au lieu de traverser le sol sans que personne ait pu les voir.
@@ -512,6 +478,23 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Interface** : Les écrans 3D, comme celui du dépôt minier, sont de nouveau utilisables : le curseur ne tremble plus et ne revient plus se coller au milieu de l'écran, et les boutons se cliquent sur toute la surface.
 - **Bâtiments** : Emprunter un téléporteur s'affiche maintenant correctement pour les autres joueurs.
 - **Serveur** : Correction de la compilation et de la version. Le problème est désormais identique pour les clients Linux et Windows (essayez de corriger le lanceur et de mettre à jour le jeu).
+
+## [0.1.0-dev.202608162359] - 2026-08-16
+
+### Added
+
+- **Serveur** : Gestion des PNJ
+  ajout des propsync (objet réseau)
+- **Audio** : Nouveaux sons** : les 3 types de vault, le perforateur (boucle de perçage, fin, raté, équiper/ranger), la torche du joueur, les phares du camion / moteur électrique.
+
+### Changed
+
+- **Joueur** : La marche, le sprint et l'accroupi se déplacent désormais aux vitesses décrites dans le document de design, et la vitesse de marche à la molette progresse régulièrement entre 0,5 et 3 m/s au lieu de faire des bonds.
+- **Social** : Chat** : affiché par défaut, ordre des messages plus clair, lisible sur fond clair.
+- **Interface** : Les icônes son/micro à l'écran sont en bas à gauche et plus petites.
+
+### Fixed
+
 - **Interface** : La roue d'emotes (T) ne fait plus apparaître d'objet lorsque la roue de spawn (Alt+T) a été utilisée auparavant.
 - **Joueur** : Enchaîner les sauts en sprintant n'accumule plus une vitesse illimitée : un saut conserve l'élan qu'on avait au décollage.
 - **Joueur** : L'animation des personnages ne clignote plus entre la marche et le trot lorsqu'on se déplace à allure constante près d'un changement d'allure.
@@ -519,7 +502,53 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Social** : Chat vocal : couper son micro coupe réellement l'émission, et la voix n'est plus captée en double.
 - **Social** : Chat vocal : à plusieurs, toutes les voix sont entendues, et un joueur qui s'en va cesse d'être audible au lieu de persister ou d'être entendu deux fois à son retour.
 - **Joueur** : Spawn** : un écran « Spawning... » tient jusqu'à ce que le monde soit prêt — plus de flash de jour ni de caméra qui se redresse juste après l'apparition.
-- **Interface** : Menu pause** : plus possible de bouger, agir, percer ou regarder autour tant qu'il est ouvert.
+
+## [0.1.0-dev.202608092359] - 2026-08-09
+
+### Added
+
+- **Joueur** : Les personnages ont un corps animé : vous voyez votre propre corps en 1re personne et les autres joueurs sont entièrement animés — marche/course/saut, accroupi (C) et allongé (W), pivot sur place, assis/conduite en véhicule, emotes (roue T) et port d'objets. Porter une caisse n'est possible que debout, et les outils rangés suivent le corps.
+
+## [0.1.0-dev.202608022359] - 2026-08-02
+
+### Added
+
+- **Graphismes** : 🌌 Système stellaire
+  Le monde est désormais entièrement éclairé par Starsis, l'étoile du système.
+  Le cycle jour/nuit est maintenant calculé à partir de la position réelle de Starsis.
+  Les couleurs des levers et couchers de l'étoile sont désormais dynamiques et physiquement cohérentes.
+  Les planètes et les lunes sont correctement éclairées, même à des distances astronomiques.
+  Le ciel suit désormais la position de Starsis, aussi bien dans la vue principale que dans les rétroviseurs des véhicules.
+  La voûte céleste s'estompe progressivement vers le noir de l'espace en fonction de l'altitude.
+  Chaque corps céleste tourne désormais sur son axe selon sa période de rotation réelle.
+  🛰️ Interface
+  Le HUD affiche maintenant la longitude, la latitude et l'heure locale du corps céleste sur lequel vous vous trouvez. (Debug)
+  🛠️ Outils
+  Ajout d'un mode de vol libre ($) pour explorer le système sans contrainte.
+  Ajout de marqueurs de navigation permettant d'inspecter rapidement les planètes, lunes et autres objets du système stellaire. (A activer dans les settings)
+
+## [0.1.0-dev.202607192359] - 2026-07-19
+
+### Added
+
+- **Graphismes** : Ajout de réglages Graphics pour activer/désactiver les ombres temps réel et régler la distance d'affichage des ombres du soleil (persistés, appliqués en direct).
+- **Objets** : Les nouveaux containers de stockage verrouillent toute caisse qui se pose sur leur sol (impossible à bouler) ; on la reprend pour la libérer.
+- **Audio** : Les joueurs ont du son : bruits de pas (échantillons aléatoires, cadence qui suit votre vitesse), interrupteur de la lampe torche et saut. Ils sont spatialisés et répliqués : vous entendez les joueurs autour de vous marcher, sauter et allumer leur lampe.
+
+### Changed
+
+- **Serveur** : Mise à jour des URL des serveurs vers la nouvelle infrastructure.
+- **Objets** : Le portage d'objets est bien plus agréable : plus de « snap » dans les mains à la prise — l'objet rejoint la main en douceur et traîne quand on bouge, réagit aux chocs, et est solide tout de suite. Regarde en bas pour poser un objet au sol, en haut pour le placer en hauteur.
+- **Joueur** : La portée d'interaction est désormais une valeur configurable sur le joueur.
+- **Objets** : La roue de spawn de dev est désormais gérée par le serveur : les objets apparaissent devant vous, posés au sol et droits, et c'est le serveur qui décide où. La molette tourne un objet porté par paliers de 15°, et maintenir le clic molette permet de le faire pivoter librement sur tous les axes à la souris — le tout autour du centre de l'objet.
+- **Minage** : Le dépôt de minerai n'est plus spawnable et empaquette son minerai dans une caisse de transport.
+- **Véhicules** : Les véhicules se braquent et freinent moteur éteint, et le moteur peut être coupé à toute vitesse.
+- **Interface** : Dans le menu des paramètres, Échap fait maintenant « retour » au lieu de libérer la souris.
+- **PlanetTech** : Mise à jour des technologies planétaires. Génération de cartes de hauteur pour chaque niveau de détail. Correction du téléporteur vers une autre planète/un autre point.
+- **Serveur** : Sur le réseau, les planètes sont désormais des objets génériques.
+
+### Fixed
+
 - **Social** : Correction du chat texte (connexion avec le serveur)
 - **Performances** : Correction d'un pic de charge CPU physique au démarrage du serveur : les props rechargés depuis la persistance ne recalculent plus tous leurs collisions d'un coup — ils repartent gelés et se réveillent à l'approche d'un joueur.
 - **Objets** : Un objet porté ne te repousse plus, et lever la tête dans un container ne l'envoie plus sur le toit.
@@ -527,16 +556,99 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Véhicules** : Une caisse qui tombe ou est jetée dans la benne d'un camion est désormais pesée comme si elle avait été chargée à la main.
 - **Objets** : On ne peut plus attraper un objet ni ouvrir une porte de véhicule à travers un mur de bâtiment.
 - **Véhicules** : Les phares de camion plus lumineux et une famille de crashs client corrigée.
+
+## [0.1.0-dev.202607122359] - 2026-07-12
+
+### Added
+
+- **Audio** : Les véhicules ont du son : portes, démarrage et coupure du moteur, un régime moteur qui monte avec les tours, un klaxon (H) et un klaxon spécial (Alt+H), frein à main et phares. Le moteur doit désormais être démarré avec la clé de contact (I), à l'arrêt, avant que le véhicule puisse rouler.
+- **Interface** : Le changement de résolution d'écran nécessite désormais une confirmation sous 10 secondes et est automatiquement annulé en cas de non-respect de cette consigne. Ainsi, une résolution trop élevée ne peut plus vous bloquer.
+- **Interface** : Vous pouvez désormais afficher/masquer les panneaux de débogage à l'écran depuis Paramètres → Général, ou avec une touche réattribuable (par défaut Alt+²) disponible dans le menu Commandes.
+- **Objets** : Les conteneurs de test sont désormais sensibles aux collisions.
+
+### Changed
+
+- **Véhicules** : Le modèle du mini-camion a été mis à jour (correction de l'axe de rotation des roues et de la zone de poids de la benne).
+- **Objets** : Les objets transportés interagissent désormais physiquement avec le monde : vous pouvez les heurter et les poser contre le sol, les murs et les véhicules, et les empiler en regardant vers le haut ou vers le bas pour lever ou abaisser un objet tenu. Un objet hors de portée (par exemple, coincé derrière un mur) est automatiquement lâché.
+- **Interface** : La roue d'apparition des développeurs (T) est désormais un menu à deux niveaux (catégorie → variante)
+- **Objets** : Les caisses-palettes qu'elle génère peuvent être ramassées et transportées.
+- **Performances** : Mise à jour de la physique à 60 FPS.
+  Correction des collisions par chunk pour Jolt aux coordonnées astronomiques.
+  Correction de l'exportation des données de terrain, de la validation du cache et de la mise en veille de la physique en cas d'inactivité.
+
+### Fixed
+
 - **Interface** : Le menu pause ne se ferme plus lorsque vous cliquez dans le vide : utilisez la touche Échap ou le bouton Reprendre.
 - **Véhicules** : Camion : le volant tourne désormais dans le bon sens à une vitesse raisonnable, et l'image de la caméra de recul n'est plus inversée.
 - **Véhicules** : Correction d'un bug : les portes des camions pouvaient refuser de s'ouvrir lorsqu'un élément de décor apparaissait à proximité, et le transport des caisses à distance normale est désormais possible les objets tenus en main flottent désormais un peu plus loin.
+
+## [0.1.0-dev.202607052359] - 2026-07-05
+
+### Added
+
+- **PlanetTech** : Mise à jour de la planet tech, ajout de vallées, texture...
+- **Objets** : Éditeur uniquement : ajout d'un outil DyingStar pour importer/exporter les props serveur d'une scène vers le startup_items.json d'horizonserver.
+
+### Changed
+
+- **PlanetTech** : Mettre à jour les options d'exportation pour les planètes
+- **Véhicules** : La direction du véhicule est désormais progressive et auto-centrante, avec un angle de braquage sensible à la vitesse (plus précis à basse vitesse, plus stable à haute vitesse).
+
+### Fixed
+
 - **PlanetTech** : Correction du dossier de la planète et compilation
   Ajout de la maison Bardok pour les tests
   Ajout des conteneurs Kankan pour les tests
 - **Objets** : Vous ne pouvez plus interagir avec quelque chose que vous ne pouvez pas voir : ramasser un objet nécessite désormais une ligne de vue dégagée, et une portière de véhicule ne s'ouvre par la poignée de votre côté (à l'extérieur à pied, à l'intérieur en position assise) que si elle n'est pas obstruée.
 - **Joueur** : Un joueur qui se connecte voit désormais l'état actuel de tous les joueurs déjà présents (lampe allumée/éteinte, outil équipé, objet porté…), au lieu de ne le voir qu'au prochain changement.
 - **Véhicules** : Corrections véhicule : un véhicule sans conducteur ne repart plus tout seul (il ralentit jusqu'à l'arrêt), les véhicules apparaissent frein à main serré, une porte laissée ouverte est visible par les joueurs qui se connectent ensuite, et le volant du camion tourne correctement autour de sa colonne.
+
+## [0.1.0-dev.202606282359] - 2026-06-28
+
+### Added
+
+- **Véhicules** : Les véhicules peuvent désormais utiliser un vrai modèle 3D : roues et volant animés, portes ouvrables via leur poignée (visée + E), collision réalisée sous Blender, et écrans dans la cabine. Il faut ouvrir une porte (viser la poignée + E) avant de pouvoir monter ou descendre.
+- **Bâtiments** : Test des conteneur / habitations
+
+### Fixed
+
 - **Bâtiments** : Correction du LOD de l'appartement VIP qui causait un soucis visuel. Le bon modèle est désormais affiché quand le joueur est proche de celui-ci.
+
+## [0.1.0-dev.202606212359] - 2026-06-21
+
+### Added
+
+- **Minage** : Fonctionnalité : les zones minières génèrent des champs rocheux côté serveur à l’entrée du joueur (ensemencés et renouvelables).
+  Fonctionnalité : variantes de roches exploitables de petite, moyenne et grande taille.
+  Fonctionnalité : chaque zone contient un minéral répliqué via `mineral_id` (or, fer, cryptonite).
+- **Graphismes** : Ajout d'un cycle jour/nuit de 30 minutes et d'un ciel physique (couleurs de lever/coucher) au sandbox.
+- **Graphismes** : Feat: FPS limit + field-of-view graphics settings (persisted)
+- **Audio** : Feat: working audio settings (bus volumes, input/output device, mic test)
+- **Joueur** : On voit désormais les autres joueurs allumer et éteindre leur lampe torche.
+- **Véhicules** : Modification du fret : déposez un objet dans la benne d'un camion (ou par-dessus le bord) pour le charger, roulez avec, et renversez le camion pour le décharger. Modif des rétroviseurs / caméra de recul au niveau des perf client.
+- **Interface** : Nouvelle case "Dev mode" dans les réglages Vidéo : elle ignore la résolution/plein écran sauvegardés au lancement (pratique pour lancer plusieurs fenêtres de jeu en même temps).
+- **Véhicules** : Allumer/éteindre sa lampe torche assis dans un véhicule (conducteur ou passager).
+- **Véhicules** : Se tenir dans la benne ajoute son poids à la charge, et on charge une caisse en la déposant dans la benne ; porter une caisse ne renverse plus un camion.
+- **Social** : Ajout d'un chat textuel en jeu : affiché par défaut à gauche, F12 pour masquer/afficher, Entrée pour écrire et envoyer, Échap pour annuler, Tab pour changer de canal.
+- **Objets** : Ajout des props de rations alimentaires (biscuit, nutrigris).
+- **Interface** : Écran d'accueil : bouton Quitter. Le curseur apparaît à l'ouverture du menu pause. L'overlay de debug reste dans le coin à toute résolution.
+- **Véhicules** : Les véhicules peuvent afficher une caméra de recul et des rétroviseurs en direct sur des écrans de cabine (drop-in RearCamera réutilisable ; "mirror" inverse gauche/droite). Le camion embarque une caméra de recul + deux rétros.
+- **Véhicules** : Phares de véhicule : le dev pose juste des Light3D dans le groupe "vehicle_light" de sa scène (aucun code) ; le conducteur les bascule avec L. Affichés sur le HUD et le tableau de bord.
+- **Véhicules** : La benne déverse tout son chargement quand le véhicule se renverse.
+
+### Changed
+
+- **Serveur** : Mise jour du projet sous Godot 4.7
+  Activation du HDR
+- **Interface** : Tes réglages vidéo (moniteur, résolution, plein écran, v-sync) sont conservés d'une session à l'autre.
+- **Minage** : Les morceaux de rocher pèsent désormais selon leur taille, et en porter un dans la benne ajoute son poids à la charge.
+- **Commandes** : Toutes les touches gameplay (reset/phares véhicule, frein & frein à main, l'outil « Zapette », la roue de spawn) sont reconfigurables dans Réglages → Contrôles.
+- **Commandes** : E permet d'embarquer ; Y pour descendre ; une seule roue de spawn sur T.
+- **Interface** : Menu pause réordonné (Reprendre / Réglages / Retour menu / Quitter) ; Réglages ouvre le menu complet.
+- **Commandes** : L est contextuel : phares en conduite, torche du joueur à pied. La torche est maintenant visible par les autres joueurs et démarre éteinte.
+
+### Fixed
+
 - **Minage** : Fix bug visuel quand joueur sort de l'appartement
   fix rocher insaisissable (petit morceau)
   optimisation du réseau
@@ -549,6 +661,37 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Objets** : On ne peut plus ramasser d'objets à travers les murs ; l'invite de ramassage n'apparaît que si l'objet est réellement atteignable.
 - **Interface** : Le menu réglages fonctionne : liste des contrôles, plein écran/fenêtré, résolution auto-remplie depuis ton écran, choix du moniteur.
 - **Véhicules** : Un camion à l'arrêt ne flue plus avec le frein à main (il se fige une fois stoppé).
+
+## [0.1.0-dev.202606142359] - 2026-06-14
+
+### Added
+
+- **Véhicules** : On peut désormais récupérer une caisse ou un rocher déposé dans la benne d'un véhicule.
+- **Objets** : Invites « [E] Carry » / « [E] Drop » quand on vise un objet ou qu'on en porte un.
+- **Véhicules** : Nouveau frein à main du camion : appui long sur Espace sous 3 km/h, relâché par l'accélération, reste actif quand on sort. Affiché sur le tableau de bord, le HUD et l'aide.
+- **Minage** : Les rochers minables peuvent contenir différents minéraux (or ajouté) ; l'aspect du minerai est piloté par des données.
+- **Véhicules** : Ajout d'un camion réseau pilotable (sièges conducteur et passager, groupe motopropulseur, tableau de bord, vue libre) ; l'outil de nettoyage d'administration peut désormais supprimer les véhicules et les caisses de dépôt.
+- **Objets** : Ajout d'un outil de nettoyage pour les administrateurs : un rayon partant de la main du joueur, une ligne de visée rouge/jaune, cliquez pour supprimer l'élément ciblé (rocher/boîte/dépôt uniquement).
+  Suppression autorisée par le serveur : libère le nœud (ou le transfère à Horizon) -> supprimé de GORC et de la base de données. L'infrastructure du monde est protégée.
+  Les outils 1 (perforateur) et 2 (nettoyage) sont désormais incompatibles.
+  L'emplacement réservé au dépôt minier génère sa copie réseau sur le serveur de jeu (logique de collision et de collecte/envoi), avec un UUID déterministe (optionnel :
+  stable_id) pour éviter l'accumulation de doublons ; placé dans Sandbox Capital.
+- **Interface** : Appuyez sur F6 pour enregistrer l'écran de jeu (report de bug ou clips) ; les enregistrements sont sauvegardés en AVI dans Documents/DyingStar/records.
+- **Minage** : Add a mining depot: deposit mined ore, refine it by volume (ore purity, stock and per-crate fill shown on the depot screen) and extract a carryable crate of ore.
+- **Minage** : Les rochers miniers montrent désormais leur minerai : quelques petites traces en surface, et la vraie quantité se révèle en cassant le rocher — les morceaux les plus riches contiennent plus de minerai.
+
+### Changed
+
+- **Véhicules** : Les passagers comptent dans la charge du véhicule (SURCHARGE).
+- **Objets** : Les objets portés sont solides pour le monde et les autres joueurs (pas pour le porteur).
+- **Véhicules** : Les passagers assis ajoutent leur poids (75 kg) à la charge et au poids total ;
+- **Véhicules** : SURCHARGE prend en compte passagers + chargement de la benne.
+- **Interface** : L'interface du véhicule est désormais en anglais.
+- **Performances** : Réduction du calcul de collision de 50 fois (testé sur 200 boites et rochers)
+- **Véhicules** : Fluidification des véhicules et des joueurs en réseau (interpolation côté client), et possibilité pour l'outil de nettoyage d'administration de supprimer les véhicules et les caisses de dépôt.
+
+### Fixed
+
 - **Véhicules** : Le chargement posé en benne ne disparaît plus en multijoueur.
 - **Véhicules** : Un véhicule ne peut plus être chargé dans la benne d'un autre véhicule.
 - **Véhicules** : Un siège de véhicule se libère quand son occupant se déconnecte.
@@ -558,15 +701,69 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Objets** : Correction du problème de disparition des objets transportés (caisses, minerai) pour les autres joueurs au fil de la distance.
 - **Objets** : Corrige le problème des collisions fantômes laissées par l'outil de nettoyage d'administration après la suppression d'un élément.
 - **Minage** : Unify how player and prop properties replicate to nearby players, and fix mining rocks sometimes appearing at the world origin.
+
+## [0.1.0-dev.202606072359] - 2026-06-07
+
+### Added
+
+- **Minage** : E** pour **porter** ou **lâcher** un minerai (un seul à la fois).
+- **Minage** : Extraction minière V0 : équipez-vous d'un perforateur, visez les failles prédéfinies d'une roche et forez pour la briser en morceaux, visible et synchronisé en multijoueur
+- **Interface** : Ajout d'un bouton dans l'UI de pause pour retourner au menu (déconnexion du serveur)
+- **PlanetTech** : Ajout du téléchargement des données planète pour le build et en local pour les développeurs
+
+### Changed
+
+- **Minage** : Seul un minerai **entièrement miné** (sans faille) est portable ; impossible de prendre celui d'un autre joueur.
+- **Minage** : Porter **ralentit**, le minerai **flotte devant** soi (sans collision) et **tout est visible des autres joueurs**.
+- **Minage** : Le **perforateur** est toujours là : **rangé** par défaut/pendant le port, **sorti** quand on l'équipe.
+- **Minage** : Voir https://github.com/DyingStar-game/DyingStar/pull/186
+- **Serveur** : Amélioration des messages d'erreur du serveur
+- **Serveur** : Mise à jour vers dotnet 9, suppression de la page de connexion (auth par JWT)
+- **Audio** : Suppression de Wwise, remplacé par l'audio natif Godot
+- **Interface** : Révision de l'interface et des paramètres : son, livekit (proximité vocale)
+
+### Removed
+
+- **Joueur** : Supprime également la caméra à la troisième personne (F4) qui entrait en conflit avec l'extraction minière basée sur la visée
+
+### Fixed
+
 - **Joueur** : Correction du pseudo sur le joueur et le parent lors du changement de parent (correctif serveur et client)
 - **Bâtiments** : Correction du spawn dans les appartements
+- **Serveur** : Correction du crash sur le jeu compilé (mauvaise version dotnet)
+- **Serveur** : Correction de la suppression du joueur à la déconnexion
+
+## [0.1.0-dev.202605312359] - 2026-05-31
+
+### Added
+
+- **Bâtiments** : Gestion du spawn dans les appartements
+
+### Fixed
+
 - **Graphismes** : Correction de la lumière de l'univers
 - **Serveur** : Correction du serveur Godot (nombreuses erreurs)
-- **Serveur** : Correction du crash sur le jeu compilé (mauvaise version dotnet)
+
+## [0.1.0-dev.202605102359] - 2026-05-10
+
+### Added
+
+- **Serveur** : Ajout du build du jeu dans GitHub Actions
+- **PlanetTech** : Planet tech v1
+
+### Changed
+
+- **Serveur** : Installation du runtime dotnet dans le docker serveur
+- **Serveur** : Réécriture du code pour les joueurs hors zone serveur
+- **Serveur** : Mise à jour Godot 4.6.1
+- **Serveur** : Mise à jour du docker pour le build serveur
+- **Serveur** : Nouvelle architecture
+
+### Fixed
+
 - **Serveur** : Correction des logs dans /tmp (crash sur Windows)
 - **Serveur** : Correction du déploiement SSH
 - **Serveur** : Correction du build et du déploiement
-- **Serveur** : Correction de la suppression du joueur à la déconnexion
 - **Serveur** : Correction de Wwise pour le serveur dédié
 
 ## [0.0.1-test5] - 2025-12-16

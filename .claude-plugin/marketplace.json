@@ -1,0 +1,11 @@
+{
+  "name": "dyingstar",
+  "owner": { "name": "DyingStar-game" },
+  "plugins": [
+    {
+      "name": "changelog",
+      "source": "./plugins/changelog",
+      "description": "Writing the changelog block of a DyingStar PR description (ADR 0001 of DyingStar-game/changelog)."
+    }
+  ]
+}

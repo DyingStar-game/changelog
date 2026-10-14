@@ -186,6 +186,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Controls**: The torch has its own key, U (D-pad up on a gamepad): switching on the head lights no longer switches the torch on.
+- **Controls**: Vehicle head lights stay on L and move to D-pad down on a gamepad.
 - **Star map**: Canyons are drawn lighter and as curves, as the ground shows them.
 - **Mining**: You no longer start with a mining tool: get one at the ARES Mining machine of the cargo depot. Press the action key to take it or to put it down; it stays yours.
 - **Interface**: 3D screens are used with the crosshair: walking past a console no longer locks the view.

@@ -198,6 +198,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Commandes** : La lampe torche a sa propre touche, U (croix haut à la manette) : allumer les phares n'allume plus la torche.
+- **Commandes** : Les phares des véhicules restent sur L et passent sur la croix bas à la manette.
 - **Carte stellaire** : Les canyons sont plus légers et tracés en courbes, comme le sol les montre.
 - **Minage** : On ne commence plus avec un outil de minage : allez le chercher à la machine ARES Mining du dépôt de cargo. La touche d'action le prend ou le pose ; il reste à vous.
 - **Interface** : Les écrans 3D s'utilisent au viseur : passer devant une console ne bloque plus la vue.

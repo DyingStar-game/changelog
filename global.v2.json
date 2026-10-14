@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T14:37:19.331665+00:00",
+  "generated_at": "2026-10-14T14:38:28.702373+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -798,6 +798,16 @@
               "type": "added",
               "area": "planettech",
               "text": "Add planet data download for build and get locally for developers"
+            },
+            {
+              "type": "changed",
+              "area": "controls",
+              "text": "The torch has its own key, U (D-pad up on a gamepad): switching on the head lights no longer switches the torch on."
+            },
+            {
+              "type": "changed",
+              "area": "controls",
+              "text": "Vehicle head lights stay on L and move to D-pad down on a gamepad."
             },
             {
               "type": "changed",
@@ -3025,6 +3035,16 @@
               "type": "added",
               "area": "planettech",
               "text": "Ajout du téléchargement des données planète pour le build et en local pour les développeurs"
+            },
+            {
+              "type": "changed",
+              "area": "controls",
+              "text": "La lampe torche a sa propre touche, U (croix haut à la manette) : allumer les phares n'allume plus la torche."
+            },
+            {
+              "type": "changed",
+              "area": "controls",
+              "text": "Les phares des véhicules restent sur L et passent sur la croix bas à la manette."
             },
             {
               "type": "changed",

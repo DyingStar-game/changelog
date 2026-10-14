@@ -9,6 +9,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Changelog** : Sur Universe Testing, les changements sont listés build par build, regroupés par la version qu'ils préparent.
+- **Changelog** : Sur Universe, les builds de développement d'une version sont repliés sous elle, et la version montre tous leurs changements.
 - **Téléchargement et installation** : Jouer vérifie la présence d'une nouvelle version du jeu avant de lancer le jeu.
 - **Changelog** : Les entrées du changelog sont regroupées par type et indiquent le domaine concerné (véhicules, interface…).
 - **Changelog** : Une version retirée est signalée comme telle.

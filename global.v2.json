@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T18:45:54.284506+00:00",
+  "generated_at": "2026-10-14T19:38:38.390308+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -5660,6 +5660,16 @@
           "en": [
             {
               "type": "changed",
+              "area": "changelog",
+              "text": "On Universe Testing, changes are listed build by build, grouped by the version they lead to."
+            },
+            {
+              "type": "changed",
+              "area": "changelog",
+              "text": "On Universe, the development builds of a version are folded under it, and the version shows all of their changes."
+            },
+            {
+              "type": "changed",
               "area": "download",
               "text": "Play checks for a new game version before launching the game."
             },
@@ -5695,6 +5705,16 @@
             }
           ],
           "fr": [
+            {
+              "type": "changed",
+              "area": "changelog",
+              "text": "Sur Universe Testing, les changements sont listés build par build, regroupés par la version qu'ils préparent."
+            },
+            {
+              "type": "changed",
+              "area": "changelog",
+              "text": "Sur Universe, les builds de développement d'une version sont repliés sous elle, et la version montre tous leurs changements."
+            },
             {
               "type": "changed",
               "area": "download",

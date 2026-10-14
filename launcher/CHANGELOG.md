@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Changelog**: On Universe Testing, changes are listed build by build, grouped by the version they lead to.
+- **Changelog**: On Universe, the development builds of a version are folded under it, and the version shows all of their changes.
 - **Download and install**: Play checks for a new game version before launching the game.
 - **Changelog**: Changelog entries are grouped by type and show the area they concern (vehicles, interface…).
 - **Changelog**: A withdrawn version is marked as such.

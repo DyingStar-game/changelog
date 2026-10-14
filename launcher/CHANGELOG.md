@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Download and install**: Play checks for a new game version before launching the game.
+- **Changelog**: Changelog entries are grouped by type and show the area they concern (vehicles, interface…).
+- **Changelog**: A withdrawn version is marked as such.
+
+### Fixed
+
+- **Download and install**: A game update released while the launcher is open is now offered without restarting it.
+- **Download and install**: A download stuck on a slow connection now recovers by itself.
+- **Download and install**: A download cut off by the connection now resumes by itself; when it cannot, a message says so.
+- **Interface**: A part of the launcher that fails to display no longer leaves the whole window black.
+
 ## [1.0.0] - 2026-10-13
 
 - Profile editing added: faction, biography and role-play sheet.

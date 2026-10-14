@@ -7,6 +7,19 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Téléchargement et installation** : Jouer vérifie la présence d'une nouvelle version du jeu avant de lancer le jeu.
+- **Changelog** : Les entrées du changelog sont regroupées par type et indiquent le domaine concerné (véhicules, interface…).
+- **Changelog** : Une version retirée est signalée comme telle.
+
+### Fixed
+
+- **Téléchargement et installation** : Une mise à jour du jeu publiée pendant que le launcher est ouvert est désormais proposée sans redémarrage.
+- **Téléchargement et installation** : Un téléchargement bloqué sur une connexion lente reprend désormais de lui-même.
+- **Téléchargement et installation** : Un téléchargement coupé par la connexion reprend désormais de lui-même ; s'il ne le peut pas, un message le signale.
+- **Interface** : Une partie du launcher qui ne s'affiche pas ne laisse plus toute la fenêtre noire.
+
 ## [1.0.0] - 2026-10-13
 
 - Modification du profil ajoutée : faction, biographie et fiche RP.

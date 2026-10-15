@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610151839] - 2026-10-15
+
 ### Fixed
 
 - **Buildings**: The vehicle lift no longer has missing pieces at some distances when the structures draw distance is not at its default.

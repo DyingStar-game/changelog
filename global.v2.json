@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T18:38:50.464619+00:00",
+  "generated_at": "2026-10-15T18:56:01.866104+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,53 +103,64 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "The vehicle lift no longer has missing pieces at some distances when the structures draw distance is not at its default."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Stepping onto the vehicle lift no longer makes you flip over in other players' eyes, nor slows you down."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "No more short freeze when stepping onto the vehicle lift or entering a building."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "A truck driving onto the vehicle lift no longer gets stuck as if broken."
-            }
-          ],
-          "fr": [
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "L'ascenseur à véhicules n'a plus de morceaux manquants à certaines distances quand la distance d'affichage des structures n'est pas à sa valeur par défaut."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Monter sur l'ascenseur à véhicules ne vous fait plus faire de salto aux yeux des autres joueurs et ne vous ralentit plus."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Plus de petit gel en montant sur l'ascenseur à véhicules ou en entrant dans un bâtiment."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Un camion qui monte sur l'ascenseur à véhicules ne reste plus bloqué comme s'il était cassé."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610151839",
+          "date": "2026-10-15",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "The vehicle lift no longer has missing pieces at some distances when the structures draw distance is not at its default."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Stepping onto the vehicle lift no longer makes you flip over in other players' eyes, nor slows you down."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "No more short freeze when stepping onto the vehicle lift or entering a building."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "A truck driving onto the vehicle lift no longer gets stuck as if broken."
+              }
+            ],
+            "fr": [
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "L'ascenseur à véhicules n'a plus de morceaux manquants à certaines distances quand la distance d'affichage des structures n'est pas à sa valeur par défaut."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Monter sur l'ascenseur à véhicules ne vous fait plus faire de salto aux yeux des autres joueurs et ne vous ralentit plus."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Plus de petit gel en montant sur l'ascenseur à véhicules ou en entrant dans un bâtiment."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Un camion qui monte sur l'ascenseur à véhicules ne reste plus bloqué comme s'il était cassé."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610142314",
           "date": "2026-10-14",

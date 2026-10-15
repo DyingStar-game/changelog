@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610151839] - 2026-10-15
+
 ### Fixed
 
 - **Bâtiments** : L'ascenseur à véhicules n'a plus de morceaux manquants à certaines distances quand la distance d'affichage des structures n'est pas à sa valeur par défaut.

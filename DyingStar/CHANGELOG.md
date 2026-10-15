@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **Buildings**: The vehicle lift no longer has missing pieces at some distances when the structures draw distance is not at its default.
+- **Player**: Stepping onto the vehicle lift no longer makes you flip over in other players' eyes, nor slows you down.
+- **Performance**: No more short freeze when stepping onto the vehicle lift or entering a building.
+- **Vehicles**: A truck driving onto the vehicle lift no longer gets stuck as if broken.
+
 ## [0.1.0-dev.202610142314] - 2026-10-14
 
 ### Added

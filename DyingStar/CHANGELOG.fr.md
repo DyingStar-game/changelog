@@ -7,6 +7,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **Bâtiments** : L'ascenseur à véhicules n'a plus de morceaux manquants à certaines distances quand la distance d'affichage des structures n'est pas à sa valeur par défaut.
+- **Joueur** : Monter sur l'ascenseur à véhicules ne vous fait plus faire de salto aux yeux des autres joueurs et ne vous ralentit plus.
+- **Performances** : Plus de petit gel en montant sur l'ascenseur à véhicules ou en entrant dans un bâtiment.
+- **Véhicules** : Un camion qui monte sur l'ascenseur à véhicules ne reste plus bloqué comme s'il était cassé.
+
 ## [0.1.0-dev.202610142314] - 2026-10-14
 
 ### Added

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-16T12:52:53.945635+00:00",
+  "generated_at": "2026-10-16T13:03:53.757140+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -5181,33 +5181,44 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": null,
-              "area": null,
-              "text": "Added an elevator from the village road (M0001) to the factory, on the left before the first bridge. Several added in village M0059.\nFixed exit from dwelling to open area."
-            },
-            {
-              "type": null,
-              "area": null,
-              "text": "spawn shelves in cargo depot"
-            }
-          ],
-          "fr": [
-            {
-              "type": null,
-              "area": null,
-              "text": "ajout d'un ascenseur route du village M0001 vers la factory, à gauche avant le premier pont. Plusieurs au village M0059\nfix sortie habitation -> espace"
-            },
-            {
-              "type": null,
-              "area": null,
-              "text": "spawn des étagères dans l'entrepôt"
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610161302",
+          "date": "2026-10-16",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": null,
+                "area": null,
+                "text": "Added an elevator from the village road (M0001) to the factory, on the left before the first bridge. Several added in village M0059.\nFixed exit from dwelling to open area."
+              },
+              {
+                "type": null,
+                "area": null,
+                "text": "spawn shelves in cargo depot"
+              }
+            ],
+            "fr": [
+              {
+                "type": null,
+                "area": null,
+                "text": "ajout d'un ascenseur route du village M0001 vers la factory, à gauche avant le premier pont. Plusieurs au village M0059\nfix sortie habitation -> espace"
+              },
+              {
+                "type": null,
+                "area": null,
+                "text": "spawn des étagères dans l'entrepôt"
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610112359",
           "date": "2026-10-11",

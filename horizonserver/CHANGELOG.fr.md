@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610161302] - 2026-10-16
+
 - ajout d'un ascenseur route du village M0001 vers la factory, à gauche avant le premier pont. Plusieurs au village M0059
   fix sortie habitation -> espace
 - spawn des étagères dans l'entrepôt

@@ -7,6 +7,27 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Audio** : Les propulseurs de la combinaison soufflent quand on se déplace dans l'espace, et les joueurs proches les entendent.
+- **Audio** : Les vêtements froissent quand on ramasse un objet, actionne une porte, monte ou descend d'un siège, s'accroupit ou s'allonge.
+- **Joueur** : Le conducteur tient le volant à deux mains, et ses mains le suivent quand il tourne.
+- **Véhicules** : La barre de puissance du tableau de bord passe du vert au rouge selon la puissance demandée aux moteurs.
+
+### Changed
+
+- **Véhicules** : Les portes s'ouvrent quand la main atteint la poignée, plus à l'instant de l'appui.
+- **Véhicules** : Le conducteur du camion est assis un peu plus près du volant.
+
+### Fixed
+
+- **Véhicules** : Un camion qui tombe d'une falaise n'ajoute plus de vitesse ni de distance à son tableau de bord.
+- **Véhicules** : La poussière des roues s'arrête quand le camion quitte le sol.
+- **Joueur** : Les joueurs assis peuvent de nouveau utiliser les écrans.
+- **Audio** : Les bruits de pas ne rejouent jamais deux fois de suite le même son.
+- **Interface** : La liste des crédits affiche de nouveau chaque auteur à côté de son œuvre.
+- **Bâtiments** : Le distributeur de rations repose sur un sol aplani.
+
 ## [0.1.0-dev.202610151839] - 2026-10-15
 
 ### Fixed

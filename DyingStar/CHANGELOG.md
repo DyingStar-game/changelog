@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Audio**: EVA thrusters hiss while you push yourself around in space, and players nearby hear it.
+- **Audio**: Clothes rustle when you pick something up, work a door, get into or out of a seat, crouch or lie down.
+- **Player**: Drivers hold the steering wheel with both hands, and their hands follow it as it turns.
+- **Vehicles**: The dashboard power bar turns from green to red with the power asked of the motors.
+
+### Changed
+
+- **Vehicles**: Doors open when the hand reaches the handle, not the instant the key is pressed.
+- **Vehicles**: The truck's driver sits a little closer to the steering wheel.
+
+### Fixed
+
+- **Vehicles**: A truck falling off a cliff no longer adds speed and distance to its dashboard.
+- **Vehicles**: Wheel dust stops when the truck leaves the ground.
+- **Player**: Seated players can use screens again.
+- **Audio**: Footsteps never play the same sound twice in a row.
+- **Interface**: The credits list shows each author beside their work again.
+- **Buildings**: The ration dispenser stands on levelled ground.
+
 ## [0.1.0-dev.202610151839] - 2026-10-15
 
 ### Fixed

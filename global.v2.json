@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-16T12:38:46.431382+00:00",
+  "generated_at": "2026-10-16T12:52:53.945635+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -136,6 +136,11 @@
             },
             {
               "type": "fixed",
+              "area": "performance",
+              "text": "The game server slows down less when many characters arrive at the same time."
+            },
+            {
+              "type": "fixed",
               "area": "vehicles",
               "text": "A truck falling off a cliff no longer adds speed and distance to its dashboard."
             },
@@ -195,6 +200,11 @@
               "type": "changed",
               "area": "vehicles",
               "text": "Le conducteur du camion est assis un peu plus près du volant."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Le serveur de jeu ralentit moins quand beaucoup de personnages arrivent en même temps."
             },
             {
               "type": "fixed",

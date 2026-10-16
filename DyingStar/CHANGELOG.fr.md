@@ -21,6 +21,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Performances** : Le serveur de jeu ralentit moins quand beaucoup de personnages arrivent en même temps.
 - **Véhicules** : Un camion qui tombe d'une falaise n'ajoute plus de vitesse ni de distance à son tableau de bord.
 - **Véhicules** : La poussière des roues s'arrête quand le camion quitte le sol.
 - **Joueur** : Les joueurs assis peuvent de nouveau utiliser les écrans.

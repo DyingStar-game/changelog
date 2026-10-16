@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Performance**: The game server slows down less when many characters arrive at the same time.
 - **Vehicles**: A truck falling off a cliff no longer adds speed and distance to its dashboard.
 - **Vehicles**: Wheel dust stops when the truck leaves the ground.
 - **Player**: Seated players can use screens again.

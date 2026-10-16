@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-16T13:03:53.757140+00:00",
+  "generated_at": "2026-10-16T13:09:29.649566+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,143 +103,154 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "EVA thrusters hiss while you push yourself around in space, and players nearby hear it."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Clothes rustle when you pick something up, work a door, get into or out of a seat, crouch or lie down."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Drivers hold the steering wheel with both hands, and their hands follow it as it turns."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "The dashboard power bar turns from green to red with the power asked of the motors."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Doors open when the hand reaches the handle, not the instant the key is pressed."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "The truck's driver sits a little closer to the steering wheel."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The game server slows down less when many characters arrive at the same time."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "A truck falling off a cliff no longer adds speed and distance to its dashboard."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Wheel dust stops when the truck leaves the ground."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Seated players can use screens again."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "Footsteps never play the same sound twice in a row."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The credits list shows each author beside their work again."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "The ration dispenser stands on levelled ground."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Les propulseurs de la combinaison soufflent quand on se déplace dans l'espace, et les joueurs proches les entendent."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Les vêtements froissent quand on ramasse un objet, actionne une porte, monte ou descend d'un siège, s'accroupit ou s'allonge."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Le conducteur tient le volant à deux mains, et ses mains le suivent quand il tourne."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "La barre de puissance du tableau de bord passe du vert au rouge selon la puissance demandée aux moteurs."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Les portes s'ouvrent quand la main atteint la poignée, plus à l'instant de l'appui."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Le conducteur du camion est assis un peu plus près du volant."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Le serveur de jeu ralentit moins quand beaucoup de personnages arrivent en même temps."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Un camion qui tombe d'une falaise n'ajoute plus de vitesse ni de distance à son tableau de bord."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "La poussière des roues s'arrête quand le camion quitte le sol."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Les joueurs assis peuvent de nouveau utiliser les écrans."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "Les bruits de pas ne rejouent jamais deux fois de suite le même son."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "La liste des crédits affiche de nouveau chaque auteur à côté de son œuvre."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Le distributeur de rations repose sur un sol aplani."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610161255",
+          "date": "2026-10-16",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "EVA thrusters hiss while you push yourself around in space, and players nearby hear it."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Clothes rustle when you pick something up, work a door, get into or out of a seat, crouch or lie down."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Drivers hold the steering wheel with both hands, and their hands follow it as it turns."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "The dashboard power bar turns from green to red with the power asked of the motors."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Doors open when the hand reaches the handle, not the instant the key is pressed."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "The truck's driver sits a little closer to the steering wheel."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The game server slows down less when many characters arrive at the same time."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "A truck falling off a cliff no longer adds speed and distance to its dashboard."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Wheel dust stops when the truck leaves the ground."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Seated players can use screens again."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "Footsteps never play the same sound twice in a row."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The credits list shows each author beside their work again."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "The ration dispenser stands on levelled ground."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Les propulseurs de la combinaison soufflent quand on se déplace dans l'espace, et les joueurs proches les entendent."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Les vêtements froissent quand on ramasse un objet, actionne une porte, monte ou descend d'un siège, s'accroupit ou s'allonge."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Le conducteur tient le volant à deux mains, et ses mains le suivent quand il tourne."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "La barre de puissance du tableau de bord passe du vert au rouge selon la puissance demandée aux moteurs."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Les portes s'ouvrent quand la main atteint la poignée, plus à l'instant de l'appui."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Le conducteur du camion est assis un peu plus près du volant."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Le serveur de jeu ralentit moins quand beaucoup de personnages arrivent en même temps."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Un camion qui tombe d'une falaise n'ajoute plus de vitesse ni de distance à son tableau de bord."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "La poussière des roues s'arrête quand le camion quitte le sol."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Les joueurs assis peuvent de nouveau utiliser les écrans."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "Les bruits de pas ne rejouent jamais deux fois de suite le même son."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "La liste des crédits affiche de nouveau chaque auteur à côté de son œuvre."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Le distributeur de rations repose sur un sol aplani."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610151839",
           "date": "2026-10-15",

@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610161255] - 2026-10-16
+
 ### Added
 
 - **Audio** : Les propulseurs de la combinaison soufflent quand on se déplace dans l'espace, et les joueurs proches les entendent.

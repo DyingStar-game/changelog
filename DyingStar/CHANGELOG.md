@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610161255] - 2026-10-16
+
 ### Added
 
 - **Audio**: EVA thrusters hiss while you push yourself around in space, and players nearby hear it.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T20:42:21.369995+00:00",
+  "generated_at": "2026-10-19T20:50:30.374442+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -5448,83 +5448,94 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "fixed",
-              "area": "mesh",
-              "text": "New players are spread evenly across the servers instead of all going to the busiest one."
-            },
-            {
-              "type": "fixed",
-              "area": "mesh",
-              "text": "New players no longer appear at the world's origin when every village holds 50 players: villages take more while their buildings have free apartments."
-            },
-            {
-              "type": "fixed",
-              "area": "mesh",
-              "text": "A game server that lost its connection to Horizon no longer refuses new players for good."
-            },
-            {
-              "type": "fixed",
-              "area": "mesh",
-              "text": "When a crowd leaves and servers merge, the players who stay no longer move in jerks or fall through the ground."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The server no longer slows down when hundreds of players arrive at once and wait for their apartment."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The server gives unused memory back instead of growing after each rush of players."
-            },
-            {
-              "type": "fixed",
-              "area": "connection",
-              "text": "A player who lost the network can join again at once, instead of failing to load for up to an hour."
-            }
-          ],
-          "fr": [
-            {
-              "type": "fixed",
-              "area": "mesh",
-              "text": "Les nouveaux joueurs sont répartis équitablement entre les serveurs au lieu d'aller tous sur le plus chargé."
-            },
-            {
-              "type": "fixed",
-              "area": "mesh",
-              "text": "Les nouveaux joueurs n'apparaissent plus à l'origine du monde quand chaque village compte 50 joueurs : les villages en accueillent davantage tant que leurs bâtiments ont des appartements libres."
-            },
-            {
-              "type": "fixed",
-              "area": "mesh",
-              "text": "Un serveur de jeu qui a perdu sa connexion à Horizon ne refuse plus définitivement les nouveaux joueurs."
-            },
-            {
-              "type": "fixed",
-              "area": "mesh",
-              "text": "Quand une foule part et que les serveurs fusionnent, les joueurs restants ne se déplacent plus par à-coups et ne passent plus à travers le sol."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Le serveur ne ralentit plus quand des centaines de joueurs arrivent en même temps et attendent leur appartement."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Le serveur rend la mémoire inutilisée au lieu de grossir après chaque afflux de joueurs."
-            },
-            {
-              "type": "fixed",
-              "area": "connection",
-              "text": "Un joueur qui a perdu le réseau peut revenir en jeu tout de suite, au lieu d'échouer au chargement pendant jusqu'à une heure."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610192044",
+          "date": "2026-10-19",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "fixed",
+                "area": "mesh",
+                "text": "New players are spread evenly across the servers instead of all going to the busiest one."
+              },
+              {
+                "type": "fixed",
+                "area": "mesh",
+                "text": "New players no longer appear at the world's origin when every village holds 50 players: villages take more while their buildings have free apartments."
+              },
+              {
+                "type": "fixed",
+                "area": "mesh",
+                "text": "A game server that lost its connection to Horizon no longer refuses new players for good."
+              },
+              {
+                "type": "fixed",
+                "area": "mesh",
+                "text": "When a crowd leaves and servers merge, the players who stay no longer move in jerks or fall through the ground."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The server no longer slows down when hundreds of players arrive at once and wait for their apartment."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The server gives unused memory back instead of growing after each rush of players."
+              },
+              {
+                "type": "fixed",
+                "area": "connection",
+                "text": "A player who lost the network can join again at once, instead of failing to load for up to an hour."
+              }
+            ],
+            "fr": [
+              {
+                "type": "fixed",
+                "area": "mesh",
+                "text": "Les nouveaux joueurs sont répartis équitablement entre les serveurs au lieu d'aller tous sur le plus chargé."
+              },
+              {
+                "type": "fixed",
+                "area": "mesh",
+                "text": "Les nouveaux joueurs n'apparaissent plus à l'origine du monde quand chaque village compte 50 joueurs : les villages en accueillent davantage tant que leurs bâtiments ont des appartements libres."
+              },
+              {
+                "type": "fixed",
+                "area": "mesh",
+                "text": "Un serveur de jeu qui a perdu sa connexion à Horizon ne refuse plus définitivement les nouveaux joueurs."
+              },
+              {
+                "type": "fixed",
+                "area": "mesh",
+                "text": "Quand une foule part et que les serveurs fusionnent, les joueurs restants ne se déplacent plus par à-coups et ne passent plus à travers le sol."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Le serveur ne ralentit plus quand des centaines de joueurs arrivent en même temps et attendent leur appartement."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Le serveur rend la mémoire inutilisée au lieu de grossir après chaque afflux de joueurs."
+              },
+              {
+                "type": "fixed",
+                "area": "connection",
+                "text": "Un joueur qui a perdu le réseau peut revenir en jeu tout de suite, au lieu d'échouer au chargement pendant jusqu'à une heure."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610161302",
           "date": "2026-10-16",

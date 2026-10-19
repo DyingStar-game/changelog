@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610192044] - 2026-10-19
+
 ### Fixed
 
 - **Maillage de serveurs** : Les nouveaux joueurs sont répartis équitablement entre les serveurs au lieu d'aller tous sur le plus chargé.

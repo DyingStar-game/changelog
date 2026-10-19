@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **Server meshing**: New players are spread evenly across the servers instead of all going to the busiest one.
+- **Server meshing**: New players no longer appear at the world's origin when every village holds 50 players: villages take more while their buildings have free apartments.
+- **Server meshing**: A game server that lost its connection to Horizon no longer refuses new players for good.
+- **Server meshing**: When a crowd leaves and servers merge, the players who stay no longer move in jerks or fall through the ground.
+- **Performance**: The server no longer slows down when hundreds of players arrive at once and wait for their apartment.
+- **Performance**: The server gives unused memory back instead of growing after each rush of players.
+- **Connection**: A player who lost the network can join again at once, instead of failing to load for up to an hour.
+
 ## [0.1.0-dev.202610161302] - 2026-10-16
 
 - Added an elevator from the village road (M0001) to the factory, on the left before the first bridge. Several added in village M0059.

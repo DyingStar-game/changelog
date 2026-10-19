@@ -7,6 +7,16 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **Maillage de serveurs** : Les nouveaux joueurs sont répartis équitablement entre les serveurs au lieu d'aller tous sur le plus chargé.
+- **Maillage de serveurs** : Les nouveaux joueurs n'apparaissent plus à l'origine du monde quand chaque village compte 50 joueurs : les villages en accueillent davantage tant que leurs bâtiments ont des appartements libres.
+- **Maillage de serveurs** : Un serveur de jeu qui a perdu sa connexion à Horizon ne refuse plus définitivement les nouveaux joueurs.
+- **Maillage de serveurs** : Quand une foule part et que les serveurs fusionnent, les joueurs restants ne se déplacent plus par à-coups et ne passent plus à travers le sol.
+- **Performances** : Le serveur ne ralentit plus quand des centaines de joueurs arrivent en même temps et attendent leur appartement.
+- **Performances** : Le serveur rend la mémoire inutilisée au lieu de grossir après chaque afflux de joueurs.
+- **Connexion** : Un joueur qui a perdu le réseau peut revenir en jeu tout de suite, au lieu d'échouer au chargement pendant jusqu'à une heure.
+
 ## [0.1.0-dev.202610161302] - 2026-10-16
 
 - ajout d'un ascenseur route du village M0001 vers la factory, à gauche avant le premier pont. Plusieurs au village M0059

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-16T13:09:29.649566+00:00",
+  "generated_at": "2026-10-19T13:10:46.793191+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Asphalt roads reflect the headlights instead of staying pitch black at night."
+            }
+          ],
+          "fr": [
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Les routes goudronnées renvoient la lumière des phares au lieu de rester d'un noir total la nuit."
+            }
+          ]
         }
       },
       "releases": [

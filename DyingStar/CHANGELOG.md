@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **Graphics**: Asphalt roads reflect the headlights instead of staying pitch black at night.
+
 ## [0.1.0-dev.202610161255] - 2026-10-16
 
 ### Added

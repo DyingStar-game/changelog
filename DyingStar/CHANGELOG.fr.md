@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **Graphismes** : Les routes goudronnées renvoient la lumière des phares au lieu de rester d'un noir total la nuit.
+
 ## [0.1.0-dev.202610161255] - 2026-10-16
 
 ### Added

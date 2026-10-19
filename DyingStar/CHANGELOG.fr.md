@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **Performances** : Les serveurs de jeu sans personne dessus n'occupent plus chacun un cœur de processeur entier.
+
 ## [0.1.0-dev.202610192045] - 2026-10-19
 
 ### Added

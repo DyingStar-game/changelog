@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T20:53:08.356097+00:00",
+  "generated_at": "2026-10-19T21:54:58.063805+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Game servers with nobody on them no longer use a full processor core each."
+            }
+          ],
+          "fr": [
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Les serveurs de jeu sans personne dessus n'occupent plus chacun un cœur de processeur entier."
+            }
+          ]
         }
       },
       "releases": [

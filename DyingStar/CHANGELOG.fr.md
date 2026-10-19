@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610192045] - 2026-10-19
+
 ### Added
 
 - **Joueur** : Un DataPad porté au poignet gauche : levez-le pour lire la tablette des services sur son écran, même au volant ; un voyant vert et un bip signalent qu'un message attend.

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610192045] - 2026-10-19
+
 ### Added
 
 - **Player**: A DataPad worn on the left wrist: raise it to read the services tablet on its screen, even at the wheel, and a green light with a beep tells you when something is waiting.

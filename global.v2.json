@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T20:50:30.374442+00:00",
+  "generated_at": "2026-10-19T20:53:08.356097+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,263 +103,274 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "player",
-              "text": "A DataPad worn on the left wrist: raise it to read the services tablet on its screen, even at the wheel, and a green light with a beep tells you when something is waiting."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Cruise control holds the speed you are driving at: set it with Ctrl+T, adjust it with the mouse wheel, and press either pedal to take back control."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "The truck's middle screen can show the star map or the rear camera, or stand by with the ARES Hauling logo: aim at it and press F to switch, for everyone aboard."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Backing up shows the rear camera on the middle screen, whatever it was showing."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "The star map on the truck's screen is shared: when one passenger zooms or pans it, everyone aboard sees the same view."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "Buildings, dispensers, lifts, teleporters and vehicles appear on the star map, with their pictogram and their name on hover."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "The star map can be zoomed in down to the metre around you."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "The star map handles like an online map: drag to turn, right-drag to zoom, right-click to copy coordinates or drop a pin, Tab to search."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "The vehicle lift sounds an alarm at both landings while it is moving."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Vehicle suspensions make a pneumatic knock when they take a bump, a pothole or a landing, heard by everyone around from that very wheel, louder and deeper the harder the hit."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Vehicles meet real air and rolling resistance: the engine keeps working at top speed, and thin air lets you go a little faster."
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Your character starts and stops running more promptly, and moves smoothly instead of in small jolts."
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Switching between walking and running no longer jolts the view."
-            },
-            {
-              "type": "changed",
-              "area": "props",
-              "text": "Metal boxes, batteries and engines sound like metal when you pick them up and put them down."
-            },
-            {
-              "type": "changed",
-              "area": "controls",
-              "text": "The speed limiter is now adjusted with the mouse wheel alone."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "Tyre noise grows louder and higher with speed, and fades out while the wheels are off the ground."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "Tyres scrubbing while you steer are quieter."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "The truck's headlights light the road ahead instead of a patch right in front of the bumper."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Crates dropped into the truck bed are detected wherever the bed really is."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Roads and canyons no longer jitter on the star map when zoomed in close."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The game server slows down much less when many players arrive or when a region of the world moves to another server."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "The game server no longer crashes at random while villages are being loaded."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "The driver no longer hears the tyres at full volume whatever the speed."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "The truck's rear-view screen shows the road behind the right way round, like the side mirrors."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Asphalt roads reflect the headlights instead of staying pitch black at night."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Un DataPad porté au poignet gauche : levez-le pour lire la tablette des services sur son écran, même au volant ; un voyant vert et un bip signalent qu'un message attend."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Le régulateur de vitesse maintient la vitesse à laquelle vous roulez : activez-le avec Ctrl+T, ajustez-le à la molette, et reprenez la main en appuyant sur une pédale."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "L'écran central du camion peut afficher la carte stellaire ou la caméra de recul, ou rester en veille avec le logo ARES Hauling : visez-le et appuyez sur F pour changer, pour tout l'équipage."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "En marche arrière, l'écran central affiche la caméra de recul, quel que soit son mode."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "La carte stellaire de l'écran du camion est partagée : quand un passager zoome ou la déplace, tout l'équipage voit la même vue."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "Les bâtiments, distributeurs, ascenseurs, téléporteurs et véhicules apparaissent sur la carte stellaire, avec leur pictogramme et leur nom au survol."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "La carte stellaire se zoome jusqu'au mètre autour de vous."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "La carte stellaire se manie comme une carte en ligne : glisser pour tourner, glisser au clic droit pour zoomer, clic droit pour copier les coordonnées ou poser un repère, Tab pour chercher."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "L'ascenseur à véhicules fait retentir une alarme aux deux paliers pendant qu'il roule."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Les suspensions des véhicules émettent un choc pneumatique sur une bosse, un nid-de-poule ou une réception de saut, entendu par tous les joueurs proches depuis la roue concernée, plus fort et plus grave selon la violence du choc."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Les véhicules subissent une vraie résistance de l'air et du roulement : le moteur travaille encore à pleine vitesse, et un air plus rare laisse aller un peu plus vite."
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Votre personnage se lance et s'arrête de courir plus vivement, et avance de façon fluide au lieu de petites saccades."
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Passer de la marche à la course ne donne plus d'à-coup à la vue."
-            },
-            {
-              "type": "changed",
-              "area": "props",
-              "text": "Les caisses métalliques, batteries et moteurs sonnent comme du métal quand on les prend et qu'on les pose."
-            },
-            {
-              "type": "changed",
-              "area": "controls",
-              "text": "Le limiteur de vitesse se règle désormais à la molette seule."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "Le bruit des pneus devient plus fort et plus aigu avec la vitesse, et s'efface quand les roues quittent le sol."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "Le frottement des pneus quand on braque est plus discret."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Les phares du camion éclairent la route devant lui au lieu d'une tache juste devant le pare-chocs."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Les caisses déposées dans la benne du camion sont détectées là où se trouve vraiment la benne."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Les routes et les canyons ne tremblent plus sur la carte stellaire en zoom rapproché."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Le serveur de jeu ralentit beaucoup moins quand beaucoup de joueurs arrivent ou quand une région du monde passe sur un autre serveur."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Le serveur de jeu ne plante plus au hasard pendant le chargement des villages."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "Le conducteur n'entend plus les pneus à plein volume quelle que soit la vitesse."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "L'écran de recul du camion montre la route derrière dans le bon sens, comme les rétroviseurs."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Les routes goudronnées renvoient la lumière des phares au lieu de rester d'un noir total la nuit."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610192045",
+          "date": "2026-10-19",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "player",
+                "text": "A DataPad worn on the left wrist: raise it to read the services tablet on its screen, even at the wheel, and a green light with a beep tells you when something is waiting."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Cruise control holds the speed you are driving at: set it with Ctrl+T, adjust it with the mouse wheel, and press either pedal to take back control."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "The truck's middle screen can show the star map or the rear camera, or stand by with the ARES Hauling logo: aim at it and press F to switch, for everyone aboard."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Backing up shows the rear camera on the middle screen, whatever it was showing."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "The star map on the truck's screen is shared: when one passenger zooms or pans it, everyone aboard sees the same view."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "Buildings, dispensers, lifts, teleporters and vehicles appear on the star map, with their pictogram and their name on hover."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "The star map can be zoomed in down to the metre around you."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "The star map handles like an online map: drag to turn, right-drag to zoom, right-click to copy coordinates or drop a pin, Tab to search."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "The vehicle lift sounds an alarm at both landings while it is moving."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Vehicle suspensions make a pneumatic knock when they take a bump, a pothole or a landing, heard by everyone around from that very wheel, louder and deeper the harder the hit."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Vehicles meet real air and rolling resistance: the engine keeps working at top speed, and thin air lets you go a little faster."
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Your character starts and stops running more promptly, and moves smoothly instead of in small jolts."
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Switching between walking and running no longer jolts the view."
+              },
+              {
+                "type": "changed",
+                "area": "props",
+                "text": "Metal boxes, batteries and engines sound like metal when you pick them up and put them down."
+              },
+              {
+                "type": "changed",
+                "area": "controls",
+                "text": "The speed limiter is now adjusted with the mouse wheel alone."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "Tyre noise grows louder and higher with speed, and fades out while the wheels are off the ground."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "Tyres scrubbing while you steer are quieter."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "The truck's headlights light the road ahead instead of a patch right in front of the bumper."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Crates dropped into the truck bed are detected wherever the bed really is."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Roads and canyons no longer jitter on the star map when zoomed in close."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The game server slows down much less when many players arrive or when a region of the world moves to another server."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "The game server no longer crashes at random while villages are being loaded."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "The driver no longer hears the tyres at full volume whatever the speed."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "The truck's rear-view screen shows the road behind the right way round, like the side mirrors."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Asphalt roads reflect the headlights instead of staying pitch black at night."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Un DataPad porté au poignet gauche : levez-le pour lire la tablette des services sur son écran, même au volant ; un voyant vert et un bip signalent qu'un message attend."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Le régulateur de vitesse maintient la vitesse à laquelle vous roulez : activez-le avec Ctrl+T, ajustez-le à la molette, et reprenez la main en appuyant sur une pédale."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "L'écran central du camion peut afficher la carte stellaire ou la caméra de recul, ou rester en veille avec le logo ARES Hauling : visez-le et appuyez sur F pour changer, pour tout l'équipage."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "En marche arrière, l'écran central affiche la caméra de recul, quel que soit son mode."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "La carte stellaire de l'écran du camion est partagée : quand un passager zoome ou la déplace, tout l'équipage voit la même vue."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "Les bâtiments, distributeurs, ascenseurs, téléporteurs et véhicules apparaissent sur la carte stellaire, avec leur pictogramme et leur nom au survol."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "La carte stellaire se zoome jusqu'au mètre autour de vous."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "La carte stellaire se manie comme une carte en ligne : glisser pour tourner, glisser au clic droit pour zoomer, clic droit pour copier les coordonnées ou poser un repère, Tab pour chercher."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "L'ascenseur à véhicules fait retentir une alarme aux deux paliers pendant qu'il roule."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Les suspensions des véhicules émettent un choc pneumatique sur une bosse, un nid-de-poule ou une réception de saut, entendu par tous les joueurs proches depuis la roue concernée, plus fort et plus grave selon la violence du choc."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Les véhicules subissent une vraie résistance de l'air et du roulement : le moteur travaille encore à pleine vitesse, et un air plus rare laisse aller un peu plus vite."
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Votre personnage se lance et s'arrête de courir plus vivement, et avance de façon fluide au lieu de petites saccades."
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Passer de la marche à la course ne donne plus d'à-coup à la vue."
+              },
+              {
+                "type": "changed",
+                "area": "props",
+                "text": "Les caisses métalliques, batteries et moteurs sonnent comme du métal quand on les prend et qu'on les pose."
+              },
+              {
+                "type": "changed",
+                "area": "controls",
+                "text": "Le limiteur de vitesse se règle désormais à la molette seule."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "Le bruit des pneus devient plus fort et plus aigu avec la vitesse, et s'efface quand les roues quittent le sol."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "Le frottement des pneus quand on braque est plus discret."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Les phares du camion éclairent la route devant lui au lieu d'une tache juste devant le pare-chocs."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Les caisses déposées dans la benne du camion sont détectées là où se trouve vraiment la benne."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Les routes et les canyons ne tremblent plus sur la carte stellaire en zoom rapproché."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Le serveur de jeu ralentit beaucoup moins quand beaucoup de joueurs arrivent ou quand une région du monde passe sur un autre serveur."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Le serveur de jeu ne plante plus au hasard pendant le chargement des villages."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "Le conducteur n'entend plus les pneus à plein volume quelle que soit la vitesse."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "L'écran de recul du camion montre la route derrière dans le bon sens, comme les rétroviseurs."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Les routes goudronnées renvoient la lumière des phares au lieu de rester d'un noir total la nuit."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610161255",
           "date": "2026-10-16",

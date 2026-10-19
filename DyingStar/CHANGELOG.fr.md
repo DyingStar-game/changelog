@@ -9,16 +9,32 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Joueur** : Un DataPad porté au poignet gauche : levez-le pour lire la tablette des services sur son écran, même au volant ; un voyant vert et un bip signalent qu'un message attend.
+- **Véhicules** : Le régulateur de vitesse maintient la vitesse à laquelle vous roulez : activez-le avec Ctrl+T, ajustez-le à la molette, et reprenez la main en appuyant sur une pédale.
+- **Véhicules** : L'écran central du camion peut afficher la carte stellaire ou la caméra de recul, ou rester en veille avec le logo ARES Hauling : visez-le et appuyez sur F pour changer, pour tout l'équipage.
+- **Véhicules** : En marche arrière, l'écran central affiche la caméra de recul, quel que soit son mode.
+- **Véhicules** : La carte stellaire de l'écran du camion est partagée : quand un passager zoome ou la déplace, tout l'équipage voit la même vue.
+- **Carte stellaire** : Les bâtiments, distributeurs, ascenseurs, téléporteurs et véhicules apparaissent sur la carte stellaire, avec leur pictogramme et leur nom au survol.
+- **Carte stellaire** : La carte stellaire se zoome jusqu'au mètre autour de vous.
+- **Carte stellaire** : La carte stellaire se manie comme une carte en ligne : glisser pour tourner, glisser au clic droit pour zoomer, clic droit pour copier les coordonnées ou poser un repère, Tab pour chercher.
+- **Audio** : L'ascenseur à véhicules fait retentir une alarme aux deux paliers pendant qu'il roule.
 - **Audio** : Les suspensions des véhicules émettent un choc pneumatique sur une bosse, un nid-de-poule ou une réception de saut, entendu par tous les joueurs proches depuis la roue concernée, plus fort et plus grave selon la violence du choc.
 
 ### Changed
 
+- **Véhicules** : Les véhicules subissent une vraie résistance de l'air et du roulement : le moteur travaille encore à pleine vitesse, et un air plus rare laisse aller un peu plus vite.
+- **Joueur** : Votre personnage se lance et s'arrête de courir plus vivement, et avance de façon fluide au lieu de petites saccades.
+- **Joueur** : Passer de la marche à la course ne donne plus d'à-coup à la vue.
+- **Objets** : Les caisses métalliques, batteries et moteurs sonnent comme du métal quand on les prend et qu'on les pose.
+- **Commandes** : Le limiteur de vitesse se règle désormais à la molette seule.
 - **Audio** : Le bruit des pneus devient plus fort et plus aigu avec la vitesse, et s'efface quand les roues quittent le sol.
 - **Audio** : Le frottement des pneus quand on braque est plus discret.
 - **Véhicules** : Les phares du camion éclairent la route devant lui au lieu d'une tache juste devant le pare-chocs.
 
 ### Fixed
 
+- **Véhicules** : Les caisses déposées dans la benne du camion sont détectées là où se trouve vraiment la benne.
+- **Carte stellaire** : Les routes et les canyons ne tremblent plus sur la carte stellaire en zoom rapproché.
 - **Performances** : Le serveur de jeu ralentit beaucoup moins quand beaucoup de joueurs arrivent ou quand une région du monde passe sur un autre serveur.
 - **Serveur** : Le serveur de jeu ne plante plus au hasard pendant le chargement des villages.
 - **Audio** : Le conducteur n'entend plus les pneus à plein volume quelle que soit la vitesse.

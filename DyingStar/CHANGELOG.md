@@ -9,16 +9,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Player**: A DataPad worn on the left wrist: raise it to read the services tablet on its screen, even at the wheel, and a green light with a beep tells you when something is waiting.
+- **Vehicles**: Cruise control holds the speed you are driving at: set it with Ctrl+T, adjust it with the mouse wheel, and press either pedal to take back control.
+- **Vehicles**: The truck's middle screen can show the star map or the rear camera, or stand by with the ARES Hauling logo: aim at it and press F to switch, for everyone aboard.
+- **Vehicles**: Backing up shows the rear camera on the middle screen, whatever it was showing.
+- **Vehicles**: The star map on the truck's screen is shared: when one passenger zooms or pans it, everyone aboard sees the same view.
+- **Star map**: Buildings, dispensers, lifts, teleporters and vehicles appear on the star map, with their pictogram and their name on hover.
+- **Star map**: The star map can be zoomed in down to the metre around you.
+- **Star map**: The star map handles like an online map: drag to turn, right-drag to zoom, right-click to copy coordinates or drop a pin, Tab to search.
+- **Audio**: The vehicle lift sounds an alarm at both landings while it is moving.
 - **Audio**: Vehicle suspensions make a pneumatic knock when they take a bump, a pothole or a landing, heard by everyone around from that very wheel, louder and deeper the harder the hit.
 
 ### Changed
 
+- **Vehicles**: Vehicles meet real air and rolling resistance: the engine keeps working at top speed, and thin air lets you go a little faster.
+- **Player**: Your character starts and stops running more promptly, and moves smoothly instead of in small jolts.
+- **Player**: Switching between walking and running no longer jolts the view.
+- **Props**: Metal boxes, batteries and engines sound like metal when you pick them up and put them down.
+- **Controls**: The speed limiter is now adjusted with the mouse wheel alone.
 - **Audio**: Tyre noise grows louder and higher with speed, and fades out while the wheels are off the ground.
 - **Audio**: Tyres scrubbing while you steer are quieter.
 - **Vehicles**: The truck's headlights light the road ahead instead of a patch right in front of the bumper.
 
 ### Fixed
 
+- **Vehicles**: Crates dropped into the truck bed are detected wherever the bed really is.
+- **Star map**: Roads and canyons no longer jitter on the star map when zoomed in close.
 - **Performance**: The game server slows down much less when many players arrive or when a region of the world moves to another server.
 - **Server**: The game server no longer crashes at random while villages are being loaded.
 - **Audio**: The driver no longer hears the tyres at full volume whatever the speed.

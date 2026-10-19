@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T13:10:46.793191+00:00",
+  "generated_at": "2026-10-19T13:11:50.177792+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -105,12 +105,72 @@
         "entries": {
           "en": [
             {
+              "type": "added",
+              "area": "audio",
+              "text": "Vehicle suspensions make a pneumatic knock when they take a bump, a pothole or a landing, heard by everyone around from that very wheel, louder and deeper the harder the hit."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "Tyre noise grows louder and higher with speed, and fades out while the wheels are off the ground."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "Tyres scrubbing while you steer are quieter."
+            },
+            {
+              "type": "changed",
+              "area": "vehicles",
+              "text": "The truck's headlights light the road ahead instead of a patch right in front of the bumper."
+            },
+            {
+              "type": "fixed",
+              "area": "audio",
+              "text": "The driver no longer hears the tyres at full volume whatever the speed."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "The truck's rear-view screen shows the road behind the right way round, like the side mirrors."
+            },
+            {
               "type": "fixed",
               "area": "graphics",
               "text": "Asphalt roads reflect the headlights instead of staying pitch black at night."
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Les suspensions des véhicules émettent un choc pneumatique sur une bosse, un nid-de-poule ou une réception de saut, entendu par tous les joueurs proches depuis la roue concernée, plus fort et plus grave selon la violence du choc."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "Le bruit des pneus devient plus fort et plus aigu avec la vitesse, et s'efface quand les roues quittent le sol."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "Le frottement des pneus quand on braque est plus discret."
+            },
+            {
+              "type": "changed",
+              "area": "vehicles",
+              "text": "Les phares du camion éclairent la route devant lui au lieu d'une tache juste devant le pare-chocs."
+            },
+            {
+              "type": "fixed",
+              "area": "audio",
+              "text": "Le conducteur n'entend plus les pneus à plein volume quelle que soit la vitesse."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "L'écran de recul du camion montre la route derrière dans le bon sens, comme les rétroviseurs."
+            },
             {
               "type": "fixed",
               "area": "graphics",

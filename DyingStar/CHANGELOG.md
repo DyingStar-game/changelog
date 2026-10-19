@@ -7,8 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Audio**: Vehicle suspensions make a pneumatic knock when they take a bump, a pothole or a landing, heard by everyone around from that very wheel, louder and deeper the harder the hit.
+
+### Changed
+
+- **Audio**: Tyre noise grows louder and higher with speed, and fades out while the wheels are off the ground.
+- **Audio**: Tyres scrubbing while you steer are quieter.
+- **Vehicles**: The truck's headlights light the road ahead instead of a patch right in front of the bumper.
+
 ### Fixed
 
+- **Audio**: The driver no longer hears the tyres at full volume whatever the speed.
+- **Vehicles**: The truck's rear-view screen shows the road behind the right way round, like the side mirrors.
 - **Graphics**: Asphalt roads reflect the headlights instead of staying pitch black at night.
 
 ## [0.1.0-dev.202610161255] - 2026-10-16

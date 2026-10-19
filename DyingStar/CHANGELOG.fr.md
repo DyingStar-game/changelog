@@ -7,8 +7,20 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Audio** : Les suspensions des véhicules émettent un choc pneumatique sur une bosse, un nid-de-poule ou une réception de saut, entendu par tous les joueurs proches depuis la roue concernée, plus fort et plus grave selon la violence du choc.
+
+### Changed
+
+- **Audio** : Le bruit des pneus devient plus fort et plus aigu avec la vitesse, et s'efface quand les roues quittent le sol.
+- **Audio** : Le frottement des pneus quand on braque est plus discret.
+- **Véhicules** : Les phares du camion éclairent la route devant lui au lieu d'une tache juste devant le pare-chocs.
+
 ### Fixed
 
+- **Audio** : Le conducteur n'entend plus les pneus à plein volume quelle que soit la vitesse.
+- **Véhicules** : L'écran de recul du camion montre la route derrière dans le bon sens, comme les rétroviseurs.
 - **Graphismes** : Les routes goudronnées renvoient la lumière des phares au lieu de rester d'un noir total la nuit.
 
 ## [0.1.0-dev.202610161255] - 2026-10-16

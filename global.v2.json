@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T13:54:42.654787+00:00",
+  "generated_at": "2026-10-19T20:25:30.981688+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -5275,6 +5275,10 @@
         "performance": {
           "en": "Performance",
           "fr": "Performances"
+        },
+        "connection": {
+          "en": "Connection",
+          "fr": "Connexion"
         },
         "general": {
           "en": "General",

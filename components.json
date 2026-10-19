@@ -25,7 +25,8 @@
     "areas": {
       "mesh": { "en": "Server meshing", "fr": "Maillage de serveurs" },
       "persistence": { "en": "Persistence", "fr": "Persistance" },
-      "performance": { "en": "Performance", "fr": "Performances" }
+      "performance": { "en": "Performance", "fr": "Performances" },
+      "connection": { "en": "Connection", "fr": "Connexion" }
     }
   },
   "services/monitoring": {

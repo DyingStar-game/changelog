@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T21:54:58.063805+00:00",
+  "generated_at": "2026-10-19T22:00:34.837987+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,23 +103,34 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Game servers with nobody on them no longer use a full processor core each."
-            }
-          ],
-          "fr": [
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Les serveurs de jeu sans personne dessus n'occupent plus chacun un cœur de processeur entier."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610192155",
+          "date": "2026-10-19",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Game servers with nobody on them no longer use a full processor core each."
+              }
+            ],
+            "fr": [
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Les serveurs de jeu sans personne dessus n'occupent plus chacun un cœur de processeur entier."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610192045",
           "date": "2026-10-19",

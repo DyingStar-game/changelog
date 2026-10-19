@@ -19,6 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Performance**: The game server slows down much less when many players arrive or when a region of the world moves to another server.
+- **Server**: The game server no longer crashes at random while villages are being loaded.
 - **Audio**: The driver no longer hears the tyres at full volume whatever the speed.
 - **Vehicles**: The truck's rear-view screen shows the road behind the right way round, like the side mirrors.
 - **Graphics**: Asphalt roads reflect the headlights instead of staying pitch black at night.

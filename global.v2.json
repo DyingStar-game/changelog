@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T13:11:50.177792+00:00",
+  "generated_at": "2026-10-19T13:54:42.654787+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -126,6 +126,16 @@
             },
             {
               "type": "fixed",
+              "area": "performance",
+              "text": "The game server slows down much less when many players arrive or when a region of the world moves to another server."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "The game server no longer crashes at random while villages are being loaded."
+            },
+            {
+              "type": "fixed",
               "area": "audio",
               "text": "The driver no longer hears the tyres at full volume whatever the speed."
             },
@@ -160,6 +170,16 @@
               "type": "changed",
               "area": "vehicles",
               "text": "Les phares du camion éclairent la route devant lui au lieu d'une tache juste devant le pare-chocs."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Le serveur de jeu ralentit beaucoup moins quand beaucoup de joueurs arrivent ou quand une région du monde passe sur un autre serveur."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Le serveur de jeu ne plante plus au hasard pendant le chargement des villages."
             },
             {
               "type": "fixed",

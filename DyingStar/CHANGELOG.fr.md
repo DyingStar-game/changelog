@@ -19,6 +19,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Performances** : Le serveur de jeu ralentit beaucoup moins quand beaucoup de joueurs arrivent ou quand une région du monde passe sur un autre serveur.
+- **Serveur** : Le serveur de jeu ne plante plus au hasard pendant le chargement des villages.
 - **Audio** : Le conducteur n'entend plus les pneus à plein volume quelle que soit la vitesse.
 - **Véhicules** : L'écran de recul du camion montre la route derrière dans le bon sens, comme les rétroviseurs.
 - **Graphismes** : Les routes goudronnées renvoient la lumière des phares au lieu de rester d'un noir total la nuit.

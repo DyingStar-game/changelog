@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T15:17:57.279010+00:00",
+  "generated_at": "2026-10-20T15:53:45.912191+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,133 +103,144 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "The loading screen shows your place in the queue while the servers are full."
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Bed"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Bed table"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Wardrobe"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Shower Cabin"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Restroom Cabin"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Bathroom Sink"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Mirror"
-            },
-            {
-              "type": "changed",
-              "area": "props",
-              "text": "Standard shipping containers have their true dimensions, with collisions that match their shape."
-            },
-            {
-              "type": "changed",
-              "area": "props",
-              "text": "Standard shipping containers cost less to draw from afar."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "Standard shipping containers no longer vanish when seen from afar."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "The yellow paint of the containers shows correctly again."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "L'écran de chargement affiche votre place dans la file quand les serveurs sont pleins."
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Lit"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Table de chevet"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Armoire"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Cabine de douche"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Cabine de toilettes"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Lavabo"
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Miroir"
-            },
-            {
-              "type": "changed",
-              "area": "props",
-              "text": "Les conteneurs standard ont leurs vraies dimensions, avec des collisions qui épousent leur forme."
-            },
-            {
-              "type": "changed",
-              "area": "props",
-              "text": "Les conteneurs standard coûtent moins cher à afficher de loin."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "Les conteneurs standard ne disparaissent plus quand on les regarde de loin."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "La peinture jaune des conteneurs s'affiche de nouveau correctement."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610201544",
+          "date": "2026-10-20",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "The loading screen shows your place in the queue while the servers are full."
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Bed"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Bed table"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Wardrobe"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Shower Cabin"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Restroom Cabin"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Bathroom Sink"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Mirror"
+              },
+              {
+                "type": "changed",
+                "area": "props",
+                "text": "Standard shipping containers have their true dimensions, with collisions that match their shape."
+              },
+              {
+                "type": "changed",
+                "area": "props",
+                "text": "Standard shipping containers cost less to draw from afar."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "Standard shipping containers no longer vanish when seen from afar."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "The yellow paint of the containers shows correctly again."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "L'écran de chargement affiche votre place dans la file quand les serveurs sont pleins."
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Lit"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Table de chevet"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Armoire"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Cabine de douche"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Cabine de toilettes"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Lavabo"
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Miroir"
+              },
+              {
+                "type": "changed",
+                "area": "props",
+                "text": "Les conteneurs standard ont leurs vraies dimensions, avec des collisions qui épousent leur forme."
+              },
+              {
+                "type": "changed",
+                "area": "props",
+                "text": "Les conteneurs standard coûtent moins cher à afficher de loin."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "Les conteneurs standard ne disparaissent plus quand on les regarde de loin."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "La peinture jaune des conteneurs s'affiche de nouveau correctement."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610192155",
           "date": "2026-10-19",

@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610201544] - 2026-10-20
+
 ### Added
 
 - **Interface** : L'écran de chargement affiche votre place dans la file quand les serveurs sont pleins.

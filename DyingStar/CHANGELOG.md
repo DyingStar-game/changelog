@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610201544] - 2026-10-20
+
 ### Added
 
 - **Interface**: The loading screen shows your place in the queue while the servers are full.

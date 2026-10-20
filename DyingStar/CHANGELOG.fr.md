@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Interface** : L'écran de chargement affiche votre place dans la file quand les serveurs sont pleins.
 - **Objets** : Lit
 - **Objets** : Table de chevet
 - **Objets** : Armoire

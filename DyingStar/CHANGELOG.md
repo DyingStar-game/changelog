@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Interface**: The loading screen shows your place in the queue while the servers are full.
 - **Props**: Bed
 - **Props**: Bed table
 - **Props**: Wardrobe

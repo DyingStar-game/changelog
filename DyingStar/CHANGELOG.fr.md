@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610201627] - 2026-10-20
+
 ### Changed
 
 - **Performances** : Les serveurs restent fluides autour des villages animés : les foules de personnages ne recalculent plus leur trajet toutes en même temps.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T22:00:34.837987+00:00",
+  "generated_at": "2026-10-20T08:00:43.036315+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,40 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "props",
+              "text": "Standard shipping containers have their true dimensions, with collisions that match their shape."
+            },
+            {
+              "type": "changed",
+              "area": "props",
+              "text": "Standard shipping containers cost less to draw from afar."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "The yellow paint of the containers shows correctly again."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "props",
+              "text": "Les conteneurs standard ont leurs vraies dimensions, avec des collisions qui épousent leur forme."
+            },
+            {
+              "type": "changed",
+              "area": "props",
+              "text": "Les conteneurs standard coûtent moins cher à afficher de loin."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "La peinture jaune des conteneurs s'affiche de nouveau correctement."
+            }
+          ]
         }
       },
       "releases": [

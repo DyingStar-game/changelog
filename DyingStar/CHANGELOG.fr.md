@@ -7,6 +7,15 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Objets** : Les conteneurs standard ont leurs vraies dimensions, avec des collisions qui épousent leur forme.
+- **Objets** : Les conteneurs standard coûtent moins cher à afficher de loin.
+
+### Fixed
+
+- **Objets** : La peinture jaune des conteneurs s'affiche de nouveau correctement.
+
 ## [0.1.0-dev.202610192155] - 2026-10-19
 
 ### Fixed

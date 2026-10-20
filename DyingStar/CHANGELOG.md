@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Props**: Standard shipping containers have their true dimensions, with collisions that match their shape.
+- **Props**: Standard shipping containers cost less to draw from afar.
+
+### Fixed
+
+- **Props**: The yellow paint of the containers shows correctly again.
+
 ## [0.1.0-dev.202610192155] - 2026-10-19
 
 ### Fixed

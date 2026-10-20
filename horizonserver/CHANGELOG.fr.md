@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610202031] - 2026-10-20
+
 ### Changed
 
 - **Connexion** : Quand tous les serveurs sont pleins, les joueurs en attente reçoivent le message « All servers are full » au lieu d'attendre sans fin.

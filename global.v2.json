@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T18:56:52.408817+00:00",
+  "generated_at": "2026-10-20T20:37:36.030178+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -5638,33 +5638,44 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "changed",
-              "area": "connection",
-              "text": "When every server is full, waiting players are told \"All servers are full\" instead of waiting with no end."
-            },
-            {
-              "type": "fixed",
-              "area": "connection",
-              "text": "New players are spread over the villages that still have room instead of crowding one village far past its size."
-            }
-          ],
-          "fr": [
-            {
-              "type": "changed",
-              "area": "connection",
-              "text": "Quand tous les serveurs sont pleins, les joueurs en attente reçoivent le message « All servers are full » au lieu d'attendre sans fin."
-            },
-            {
-              "type": "fixed",
-              "area": "connection",
-              "text": "Les nouveaux joueurs sont répartis dans les villages qui ont encore de la place au lieu de s'entasser dans un seul village bien au-delà de sa taille."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610202031",
+          "date": "2026-10-20",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "changed",
+                "area": "connection",
+                "text": "When every server is full, waiting players are told \"All servers are full\" instead of waiting with no end."
+              },
+              {
+                "type": "fixed",
+                "area": "connection",
+                "text": "New players are spread over the villages that still have room instead of crowding one village far past its size."
+              }
+            ],
+            "fr": [
+              {
+                "type": "changed",
+                "area": "connection",
+                "text": "Quand tous les serveurs sont pleins, les joueurs en attente reçoivent le message « All servers are full » au lieu d'attendre sans fin."
+              },
+              {
+                "type": "fixed",
+                "area": "connection",
+                "text": "Les nouveaux joueurs sont répartis dans les villages qui ont encore de la place au lieu de s'entasser dans un seul village bien au-delà de sa taille."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610201807",
           "date": "2026-10-20",

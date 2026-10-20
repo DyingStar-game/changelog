@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T15:56:17.081813+00:00",
+  "generated_at": "2026-10-20T16:27:09.694207+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Servers stay smooth around busy villages: crowds of characters no longer recompute their route all at once."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Les serveurs restent fluides autour des villages animés : les foules de personnages ne recalculent plus leur trajet toutes en même temps."
+            }
+          ]
         }
       },
       "releases": [

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Performance**: Servers stay smooth around busy villages: crowds of characters no longer recompute their route all at once.
+
 ## [0.1.0-dev.202610201544] - 2026-10-20
 
 ### Added

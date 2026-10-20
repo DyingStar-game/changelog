@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610201512] - 2026-10-20
+
 ### Added
 
 - **Connexion** : Quand les serveurs sont pleins, les joueurs attendent dans une file et voient leur place, au lieu de surcharger un serveur.

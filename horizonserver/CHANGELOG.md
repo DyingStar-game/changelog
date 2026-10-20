@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610201512] - 2026-10-20
+
 ### Added
 
 - **Connection**: When the servers are full, players wait in a queue and see their place in it instead of overloading a server.

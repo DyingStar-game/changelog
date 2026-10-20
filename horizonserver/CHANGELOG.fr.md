@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Performances** : Le serveur écrit beaucoup moins de journaux quand de nombreux joueurs sont connectés : les problèmes rencontrés pendant les grands tests sont plus faciles à retrouver.
+
 ## [0.1.0-dev.202610192044] - 2026-10-19
 
 ### Fixed

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Performance**: The server writes far fewer logs when many players are online, so problems met during big tests are easier to track down.
+
 ## [0.1.0-dev.202610192044] - 2026-10-19
 
 ### Fixed

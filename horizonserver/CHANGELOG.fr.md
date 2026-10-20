@@ -9,7 +9,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Maillage de serveurs** : Un serveur bondé est désormais réparti sur plusieurs serveurs d'un coup au lieu d'être coupé en deux encore et encore.
 - **Maillage de serveurs** : Un serveur ralenti par une zone très animée est désormais divisé même s'il a peu de joueurs, pour que le jeu y reste fluide.
+
+### Fixed
+
+- **Connexion** : Les joueurs en attente n'arrivent plus sur un serveur plein au bout de deux minutes : ils attendent qu'il ait de la place.
 
 ## [0.1.0-dev.202610201512] - 2026-10-20
 

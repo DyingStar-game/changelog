@@ -9,7 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Server meshing**: A crowded server is now divided among several servers at once instead of being halved again and again.
 - **Server meshing**: A server slowed down by a busy area is now split even when it has few players, so the game stays smooth there.
+
+### Fixed
+
+- **Connection**: Players waiting to join no longer end up on a full server after two minutes: they wait until it has room.
 
 ## [0.1.0-dev.202610201512] - 2026-10-20
 

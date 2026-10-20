@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Connection**: When every server is full, waiting players are told "All servers are full" instead of waiting with no end.
+
+### Fixed
+
+- **Connection**: New players are spread over the villages that still have room instead of crowding one village far past its size.
+
 ## [0.1.0-dev.202610201807] - 2026-10-20
 
 ### Changed

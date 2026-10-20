@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Connexion** : Quand tous les serveurs sont pleins, les joueurs en attente reçoivent le message « All servers are full » au lieu d'attendre sans fin.
+
+### Fixed
+
+- **Connexion** : Les nouveaux joueurs sont répartis dans les villages qui ont encore de la place au lieu de s'entasser dans un seul village bien au-delà de sa taille.
+
 ## [0.1.0-dev.202610201807] - 2026-10-20
 
 ### Changed

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T15:53:45.912191+00:00",
+  "generated_at": "2026-10-20T15:56:17.081813+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -5615,8 +5615,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "mesh",
+              "text": "A server slowed down by a busy area is now split even when it has few players, so the game stays smooth there."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "mesh",
+              "text": "Un serveur ralenti par une zone très animée est désormais divisé même s'il a peu de joueurs, pour que le jeu y reste fluide."
+            }
+          ]
         }
       },
       "releases": [

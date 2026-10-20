@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Server meshing**: A server slowed down by a busy area is now split even when it has few players, so the game stays smooth there.
+
 ## [0.1.0-dev.202610201512] - 2026-10-20
 
 ### Added

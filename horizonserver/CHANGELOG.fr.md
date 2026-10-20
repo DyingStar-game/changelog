@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Maillage de serveurs** : Un serveur ralenti par une zone très animée est désormais divisé même s'il a peu de joueurs, pour que le jeu y reste fluide.
+
 ## [0.1.0-dev.202610201512] - 2026-10-20
 
 ### Added

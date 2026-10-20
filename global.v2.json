@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T09:09:27.723872+00:00",
+  "generated_at": "2026-10-20T14:51:37.623498+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -152,6 +152,11 @@
             {
               "type": "fixed",
               "area": "props",
+              "text": "Standard shipping containers no longer vanish when seen from afar."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
               "text": "The yellow paint of the containers shows correctly again."
             }
           ],
@@ -200,6 +205,11 @@
               "type": "changed",
               "area": "props",
               "text": "Les conteneurs standard coûtent moins cher à afficher de loin."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "Les conteneurs standard ne disparaissent plus quand on les regarde de loin."
             },
             {
               "type": "fixed",

@@ -24,6 +24,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Objets** : Les conteneurs standard ne disparaissent plus quand on les regarde de loin.
 - **Objets** : La peinture jaune des conteneurs s'affiche de nouveau correctement.
 
 ## [0.1.0-dev.202610192155] - 2026-10-19

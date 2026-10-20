@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T08:00:43.036315+00:00",
+  "generated_at": "2026-10-20T08:35:42.587529+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -105,6 +105,41 @@
         "entries": {
           "en": [
             {
+              "type": "added",
+              "area": "props",
+              "text": "Bed"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Bed table"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Wardrobe"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Shower Cabin"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Restroom Cabin"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Bathroom Sink"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Mirror"
+            },
+            {
               "type": "changed",
               "area": "props",
               "text": "Standard shipping containers have their true dimensions, with collisions that match their shape."
@@ -121,6 +156,41 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Lit"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Table de chevet"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Armoire"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Cabine de douche"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Cabine de toilettes"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Lavabo"
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Miroir"
+            },
             {
               "type": "changed",
               "area": "props",

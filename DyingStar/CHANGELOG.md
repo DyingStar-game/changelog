@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Props**: Bed
+- **Props**: Bed table
+- **Props**: Wardrobe
+- **Props**: Shower Cabin
+- **Props**: Restroom Cabin
+- **Props**: Bathroom Sink
+- **Props**: Mirror
+
 ### Changed
 
 - **Props**: Standard shipping containers have their true dimensions, with collisions that match their shape.

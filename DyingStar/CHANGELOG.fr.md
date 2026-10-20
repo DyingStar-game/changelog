@@ -7,6 +7,16 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Objets** : Lit
+- **Objets** : Table de chevet
+- **Objets** : Armoire
+- **Objets** : Cabine de douche
+- **Objets** : Cabine de toilettes
+- **Objets** : Lavabo
+- **Objets** : Miroir
+
 ### Changed
 
 - **Objets** : Les conteneurs standard ont leurs vraies dimensions, avec des collisions qui épousent leur forme.

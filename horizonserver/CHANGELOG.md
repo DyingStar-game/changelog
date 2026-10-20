@@ -7,8 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Connection**: When the servers are full, players wait in a queue and see their place in it instead of overloading a server.
+- **Persistence**: Your position is saved when you leave and regularly while you play.
+
 ### Changed
 
+- **Connection**: Coming back to the game, you always wake up in your apartment.
+- **Performance**: Players arriving in a crowd are let in a few at a time, so the server stays smooth.
 - **Performance**: The server writes far fewer logs when many players are online, so problems met during big tests are easier to track down.
 
 ## [0.1.0-dev.202610192044] - 2026-10-19

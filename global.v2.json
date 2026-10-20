@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T15:02:32.521921+00:00",
+  "generated_at": "2026-10-20T15:10:06.433738+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -5606,12 +5606,52 @@
         "entries": {
           "en": [
             {
+              "type": "added",
+              "area": "connection",
+              "text": "When the servers are full, players wait in a queue and see their place in it instead of overloading a server."
+            },
+            {
+              "type": "added",
+              "area": "persistence",
+              "text": "Your position is saved when you leave and regularly while you play."
+            },
+            {
+              "type": "changed",
+              "area": "connection",
+              "text": "Coming back to the game, you always wake up in your apartment."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Players arriving in a crowd are let in a few at a time, so the server stays smooth."
+            },
+            {
               "type": "changed",
               "area": "performance",
               "text": "The server writes far fewer logs when many players are online, so problems met during big tests are easier to track down."
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "connection",
+              "text": "Quand les serveurs sont pleins, les joueurs attendent dans une file et voient leur place, au lieu de surcharger un serveur."
+            },
+            {
+              "type": "added",
+              "area": "persistence",
+              "text": "Votre position est sauvegardée quand vous quittez le jeu et régulièrement pendant que vous jouez."
+            },
+            {
+              "type": "changed",
+              "area": "connection",
+              "text": "En revenant dans le jeu, vous vous réveillez toujours dans votre appartement."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Les joueurs qui arrivent en masse entrent quelques-uns à la fois, pour que le serveur reste fluide."
+            },
             {
               "type": "changed",
               "area": "performance",

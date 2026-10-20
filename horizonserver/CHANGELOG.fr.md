@@ -7,8 +7,15 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Connexion** : Quand les serveurs sont pleins, les joueurs attendent dans une file et voient leur place, au lieu de surcharger un serveur.
+- **Persistance** : Votre position est sauvegardée quand vous quittez le jeu et régulièrement pendant que vous jouez.
+
 ### Changed
 
+- **Connexion** : En revenant dans le jeu, vous vous réveillez toujours dans votre appartement.
+- **Performances** : Les joueurs qui arrivent en masse entrent quelques-uns à la fois, pour que le serveur reste fluide.
 - **Performances** : Le serveur écrit beaucoup moins de journaux quand de nombreux joueurs sont connectés : les problèmes rencontrés pendant les grands tests sont plus faciles à retrouver.
 
 ## [0.1.0-dev.202610192044] - 2026-10-19

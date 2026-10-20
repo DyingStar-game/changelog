@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610201807] - 2026-10-20
+
 ### Changed
 
 - **Server meshing**: A crowded server is now divided among several servers at once instead of being halved again and again.

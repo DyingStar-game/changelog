@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610201807] - 2026-10-20
+
 ### Changed
 
 - **Maillage de serveurs** : Un serveur bondé est désormais réparti sur plusieurs serveurs d'un coup au lieu d'être coupé en deux encore et encore.

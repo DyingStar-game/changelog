@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610211614] - 2026-10-21
+
 ### Added
 
 - **Bâtiments** : Les logements d'arrivée sont des conteneurs d'habitation, chacun avec un lit, une table de chevet et une armoire.

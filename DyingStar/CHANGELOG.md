@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610211614] - 2026-10-21
+
 ### Added
 
 - **Buildings**: Spawn homes are habitat containers, each with a bed, a bedside table and a wardrobe.

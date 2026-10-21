@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Persistance** : Les portes, les tiroirs et les lampes d'un logement restent comme leur occupant les a laissés.
+
 ## [0.1.0-dev.202610202031] - 2026-10-20
 
 ### Changed

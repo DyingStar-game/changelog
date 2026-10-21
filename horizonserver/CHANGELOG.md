@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610211613] - 2026-10-21
+
 ### Added
 
 - **Connection**: At server startup, arriving players wait in the queue until the first villages are ready instead of all landing in the same one.

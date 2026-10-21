@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610211613] - 2026-10-21
+
 ### Added
 
 - **Connexion** : Au démarrage des serveurs, les joueurs qui arrivent attendent dans la file que les premiers villages soient prêts au lieu d'arriver tous dans le même.

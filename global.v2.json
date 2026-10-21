@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-21T16:12:55.381555+00:00",
+  "generated_at": "2026-10-21T16:13:37.067207+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,210 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Spawn homes are habitat containers, each with a bed, a bedside table and a wardrobe."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Container homes stand on several storeys, reached by walkways and stairs."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "A container's plate shows its number, red when someone lives there and green when it is free, and its occupant's name is on the door."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Doors, drawers and the bedside lamp of your home open, close and light up, and everyone sees them as you left them."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "The wardrobe's shelves take what you carry."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "You can lie down on your bed and get up again."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "Railings and fences can be vaulted over."
+            },
+            {
+              "type": "added",
+              "area": "star-map",
+              "text": "Your home shows on the star map, from anywhere on its planet."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Tapping a screen moves your hand to it with a touch sound."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Container doors, wardrobes and drawers have their own sounds."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Every home has a shower, a toilet and a mirror."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "The mirror shows the room and you in it, and its lights come on like a neon."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "The shower and toilet lights come on when their door opens and go out once nobody is inside."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "A mining village has about 250 homes."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Screens are clicked from closer."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Furniture that is not yours shows a red prompt."
+            },
+            {
+              "type": "changed",
+              "area": "props",
+              "text": "Doors stop when they meet a wall or a piece of furniture."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "The interaction prompt shows beside the crosshair."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Only the homes near you are furnished, so a village of homes costs less to draw."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "A village of homes no longer runs out of room for its shader effects."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Les logements d'arrivée sont des conteneurs d'habitation, chacun avec un lit, une table de chevet et une armoire."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Les logements en conteneurs montent sur plusieurs étages, desservis par des coursives et des escaliers."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "La plaque d'un conteneur affiche son numéro, en rouge s'il est occupé et en vert s'il est libre, et le nom de son occupant est sur la porte."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Les portes, les tiroirs et la lampe de chevet de votre logement s'ouvrent, se ferment et s'allument, et tout le monde les voit comme vous les avez laissés."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Les étagères de l'armoire accueillent ce que vous portez."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "Vous pouvez vous allonger sur votre lit et vous relever."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "Les garde-corps et les barrières peuvent être franchis d'un saut."
+            },
+            {
+              "type": "added",
+              "area": "star-map",
+              "text": "Votre logement apparaît sur la carte stellaire, depuis n'importe où sur sa planète."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Toucher un écran y porte votre main, avec un son de contact."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Les portes de conteneur, les armoires et les tiroirs ont leurs propres sons."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Chaque logement a une douche, des toilettes et un miroir."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Le miroir montre la pièce et vous-même, et ses lumières s'allument comme un néon."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "La lumière de la douche et des toilettes s'allume quand leur porte s'ouvre et s'éteint quand plus personne n'est dedans."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Un village minier compte environ 250 logements."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Les écrans se cliquent de plus près."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Un meuble qui ne vous appartient pas affiche une invite en rouge."
+            },
+            {
+              "type": "changed",
+              "area": "props",
+              "text": "Les portes s'arrêtent quand elles rencontrent un mur ou un meuble."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "L'invite d'interaction s'affiche à côté du viseur."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Seuls les logements proches de vous sont meublés : un village de logements coûte moins cher à afficher."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Un village de logements ne manque plus de place pour ses effets de shader."
+            }
+          ]
         }
       },
       "releases": [

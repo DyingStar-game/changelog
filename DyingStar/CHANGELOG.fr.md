@@ -7,6 +7,35 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Bâtiments** : Les logements d'arrivée sont des conteneurs d'habitation, chacun avec un lit, une table de chevet et une armoire.
+- **Bâtiments** : Les logements en conteneurs montent sur plusieurs étages, desservis par des coursives et des escaliers.
+- **Bâtiments** : La plaque d'un conteneur affiche son numéro, en rouge s'il est occupé et en vert s'il est libre, et le nom de son occupant est sur la porte.
+- **Objets** : Les portes, les tiroirs et la lampe de chevet de votre logement s'ouvrent, se ferment et s'allument, et tout le monde les voit comme vous les avez laissés.
+- **Objets** : Les étagères de l'armoire accueillent ce que vous portez.
+- **Joueur** : Vous pouvez vous allonger sur votre lit et vous relever.
+- **Joueur** : Les garde-corps et les barrières peuvent être franchis d'un saut.
+- **Carte stellaire** : Votre logement apparaît sur la carte stellaire, depuis n'importe où sur sa planète.
+- **Interface** : Toucher un écran y porte votre main, avec un son de contact.
+- **Audio** : Les portes de conteneur, les armoires et les tiroirs ont leurs propres sons.
+- **Bâtiments** : Chaque logement a une douche, des toilettes et un miroir.
+- **Objets** : Le miroir montre la pièce et vous-même, et ses lumières s'allument comme un néon.
+- **Objets** : La lumière de la douche et des toilettes s'allume quand leur porte s'ouvre et s'éteint quand plus personne n'est dedans.
+- **Bâtiments** : Un village minier compte environ 250 logements.
+
+### Changed
+
+- **Interface** : Les écrans se cliquent de plus près.
+- **Interface** : Un meuble qui ne vous appartient pas affiche une invite en rouge.
+- **Objets** : Les portes s'arrêtent quand elles rencontrent un mur ou un meuble.
+- **Interface** : L'invite d'interaction s'affiche à côté du viseur.
+- **Performances** : Seuls les logements proches de vous sont meublés : un village de logements coûte moins cher à afficher.
+
+### Fixed
+
+- **Graphismes** : Un village de logements ne manque plus de place pour ses effets de shader.
+
 ## [0.1.0-dev.202610201627] - 2026-10-20
 
 ### Changed

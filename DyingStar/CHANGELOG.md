@@ -7,6 +7,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Buildings**: Spawn homes are habitat containers, each with a bed, a bedside table and a wardrobe.
+- **Buildings**: Container homes stand on several storeys, reached by walkways and stairs.
+- **Buildings**: A container's plate shows its number, red when someone lives there and green when it is free, and its occupant's name is on the door.
+- **Props**: Doors, drawers and the bedside lamp of your home open, close and light up, and everyone sees them as you left them.
+- **Props**: The wardrobe's shelves take what you carry.
+- **Player**: You can lie down on your bed and get up again.
+- **Player**: Railings and fences can be vaulted over.
+- **Star map**: Your home shows on the star map, from anywhere on its planet.
+- **Interface**: Tapping a screen moves your hand to it with a touch sound.
+- **Audio**: Container doors, wardrobes and drawers have their own sounds.
+- **Buildings**: Every home has a shower, a toilet and a mirror.
+- **Props**: The mirror shows the room and you in it, and its lights come on like a neon.
+- **Props**: The shower and toilet lights come on when their door opens and go out once nobody is inside.
+- **Buildings**: A mining village has about 250 homes.
+
+### Changed
+
+- **Interface**: Screens are clicked from closer.
+- **Interface**: Furniture that is not yours shows a red prompt.
+- **Props**: Doors stop when they meet a wall or a piece of furniture.
+- **Interface**: The interaction prompt shows beside the crosshair.
+- **Performance**: Only the homes near you are furnished, so a village of homes costs less to draw.
+
+### Fixed
+
+- **Graphics**: A village of homes no longer runs out of room for its shader effects.
+
 ## [0.1.0-dev.202610201627] - 2026-10-20
 
 ### Changed

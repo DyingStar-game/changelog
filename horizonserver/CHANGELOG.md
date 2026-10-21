@@ -9,7 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Connection**: At server startup, arriving players wait in the queue until the first villages are ready instead of all landing in the same one.
 - **Persistence**: The doors, drawers and lamps of a home stay as their occupant left them.
+
+### Changed
+
+- **Connection**: A village holds 50 players: newcomers wait in the queue rather than crowding a full village while a place can still be made.
+- **Server meshing**: Servers are split earlier and around the villages, so a village and its players stay on one server.
+
+### Fixed
+
+- **Connection**: Players given an apartment near a server border no longer stay stuck without ever appearing in the world.
+- **Connection**: Players no longer wait forever on a server that had restarted while the game kept sending it players.
+- **Performance**: Servers no longer slow down when many villages are created at once.
 
 ## [0.1.0-dev.202610202031] - 2026-10-20
 

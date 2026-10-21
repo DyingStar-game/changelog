@@ -9,7 +9,19 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Connexion** : Au démarrage des serveurs, les joueurs qui arrivent attendent dans la file que les premiers villages soient prêts au lieu d'arriver tous dans le même.
 - **Persistance** : Les portes, les tiroirs et les lampes d'un logement restent comme leur occupant les a laissés.
+
+### Changed
+
+- **Connexion** : Un village accueille 50 joueurs : les nouveaux venus attendent dans la file plutôt que de s'entasser dans un village plein tant qu'une place peut encore se libérer.
+- **Maillage de serveurs** : Les serveurs sont découpés plus tôt et autour des villages : un village et ses joueurs restent sur un seul serveur.
+
+### Fixed
+
+- **Connexion** : Les joueurs qui reçoivent un appartement près d'une frontière entre serveurs ne restent plus bloqués sans jamais apparaître dans le monde.
+- **Connexion** : Les joueurs n'attendent plus indéfiniment sur un serveur qui avait redémarré pendant que le jeu continuait à lui envoyer des joueurs.
+- **Performances** : Les serveurs ne ralentissent plus quand beaucoup de villages sont créés en même temps.
 
 ## [0.1.0-dev.202610202031] - 2026-10-20
 

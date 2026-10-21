@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-21T16:11:56.448418+00:00",
+  "generated_at": "2026-10-21T16:12:55.381555+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -5641,15 +5641,75 @@
           "en": [
             {
               "type": "added",
+              "area": "connection",
+              "text": "At server startup, arriving players wait in the queue until the first villages are ready instead of all landing in the same one."
+            },
+            {
+              "type": "added",
               "area": "persistence",
               "text": "The doors, drawers and lamps of a home stay as their occupant left them."
+            },
+            {
+              "type": "changed",
+              "area": "connection",
+              "text": "A village holds 50 players: newcomers wait in the queue rather than crowding a full village while a place can still be made."
+            },
+            {
+              "type": "changed",
+              "area": "mesh",
+              "text": "Servers are split earlier and around the villages, so a village and its players stay on one server."
+            },
+            {
+              "type": "fixed",
+              "area": "connection",
+              "text": "Players given an apartment near a server border no longer stay stuck without ever appearing in the world."
+            },
+            {
+              "type": "fixed",
+              "area": "connection",
+              "text": "Players no longer wait forever on a server that had restarted while the game kept sending it players."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Servers no longer slow down when many villages are created at once."
             }
           ],
           "fr": [
             {
               "type": "added",
+              "area": "connection",
+              "text": "Au démarrage des serveurs, les joueurs qui arrivent attendent dans la file que les premiers villages soient prêts au lieu d'arriver tous dans le même."
+            },
+            {
+              "type": "added",
               "area": "persistence",
               "text": "Les portes, les tiroirs et les lampes d'un logement restent comme leur occupant les a laissés."
+            },
+            {
+              "type": "changed",
+              "area": "connection",
+              "text": "Un village accueille 50 joueurs : les nouveaux venus attendent dans la file plutôt que de s'entasser dans un village plein tant qu'une place peut encore se libérer."
+            },
+            {
+              "type": "changed",
+              "area": "mesh",
+              "text": "Les serveurs sont découpés plus tôt et autour des villages : un village et ses joueurs restent sur un seul serveur."
+            },
+            {
+              "type": "fixed",
+              "area": "connection",
+              "text": "Les joueurs qui reçoivent un appartement près d'une frontière entre serveurs ne restent plus bloqués sans jamais apparaître dans le monde."
+            },
+            {
+              "type": "fixed",
+              "area": "connection",
+              "text": "Les joueurs n'attendent plus indéfiniment sur un serveur qui avait redémarré pendant que le jeu continuait à lui envoyer des joueurs."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Les serveurs ne ralentissent plus quand beaucoup de villages sont créés en même temps."
             }
           ]
         }

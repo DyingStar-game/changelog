@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T06:09:31.398503+00:00",
+  "generated_at": "2026-10-22T06:17:21.442711+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,223 +103,234 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "player",
-              "text": "A movement log (client.ini) records how often and how regularly your own position reaches you, to report stutters."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "The debug panel shows how far the current server's border is in the direction the camera looks."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "The places that belong to your missions, to other players and to corporations are now on the star map, each with its own icon."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "When a form is waiting for a place, clicking one on the chart picks it — you no longer have to aim at a planet."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "An objective now names the place it happens at and takes you to it on the chart."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "The goods and the units a contract asks for are chosen from the market's catalogue instead of typed in."
-            },
-            {
-              "type": "changed",
-              "area": "mining",
-              "text": "An extract now packs a single mineral: the button only lights up when one mineral holds a whole crate, and ore is counted in litres."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "The missions you issued are marked in the mission list."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Your character no longer lurches ahead when several position updates arrive at once."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "The reworked shipping container is yellow again instead of black."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "Stacked containers rest on each other again instead of sinking into one another."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Interaction prompts no longer show through walls."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "A part behind a shut hatch can no longer be taken or seen through it."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Getting up from your bed no longer puts you through the wall into the next home, and you look ahead again."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Your home shows over the storeys above it on the star map."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "The star map no longer drops the frame rate in a village."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "The DataPad opens in god mode."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The game no longer crashes when you quit it."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The first ration, tool or place you meet no longer freezes the game a moment."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Passenger and delivery missions read your seat and your goods directly, instead of a presence refreshed once a minute without either."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Your position, a place and a mission zone are stored relative to their planet, so they no longer drift away from it as it orbits."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Un journal de déplacement (client.ini) enregistre à quel rythme et avec quelle régularité votre propre position vous parvient, pour signaler les saccades."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Le panneau de debug indique à quelle distance se trouve la frontière du serveur actuel dans la direction de la caméra."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "Les emplacements de vos missions, d'autres joueurs et des corporations sont maintenant sur la carte stellaire, chacun avec son icône."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "Quand un formulaire attend un emplacement, cliquer-en un sur la carte le choisit — il n'est plus nécessaire de viser une planète."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Un objectif indique maintenant l'emplacement où il se déroule et vous y emmène sur la carte."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Les biens et les unités demandés par un contrat se choisissent dans le catalogue du marché au lieu d'être saisis."
-            },
-            {
-              "type": "changed",
-              "area": "mining",
-              "text": "Une extraction emballe maintenant un seul minéral : le bouton ne s'allume que lorsqu'un minéral tient une caisse entière, et le minerai se compte en litres."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Les missions que vous avez émises sont signalées dans la liste des missions."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Votre personnage ne fait plus d'embardée en avant quand plusieurs mises à jour de position arrivent en même temps."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "Le conteneur d'expédition retravaillé est de nouveau jaune au lieu de noir."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "Les conteneurs empilés reposent de nouveau l'un sur l'autre au lieu de s'enfoncer."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Les invites d'interaction ne s'affichent plus à travers les murs."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Un composant derrière une trappe fermée ne peut plus être pris ni vu à travers elle."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Se lever de son lit ne fait plus passer à travers le mur chez le voisin, et la vue revient droit devant."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Votre logement s'affiche par-dessus les étages au-dessus de lui sur la carte stellaire."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "La carte stellaire ne fait plus chuter les images par seconde dans un village."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Le DataPad s'ouvre en mode Dieu."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Le jeu ne plante plus quand on le quitte."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "La première ration, le premier outil ou le premier lieu rencontrés ne figent plus le jeu un instant."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Les missions de transport de passagers et de livraison lisent votre siège et vos biens directement, au lieu d'une présence rafraîchie chaque minute sans l'un ni l'autre."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Votre position, un emplacement et une zone de mission sont enregistrés par rapport à leur planète : ils ne s'écartent plus d'elle quand elle orbite."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610220605",
+          "date": "2026-10-22",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "player",
+                "text": "A movement log (client.ini) records how often and how regularly your own position reaches you, to report stutters."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "The debug panel shows how far the current server's border is in the direction the camera looks."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "The places that belong to your missions, to other players and to corporations are now on the star map, each with its own icon."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "When a form is waiting for a place, clicking one on the chart picks it — you no longer have to aim at a planet."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "An objective now names the place it happens at and takes you to it on the chart."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "The goods and the units a contract asks for are chosen from the market's catalogue instead of typed in."
+              },
+              {
+                "type": "changed",
+                "area": "mining",
+                "text": "An extract now packs a single mineral: the button only lights up when one mineral holds a whole crate, and ore is counted in litres."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "The missions you issued are marked in the mission list."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Your character no longer lurches ahead when several position updates arrive at once."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "The reworked shipping container is yellow again instead of black."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "Stacked containers rest on each other again instead of sinking into one another."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Interaction prompts no longer show through walls."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "A part behind a shut hatch can no longer be taken or seen through it."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Getting up from your bed no longer puts you through the wall into the next home, and you look ahead again."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Your home shows over the storeys above it on the star map."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "The star map no longer drops the frame rate in a village."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "The DataPad opens in god mode."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The game no longer crashes when you quit it."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The first ration, tool or place you meet no longer freezes the game a moment."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Passenger and delivery missions read your seat and your goods directly, instead of a presence refreshed once a minute without either."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Your position, a place and a mission zone are stored relative to their planet, so they no longer drift away from it as it orbits."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Un journal de déplacement (client.ini) enregistre à quel rythme et avec quelle régularité votre propre position vous parvient, pour signaler les saccades."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Le panneau de debug indique à quelle distance se trouve la frontière du serveur actuel dans la direction de la caméra."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "Les emplacements de vos missions, d'autres joueurs et des corporations sont maintenant sur la carte stellaire, chacun avec son icône."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "Quand un formulaire attend un emplacement, cliquer-en un sur la carte le choisit — il n'est plus nécessaire de viser une planète."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Un objectif indique maintenant l'emplacement où il se déroule et vous y emmène sur la carte."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Les biens et les unités demandés par un contrat se choisissent dans le catalogue du marché au lieu d'être saisis."
+              },
+              {
+                "type": "changed",
+                "area": "mining",
+                "text": "Une extraction emballe maintenant un seul minéral : le bouton ne s'allume que lorsqu'un minéral tient une caisse entière, et le minerai se compte en litres."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Les missions que vous avez émises sont signalées dans la liste des missions."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Votre personnage ne fait plus d'embardée en avant quand plusieurs mises à jour de position arrivent en même temps."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "Le conteneur d'expédition retravaillé est de nouveau jaune au lieu de noir."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "Les conteneurs empilés reposent de nouveau l'un sur l'autre au lieu de s'enfoncer."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Les invites d'interaction ne s'affichent plus à travers les murs."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Un composant derrière une trappe fermée ne peut plus être pris ni vu à travers elle."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Se lever de son lit ne fait plus passer à travers le mur chez le voisin, et la vue revient droit devant."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Votre logement s'affiche par-dessus les étages au-dessus de lui sur la carte stellaire."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "La carte stellaire ne fait plus chuter les images par seconde dans un village."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Le DataPad s'ouvre en mode Dieu."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Le jeu ne plante plus quand on le quitte."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "La première ration, le premier outil ou le premier lieu rencontrés ne figent plus le jeu un instant."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Les missions de transport de passagers et de livraison lisent votre siège et vos biens directement, au lieu d'une présence rafraîchie chaque minute sans l'un ni l'autre."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Votre position, un emplacement et une zone de mission sont enregistrés par rapport à leur planète : ils ne s'écartent plus d'elle quand elle orbite."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610211614",
           "date": "2026-10-21",

@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610220605] - 2026-10-22
+
 ### Added
 
 - **Joueur** : Un journal de déplacement (client.ini) enregistre à quel rythme et avec quelle régularité votre propre position vous parvient, pour signaler les saccades.

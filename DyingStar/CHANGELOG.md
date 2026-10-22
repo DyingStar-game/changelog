@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610220605] - 2026-10-22
+
 ### Added
 
 - **Player**: A movement log (client.ini) records how often and how regularly your own position reaches you, to report stutters.

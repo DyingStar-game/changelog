@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Performance**: Servers no longer slow down when players are in villages: the planet's gravity only checks what can move.
 - **Props**: The toilet and the shower head can no longer be walked through.
 - **Performance**: Arriving in a village no longer freezes the game while it is built.
 - **Performance**: The main menu no longer stutters every second.

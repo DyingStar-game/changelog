@@ -21,6 +21,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Performances** : Les serveurs ne ralentissent plus quand des joueurs sont dans des villages : la gravité de la planète ne vérifie plus que ce qui peut bouger.
 - **Objets** : On ne traverse plus les toilettes ni le pommeau de douche.
 - **Performances** : Arriver dans un village ne fige plus le jeu pendant sa construction.
 - **Performances** : Le menu principal ne saccade plus chaque seconde.

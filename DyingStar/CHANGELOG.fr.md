@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Interface** : Le panneau de debug indique à quelle distance se trouve la frontière du serveur actuel dans la direction de la caméra.
 - **Carte stellaire** : Les emplacements de vos missions, d'autres joueurs et des corporations sont maintenant sur la carte stellaire, chacun avec son icône.
 - **Carte stellaire** : Quand un formulaire attend un emplacement, cliquer-en un sur la carte le choisit — il n'est plus nécessaire de viser une planète.
 - **Interface** : Un objectif indique maintenant l'emplacement où il se déroule et vous y emmène sur la carte.

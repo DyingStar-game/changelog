@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Interface**: The debug panel shows how far the current server's border is in the direction the camera looks.
 - **Star map**: The places that belong to your missions, to other players and to corporations are now on the star map, each with its own icon.
 - **Star map**: When a form is waiting for a place, clicking one on the chart picks it — you no longer have to aim at a planet.
 - **Interface**: An objective now names the place it happens at and takes you to it on the chart.

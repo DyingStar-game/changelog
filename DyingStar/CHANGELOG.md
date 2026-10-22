@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Performance**: The shower and toilet cabins weigh far less on the servers.
 - **Performance**: The roofs of the habitat containers cost far less to draw, with the same shape.
 - **Buildings**: The paint's texture now shows on the roofs of the habitat containers.
 - **Performance**: The game runs faster in villages, by day and by night, especially seen from above.
@@ -20,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Props**: The toilet and the shower head can no longer be walked through.
 - **Performance**: Arriving in a village no longer freezes the game while it is built.
 - **Performance**: The main menu no longer stutters every second.
 - **Performance**: The ground no longer stutters as it loads, along the railway as elsewhere.

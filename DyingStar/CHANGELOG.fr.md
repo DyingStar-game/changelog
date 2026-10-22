@@ -13,6 +13,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Performances** : Les cabines de douche et de WC pèsent beaucoup moins sur les serveurs.
 - **Performances** : Les toits des containers d'habitation coûtent beaucoup moins cher à afficher, avec la même forme.
 - **Bâtiments** : La texture de la peinture se voit désormais sur les toits des containers d'habitation.
 - **Performances** : Le jeu tourne plus vite dans les villages, de jour comme de nuit, surtout vu d'en haut.
@@ -20,6 +21,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Objets** : On ne traverse plus les toilettes ni le pommeau de douche.
 - **Performances** : Arriver dans un village ne fige plus le jeu pendant sa construction.
 - **Performances** : Le menu principal ne saccade plus chaque seconde.
 - **Performances** : Le sol ne saccade plus pendant son chargement, le long de la voie ferrée comme ailleurs.

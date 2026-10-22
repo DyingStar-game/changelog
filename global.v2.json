@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T10:41:48.345454+00:00",
+  "generated_at": "2026-10-22T10:42:26.696099+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -112,6 +112,11 @@
             {
               "type": "changed",
               "area": "performance",
+              "text": "The shower and toilet cabins weigh far less on the servers."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
               "text": "The roofs of the habitat containers cost far less to draw, with the same shape."
             },
             {
@@ -128,6 +133,11 @@
               "type": "changed",
               "area": "performance",
               "text": "The ground, the haze and the night lights cost less to draw, with the same look."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "The toilet and the shower head can no longer be walked through."
             },
             {
               "type": "fixed",
@@ -154,6 +164,11 @@
             {
               "type": "changed",
               "area": "performance",
+              "text": "Les cabines de douche et de WC pèsent beaucoup moins sur les serveurs."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
               "text": "Les toits des containers d'habitation coûtent beaucoup moins cher à afficher, avec la même forme."
             },
             {
@@ -170,6 +185,11 @@
               "type": "changed",
               "area": "performance",
               "text": "Le sol, la brume et les éclairages de nuit coûtent moins cher à afficher, avec le même rendu."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "On ne traverse plus les toilettes ni le pommeau de douche."
             },
             {
               "type": "fixed",

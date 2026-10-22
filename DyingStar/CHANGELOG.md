@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Performance**: The roofs of the habitat containers cost far less to draw, with the same shape.
+- **Buildings**: The paint's texture now shows on the roofs of the habitat containers.
 - **Performance**: The game runs faster in villages, by day and by night, especially seen from above.
 - **Performance**: The ground, the haze and the night lights cost less to draw, with the same look.
 

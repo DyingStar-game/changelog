@@ -13,6 +13,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Performances** : Les toits des containers d'habitation coûtent beaucoup moins cher à afficher, avec la même forme.
+- **Bâtiments** : La texture de la peinture se voit désormais sur les toits des containers d'habitation.
 - **Performances** : Le jeu tourne plus vite dans les villages, de jour comme de nuit, surtout vu d'en haut.
 - **Performances** : Le sol, la brume et les éclairages de nuit coûtent moins cher à afficher, avec le même rendu.
 

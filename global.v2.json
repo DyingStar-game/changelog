@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T10:40:56.507467+00:00",
+  "generated_at": "2026-10-22T10:41:48.345454+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -112,6 +112,16 @@
             {
               "type": "changed",
               "area": "performance",
+              "text": "The roofs of the habitat containers cost far less to draw, with the same shape."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "The paint's texture now shows on the roofs of the habitat containers."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
               "text": "The game runs faster in villages, by day and by night, especially seen from above."
             },
             {
@@ -140,6 +150,16 @@
               "type": "added",
               "area": "props",
               "text": "Added materials and decals to the Hammerdrill"
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Les toits des containers d'habitation coûtent beaucoup moins cher à afficher, avec la même forme."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "La texture de la peinture se voit désormais sur les toits des containers d'habitation."
             },
             {
               "type": "changed",

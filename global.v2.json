@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-21T16:23:57.673551+00:00",
+  "generated_at": "2026-10-22T05:58:50.929477+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,90 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "star-map",
+              "text": "The places that belong to your missions, to other players and to corporations are now on the star map, each with its own icon."
+            },
+            {
+              "type": "added",
+              "area": "star-map",
+              "text": "When a form is waiting for a place, clicking one on the chart picks it — you no longer have to aim at a planet."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "An objective now names the place it happens at and takes you to it on the chart."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "The goods and the units a contract asks for are chosen from the market's catalogue instead of typed in."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "An extract now packs a single mineral: the button only lights up when one mineral holds a whole crate, and ore is counted in litres."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "The missions you issued are marked in the mission list."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Passenger and delivery missions read your seat and your goods directly, instead of a presence refreshed once a minute without either."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Your position, a place and a mission zone are stored relative to their planet, so they no longer drift away from it as it orbits."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "star-map",
+              "text": "Les emplacements de vos missions, d'autres joueurs et des corporations sont maintenant sur la carte stellaire, chacun avec son icône."
+            },
+            {
+              "type": "added",
+              "area": "star-map",
+              "text": "Quand un formulaire attend un emplacement, cliquer-en un sur la carte le choisit — il n'est plus nécessaire de viser une planète."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Un objectif indique maintenant l'emplacement où il se déroule et vous y emmène sur la carte."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Les biens et les unités demandés par un contrat se choisissent dans le catalogue du marché au lieu d'être saisis."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "Une extraction emballe maintenant un seul minéral : le bouton ne s'allume que lorsqu'un minéral tient une caisse entière, et le minerai se compte en litres."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Les missions que vous avez émises sont signalées dans la liste des missions."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Les missions de transport de passagers et de livraison lisent votre siège et vos biens directement, au lieu d'une présence rafraîchie chaque minute sans l'un ni l'autre."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Votre position, un emplacement et une zone de mission sont enregistrés par rapport à leur planète : ils ne s'écartent plus d'elle quand elle orbite."
+            }
+          ]
         }
       },
       "releases": [

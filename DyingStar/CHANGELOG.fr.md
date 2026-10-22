@@ -7,6 +7,23 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Carte stellaire** : Les emplacements de vos missions, d'autres joueurs et des corporations sont maintenant sur la carte stellaire, chacun avec son icône.
+- **Carte stellaire** : Quand un formulaire attend un emplacement, cliquer-en un sur la carte le choisit — il n'est plus nécessaire de viser une planète.
+- **Interface** : Un objectif indique maintenant l'emplacement où il se déroule et vous y emmène sur la carte.
+- **Interface** : Les biens et les unités demandés par un contrat se choisissent dans le catalogue du marché au lieu d'être saisis.
+
+### Changed
+
+- **Minage** : Une extraction emballe maintenant un seul minéral : le bouton ne s'allume que lorsqu'un minéral tient une caisse entière, et le minerai se compte en litres.
+- **Interface** : Les missions que vous avez émises sont signalées dans la liste des missions.
+
+### Fixed
+
+- **Serveur** : Les missions de transport de passagers et de livraison lisent votre siège et vos biens directement, au lieu d'une présence rafraîchie chaque minute sans l'un ni l'autre.
+- **Serveur** : Votre position, un emplacement et une zone de mission sont enregistrés par rapport à leur planète : ils ne s'écartent plus d'elle quand elle orbite.
+
 ## [0.1.0-dev.202610211614] - 2026-10-21
 
 ### Added

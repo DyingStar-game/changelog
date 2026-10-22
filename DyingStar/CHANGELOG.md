@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Star map**: The places that belong to your missions, to other players and to corporations are now on the star map, each with its own icon.
+- **Star map**: When a form is waiting for a place, clicking one on the chart picks it — you no longer have to aim at a planet.
+- **Interface**: An objective now names the place it happens at and takes you to it on the chart.
+- **Interface**: The goods and the units a contract asks for are chosen from the market's catalogue instead of typed in.
+
+### Changed
+
+- **Mining**: An extract now packs a single mineral: the button only lights up when one mineral holds a whole crate, and ore is counted in litres.
+- **Interface**: The missions you issued are marked in the mission list.
+
+### Fixed
+
+- **Server**: Passenger and delivery missions read your seat and your goods directly, instead of a presence refreshed once a minute without either.
+- **Server**: Your position, a place and a mission zone are stored relative to their planet, so they no longer drift away from it as it orbits.
+
 ## [0.1.0-dev.202610211614] - 2026-10-21
 
 ### Added

@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Connection**: A player can ask for their own movement to be timestamped by the servers, to find out where a stutter comes from.
+
+### Changed
+
+- **Performance**: Your own position reaches you twice as often, so turns, stops and bumps into walls are corrected sooner.
+
 ## [0.1.0-dev.202610211613] - 2026-10-21
 
 ### Added

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T06:02:14.434108+00:00",
+  "generated_at": "2026-10-22T06:04:49.400628+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -6063,8 +6063,30 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "connection",
+              "text": "A player can ask for their own movement to be timestamped by the servers, to find out where a stutter comes from."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Your own position reaches you twice as often, so turns, stops and bumps into walls are corrected sooner."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "connection",
+              "text": "Un joueur peut demander que les serveurs horodatent ses propres déplacements, pour savoir d'où vient une saccade."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Votre propre position vous parvient deux fois plus souvent : les virages, les arrêts et les chocs contre un mur sont corrigés plus tôt."
+            }
+          ]
         }
       },
       "releases": [

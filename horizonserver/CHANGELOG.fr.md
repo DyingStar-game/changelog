@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Connexion** : Un joueur peut demander que les serveurs horodatent ses propres déplacements, pour savoir d'où vient une saccade.
+
+### Changed
+
+- **Performances** : Votre propre position vous parvient deux fois plus souvent : les virages, les arrêts et les chocs contre un mur sont corrigés plus tôt.
+
 ## [0.1.0-dev.202610211613] - 2026-10-21
 
 ### Added

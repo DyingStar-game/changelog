@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610220604] - 2026-10-22
+
 ### Added
 
 - **Connexion** : Un joueur peut demander que les serveurs horodatent ses propres déplacements, pour savoir d'où vient une saccade.

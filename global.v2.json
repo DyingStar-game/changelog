@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T06:00:14.260477+00:00",
+  "generated_at": "2026-10-22T06:00:54.434067+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -136,6 +136,16 @@
             },
             {
               "type": "fixed",
+              "area": "props",
+              "text": "The reworked shipping container is yellow again instead of black."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "Stacked containers rest on each other again instead of sinking into one another."
+            },
+            {
+              "type": "fixed",
               "area": "ui",
               "text": "Interaction prompts no longer show through walls."
             },
@@ -215,6 +225,16 @@
               "type": "changed",
               "area": "ui",
               "text": "Les missions que vous avez émises sont signalées dans la liste des missions."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "Le conteneur d'expédition retravaillé est de nouveau jaune au lieu de noir."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "Les conteneurs empilés reposent de nouveau l'un sur l'autre au lieu de s'enfoncer."
             },
             {
               "type": "fixed",

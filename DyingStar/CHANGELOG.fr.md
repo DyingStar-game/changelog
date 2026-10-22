@@ -21,6 +21,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Objets** : Le conteneur d'expédition retravaillé est de nouveau jaune au lieu de noir.
+- **Objets** : Les conteneurs empilés reposent de nouveau l'un sur l'autre au lieu de s'enfoncer.
 - **Interface** : Les invites d'interaction ne s'affichent plus à travers les murs.
 - **Véhicules** : Un composant derrière une trappe fermée ne peut plus être pris ni vu à travers elle.
 - **Joueur** : Se lever de son lit ne fait plus passer à travers le mur chez le voisin, et la vue revient droit devant.

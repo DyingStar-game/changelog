@@ -21,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Props**: The reworked shipping container is yellow again instead of black.
+- **Props**: Stacked containers rest on each other again instead of sinking into one another.
 - **Interface**: Interaction prompts no longer show through walls.
 - **Vehicles**: A part behind a shut hatch can no longer be taken or seen through it.
 - **Player**: Getting up from your bed no longer puts you through the wall into the next home, and you look ahead again.

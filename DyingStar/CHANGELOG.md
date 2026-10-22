@@ -11,6 +11,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Props**: Added materials and decals to the Hammerdrill
 
+### Changed
+
+- **Performance**: The game runs faster in villages, by day and by night, especially seen from above.
+- **Performance**: The ground, the haze and the night lights cost less to draw, with the same look.
+
+### Fixed
+
+- **Performance**: Arriving in a village no longer freezes the game while it is built.
+- **Performance**: The main menu no longer stutters every second.
+- **Performance**: The ground no longer stutters as it loads, along the railway as elsewhere.
+
 ## [0.1.0-dev.202610220605] - 2026-10-22
 
 ### Added

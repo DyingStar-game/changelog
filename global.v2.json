@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T10:35:17.292070+00:00",
+  "generated_at": "2026-10-22T10:40:56.507467+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -108,6 +108,31 @@
               "type": "added",
               "area": "props",
               "text": "Added materials and decals to the Hammerdrill"
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "The game runs faster in villages, by day and by night, especially seen from above."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "The ground, the haze and the night lights cost less to draw, with the same look."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Arriving in a village no longer freezes the game while it is built."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "The main menu no longer stutters every second."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "The ground no longer stutters as it loads, along the railway as elsewhere."
             }
           ],
           "fr": [
@@ -115,6 +140,31 @@
               "type": "added",
               "area": "props",
               "text": "Added materials and decals to the Hammerdrill"
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Le jeu tourne plus vite dans les villages, de jour comme de nuit, surtout vu d'en haut."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Le sol, la brume et les éclairages de nuit coûtent moins cher à afficher, avec le même rendu."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Arriver dans un village ne fige plus le jeu pendant sa construction."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Le menu principal ne saccade plus chaque seconde."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Le sol ne saccade plus pendant son chargement, le long de la voie ferrée comme ailleurs."
             }
           ]
         }

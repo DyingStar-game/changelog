@@ -11,6 +11,17 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 - **Objets** : Added materials and decals to the Hammerdrill
 
+### Changed
+
+- **Performances** : Le jeu tourne plus vite dans les villages, de jour comme de nuit, surtout vu d'en haut.
+- **Performances** : Le sol, la brume et les éclairages de nuit coûtent moins cher à afficher, avec le même rendu.
+
+### Fixed
+
+- **Performances** : Arriver dans un village ne fige plus le jeu pendant sa construction.
+- **Performances** : Le menu principal ne saccade plus chaque seconde.
+- **Performances** : Le sol ne saccade plus pendant son chargement, le long de la voie ferrée comme ailleurs.
+
 ## [0.1.0-dev.202610220605] - 2026-10-22
 
 ### Added

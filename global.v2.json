@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T10:43:46.625236+00:00",
+  "generated_at": "2026-10-22T11:45:31.500915+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,123 +103,134 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Added materials and decals to the Hammerdrill"
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "The shower and toilet cabins weigh far less on the servers."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "The roofs of the habitat containers cost far less to draw, with the same shape."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "The paint's texture now shows on the roofs of the habitat containers."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "The game runs faster in villages, by day and by night, especially seen from above."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "The ground, the haze and the night lights cost less to draw, with the same look."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Servers no longer slow down when players are in villages: the planet's gravity only checks what can move."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "The toilet and the shower head can no longer be walked through."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Arriving in a village no longer freezes the game while it is built."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The main menu no longer stutters every second."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The ground no longer stutters as it loads, along the railway as elsewhere."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Added materials and decals to the Hammerdrill"
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Les cabines de douche et de WC pèsent beaucoup moins sur les serveurs."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Les toits des containers d'habitation coûtent beaucoup moins cher à afficher, avec la même forme."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "La texture de la peinture se voit désormais sur les toits des containers d'habitation."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Le jeu tourne plus vite dans les villages, de jour comme de nuit, surtout vu d'en haut."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Le sol, la brume et les éclairages de nuit coûtent moins cher à afficher, avec le même rendu."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Les serveurs ne ralentissent plus quand des joueurs sont dans des villages : la gravité de la planète ne vérifie plus que ce qui peut bouger."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "On ne traverse plus les toilettes ni le pommeau de douche."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Arriver dans un village ne fige plus le jeu pendant sa construction."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Le menu principal ne saccade plus chaque seconde."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Le sol ne saccade plus pendant son chargement, le long de la voie ferrée comme ailleurs."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610221135",
+          "date": "2026-10-22",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Added materials and decals to the Hammerdrill"
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "The shower and toilet cabins weigh far less on the servers."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "The roofs of the habitat containers cost far less to draw, with the same shape."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "The paint's texture now shows on the roofs of the habitat containers."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "The game runs faster in villages, by day and by night, especially seen from above."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "The ground, the haze and the night lights cost less to draw, with the same look."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Servers no longer slow down when players are in villages: the planet's gravity only checks what can move."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "The toilet and the shower head can no longer be walked through."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Arriving in a village no longer freezes the game while it is built."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The main menu no longer stutters every second."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The ground no longer stutters as it loads, along the railway as elsewhere."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Added materials and decals to the Hammerdrill"
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Les cabines de douche et de WC pèsent beaucoup moins sur les serveurs."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Les toits des containers d'habitation coûtent beaucoup moins cher à afficher, avec la même forme."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "La texture de la peinture se voit désormais sur les toits des containers d'habitation."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Le jeu tourne plus vite dans les villages, de jour comme de nuit, surtout vu d'en haut."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Le sol, la brume et les éclairages de nuit coûtent moins cher à afficher, avec le même rendu."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Les serveurs ne ralentissent plus quand des joueurs sont dans des villages : la gravité de la planète ne vérifie plus que ce qui peut bouger."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "On ne traverse plus les toilettes ni le pommeau de douche."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Arriver dans un village ne fige plus le jeu pendant sa construction."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Le menu principal ne saccade plus chaque seconde."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Le sol ne saccade plus pendant son chargement, le long de la voie ferrée comme ailleurs."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610220605",
           "date": "2026-10-22",

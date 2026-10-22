@@ -21,6 +21,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Interface** : Les invites d'interaction ne s'affichent plus à travers les murs.
+- **Véhicules** : Un composant derrière une trappe fermée ne peut plus être pris ni vu à travers elle.
+- **Joueur** : Se lever de son lit ne fait plus passer à travers le mur chez le voisin, et la vue revient droit devant.
+- **Carte stellaire** : Votre logement s'affiche par-dessus les étages au-dessus de lui sur la carte stellaire.
+- **Carte stellaire** : La carte stellaire ne fait plus chuter les images par seconde dans un village.
+- **Joueur** : Le DataPad s'ouvre en mode Dieu.
+- **Performances** : Le jeu ne plante plus quand on le quitte.
+- **Performances** : La première ration, le premier outil ou le premier lieu rencontrés ne figent plus le jeu un instant.
 - **Serveur** : Les missions de transport de passagers et de livraison lisent votre siège et vos biens directement, au lieu d'une présence rafraîchie chaque minute sans l'un ni l'autre.
 - **Serveur** : Votre position, un emplacement et une zone de mission sont enregistrés par rapport à leur planète : ils ne s'écartent plus d'elle quand elle orbite.
 

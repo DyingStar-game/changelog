@@ -21,6 +21,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Interface**: Interaction prompts no longer show through walls.
+- **Vehicles**: A part behind a shut hatch can no longer be taken or seen through it.
+- **Player**: Getting up from your bed no longer puts you through the wall into the next home, and you look ahead again.
+- **Star map**: Your home shows over the storeys above it on the star map.
+- **Star map**: The star map no longer drops the frame rate in a village.
+- **Player**: The DataPad opens in god mode.
+- **Performance**: The game no longer crashes when you quit it.
+- **Performance**: The first ration, tool or place you meet no longer freezes the game a moment.
 - **Server**: Passenger and delivery missions read your seat and your goods directly, instead of a presence refreshed once a minute without either.
 - **Server**: Your position, a place and a mission zone are stored relative to their planet, so they no longer drift away from it as it orbits.
 

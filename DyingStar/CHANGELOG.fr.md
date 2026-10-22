@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Objets** : Added materials and decals to the Hammerdrill
+
 ## [0.1.0-dev.202610220605] - 2026-10-22
 
 ### Added

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T06:17:21.442711+00:00",
+  "generated_at": "2026-10-22T10:35:17.292070+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Added materials and decals to the Hammerdrill"
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Added materials and decals to the Hammerdrill"
+            }
+          ]
         }
       },
       "releases": [

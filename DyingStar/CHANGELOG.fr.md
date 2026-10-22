@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Joueur** : Un journal de déplacement (client.ini) enregistre à quel rythme et avec quelle régularité votre propre position vous parvient, pour signaler les saccades.
 - **Interface** : Le panneau de debug indique à quelle distance se trouve la frontière du serveur actuel dans la direction de la caméra.
 - **Carte stellaire** : Les emplacements de vos missions, d'autres joueurs et des corporations sont maintenant sur la carte stellaire, chacun avec son icône.
 - **Carte stellaire** : Quand un formulaire attend un emplacement, cliquer-en un sur la carte le choisit — il n'est plus nécessaire de viser une planète.
@@ -22,6 +23,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Joueur** : Votre personnage ne fait plus d'embardée en avant quand plusieurs mises à jour de position arrivent en même temps.
 - **Objets** : Le conteneur d'expédition retravaillé est de nouveau jaune au lieu de noir.
 - **Objets** : Les conteneurs empilés reposent de nouveau l'un sur l'autre au lieu de s'enfoncer.
 - **Interface** : Les invites d'interaction ne s'affichent plus à travers les murs.

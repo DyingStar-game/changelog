@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Player**: A movement log (client.ini) records how often and how regularly your own position reaches you, to report stutters.
 - **Interface**: The debug panel shows how far the current server's border is in the direction the camera looks.
 - **Star map**: The places that belong to your missions, to other players and to corporations are now on the star map, each with its own icon.
 - **Star map**: When a form is waiting for a place, clicking one on the chart picks it — you no longer have to aim at a planet.
@@ -22,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Player**: Your character no longer lurches ahead when several position updates arrive at once.
 - **Props**: The reworked shipping container is yellow again instead of black.
 - **Props**: Stacked containers rest on each other again instead of sinking into one another.
 - **Interface**: Interaction prompts no longer show through walls.

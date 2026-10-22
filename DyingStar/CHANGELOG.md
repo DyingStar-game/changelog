@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **Performance**: Characters no longer jump forward every ten seconds on servers that log their performance.
+
 ## [0.1.0-dev.202610221135] - 2026-10-22
 
 ### Added

@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **Performances** : Les personnages ne font plus un bond en avant toutes les dix secondes sur les serveurs qui enregistrent leurs performances.
+
 ## [0.1.0-dev.202610221135] - 2026-10-22
 
 ### Added

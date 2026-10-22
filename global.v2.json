@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T11:45:31.500915+00:00",
+  "generated_at": "2026-10-22T17:15:38.657183+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Characters no longer jump forward every ten seconds on servers that log their performance."
+            }
+          ],
+          "fr": [
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Les personnages ne font plus un bond en avant toutes les dix secondes sur les serveurs qui enregistrent leurs performances."
+            }
+          ]
         }
       },
       "releases": [

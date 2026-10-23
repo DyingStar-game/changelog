@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T21:56:41.817762+00:00",
+  "generated_at": "2026-10-23T22:21:26.162213+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -108,6 +108,11 @@
               "type": "changed",
               "area": "props",
               "text": "Admins can open the spawn wheel in every version of the game, to spawn objects and stock the cargo depots."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "No more invisible wall in the canyons under the highway bridges."
             }
           ],
           "fr": [
@@ -115,6 +120,11 @@
               "type": "changed",
               "area": "props",
               "text": "Les admins peuvent ouvrir la roue d'apparition dans toutes les versions du jeu, pour faire apparaître des objets et remplir les dépôts de fret."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Plus de mur invisible dans les canyons sous les ponts d'autoroute."
             }
           ]
         }

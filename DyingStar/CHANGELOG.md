@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Props**: Admins can open the spawn wheel in every version of the game, to spawn objects and stock the cargo depots.
 
+### Fixed
+
+- **PlanetTech**: No more invisible wall in the canyons under the highway bridges.
+
 ## [0.1.0-dev.202610231800] - 2026-10-23
 
 ### Added

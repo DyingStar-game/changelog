@@ -11,6 +11,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 - **Objets** : Les admins peuvent ouvrir la roue d'apparition dans toutes les versions du jeu, pour faire apparaître des objets et remplir les dépôts de fret.
 
+### Fixed
+
+- **PlanetTech** : Plus de mur invisible dans les canyons sous les ponts d'autoroute.
+
 ## [0.1.0-dev.202610231800] - 2026-10-23
 
 ### Added

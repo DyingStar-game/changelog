@@ -7,6 +7,31 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Véhicules** : Chaque trappe de composant du camion porte son numéro, affiché à côté de sa case sur le tableau de bord.
+
+### Changed
+
+- **Véhicules** : Le plateau et la plaque arrière du camion sont repeints.
+- **Audio** : Le camion électrique a de nouveaux sons : un son d'alimentation plus doux à l'allumage et à l'extinction, et un ronronnement qui monte en douceur au démarrage.
+- **Bâtiments** : Tout le monde peut fermer la porte d'entrée d'un logement restée ouverte, qui ne bloque donc plus une coursive ; seul son occupant peut l'ouvrir.
+
+### Fixed
+
+- **Bâtiments** : Les immeubles d'habitation d'un village font au plus trois niveaux : un rez-de-chaussée et deux étages.
+- **Bâtiments** : La plaque rouge ou verte d'un logement garde sa couleur vue de loin.
+- **Minage** : L'outil de minage montre son nouveau modèle en main, comme au sol.
+- **Audio** : Le jeu ne plante plus en quittant après une discussion vocale.
+- **Carte stellaire** : Le jeu ne plante plus de temps en temps avec la carte stellaire ouverte.
+- **Joueur** : Lire le DataPad ne montre plus votre propre bras devant son écran.
+- **Bâtiments** : Les portes ouvertes des logements des PNJ ne bloquent plus le passage comme un mur invisible.
+- **Bâtiments** : Une porte trouvée ouverte propose de la fermer, et non plus de l'ouvrir.
+- **Interface** : La borne de commande de camion du garage, les panneaux du garage et du dépôt de fret, l'écran du dépôt de roches et celui de l'ascenseur à véhicules sont traduits.
+- **Véhicules** : Un siège derrière une portière fermée ne demande plus d'ouvrir d'abord la porte : sa poignée le propose.
+- **Commandes** : L'aide F1 montre les touches pour diriger un véhicule.
+- **Véhicules** : Le verre des phares du camion ne s'allume plus qu'avec ses phares.
+
 ## [0.1.0-dev.202610221715] - 2026-10-22
 
 ### Fixed

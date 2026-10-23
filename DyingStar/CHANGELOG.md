@@ -7,6 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Vehicles**: Each component hatch of the truck bears its number, shown beside its box on the dashboard.
+
+### Changed
+
+- **Vehicles**: The truck's flatbed and rear plate are repainted.
+- **Audio**: The electric truck has new sounds: a softer power sound when switching on and off, and a running hum that rises smoothly as it starts.
+- **Buildings**: Anyone can close a home's front door left open, so it no longer bars a walkway; only its occupant can open it.
+
+### Fixed
+
+- **Buildings**: A village's housing blocks stand three levels high at most: a ground floor and two storeys.
+- **Buildings**: A home's red or green ID plate keeps its colour when seen from afar.
+- **Mining**: The mining tool shows its new model in hand, as it does on the ground.
+- **Audio**: The game no longer crashes when quitting after a voice chat.
+- **Star map**: The game no longer crashes now and then with the star map open.
+- **Player**: Reading the DataPad no longer shows your own arm in front of its screen.
+- **Buildings**: The open doors of the NPCs' homes no longer block the way like an invisible wall.
+- **Buildings**: A door found open offers to close it, no longer to open it.
+- **Interface**: The garage's truck kiosk, the signs of the garage and the cargo depot, the rock depot's screen and the vehicle lift's screen are translated.
+- **Vehicles**: A seat behind a shut door no longer asks to open the door first: its handle offers it.
+- **Controls**: The F1 help shows the keys to steer a vehicle.
+- **Vehicles**: The truck's headlight glass lights up only when its headlights are on.
+
 ## [0.1.0-dev.202610221715] - 2026-10-22
 
 ### Fixed

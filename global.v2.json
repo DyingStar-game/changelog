@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T23:19:17.306161+00:00",
+  "generated_at": "2026-10-23T23:22:18.393324+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -111,6 +111,11 @@
             },
             {
               "type": "fixed",
+              "area": "ui",
+              "text": "The debug panel shows the number of servers and players of the universe as whole numbers."
+            },
+            {
+              "type": "fixed",
               "area": "player",
               "text": "Rocks and trucks keep their weight: a player no longer slides a rock around, and climbing onto a truck no longer flips it over or sends it spinning."
             },
@@ -125,6 +130,11 @@
               "type": "changed",
               "area": "props",
               "text": "Les admins peuvent ouvrir la roue d'apparition dans toutes les versions du jeu, pour faire apparaître des objets et remplir les dépôts de fret."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Le panneau de debug affiche le nombre de serveurs et de joueurs de l'univers en nombres entiers."
             },
             {
               "type": "fixed",

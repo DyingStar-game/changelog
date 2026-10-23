@@ -13,6 +13,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Interface** : Le panneau de debug affiche le nombre de serveurs et de joueurs de l'univers en nombres entiers.
 - **Joueur** : Les rochers et les camions gardent leur poids : un joueur ne fait plus glisser un rocher, et monter sur un camion ne le renverse plus ni ne le fait tourner sur lui-même.
 - **PlanetTech** : Plus de mur invisible dans les canyons sous les ponts d'autoroute.
 

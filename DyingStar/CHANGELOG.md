@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Props**: Admins can stock the shelves of the nearest cargo depot with hauling boxes from the spawn wheel.
 - **Buildings**: Homes have a ceiling light, switched on and off from the door or from the bed.
 - **Buildings**: A dim night light by the bed keeps a home from being pitch black.
 - **Player**: You wake up lying in your bed when you connect.
@@ -31,6 +32,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Props**: Crates stored on a shelf no longer fall through it when the area changes server.
+- **Performance**: A cargo depot full of crates no longer slows the game down to a few frames per second.
+- **Interface**: When your session has expired, the connection error says to relaunch the game from the launcher.
 - **Graphics**: Sunlight no longer shines through roofs: a shut home stays dark in daytime.
 - **Buildings**: The metal doors inside homes no longer reflect the sky and the sun.
 - **Buildings**: A village's housing blocks stand three levels high at most: a ground floor and two storeys.

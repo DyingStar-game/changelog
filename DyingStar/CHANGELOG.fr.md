@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Objets** : Les admins peuvent remplir de caisses les étagères du dépôt de fret le plus proche, depuis la roue d'apparition.
 - **Bâtiments** : Les maisons ont une lumière au plafond, qu'on allume et éteint depuis la porte ou depuis le lit.
 - **Bâtiments** : Une veilleuse près du lit évite qu'une maison soit plongée dans le noir.
 - **Joueur** : Vous vous réveillez allongé dans votre lit à la connexion.
@@ -31,6 +32,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Objets** : Les caisses rangées sur une étagère ne passent plus au travers quand la zone change de serveur.
+- **Performances** : Un dépôt de fret rempli de caisses ne ralentit plus le jeu à quelques images par seconde.
+- **Interface** : Quand ta session a expiré, l'erreur de connexion dit de relancer le jeu depuis le launcher.
 - **Graphismes** : La lumière du soleil ne traverse plus les toits : une maison fermée reste sombre en plein jour.
 - **Bâtiments** : Les portes métalliques des maisons ne reflètent plus le ciel ni le soleil.
 - **Bâtiments** : Les immeubles d'habitation d'un village font au plus trois niveaux : un rez-de-chaussée et deux étages.

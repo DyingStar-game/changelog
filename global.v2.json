@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T18:02:41.755182+00:00",
+  "generated_at": "2026-10-23T18:08:32.631833+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,323 +103,334 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Admins can stock the shelves of the nearest cargo depot with hauling boxes from the spawn wheel."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Homes have a ceiling light, switched on and off from the door or from the bed."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "A dim night light by the bed keeps a home from being pitch black."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "You wake up lying in your bed when you connect."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "The garage has a touch-screen vehicle terminal: pick a vehicle on its screen and it comes out on the parking bay at once."
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Each garage has a cargo pallet transporter, which can be pushed around."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "The action on an object shows in a frame beside the crosshair, a line drawn to it from the object; it can be turned off in Settings › General."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Each component hatch of the truck bears its number, shown beside its box on the dashboard."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "The bedside lamp no longer comes on by itself at night: it is switched by hand."
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Lying in bed, you can use the lamp or the light switch within reach; aimed at nothing, the action key gets you up."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "The truck's flatbed and rear plate are repainted."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "The electric truck has new sounds: a softer power sound when switching on and off, and a running hum that rises smoothly as it starts."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Anyone can close a home's front door left open, so it no longer bars a walkway; only its occupant can open it."
-            },
-            {
-              "type": "removed",
-              "area": "vehicles",
-              "text": "The garage's truck kiosk, replaced by the vehicle terminal."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "Crates stored on a shelf no longer fall through it when the area changes server."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "A cargo depot full of crates no longer slows the game down to a few frames per second."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "When your session has expired, the connection error says to relaunch the game from the launcher."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Sunlight no longer shines through roofs: a shut home stays dark in daytime."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "The metal doors inside homes no longer reflect the sky and the sun."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "A village's housing blocks stand three levels high at most: a ground floor and two storeys."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "A home's red or green ID plate keeps its colour when seen from afar."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "The mining tool shows its new model in hand, as it does on the ground."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "The game no longer crashes when quitting after a voice chat."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "The game no longer crashes now and then with the star map open."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Reading the DataPad no longer shows your own arm in front of its screen."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "The open doors of the NPCs' homes no longer block the way like an invisible wall."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "A door found open offers to close it, no longer to open it."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The garage's truck kiosk, the signs of the garage and the cargo depot, the rock depot's screen and the vehicle lift's screen are translated."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "A seat behind a shut door no longer asks to open the door first: its handle offers it."
-            },
-            {
-              "type": "fixed",
-              "area": "controls",
-              "text": "The F1 help shows the keys to steer a vehicle."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "The truck's headlight glass lights up only when its headlights are on."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Les admins peuvent remplir de caisses les étagères du dépôt de fret le plus proche, depuis la roue d'apparition."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Les maisons ont une lumière au plafond, qu'on allume et éteint depuis la porte ou depuis le lit."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Une veilleuse près du lit évite qu'une maison soit plongée dans le noir."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Vous vous réveillez allongé dans votre lit à la connexion."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Le garage a une borne tactile de véhicules : choisissez un véhicule sur son écran, il sort aussitôt sur la place de stationnement."
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Chaque garage a un transpalette (sans feature)"
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "L'action possible sur un objet s'affiche dans un cadre près du viseur, reliée à l'objet par un trait ; elle se désactive dans Réglages › Général."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Chaque trappe de composant du camion porte son numéro, affiché à côté de sa case sur le tableau de bord."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "La lampe de chevet ne s'allume plus seule à la nuit : on l'allume à la main."
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Allongé dans votre lit, vous pouvez utiliser la lampe ou l'interrupteur à portée ; sans rien viser, la touche d'action vous lève."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Le plateau et la plaque arrière du camion sont repeints."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "Le camion électrique a de nouveaux sons : un son d'alimentation plus doux à l'allumage et à l'extinction, et un ronronnement qui monte en douceur au démarrage."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Tout le monde peut fermer la porte d'entrée d'un logement restée ouverte, qui ne bloque donc plus une coursive ; seul son occupant peut l'ouvrir."
-            },
-            {
-              "type": "removed",
-              "area": "vehicles",
-              "text": "La borne « Demander un camion » du garage, remplacée par la borne de véhicules."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "Les caisses rangées sur une étagère ne passent plus au travers quand la zone change de serveur."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Un dépôt de fret rempli de caisses ne ralentit plus le jeu à quelques images par seconde."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Quand ta session a expiré, l'erreur de connexion dit de relancer le jeu depuis le launcher."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "La lumière du soleil ne traverse plus les toits : une maison fermée reste sombre en plein jour."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Les portes métalliques des maisons ne reflètent plus le ciel ni le soleil."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Les immeubles d'habitation d'un village font au plus trois niveaux : un rez-de-chaussée et deux étages."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "La plaque rouge ou verte d'un logement garde sa couleur vue de loin."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "L'outil de minage montre son nouveau modèle en main, comme au sol."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "Le jeu ne plante plus en quittant après une discussion vocale."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Le jeu ne plante plus de temps en temps avec la carte stellaire ouverte."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Lire le DataPad ne montre plus votre propre bras devant son écran."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Les portes ouvertes des logements des PNJ ne bloquent plus le passage comme un mur invisible."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Une porte trouvée ouverte propose de la fermer, et non plus de l'ouvrir."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "La borne de commande de camion du garage, les panneaux du garage et du dépôt de fret, l'écran du dépôt de roches et celui de l'ascenseur à véhicules sont traduits."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Un siège derrière une portière fermée ne demande plus d'ouvrir d'abord la porte : sa poignée le propose."
-            },
-            {
-              "type": "fixed",
-              "area": "controls",
-              "text": "L'aide F1 montre les touches pour diriger un véhicule."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Le verre des phares du camion ne s'allume plus qu'avec ses phares."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610231800",
+          "date": "2026-10-23",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Admins can stock the shelves of the nearest cargo depot with hauling boxes from the spawn wheel."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Homes have a ceiling light, switched on and off from the door or from the bed."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "A dim night light by the bed keeps a home from being pitch black."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "You wake up lying in your bed when you connect."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "The garage has a touch-screen vehicle terminal: pick a vehicle on its screen and it comes out on the parking bay at once."
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Each garage has a cargo pallet transporter, which can be pushed around."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "The action on an object shows in a frame beside the crosshair, a line drawn to it from the object; it can be turned off in Settings › General."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Each component hatch of the truck bears its number, shown beside its box on the dashboard."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "The bedside lamp no longer comes on by itself at night: it is switched by hand."
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Lying in bed, you can use the lamp or the light switch within reach; aimed at nothing, the action key gets you up."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "The truck's flatbed and rear plate are repainted."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "The electric truck has new sounds: a softer power sound when switching on and off, and a running hum that rises smoothly as it starts."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Anyone can close a home's front door left open, so it no longer bars a walkway; only its occupant can open it."
+              },
+              {
+                "type": "removed",
+                "area": "vehicles",
+                "text": "The garage's truck kiosk, replaced by the vehicle terminal."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "Crates stored on a shelf no longer fall through it when the area changes server."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "A cargo depot full of crates no longer slows the game down to a few frames per second."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "When your session has expired, the connection error says to relaunch the game from the launcher."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Sunlight no longer shines through roofs: a shut home stays dark in daytime."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "The metal doors inside homes no longer reflect the sky and the sun."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "A village's housing blocks stand three levels high at most: a ground floor and two storeys."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "A home's red or green ID plate keeps its colour when seen from afar."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "The mining tool shows its new model in hand, as it does on the ground."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "The game no longer crashes when quitting after a voice chat."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "The game no longer crashes now and then with the star map open."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Reading the DataPad no longer shows your own arm in front of its screen."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "The open doors of the NPCs' homes no longer block the way like an invisible wall."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "A door found open offers to close it, no longer to open it."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The garage's truck kiosk, the signs of the garage and the cargo depot, the rock depot's screen and the vehicle lift's screen are translated."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "A seat behind a shut door no longer asks to open the door first: its handle offers it."
+              },
+              {
+                "type": "fixed",
+                "area": "controls",
+                "text": "The F1 help shows the keys to steer a vehicle."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "The truck's headlight glass lights up only when its headlights are on."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Les admins peuvent remplir de caisses les étagères du dépôt de fret le plus proche, depuis la roue d'apparition."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Les maisons ont une lumière au plafond, qu'on allume et éteint depuis la porte ou depuis le lit."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Une veilleuse près du lit évite qu'une maison soit plongée dans le noir."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Vous vous réveillez allongé dans votre lit à la connexion."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Le garage a une borne tactile de véhicules : choisissez un véhicule sur son écran, il sort aussitôt sur la place de stationnement."
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Chaque garage a un transpalette (sans feature)"
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "L'action possible sur un objet s'affiche dans un cadre près du viseur, reliée à l'objet par un trait ; elle se désactive dans Réglages › Général."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Chaque trappe de composant du camion porte son numéro, affiché à côté de sa case sur le tableau de bord."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "La lampe de chevet ne s'allume plus seule à la nuit : on l'allume à la main."
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Allongé dans votre lit, vous pouvez utiliser la lampe ou l'interrupteur à portée ; sans rien viser, la touche d'action vous lève."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Le plateau et la plaque arrière du camion sont repeints."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "Le camion électrique a de nouveaux sons : un son d'alimentation plus doux à l'allumage et à l'extinction, et un ronronnement qui monte en douceur au démarrage."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Tout le monde peut fermer la porte d'entrée d'un logement restée ouverte, qui ne bloque donc plus une coursive ; seul son occupant peut l'ouvrir."
+              },
+              {
+                "type": "removed",
+                "area": "vehicles",
+                "text": "La borne « Demander un camion » du garage, remplacée par la borne de véhicules."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "Les caisses rangées sur une étagère ne passent plus au travers quand la zone change de serveur."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Un dépôt de fret rempli de caisses ne ralentit plus le jeu à quelques images par seconde."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Quand ta session a expiré, l'erreur de connexion dit de relancer le jeu depuis le launcher."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "La lumière du soleil ne traverse plus les toits : une maison fermée reste sombre en plein jour."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Les portes métalliques des maisons ne reflètent plus le ciel ni le soleil."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Les immeubles d'habitation d'un village font au plus trois niveaux : un rez-de-chaussée et deux étages."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "La plaque rouge ou verte d'un logement garde sa couleur vue de loin."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "L'outil de minage montre son nouveau modèle en main, comme au sol."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "Le jeu ne plante plus en quittant après une discussion vocale."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Le jeu ne plante plus de temps en temps avec la carte stellaire ouverte."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Lire le DataPad ne montre plus votre propre bras devant son écran."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Les portes ouvertes des logements des PNJ ne bloquent plus le passage comme un mur invisible."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Une porte trouvée ouverte propose de la fermer, et non plus de l'ouvrir."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "La borne de commande de camion du garage, les panneaux du garage et du dépôt de fret, l'écran du dépôt de roches et celui de l'ascenseur à véhicules sont traduits."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Un siège derrière une portière fermée ne demande plus d'ouvrir d'abord la porte : sa poignée le propose."
+              },
+              {
+                "type": "fixed",
+                "area": "controls",
+                "text": "L'aide F1 montre les touches pour diriger un véhicule."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Le verre des phares du camion ne s'allume plus qu'avec ses phares."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610221715",
           "date": "2026-10-22",

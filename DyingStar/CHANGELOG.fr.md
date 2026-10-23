@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610231800] - 2026-10-23
+
 ### Added
 
 - **Objets** : Les admins peuvent remplir de caisses les étagères du dépôt de fret le plus proche, depuis la roue d'apparition.

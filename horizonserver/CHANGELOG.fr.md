@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **Connexion** : Des objets ne manquent plus quand tu entres dans un endroit chargé, comme un dépôt de fret rempli de caisses.
+
 ## [0.1.0-dev.202610220604] - 2026-10-22
 
 ### Added

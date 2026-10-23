@@ -13,6 +13,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Joueur** : Les rochers et les camions gardent leur poids : un joueur ne fait plus glisser un rocher, et monter sur un camion ne le renverse plus ni ne le fait tourner sur lui-même.
 - **PlanetTech** : Plus de mur invisible dans les canyons sous les ponts d'autoroute.
 
 ## [0.1.0-dev.202610231800] - 2026-10-23

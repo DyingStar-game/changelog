@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Player**: Rocks and trucks keep their weight: a player no longer slides a rock around, and climbing onto a truck no longer flips it over or sends it spinning.
 - **PlanetTech**: No more invisible wall in the canyons under the highway bridges.
 
 ## [0.1.0-dev.202610231800] - 2026-10-23

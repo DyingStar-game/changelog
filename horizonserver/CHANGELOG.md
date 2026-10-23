@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610231756] - 2026-10-23
+
 ### Fixed
 
 - **Connection**: Objects no longer go missing when you enter a busy area, such as a cargo depot full of crates.

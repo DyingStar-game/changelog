@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T17:57:03.676563+00:00",
+  "generated_at": "2026-10-23T18:02:41.755182+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -6532,23 +6532,34 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "fixed",
-              "area": "connection",
-              "text": "Objects no longer go missing when you enter a busy area, such as a cargo depot full of crates."
-            }
-          ],
-          "fr": [
-            {
-              "type": "fixed",
-              "area": "connection",
-              "text": "Des objets ne manquent plus quand tu entres dans un endroit chargé, comme un dépôt de fret rempli de caisses."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610231756",
+          "date": "2026-10-23",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "fixed",
+                "area": "connection",
+                "text": "Objects no longer go missing when you enter a busy area, such as a cargo depot full of crates."
+              }
+            ],
+            "fr": [
+              {
+                "type": "fixed",
+                "area": "connection",
+                "text": "Des objets ne manquent plus quand tu entres dans un endroit chargé, comme un dépôt de fret rempli de caisses."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610220604",
           "date": "2026-10-22",

@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Interface** : L'action possible sur un objet s'affiche dans un cadre près du viseur, reliée à l'objet par un trait ; elle se désactive dans Réglages › Général.
 - **Véhicules** : Chaque trappe de composant du camion porte son numéro, affiché à côté de sa case sur le tableau de bord.
 
 ### Changed

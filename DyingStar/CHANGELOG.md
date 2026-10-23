@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Interface**: The action on an object shows in a frame beside the crosshair, a line drawn to it from the object; it can be turned off in Settings › General.
 - **Vehicles**: Each component hatch of the truck bears its number, shown beside its box on the dashboard.
 
 ### Changed

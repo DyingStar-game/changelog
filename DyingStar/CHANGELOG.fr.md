@@ -9,6 +9,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Bâtiments** : Les maisons ont une lumière au plafond, qu'on allume et éteint depuis la porte ou depuis le lit.
+- **Bâtiments** : Une veilleuse près du lit évite qu'une maison soit plongée dans le noir.
+- **Joueur** : Vous vous réveillez allongé dans votre lit à la connexion.
 - **Véhicules** : Le garage a une borne tactile de véhicules : choisissez un véhicule sur son écran, il sort aussitôt sur la place de stationnement.
 - **Objets** : Chaque garage a un transpalette (sans feature)
 - **Interface** : L'action possible sur un objet s'affiche dans un cadre près du viseur, reliée à l'objet par un trait ; elle se désactive dans Réglages › Général.
@@ -16,6 +19,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Bâtiments** : La lampe de chevet ne s'allume plus seule à la nuit : on l'allume à la main.
+- **Joueur** : Allongé dans votre lit, vous pouvez utiliser la lampe ou l'interrupteur à portée ; sans rien viser, la touche d'action vous lève.
 - **Véhicules** : Le plateau et la plaque arrière du camion sont repeints.
 - **Audio** : Le camion électrique a de nouveaux sons : un son d'alimentation plus doux à l'allumage et à l'extinction, et un ronronnement qui monte en douceur au démarrage.
 - **Bâtiments** : Tout le monde peut fermer la porte d'entrée d'un logement restée ouverte, qui ne bloque donc plus une coursive ; seul son occupant peut l'ouvrir.
@@ -26,6 +31,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Graphismes** : La lumière du soleil ne traverse plus les toits : une maison fermée reste sombre en plein jour.
+- **Bâtiments** : Les portes métalliques des maisons ne reflètent plus le ciel ni le soleil.
 - **Bâtiments** : Les immeubles d'habitation d'un village font au plus trois niveaux : un rez-de-chaussée et deux étages.
 - **Bâtiments** : La plaque rouge ou verte d'un logement garde sa couleur vue de loin.
 - **Minage** : L'outil de minage montre son nouveau modèle en main, comme au sol.

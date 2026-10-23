@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Buildings**: Homes have a ceiling light, switched on and off from the door or from the bed.
+- **Buildings**: A dim night light by the bed keeps a home from being pitch black.
+- **Player**: You wake up lying in your bed when you connect.
 - **Vehicles**: The garage has a touch-screen vehicle terminal: pick a vehicle on its screen and it comes out on the parking bay at once.
 - **Props**: Each garage has a cargo pallet transporter, which can be pushed around.
 - **Interface**: The action on an object shows in a frame beside the crosshair, a line drawn to it from the object; it can be turned off in Settings › General.
@@ -16,6 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Buildings**: The bedside lamp no longer comes on by itself at night: it is switched by hand.
+- **Player**: Lying in bed, you can use the lamp or the light switch within reach; aimed at nothing, the action key gets you up.
 - **Vehicles**: The truck's flatbed and rear plate are repainted.
 - **Audio**: The electric truck has new sounds: a softer power sound when switching on and off, and a running hum that rises smoothly as it starts.
 - **Buildings**: Anyone can close a home's front door left open, so it no longer bars a walkway; only its occupant can open it.
@@ -26,6 +31,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Graphics**: Sunlight no longer shines through roofs: a shut home stays dark in daytime.
+- **Buildings**: The metal doors inside homes no longer reflect the sky and the sun.
 - **Buildings**: A village's housing blocks stand three levels high at most: a ground floor and two storeys.
 - **Buildings**: A home's red or green ID plate keeps its colour when seen from afar.
 - **Mining**: The mining tool shows its new model in hand, as it does on the ground.

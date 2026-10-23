@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T17:00:11.914891+00:00",
+  "generated_at": "2026-10-23T17:54:54.588389+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,21 @@
           "en": [
             {
               "type": "added",
+              "area": "buildings",
+              "text": "Homes have a ceiling light, switched on and off from the door or from the bed."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "A dim night light by the bed keeps a home from being pitch black."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "You wake up lying in your bed when you connect."
+            },
+            {
+              "type": "added",
               "area": "vehicles",
               "text": "The garage has a touch-screen vehicle terminal: pick a vehicle on its screen and it comes out on the parking bay at once."
             },
@@ -126,6 +141,16 @@
             },
             {
               "type": "changed",
+              "area": "buildings",
+              "text": "The bedside lamp no longer comes on by itself at night: it is switched by hand."
+            },
+            {
+              "type": "changed",
+              "area": "player",
+              "text": "Lying in bed, you can use the lamp or the light switch within reach; aimed at nothing, the action key gets you up."
+            },
+            {
+              "type": "changed",
               "area": "vehicles",
               "text": "The truck's flatbed and rear plate are repainted."
             },
@@ -143,6 +168,16 @@
               "type": "removed",
               "area": "vehicles",
               "text": "The garage's truck kiosk, replaced by the vehicle terminal."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Sunlight no longer shines through roofs: a shut home stays dark in daytime."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "The metal doors inside homes no longer reflect the sky and the sun."
             },
             {
               "type": "fixed",
@@ -208,6 +243,21 @@
           "fr": [
             {
               "type": "added",
+              "area": "buildings",
+              "text": "Les maisons ont une lumière au plafond, qu'on allume et éteint depuis la porte ou depuis le lit."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Une veilleuse près du lit évite qu'une maison soit plongée dans le noir."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "Vous vous réveillez allongé dans votre lit à la connexion."
+            },
+            {
+              "type": "added",
               "area": "vehicles",
               "text": "Le garage a une borne tactile de véhicules : choisissez un véhicule sur son écran, il sort aussitôt sur la place de stationnement."
             },
@@ -228,6 +278,16 @@
             },
             {
               "type": "changed",
+              "area": "buildings",
+              "text": "La lampe de chevet ne s'allume plus seule à la nuit : on l'allume à la main."
+            },
+            {
+              "type": "changed",
+              "area": "player",
+              "text": "Allongé dans votre lit, vous pouvez utiliser la lampe ou l'interrupteur à portée ; sans rien viser, la touche d'action vous lève."
+            },
+            {
+              "type": "changed",
               "area": "vehicles",
               "text": "Le plateau et la plaque arrière du camion sont repeints."
             },
@@ -245,6 +305,16 @@
               "type": "removed",
               "area": "vehicles",
               "text": "La borne « Demander un camion » du garage, remplacée par la borne de véhicules."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "La lumière du soleil ne traverse plus les toits : une maison fermée reste sombre en plein jour."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "Les portes métalliques des maisons ne reflètent plus le ciel ni le soleil."
             },
             {
               "type": "fixed",

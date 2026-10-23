@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610232347] - 2026-10-23
+
 ### Changed
 
 - **Objets** : Les admins peuvent ouvrir la roue d'apparition dans toutes les versions du jeu, pour faire apparaître des objets et remplir les dépôts de fret.

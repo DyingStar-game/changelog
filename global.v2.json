@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T23:22:18.393324+00:00",
+  "generated_at": "2026-10-23T23:58:14.923413+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,53 +103,64 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "changed",
-              "area": "props",
-              "text": "Admins can open the spawn wheel in every version of the game, to spawn objects and stock the cargo depots."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The debug panel shows the number of servers and players of the universe as whole numbers."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Rocks and trucks keep their weight: a player no longer slides a rock around, and climbing onto a truck no longer flips it over or sends it spinning."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "No more invisible wall in the canyons under the highway bridges."
-            }
-          ],
-          "fr": [
-            {
-              "type": "changed",
-              "area": "props",
-              "text": "Les admins peuvent ouvrir la roue d'apparition dans toutes les versions du jeu, pour faire apparaître des objets et remplir les dépôts de fret."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Le panneau de debug affiche le nombre de serveurs et de joueurs de l'univers en nombres entiers."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Les rochers et les camions gardent leur poids : un joueur ne fait plus glisser un rocher, et monter sur un camion ne le renverse plus ni ne le fait tourner sur lui-même."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Plus de mur invisible dans les canyons sous les ponts d'autoroute."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610232347",
+          "date": "2026-10-23",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "changed",
+                "area": "props",
+                "text": "Admins can open the spawn wheel in every version of the game, to spawn objects and stock the cargo depots."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The debug panel shows the number of servers and players of the universe as whole numbers."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Rocks and trucks keep their weight: a player no longer slides a rock around, and climbing onto a truck no longer flips it over or sends it spinning."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "No more invisible wall in the canyons under the highway bridges."
+              }
+            ],
+            "fr": [
+              {
+                "type": "changed",
+                "area": "props",
+                "text": "Les admins peuvent ouvrir la roue d'apparition dans toutes les versions du jeu, pour faire apparaître des objets et remplir les dépôts de fret."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Le panneau de debug affiche le nombre de serveurs et de joueurs de l'univers en nombres entiers."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Les rochers et les camions gardent leur poids : un joueur ne fait plus glisser un rocher, et monter sur un camion ne le renverse plus ni ne le fait tourner sur lui-même."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Plus de mur invisible dans les canyons sous les ponts d'autoroute."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610231800",
           "date": "2026-10-23",

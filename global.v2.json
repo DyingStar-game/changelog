@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T18:08:32.631833+00:00",
+  "generated_at": "2026-10-23T21:56:41.817762+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "props",
+              "text": "Admins can open the spawn wheel in every version of the game, to spawn objects and stock the cargo depots."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "props",
+              "text": "Les admins peuvent ouvrir la roue d'apparition dans toutes les versions du jeu, pour faire apparaître des objets et remplir les dépôts de fret."
+            }
+          ]
         }
       },
       "releases": [

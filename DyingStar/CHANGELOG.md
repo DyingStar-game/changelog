@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Vehicles**: The garage has a touch-screen vehicle terminal: pick a vehicle on its screen and it comes out on the parking bay at once.
+- **Props**: Each garage has a cargo pallet transporter, which can be pushed around.
 - **Interface**: The action on an object shows in a frame beside the crosshair, a line drawn to it from the object; it can be turned off in Settings › General.
 - **Vehicles**: Each component hatch of the truck bears its number, shown beside its box on the dashboard.
 
@@ -17,6 +19,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Vehicles**: The truck's flatbed and rear plate are repainted.
 - **Audio**: The electric truck has new sounds: a softer power sound when switching on and off, and a running hum that rises smoothly as it starts.
 - **Buildings**: Anyone can close a home's front door left open, so it no longer bars a walkway; only its occupant can open it.
+
+### Removed
+
+- **Vehicles**: The garage's truck kiosk, replaced by the vehicle terminal.
 
 ### Fixed
 

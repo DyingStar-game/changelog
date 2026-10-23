@@ -9,6 +9,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Véhicules** : Le garage a une borne tactile de véhicules : choisissez un véhicule sur son écran, il sort aussitôt sur la place de stationnement.
+- **Objets** : Chaque garage a un transpalette (sans feature)
 - **Interface** : L'action possible sur un objet s'affiche dans un cadre près du viseur, reliée à l'objet par un trait ; elle se désactive dans Réglages › Général.
 - **Véhicules** : Chaque trappe de composant du camion porte son numéro, affiché à côté de sa case sur le tableau de bord.
 
@@ -17,6 +19,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Véhicules** : Le plateau et la plaque arrière du camion sont repeints.
 - **Audio** : Le camion électrique a de nouveaux sons : un son d'alimentation plus doux à l'allumage et à l'extinction, et un ronronnement qui monte en douceur au démarrage.
 - **Bâtiments** : Tout le monde peut fermer la porte d'entrée d'un logement restée ouverte, qui ne bloque donc plus une coursive ; seul son occupant peut l'ouvrir.
+
+### Removed
+
+- **Véhicules** : La borne « Demander un camion » du garage, remplacée par la borne de véhicules.
 
 ### Fixed
 

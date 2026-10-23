@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T09:49:43.602436+00:00",
+  "generated_at": "2026-10-23T09:50:52.845287+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,16 @@
           "en": [
             {
               "type": "added",
+              "area": "vehicles",
+              "text": "The garage has a touch-screen vehicle terminal: pick a vehicle on its screen and it comes out on the parking bay at once."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Each garage has a cargo pallet transporter, which can be pushed around."
+            },
+            {
+              "type": "added",
               "area": "ui",
               "text": "The action on an object shows in a frame beside the crosshair, a line drawn to it from the object; it can be turned off in Settings › General."
             },
@@ -128,6 +138,11 @@
               "type": "changed",
               "area": "buildings",
               "text": "Anyone can close a home's front door left open, so it no longer bars a walkway; only its occupant can open it."
+            },
+            {
+              "type": "removed",
+              "area": "vehicles",
+              "text": "The garage's truck kiosk, replaced by the vehicle terminal."
             },
             {
               "type": "fixed",
@@ -193,6 +208,16 @@
           "fr": [
             {
               "type": "added",
+              "area": "vehicles",
+              "text": "Le garage a une borne tactile de véhicules : choisissez un véhicule sur son écran, il sort aussitôt sur la place de stationnement."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Chaque garage a un transpalette (sans feature)"
+            },
+            {
+              "type": "added",
               "area": "ui",
               "text": "L'action possible sur un objet s'affiche dans un cadre près du viseur, reliée à l'objet par un trait ; elle se désactive dans Réglages › Général."
             },
@@ -215,6 +240,11 @@
               "type": "changed",
               "area": "buildings",
               "text": "Tout le monde peut fermer la porte d'entrée d'un logement restée ouverte, qui ne bloque donc plus une coursive ; seul son occupant peut l'ouvrir."
+            },
+            {
+              "type": "removed",
+              "area": "vehicles",
+              "text": "La borne « Demander un camion » du garage, remplacée par la borne de véhicules."
             },
             {
               "type": "fixed",

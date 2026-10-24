@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Connexion** : Les admins et superviseurs ont leurs outils en jeu dès la connexion.
+
+### Changed
+
+- **Connexion** : Une connexion expirée te dit maintenant de relancer le jeu depuis le launcher.
+
 ## [0.1.0-dev.202610231756] - 2026-10-23
 
 ### Fixed

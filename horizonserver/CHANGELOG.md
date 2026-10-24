@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Connection**: Admins and supervisors get their tools in the game as soon as they log in.
+
+### Changed
+
+- **Connection**: An expired login now tells you to relaunch the game from the launcher.
+
 ## [0.1.0-dev.202610231756] - 2026-10-23
 
 ### Fixed

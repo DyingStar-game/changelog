@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T23:58:14.923413+00:00",
+  "generated_at": "2026-10-24T00:17:47.624212+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -6596,8 +6596,30 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "connection",
+              "text": "Admins and supervisors get their tools in the game as soon as they log in."
+            },
+            {
+              "type": "changed",
+              "area": "connection",
+              "text": "An expired login now tells you to relaunch the game from the launcher."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "connection",
+              "text": "Les admins et superviseurs ont leurs outils en jeu dès la connexion."
+            },
+            {
+              "type": "changed",
+              "area": "connection",
+              "text": "Une connexion expirée te dit maintenant de relancer le jeu depuis le launcher."
+            }
+          ]
         }
       },
       "releases": [

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-24T00:17:47.624212+00:00",
+  "generated_at": "2026-10-24T00:23:31.737131+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -6596,33 +6596,44 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "connection",
-              "text": "Admins and supervisors get their tools in the game as soon as they log in."
-            },
-            {
-              "type": "changed",
-              "area": "connection",
-              "text": "An expired login now tells you to relaunch the game from the launcher."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "connection",
-              "text": "Les admins et superviseurs ont leurs outils en jeu dès la connexion."
-            },
-            {
-              "type": "changed",
-              "area": "connection",
-              "text": "Une connexion expirée te dit maintenant de relancer le jeu depuis le launcher."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610240018",
+          "date": "2026-10-24",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "connection",
+                "text": "Admins and supervisors get their tools in the game as soon as they log in."
+              },
+              {
+                "type": "changed",
+                "area": "connection",
+                "text": "An expired login now tells you to relaunch the game from the launcher."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "connection",
+                "text": "Les admins et superviseurs ont leurs outils en jeu dès la connexion."
+              },
+              {
+                "type": "changed",
+                "area": "connection",
+                "text": "Une connexion expirée te dit maintenant de relancer le jeu depuis le launcher."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610231756",
           "date": "2026-10-23",

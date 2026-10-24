@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610240018] - 2026-10-24
+
 ### Added
 
 - **Connexion** : Les admins et superviseurs ont leurs outils en jeu dès la connexion.

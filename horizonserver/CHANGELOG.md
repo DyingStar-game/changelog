@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610240018] - 2026-10-24
+
 ### Added
 
 - **Connection**: Admins and supervisors get their tools in the game as soon as they log in.

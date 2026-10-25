@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T08:56:00.554430+00:00",
+  "generated_at": "2026-10-25T08:59:04.492991+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "security",
+              "area": "server",
+              "text": "A player can no longer take control of the commands reserved for non-player characters."
+            }
+          ],
+          "fr": [
+            {
+              "type": "security",
+              "area": "server",
+              "text": "Un joueur ne peut plus prendre le contrôle des commandes réservées aux personnages non joueurs."
+            }
+          ]
         }
       },
       "releases": [

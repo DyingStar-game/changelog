@@ -9,10 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Buildings**: A home's container now has a single door, always shut, beside an open doorway.
 - **Interface**: The server debug readout shows the server border up to 30 km away and no longer lists every zone.
 
 ### Fixed
 
+- **Buildings**: NPCs get out of their homes and walk the walkways without being stopped by the container doors.
+- **Buildings**: The container door and walls no longer show a smeared texture.
 - **Interface**: The chat no longer shows a scrollbar when it is full of messages; it only shows while writing.
 - **Interface**: Past 100 messages, the chat keeps the last 50 with their own time, instead of keeping just one.
 - **Server**: Players no longer move in jerks when an NPC nearby cannot reach where it is going.

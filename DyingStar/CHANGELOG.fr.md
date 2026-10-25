@@ -9,10 +9,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Bâtiments** : Le container d'une habitation n'a plus qu'une porte, toujours fermée, à côté d'une entrée ouverte.
 - **Interface** : Le panneau de debug serveur indique la frontière du serveur jusqu'à 30 km et ne liste plus toutes les zones.
 
 ### Fixed
 
+- **Bâtiments** : Les PNJ sortent de chez eux et longent les coursives sans être bloqués par les portes des containers.
+- **Bâtiments** : La porte et les murs des containers n'ont plus de texture étirée.
 - **Interface** : Le chat n'affiche plus de barre de défilement quand il est plein de messages ; elle n'apparaît plus que pendant l'écriture.
 - **Interface** : Au-delà de 100 messages, le chat garde les 50 derniers avec leur heure, au lieu d'un seul.
 - **Serveur** : Les joueurs n'avancent plus par à-coups quand un PNJ proche n'arrive pas à rejoindre sa destination.

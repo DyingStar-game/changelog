@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T19:46:14.325063+00:00",
+  "generated_at": "2026-10-25T21:03:37.570570+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,8 +106,23 @@
           "en": [
             {
               "type": "changed",
+              "area": "buildings",
+              "text": "A home's container now has a single door, always shut, beside an open doorway."
+            },
+            {
+              "type": "changed",
               "area": "ui",
               "text": "The server debug readout shows the server border up to 30 km away and no longer lists every zone."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "NPCs get out of their homes and walk the walkways without being stopped by the container doors."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "The container door and walls no longer show a smeared texture."
             },
             {
               "type": "fixed",
@@ -128,8 +143,23 @@
           "fr": [
             {
               "type": "changed",
+              "area": "buildings",
+              "text": "Le container d'une habitation n'a plus qu'une porte, toujours fermée, à côté d'une entrée ouverte."
+            },
+            {
+              "type": "changed",
               "area": "ui",
               "text": "Le panneau de debug serveur indique la frontière du serveur jusqu'à 30 km et ne liste plus toutes les zones."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "Les PNJ sortent de chez eux et longent les coursives sans être bloqués par les portes des containers."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "La porte et les murs des containers n'ont plus de texture étirée."
             },
             {
               "type": "fixed",

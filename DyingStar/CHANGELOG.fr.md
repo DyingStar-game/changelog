@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Joueur** : La vue à la première personne ne voit plus à travers les murs, en s'en approchant comme debout, accroupi ou allongé contre eux.
 - **Objets** : Une caisse ou un rocher porté ne peut plus être posé à plat contre un mur : visé, il va au sol au pied du mur.
 - **Véhicules** : Les caisses et rochers chargés dans la benne du camion ne s'enfoncent plus dans le plancher.
 - **Véhicules** : Une charge posée dans la benne du camion reste entre ses ridelles au lieu de dépasser ou d'entrer dans la cabine.

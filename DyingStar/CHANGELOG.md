@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Player**: The first-person view no longer sees through walls when walking up to them, standing, crouching or lying against them.
 - **Props**: A carried crate or rock can no longer be put down flat against a wall: aimed at one, it goes to the floor at its foot.
 - **Vehicles**: Crates and rocks loaded into the truck bed no longer sink into its floor.
 - **Vehicles**: A load put in the truck bed now stays between its sides instead of poking out or into the cab.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T21:03:37.570570+00:00",
+  "generated_at": "2026-10-25T21:17:59.876219+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,83 +103,94 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "A home's container now has a single door, always shut, beside an open doorway."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "The server debug readout shows the server border up to 30 km away and no longer lists every zone."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "NPCs get out of their homes and walk the walkways without being stopped by the container doors."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "The container door and walls no longer show a smeared texture."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The chat no longer shows a scrollbar when it is full of messages; it only shows while writing."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Past 100 messages, the chat keeps the last 50 with their own time, instead of keeping just one."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Players no longer move in jerks when an NPC nearby cannot reach where it is going."
-            }
-          ],
-          "fr": [
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Le container d'une habitation n'a plus qu'une porte, toujours fermée, à côté d'une entrée ouverte."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Le panneau de debug serveur indique la frontière du serveur jusqu'à 30 km et ne liste plus toutes les zones."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Les PNJ sortent de chez eux et longent les coursives sans être bloqués par les portes des containers."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "La porte et les murs des containers n'ont plus de texture étirée."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Le chat n'affiche plus de barre de défilement quand il est plein de messages ; elle n'apparaît plus que pendant l'écriture."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Au-delà de 100 messages, le chat garde les 50 derniers avec leur heure, au lieu d'un seul."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Les joueurs n'avancent plus par à-coups quand un PNJ proche n'arrive pas à rejoindre sa destination."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610252104",
+          "date": "2026-10-25",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "A home's container now has a single door, always shut, beside an open doorway."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "The server debug readout shows the server border up to 30 km away and no longer lists every zone."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "NPCs get out of their homes and walk the walkways without being stopped by the container doors."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "The container door and walls no longer show a smeared texture."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The chat no longer shows a scrollbar when it is full of messages; it only shows while writing."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Past 100 messages, the chat keeps the last 50 with their own time, instead of keeping just one."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Players no longer move in jerks when an NPC nearby cannot reach where it is going."
+              }
+            ],
+            "fr": [
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Le container d'une habitation n'a plus qu'une porte, toujours fermée, à côté d'une entrée ouverte."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Le panneau de debug serveur indique la frontière du serveur jusqu'à 30 km et ne liste plus toutes les zones."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Les PNJ sortent de chez eux et longent les coursives sans être bloqués par les portes des containers."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "La porte et les murs des containers n'ont plus de texture étirée."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Le chat n'affiche plus de barre de défilement quand il est plein de messages ; elle n'apparaît plus que pendant l'écriture."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Au-delà de 100 messages, le chat garde les 50 derniers avec leur heure, au lieu d'un seul."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Les joueurs n'avancent plus par à-coups quand un PNJ proche n'arrive pas à rejoindre sa destination."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610251555",
           "date": "2026-10-25",

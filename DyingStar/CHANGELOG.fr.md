@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610252104] - 2026-10-25
+
 ### Changed
 
 - **Bâtiments** : Le container d'une habitation n'a plus qu'une porte, toujours fermée, à côté d'une entrée ouverte.

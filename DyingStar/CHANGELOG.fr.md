@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610251000] - 2026-10-25
+
 ### Changed
 
 - **Bâtiments** : Les cabines de douche et de toilettes sont retirées des habitations pour le moment.

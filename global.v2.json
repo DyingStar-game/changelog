@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T10:00:36.585397+00:00",
+  "generated_at": "2026-10-25T10:09:00.516786+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,33 +103,44 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "The shower and toilet cabins are removed from homes for now."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "The game no longer crashes when walking through a village of homes."
-            }
-          ],
-          "fr": [
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Les cabines de douche et de toilettes sont retirées des habitations pour le moment."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Le jeu ne plante plus en traversant un village d'habitations."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610251000",
+          "date": "2026-10-25",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "The shower and toilet cabins are removed from homes for now."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "The game no longer crashes when walking through a village of homes."
+              }
+            ],
+            "fr": [
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Les cabines de douche et de toilettes sont retirées des habitations pour le moment."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Le jeu ne plante plus en traversant un village d'habitations."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610250910",
           "date": "2026-10-25",

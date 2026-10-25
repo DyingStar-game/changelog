@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610251555] - 2026-10-25
+
 ### Fixed
 
 - **Joueur** : La vue à la première personne ne voit plus à travers les murs, en s'en approchant comme debout, accroupi ou allongé contre eux.

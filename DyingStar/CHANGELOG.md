@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Player**: NPCs no longer stay stuck at the cargo depot's door when they go to work.
 - **Audio**: The game no longer crashes when it is closed on Windows.
 
 ## [0.1.0-dev.202610251000] - 2026-10-25

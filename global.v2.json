@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T12:35:31.847120+00:00",
+  "generated_at": "2026-10-25T13:09:16.101862+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,11 +106,21 @@
           "en": [
             {
               "type": "fixed",
+              "area": "player",
+              "text": "NPCs no longer stay stuck at the cargo depot's door when they go to work."
+            },
+            {
+              "type": "fixed",
               "area": "audio",
               "text": "The game no longer crashes when it is closed on Windows."
             }
           ],
           "fr": [
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Les PNJ ne restent plus bloqués à la porte du dépôt cargo quand ils vont travailler."
+            },
             {
               "type": "fixed",
               "area": "audio",

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610250910] - 2026-10-25
+
 ### Security
 
 - **Server**: A player can no longer take control of the commands reserved for non-player characters.

@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610250910] - 2026-10-25
+
 ### Security
 
 - **Serveur** : Un joueur ne peut plus prendre le contrôle des commandes réservées aux personnages non joueurs.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T16:05:18.371345+00:00",
+  "generated_at": "2026-10-25T17:54:50.592462+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Players no longer move in jerks when an NPC nearby cannot reach where it is going."
+            }
+          ],
+          "fr": [
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Les joueurs n'avancent plus par à-coups quand un PNJ proche n'arrive pas à rejoindre sa destination."
+            }
+          ]
         }
       },
       "releases": [

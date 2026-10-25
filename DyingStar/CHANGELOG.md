@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **Server**: Players no longer move in jerks when an NPC nearby cannot reach where it is going.
+
 ## [0.1.0-dev.202610251555] - 2026-10-25
 
 ### Fixed

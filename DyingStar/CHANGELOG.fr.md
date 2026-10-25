@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **Serveur** : Les joueurs n'avancent plus par à-coups quand un PNJ proche n'arrive pas à rejoindre sa destination.
+
 ## [0.1.0-dev.202610251555] - 2026-10-25
 
 ### Fixed

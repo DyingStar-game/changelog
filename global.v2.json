@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T17:54:50.592462+00:00",
+  "generated_at": "2026-10-25T19:21:50.205714+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,11 +106,31 @@
           "en": [
             {
               "type": "fixed",
+              "area": "ui",
+              "text": "The chat no longer shows a scrollbar when it is full of messages; it only shows while writing."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Past 100 messages, the chat keeps the last 50 with their own time, instead of keeping just one."
+            },
+            {
+              "type": "fixed",
               "area": "server",
               "text": "Players no longer move in jerks when an NPC nearby cannot reach where it is going."
             }
           ],
           "fr": [
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Le chat n'affiche plus de barre de défilement quand il est plein de messages ; elle n'apparaît plus que pendant l'écriture."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Au-delà de 100 messages, le chat garde les 50 derniers avec leur heure, au lieu d'un seul."
+            },
             {
               "type": "fixed",
               "area": "server",

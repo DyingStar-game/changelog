@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Interface**: The chat no longer shows a scrollbar when it is full of messages; it only shows while writing.
+- **Interface**: Past 100 messages, the chat keeps the last 50 with their own time, instead of keeping just one.
 - **Server**: Players no longer move in jerks when an NPC nearby cannot reach where it is going.
 
 ## [0.1.0-dev.202610251555] - 2026-10-25

@@ -9,6 +9,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Interface** : Le chat n'affiche plus de barre de défilement quand il est plein de messages ; elle n'apparaît plus que pendant l'écriture.
+- **Interface** : Au-delà de 100 messages, le chat garde les 50 derniers avec leur heure, au lieu d'un seul.
 - **Serveur** : Les joueurs n'avancent plus par à-coups quand un PNJ proche n'arrive pas à rejoindre sa destination.
 
 ## [0.1.0-dev.202610251555] - 2026-10-25

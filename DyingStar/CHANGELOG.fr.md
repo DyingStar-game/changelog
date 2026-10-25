@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **Audio** : Le jeu ne plante plus à sa fermeture sous Windows.
+
 ## [0.1.0-dev.202610251000] - 2026-10-25
 
 ### Changed

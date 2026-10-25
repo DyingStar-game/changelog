@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T10:09:00.516786+00:00",
+  "generated_at": "2026-10-25T12:35:31.847120+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "fixed",
+              "area": "audio",
+              "text": "The game no longer crashes when it is closed on Windows."
+            }
+          ],
+          "fr": [
+            {
+              "type": "fixed",
+              "area": "audio",
+              "text": "Le jeu ne plante plus à sa fermeture sous Windows."
+            }
+          ]
         }
       },
       "releases": [

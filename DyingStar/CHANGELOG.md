@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Buildings**: The shower and toilet cabins are removed from homes for now.
+
+### Fixed
+
+- **Buildings**: The game no longer crashes when walking through a village of homes.
+
 ## [0.1.0-dev.202610250910] - 2026-10-25
 
 ### Security

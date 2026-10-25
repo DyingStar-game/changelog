@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T09:18:27.252527+00:00",
+  "generated_at": "2026-10-25T10:00:36.585397+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,30 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "The shower and toilet cabins are removed from homes for now."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "The game no longer crashes when walking through a village of homes."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "Les cabines de douche et de toilettes sont retirées des habitations pour le moment."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "Le jeu ne plante plus en traversant un village d'habitations."
+            }
+          ]
         }
       },
       "releases": [

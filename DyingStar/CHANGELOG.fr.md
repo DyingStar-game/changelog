@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Bâtiments** : Les cabines de douche et de toilettes sont retirées des habitations pour le moment.
+
+### Fixed
+
+- **Bâtiments** : Le jeu ne plante plus en traversant un village d'habitations.
+
 ## [0.1.0-dev.202610250910] - 2026-10-25
 
 ### Security

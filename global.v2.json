@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T13:09:16.101862+00:00",
+  "generated_at": "2026-10-25T13:25:08.411637+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,16 @@
           "en": [
             {
               "type": "fixed",
+              "area": "ui",
+              "text": "On Linux, the game no longer closes at startup on systems without ICU (NixOS, minimal distributions)."
+            },
+            {
+              "type": "fixed",
+              "area": "audio",
+              "text": "On Linux, the game no longer closes on entering the world when libva is missing: voice chat stays off instead."
+            },
+            {
+              "type": "fixed",
               "area": "player",
               "text": "NPCs no longer stay stuck at the cargo depot's door when they go to work."
             },
@@ -116,6 +126,16 @@
             }
           ],
           "fr": [
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Sous Linux, le jeu ne se ferme plus au démarrage sur les systèmes sans ICU (NixOS, distributions minimales)."
+            },
+            {
+              "type": "fixed",
+              "area": "audio",
+              "text": "Sous Linux, le jeu ne se ferme plus à l'entrée en jeu quand libva manque : le chat vocal reste coupé à la place."
+            },
             {
               "type": "fixed",
               "area": "player",

@@ -9,6 +9,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Interface** : Sous Linux, le jeu ne se ferme plus au démarrage sur les systèmes sans ICU (NixOS, distributions minimales).
+- **Audio** : Sous Linux, le jeu ne se ferme plus à l'entrée en jeu quand libva manque : le chat vocal reste coupé à la place.
 - **Joueur** : Les PNJ ne restent plus bloqués à la porte du dépôt cargo quand ils vont travailler.
 - **Audio** : Le jeu ne plante plus à sa fermeture sous Windows.
 

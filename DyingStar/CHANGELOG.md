@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Interface**: On Linux, the game no longer closes at startup on systems without ICU (NixOS, minimal distributions).
+- **Audio**: On Linux, the game no longer closes on entering the world when libva is missing: voice chat stays off instead.
 - **Player**: NPCs no longer stay stuck at the cargo depot's door when they go to work.
 - **Audio**: The game no longer crashes when it is closed on Windows.
 

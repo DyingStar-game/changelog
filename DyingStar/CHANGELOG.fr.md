@@ -9,6 +9,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Objets** : Une caisse ou un rocher porté ne peut plus être posé à plat contre un mur : visé, il va au sol au pied du mur.
+- **Véhicules** : Les caisses et rochers chargés dans la benne du camion ne s'enfoncent plus dans le plancher.
+- **Véhicules** : Une charge posée dans la benne du camion reste entre ses ridelles au lieu de dépasser ou d'entrer dans la cabine.
 - **Interface** : Sous Linux, le jeu ne se ferme plus au démarrage sur les systèmes sans ICU (NixOS, distributions minimales).
 - **Audio** : Sous Linux, le jeu ne se ferme plus à l'entrée en jeu quand libva manque : le chat vocal reste coupé à la place.
 - **Joueur** : Les PNJ ne restent plus bloqués à la porte du dépôt cargo quand ils vont travailler.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T13:25:08.411637+00:00",
+  "generated_at": "2026-10-25T14:06:25.093948+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,21 @@
           "en": [
             {
               "type": "fixed",
+              "area": "props",
+              "text": "A carried crate or rock can no longer be put down flat against a wall: aimed at one, it goes to the floor at its foot."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Crates and rocks loaded into the truck bed no longer sink into its floor."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "A load put in the truck bed now stays between its sides instead of poking out or into the cab."
+            },
+            {
+              "type": "fixed",
               "area": "ui",
               "text": "On Linux, the game no longer closes at startup on systems without ICU (NixOS, minimal distributions)."
             },
@@ -126,6 +141,21 @@
             }
           ],
           "fr": [
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "Une caisse ou un rocher porté ne peut plus être posé à plat contre un mur : visé, il va au sol au pied du mur."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Les caisses et rochers chargés dans la benne du camion ne s'enfoncent plus dans le plancher."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Une charge posée dans la benne du camion reste entre ses ridelles au lieu de dépasser ou d'entrer dans la cabine."
+            },
             {
               "type": "fixed",
               "area": "ui",

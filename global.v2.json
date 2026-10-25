@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T19:21:50.205714+00:00",
+  "generated_at": "2026-10-25T19:46:14.325063+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -105,6 +105,11 @@
         "entries": {
           "en": [
             {
+              "type": "changed",
+              "area": "ui",
+              "text": "The server debug readout shows the server border up to 30 km away and no longer lists every zone."
+            },
+            {
               "type": "fixed",
               "area": "ui",
               "text": "The chat no longer shows a scrollbar when it is full of messages; it only shows while writing."
@@ -121,6 +126,11 @@
             }
           ],
           "fr": [
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Le panneau de debug serveur indique la frontière du serveur jusqu'à 30 km et ne liste plus toutes les zones."
+            },
             {
               "type": "fixed",
               "area": "ui",

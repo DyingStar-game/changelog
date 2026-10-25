@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Interface**: The server debug readout shows the server border up to 30 km away and no longer lists every zone.
+
 ### Fixed
 
 - **Interface**: The chat no longer shows a scrollbar when it is full of messages; it only shows while writing.

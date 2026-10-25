@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Interface** : Le panneau de debug serveur indique la frontière du serveur jusqu'à 30 km et ne liste plus toutes les zones.
+
 ### Fixed
 
 - **Interface** : Le chat n'affiche plus de barre de défilement quand il est plein de messages ; elle n'apparaît plus que pendant l'écriture.

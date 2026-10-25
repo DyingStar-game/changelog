@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Security
+
+- **Connection**: A player can no longer pass themselves off as a non-player character when connecting.
+
 ## [0.1.0-dev.202610240018] - 2026-10-24
 
 ### Added

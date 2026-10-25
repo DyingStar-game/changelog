@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-24T00:23:31.737131+00:00",
+  "generated_at": "2026-10-25T08:56:00.554430+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -6596,8 +6596,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "security",
+              "area": "connection",
+              "text": "A player can no longer pass themselves off as a non-player character when connecting."
+            }
+          ],
+          "fr": [
+            {
+              "type": "security",
+              "area": "connection",
+              "text": "Un joueur ne peut plus se faire passer pour un personnage non joueur en se connectant."
+            }
+          ]
         }
       },
       "releases": [

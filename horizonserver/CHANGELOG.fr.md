@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610250910] - 2026-10-25
+
 ### Security
 
 - **Connexion** : Un joueur ne peut plus se faire passer pour un personnage non joueur en se connectant.

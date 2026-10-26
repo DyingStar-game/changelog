@@ -9,18 +9,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Account**: Sign-in shown as unavailable while the sign-in server is down, instead of a sign-in button that fails.
+- **Changelog**: "Mark all as read" button.
 - **Download and install**: The launcher updates itself: the new version downloads in the background and installs on restart, or when the launcher closes.
 - **Interface**: The launcher's version is shown beside the logo.
 - **Download and install**: The game's output is kept in a log file beside the launcher's, to help understand a crash.
 
 ### Changed
 
+- **Interface**: The Discord link opens the Discord app when it is installed, straight to the server for its members; otherwise the web page.
+- **Social**: Friends' status refreshed every minute.
+- **Interface**: Launcher minimized while the game runs, back when it closes.
+- **Changelog**: Shorter build names, unread versions shown by a dot; the changelog opens on the newest version.
+- **Interface**: Disabled buttons show a not-allowed cursor and, when the reason is not visible, say why in a tooltip.
 - **Download and install**: Launchers installed from a .deb or .rpm package download the new package directly.
 
 ### Fixed
 
+- **Download and install**: Full disk reported clearly, with the space to free, instead of an interrupted download; the download is kept to resume.
+- **Interface**: Server no longer shown as unavailable after switching universes quickly.
+- **Account**: Sign-in with Discord back in the browser, where Discord already knows the account, instead of a launcher window asking for it again.
 - **Download and install**: The game no longer crashes when started from the AppImage launcher.
 - **Interface**: Server status recovers by itself when the connection comes back, without restarting the launcher.
+
+### Security
+
+- **Download and install**: A game archive can no longer write files outside the game folder.
+- **Interface**: Launcher components updated to close known security flaws.
 
 ## [1.0.1] - 2026-10-14
 

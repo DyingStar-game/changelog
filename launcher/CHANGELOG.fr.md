@@ -7,6 +7,21 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Téléchargement et installation** : Le launcher se met à jour tout seul : la nouvelle version se télécharge en arrière-plan et s'installe au redémarrage, ou à la fermeture du launcher.
+- **Interface** : La version du launcher est affichée à côté du logo.
+- **Téléchargement et installation** : La sortie du jeu est conservée dans un fichier de log à côté de celui du launcher, pour aider à comprendre un plantage.
+
+### Changed
+
+- **Téléchargement et installation** : Les launchers installés depuis un paquet .deb ou .rpm téléchargent directement le nouveau paquet.
+
+### Fixed
+
+- **Téléchargement et installation** : Le jeu ne plante plus quand il est lancé depuis le launcher AppImage.
+- **Interface** : Le statut des serveurs revient tout seul au retour de la connexion, sans relancer le launcher.
+
 ## [1.0.1] - 2026-10-14
 
 ### Changed

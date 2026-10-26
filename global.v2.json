@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T21:17:59.876219+00:00",
+  "generated_at": "2026-10-26T17:33:22.904003+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -7978,8 +7978,70 @@
       "unreleased": {
         "url": "https://github.com/DyingStar-game/launcher/compare/v1.0.1...HEAD",
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "download",
+              "text": "The launcher updates itself: the new version downloads in the background and installs on restart, or when the launcher closes."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "The launcher's version is shown beside the logo."
+            },
+            {
+              "type": "added",
+              "area": "download",
+              "text": "The game's output is kept in a log file beside the launcher's, to help understand a crash."
+            },
+            {
+              "type": "changed",
+              "area": "download",
+              "text": "Launchers installed from a .deb or .rpm package download the new package directly."
+            },
+            {
+              "type": "fixed",
+              "area": "download",
+              "text": "The game no longer crashes when started from the AppImage launcher."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Server status recovers by itself when the connection comes back, without restarting the launcher."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "download",
+              "text": "Le launcher se met à jour tout seul : la nouvelle version se télécharge en arrière-plan et s'installe au redémarrage, ou à la fermeture du launcher."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "La version du launcher est affichée à côté du logo."
+            },
+            {
+              "type": "added",
+              "area": "download",
+              "text": "La sortie du jeu est conservée dans un fichier de log à côté de celui du launcher, pour aider à comprendre un plantage."
+            },
+            {
+              "type": "changed",
+              "area": "download",
+              "text": "Les launchers installés depuis un paquet .deb ou .rpm téléchargent directement le nouveau paquet."
+            },
+            {
+              "type": "fixed",
+              "area": "download",
+              "text": "Le jeu ne plante plus quand il est lancé depuis le launcher AppImage."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Le statut des serveurs revient tout seul au retour de la connexion, sans relancer le launcher."
+            }
+          ]
         }
       },
       "releases": [

@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Download and install**: The launcher updates itself: the new version downloads in the background and installs on restart, or when the launcher closes.
+- **Interface**: The launcher's version is shown beside the logo.
+- **Download and install**: The game's output is kept in a log file beside the launcher's, to help understand a crash.
+
+### Changed
+
+- **Download and install**: Launchers installed from a .deb or .rpm package download the new package directly.
+
+### Fixed
+
+- **Download and install**: The game no longer crashes when started from the AppImage launcher.
+- **Interface**: Server status recovers by itself when the connection comes back, without restarting the launcher.
+
 ## [1.0.1] - 2026-10-14
 
 ### Changed

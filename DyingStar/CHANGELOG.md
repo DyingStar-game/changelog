@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610261740] - 2026-10-26
+
 ### Changed
 
 - **Graphics**: The stars are sharp points instead of blurred blobs, and only a handful of them shine bright.

@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610261740] - 2026-10-26
+
 ### Changed
 
 - **Graphismes** : Les étoiles sont des points nets au lieu de taches floues, et seule une poignée d'entre elles brille fort.

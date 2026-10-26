@@ -11,6 +11,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 - **Graphismes** : Les étoiles sont des points nets au lieu de taches floues, et seule une poignée d'entre elles brille fort.
 
+### Removed
+
+- **Bâtiments** : Les téléporteurs des villages et des villes sont hors service pour le moment.
+
 ### Fixed
 
 - **Véhicules** : Les PNJ reprennent un camion à la borne du garage pour rouler jusqu'à leur usine.

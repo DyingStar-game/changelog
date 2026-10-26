@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Graphics**: The stars are sharp points instead of blurred blobs, and only a handful of them shine bright.
 
+### Removed
+
+- **Buildings**: The teleporters of the villages and cities are out of service for now.
+
 ### Fixed
 
 - **Vehicles**: NPCs take a truck at the garage terminal again to drive to their factory.

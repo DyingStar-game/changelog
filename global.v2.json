@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-26T17:37:30.904403+00:00",
+  "generated_at": "2026-10-26T17:37:58.731655+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -110,6 +110,11 @@
               "text": "The stars are sharp points instead of blurred blobs, and only a handful of them shine bright."
             },
             {
+              "type": "removed",
+              "area": "buildings",
+              "text": "The teleporters of the villages and cities are out of service for now."
+            },
+            {
               "type": "fixed",
               "area": "vehicles",
               "text": "NPCs take a truck at the garage terminal again to drive to their factory."
@@ -120,6 +125,11 @@
               "type": "changed",
               "area": "graphics",
               "text": "Les étoiles sont des points nets au lieu de taches floues, et seule une poignée d'entre elles brille fort."
+            },
+            {
+              "type": "removed",
+              "area": "buildings",
+              "text": "Les téléporteurs des villages et des villes sont hors service pour le moment."
             },
             {
               "type": "fixed",

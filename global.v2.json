@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-26T17:36:57.789551+00:00",
+  "generated_at": "2026-10-26T17:37:30.904403+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -108,6 +108,11 @@
               "type": "changed",
               "area": "graphics",
               "text": "The stars are sharp points instead of blurred blobs, and only a handful of them shine bright."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "NPCs take a truck at the garage terminal again to drive to their factory."
             }
           ],
           "fr": [
@@ -115,6 +120,11 @@
               "type": "changed",
               "area": "graphics",
               "text": "Les étoiles sont des points nets au lieu de taches floues, et seule une poignée d'entre elles brille fort."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Les PNJ reprennent un camion à la borne du garage pour rouler jusqu'à leur usine."
             }
           ]
         }

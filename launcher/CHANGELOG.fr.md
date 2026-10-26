@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [1.1.0] - 2026-10-26
+
 ### Added
 
 - **Compte** : Connexion affichée comme indisponible quand le serveur de connexion est en panne, au lieu d'un bouton de connexion qui échoue.
@@ -127,7 +129,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 - Premier launcher Electron open source : auth, install/mise à jour jeu, statut serveur, lore, UI social (mock)
 
-[non publié]: https://github.com/DyingStar-game/launcher/compare/v1.0.1...HEAD
+[non publié]: https://github.com/DyingStar-game/launcher/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/DyingStar-game/launcher/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/DyingStar-game/launcher/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/DyingStar-game/launcher/compare/v0.4.0...v1.0.0
 [0.4.0]: https://github.com/DyingStar-game/launcher/compare/v0.3.2...v0.4.0

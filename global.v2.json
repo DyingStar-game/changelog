@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-26T17:48:13.990179+00:00",
+  "generated_at": "2026-10-26T17:50:34.453234+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -8019,195 +8019,206 @@
         }
       },
       "unreleased": {
-        "url": "https://github.com/DyingStar-game/launcher/compare/v1.0.1...HEAD",
+        "url": "https://github.com/DyingStar-game/launcher/compare/v1.1.0...HEAD",
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "account",
-              "text": "Sign-in shown as unavailable while the sign-in server is down, instead of a sign-in button that fails."
-            },
-            {
-              "type": "added",
-              "area": "changelog",
-              "text": "\"Mark all as read\" button."
-            },
-            {
-              "type": "added",
-              "area": "download",
-              "text": "The launcher updates itself: the new version downloads in the background and installs on restart, or when the launcher closes."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "The launcher's version is shown beside the logo."
-            },
-            {
-              "type": "added",
-              "area": "download",
-              "text": "The game's output is kept in a log file beside the launcher's, to help understand a crash."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "The Discord link opens the Discord app when it is installed, straight to the server for its members; otherwise the web page."
-            },
-            {
-              "type": "changed",
-              "area": "social",
-              "text": "Friends' status refreshed every minute."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Launcher minimized while the game runs, back when it closes."
-            },
-            {
-              "type": "changed",
-              "area": "changelog",
-              "text": "Shorter build names, unread versions shown by a dot; the changelog opens on the newest version."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Disabled buttons show a not-allowed cursor and, when the reason is not visible, say why in a tooltip."
-            },
-            {
-              "type": "changed",
-              "area": "download",
-              "text": "Launchers installed from a .deb or .rpm package download the new package directly."
-            },
-            {
-              "type": "fixed",
-              "area": "download",
-              "text": "Full disk reported clearly, with the space to free, instead of an interrupted download; the download is kept to resume."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Server no longer shown as unavailable after switching universes quickly."
-            },
-            {
-              "type": "fixed",
-              "area": "account",
-              "text": "Sign-in with Discord back in the browser, where Discord already knows the account, instead of a launcher window asking for it again."
-            },
-            {
-              "type": "fixed",
-              "area": "download",
-              "text": "The game no longer crashes when started from the AppImage launcher."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Server status recovers by itself when the connection comes back, without restarting the launcher."
-            },
-            {
-              "type": "security",
-              "area": "download",
-              "text": "A game archive can no longer write files outside the game folder."
-            },
-            {
-              "type": "security",
-              "area": "ui",
-              "text": "Launcher components updated to close known security flaws."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "account",
-              "text": "Connexion affichée comme indisponible quand le serveur de connexion est en panne, au lieu d'un bouton de connexion qui échoue."
-            },
-            {
-              "type": "added",
-              "area": "changelog",
-              "text": "Bouton « Tout marquer comme lu »."
-            },
-            {
-              "type": "added",
-              "area": "download",
-              "text": "Le launcher se met à jour tout seul : la nouvelle version se télécharge en arrière-plan et s'installe au redémarrage, ou à la fermeture du launcher."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "La version du launcher est affichée à côté du logo."
-            },
-            {
-              "type": "added",
-              "area": "download",
-              "text": "La sortie du jeu est conservée dans un fichier de log à côté de celui du launcher, pour aider à comprendre un plantage."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Le lien Discord ouvre l'application Discord quand elle est installée, directement sur le serveur pour ses membres ; sinon la page web."
-            },
-            {
-              "type": "changed",
-              "area": "social",
-              "text": "Statut des amis rafraîchi toutes les minutes."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Launcher réduit pendant que le jeu tourne, de retour à sa fermeture."
-            },
-            {
-              "type": "changed",
-              "area": "changelog",
-              "text": "Noms des builds raccourcis, versions non lues signalées par un point ; le changelog s'ouvre sur la version la plus récente."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Boutons désactivés affichés avec un curseur d'interdiction et, quand la raison n'est pas visible, une infobulle qui l'explique."
-            },
-            {
-              "type": "changed",
-              "area": "download",
-              "text": "Les launchers installés depuis un paquet .deb ou .rpm téléchargent directement le nouveau paquet."
-            },
-            {
-              "type": "fixed",
-              "area": "download",
-              "text": "Disque plein signalé clairement, avec la place à libérer, au lieu d'un téléchargement interrompu ; le téléchargement est conservé pour reprendre."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Serveur plus affiché comme indisponible après des changements d'univers rapides."
-            },
-            {
-              "type": "fixed",
-              "area": "account",
-              "text": "Connexion avec Discord de retour dans le navigateur, où Discord connaît déjà le compte, au lieu d'une fenêtre du launcher qui le redemande."
-            },
-            {
-              "type": "fixed",
-              "area": "download",
-              "text": "Le jeu ne plante plus quand il est lancé depuis le launcher AppImage."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Le statut des serveurs revient tout seul au retour de la connexion, sans relancer le launcher."
-            },
-            {
-              "type": "security",
-              "area": "download",
-              "text": "Une archive du jeu ne peut plus écrire de fichiers hors du dossier du jeu."
-            },
-            {
-              "type": "security",
-              "area": "ui",
-              "text": "Composants du launcher mis à jour pour corriger des failles de sécurité connues."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "1.1.0",
+          "date": "2026-10-26",
+          "yanked": false,
+          "dev": false,
+          "url": "https://github.com/DyingStar-game/launcher/compare/v1.0.1...v1.1.0",
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "account",
+                "text": "Sign-in shown as unavailable while the sign-in server is down, instead of a sign-in button that fails."
+              },
+              {
+                "type": "added",
+                "area": "changelog",
+                "text": "\"Mark all as read\" button."
+              },
+              {
+                "type": "added",
+                "area": "download",
+                "text": "The launcher updates itself: the new version downloads in the background and installs on restart, or when the launcher closes."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "The launcher's version is shown beside the logo."
+              },
+              {
+                "type": "added",
+                "area": "download",
+                "text": "The game's output is kept in a log file beside the launcher's, to help understand a crash."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "The Discord link opens the Discord app when it is installed, straight to the server for its members; otherwise the web page."
+              },
+              {
+                "type": "changed",
+                "area": "social",
+                "text": "Friends' status refreshed every minute."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Launcher minimized while the game runs, back when it closes."
+              },
+              {
+                "type": "changed",
+                "area": "changelog",
+                "text": "Shorter build names, unread versions shown by a dot; the changelog opens on the newest version."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Disabled buttons show a not-allowed cursor and, when the reason is not visible, say why in a tooltip."
+              },
+              {
+                "type": "changed",
+                "area": "download",
+                "text": "Launchers installed from a .deb or .rpm package download the new package directly."
+              },
+              {
+                "type": "fixed",
+                "area": "download",
+                "text": "Full disk reported clearly, with the space to free, instead of an interrupted download; the download is kept to resume."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Server no longer shown as unavailable after switching universes quickly."
+              },
+              {
+                "type": "fixed",
+                "area": "account",
+                "text": "Sign-in with Discord back in the browser, where Discord already knows the account, instead of a launcher window asking for it again."
+              },
+              {
+                "type": "fixed",
+                "area": "download",
+                "text": "The game no longer crashes when started from the AppImage launcher."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Server status recovers by itself when the connection comes back, without restarting the launcher."
+              },
+              {
+                "type": "security",
+                "area": "download",
+                "text": "A game archive can no longer write files outside the game folder."
+              },
+              {
+                "type": "security",
+                "area": "ui",
+                "text": "Launcher components updated to close known security flaws."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "account",
+                "text": "Connexion affichée comme indisponible quand le serveur de connexion est en panne, au lieu d'un bouton de connexion qui échoue."
+              },
+              {
+                "type": "added",
+                "area": "changelog",
+                "text": "Bouton « Tout marquer comme lu »."
+              },
+              {
+                "type": "added",
+                "area": "download",
+                "text": "Le launcher se met à jour tout seul : la nouvelle version se télécharge en arrière-plan et s'installe au redémarrage, ou à la fermeture du launcher."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "La version du launcher est affichée à côté du logo."
+              },
+              {
+                "type": "added",
+                "area": "download",
+                "text": "La sortie du jeu est conservée dans un fichier de log à côté de celui du launcher, pour aider à comprendre un plantage."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Le lien Discord ouvre l'application Discord quand elle est installée, directement sur le serveur pour ses membres ; sinon la page web."
+              },
+              {
+                "type": "changed",
+                "area": "social",
+                "text": "Statut des amis rafraîchi toutes les minutes."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Launcher réduit pendant que le jeu tourne, de retour à sa fermeture."
+              },
+              {
+                "type": "changed",
+                "area": "changelog",
+                "text": "Noms des builds raccourcis, versions non lues signalées par un point ; le changelog s'ouvre sur la version la plus récente."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Boutons désactivés affichés avec un curseur d'interdiction et, quand la raison n'est pas visible, une infobulle qui l'explique."
+              },
+              {
+                "type": "changed",
+                "area": "download",
+                "text": "Les launchers installés depuis un paquet .deb ou .rpm téléchargent directement le nouveau paquet."
+              },
+              {
+                "type": "fixed",
+                "area": "download",
+                "text": "Disque plein signalé clairement, avec la place à libérer, au lieu d'un téléchargement interrompu ; le téléchargement est conservé pour reprendre."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Serveur plus affiché comme indisponible après des changements d'univers rapides."
+              },
+              {
+                "type": "fixed",
+                "area": "account",
+                "text": "Connexion avec Discord de retour dans le navigateur, où Discord connaît déjà le compte, au lieu d'une fenêtre du launcher qui le redemande."
+              },
+              {
+                "type": "fixed",
+                "area": "download",
+                "text": "Le jeu ne plante plus quand il est lancé depuis le launcher AppImage."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Le statut des serveurs revient tout seul au retour de la connexion, sans relancer le launcher."
+              },
+              {
+                "type": "security",
+                "area": "download",
+                "text": "Une archive du jeu ne peut plus écrire de fichiers hors du dossier du jeu."
+              },
+              {
+                "type": "security",
+                "area": "ui",
+                "text": "Composants du launcher mis à jour pour corriger des failles de sécurité connues."
+              }
+            ]
+          }
+        },
         {
           "version": "1.0.1",
           "date": "2026-10-14",

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-10-26
+
 ### Added
 
 - **Account**: Sign-in shown as unavailable while the sign-in server is down, instead of a sign-in button that fails.
@@ -127,7 +129,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial open-source Electron launcher: auth, game install/update, server status, lore, social UI (mock)
 
-[unreleased]: https://github.com/DyingStar-game/launcher/compare/v1.0.1...HEAD
+[unreleased]: https://github.com/DyingStar-game/launcher/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/DyingStar-game/launcher/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/DyingStar-game/launcher/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/DyingStar-game/launcher/compare/v0.4.0...v1.0.0
 [0.4.0]: https://github.com/DyingStar-game/launcher/compare/v0.3.2...v0.4.0

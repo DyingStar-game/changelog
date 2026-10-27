@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Buildings**: The teleporters of the villages and cities are back in service.
+
 ### Changed
 
 - **PlanetTech**: Tarsis 3's roads, biomes and mountains are updated, with two new mining villages.

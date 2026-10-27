@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Bâtiments** : Les téléporteurs des villages et des villes sont de nouveau en service.
+
 ### Changed
 
 - **PlanetTech** : Les routes, biomes et montagnes de Tarsis 3 sont mis à jour, avec deux nouveaux villages miniers.

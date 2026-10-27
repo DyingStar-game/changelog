@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **PlanetTech**: Tarsis 3's roads, biomes and mountains are updated, with two new mining villages.
+
 ## [0.1.0-dev.202610261740] - 2026-10-26
 
 ### Changed

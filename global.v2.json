@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-26T17:50:34.453234+00:00",
+  "generated_at": "2026-10-27T23:09:59.764353+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "planettech",
+              "text": "Tarsis 3's roads, biomes and mountains are updated, with two new mining villages."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "planettech",
+              "text": "Les routes, biomes et montagnes de Tarsis 3 sont mis à jour, avec deux nouveaux villages miniers."
+            }
+          ]
         }
       },
       "releases": [

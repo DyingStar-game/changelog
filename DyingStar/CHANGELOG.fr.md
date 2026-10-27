@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **PlanetTech** : Les routes, biomes et montagnes de Tarsis 3 sont mis à jour, avec deux nouveaux villages miniers.
+
 ## [0.1.0-dev.202610261740] - 2026-10-26
 
 ### Changed

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-27T23:11:54.389899+00:00",
+  "generated_at": "2026-10-27T23:20:56.905439+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,33 +103,44 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "The teleporters of the villages and cities are back in service."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "Tarsis 3's roads, biomes and mountains are updated, with two new mining villages."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Les téléporteurs des villages et des villes sont de nouveau en service."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "Les routes, biomes et montagnes de Tarsis 3 sont mis à jour, avec deux nouveaux villages miniers."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610272312",
+          "date": "2026-10-27",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "The teleporters of the villages and cities are back in service."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "Tarsis 3's roads, biomes and mountains are updated, with two new mining villages."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Les téléporteurs des villages et des villes sont de nouveau en service."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "Les routes, biomes et montagnes de Tarsis 3 sont mis à jour, avec deux nouveaux villages miniers."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610261740",
           "date": "2026-10-26",

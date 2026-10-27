@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610272312] - 2026-10-27
+
 ### Added
 
 - **Bâtiments** : Les téléporteurs des villages et des villes sont de nouveau en service.

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610272312] - 2026-10-27
+
 ### Added
 
 - **Buildings**: The teleporters of the villages and cities are back in service.

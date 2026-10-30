@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610302025] - 2026-10-30
+
 ### Added
 
 - **PlanetTech** : 200 grottes à explorer sur Tarsis III, avec des entrées en pente, des dolines et des puits de lumière naturelle.

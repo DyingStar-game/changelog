@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-30T20:23:11.523715+00:00",
+  "generated_at": "2026-10-30T20:34:57.521934+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,33 +103,44 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "200 explorable caves on Tarsis III, with sloping entrances, sinkholes and natural light shafts."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Varied rock formations around cave entrances and along sinkhole walls."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "200 grottes à explorer sur Tarsis III, avec des entrées en pente, des dolines et des puits de lumière naturelle."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Des formations rocheuses variées autour des entrées de grottes et le long des parois des dolines."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610302025",
+          "date": "2026-10-30",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "200 explorable caves on Tarsis III, with sloping entrances, sinkholes and natural light shafts."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Varied rock formations around cave entrances and along sinkhole walls."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "200 grottes à explorer sur Tarsis III, avec des entrées en pente, des dolines et des puits de lumière naturelle."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Des formations rocheuses variées autour des entrées de grottes et le long des parois des dolines."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610272312",
           "date": "2026-10-27",

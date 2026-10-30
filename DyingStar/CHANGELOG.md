@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **PlanetTech**: 200 explorable caves on Tarsis III, with sloping entrances, sinkholes and natural light shafts.
+- **PlanetTech**: Varied rock formations around cave entrances and along sinkhole walls.
+
 ## [0.1.0-dev.202610272312] - 2026-10-27
 
 ### Added

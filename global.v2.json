@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-31T19:43:37.281095+00:00",
+  "generated_at": "2026-10-31T20:00:57.459866+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -117,6 +117,11 @@
             {
               "type": "changed",
               "area": "performance",
+              "text": "Caves are built several times faster as you approach them."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
               "text": "When a cave cannot be placed on the relief, the caves waiting behind it no longer wait several minutes before they appear."
             },
             {
@@ -140,6 +145,11 @@
               "type": "added",
               "area": "ui",
               "text": "Une grotte que vous avez découverte apparaît sur votre carte stellaire, et un bandeau nomme la grotte où vous entrez."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Les grottes se construisent plusieurs fois plus vite à votre approche."
             },
             {
               "type": "changed",

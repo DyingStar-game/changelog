@@ -14,6 +14,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Performances** : Les grottes se construisent plusieurs fois plus vite à votre approche.
 - **Performances** : Quand une grotte ne peut pas être posée sur le relief, les grottes suivantes n'attendent plus plusieurs minutes avant d'apparaître.
 
 ### Fixed

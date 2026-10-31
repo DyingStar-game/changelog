@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Performance**: Caves are built several times faster as you approach them.
 - **Performance**: When a cave cannot be placed on the relief, the caves waiting behind it no longer wait several minutes before they appear.
 
 ### Fixed

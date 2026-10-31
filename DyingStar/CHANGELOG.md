@@ -16,6 +16,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Performance**: When a cave cannot be placed on the relief, the caves waiting behind it no longer wait several minutes before they appear.
 
+### Fixed
+
+- **PlanetTech**: The ground meets cave entrances again: no more kerb round the opening on flat ground.
+- **PlanetTech**: Cave entrance walls no longer stick out of the ground on mountain slopes.
+
 ## [0.1.0-dev.202610302025] - 2026-10-30
 
 ### Added

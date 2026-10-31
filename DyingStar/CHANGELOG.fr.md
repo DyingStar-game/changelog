@@ -16,6 +16,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 - **Performances** : Quand une grotte ne peut pas être posée sur le relief, les grottes suivantes n'attendent plus plusieurs minutes avant d'apparaître.
 
+### Fixed
+
+- **PlanetTech** : Le sol rejoint de nouveau l'entrée des grottes : plus de rebord autour de l'ouverture sur terrain plat.
+- **PlanetTech** : Les parois des entrées de grottes ne dépassent plus du sol sur les pentes de montagne.
+
 ## [0.1.0-dev.202610302025] - 2026-10-30
 
 ### Added

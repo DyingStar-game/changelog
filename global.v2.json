@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-30T20:34:57.521934+00:00",
+  "generated_at": "2026-10-31T19:41:57.297738+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,30 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "The first player to enter a cave becomes its discoverer and can propose a name for it, which ARES reviews before it is published."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "A cave you discovered appears on your star map, and a banner names a cave when you enter it."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Le premier joueur qui entre dans une grotte en devient le découvreur et peut lui proposer un nom, qu'ARES examine avant de le publier."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Une grotte que vous avez découverte apparaît sur votre carte stellaire, et un bandeau nomme la grotte où vous entrez."
+            }
+          ]
         }
       },
       "releases": [

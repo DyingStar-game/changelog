@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **PlanetTech**: The first player to enter a cave becomes its discoverer and can propose a name for it, which ARES reviews before it is published.
+- **Interface**: A cave you discovered appears on your star map, and a banner names a cave when you enter it.
+
 ## [0.1.0-dev.202610302025] - 2026-10-30
 
 ### Added

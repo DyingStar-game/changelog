@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **PlanetTech** : Le premier joueur qui entre dans une grotte en devient le découvreur et peut lui proposer un nom, qu'ARES examine avant de le publier.
+- **Interface** : Une grotte que vous avez découverte apparaît sur votre carte stellaire, et un bandeau nomme la grotte où vous entrez.
+
 ## [0.1.0-dev.202610302025] - 2026-10-30
 
 ### Added

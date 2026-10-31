@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-31T20:00:57.459866+00:00",
+  "generated_at": "2026-10-31T20:10:34.018226+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,73 +103,84 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "The first player to enter a cave becomes its discoverer and can propose a name for it, which ARES reviews before it is published."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "A cave you discovered appears on your star map, and a banner names a cave when you enter it."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Caves are built several times faster as you approach them."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "When a cave cannot be placed on the relief, the caves waiting behind it no longer wait several minutes before they appear."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "The ground meets cave entrances again: no more kerb round the opening on flat ground."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Cave entrance walls no longer stick out of the ground on mountain slopes."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Le premier joueur qui entre dans une grotte en devient le découvreur et peut lui proposer un nom, qu'ARES examine avant de le publier."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Une grotte que vous avez découverte apparaît sur votre carte stellaire, et un bandeau nomme la grotte où vous entrez."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Les grottes se construisent plusieurs fois plus vite à votre approche."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Quand une grotte ne peut pas être posée sur le relief, les grottes suivantes n'attendent plus plusieurs minutes avant d'apparaître."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Le sol rejoint de nouveau l'entrée des grottes : plus de rebord autour de l'ouverture sur terrain plat."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Les parois des entrées de grottes ne dépassent plus du sol sur les pentes de montagne."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610312001",
+          "date": "2026-10-31",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "The first player to enter a cave becomes its discoverer and can propose a name for it, which ARES reviews before it is published."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "A cave you discovered appears on your star map, and a banner names a cave when you enter it."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Caves are built several times faster as you approach them."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "When a cave cannot be placed on the relief, the caves waiting behind it no longer wait several minutes before they appear."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "The ground meets cave entrances again: no more kerb round the opening on flat ground."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Cave entrance walls no longer stick out of the ground on mountain slopes."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Le premier joueur qui entre dans une grotte en devient le découvreur et peut lui proposer un nom, qu'ARES examine avant de le publier."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Une grotte que vous avez découverte apparaît sur votre carte stellaire, et un bandeau nomme la grotte où vous entrez."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Les grottes se construisent plusieurs fois plus vite à votre approche."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Quand une grotte ne peut pas être posée sur le relief, les grottes suivantes n'attendent plus plusieurs minutes avant d'apparaître."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Le sol rejoint de nouveau l'entrée des grottes : plus de rebord autour de l'ouverture sur terrain plat."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Les parois des entrées de grottes ne dépassent plus du sol sur les pentes de montagne."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610302025",
           "date": "2026-10-30",

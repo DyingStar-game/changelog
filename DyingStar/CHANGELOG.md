@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202610312001] - 2026-10-31
+
 ### Added
 
 - **PlanetTech**: The first player to enter a cave becomes its discoverer and can propose a name for it, which ARES reviews before it is published.

@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202610312141] - 2026-10-31
+
 ### Fixed
 
 - **PlanetTech** : Le premier joueur qui entre dans une grotte est maintenant invité à lui donner un nom, et le bandeau de la grotte indique qui l'a découverte.

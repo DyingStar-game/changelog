@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-31T21:41:28.309967+00:00",
+  "generated_at": "2026-10-31T21:49:23.262225+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,23 +103,34 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "The first player to enter a cave is now asked to name it, and the cave's banner shows who discovered it."
-            }
-          ],
-          "fr": [
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Le premier joueur qui entre dans une grotte est maintenant invité à lui donner un nom, et le bandeau de la grotte indique qui l'a découverte."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202610312141",
+          "date": "2026-10-31",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "The first player to enter a cave is now asked to name it, and the cave's banner shows who discovered it."
+              }
+            ],
+            "fr": [
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Le premier joueur qui entre dans une grotte est maintenant invité à lui donner un nom, et le bandeau de la grotte indique qui l'a découverte."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202610312001",
           "date": "2026-10-31",

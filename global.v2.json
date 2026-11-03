@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-03T12:50:01.704739+00:00",
+  "generated_at": "2026-11-03T12:58:17.407351+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -7089,6 +7089,11 @@
             },
             {
               "type": "fixed",
+              "area": "mesh",
+              "text": "A crowded server splits its zones on the first try, instead of sometimes giving up and staying overloaded."
+            },
+            {
+              "type": "fixed",
               "area": "connection",
               "text": "A player with the movement clocks on no longer jumps back to a position already left, on their screen or on others'."
             },
@@ -7118,6 +7123,11 @@
               "type": "changed",
               "area": "performance",
               "text": "Les positions arrivent plus vite aux joueurs quand ils sont nombreux."
+            },
+            {
+              "type": "fixed",
+              "area": "mesh",
+              "text": "Un serveur saturé découpe ses zones du premier coup, au lieu d'y renoncer parfois et de rester surchargé."
             },
             {
               "type": "fixed",

@@ -16,6 +16,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Maillage de serveurs** : Un serveur saturé découpe ses zones du premier coup, au lieu d'y renoncer parfois et de rester surchargé.
 - **Connexion** : Un joueur qui a activé les horloges de déplacement ne revient plus à une position déjà quittée, ni sur son écran ni sur celui des autres.
 - **Maillage de serveurs** : Les serveurs surchargés se divisent de nouveau sous forte charge au lieu de rester saturés.
 

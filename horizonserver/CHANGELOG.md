@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Server meshing**: A crowded server splits its zones on the first try, instead of sometimes giving up and staying overloaded.
 - **Connection**: A player with the movement clocks on no longer jumps back to a position already left, on their screen or on others'.
 - **Server meshing**: Crowded servers split again under heavy load instead of staying overloaded.
 

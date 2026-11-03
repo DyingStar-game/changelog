@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Performances** : Les positions arrivent plus vite aux joueurs quand ils sont nombreux.
+
+### Fixed
+
+- **Maillage de serveurs** : Les serveurs surchargés se divisent de nouveau sous forte charge au lieu de rester saturés.
+
 ## [0.1.0-dev.202610250910] - 2026-10-25
 
 ### Security

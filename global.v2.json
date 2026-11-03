@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-03T07:11:41.151174+00:00",
+  "generated_at": "2026-11-03T09:55:35.528047+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -7066,8 +7066,30 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Positions reach the players faster when many of them are connected."
+            },
+            {
+              "type": "fixed",
+              "area": "mesh",
+              "text": "Crowded servers split again under heavy load instead of staying overloaded."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Les positions arrivent plus vite aux joueurs quand ils sont nombreux."
+            },
+            {
+              "type": "fixed",
+              "area": "mesh",
+              "text": "Les serveurs surchargés se divisent de nouveau sous forte charge au lieu de rester saturés."
+            }
+          ]
         }
       },
       "releases": [

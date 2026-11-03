@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Performance**: Positions reach the players faster when many of them are connected.
+
+### Fixed
+
+- **Server meshing**: Crowded servers split again under heavy load instead of staying overloaded.
+
 ## [0.1.0-dev.202610250910] - 2026-10-25
 
 ### Security

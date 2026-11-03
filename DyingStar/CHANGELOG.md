@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611030700] - 2026-11-03
+
 ### Added
 
 - **Interface**: When the connection fails or drops, the game says why: server unreachable or network blocking UDP, connection lost, or game update needed.

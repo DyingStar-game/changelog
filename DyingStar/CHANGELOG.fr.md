@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611030700] - 2026-11-03
+
 ### Added
 
 - **Interface** : Quand la connexion échoue ou se coupe, le jeu dit pourquoi : serveur injoignable ou réseau qui bloque l'UDP, connexion perdue, ou mise à jour du jeu nécessaire.

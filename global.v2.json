@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-31T21:49:23.262225+00:00",
+  "generated_at": "2026-11-03T06:57:38.544157+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,30 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "When the connection fails or drops, the game says why: server unreachable or network blocking UDP, connection lost, or game update needed."
+            },
+            {
+              "type": "changed",
+              "area": "server",
+              "text": "The game talks to the server over a faster, lighter connection: positions take a fraction of the bandwidth, and a lost packet no longer holds back the ones after it."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Quand la connexion échoue ou se coupe, le jeu dit pourquoi : serveur injoignable ou réseau qui bloque l'UDP, connexion perdue, ou mise à jour du jeu nécessaire."
+            },
+            {
+              "type": "changed",
+              "area": "server",
+              "text": "Le jeu dialogue avec le serveur par une connexion plus rapide et plus légère : les positions prennent une fraction de la bande passante, et un paquet perdu ne retarde plus ceux qui le suivent."
+            }
+          ]
         }
       },
       "releases": [

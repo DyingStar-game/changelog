@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Interface**: When the connection fails or drops, the game says why: server unreachable or network blocking UDP, connection lost, or game update needed.
+
+### Changed
+
+- **Server**: The game talks to the server over a faster, lighter connection: positions take a fraction of the bandwidth, and a lost packet no longer holds back the ones after it.
+
 ## [0.1.0-dev.202610312141] - 2026-10-31
 
 ### Fixed

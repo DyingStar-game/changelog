@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Interface** : Quand la connexion échoue ou se coupe, le jeu dit pourquoi : serveur injoignable ou réseau qui bloque l'UDP, connexion perdue, ou mise à jour du jeu nécessaire.
+
+### Changed
+
+- **Serveur** : Le jeu dialogue avec le serveur par une connexion plus rapide et plus légère : les positions prennent une fraction de la bande passante, et un paquet perdu ne retarde plus ceux qui le suivent.
+
 ## [0.1.0-dev.202610312141] - 2026-10-31
 
 ### Fixed

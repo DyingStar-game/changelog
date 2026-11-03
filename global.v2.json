@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-03T10:40:13.278677+00:00",
+  "generated_at": "2026-11-03T12:47:42.289144+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -7070,6 +7070,11 @@
             {
               "type": "changed",
               "area": "performance",
+              "text": "The server keeps up with many more players moving at the same time."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
               "text": "The server uses far less CPU, and is ready sooner after a restart."
             },
             {
@@ -7089,6 +7094,11 @@
             }
           ],
           "fr": [
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Le serveur suit bien plus de joueurs en mouvement en même temps."
+            },
             {
               "type": "changed",
               "area": "performance",

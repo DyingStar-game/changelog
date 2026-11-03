@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Performance**: The server keeps up with many more players moving at the same time.
 - **Performance**: The server uses far less CPU, and is ready sooner after a restart.
 - **Performance**: The server is ready much sooner after a restart.
 - **Performance**: Positions reach the players faster when many of them are connected.

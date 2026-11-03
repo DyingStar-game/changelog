@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Performances** : Le serveur suit bien plus de joueurs en mouvement en même temps.
 - **Performances** : Le serveur consomme bien moins de CPU et est prêt plus tôt après un redémarrage.
 - **Performances** : Le serveur est prêt bien plus tôt après un redémarrage.
 - **Performances** : Les positions arrivent plus vite aux joueurs quand ils sont nombreux.

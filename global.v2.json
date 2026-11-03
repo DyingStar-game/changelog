@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-03T12:58:17.407351+00:00",
+  "generated_at": "2026-11-03T22:28:16.229098+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Walking no longer jerks back a little every few steps when the connection is uneven."
+            }
+          ],
+          "fr": [
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "La marche ne fait plus de petit retour en arrière tous les quelques pas quand la connexion est irrégulière."
+            }
+          ]
         }
       },
       "releases": [

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **Player**: Walking no longer jerks back a little every few steps when the connection is uneven.
+
 ## [0.1.0-dev.202611030700] - 2026-11-03
 
 ### Added

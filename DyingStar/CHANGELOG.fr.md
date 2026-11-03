@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **Joueur** : La marche ne fait plus de petit retour en arrière tous les quelques pas quand la connexion est irrégulière.
+
 ## [0.1.0-dev.202611030700] - 2026-11-03
 
 ### Added

@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Connection**: A player with the movement clocks on no longer jumps back to a position already left, on their screen or on others'.
 - **Server meshing**: Crowded servers split again under heavy load instead of staying overloaded.
 
 ## [0.1.0-dev.202610250910] - 2026-10-25

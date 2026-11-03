@@ -16,6 +16,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Connexion** : Un joueur qui a activé les horloges de déplacement ne revient plus à une position déjà quittée, ni sur son écran ni sur celui des autres.
 - **Maillage de serveurs** : Les serveurs surchargés se divisent de nouveau sous forte charge au lieu de rester saturés.
 
 ## [0.1.0-dev.202610250910] - 2026-10-25

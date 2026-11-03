@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-03T09:55:35.528047+00:00",
+  "generated_at": "2026-11-03T10:18:23.073670+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -7070,6 +7070,11 @@
             {
               "type": "changed",
               "area": "performance",
+              "text": "The server is ready much sooner after a restart."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
               "text": "Positions reach the players faster when many of them are connected."
             },
             {
@@ -7079,6 +7084,11 @@
             }
           ],
           "fr": [
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Le serveur est prêt bien plus tôt après un redémarrage."
+            },
             {
               "type": "changed",
               "area": "performance",

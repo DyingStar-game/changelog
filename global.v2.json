@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-03T22:28:16.229098+00:00",
+  "generated_at": "2026-11-03T22:29:08.010862+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,11 +106,21 @@
           "en": [
             {
               "type": "fixed",
+              "area": "planettech",
+              "text": "The game no longer crashes, in rare cases, while driving near caves, villages, bridges or railways, or with the star map open."
+            },
+            {
+              "type": "fixed",
               "area": "player",
               "text": "Walking no longer jerks back a little every few steps when the connection is uneven."
             }
           ],
           "fr": [
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Le jeu ne plante plus, dans de rares cas, en roulant près des grottes, villages, ponts ou voies ferrées, ou avec la carte stellaire ouverte."
+            },
             {
               "type": "fixed",
               "area": "player",

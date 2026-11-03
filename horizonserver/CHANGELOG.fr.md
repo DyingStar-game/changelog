@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611032241] - 2026-11-03
+
 ### Changed
 
 - **Performances** : Le serveur suit bien plus de joueurs en mouvement en même temps.

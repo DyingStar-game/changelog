@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611032241] - 2026-11-03
+
 ### Changed
 
 - **Performance**: The server keeps up with many more players moving at the same time.

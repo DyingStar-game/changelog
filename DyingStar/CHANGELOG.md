@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611032229] - 2026-11-03
+
 ### Fixed
 
 - **PlanetTech**: The game no longer crashes, in rare cases, while driving near caves, villages, bridges or railways, or with the star map open.

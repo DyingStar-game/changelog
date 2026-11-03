@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611032229] - 2026-11-03
+
 ### Fixed
 
 - **PlanetTech** : Le jeu ne plante plus, dans de rares cas, en roulant près des grottes, villages, ponts ou voies ferrées, ou avec la carte stellaire ouverte.

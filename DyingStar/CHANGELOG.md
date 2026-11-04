@@ -7,13 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Buildings**: The mining villages are laid out after the village MVP: the mine, an avenue, pedestrian alleys, some thirty buildings named in neon.
+- **Buildings**: The factory cities are laid out after the village MVP: a civic centre, housing, a fenced factory with its ore yards, furnaces and loading bays, logistics, a fenced Dedurium refinery and a wind field.
+- **Buildings**: Sixteen new map icons: school, cemetery, prison, courthouse, place of worship, stadium, cinema, bank, police, fire station, checkpoint, bar, motel, driving school, administration, parking.
+- **PlanetTech**: A village stands on one gentle common ground, with its roads, alleys and fences drawn on it.
+
 ### Changed
 
+- **Graphics**: Neon signs wear the colour of the ARES subsidiary that runs the building, and never run past their wall, in any language.
+- **PlanetTech**: The slope around a levelled building is a smooth S curve.
 - **PlanetTech**: Terrain near the player appears faster: generating a piece of ground takes about 30 % less time.
 - **PlanetTech**: Terrain around the player appears much faster: generating a piece of ground takes about a quarter of the time it used to.
 
 ### Fixed
 
+- **Graphics**: The bulb of the 3.4 m street lamp lights with its photocell.
+- **Audio**: Footsteps on placeholder buildings sound like rock instead of an error.
+- **Graphics**: Every player sees the wind turbines at the same angle.
 - **Player**: Leaving your home no longer sometimes sends you into space.
 - **PlanetTech**: Caves are no longer placed with another cave's position when a player moves away while one is being fitted to the terrain.
 

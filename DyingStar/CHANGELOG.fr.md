@@ -7,13 +7,25 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Bâtiments** : Les villages miniers suivent le plan du village MVP : la mine, une avenue, des allées piétonnes, une trentaine de bâtiments au nom en néon.
+- **Bâtiments** : Les villes factory suivent le plan du village MVP : un centre civique, des habitations, une usine clôturée avec ses cours de minerai, ses fours et ses quais de chargement, la logistique, une raffinerie de Dédurium clôturée et un champ d'éoliennes.
+- **Bâtiments** : Seize nouvelles icônes sur la carte : école, cimetière, prison, tribunal, lieu de culte, stade, cinéma, banque, police, pompiers, poste de contrôle, bar, motel, auto-école, administration, parking.
+- **PlanetTech** : Un village repose sur un sol commun en pente douce, avec ses routes, ses allées et ses barrières tracées dessus.
+
 ### Changed
 
+- **Graphismes** : Les enseignes au néon prennent la couleur de la filiale ARES qui gère le bâtiment, et ne dépassent plus de leur mur, dans aucune langue.
+- **PlanetTech** : La pente autour d'un bâtiment nivelé est une courbe en S douce.
 - **PlanetTech** : Le terrain autour du joueur apparaît plus vite : générer une portion de sol prend environ 30 % de temps en moins.
 - **PlanetTech** : Le terrain autour du joueur apparaît bien plus vite : générer une portion de sol prend environ quatre fois moins de temps.
 
 ### Fixed
 
+- **Graphismes** : L'ampoule du lampadaire de 3,4 m s'allume avec sa cellule photoélectrique.
+- **Audio** : Les pas sur les bâtiments provisoires sonnent comme de la roche au lieu d'une erreur.
+- **Graphismes** : Tous les joueurs voient les éoliennes au même angle.
 - **Joueur** : Sortir de son habitation ne vous envoie plus parfois dans l'espace.
 - **PlanetTech** : Les grottes ne sont plus placées à la position d'une autre grotte quand un joueur s'éloigne pendant qu'une grotte s'ajuste au terrain.
 

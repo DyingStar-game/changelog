@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Server meshing**: Servers keep splitting their zones reliably as the world fills up with many more objects.
+
 ## [0.1.0-dev.202611032241] - 2026-11-03
 
 ### Changed

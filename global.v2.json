@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-04T15:01:42.547549+00:00",
+  "generated_at": "2026-11-04T20:18:13.580666+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -7131,8 +7131,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "mesh",
+              "text": "Servers keep splitting their zones reliably as the world fills up with many more objects."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "mesh",
+              "text": "Les serveurs continuent de découper leurs zones de façon fiable quand le monde se remplit de bien plus d'objets."
+            }
+          ]
         }
       },
       "releases": [

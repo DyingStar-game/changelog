@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Maillage de serveurs** : Les serveurs continuent de découper leurs zones de façon fiable quand le monde se remplit de bien plus d'objets.
+
 ## [0.1.0-dev.202611032241] - 2026-11-03
 
 ### Changed

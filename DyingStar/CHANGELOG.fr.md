@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **PlanetTech** : Le terrain autour du joueur apparaît plus vite : générer une portion de sol prend environ 30 % de temps en moins.
 - **PlanetTech** : Le terrain autour du joueur apparaît bien plus vite : générer une portion de sol prend environ quatre fois moins de temps.
 
 ## [0.1.0-dev.202611032229] - 2026-11-03

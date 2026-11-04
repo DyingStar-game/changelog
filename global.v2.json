@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-04T14:41:06.607378+00:00",
+  "generated_at": "2026-11-04T15:01:08.370519+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -107,10 +107,20 @@
             {
               "type": "changed",
               "area": "planettech",
+              "text": "Terrain near the player appears faster: generating a piece of ground takes about 30 % less time."
+            },
+            {
+              "type": "changed",
+              "area": "planettech",
               "text": "Terrain around the player appears much faster: generating a piece of ground takes about a quarter of the time it used to."
             }
           ],
           "fr": [
+            {
+              "type": "changed",
+              "area": "planettech",
+              "text": "Le terrain autour du joueur apparaît plus vite : générer une portion de sol prend environ 30 % de temps en moins."
+            },
             {
               "type": "changed",
               "area": "planettech",

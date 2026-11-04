@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **PlanetTech**: Terrain near the player appears faster: generating a piece of ground takes about 30 % less time.
 - **PlanetTech**: Terrain around the player appears much faster: generating a piece of ground takes about a quarter of the time it used to.
 
+### Fixed
+
+- **PlanetTech**: Caves are no longer placed with another cave's position when a player moves away while one is being fitted to the terrain.
+
 ## [0.1.0-dev.202611032229] - 2026-11-03
 
 ### Fixed

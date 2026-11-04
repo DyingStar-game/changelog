@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **PlanetTech**: Terrain around the player appears much faster: generating a piece of ground takes about a quarter of the time it used to.
+
 ## [0.1.0-dev.202611032229] - 2026-11-03
 
 ### Fixed

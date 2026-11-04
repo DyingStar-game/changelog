@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-04T20:22:49.912549+00:00",
+  "generated_at": "2026-11-04T20:51:53.963997+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -126,6 +126,11 @@
             },
             {
               "type": "changed",
+              "area": "ui",
+              "text": "Prompts show the mouse button to press as a picture of the mouse instead of its name."
+            },
+            {
+              "type": "changed",
               "area": "graphics",
               "text": "Neon signs wear the colour of the ARES subsidiary that runs the building, and never run past their wall, in any language."
             },
@@ -190,6 +195,11 @@
               "type": "added",
               "area": "planettech",
               "text": "Un village repose sur un sol commun en pente douce, avec ses routes, ses allées et ses barrières tracées dessus."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Les bulles d'action montrent le bouton de la souris à presser par une image de la souris au lieu de son nom."
             },
             {
               "type": "changed",

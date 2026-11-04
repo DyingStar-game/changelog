@@ -16,6 +16,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Interface** : Les bulles d'action montrent le bouton de la souris à presser par une image de la souris au lieu de son nom.
 - **Graphismes** : Les enseignes au néon prennent la couleur de la filiale ARES qui gère le bâtiment, et ne dépassent plus de leur mur, dans aucune langue.
 - **PlanetTech** : La pente autour d'un bâtiment nivelé est une courbe en S douce.
 - **PlanetTech** : Le terrain autour du joueur apparaît plus vite : générer une portion de sol prend environ 30 % de temps en moins.

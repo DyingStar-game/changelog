@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-04T22:14:17.748693+00:00",
+  "generated_at": "2026-11-04T22:25:07.496698+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,163 +103,174 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "The mining villages are laid out after the village MVP: the mine, an avenue, pedestrian alleys, some thirty buildings named in neon."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "The factory cities are laid out after the village MVP: a civic centre, housing, a fenced factory with its ore yards, furnaces and loading bays, logistics, a fenced Dedurium refinery and a wind field."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Sixteen new map icons: school, cemetery, prison, courthouse, place of worship, stadium, cinema, bank, police, fire station, checkpoint, bar, motel, driving school, administration, parking."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "A village stands on one gentle common ground, with its roads, alleys and fences drawn on it."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "Tarsis III's road and rail network has been updated and its volcanoes revised."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Prompts show the mouse button to press as a picture of the mouse instead of its name."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Neon signs wear the colour of the ARES subsidiary that runs the building, and never run past their wall, in any language."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "The slope around a levelled building is a smooth S curve."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "Terrain near the player appears faster: generating a piece of ground takes about 30 % less time."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "Terrain around the player appears much faster: generating a piece of ground takes about a quarter of the time it used to."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "The bulb of the 3.4 m street lamp lights with its photocell."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "Footsteps on placeholder buildings sound like rock instead of an error."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Every player sees the wind turbines at the same angle."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Leaving your home no longer sometimes sends you into space."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Caves are no longer placed with another cave's position when a player moves away while one is being fitted to the terrain."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Les villages miniers suivent le plan du village MVP : la mine, une avenue, des allées piétonnes, une trentaine de bâtiments au nom en néon."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Les villes factory suivent le plan du village MVP : un centre civique, des habitations, une usine clôturée avec ses cours de minerai, ses fours et ses quais de chargement, la logistique, une raffinerie de Dédurium clôturée et un champ d'éoliennes."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Seize nouvelles icônes sur la carte : école, cimetière, prison, tribunal, lieu de culte, stade, cinéma, banque, police, pompiers, poste de contrôle, bar, motel, auto-école, administration, parking."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Un village repose sur un sol commun en pente douce, avec ses routes, ses allées et ses barrières tracées dessus."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "Le réseau routier et ferroviaire de Tarsis III est mis à jour et ses volcans sont retouchés."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Les bulles d'action montrent le bouton de la souris à presser par une image de la souris au lieu de son nom."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Les enseignes au néon prennent la couleur de la filiale ARES qui gère le bâtiment, et ne dépassent plus de leur mur, dans aucune langue."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "La pente autour d'un bâtiment nivelé est une courbe en S douce."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "Le terrain autour du joueur apparaît plus vite : générer une portion de sol prend environ 30 % de temps en moins."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "Le terrain autour du joueur apparaît bien plus vite : générer une portion de sol prend environ quatre fois moins de temps."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "L'ampoule du lampadaire de 3,4 m s'allume avec sa cellule photoélectrique."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "Les pas sur les bâtiments provisoires sonnent comme de la roche au lieu d'une erreur."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Tous les joueurs voient les éoliennes au même angle."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Sortir de son habitation ne vous envoie plus parfois dans l'espace."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Les grottes ne sont plus placées à la position d'une autre grotte quand un joueur s'éloigne pendant qu'une grotte s'ajuste au terrain."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611042208",
+          "date": "2026-11-04",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "The mining villages are laid out after the village MVP: the mine, an avenue, pedestrian alleys, some thirty buildings named in neon."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "The factory cities are laid out after the village MVP: a civic centre, housing, a fenced factory with its ore yards, furnaces and loading bays, logistics, a fenced Dedurium refinery and a wind field."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Sixteen new map icons: school, cemetery, prison, courthouse, place of worship, stadium, cinema, bank, police, fire station, checkpoint, bar, motel, driving school, administration, parking."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "A village stands on one gentle common ground, with its roads, alleys and fences drawn on it."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "Tarsis III's road and rail network has been updated and its volcanoes revised."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Prompts show the mouse button to press as a picture of the mouse instead of its name."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Neon signs wear the colour of the ARES subsidiary that runs the building, and never run past their wall, in any language."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "The slope around a levelled building is a smooth S curve."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "Terrain near the player appears faster: generating a piece of ground takes about 30 % less time."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "Terrain around the player appears much faster: generating a piece of ground takes about a quarter of the time it used to."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "The bulb of the 3.4 m street lamp lights with its photocell."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "Footsteps on placeholder buildings sound like rock instead of an error."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Every player sees the wind turbines at the same angle."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Leaving your home no longer sometimes sends you into space."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Caves are no longer placed with another cave's position when a player moves away while one is being fitted to the terrain."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Les villages miniers suivent le plan du village MVP : la mine, une avenue, des allées piétonnes, une trentaine de bâtiments au nom en néon."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Les villes factory suivent le plan du village MVP : un centre civique, des habitations, une usine clôturée avec ses cours de minerai, ses fours et ses quais de chargement, la logistique, une raffinerie de Dédurium clôturée et un champ d'éoliennes."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Seize nouvelles icônes sur la carte : école, cimetière, prison, tribunal, lieu de culte, stade, cinéma, banque, police, pompiers, poste de contrôle, bar, motel, auto-école, administration, parking."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Un village repose sur un sol commun en pente douce, avec ses routes, ses allées et ses barrières tracées dessus."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "Le réseau routier et ferroviaire de Tarsis III est mis à jour et ses volcans sont retouchés."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Les bulles d'action montrent le bouton de la souris à presser par une image de la souris au lieu de son nom."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Les enseignes au néon prennent la couleur de la filiale ARES qui gère le bâtiment, et ne dépassent plus de leur mur, dans aucune langue."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "La pente autour d'un bâtiment nivelé est une courbe en S douce."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "Le terrain autour du joueur apparaît plus vite : générer une portion de sol prend environ 30 % de temps en moins."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "Le terrain autour du joueur apparaît bien plus vite : générer une portion de sol prend environ quatre fois moins de temps."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "L'ampoule du lampadaire de 3,4 m s'allume avec sa cellule photoélectrique."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "Les pas sur les bâtiments provisoires sonnent comme de la roche au lieu d'une erreur."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Tous les joueurs voient les éoliennes au même angle."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Sortir de son habitation ne vous envoie plus parfois dans l'espace."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Les grottes ne sont plus placées à la position d'une autre grotte quand un joueur s'éloigne pendant qu'une grotte s'ajuste au terrain."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611032229",
           "date": "2026-11-03",

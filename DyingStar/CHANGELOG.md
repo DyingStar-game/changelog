@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611042208] - 2026-11-04
+
 ### Added
 
 - **Buildings**: The mining villages are laid out after the village MVP: the mine, an avenue, pedestrian alleys, some thirty buildings named in neon.

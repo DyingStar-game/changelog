@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611042208] - 2026-11-04
+
 ### Added
 
 - **Bâtiments** : Les villages miniers suivent le plan du village MVP : la mine, une avenue, des allées piétonnes, une trentaine de bâtiments au nom en néon.

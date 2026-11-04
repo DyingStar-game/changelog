@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-04T20:51:53.963997+00:00",
+  "generated_at": "2026-11-04T22:07:50.491904+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -126,6 +126,11 @@
             },
             {
               "type": "changed",
+              "area": "planettech",
+              "text": "Tarsis III's road and rail network has been updated and its volcanoes revised."
+            },
+            {
+              "type": "changed",
               "area": "ui",
               "text": "Prompts show the mouse button to press as a picture of the mouse instead of its name."
             },
@@ -195,6 +200,11 @@
               "type": "added",
               "area": "planettech",
               "text": "Un village repose sur un sol commun en pente douce, avec ses routes, ses allées et ses barrières tracées dessus."
+            },
+            {
+              "type": "changed",
+              "area": "planettech",
+              "text": "Le réseau routier et ferroviaire de Tarsis III est mis à jour et ses volcans sont retouchés."
             },
             {
               "type": "changed",

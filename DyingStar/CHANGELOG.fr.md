@@ -16,6 +16,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **PlanetTech** : Le réseau routier et ferroviaire de Tarsis III est mis à jour et ses volcans sont retouchés.
 - **Interface** : Les bulles d'action montrent le bouton de la souris à presser par une image de la souris au lieu de son nom.
 - **Graphismes** : Les enseignes au néon prennent la couleur de la filiale ARES qui gère le bâtiment, et ne dépassent plus de leur mur, dans aucune langue.
 - **PlanetTech** : La pente autour d'un bâtiment nivelé est une courbe en S douce.

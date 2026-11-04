@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **PlanetTech**: Tarsis III's road and rail network has been updated and its volcanoes revised.
 - **Interface**: Prompts show the mouse button to press as a picture of the mouse instead of its name.
 - **Graphics**: Neon signs wear the colour of the ARES subsidiary that runs the building, and never run past their wall, in any language.
 - **PlanetTech**: The slope around a levelled building is a smooth S curve.

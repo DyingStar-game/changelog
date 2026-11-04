@@ -14,6 +14,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Joueur** : Sortir de son habitation ne vous envoie plus parfois dans l'espace.
 - **PlanetTech** : Les grottes ne sont plus placées à la position d'une autre grotte quand un joueur s'éloigne pendant qu'une grotte s'ajuste au terrain.
 
 ## [0.1.0-dev.202611032229] - 2026-11-03

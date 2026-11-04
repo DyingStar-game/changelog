@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-04T20:18:13.580666+00:00",
+  "generated_at": "2026-11-04T20:20:27.695589+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -116,6 +116,11 @@
             },
             {
               "type": "fixed",
+              "area": "player",
+              "text": "Leaving your home no longer sometimes sends you into space."
+            },
+            {
+              "type": "fixed",
               "area": "planettech",
               "text": "Caves are no longer placed with another cave's position when a player moves away while one is being fitted to the terrain."
             }
@@ -130,6 +135,11 @@
               "type": "changed",
               "area": "planettech",
               "text": "Le terrain autour du joueur apparaît bien plus vite : générer une portion de sol prend environ quatre fois moins de temps."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Sortir de son habitation ne vous envoie plus parfois dans l'espace."
             },
             {
               "type": "fixed",

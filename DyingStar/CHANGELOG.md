@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Player**: Leaving your home no longer sometimes sends you into space.
 - **PlanetTech**: Caves are no longer placed with another cave's position when a player moves away while one is being fitted to the terrain.
 
 ## [0.1.0-dev.202611032229] - 2026-11-03

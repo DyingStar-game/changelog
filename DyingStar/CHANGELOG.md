@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611061946] - 2026-11-06
+
 ### Added
 
 - **Mining**: Mining villages have a Crusher that turns the rock pieces you cut into crates of crushed ore, and factory cities a Refinery that turns a crate of crushed ore into ingots.

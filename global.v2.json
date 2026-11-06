@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-06T19:46:35.107599+00:00",
+  "generated_at": "2026-11-06T20:01:47.516822+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,243 +103,254 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "mining",
-              "text": "Mining villages have a Crusher that turns the rock pieces you cut into crates of crushed ore, and factory cities a Refinery that turns a crate of crushed ore into ingots."
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Hauling crates show on an e-ink plate what they hold, its weight, its purity and their owner, lit at night."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Crates shelved in a cargo depot fill its warehouse, and delivery missions count what you bring there."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Missions are turned in at the town hall of the village you deliver to, which shows their progress in a new In progress tab."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "A mission you took can be shared with your group or a player: progress and reward are shared."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "The DataPad tab a notification is about blinks until you open it, and mission categories have pictograms."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "The town hall is now a modelled ARES building: a brutalist hall with its portal, control tower, plaza and stele, built for the polar cold."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Inside the town hall, a supervisor's office overlooks the hall, above the archives, with a guard post by the door."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "The town hall shows every mission on offer on a giant board of classified ads that rolls without end, a new mission lighting up as it arrives."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Four mission kiosks in the town hall list the missions by type and by giver, sort them, show each one's details and let you accept it."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "A mission accepted at a kiosk lights up your DataPad, which opens on it."
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Dispensers and kiosks wait behind a screen saver in their brand's colours, unlocked with a soft chime."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "The DataPad shows the missions you took; missions are now taken at a town hall."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "The mission kiosks stand beside the giant mission board."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Arriving at a city is much smoother: buildings, shelves and signs no longer drag the frame rate down."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Small parts of buildings are no longer drawn from far away, which raises the frame rate in cities."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Driving no longer causes bursts of slow frames."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "Footsteps on the floor of a modelled building play the right sound everywhere."
-            },
-            {
-              "type": "fixed",
-              "area": "controls",
-              "text": "The mouse wheel scrolls the screen you are looking at instead of changing your walking speed."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "The logos on the sides of the vehicle terminal are no longer stretched."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Arriving at a city no longer freezes the server for several seconds."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Players no longer fall through a city's ground while its collision is being built."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Village and city fences now stop players and vehicles."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "mining",
-              "text": "Les villages miniers ont un Concasseur qui transforme les morceaux de roche découpés en caisses de minerai concassé, et les villes usines une Raffinerie qui transforme une caisse de minerai concassé en lingots."
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Les caisses de transport affichent sur une plaque e-ink leur contenu, leur poids, leur pureté et leur propriétaire, éclairée la nuit."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Les caisses rangées dans un dépôt de marchandises remplissent son entrepôt, et les missions de livraison comptent ce que vous y apportez."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Les missions se valident à l'hôtel de ville du village de livraison, qui montre leur avancement dans un nouvel onglet En cours."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Une mission prise peut être partagée avec son groupe ou un joueur : avancement et récompense partagés."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "L'onglet du DataPad concerné par une notification clignote jusqu'à son ouverture, et les catégories de mission ont des pictogrammes."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "L'hôtel de ville est désormais un bâtiment ARES modélisé : une halle brutaliste avec son portail, sa tour de contrôle, son parvis et sa stèle, pensée pour le froid polaire."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "À l'intérieur de l'hôtel de ville, un bureau de superviseur domine la salle, au-dessus des archives, avec un poste de garde près de la porte."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "L'hôtel de ville affiche toutes les missions proposées sur un grand panneau de petites annonces qui défile sans fin, une nouvelle mission s'allumant à son arrivée."
-            },
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Quatre bornes de missions dans l'hôtel de ville listent les missions par type et par donneur, les trient, montrent le détail de chacune et permettent de l'accepter."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Une mission acceptée à une borne fait clignoter votre DataPad, qui s'ouvre dessus."
-            },
-            {
-              "type": "added",
-              "area": "props",
-              "text": "Les distributeurs et les bornes attendent derrière un écran de veille aux couleurs de leur marque, déverrouillé par un léger carillon."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Le DataPad montre les missions prises ; les missions se prennent désormais à un hôtel de ville."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Les bornes de missions sont placées à côté du grand panneau des missions."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "L'arrivée dans une ville est bien plus fluide : bâtiments, étagères et enseignes ne font plus chuter les FPS."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Les petites pièces des bâtiments ne sont plus affichées de loin, ce qui améliore les FPS en ville."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Rouler ne provoque plus de rafales d'images lentes."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "Les bruits de pas sur le sol d'un bâtiment modélisé jouent le bon son partout."
-            },
-            {
-              "type": "fixed",
-              "area": "controls",
-              "text": "La molette fait défiler l'écran que vous regardez au lieu de changer votre vitesse de marche."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "Les logos sur les côtés du terminal des véhicules ne sont plus déformés."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Arriver dans une ville ne gèle plus le serveur pendant plusieurs secondes."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Les joueurs ne passent plus à travers le sol d'une ville pendant le calcul de sa collision."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Les clôtures des villages et des villes arrêtent désormais les joueurs et les véhicules."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611061946",
+          "date": "2026-11-06",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "mining",
+                "text": "Mining villages have a Crusher that turns the rock pieces you cut into crates of crushed ore, and factory cities a Refinery that turns a crate of crushed ore into ingots."
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Hauling crates show on an e-ink plate what they hold, its weight, its purity and their owner, lit at night."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Crates shelved in a cargo depot fill its warehouse, and delivery missions count what you bring there."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Missions are turned in at the town hall of the village you deliver to, which shows their progress in a new In progress tab."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "A mission you took can be shared with your group or a player: progress and reward are shared."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "The DataPad tab a notification is about blinks until you open it, and mission categories have pictograms."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "The town hall is now a modelled ARES building: a brutalist hall with its portal, control tower, plaza and stele, built for the polar cold."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Inside the town hall, a supervisor's office overlooks the hall, above the archives, with a guard post by the door."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "The town hall shows every mission on offer on a giant board of classified ads that rolls without end, a new mission lighting up as it arrives."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Four mission kiosks in the town hall list the missions by type and by giver, sort them, show each one's details and let you accept it."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "A mission accepted at a kiosk lights up your DataPad, which opens on it."
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Dispensers and kiosks wait behind a screen saver in their brand's colours, unlocked with a soft chime."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "The DataPad shows the missions you took; missions are now taken at a town hall."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "The mission kiosks stand beside the giant mission board."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Arriving at a city is much smoother: buildings, shelves and signs no longer drag the frame rate down."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Small parts of buildings are no longer drawn from far away, which raises the frame rate in cities."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Driving no longer causes bursts of slow frames."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "Footsteps on the floor of a modelled building play the right sound everywhere."
+              },
+              {
+                "type": "fixed",
+                "area": "controls",
+                "text": "The mouse wheel scrolls the screen you are looking at instead of changing your walking speed."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "The logos on the sides of the vehicle terminal are no longer stretched."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Arriving at a city no longer freezes the server for several seconds."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Players no longer fall through a city's ground while its collision is being built."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Village and city fences now stop players and vehicles."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "mining",
+                "text": "Les villages miniers ont un Concasseur qui transforme les morceaux de roche découpés en caisses de minerai concassé, et les villes usines une Raffinerie qui transforme une caisse de minerai concassé en lingots."
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Les caisses de transport affichent sur une plaque e-ink leur contenu, leur poids, leur pureté et leur propriétaire, éclairée la nuit."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Les caisses rangées dans un dépôt de marchandises remplissent son entrepôt, et les missions de livraison comptent ce que vous y apportez."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Les missions se valident à l'hôtel de ville du village de livraison, qui montre leur avancement dans un nouvel onglet En cours."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Une mission prise peut être partagée avec son groupe ou un joueur : avancement et récompense partagés."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "L'onglet du DataPad concerné par une notification clignote jusqu'à son ouverture, et les catégories de mission ont des pictogrammes."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "L'hôtel de ville est désormais un bâtiment ARES modélisé : une halle brutaliste avec son portail, sa tour de contrôle, son parvis et sa stèle, pensée pour le froid polaire."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "À l'intérieur de l'hôtel de ville, un bureau de superviseur domine la salle, au-dessus des archives, avec un poste de garde près de la porte."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "L'hôtel de ville affiche toutes les missions proposées sur un grand panneau de petites annonces qui défile sans fin, une nouvelle mission s'allumant à son arrivée."
+              },
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Quatre bornes de missions dans l'hôtel de ville listent les missions par type et par donneur, les trient, montrent le détail de chacune et permettent de l'accepter."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Une mission acceptée à une borne fait clignoter votre DataPad, qui s'ouvre dessus."
+              },
+              {
+                "type": "added",
+                "area": "props",
+                "text": "Les distributeurs et les bornes attendent derrière un écran de veille aux couleurs de leur marque, déverrouillé par un léger carillon."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Le DataPad montre les missions prises ; les missions se prennent désormais à un hôtel de ville."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Les bornes de missions sont placées à côté du grand panneau des missions."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "L'arrivée dans une ville est bien plus fluide : bâtiments, étagères et enseignes ne font plus chuter les FPS."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Les petites pièces des bâtiments ne sont plus affichées de loin, ce qui améliore les FPS en ville."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Rouler ne provoque plus de rafales d'images lentes."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "Les bruits de pas sur le sol d'un bâtiment modélisé jouent le bon son partout."
+              },
+              {
+                "type": "fixed",
+                "area": "controls",
+                "text": "La molette fait défiler l'écran que vous regardez au lieu de changer votre vitesse de marche."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "Les logos sur les côtés du terminal des véhicules ne sont plus déformés."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Arriver dans une ville ne gèle plus le serveur pendant plusieurs secondes."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Les joueurs ne passent plus à travers le sol d'une ville pendant le calcul de sa collision."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Les clôtures des villages et des villes arrêtent désormais les joueurs et les véhicules."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611042208",
           "date": "2026-11-04",

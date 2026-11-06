@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611061946] - 2026-11-06
+
 ### Added
 
 - **Minage** : Les villages miniers ont un Concasseur qui transforme les morceaux de roche découpés en caisses de minerai concassé, et les villes usines une Raffinerie qui transforme une caisse de minerai concassé en lingots.

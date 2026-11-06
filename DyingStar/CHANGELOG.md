@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Mining**: Mining villages have a Crusher that turns the rock pieces you cut into crates of crushed ore, and factory cities a Refinery that turns a crate of crushed ore into ingots.
+- **Props**: Hauling crates show on an e-ink plate what they hold, its weight, its purity and their owner, lit at night.
+- **Economy**: Crates shelved in a cargo depot fill its warehouse, and delivery missions count what you bring there.
+- **Economy**: Missions are turned in at the town hall of the village you deliver to, which shows their progress in a new In progress tab.
+- **Economy**: A mission you took can be shared with your group or a player: progress and reward are shared.
+- **Interface**: The DataPad tab a notification is about blinks until you open it, and mission categories have pictograms.
 - **Buildings**: The town hall is now a modelled ARES building: a brutalist hall with its portal, control tower, plaza and stele, built for the polar cold.
 - **Buildings**: Inside the town hall, a supervisor's office overlooks the hall, above the archives, with a guard post by the door.
 - **Buildings**: The town hall shows every mission on offer on a giant board of classified ads that rolls without end, a new mission lighting up as it arrives.
@@ -18,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Interface**: The DataPad shows the missions you took; missions are now taken at a town hall.
 - **Buildings**: The mission kiosks stand beside the giant mission board.
 - **Performance**: Arriving at a city is much smoother: buildings, shelves and signs no longer drag the frame rate down.
 - **Performance**: Small parts of buildings are no longer drawn from far away, which raises the frame rate in cities.

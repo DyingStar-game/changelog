@@ -9,6 +9,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Minage** : Les villages miniers ont un Concasseur qui transforme les morceaux de roche découpés en caisses de minerai concassé, et les villes usines une Raffinerie qui transforme une caisse de minerai concassé en lingots.
+- **Objets** : Les caisses de transport affichent sur une plaque e-ink leur contenu, leur poids, leur pureté et leur propriétaire, éclairée la nuit.
+- **Économie** : Les caisses rangées dans un dépôt de marchandises remplissent son entrepôt, et les missions de livraison comptent ce que vous y apportez.
+- **Économie** : Les missions se valident à l'hôtel de ville du village de livraison, qui montre leur avancement dans un nouvel onglet En cours.
+- **Économie** : Une mission prise peut être partagée avec son groupe ou un joueur : avancement et récompense partagés.
+- **Interface** : L'onglet du DataPad concerné par une notification clignote jusqu'à son ouverture, et les catégories de mission ont des pictogrammes.
 - **Bâtiments** : L'hôtel de ville est désormais un bâtiment ARES modélisé : une halle brutaliste avec son portail, sa tour de contrôle, son parvis et sa stèle, pensée pour le froid polaire.
 - **Bâtiments** : À l'intérieur de l'hôtel de ville, un bureau de superviseur domine la salle, au-dessus des archives, avec un poste de garde près de la porte.
 - **Bâtiments** : L'hôtel de ville affiche toutes les missions proposées sur un grand panneau de petites annonces qui défile sans fin, une nouvelle mission s'allumant à son arrivée.
@@ -18,6 +24,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Interface** : Le DataPad montre les missions prises ; les missions se prennent désormais à un hôtel de ville.
 - **Bâtiments** : Les bornes de missions sont placées à côté du grand panneau des missions.
 - **Performances** : L'arrivée dans une ville est bien plus fluide : bâtiments, étagères et enseignes ne font plus chuter les FPS.
 - **Performances** : Les petites pièces des bâtiments ne sont plus affichées de loin, ce qui améliore les FPS en ville.

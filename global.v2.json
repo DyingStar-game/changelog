@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-06T19:05:06.926055+00:00",
+  "generated_at": "2026-11-06T19:46:35.107599+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,36 @@
           "en": [
             {
               "type": "added",
+              "area": "mining",
+              "text": "Mining villages have a Crusher that turns the rock pieces you cut into crates of crushed ore, and factory cities a Refinery that turns a crate of crushed ore into ingots."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Hauling crates show on an e-ink plate what they hold, its weight, its purity and their owner, lit at night."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Crates shelved in a cargo depot fill its warehouse, and delivery missions count what you bring there."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Missions are turned in at the town hall of the village you deliver to, which shows their progress in a new In progress tab."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "A mission you took can be shared with your group or a player: progress and reward are shared."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "The DataPad tab a notification is about blinks until you open it, and mission categories have pictograms."
+            },
+            {
+              "type": "added",
               "area": "buildings",
               "text": "The town hall is now a modelled ARES building: a brutalist hall with its portal, control tower, plaza and stele, built for the polar cold."
             },
@@ -133,6 +163,11 @@
               "type": "added",
               "area": "props",
               "text": "Dispensers and kiosks wait behind a screen saver in their brand's colours, unlocked with a soft chime."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "The DataPad shows the missions you took; missions are now taken at a town hall."
             },
             {
               "type": "changed",
@@ -188,6 +223,36 @@
           "fr": [
             {
               "type": "added",
+              "area": "mining",
+              "text": "Les villages miniers ont un Concasseur qui transforme les morceaux de roche découpés en caisses de minerai concassé, et les villes usines une Raffinerie qui transforme une caisse de minerai concassé en lingots."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Les caisses de transport affichent sur une plaque e-ink leur contenu, leur poids, leur pureté et leur propriétaire, éclairée la nuit."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Les caisses rangées dans un dépôt de marchandises remplissent son entrepôt, et les missions de livraison comptent ce que vous y apportez."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Les missions se valident à l'hôtel de ville du village de livraison, qui montre leur avancement dans un nouvel onglet En cours."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Une mission prise peut être partagée avec son groupe ou un joueur : avancement et récompense partagés."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "L'onglet du DataPad concerné par une notification clignote jusqu'à son ouverture, et les catégories de mission ont des pictogrammes."
+            },
+            {
+              "type": "added",
               "area": "buildings",
               "text": "L'hôtel de ville est désormais un bâtiment ARES modélisé : une halle brutaliste avec son portail, sa tour de contrôle, son parvis et sa stèle, pensée pour le froid polaire."
             },
@@ -215,6 +280,11 @@
               "type": "added",
               "area": "props",
               "text": "Les distributeurs et les bornes attendent derrière un écran de veille aux couleurs de leur marque, déverrouillé par un léger carillon."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Le DataPad montre les missions prises ; les missions se prennent désormais à un hôtel de ville."
             },
             {
               "type": "changed",

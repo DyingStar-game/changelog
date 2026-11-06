@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-06T17:09:25.747018+00:00",
+  "generated_at": "2026-11-06T19:03:48.299077+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -105,6 +105,26 @@
         "entries": {
           "en": [
             {
+              "type": "added",
+              "area": "buildings",
+              "text": "The town hall shows every mission on offer on a giant board of classified ads that rolls without end, a new mission lighting up as it arrives."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Four mission kiosks in the town hall list the missions by type and by giver, sort them, show each one's details and let you accept it."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "A mission accepted at a kiosk lights up your DataPad, which opens on it."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Dispensers and kiosks wait behind a screen saver in their brand's colours, unlocked with a soft chime."
+            },
+            {
               "type": "changed",
               "area": "performance",
               "text": "Arriving at a city is much smoother: buildings, shelves and signs no longer drag the frame rate down."
@@ -118,6 +138,16 @@
               "type": "changed",
               "area": "performance",
               "text": "Driving no longer causes bursts of slow frames."
+            },
+            {
+              "type": "fixed",
+              "area": "controls",
+              "text": "The mouse wheel scrolls the screen you are looking at instead of changing your walking speed."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "The logos on the sides of the vehicle terminal are no longer stretched."
             },
             {
               "type": "fixed",
@@ -137,6 +167,26 @@
           ],
           "fr": [
             {
+              "type": "added",
+              "area": "buildings",
+              "text": "L'hôtel de ville affiche toutes les missions proposées sur un grand panneau de petites annonces qui défile sans fin, une nouvelle mission s'allumant à son arrivée."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Quatre bornes de missions dans l'hôtel de ville listent les missions par type et par donneur, les trient, montrent le détail de chacune et permettent de l'accepter."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Une mission acceptée à une borne fait clignoter votre DataPad, qui s'ouvre dessus."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Les distributeurs et les bornes attendent derrière un écran de veille aux couleurs de leur marque, déverrouillé par un léger carillon."
+            },
+            {
               "type": "changed",
               "area": "performance",
               "text": "L'arrivée dans une ville est bien plus fluide : bâtiments, étagères et enseignes ne font plus chuter les FPS."
@@ -150,6 +200,16 @@
               "type": "changed",
               "area": "performance",
               "text": "Rouler ne provoque plus de rafales d'images lentes."
+            },
+            {
+              "type": "fixed",
+              "area": "controls",
+              "text": "La molette fait défiler l'écran que vous regardez au lieu de changer votre vitesse de marche."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "Les logos sur les côtés du terminal des véhicules ne sont plus déformés."
             },
             {
               "type": "fixed",

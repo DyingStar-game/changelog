@@ -7,6 +7,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Bâtiments** : L'hôtel de ville affiche toutes les missions proposées sur un grand panneau de petites annonces qui défile sans fin, une nouvelle mission s'allumant à son arrivée.
+- **Bâtiments** : Quatre bornes de missions dans l'hôtel de ville listent les missions par type et par donneur, les trient, montrent le détail de chacune et permettent de l'accepter.
+- **Interface** : Une mission acceptée à une borne fait clignoter votre DataPad, qui s'ouvre dessus.
+- **Objets** : Les distributeurs et les bornes attendent derrière un écran de veille aux couleurs de leur marque, déverrouillé par un léger carillon.
+
 ### Changed
 
 - **Performances** : L'arrivée dans une ville est bien plus fluide : bâtiments, étagères et enseignes ne font plus chuter les FPS.
@@ -15,6 +22,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Commandes** : La molette fait défiler l'écran que vous regardez au lieu de changer votre vitesse de marche.
+- **Objets** : Les logos sur les côtés du terminal des véhicules ne sont plus déformés.
 - **Serveur** : Arriver dans une ville ne gèle plus le serveur pendant plusieurs secondes.
 - **PlanetTech** : Les joueurs ne passent plus à travers le sol d'une ville pendant le calcul de sa collision.
 - **Bâtiments** : Les clôtures des villages et des villes arrêtent désormais les joueurs et les véhicules.

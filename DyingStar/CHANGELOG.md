@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Buildings**: The town hall shows every mission on offer on a giant board of classified ads that rolls without end, a new mission lighting up as it arrives.
+- **Buildings**: Four mission kiosks in the town hall list the missions by type and by giver, sort them, show each one's details and let you accept it.
+- **Interface**: A mission accepted at a kiosk lights up your DataPad, which opens on it.
+- **Props**: Dispensers and kiosks wait behind a screen saver in their brand's colours, unlocked with a soft chime.
+
 ### Changed
 
 - **Performance**: Arriving at a city is much smoother: buildings, shelves and signs no longer drag the frame rate down.
@@ -15,6 +22,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Controls**: The mouse wheel scrolls the screen you are looking at instead of changing your walking speed.
+- **Props**: The logos on the sides of the vehicle terminal are no longer stretched.
 - **Server**: Arriving at a city no longer freezes the server for several seconds.
 - **PlanetTech**: Players no longer fall through a city's ground while its collision is being built.
 - **Buildings**: Village and city fences now stop players and vehicles.

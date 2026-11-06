@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Performance**: Arriving at a city is much smoother: buildings, shelves and signs no longer drag the frame rate down.
+- **Performance**: Small parts of buildings are no longer drawn from far away, which raises the frame rate in cities.
+- **Performance**: Driving no longer causes bursts of slow frames.
+
+### Fixed
+
+- **Server**: Arriving at a city no longer freezes the server for several seconds.
+- **PlanetTech**: Players no longer fall through a city's ground while its collision is being built.
+- **Buildings**: Village and city fences now stop players and vehicles.
+
 ## [0.1.0-dev.202611042208] - 2026-11-04
 
 ### Added

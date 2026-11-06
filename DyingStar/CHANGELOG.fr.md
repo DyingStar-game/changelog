@@ -7,6 +7,18 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Performances** : L'arrivée dans une ville est bien plus fluide : bâtiments, étagères et enseignes ne font plus chuter les FPS.
+- **Performances** : Les petites pièces des bâtiments ne sont plus affichées de loin, ce qui améliore les FPS en ville.
+- **Performances** : Rouler ne provoque plus de rafales d'images lentes.
+
+### Fixed
+
+- **Serveur** : Arriver dans une ville ne gèle plus le serveur pendant plusieurs secondes.
+- **PlanetTech** : Les joueurs ne passent plus à travers le sol d'une ville pendant le calcul de sa collision.
+- **Bâtiments** : Les clôtures des villages et des villes arrêtent désormais les joueurs et les véhicules.
+
 ## [0.1.0-dev.202611042208] - 2026-11-04
 
 ### Added

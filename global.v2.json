@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-04T22:25:07.496698+00:00",
+  "generated_at": "2026-11-06T17:09:25.747018+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,70 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Arriving at a city is much smoother: buildings, shelves and signs no longer drag the frame rate down."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Small parts of buildings are no longer drawn from far away, which raises the frame rate in cities."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Driving no longer causes bursts of slow frames."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Arriving at a city no longer freezes the server for several seconds."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Players no longer fall through a city's ground while its collision is being built."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "Village and city fences now stop players and vehicles."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "L'arrivée dans une ville est bien plus fluide : bâtiments, étagères et enseignes ne font plus chuter les FPS."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Les petites pièces des bâtiments ne sont plus affichées de loin, ce qui améliore les FPS en ville."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Rouler ne provoque plus de rafales d'images lentes."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Arriver dans une ville ne gèle plus le serveur pendant plusieurs secondes."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Les joueurs ne passent plus à travers le sol d'une ville pendant le calcul de sa collision."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "Les clôtures des villages et des villes arrêtent désormais les joueurs et les véhicules."
+            }
+          ]
         }
       },
       "releases": [

@@ -9,6 +9,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Bâtiments** : L'hôtel de ville est désormais un bâtiment ARES modélisé : une halle brutaliste avec son portail, sa tour de contrôle, son parvis et sa stèle, pensée pour le froid polaire.
+- **Bâtiments** : À l'intérieur de l'hôtel de ville, un bureau de superviseur domine la salle, au-dessus des archives, avec un poste de garde près de la porte.
 - **Bâtiments** : L'hôtel de ville affiche toutes les missions proposées sur un grand panneau de petites annonces qui défile sans fin, une nouvelle mission s'allumant à son arrivée.
 - **Bâtiments** : Quatre bornes de missions dans l'hôtel de ville listent les missions par type et par donneur, les trient, montrent le détail de chacune et permettent de l'accepter.
 - **Interface** : Une mission acceptée à une borne fait clignoter votre DataPad, qui s'ouvre dessus.
@@ -16,12 +18,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Bâtiments** : Les bornes de missions sont placées à côté du grand panneau des missions.
 - **Performances** : L'arrivée dans une ville est bien plus fluide : bâtiments, étagères et enseignes ne font plus chuter les FPS.
 - **Performances** : Les petites pièces des bâtiments ne sont plus affichées de loin, ce qui améliore les FPS en ville.
 - **Performances** : Rouler ne provoque plus de rafales d'images lentes.
 
 ### Fixed
 
+- **Audio** : Les bruits de pas sur le sol d'un bâtiment modélisé jouent le bon son partout.
 - **Commandes** : La molette fait défiler l'écran que vous regardez au lieu de changer votre vitesse de marche.
 - **Objets** : Les logos sur les côtés du terminal des véhicules ne sont plus déformés.
 - **Serveur** : Arriver dans une ville ne gèle plus le serveur pendant plusieurs secondes.

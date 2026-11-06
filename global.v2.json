@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-06T19:03:48.299077+00:00",
+  "generated_at": "2026-11-06T19:05:06.926055+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -107,6 +107,16 @@
             {
               "type": "added",
               "area": "buildings",
+              "text": "The town hall is now a modelled ARES building: a brutalist hall with its portal, control tower, plaza and stele, built for the polar cold."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Inside the town hall, a supervisor's office overlooks the hall, above the archives, with a guard post by the door."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
               "text": "The town hall shows every mission on offer on a giant board of classified ads that rolls without end, a new mission lighting up as it arrives."
             },
             {
@@ -126,6 +136,11 @@
             },
             {
               "type": "changed",
+              "area": "buildings",
+              "text": "The mission kiosks stand beside the giant mission board."
+            },
+            {
+              "type": "changed",
               "area": "performance",
               "text": "Arriving at a city is much smoother: buildings, shelves and signs no longer drag the frame rate down."
             },
@@ -138,6 +153,11 @@
               "type": "changed",
               "area": "performance",
               "text": "Driving no longer causes bursts of slow frames."
+            },
+            {
+              "type": "fixed",
+              "area": "audio",
+              "text": "Footsteps on the floor of a modelled building play the right sound everywhere."
             },
             {
               "type": "fixed",
@@ -169,6 +189,16 @@
             {
               "type": "added",
               "area": "buildings",
+              "text": "L'hôtel de ville est désormais un bâtiment ARES modélisé : une halle brutaliste avec son portail, sa tour de contrôle, son parvis et sa stèle, pensée pour le froid polaire."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "À l'intérieur de l'hôtel de ville, un bureau de superviseur domine la salle, au-dessus des archives, avec un poste de garde près de la porte."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
               "text": "L'hôtel de ville affiche toutes les missions proposées sur un grand panneau de petites annonces qui défile sans fin, une nouvelle mission s'allumant à son arrivée."
             },
             {
@@ -188,6 +218,11 @@
             },
             {
               "type": "changed",
+              "area": "buildings",
+              "text": "Les bornes de missions sont placées à côté du grand panneau des missions."
+            },
+            {
+              "type": "changed",
               "area": "performance",
               "text": "L'arrivée dans une ville est bien plus fluide : bâtiments, étagères et enseignes ne font plus chuter les FPS."
             },
@@ -200,6 +235,11 @@
               "type": "changed",
               "area": "performance",
               "text": "Rouler ne provoque plus de rafales d'images lentes."
+            },
+            {
+              "type": "fixed",
+              "area": "audio",
+              "text": "Les bruits de pas sur le sol d'un bâtiment modélisé jouent le bon son partout."
             },
             {
               "type": "fixed",

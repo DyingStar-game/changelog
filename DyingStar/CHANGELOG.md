@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Buildings**: The town hall is now a modelled ARES building: a brutalist hall with its portal, control tower, plaza and stele, built for the polar cold.
+- **Buildings**: Inside the town hall, a supervisor's office overlooks the hall, above the archives, with a guard post by the door.
 - **Buildings**: The town hall shows every mission on offer on a giant board of classified ads that rolls without end, a new mission lighting up as it arrives.
 - **Buildings**: Four mission kiosks in the town hall list the missions by type and by giver, sort them, show each one's details and let you accept it.
 - **Interface**: A mission accepted at a kiosk lights up your DataPad, which opens on it.
@@ -16,12 +18,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Buildings**: The mission kiosks stand beside the giant mission board.
 - **Performance**: Arriving at a city is much smoother: buildings, shelves and signs no longer drag the frame rate down.
 - **Performance**: Small parts of buildings are no longer drawn from far away, which raises the frame rate in cities.
 - **Performance**: Driving no longer causes bursts of slow frames.
 
 ### Fixed
 
+- **Audio**: Footsteps on the floor of a modelled building play the right sound everywhere.
 - **Controls**: The mouse wheel scrolls the screen you are looking at instead of changing your walking speed.
 - **Props**: The logos on the sides of the vehicle terminal are no longer stretched.
 - **Server**: Arriving at a city no longer freezes the server for several seconds.

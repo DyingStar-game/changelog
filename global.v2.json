@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-07T19:01:13.804467+00:00",
+  "generated_at": "2026-11-07T19:04:02.953144+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -105,6 +105,91 @@
         "entries": {
           "en": [
             {
+              "type": "added",
+              "area": "mining",
+              "text": "The refinery gathers several crates of crushed ore until it holds a full crate of ingots, which you can also extract earlier."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "A screen in use by a player shows the others what they are doing, without letting them touch it."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Your missions are sorted into In progress, Done and Stopped tabs, and an objective names the place it happens."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "A hauling crate shows its plate on its top too, and shelved crates show it to the aisle."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "A load let go in the air shows a line and a cross where it will land."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "Crushing and refining take 5 seconds, and a full crusher waits for its crate to be extracted."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "Mission quantities are in the unit of the goods: kilograms and tonnes, litres and cubic metres."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "Your mission's progress updates on the DataPad as you deliver."
+            },
+            {
+              "type": "changed",
+              "area": "vehicles",
+              "text": "A truck's battery drains with the load it carries and the slopes it climbs."
+            },
+            {
+              "type": "changed",
+              "area": "vehicles",
+              "text": "The truck's middle screen shows the rear camera before the chart."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "The town hall's giant screen is a third shorter."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "The DataPad apps no longer have a Home button, and their title sits above their tabs."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Only objects a player can carry load into a truck bed."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Lying in bed no longer spins the head."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "The Drop prompt no longer stays on after reconnecting."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "The DataPad's notification light keeps blinking until you open the news."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Screens out of sight no longer cost frame time."
+            },
+            {
               "type": "fixed",
               "area": "server",
               "text": "Walking or driving into a new area no longer makes everyone's movement stutter for a moment."
@@ -121,6 +206,91 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "mining",
+              "text": "La raffinerie cumule plusieurs caisses de minerai concassé jusqu'à une caisse de lingots pleine, que l'on peut aussi extraire avant."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Un écran utilisé par un joueur montre aux autres ce qu'il fait, sans qu'ils puissent y toucher."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Vos missions sont rangées en onglets En cours, Terminées et Arrêtées, et un objectif nomme le lieu où il se passe."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Une caisse de transport montre aussi sa plaque sur son dessus, et les caisses rangées la montrent vers l'allée."
+            },
+            {
+              "type": "added",
+              "area": "props",
+              "text": "Une charge lâchée en l'air montre un trait et une croix là où elle va tomber."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "Le concassage et le raffinage durent 5 secondes, et un concasseur plein attend qu'on extraie sa caisse."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "Les quantités des missions sont dans l'unité de la marchandise : kilos et tonnes, litres et mètres cubes."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "L'avancement de votre mission se met à jour sur le DataPad au fil des livraisons."
+            },
+            {
+              "type": "changed",
+              "area": "vehicles",
+              "text": "La batterie d'un camion se vide selon la charge transportée et les pentes montées."
+            },
+            {
+              "type": "changed",
+              "area": "vehicles",
+              "text": "L'écran central du camion montre la caméra de recul avant la carte."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "Le grand écran de l'hôtel de ville est un tiers moins haut."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Les applis du DataPad n'ont plus de bouton Accueil, et leur titre est au-dessus de leurs onglets."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Seuls les objets qu'un joueur peut porter se chargent dans la benne d'un camion."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "S'allonger dans un lit ne fait plus tourner la tête."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Le message Lâcher ne reste plus affiché après une reconnexion."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Le voyant de notification du DataPad clignote jusqu'à ce que vous ouvriez la nouvelle."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Les écrans hors de vue ne coûtent plus de temps d'image."
+            },
             {
               "type": "fixed",
               "area": "server",

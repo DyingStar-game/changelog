@@ -7,8 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Mining**: The refinery gathers several crates of crushed ore until it holds a full crate of ingots, which you can also extract earlier.
+- **Interface**: A screen in use by a player shows the others what they are doing, without letting them touch it.
+- **Economy**: Your missions are sorted into In progress, Done and Stopped tabs, and an objective names the place it happens.
+- **Props**: A hauling crate shows its plate on its top too, and shelved crates show it to the aisle.
+- **Props**: A load let go in the air shows a line and a cross where it will land.
+
+### Changed
+
+- **Mining**: Crushing and refining take 5 seconds, and a full crusher waits for its crate to be extracted.
+- **Economy**: Mission quantities are in the unit of the goods: kilograms and tonnes, litres and cubic metres.
+- **Economy**: Your mission's progress updates on the DataPad as you deliver.
+- **Vehicles**: A truck's battery drains with the load it carries and the slopes it climbs.
+- **Vehicles**: The truck's middle screen shows the rear camera before the chart.
+- **Buildings**: The town hall's giant screen is a third shorter.
+- **Interface**: The DataPad apps no longer have a Home button, and their title sits above their tabs.
+
 ### Fixed
 
+- **Vehicles**: Only objects a player can carry load into a truck bed.
+- **Player**: Lying in bed no longer spins the head.
+- **Player**: The Drop prompt no longer stays on after reconnecting.
+- **Interface**: The DataPad's notification light keeps blinking until you open the news.
+- **Performance**: Screens out of sight no longer cost frame time.
 - **Server**: Walking or driving into a new area no longer makes everyone's movement stutter for a moment.
 - **Mining**: A mining field filling with rocks no longer freezes the server.
 - **Performance**: Arriving near a village no longer freezes the game while its ground is laid.

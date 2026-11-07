@@ -7,8 +7,31 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Minage** : La raffinerie cumule plusieurs caisses de minerai concassé jusqu'à une caisse de lingots pleine, que l'on peut aussi extraire avant.
+- **Interface** : Un écran utilisé par un joueur montre aux autres ce qu'il fait, sans qu'ils puissent y toucher.
+- **Économie** : Vos missions sont rangées en onglets En cours, Terminées et Arrêtées, et un objectif nomme le lieu où il se passe.
+- **Objets** : Une caisse de transport montre aussi sa plaque sur son dessus, et les caisses rangées la montrent vers l'allée.
+- **Objets** : Une charge lâchée en l'air montre un trait et une croix là où elle va tomber.
+
+### Changed
+
+- **Minage** : Le concassage et le raffinage durent 5 secondes, et un concasseur plein attend qu'on extraie sa caisse.
+- **Économie** : Les quantités des missions sont dans l'unité de la marchandise : kilos et tonnes, litres et mètres cubes.
+- **Économie** : L'avancement de votre mission se met à jour sur le DataPad au fil des livraisons.
+- **Véhicules** : La batterie d'un camion se vide selon la charge transportée et les pentes montées.
+- **Véhicules** : L'écran central du camion montre la caméra de recul avant la carte.
+- **Bâtiments** : Le grand écran de l'hôtel de ville est un tiers moins haut.
+- **Interface** : Les applis du DataPad n'ont plus de bouton Accueil, et leur titre est au-dessus de leurs onglets.
+
 ### Fixed
 
+- **Véhicules** : Seuls les objets qu'un joueur peut porter se chargent dans la benne d'un camion.
+- **Joueur** : S'allonger dans un lit ne fait plus tourner la tête.
+- **Joueur** : Le message Lâcher ne reste plus affiché après une reconnexion.
+- **Interface** : Le voyant de notification du DataPad clignote jusqu'à ce que vous ouvriez la nouvelle.
+- **Performances** : Les écrans hors de vue ne coûtent plus de temps d'image.
 - **Serveur** : Marcher ou rouler vers une nouvelle zone ne fait plus saccader un instant les déplacements de tout le monde.
 - **Minage** : Un champ minier qui se remplit de rochers ne fige plus le serveur.
 - **Performances** : Arriver près d'un village ne fige plus le jeu pendant que son sol se met en place.

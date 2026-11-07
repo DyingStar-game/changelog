@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611071908] - 2026-11-07
+
 ### Added
 
 - **Minage** : La raffinerie cumule plusieurs caisses de minerai concassé jusqu'à une caisse de lingots pleine, que l'on peut aussi extraire avant.

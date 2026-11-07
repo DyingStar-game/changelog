@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611071908] - 2026-11-07
+
 ### Added
 
 - **Mining**: The refinery gathers several crates of crushed ore until it holds a full crate of ingots, which you can also extract earlier.

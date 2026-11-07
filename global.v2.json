@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-07T09:24:39.015860+00:00",
+  "generated_at": "2026-11-07T19:01:13.804467+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,40 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Walking or driving into a new area no longer makes everyone's movement stutter for a moment."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "A mining field filling with rocks no longer freezes the server."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Arriving near a village no longer freezes the game while its ground is laid."
+            }
+          ],
+          "fr": [
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Marcher ou rouler vers une nouvelle zone ne fait plus saccader un instant les déplacements de tout le monde."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "Un champ minier qui se remplit de rochers ne fige plus le serveur."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Arriver près d'un village ne fige plus le jeu pendant que son sol se met en place."
+            }
+          ]
         }
       },
       "releases": [

@@ -7,6 +7,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **Serveur** : Marcher ou rouler vers une nouvelle zone ne fait plus saccader un instant les déplacements de tout le monde.
+- **Minage** : Un champ minier qui se remplit de rochers ne fige plus le serveur.
+- **Performances** : Arriver près d'un village ne fige plus le jeu pendant que son sol se met en place.
+
 ## [0.1.0-dev.202611070913] - 2026-11-07
 
 ### Changed

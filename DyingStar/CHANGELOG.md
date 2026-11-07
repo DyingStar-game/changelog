@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **Server**: Walking or driving into a new area no longer makes everyone's movement stutter for a moment.
+- **Mining**: A mining field filling with rocks no longer freezes the server.
+- **Performance**: Arriving near a village no longer freezes the game while its ground is laid.
+
 ## [0.1.0-dev.202611070913] - 2026-11-07
 
 ### Changed

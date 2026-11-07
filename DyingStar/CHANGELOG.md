@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Performance**: Villages and cities run much faster: machine screens no longer animate when nobody is looking at them.
+
 ## [0.1.0-dev.202611061946] - 2026-11-06
 
 ### Added

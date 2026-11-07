@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Performances** : Les villages et les villes sont bien plus fluides : les écrans des machines ne s'animent plus quand personne ne les regarde.
+
 ## [0.1.0-dev.202611061946] - 2026-11-06
 
 ### Added

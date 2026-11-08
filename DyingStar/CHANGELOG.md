@@ -7,6 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Economy**: The crates on a warehouse's shelves are its stock: they disappear as the village consumes and appear when it receives goods.
+- **Economy**: A crate shelved in a warehouse belongs to the warehouse's owner, and the crates a transport needs are kept for its players.
+- **Economy**: Warehouse shelves are numbered and their aisles painted on the floor.
+- **Economy**: A screen in the warehouse lists what it holds, and another the crates waiting for each transporter.
+- **Vehicles**: A truck's plate names the player who had it delivered.
+- **Audio**: Voice is push to talk by default, and the microphone can stay open in the settings.
+- **Player**: You see your own tool on your belt.
+
+### Changed
+
+- **Mining**: The refinery takes several crates of one owner and shows its metal in kilograms.
+- **Vehicles**: An overloaded truck drains its battery three times faster.
+- **Buildings**: A teleporter in use shows the others what its user is choosing.
+- **Buildings**: The town hall's gold trim stays lit by day.
+
+### Fixed
+
+- **Mining**: The refinery says why it refuses crates of different owners.
+- **Economy**: A mission's place reads by its name instead of a code.
+- **Economy**: A kiosk's In progress tab no longer shows the missions that ended.
+- **Star map**: A mission's markers leave the chart when the mission ends.
+- **Social**: A notification names the player it is from.
+- **Interface**: Inventory goods read as their name and weight.
+- **Interface**: A dispenser shows a delivery ordered by a character instead of its screen saver.
+- **Vehicles**: The chart on the truck's cab screen no longer shows key help.
+
 ## [0.1.0-dev.202611071908] - 2026-11-07
 
 ### Added

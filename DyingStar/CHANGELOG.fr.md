@@ -7,6 +7,34 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Économie** : Les caisses sur les étagères d'un entrepôt sont son stock : elles disparaissent quand le village consomme et apparaissent quand il reçoit des marchandises.
+- **Économie** : Une caisse rangée dans un entrepôt change de propriétaire et devient assicé à la Corpo/organisation qui détient l'entrepôt. Si mission de transport, l'entrepot réserve des caisses aux joueurs.
+- **Économie** : Les étagères des entrepôts sont numérotées et leurs allées peintes au sol.
+- **Économie** : Un écran de l'entrepôt liste ce qu'il contient, et un autre les caisses qui attendent chaque transporteur.
+- **Véhicules** : La plaque d'un camion porte le nom du joueur qui l'a fait livrer.
+- **Audio** : La voix passe par une touche à maintenir par défaut, et le micro peut rester ouvert dans les réglages.
+- **Joueur** : Vous voyez votre propre outil à votre ceinture.
+
+### Changed
+
+- **Minage** : La raffinerie prend plusieurs caisses d'un même propriétaire et affiche son métal en kilogrammes.
+- **Véhicules** : Un camion surchargé vide sa batterie trois fois plus vite.
+- **Bâtiments** : Un téléporteur utilisé montre aux autres ce que son utilisateur choisit.
+- **Bâtiments** : Le liseré doré de l'hôtel de ville reste allumé de jour.
+
+### Fixed
+
+- **Minage** : La raffinerie explique pourquoi elle refuse des caisses de propriétaires différents.
+- **Économie** : Le lieu d'une mission s'affiche par son nom au lieu d'un code.
+- **Économie** : L'onglet En cours d'une borne n'affiche plus les missions terminées.
+- **Carte stellaire** : Les marqueurs d'une mission quittent la carte quand elle se termine.
+- **Social** : Une notification nomme le joueur qui l'envoie.
+- **Interface** : Les marchandises de l'inventaire s'affichent par leur nom et leur poids.
+- **Interface** : Un distributeur montre une livraison commandée par un personnage au lieu de son économiseur d'écran.
+- **Véhicules** : La carte de l'écran de cabine du camion n'affiche plus l'aide des touches.
+
 ## [0.1.0-dev.202611071908] - 2026-11-07
 
 ### Added

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-07T19:21:20.403564+00:00",
+  "generated_at": "2026-11-08T19:51:48.097804+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,200 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "The crates on a warehouse's shelves are its stock: they disappear as the village consumes and appear when it receives goods."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "A crate shelved in a warehouse belongs to the warehouse's owner, and the crates a transport needs are kept for its players."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Warehouse shelves are numbered and their aisles painted on the floor."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "A screen in the warehouse lists what it holds, and another the crates waiting for each transporter."
+            },
+            {
+              "type": "added",
+              "area": "vehicles",
+              "text": "A truck's plate names the player who had it delivered."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Voice is push to talk by default, and the microphone can stay open in the settings."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "You see your own tool on your belt."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "The refinery takes several crates of one owner and shows its metal in kilograms."
+            },
+            {
+              "type": "changed",
+              "area": "vehicles",
+              "text": "An overloaded truck drains its battery three times faster."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "A teleporter in use shows the others what its user is choosing."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "The town hall's gold trim stays lit by day."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "The refinery says why it refuses crates of different owners."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "A mission's place reads by its name instead of a code."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "A kiosk's In progress tab no longer shows the missions that ended."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "A mission's markers leave the chart when the mission ends."
+            },
+            {
+              "type": "fixed",
+              "area": "social",
+              "text": "A notification names the player it is from."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Inventory goods read as their name and weight."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "A dispenser shows a delivery ordered by a character instead of its screen saver."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "The chart on the truck's cab screen no longer shows key help."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Les caisses sur les étagères d'un entrepôt sont son stock : elles disparaissent quand le village consomme et apparaissent quand il reçoit des marchandises."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Une caisse rangée dans un entrepôt change de propriétaire et devient assicé à la Corpo/organisation qui détient l'entrepôt. Si mission de transport, l'entrepot réserve des caisses aux joueurs."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Les étagères des entrepôts sont numérotées et leurs allées peintes au sol."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Un écran de l'entrepôt liste ce qu'il contient, et un autre les caisses qui attendent chaque transporteur."
+            },
+            {
+              "type": "added",
+              "area": "vehicles",
+              "text": "La plaque d'un camion porte le nom du joueur qui l'a fait livrer."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "La voix passe par une touche à maintenir par défaut, et le micro peut rester ouvert dans les réglages."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "Vous voyez votre propre outil à votre ceinture."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "La raffinerie prend plusieurs caisses d'un même propriétaire et affiche son métal en kilogrammes."
+            },
+            {
+              "type": "changed",
+              "area": "vehicles",
+              "text": "Un camion surchargé vide sa batterie trois fois plus vite."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "Un téléporteur utilisé montre aux autres ce que son utilisateur choisit."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "Le liseré doré de l'hôtel de ville reste allumé de jour."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "La raffinerie explique pourquoi elle refuse des caisses de propriétaires différents."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "Le lieu d'une mission s'affiche par son nom au lieu d'un code."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "L'onglet En cours d'une borne n'affiche plus les missions terminées."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "Les marqueurs d'une mission quittent la carte quand elle se termine."
+            },
+            {
+              "type": "fixed",
+              "area": "social",
+              "text": "Une notification nomme le joueur qui l'envoie."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Les marchandises de l'inventaire s'affichent par leur nom et leur poids."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Un distributeur montre une livraison commandée par un personnage au lieu de son économiseur d'écran."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "La carte de l'écran de cabine du camion n'affiche plus l'aide des touches."
+            }
+          ]
         }
       },
       "releases": [

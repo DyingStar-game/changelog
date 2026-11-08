@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611082200] - 2026-11-08
+
 ### Added
 
 - **Economy**: The crates on a warehouse's shelves are its stock: they disappear as the village consumes and appear when it receives goods.

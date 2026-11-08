@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-08T21:14:07.525111+00:00",
+  "generated_at": "2026-11-08T22:12:43.511682+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,293 +103,304 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "The crates on a warehouse's shelves are its stock: they disappear as the village consumes and appear when it receives goods."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "A crate shelved in a warehouse belongs to the warehouse's owner, and the crates a transport needs are kept for its players."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Warehouse shelves are numbered and their aisles painted on the floor."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "A screen in the warehouse lists what it holds, and another the crates waiting for each transporter."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "A truck's plate names the player who had it delivered."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Voice is push to talk by default, and the microphone can stay open in the settings."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "You see your own tool on your belt."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "The DataPad has a new look: a dark interface with amber accents, each app's title and sections in its header, and tabs underlined below."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "The DataPad's home shows your balance, shortcuts to your missions, friend requests and inventory, and your missions in progress with their current step."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "The DataPad's screens show their lists beside the selected item's details or beside their form."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Reports and diagnostics are grouped in the More app of the DataPad."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "An empty list on the DataPad says what will show there, with a button when there is something to do about it."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "Your mission cards show the route, the current step and its progress, and a mission is shared from a Share button in its details."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "A stack of your inventory can be put on sale straight from its details."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "A transfer shows a summary of the amount and the balance left before you send it."
-            },
-            {
-              "type": "changed",
-              "area": "mining",
-              "text": "The refinery takes several crates of one owner and shows its metal in kilograms."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "An overloaded truck drains its battery three times faster."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "A teleporter in use shows the others what its user is choosing."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "The town hall's gold trim stays lit by day."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "The star chart opens again on the DataPad's Navigation tab after the game language changes."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "The refinery says why it refuses crates of different owners."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "A mission's place reads by its name instead of a code."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "A kiosk's In progress tab no longer shows the missions that ended."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "A mission's markers leave the chart when the mission ends."
-            },
-            {
-              "type": "fixed",
-              "area": "social",
-              "text": "A notification names the player it is from."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Inventory goods read as their name and weight."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "A dispenser shows a delivery ordered by a character instead of its screen saver."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "The chart on the truck's cab screen no longer shows key help."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Les caisses sur les étagères d'un entrepôt sont son stock : elles disparaissent quand le village consomme et apparaissent quand il reçoit des marchandises."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Une caisse rangée dans un entrepôt change de propriétaire et devient assicé à la Corpo/organisation qui détient l'entrepôt. Si mission de transport, l'entrepot réserve des caisses aux joueurs."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Les étagères des entrepôts sont numérotées et leurs allées peintes au sol."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Un écran de l'entrepôt liste ce qu'il contient, et un autre les caisses qui attendent chaque transporteur."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "La plaque d'un camion porte le nom du joueur qui l'a fait livrer."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "La voix passe par une touche à maintenir par défaut, et le micro peut rester ouvert dans les réglages."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Vous voyez votre propre outil à votre ceinture."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Le DataPad change de look : une interface sombre aux accents ambrés, le titre et les sections de chaque application dans son en-tête, et des onglets soulignés en dessous."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "L'accueil du DataPad affiche votre solde, des raccourcis vers vos missions, vos demandes d'amis et votre inventaire, et vos missions en cours avec leur étape actuelle."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Les écrans du DataPad montrent leurs listes à côté du détail de l'élément choisi ou à côté de leur formulaire."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Les signalements et le diagnostic sont regroupés dans l'application Plus du DataPad."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Une liste vide du DataPad dit ce qui y apparaîtra, avec un bouton quand il y a quelque chose à faire."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "Vos cartes de mission montrent le trajet, l'étape actuelle et son avancement, et une mission se partage depuis un bouton Partager dans son détail."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "Une pile de votre inventaire se met en vente directement depuis son détail."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "Un virement affiche un récapitulatif du montant et du solde restant avant l'envoi."
-            },
-            {
-              "type": "changed",
-              "area": "mining",
-              "text": "La raffinerie prend plusieurs caisses d'un même propriétaire et affiche son métal en kilogrammes."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Un camion surchargé vide sa batterie trois fois plus vite."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Un téléporteur utilisé montre aux autres ce que son utilisateur choisit."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Le liseré doré de l'hôtel de ville reste allumé de jour."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "La carte stellaire s'ouvre de nouveau dans l'onglet Navigation du DataPad après un changement de langue."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "La raffinerie explique pourquoi elle refuse des caisses de propriétaires différents."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "Le lieu d'une mission s'affiche par son nom au lieu d'un code."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "L'onglet En cours d'une borne n'affiche plus les missions terminées."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Les marqueurs d'une mission quittent la carte quand elle se termine."
-            },
-            {
-              "type": "fixed",
-              "area": "social",
-              "text": "Une notification nomme le joueur qui l'envoie."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Les marchandises de l'inventaire s'affichent par leur nom et leur poids."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Un distributeur montre une livraison commandée par un personnage au lieu de son économiseur d'écran."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "La carte de l'écran de cabine du camion n'affiche plus l'aide des touches."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611082200",
+          "date": "2026-11-08",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "The crates on a warehouse's shelves are its stock: they disappear as the village consumes and appear when it receives goods."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "A crate shelved in a warehouse belongs to the warehouse's owner, and the crates a transport needs are kept for its players."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Warehouse shelves are numbered and their aisles painted on the floor."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "A screen in the warehouse lists what it holds, and another the crates waiting for each transporter."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "A truck's plate names the player who had it delivered."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Voice is push to talk by default, and the microphone can stay open in the settings."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "You see your own tool on your belt."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "The DataPad has a new look: a dark interface with amber accents, each app's title and sections in its header, and tabs underlined below."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "The DataPad's home shows your balance, shortcuts to your missions, friend requests and inventory, and your missions in progress with their current step."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "The DataPad's screens show their lists beside the selected item's details or beside their form."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Reports and diagnostics are grouped in the More app of the DataPad."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "An empty list on the DataPad says what will show there, with a button when there is something to do about it."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "Your mission cards show the route, the current step and its progress, and a mission is shared from a Share button in its details."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "A stack of your inventory can be put on sale straight from its details."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "A transfer shows a summary of the amount and the balance left before you send it."
+              },
+              {
+                "type": "changed",
+                "area": "mining",
+                "text": "The refinery takes several crates of one owner and shows its metal in kilograms."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "An overloaded truck drains its battery three times faster."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "A teleporter in use shows the others what its user is choosing."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "The town hall's gold trim stays lit by day."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "The star chart opens again on the DataPad's Navigation tab after the game language changes."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "The refinery says why it refuses crates of different owners."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "A mission's place reads by its name instead of a code."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "A kiosk's In progress tab no longer shows the missions that ended."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "A mission's markers leave the chart when the mission ends."
+              },
+              {
+                "type": "fixed",
+                "area": "social",
+                "text": "A notification names the player it is from."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Inventory goods read as their name and weight."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "A dispenser shows a delivery ordered by a character instead of its screen saver."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "The chart on the truck's cab screen no longer shows key help."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Les caisses sur les étagères d'un entrepôt sont son stock : elles disparaissent quand le village consomme et apparaissent quand il reçoit des marchandises."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Une caisse rangée dans un entrepôt change de propriétaire et devient assicé à la Corpo/organisation qui détient l'entrepôt. Si mission de transport, l'entrepot réserve des caisses aux joueurs."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Les étagères des entrepôts sont numérotées et leurs allées peintes au sol."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Un écran de l'entrepôt liste ce qu'il contient, et un autre les caisses qui attendent chaque transporteur."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "La plaque d'un camion porte le nom du joueur qui l'a fait livrer."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "La voix passe par une touche à maintenir par défaut, et le micro peut rester ouvert dans les réglages."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Vous voyez votre propre outil à votre ceinture."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Le DataPad change de look : une interface sombre aux accents ambrés, le titre et les sections de chaque application dans son en-tête, et des onglets soulignés en dessous."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "L'accueil du DataPad affiche votre solde, des raccourcis vers vos missions, vos demandes d'amis et votre inventaire, et vos missions en cours avec leur étape actuelle."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Les écrans du DataPad montrent leurs listes à côté du détail de l'élément choisi ou à côté de leur formulaire."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Les signalements et le diagnostic sont regroupés dans l'application Plus du DataPad."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Une liste vide du DataPad dit ce qui y apparaîtra, avec un bouton quand il y a quelque chose à faire."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "Vos cartes de mission montrent le trajet, l'étape actuelle et son avancement, et une mission se partage depuis un bouton Partager dans son détail."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "Une pile de votre inventaire se met en vente directement depuis son détail."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "Un virement affiche un récapitulatif du montant et du solde restant avant l'envoi."
+              },
+              {
+                "type": "changed",
+                "area": "mining",
+                "text": "La raffinerie prend plusieurs caisses d'un même propriétaire et affiche son métal en kilogrammes."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Un camion surchargé vide sa batterie trois fois plus vite."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Un téléporteur utilisé montre aux autres ce que son utilisateur choisit."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Le liseré doré de l'hôtel de ville reste allumé de jour."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "La carte stellaire s'ouvre de nouveau dans l'onglet Navigation du DataPad après un changement de langue."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "La raffinerie explique pourquoi elle refuse des caisses de propriétaires différents."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "Le lieu d'une mission s'affiche par son nom au lieu d'un code."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "L'onglet En cours d'une borne n'affiche plus les missions terminées."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Les marqueurs d'une mission quittent la carte quand elle se termine."
+              },
+              {
+                "type": "fixed",
+                "area": "social",
+                "text": "Une notification nomme le joueur qui l'envoie."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Les marchandises de l'inventaire s'affichent par leur nom et leur poids."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Un distributeur montre une livraison commandée par un personnage au lieu de son économiseur d'écran."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "La carte de l'écran de cabine du camion n'affiche plus l'aide des touches."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611071908",
           "date": "2026-11-07",

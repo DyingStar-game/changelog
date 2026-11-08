@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611082200] - 2026-11-08
+
 ### Added
 
 - **Économie** : Les caisses sur les étagères d'un entrepôt sont son stock : elles disparaissent quand le village consomme et apparaissent quand il reçoit des marchandises.

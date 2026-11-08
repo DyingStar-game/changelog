@@ -19,6 +19,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Interface**: The DataPad has a new look: a dark interface with amber accents, each app's title and sections in its header, and tabs underlined below.
+- **Interface**: The DataPad's home shows your balance, shortcuts to your missions, friend requests and inventory, and your missions in progress with their current step.
+- **Interface**: The DataPad's screens show their lists beside the selected item's details or beside their form.
+- **Interface**: Reports and diagnostics are grouped in the More app of the DataPad.
+- **Interface**: An empty list on the DataPad says what will show there, with a button when there is something to do about it.
+- **Economy**: Your mission cards show the route, the current step and its progress, and a mission is shared from a Share button in its details.
+- **Economy**: A stack of your inventory can be put on sale straight from its details.
+- **Economy**: A transfer shows a summary of the amount and the balance left before you send it.
 - **Mining**: The refinery takes several crates of one owner and shows its metal in kilograms.
 - **Vehicles**: An overloaded truck drains its battery three times faster.
 - **Buildings**: A teleporter in use shows the others what its user is choosing.
@@ -26,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Star map**: The star chart opens again on the DataPad's Navigation tab after the game language changes.
 - **Mining**: The refinery says why it refuses crates of different owners.
 - **Economy**: A mission's place reads by its name instead of a code.
 - **Economy**: A kiosk's In progress tab no longer shows the missions that ended.

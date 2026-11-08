@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-08T19:51:48.097804+00:00",
+  "generated_at": "2026-11-08T21:14:07.525111+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -141,6 +141,46 @@
             },
             {
               "type": "changed",
+              "area": "ui",
+              "text": "The DataPad has a new look: a dark interface with amber accents, each app's title and sections in its header, and tabs underlined below."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "The DataPad's home shows your balance, shortcuts to your missions, friend requests and inventory, and your missions in progress with their current step."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "The DataPad's screens show their lists beside the selected item's details or beside their form."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Reports and diagnostics are grouped in the More app of the DataPad."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "An empty list on the DataPad says what will show there, with a button when there is something to do about it."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "Your mission cards show the route, the current step and its progress, and a mission is shared from a Share button in its details."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "A stack of your inventory can be put on sale straight from its details."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "A transfer shows a summary of the amount and the balance left before you send it."
+            },
+            {
+              "type": "changed",
               "area": "mining",
               "text": "The refinery takes several crates of one owner and shows its metal in kilograms."
             },
@@ -158,6 +198,11 @@
               "type": "changed",
               "area": "buildings",
               "text": "The town hall's gold trim stays lit by day."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "The star chart opens again on the DataPad's Navigation tab after the game language changes."
             },
             {
               "type": "fixed",
@@ -238,6 +283,46 @@
             },
             {
               "type": "changed",
+              "area": "ui",
+              "text": "Le DataPad change de look : une interface sombre aux accents ambrés, le titre et les sections de chaque application dans son en-tête, et des onglets soulignés en dessous."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "L'accueil du DataPad affiche votre solde, des raccourcis vers vos missions, vos demandes d'amis et votre inventaire, et vos missions en cours avec leur étape actuelle."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Les écrans du DataPad montrent leurs listes à côté du détail de l'élément choisi ou à côté de leur formulaire."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Les signalements et le diagnostic sont regroupés dans l'application Plus du DataPad."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Une liste vide du DataPad dit ce qui y apparaîtra, avec un bouton quand il y a quelque chose à faire."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "Vos cartes de mission montrent le trajet, l'étape actuelle et son avancement, et une mission se partage depuis un bouton Partager dans son détail."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "Une pile de votre inventaire se met en vente directement depuis son détail."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "Un virement affiche un récapitulatif du montant et du solde restant avant l'envoi."
+            },
+            {
+              "type": "changed",
               "area": "mining",
               "text": "La raffinerie prend plusieurs caisses d'un même propriétaire et affiche son métal en kilogrammes."
             },
@@ -255,6 +340,11 @@
               "type": "changed",
               "area": "buildings",
               "text": "Le liseré doré de l'hôtel de ville reste allumé de jour."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "La carte stellaire s'ouvre de nouveau dans l'onglet Navigation du DataPad après un changement de langue."
             },
             {
               "type": "fixed",

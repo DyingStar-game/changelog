@@ -19,6 +19,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Interface** : Le DataPad change de look : une interface sombre aux accents ambrés, le titre et les sections de chaque application dans son en-tête, et des onglets soulignés en dessous.
+- **Interface** : L'accueil du DataPad affiche votre solde, des raccourcis vers vos missions, vos demandes d'amis et votre inventaire, et vos missions en cours avec leur étape actuelle.
+- **Interface** : Les écrans du DataPad montrent leurs listes à côté du détail de l'élément choisi ou à côté de leur formulaire.
+- **Interface** : Les signalements et le diagnostic sont regroupés dans l'application Plus du DataPad.
+- **Interface** : Une liste vide du DataPad dit ce qui y apparaîtra, avec un bouton quand il y a quelque chose à faire.
+- **Économie** : Vos cartes de mission montrent le trajet, l'étape actuelle et son avancement, et une mission se partage depuis un bouton Partager dans son détail.
+- **Économie** : Une pile de votre inventaire se met en vente directement depuis son détail.
+- **Économie** : Un virement affiche un récapitulatif du montant et du solde restant avant l'envoi.
 - **Minage** : La raffinerie prend plusieurs caisses d'un même propriétaire et affiche son métal en kilogrammes.
 - **Véhicules** : Un camion surchargé vide sa batterie trois fois plus vite.
 - **Bâtiments** : Un téléporteur utilisé montre aux autres ce que son utilisateur choisit.
@@ -26,6 +34,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Carte stellaire** : La carte stellaire s'ouvre de nouveau dans l'onglet Navigation du DataPad après un changement de langue.
 - **Minage** : La raffinerie explique pourquoi elle refuse des caisses de propriétaires différents.
 - **Économie** : Le lieu d'une mission s'affiche par son nom au lieu d'un code.
 - **Économie** : L'onglet En cours d'une borne n'affiche plus les missions terminées.

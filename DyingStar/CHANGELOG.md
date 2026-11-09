@@ -22,6 +22,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **PlanetTech**: Lava now flows down erupting volcanoes for every player nearby.
+- **Performance**: Lava flows and volcano smoke no longer lower the frame rate near an erupting volcano.
+- **Server**: A server no longer disconnects in a loop when a lava flow is under way in its zone.
 - **Economy**: Taking a crate for a mission no longer has another one kept for you on a different shelf.
 - **Economy**: A mission crate put back on a shelf stays the mission's.
 - **Economy**: The pickup screen names the buffer rack.

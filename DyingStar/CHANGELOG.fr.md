@@ -22,6 +22,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **PlanetTech** : La lave coule désormais sur les volcans en éruption pour tous les joueurs à proximité.
+- **Performances** : Les coulées de lave et la fumée des volcans ne font plus chuter les images par seconde près d'un volcan en éruption.
+- **Serveur** : Un serveur ne se déconnecte plus en boucle quand une coulée de lave est en cours dans sa zone.
 - **Économie** : Prendre une caisse de mission ne vous en réserve plus une autre sur une autre étagère.
 - **Économie** : Une caisse de mission reposée sur une étagère reste celle de la mission.
 - **Économie** : L'écran des retraits nomme l'étagère tampon.

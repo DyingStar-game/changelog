@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-09T21:26:01.574727+00:00",
+  "generated_at": "2026-11-09T21:26:51.669795+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -141,6 +141,21 @@
             },
             {
               "type": "fixed",
+              "area": "planettech",
+              "text": "Lava now flows down erupting volcanoes for every player nearby."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Lava flows and volcano smoke no longer lower the frame rate near an erupting volcano."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "A server no longer disconnects in a loop when a lava flow is under way in its zone."
+            },
+            {
+              "type": "fixed",
               "area": "economy",
               "text": "Taking a crate for a mission no longer has another one kept for you on a different shelf."
             },
@@ -195,6 +210,21 @@
               "type": "changed",
               "area": "buildings",
               "text": "Les lampadaires de la ville usine font face à la route."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "La lave coule désormais sur les volcans en éruption pour tous les joueurs à proximité."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Les coulées de lave et la fumée des volcans ne font plus chuter les images par seconde près d'un volcan en éruption."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Un serveur ne se déconnecte plus en boucle quand une coulée de lave est en cours dans sa zone."
             },
             {
               "type": "fixed",

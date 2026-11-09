@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Performance**: Lava flows now send a few kilobytes to nearby players instead of hundreds, and show at once for a player arriving mid-eruption.
 - **Economy**: The crates in a warehouse have different weights.
 - **Interface**: The DataPad's mission lists open their first mission when you change tabs.
 - **Buildings**: The mining village has four crushers.

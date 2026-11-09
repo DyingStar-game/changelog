@@ -15,6 +15,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Performances** : Les coulées de lave n'envoient plus que quelques kilo-octets aux joueurs proches au lieu de centaines, et s'affichent tout de suite pour un joueur qui arrive en pleine éruption.
 - **Économie** : Les caisses d'un entrepôt ont des poids différents.
 - **Interface** : Les listes de missions du DataPad ouvrent leur première mission quand vous changez d'onglet.
 - **Bâtiments** : Le village minier compte quatre concasseurs.

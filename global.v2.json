@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-09T21:26:51.669795+00:00",
+  "generated_at": "2026-11-09T21:35:29.886431+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -121,6 +121,11 @@
             },
             {
               "type": "changed",
+              "area": "performance",
+              "text": "Lava flows now send a few kilobytes to nearby players instead of hundreds, and show at once for a player arriving mid-eruption."
+            },
+            {
+              "type": "changed",
               "area": "economy",
               "text": "The crates in a warehouse have different weights."
             },
@@ -190,6 +195,11 @@
               "type": "added",
               "area": "ui",
               "text": "F4 ouvre le DataPad directement sur vos missions ; la touche se change dans les commandes."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Les coulées de lave n'envoient plus que quelques kilo-octets aux joueurs proches au lieu de centaines, et s'affichent tout de suite pour un joueur qui arrive en pleine éruption."
             },
             {
               "type": "changed",

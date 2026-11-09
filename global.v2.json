@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-08T22:12:43.511682+00:00",
+  "generated_at": "2026-11-09T21:26:01.574727+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,120 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "A crate kept or carried for a mission says so on its plate, with the mission's name."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "A mission shows its time limit before it is taken, and the time left once it is."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "F4 opens the DataPad straight on your missions; the key can be changed in the controls."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "The crates in a warehouse have different weights."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "The DataPad's mission lists open their first mission when you change tabs."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "The mining village has four crushers."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "The factory city's street lamps face the road."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "Taking a crate for a mission no longer has another one kept for you on a different shelf."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "A mission crate put back on a shelf stays the mission's."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "The pickup screen names the buffer rack."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Raising the DataPad puts down what you carry, and no prompt shows over it."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Une caisse réservée ou transportée pour une mission l'indique sur sa plaque, avec le nom de la mission."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Une mission affiche son délai avant d'être prise, et la durée restante une fois prise."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "F4 ouvre le DataPad directement sur vos missions ; la touche se change dans les commandes."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "Les caisses d'un entrepôt ont des poids différents."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Les listes de missions du DataPad ouvrent leur première mission quand vous changez d'onglet."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "Le village minier compte quatre concasseurs."
+            },
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "Les lampadaires de la ville usine font face à la route."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "Prendre une caisse de mission ne vous en réserve plus une autre sur une autre étagère."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "Une caisse de mission reposée sur une étagère reste celle de la mission."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "L'écran des retraits nomme l'étagère tampon."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Lever le DataPad pose ce que vous portez, et aucune invite ne s'affiche par-dessus."
+            }
+          ]
         }
       },
       "releases": [

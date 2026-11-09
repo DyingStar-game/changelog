@@ -7,6 +7,26 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Économie** : Une caisse réservée ou transportée pour une mission l'indique sur sa plaque, avec le nom de la mission.
+- **Économie** : Une mission affiche son délai avant d'être prise, et la durée restante une fois prise.
+- **Interface** : F4 ouvre le DataPad directement sur vos missions ; la touche se change dans les commandes.
+
+### Changed
+
+- **Économie** : Les caisses d'un entrepôt ont des poids différents.
+- **Interface** : Les listes de missions du DataPad ouvrent leur première mission quand vous changez d'onglet.
+- **Bâtiments** : Le village minier compte quatre concasseurs.
+- **Bâtiments** : Les lampadaires de la ville usine font face à la route.
+
+### Fixed
+
+- **Économie** : Prendre une caisse de mission ne vous en réserve plus une autre sur une autre étagère.
+- **Économie** : Une caisse de mission reposée sur une étagère reste celle de la mission.
+- **Économie** : L'écran des retraits nomme l'étagère tampon.
+- **Interface** : Lever le DataPad pose ce que vous portez, et aucune invite ne s'affiche par-dessus.
+
 ## [0.1.0-dev.202611082200] - 2026-11-08
 
 ### Added

@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Economy**: A crate kept or carried for a mission says so on its plate, with the mission's name.
+- **Economy**: A mission shows its time limit before it is taken, and the time left once it is.
+- **Interface**: F4 opens the DataPad straight on your missions; the key can be changed in the controls.
+
+### Changed
+
+- **Economy**: The crates in a warehouse have different weights.
+- **Interface**: The DataPad's mission lists open their first mission when you change tabs.
+- **Buildings**: The mining village has four crushers.
+- **Buildings**: The factory city's street lamps face the road.
+
+### Fixed
+
+- **Economy**: Taking a crate for a mission no longer has another one kept for you on a different shelf.
+- **Economy**: A mission crate put back on a shelf stays the mission's.
+- **Economy**: The pickup screen names the buffer rack.
+- **Interface**: Raising the DataPad puts down what you carry, and no prompt shows over it.
+
 ## [0.1.0-dev.202611082200] - 2026-11-08
 
 ### Added

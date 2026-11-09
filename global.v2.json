@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-09T21:35:29.886431+00:00",
+  "generated_at": "2026-11-09T21:50:20.000150+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,163 +103,174 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "A crate kept or carried for a mission says so on its plate, with the mission's name."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "A mission shows its time limit before it is taken, and the time left once it is."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "F4 opens the DataPad straight on your missions; the key can be changed in the controls."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Lava flows now send a few kilobytes to nearby players instead of hundreds, and show at once for a player arriving mid-eruption."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "The crates in a warehouse have different weights."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "The DataPad's mission lists open their first mission when you change tabs."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "The mining village has four crushers."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "The factory city's street lamps face the road."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Lava now flows down erupting volcanoes for every player nearby."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Lava flows and volcano smoke no longer lower the frame rate near an erupting volcano."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "A server no longer disconnects in a loop when a lava flow is under way in its zone."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "Taking a crate for a mission no longer has another one kept for you on a different shelf."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "A mission crate put back on a shelf stays the mission's."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "The pickup screen names the buffer rack."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Raising the DataPad puts down what you carry, and no prompt shows over it."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Une caisse réservée ou transportée pour une mission l'indique sur sa plaque, avec le nom de la mission."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Une mission affiche son délai avant d'être prise, et la durée restante une fois prise."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "F4 ouvre le DataPad directement sur vos missions ; la touche se change dans les commandes."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Les coulées de lave n'envoient plus que quelques kilo-octets aux joueurs proches au lieu de centaines, et s'affichent tout de suite pour un joueur qui arrive en pleine éruption."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "Les caisses d'un entrepôt ont des poids différents."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Les listes de missions du DataPad ouvrent leur première mission quand vous changez d'onglet."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Le village minier compte quatre concasseurs."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Les lampadaires de la ville usine font face à la route."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "La lave coule désormais sur les volcans en éruption pour tous les joueurs à proximité."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Les coulées de lave et la fumée des volcans ne font plus chuter les images par seconde près d'un volcan en éruption."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Un serveur ne se déconnecte plus en boucle quand une coulée de lave est en cours dans sa zone."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "Prendre une caisse de mission ne vous en réserve plus une autre sur une autre étagère."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "Une caisse de mission reposée sur une étagère reste celle de la mission."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "L'écran des retraits nomme l'étagère tampon."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Lever le DataPad pose ce que vous portez, et aucune invite ne s'affiche par-dessus."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611092135",
+          "date": "2026-11-09",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "A crate kept or carried for a mission says so on its plate, with the mission's name."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "A mission shows its time limit before it is taken, and the time left once it is."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "F4 opens the DataPad straight on your missions; the key can be changed in the controls."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Lava flows now send a few kilobytes to nearby players instead of hundreds, and show at once for a player arriving mid-eruption."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "The crates in a warehouse have different weights."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "The DataPad's mission lists open their first mission when you change tabs."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "The mining village has four crushers."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "The factory city's street lamps face the road."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Lava now flows down erupting volcanoes for every player nearby."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Lava flows and volcano smoke no longer lower the frame rate near an erupting volcano."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "A server no longer disconnects in a loop when a lava flow is under way in its zone."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "Taking a crate for a mission no longer has another one kept for you on a different shelf."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "A mission crate put back on a shelf stays the mission's."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "The pickup screen names the buffer rack."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Raising the DataPad puts down what you carry, and no prompt shows over it."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Une caisse réservée ou transportée pour une mission l'indique sur sa plaque, avec le nom de la mission."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Une mission affiche son délai avant d'être prise, et la durée restante une fois prise."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "F4 ouvre le DataPad directement sur vos missions ; la touche se change dans les commandes."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Les coulées de lave n'envoient plus que quelques kilo-octets aux joueurs proches au lieu de centaines, et s'affichent tout de suite pour un joueur qui arrive en pleine éruption."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "Les caisses d'un entrepôt ont des poids différents."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Les listes de missions du DataPad ouvrent leur première mission quand vous changez d'onglet."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Le village minier compte quatre concasseurs."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Les lampadaires de la ville usine font face à la route."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "La lave coule désormais sur les volcans en éruption pour tous les joueurs à proximité."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Les coulées de lave et la fumée des volcans ne font plus chuter les images par seconde près d'un volcan en éruption."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Un serveur ne se déconnecte plus en boucle quand une coulée de lave est en cours dans sa zone."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "Prendre une caisse de mission ne vous en réserve plus une autre sur une autre étagère."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "Une caisse de mission reposée sur une étagère reste celle de la mission."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "L'écran des retraits nomme l'étagère tampon."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Lever le DataPad pose ce que vous portez, et aucune invite ne s'affiche par-dessus."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611082200",
           "date": "2026-11-08",

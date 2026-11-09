@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611092135] - 2026-11-09
+
 ### Added
 
 - **Économie** : Une caisse réservée ou transportée pour une mission l'indique sur sa plaque, avec le nom de la mission.

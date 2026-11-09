@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611092135] - 2026-11-09
+
 ### Added
 
 - **Economy**: A crate kept or carried for a mission says so on its plate, with the mission's name.

@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611111658] - 2026-11-11
+
 ### Added
 
 - **Minage** : Les villages miniers ont une mine : un puits profond avec plusieurs niveaux et des galeries, droites ou sinueuses, à explorer en camion.

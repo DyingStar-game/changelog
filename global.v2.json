@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-11T16:56:02.029207+00:00",
+  "generated_at": "2026-11-11T17:15:48.864665+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,293 +103,304 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "mining",
-              "text": "Mining villages have a mine: a deep shaft with several levels and galleries, straight or winding, to explore by truck."
-            },
-            {
-              "type": "added",
-              "area": "mining",
-              "text": "Drill a gallery's face for 20 seconds: it cracks open and its blocks fall, rocks carrying gold to cut until you can carry them."
-            },
-            {
-              "type": "added",
-              "area": "mining",
-              "text": "A falling layer fills the gallery with dust that clears after 40 seconds."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "A truck elevator takes trucks down the mine's shaft, stopping at each level; a level's kiosk calls it there, and its ramp folds up while it moves."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "A market board at the town hall shows each material's price, its change over a day and its curve."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "The warehouse boards show pictograms, shelves and weights, page by page."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Two more music tracks play in the villages."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Ore shelved in a warehouse outside any mission is bought at the market price, with a notification."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "ARES Security offers inspections: drive to a zone shown on the star chart, 5 to 40 km from a village, and get paid on arrival."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Caves dug in corundum have milky white walls and grow crystals in the colour of their rock, rubies in white corundum."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "The torch has a UV mode (Alt+U) that makes crystals and milky stone glow."
-            },
-            {
-              "type": "added",
-              "area": "graphics",
-              "text": "Crystals catch the torch light like real gems: bright glints and sparkles of their colour that move as you walk around them."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Daylight no longer reaches down a mine: only your torch lights it."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Crates and rock pieces set down in a truck bed line up on a grid; what finds no room settles by itself, piles included, and stays put on the road."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "A transport mission lists its steps, loading, refining and delivery, and ticks them as they are done."
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Objects are reached from 2 m instead of 1.5 m."
-            },
-            {
-              "type": "changed",
-              "area": "mining",
-              "text": "The mining tool is on the belt when logging in."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Daylight no longer reaches inside caves: only your torch and the glowing crystals light them."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Trucks driving into caves and mines are no longer thrown back to the surface."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "No more long freeze the first time you look down a mine."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "A finished or abandoned mission no longer stays open in the DataPad."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "Bank transactions show the mission they pay, a readable type and their date."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "A mission crate keeps its mission band through the refinery, and its plate shows sooner."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "The Carry prompt shows on the rock piece looked at, its line starts from that piece, and that piece is the one taken."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "The mining tool no longer turns round while cutting."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The prompt to put the tool down no longer points at a nearby object."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "A mission's issuer reads by its name and what it is, ARES · Corporation, instead of \"politics\"."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "A rock piece set down in a truck bed rests on the floor instead of floating."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "mining",
-              "text": "Les villages miniers ont une mine : un puits profond avec plusieurs niveaux et des galeries, droites ou sinueuses, à explorer en camion."
-            },
-            {
-              "type": "added",
-              "area": "mining",
-              "text": "Percez le front d'une galerie pendant 20 secondes : il se fissure et ses blocs tombent, des rochers chargés d'or à découper jusqu'à pouvoir les porter."
-            },
-            {
-              "type": "added",
-              "area": "mining",
-              "text": "Une couche qui tombe remplit la galerie d'une poussière qui se dissipe en 40 secondes."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Un ascenseur à camions descend le puits de la mine en s'arrêtant à chaque niveau ; la borne d'un niveau l'y appelle, et sa rampe se relève pendant qu'il roule."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Un tableau des cours à l'hôtel de ville affiche le prix de chaque matériau, sa variation sur un jour et sa courbe."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Les tableaux de l'entrepôt affichent pictogrammes, étagères et poids, page par page."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Deux nouvelles musiques passent dans les villages."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "Le minerai rangé dans un entrepôt hors mission est acheté au cours du marché, avec une notification."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "ARES Security propose des inspections : rejoindre une zone affichée sur la carte stellaire, à 5 à 40 km d'un village, et être payé à l'arrivée."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Les grottes creusées dans le corindon ont des parois d'un blanc laiteux et se couvrent de cristaux de la couleur de leur roche, des rubis dans le corindon blanc."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "La lampe torche a un mode UV (Alt+U) qui fait luire les cristaux et la pierre laiteuse."
-            },
-            {
-              "type": "added",
-              "area": "graphics",
-              "text": "Les cristaux renvoient la lumière de la lampe comme de vraies gemmes : reflets vifs et éclats de leur couleur qui bougent quand on tourne autour."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "La lumière du jour n'atteint plus le fond d'une mine : seule votre lampe l'éclaire."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Les caisses et morceaux de roche posés dans une benne s'alignent sur une grille ; ce qui n'a pas de place se cale tout seul, en tas compris, et ne bouge plus sur la route."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Une mission de transport liste ses étapes, chargement, raffinage et livraison, et les coche au fur et à mesure."
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Les objets s'atteignent à 2 m au lieu de 1,5 m."
-            },
-            {
-              "type": "changed",
-              "area": "mining",
-              "text": "L'outil de minage est à la ceinture à la connexion."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "La lumière du jour n'entre plus dans les grottes : seules votre lampe et les cristaux lumineux les éclairent."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Les camions qui entrent dans une grotte ou une mine ne sont plus renvoyés à la surface."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Plus de long blocage la première fois qu'on regarde au fond d'une mine."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Une mission terminée ou abandonnée ne reste plus ouverte dans le DataPad."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "Les transactions de la banque affichent la mission qu'elles paient, un type lisible et leur date."
-            },
-            {
-              "type": "fixed",
-              "area": "props",
-              "text": "Une caisse de mission garde son bandeau de mission à travers la raffinerie, et sa plaque s'affiche plus tôt."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "L'invite Porter s'affiche sur le morceau de roche regardé, son trait part de ce morceau, et c'est ce morceau qui est pris."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "L'outil de minage ne se retourne plus pendant la coupe."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "L'invite pour déposer l'outil ne pointe plus un objet voisin."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "L'émetteur d'une mission se lit par son nom et ce qu'il est, ARES · Corporation, au lieu de « politics »."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Un morceau de roche posé dans une benne repose sur le plancher au lieu de flotter."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611111658",
+          "date": "2026-11-11",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "mining",
+                "text": "Mining villages have a mine: a deep shaft with several levels and galleries, straight or winding, to explore by truck."
+              },
+              {
+                "type": "added",
+                "area": "mining",
+                "text": "Drill a gallery's face for 20 seconds: it cracks open and its blocks fall, rocks carrying gold to cut until you can carry them."
+              },
+              {
+                "type": "added",
+                "area": "mining",
+                "text": "A falling layer fills the gallery with dust that clears after 40 seconds."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "A truck elevator takes trucks down the mine's shaft, stopping at each level; a level's kiosk calls it there, and its ramp folds up while it moves."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "A market board at the town hall shows each material's price, its change over a day and its curve."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "The warehouse boards show pictograms, shelves and weights, page by page."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Two more music tracks play in the villages."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Ore shelved in a warehouse outside any mission is bought at the market price, with a notification."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "ARES Security offers inspections: drive to a zone shown on the star chart, 5 to 40 km from a village, and get paid on arrival."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Caves dug in corundum have milky white walls and grow crystals in the colour of their rock, rubies in white corundum."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "The torch has a UV mode (Alt+U) that makes crystals and milky stone glow."
+              },
+              {
+                "type": "added",
+                "area": "graphics",
+                "text": "Crystals catch the torch light like real gems: bright glints and sparkles of their colour that move as you walk around them."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Daylight no longer reaches down a mine: only your torch lights it."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Crates and rock pieces set down in a truck bed line up on a grid; what finds no room settles by itself, piles included, and stays put on the road."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "A transport mission lists its steps, loading, refining and delivery, and ticks them as they are done."
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Objects are reached from 2 m instead of 1.5 m."
+              },
+              {
+                "type": "changed",
+                "area": "mining",
+                "text": "The mining tool is on the belt when logging in."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Daylight no longer reaches inside caves: only your torch and the glowing crystals light them."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Trucks driving into caves and mines are no longer thrown back to the surface."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "No more long freeze the first time you look down a mine."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "A finished or abandoned mission no longer stays open in the DataPad."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "Bank transactions show the mission they pay, a readable type and their date."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "A mission crate keeps its mission band through the refinery, and its plate shows sooner."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "The Carry prompt shows on the rock piece looked at, its line starts from that piece, and that piece is the one taken."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "The mining tool no longer turns round while cutting."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The prompt to put the tool down no longer points at a nearby object."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "A mission's issuer reads by its name and what it is, ARES · Corporation, instead of \"politics\"."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "A rock piece set down in a truck bed rests on the floor instead of floating."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "mining",
+                "text": "Les villages miniers ont une mine : un puits profond avec plusieurs niveaux et des galeries, droites ou sinueuses, à explorer en camion."
+              },
+              {
+                "type": "added",
+                "area": "mining",
+                "text": "Percez le front d'une galerie pendant 20 secondes : il se fissure et ses blocs tombent, des rochers chargés d'or à découper jusqu'à pouvoir les porter."
+              },
+              {
+                "type": "added",
+                "area": "mining",
+                "text": "Une couche qui tombe remplit la galerie d'une poussière qui se dissipe en 40 secondes."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Un ascenseur à camions descend le puits de la mine en s'arrêtant à chaque niveau ; la borne d'un niveau l'y appelle, et sa rampe se relève pendant qu'il roule."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Un tableau des cours à l'hôtel de ville affiche le prix de chaque matériau, sa variation sur un jour et sa courbe."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Les tableaux de l'entrepôt affichent pictogrammes, étagères et poids, page par page."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Deux nouvelles musiques passent dans les villages."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "Le minerai rangé dans un entrepôt hors mission est acheté au cours du marché, avec une notification."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "ARES Security propose des inspections : rejoindre une zone affichée sur la carte stellaire, à 5 à 40 km d'un village, et être payé à l'arrivée."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Les grottes creusées dans le corindon ont des parois d'un blanc laiteux et se couvrent de cristaux de la couleur de leur roche, des rubis dans le corindon blanc."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "La lampe torche a un mode UV (Alt+U) qui fait luire les cristaux et la pierre laiteuse."
+              },
+              {
+                "type": "added",
+                "area": "graphics",
+                "text": "Les cristaux renvoient la lumière de la lampe comme de vraies gemmes : reflets vifs et éclats de leur couleur qui bougent quand on tourne autour."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "La lumière du jour n'atteint plus le fond d'une mine : seule votre lampe l'éclaire."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Les caisses et morceaux de roche posés dans une benne s'alignent sur une grille ; ce qui n'a pas de place se cale tout seul, en tas compris, et ne bouge plus sur la route."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Une mission de transport liste ses étapes, chargement, raffinage et livraison, et les coche au fur et à mesure."
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Les objets s'atteignent à 2 m au lieu de 1,5 m."
+              },
+              {
+                "type": "changed",
+                "area": "mining",
+                "text": "L'outil de minage est à la ceinture à la connexion."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "La lumière du jour n'entre plus dans les grottes : seules votre lampe et les cristaux lumineux les éclairent."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Les camions qui entrent dans une grotte ou une mine ne sont plus renvoyés à la surface."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Plus de long blocage la première fois qu'on regarde au fond d'une mine."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Une mission terminée ou abandonnée ne reste plus ouverte dans le DataPad."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "Les transactions de la banque affichent la mission qu'elles paient, un type lisible et leur date."
+              },
+              {
+                "type": "fixed",
+                "area": "props",
+                "text": "Une caisse de mission garde son bandeau de mission à travers la raffinerie, et sa plaque s'affiche plus tôt."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "L'invite Porter s'affiche sur le morceau de roche regardé, son trait part de ce morceau, et c'est ce morceau qui est pris."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "L'outil de minage ne se retourne plus pendant la coupe."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "L'invite pour déposer l'outil ne pointe plus un objet voisin."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "L'émetteur d'une mission se lit par son nom et ce qu'il est, ARES · Corporation, au lieu de « politics »."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Un morceau de roche posé dans une benne repose sur le plancher au lieu de flotter."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611092135",
           "date": "2026-11-09",

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611111658] - 2026-11-11
+
 ### Added
 
 - **Mining**: Mining villages have a mine: a deep shaft with several levels and galleries, straight or winding, to explore by truck.

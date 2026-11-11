@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **PlanetTech**: Caves dug in corundum have milky white walls and grow crystals in the colour of their rock, rubies in white corundum.
+- **Player**: The torch has a UV mode (Alt+U) that makes crystals and milky stone glow.
+- **Graphics**: Crystals catch the torch light like real gems: bright glints and sparkles of their colour that move as you walk around them.
+
+### Changed
+
+- **Graphics**: Daylight no longer reaches inside caves: only your torch and the glowing crystals light them.
+
 ## [0.1.0-dev.202611092135] - 2026-11-09
 
 ### Added

@@ -7,6 +7,16 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **PlanetTech** : Les grottes creusées dans le corindon ont des parois d'un blanc laiteux et se couvrent de cristaux de la couleur de leur roche, des rubis dans le corindon blanc.
+- **Joueur** : La lampe torche a un mode UV (Alt+U) qui fait luire les cristaux et la pierre laiteuse.
+- **Graphismes** : Les cristaux renvoient la lumière de la lampe comme de vraies gemmes : reflets vifs et éclats de leur couleur qui bougent quand on tourne autour.
+
+### Changed
+
+- **Graphismes** : La lumière du jour n'entre plus dans les grottes : seules votre lampe et les cristaux lumineux les éclairent.
+
 ## [0.1.0-dev.202611092135] - 2026-11-09
 
 ### Added

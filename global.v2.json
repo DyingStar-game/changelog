@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-09T21:50:20.000150+00:00",
+  "generated_at": "2026-11-11T10:38:17.581031+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,50 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Caves dug in corundum have milky white walls and grow crystals in the colour of their rock, rubies in white corundum."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "The torch has a UV mode (Alt+U) that makes crystals and milky stone glow."
+            },
+            {
+              "type": "added",
+              "area": "graphics",
+              "text": "Crystals catch the torch light like real gems: bright glints and sparkles of their colour that move as you walk around them."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "Daylight no longer reaches inside caves: only your torch and the glowing crystals light them."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Les grottes creusées dans le corindon ont des parois d'un blanc laiteux et se couvrent de cristaux de la couleur de leur roche, des rubis dans le corindon blanc."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "La lampe torche a un mode UV (Alt+U) qui fait luire les cristaux et la pierre laiteuse."
+            },
+            {
+              "type": "added",
+              "area": "graphics",
+              "text": "Les cristaux renvoient la lumière de la lampe comme de vraies gemmes : reflets vifs et éclats de leur couleur qui bougent quand on tourne autour."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "La lumière du jour n'entre plus dans les grottes : seules votre lampe et les cristaux lumineux les éclairent."
+            }
+          ]
         }
       },
       "releases": [

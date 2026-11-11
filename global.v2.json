@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-11T10:38:17.581031+00:00",
+  "generated_at": "2026-11-11T16:40:21.985582+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,31 @@
           "en": [
             {
               "type": "added",
+              "area": "economy",
+              "text": "A market board at the town hall shows each material's price, its change over a day and its curve."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "The warehouse boards show pictograms, shelves and weights, page by page."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Two more music tracks play in the villages."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Ore shelved in a warehouse outside any mission is bought at the market price, with a notification."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "ARES Security offers inspections: drive to a zone shown on the star chart, 5 to 40 km from a village, and get paid on arrival."
+            },
+            {
+              "type": "added",
               "area": "planettech",
               "text": "Caves dug in corundum have milky white walls and grow crystals in the colour of their rock, rubies in white corundum."
             },
@@ -121,11 +146,96 @@
             },
             {
               "type": "changed",
+              "area": "vehicles",
+              "text": "Crates and rock pieces set down in a truck bed line up on a grid; what finds no room settles by itself, piles included, and stays put on the road."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "A transport mission lists its steps, loading, refining and delivery, and ticks them as they are done."
+            },
+            {
+              "type": "changed",
+              "area": "player",
+              "text": "Objects are reached from 2 m instead of 1.5 m."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "The mining tool is on the belt when logging in."
+            },
+            {
+              "type": "changed",
               "area": "graphics",
               "text": "Daylight no longer reaches inside caves: only your torch and the glowing crystals light them."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "A finished or abandoned mission no longer stays open in the DataPad."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "Bank transactions show the mission they pay, a readable type and their date."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "A mission crate keeps its mission band through the refinery, and its plate shows sooner."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "The Carry prompt shows on the rock piece looked at, its line starts from that piece, and that piece is the one taken."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "The mining tool no longer turns round while cutting."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "The prompt to put the tool down no longer points at a nearby object."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "A mission's issuer reads by its name and what it is, ARES · Corporation, instead of \"politics\"."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "A rock piece set down in a truck bed rests on the floor instead of floating."
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Un tableau des cours à l'hôtel de ville affiche le prix de chaque matériau, sa variation sur un jour et sa courbe."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Les tableaux de l'entrepôt affichent pictogrammes, étagères et poids, page par page."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Deux nouvelles musiques passent dans les villages."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "Le minerai rangé dans un entrepôt hors mission est acheté au cours du marché, avec une notification."
+            },
+            {
+              "type": "added",
+              "area": "economy",
+              "text": "ARES Security propose des inspections : rejoindre une zone affichée sur la carte stellaire, à 5 à 40 km d'un village, et être payé à l'arrivée."
+            },
             {
               "type": "added",
               "area": "planettech",
@@ -143,8 +253,68 @@
             },
             {
               "type": "changed",
+              "area": "vehicles",
+              "text": "Les caisses et morceaux de roche posés dans une benne s'alignent sur une grille ; ce qui n'a pas de place se cale tout seul, en tas compris, et ne bouge plus sur la route."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Une mission de transport liste ses étapes, chargement, raffinage et livraison, et les coche au fur et à mesure."
+            },
+            {
+              "type": "changed",
+              "area": "player",
+              "text": "Les objets s'atteignent à 2 m au lieu de 1,5 m."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "L'outil de minage est à la ceinture à la connexion."
+            },
+            {
+              "type": "changed",
               "area": "graphics",
               "text": "La lumière du jour n'entre plus dans les grottes : seules votre lampe et les cristaux lumineux les éclairent."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Une mission terminée ou abandonnée ne reste plus ouverte dans le DataPad."
+            },
+            {
+              "type": "fixed",
+              "area": "economy",
+              "text": "Les transactions de la banque affichent la mission qu'elles paient, un type lisible et leur date."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "Une caisse de mission garde son bandeau de mission à travers la raffinerie, et sa plaque s'affiche plus tôt."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "L'invite Porter s'affiche sur le morceau de roche regardé, son trait part de ce morceau, et c'est ce morceau qui est pris."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "L'outil de minage ne se retourne plus pendant la coupe."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "L'invite pour déposer l'outil ne pointe plus un objet voisin."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "L'émetteur d'une mission se lit par son nom et ce qu'il est, ARES · Corporation, au lieu de « politics »."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Un morceau de roche posé dans une benne repose sur le plancher au lieu de flotter."
             }
           ]
         }

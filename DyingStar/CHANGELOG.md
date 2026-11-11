@@ -9,13 +9,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Economy**: A market board at the town hall shows each material's price, its change over a day and its curve.
+- **Interface**: The warehouse boards show pictograms, shelves and weights, page by page.
+- **Audio**: Two more music tracks play in the villages.
+- **Economy**: Ore shelved in a warehouse outside any mission is bought at the market price, with a notification.
+- **Economy**: ARES Security offers inspections: drive to a zone shown on the star chart, 5 to 40 km from a village, and get paid on arrival.
 - **PlanetTech**: Caves dug in corundum have milky white walls and grow crystals in the colour of their rock, rubies in white corundum.
 - **Player**: The torch has a UV mode (Alt+U) that makes crystals and milky stone glow.
 - **Graphics**: Crystals catch the torch light like real gems: bright glints and sparkles of their colour that move as you walk around them.
 
 ### Changed
 
+- **Vehicles**: Crates and rock pieces set down in a truck bed line up on a grid; what finds no room settles by itself, piles included, and stays put on the road.
+- **Interface**: A transport mission lists its steps, loading, refining and delivery, and ticks them as they are done.
+- **Player**: Objects are reached from 2 m instead of 1.5 m.
+- **Mining**: The mining tool is on the belt when logging in.
 - **Graphics**: Daylight no longer reaches inside caves: only your torch and the glowing crystals light them.
+
+### Fixed
+
+- **Interface**: A finished or abandoned mission no longer stays open in the DataPad.
+- **Economy**: Bank transactions show the mission they pay, a readable type and their date.
+- **Props**: A mission crate keeps its mission band through the refinery, and its plate shows sooner.
+- **Mining**: The Carry prompt shows on the rock piece looked at, its line starts from that piece, and that piece is the one taken.
+- **Mining**: The mining tool no longer turns round while cutting.
+- **Interface**: The prompt to put the tool down no longer points at a nearby object.
+- **Interface**: A mission's issuer reads by its name and what it is, ARES · Corporation, instead of "politics".
+- **Vehicles**: A rock piece set down in a truck bed rests on the floor instead of floating.
 
 ## [0.1.0-dev.202611092135] - 2026-11-09
 

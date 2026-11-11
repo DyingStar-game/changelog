@@ -9,13 +9,33 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Économie** : Un tableau des cours à l'hôtel de ville affiche le prix de chaque matériau, sa variation sur un jour et sa courbe.
+- **Interface** : Les tableaux de l'entrepôt affichent pictogrammes, étagères et poids, page par page.
+- **Audio** : Deux nouvelles musiques passent dans les villages.
+- **Économie** : Le minerai rangé dans un entrepôt hors mission est acheté au cours du marché, avec une notification.
+- **Économie** : ARES Security propose des inspections : rejoindre une zone affichée sur la carte stellaire, à 5 à 40 km d'un village, et être payé à l'arrivée.
 - **PlanetTech** : Les grottes creusées dans le corindon ont des parois d'un blanc laiteux et se couvrent de cristaux de la couleur de leur roche, des rubis dans le corindon blanc.
 - **Joueur** : La lampe torche a un mode UV (Alt+U) qui fait luire les cristaux et la pierre laiteuse.
 - **Graphismes** : Les cristaux renvoient la lumière de la lampe comme de vraies gemmes : reflets vifs et éclats de leur couleur qui bougent quand on tourne autour.
 
 ### Changed
 
+- **Véhicules** : Les caisses et morceaux de roche posés dans une benne s'alignent sur une grille ; ce qui n'a pas de place se cale tout seul, en tas compris, et ne bouge plus sur la route.
+- **Interface** : Une mission de transport liste ses étapes, chargement, raffinage et livraison, et les coche au fur et à mesure.
+- **Joueur** : Les objets s'atteignent à 2 m au lieu de 1,5 m.
+- **Minage** : L'outil de minage est à la ceinture à la connexion.
 - **Graphismes** : La lumière du jour n'entre plus dans les grottes : seules votre lampe et les cristaux lumineux les éclairent.
+
+### Fixed
+
+- **Interface** : Une mission terminée ou abandonnée ne reste plus ouverte dans le DataPad.
+- **Économie** : Les transactions de la banque affichent la mission qu'elles paient, un type lisible et leur date.
+- **Objets** : Une caisse de mission garde son bandeau de mission à travers la raffinerie, et sa plaque s'affiche plus tôt.
+- **Minage** : L'invite Porter s'affiche sur le morceau de roche regardé, son trait part de ce morceau, et c'est ce morceau qui est pris.
+- **Minage** : L'outil de minage ne se retourne plus pendant la coupe.
+- **Interface** : L'invite pour déposer l'outil ne pointe plus un objet voisin.
+- **Interface** : L'émetteur d'une mission se lit par son nom et ce qu'il est, ARES · Corporation, au lieu de « politics ».
+- **Véhicules** : Un morceau de roche posé dans une benne repose sur le plancher au lieu de flotter.
 
 ## [0.1.0-dev.202611092135] - 2026-11-09
 

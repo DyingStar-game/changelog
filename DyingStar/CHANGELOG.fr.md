@@ -9,6 +9,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Minage** : Les villages miniers ont une mine : un puits profond avec plusieurs niveaux et des galeries, droites ou sinueuses, à explorer en camion.
+- **Minage** : Percez le front d'une galerie pendant 20 secondes : il se fissure et ses blocs tombent, des rochers chargés d'or à découper jusqu'à pouvoir les porter.
+- **Minage** : Une couche qui tombe remplit la galerie d'une poussière qui se dissipe en 40 secondes.
+- **Véhicules** : Un ascenseur à camions descend le puits de la mine en s'arrêtant à chaque niveau ; la borne d'un niveau l'y appelle, et sa rampe se relève pendant qu'il roule.
 - **Économie** : Un tableau des cours à l'hôtel de ville affiche le prix de chaque matériau, sa variation sur un jour et sa courbe.
 - **Interface** : Les tableaux de l'entrepôt affichent pictogrammes, étagères et poids, page par page.
 - **Audio** : Deux nouvelles musiques passent dans les villages.
@@ -20,6 +24,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Graphismes** : La lumière du jour n'atteint plus le fond d'une mine : seule votre lampe l'éclaire.
 - **Véhicules** : Les caisses et morceaux de roche posés dans une benne s'alignent sur une grille ; ce qui n'a pas de place se cale tout seul, en tas compris, et ne bouge plus sur la route.
 - **Interface** : Une mission de transport liste ses étapes, chargement, raffinage et livraison, et les coche au fur et à mesure.
 - **Joueur** : Les objets s'atteignent à 2 m au lieu de 1,5 m.
@@ -28,6 +33,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Véhicules** : Les camions qui entrent dans une grotte ou une mine ne sont plus renvoyés à la surface.
+- **Performances** : Plus de long blocage la première fois qu'on regarde au fond d'une mine.
 - **Interface** : Une mission terminée ou abandonnée ne reste plus ouverte dans le DataPad.
 - **Économie** : Les transactions de la banque affichent la mission qu'elles paient, un type lisible et leur date.
 - **Objets** : Une caisse de mission garde son bandeau de mission à travers la raffinerie, et sa plaque s'affiche plus tôt.

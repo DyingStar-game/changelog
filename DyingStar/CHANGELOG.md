@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Mining**: Mining villages have a mine: a deep shaft with several levels and galleries, straight or winding, to explore by truck.
+- **Mining**: Drill a gallery's face for 20 seconds: it cracks open and its blocks fall, rocks carrying gold to cut until you can carry them.
+- **Mining**: A falling layer fills the gallery with dust that clears after 40 seconds.
+- **Vehicles**: A truck elevator takes trucks down the mine's shaft, stopping at each level; a level's kiosk calls it there, and its ramp folds up while it moves.
 - **Economy**: A market board at the town hall shows each material's price, its change over a day and its curve.
 - **Interface**: The warehouse boards show pictograms, shelves and weights, page by page.
 - **Audio**: Two more music tracks play in the villages.
@@ -20,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Graphics**: Daylight no longer reaches down a mine: only your torch lights it.
 - **Vehicles**: Crates and rock pieces set down in a truck bed line up on a grid; what finds no room settles by itself, piles included, and stays put on the road.
 - **Interface**: A transport mission lists its steps, loading, refining and delivery, and ticks them as they are done.
 - **Player**: Objects are reached from 2 m instead of 1.5 m.
@@ -28,6 +33,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Vehicles**: Trucks driving into caves and mines are no longer thrown back to the surface.
+- **Performance**: No more long freeze the first time you look down a mine.
 - **Interface**: A finished or abandoned mission no longer stays open in the DataPad.
 - **Economy**: Bank transactions show the mission they pay, a readable type and their date.
 - **Props**: A mission crate keeps its mission band through the refinery, and its plate shows sooner.

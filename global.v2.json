@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-11T16:40:21.985582+00:00",
+  "generated_at": "2026-11-11T16:56:02.029207+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,26 @@
           "en": [
             {
               "type": "added",
+              "area": "mining",
+              "text": "Mining villages have a mine: a deep shaft with several levels and galleries, straight or winding, to explore by truck."
+            },
+            {
+              "type": "added",
+              "area": "mining",
+              "text": "Drill a gallery's face for 20 seconds: it cracks open and its blocks fall, rocks carrying gold to cut until you can carry them."
+            },
+            {
+              "type": "added",
+              "area": "mining",
+              "text": "A falling layer fills the gallery with dust that clears after 40 seconds."
+            },
+            {
+              "type": "added",
+              "area": "vehicles",
+              "text": "A truck elevator takes trucks down the mine's shaft, stopping at each level; a level's kiosk calls it there, and its ramp folds up while it moves."
+            },
+            {
+              "type": "added",
               "area": "economy",
               "text": "A market board at the town hall shows each material's price, its change over a day and its curve."
             },
@@ -146,6 +166,11 @@
             },
             {
               "type": "changed",
+              "area": "graphics",
+              "text": "Daylight no longer reaches down a mine: only your torch lights it."
+            },
+            {
+              "type": "changed",
               "area": "vehicles",
               "text": "Crates and rock pieces set down in a truck bed line up on a grid; what finds no room settles by itself, piles included, and stays put on the road."
             },
@@ -168,6 +193,16 @@
               "type": "changed",
               "area": "graphics",
               "text": "Daylight no longer reaches inside caves: only your torch and the glowing crystals light them."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Trucks driving into caves and mines are no longer thrown back to the surface."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "No more long freeze the first time you look down a mine."
             },
             {
               "type": "fixed",
@@ -213,6 +248,26 @@
           "fr": [
             {
               "type": "added",
+              "area": "mining",
+              "text": "Les villages miniers ont une mine : un puits profond avec plusieurs niveaux et des galeries, droites ou sinueuses, à explorer en camion."
+            },
+            {
+              "type": "added",
+              "area": "mining",
+              "text": "Percez le front d'une galerie pendant 20 secondes : il se fissure et ses blocs tombent, des rochers chargés d'or à découper jusqu'à pouvoir les porter."
+            },
+            {
+              "type": "added",
+              "area": "mining",
+              "text": "Une couche qui tombe remplit la galerie d'une poussière qui se dissipe en 40 secondes."
+            },
+            {
+              "type": "added",
+              "area": "vehicles",
+              "text": "Un ascenseur à camions descend le puits de la mine en s'arrêtant à chaque niveau ; la borne d'un niveau l'y appelle, et sa rampe se relève pendant qu'il roule."
+            },
+            {
+              "type": "added",
               "area": "economy",
               "text": "Un tableau des cours à l'hôtel de ville affiche le prix de chaque matériau, sa variation sur un jour et sa courbe."
             },
@@ -253,6 +308,11 @@
             },
             {
               "type": "changed",
+              "area": "graphics",
+              "text": "La lumière du jour n'atteint plus le fond d'une mine : seule votre lampe l'éclaire."
+            },
+            {
+              "type": "changed",
               "area": "vehicles",
               "text": "Les caisses et morceaux de roche posés dans une benne s'alignent sur une grille ; ce qui n'a pas de place se cale tout seul, en tas compris, et ne bouge plus sur la route."
             },
@@ -275,6 +335,16 @@
               "type": "changed",
               "area": "graphics",
               "text": "La lumière du jour n'entre plus dans les grottes : seules votre lampe et les cristaux lumineux les éclairent."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Les camions qui entrent dans une grotte ou une mine ne sont plus renvoyés à la surface."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Plus de long blocage la première fois qu'on regarde au fond d'une mine."
             },
             {
               "type": "fixed",

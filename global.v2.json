@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-11T17:15:48.864665+00:00",
+  "generated_at": "2026-11-12T05:50:50.554664+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -9746,8 +9746,50 @@
       "unreleased": {
         "url": "https://github.com/DyingStar-game/launcher/compare/v1.1.0...HEAD",
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "New volcano image on the home page."
+            },
+            {
+              "type": "changed",
+              "area": "changelog",
+              "text": "The changelog reads as one list by day, with a filter per module, instead of one page per version."
+            },
+            {
+              "type": "changed",
+              "area": "changelog",
+              "text": "What the next build will bring is set apart, and no longer counted as new."
+            },
+            {
+              "type": "changed",
+              "area": "changelog",
+              "text": "A separator shows what is new since the last visit; the count falls as days are opened."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Nouvelle image de volcan sur la page d'accueil."
+            },
+            {
+              "type": "changed",
+              "area": "changelog",
+              "text": "Le changelog se lit en une seule liste par jour, avec un filtre par module, au lieu d'une page par version."
+            },
+            {
+              "type": "changed",
+              "area": "changelog",
+              "text": "Ce qu'apportera le prochain build est mis à part, et n'est plus compté comme nouveau."
+            },
+            {
+              "type": "changed",
+              "area": "changelog",
+              "text": "Un repère indique ce qui est nouveau depuis la dernière visite ; le compteur baisse à mesure que les jours sont ouverts."
+            }
+          ]
         }
       },
       "releases": [

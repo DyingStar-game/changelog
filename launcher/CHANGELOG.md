@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Interface**: New volcano image on the home page.
+
+### Changed
+
+- **Changelog**: The changelog reads as one list by day, with a filter per module, instead of one page per version.
+- **Changelog**: What the next build will bring is set apart, and no longer counted as new.
+- **Changelog**: A separator shows what is new since the last visit; the count falls as days are opened.
+
 ## [1.1.0] - 2026-10-26
 
 ### Added

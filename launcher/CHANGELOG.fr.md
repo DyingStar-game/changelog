@@ -7,6 +7,16 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Interface** : Nouvelle image de volcan sur la page d'accueil.
+
+### Changed
+
+- **Changelog** : Le changelog se lit en une seule liste par jour, avec un filtre par module, au lieu d'une page par version.
+- **Changelog** : Ce qu'apportera le prochain build est mis à part, et n'est plus compté comme nouveau.
+- **Changelog** : Un repère indique ce qui est nouveau depuis la dernière visite ; le compteur baisse à mesure que les jours sont ouverts.
+
 ## [1.1.0] - 2026-10-26
 
 ### Added

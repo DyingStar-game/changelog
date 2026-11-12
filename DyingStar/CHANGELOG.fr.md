@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611121027] - 2026-11-12
+
 ### Added
 
 - **Bâtiments** : Les machines tombent en panne : l'écran affiche une panne, la machine fait des étincelles, et ARES Machinery propose une mission pour la réparer.

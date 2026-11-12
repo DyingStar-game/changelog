@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Mining**: The mine face breaks wherever the jackhammer hits it; the crack only shows the layer about to fall.
+- **Mining**: After breaking a layer, the player steps back a few metres, out of the way of the falling blocks.
+
+### Fixed
+
+- **Mining**: Mine dust drifts down the gallery in a ragged cloud instead of a round bubble.
+- **Mining**: Dust now hides other players like it hides the rock.
+- **Mining**: A rock small enough to carry no longer shows a crack line.
+- **Props**: "Carry" shows from any side of a rock or a crate.
+- **Mining**: No more step in the floor between the lift and the galleries.
+- **Vehicles**: The mine's truck elevator ramp no longer shakes the platform, and the deck stands level with every floor.
+- **Vehicles**: A truck no longer hops on the mine's lift, nor flashes elsewhere when driving on or off it.
+
 ## [0.1.0-dev.202611111658] - 2026-11-11
 
 ### Added

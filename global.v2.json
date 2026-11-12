@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-12T05:50:50.554664+00:00",
+  "generated_at": "2026-11-12T10:18:08.992874+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,100 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "The mine face breaks wherever the jackhammer hits it; the crack only shows the layer about to fall."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "After breaking a layer, the player steps back a few metres, out of the way of the falling blocks."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "Mine dust drifts down the gallery in a ragged cloud instead of a round bubble."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "Dust now hides other players like it hides the rock."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "A rock small enough to carry no longer shows a crack line."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "\"Carry\" shows from any side of a rock or a crate."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "No more step in the floor between the lift and the galleries."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "The mine's truck elevator ramp no longer shakes the platform, and the deck stands level with every floor."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "A truck no longer hops on the mine's lift, nor flashes elsewhere when driving on or off it."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "La paroi de la mine se casse partout où frappe le marteau-piqueur ; la fissure montre seulement la couche qui va tomber."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "Après avoir cassé une couche, le joueur recule de quelques mètres, à l'écart des blocs qui tombent."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "La poussière de la mine avance dans la galerie en nuage déchiqueté et non plus en bulle ronde."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "La poussière masque désormais les autres joueurs comme elle masque la roche."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "Un rocher assez petit pour être porté n'affiche plus de trait de fissure."
+            },
+            {
+              "type": "fixed",
+              "area": "props",
+              "text": "« Porter » apparaît de tous les côtés d'un rocher ou d'une caisse."
+            },
+            {
+              "type": "fixed",
+              "area": "mining",
+              "text": "Plus de marche dans le sol entre l'ascenseur et les galeries."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "La rampe de l'ascenseur à camions de la mine ne secoue plus la plateforme, et le pont arrive au niveau de chaque sol."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Un camion ne sautille plus sur l'ascenseur de la mine et n'apparaît plus ailleurs en y montant ou en en descendant."
+            }
+          ]
         }
       },
       "releases": [

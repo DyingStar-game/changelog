@@ -7,6 +7,21 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Minage** : La paroi de la mine se casse partout où frappe le marteau-piqueur ; la fissure montre seulement la couche qui va tomber.
+- **Minage** : Après avoir cassé une couche, le joueur recule de quelques mètres, à l'écart des blocs qui tombent.
+
+### Fixed
+
+- **Minage** : La poussière de la mine avance dans la galerie en nuage déchiqueté et non plus en bulle ronde.
+- **Minage** : La poussière masque désormais les autres joueurs comme elle masque la roche.
+- **Minage** : Un rocher assez petit pour être porté n'affiche plus de trait de fissure.
+- **Objets** : « Porter » apparaît de tous les côtés d'un rocher ou d'une caisse.
+- **Minage** : Plus de marche dans le sol entre l'ascenseur et les galeries.
+- **Véhicules** : La rampe de l'ascenseur à camions de la mine ne secoue plus la plateforme, et le pont arrive au niveau de chaque sol.
+- **Véhicules** : Un camion ne sautille plus sur l'ascenseur de la mine et n'apparaît plus ailleurs en y montant ou en en descendant.
+
 ## [0.1.0-dev.202611111658] - 2026-11-11
 
 ### Added

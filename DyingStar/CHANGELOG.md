@@ -7,8 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Buildings**: Machines break down: the screen shows a breakdown, the machine sparks, and ARES Machinery offers a mission to repair it.
+- **Buildings**: A broken machine is repaired on its own screen by bringing three linked gauges into line, in view of the players around, then restarts for 30 seconds.
+- **Buildings**: The changing rooms of the mines are open, and the mining tool dispensers now stand inside.
+- **Audio**: A mission ready to hand in, a paid mission or a sale in a warehouse plays a single chime instead of the repeated beep.
+- **Audio**: The screens of the machines and of the buildings hum softly when stood close to.
+- **Audio**: Caves and mines have their own air, and the wind and the storms are no longer heard down there.
+- **Player**: Holding the click on a screen keeps the arm out, the finger following the crosshair.
+
 ### Changed
 
+- **Mining**: A crate of crushed ore counts for the metal it holds: purer ore pays more, and refining gives as many kilograms of ingots as went in.
+- **Economy**: The market board tells a shortage from a saturated market, by a colour and a word, apart from the price's trend over a day.
+- **Interface**: The message shown without a mining tool names the changing rooms.
 - **Mining**: The mine face breaks wherever the jackhammer hits it; the crack only shows the layer about to fall.
 - **Mining**: After breaking a layer, the player steps back a few metres, out of the way of the falling blocks.
 

@@ -7,8 +7,21 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Bâtiments** : Les machines tombent en panne : l'écran affiche une panne, la machine fait des étincelles, et ARES Machinery propose une mission pour la réparer.
+- **Bâtiments** : Une machine en panne se répare sur son propre écran en alignant trois jauges liées, à la vue des joueurs présents, puis redémarre pendant 30 secondes.
+- **Bâtiments** : La salle des pendus des mines est ouverte, et les distributeurs d'outils de minage sont maintenant à l'intérieur.
+- **Audio** : Une mission prête à valider, une mission payée ou une vente en entrepôt joue un seul carillon au lieu du bip répété.
+- **Audio** : Les écrans des machines et des bâtiments bourdonnent doucement quand on s'en approche.
+- **Audio** : Les grottes et les mines ont leur propre ambiance, et le vent et les tempêtes ne s'y entendent plus.
+- **Joueur** : Garder le clic enfoncé sur un écran garde le bras tendu, le doigt suivant le viseur.
+
 ### Changed
 
+- **Minage** : Une caisse de minerai concassé compte pour le métal qu'elle contient : un minerai plus pur paie plus, et le raffinage rend autant de kilos de lingots qu'il en est entré.
+- **Économie** : Le tableau des cours distingue une pénurie d'un marché saturé, par une couleur et un mot, à part de la tendance du prix sur un jour.
+- **Interface** : Le message affiché sans outil de minage nomme la salle des pendus.
 - **Minage** : La paroi de la mine se casse partout où frappe le marteau-piqueur ; la fissure montre seulement la couche qui va tomber.
 - **Minage** : Après avoir cassé une couche, le joueur recule de quelques mètres, à l'écart des blocs qui tombent.
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-12T10:18:08.992874+00:00",
+  "generated_at": "2026-11-12T10:25:58.786712+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -105,6 +105,56 @@
         "entries": {
           "en": [
             {
+              "type": "added",
+              "area": "buildings",
+              "text": "Machines break down: the screen shows a breakdown, the machine sparks, and ARES Machinery offers a mission to repair it."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "A broken machine is repaired on its own screen by bringing three linked gauges into line, in view of the players around, then restarts for 30 seconds."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "The changing rooms of the mines are open, and the mining tool dispensers now stand inside."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "A mission ready to hand in, a paid mission or a sale in a warehouse plays a single chime instead of the repeated beep."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "The screens of the machines and of the buildings hum softly when stood close to."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Caves and mines have their own air, and the wind and the storms are no longer heard down there."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "Holding the click on a screen keeps the arm out, the finger following the crosshair."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "A crate of crushed ore counts for the metal it holds: purer ore pays more, and refining gives as many kilograms of ingots as went in."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "The market board tells a shortage from a saturated market, by a colour and a word, apart from the price's trend over a day."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "The message shown without a mining tool names the changing rooms."
+            },
+            {
               "type": "changed",
               "area": "mining",
               "text": "The mine face breaks wherever the jackhammer hits it; the crack only shows the layer about to fall."
@@ -151,6 +201,56 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Les machines tombent en panne : l'écran affiche une panne, la machine fait des étincelles, et ARES Machinery propose une mission pour la réparer."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "Une machine en panne se répare sur son propre écran en alignant trois jauges liées, à la vue des joueurs présents, puis redémarre pendant 30 secondes."
+            },
+            {
+              "type": "added",
+              "area": "buildings",
+              "text": "La salle des pendus des mines est ouverte, et les distributeurs d'outils de minage sont maintenant à l'intérieur."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Une mission prête à valider, une mission payée ou une vente en entrepôt joue un seul carillon au lieu du bip répété."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Les écrans des machines et des bâtiments bourdonnent doucement quand on s'en approche."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Les grottes et les mines ont leur propre ambiance, et le vent et les tempêtes ne s'y entendent plus."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "Garder le clic enfoncé sur un écran garde le bras tendu, le doigt suivant le viseur."
+            },
+            {
+              "type": "changed",
+              "area": "mining",
+              "text": "Une caisse de minerai concassé compte pour le métal qu'elle contient : un minerai plus pur paie plus, et le raffinage rend autant de kilos de lingots qu'il en est entré."
+            },
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "Le tableau des cours distingue une pénurie d'un marché saturé, par une couleur et un mot, à part de la tendance du prix sur un jour."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Le message affiché sans outil de minage nomme la salle des pendus."
+            },
             {
               "type": "changed",
               "area": "mining",

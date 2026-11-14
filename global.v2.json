@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-14T12:20:12.974554+00:00",
+  "generated_at": "2026-11-14T12:33:31.408437+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,243 +103,254 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "The garage has three vehicle terminals, each with its own bay."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "A mission's sheet has a button that shows its place on the star chart, at the kiosk and on the DataPad."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "Mine lifts and canyon lifts have their own name and colour on the star chart."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "A group of places on the star chart shows the name of the one you are standing in."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "A broken machine has its marker on the star chart."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "A repair mission says which lift is broken and which part of it."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "A lift icon no longer stays in the middle of the star chart near a mine."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "The icon of a group of places no longer has a smear on its top."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "Footsteps on a mine's lift play their sound."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The players around see a repair made on a wall screen."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "A mission kiosk no longer keeps another player's missions after you watched them use it."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "A village is one marker on the star chart, not a group with its own depot."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Showing a mission's place on the star chart no longer says the place is not on the chart."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Going to a place on the star chart no longer zooms out when you are already closer."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "A repaired machine works again when the mission service is slow to answer."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "A corporation's treasury shows without pressing Load."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The market board says \"No trading\" for a resource nobody holds or asks for."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Jumping in front of a screen no longer presses its last clicked button again."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Crouching after lying prone no longer puts the view on the ground."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "The housing stairs have posts under their handrails, and their steps no longer stick out."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "The star chart no longer shows canyons that do not exist on the ground."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The DataPad no longer shakes when read from a vehicle."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Asphalt roads are lit the same whichever way you drive, and the corundum highway no longer looks wet."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "buildings",
-              "text": "Le garage a trois bornes de véhicules, chacune avec sa place."
-            },
-            {
-              "type": "added",
-              "area": "economy",
-              "text": "La fiche d'une mission a un bouton qui montre son lieu sur la carte stellaire, à la borne et sur le DataPad."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "Les ascenseurs de mine et de canyon ont leur propre nom et leur propre couleur sur la carte stellaire."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "Un groupe de lieux sur la carte stellaire affiche le nom de celui où vous vous trouvez."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "Une machine en panne a son marqueur sur la carte stellaire."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "Une mission de réparation dit quel ascenseur est en panne et quelle partie."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Une icône d'ascenseur ne reste plus au milieu de la carte stellaire près d'une mine."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "L'icône d'un groupe de lieux n'a plus de bavure en haut."
-            },
-            {
-              "type": "fixed",
-              "area": "audio",
-              "text": "Les pas sur l'ascenseur d'une mine jouent leur son."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Les joueurs autour voient une réparation faite sur un écran mural."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Une borne de missions ne garde plus les missions d'un autre joueur après l'avoir regardé s'en servir."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Un village est un seul marqueur sur la carte stellaire, plus un groupe avec son propre entrepôt."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Montrer le lieu d'une mission sur la carte stellaire ne dit plus que le lieu n'est pas sur la carte."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Aller à un lieu sur la carte stellaire ne dézoome plus quand vous êtes déjà plus près."
-            },
-            {
-              "type": "fixed",
-              "area": "economy",
-              "text": "Une machine réparée refonctionne quand le service des missions tarde à répondre."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "La trésorerie d'une corporation s'affiche sans appuyer sur Charger."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Le panneau de la bourse dit « Aucun échange » pour une ressource que personne ne détient ni ne demande."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Sauter devant un écran n'appuie plus de nouveau sur le dernier bouton cliqué."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "S'accroupir après s'être allongé ne met plus la vue au ras du sol."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Les escaliers des habitations ont des poteaux sous leurs mains courantes, et leurs marches ne dépassent plus."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "La carte stellaire ne montre plus de canyons qui n'existent pas sur le terrain."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Le DataPad ne tremble plus quand on le lit depuis un véhicule."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Les routes d'asphalte sont éclairées de la même façon dans les deux sens, et la route de corindon n'a plus l'air mouillée."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611141220",
+          "date": "2026-11-14",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "The garage has three vehicle terminals, each with its own bay."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "A mission's sheet has a button that shows its place on the star chart, at the kiosk and on the DataPad."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "Mine lifts and canyon lifts have their own name and colour on the star chart."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "A group of places on the star chart shows the name of the one you are standing in."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "A broken machine has its marker on the star chart."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "A repair mission says which lift is broken and which part of it."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "A lift icon no longer stays in the middle of the star chart near a mine."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "The icon of a group of places no longer has a smear on its top."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "Footsteps on a mine's lift play their sound."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The players around see a repair made on a wall screen."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "A mission kiosk no longer keeps another player's missions after you watched them use it."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "A village is one marker on the star chart, not a group with its own depot."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Showing a mission's place on the star chart no longer says the place is not on the chart."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Going to a place on the star chart no longer zooms out when you are already closer."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "A repaired machine works again when the mission service is slow to answer."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "A corporation's treasury shows without pressing Load."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The market board says \"No trading\" for a resource nobody holds or asks for."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Jumping in front of a screen no longer presses its last clicked button again."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Crouching after lying prone no longer puts the view on the ground."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "The housing stairs have posts under their handrails, and their steps no longer stick out."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "The star chart no longer shows canyons that do not exist on the ground."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The DataPad no longer shakes when read from a vehicle."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Asphalt roads are lit the same whichever way you drive, and the corundum highway no longer looks wet."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "buildings",
+                "text": "Le garage a trois bornes de véhicules, chacune avec sa place."
+              },
+              {
+                "type": "added",
+                "area": "economy",
+                "text": "La fiche d'une mission a un bouton qui montre son lieu sur la carte stellaire, à la borne et sur le DataPad."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "Les ascenseurs de mine et de canyon ont leur propre nom et leur propre couleur sur la carte stellaire."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "Un groupe de lieux sur la carte stellaire affiche le nom de celui où vous vous trouvez."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "Une machine en panne a son marqueur sur la carte stellaire."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "Une mission de réparation dit quel ascenseur est en panne et quelle partie."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Une icône d'ascenseur ne reste plus au milieu de la carte stellaire près d'une mine."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "L'icône d'un groupe de lieux n'a plus de bavure en haut."
+              },
+              {
+                "type": "fixed",
+                "area": "audio",
+                "text": "Les pas sur l'ascenseur d'une mine jouent leur son."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Les joueurs autour voient une réparation faite sur un écran mural."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Une borne de missions ne garde plus les missions d'un autre joueur après l'avoir regardé s'en servir."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Un village est un seul marqueur sur la carte stellaire, plus un groupe avec son propre entrepôt."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Montrer le lieu d'une mission sur la carte stellaire ne dit plus que le lieu n'est pas sur la carte."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Aller à un lieu sur la carte stellaire ne dézoome plus quand vous êtes déjà plus près."
+              },
+              {
+                "type": "fixed",
+                "area": "economy",
+                "text": "Une machine réparée refonctionne quand le service des missions tarde à répondre."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "La trésorerie d'une corporation s'affiche sans appuyer sur Charger."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Le panneau de la bourse dit « Aucun échange » pour une ressource que personne ne détient ni ne demande."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Sauter devant un écran n'appuie plus de nouveau sur le dernier bouton cliqué."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "S'accroupir après s'être allongé ne met plus la vue au ras du sol."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Les escaliers des habitations ont des poteaux sous leurs mains courantes, et leurs marches ne dépassent plus."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "La carte stellaire ne montre plus de canyons qui n'existent pas sur le terrain."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Le DataPad ne tremble plus quand on le lit depuis un véhicule."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Les routes d'asphalte sont éclairées de la même façon dans les deux sens, et la route de corindon n'a plus l'air mouillée."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611121027",
           "date": "2026-11-12",

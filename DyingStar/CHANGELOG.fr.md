@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611141220] - 2026-11-14
+
 ### Added
 
 - **Bâtiments** : Le garage a trois bornes de véhicules, chacune avec sa place.

@@ -7,6 +7,38 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Bâtiments** : Le garage a trois bornes de véhicules, chacune avec sa place.
+- **Économie** : La fiche d'une mission a un bouton qui montre son lieu sur la carte stellaire, à la borne et sur le DataPad.
+
+### Changed
+
+- **Carte stellaire** : Les ascenseurs de mine et de canyon ont leur propre nom et leur propre couleur sur la carte stellaire.
+- **Carte stellaire** : Un groupe de lieux sur la carte stellaire affiche le nom de celui où vous vous trouvez.
+- **Carte stellaire** : Une machine en panne a son marqueur sur la carte stellaire.
+- **Économie** : Une mission de réparation dit quel ascenseur est en panne et quelle partie.
+
+### Fixed
+
+- **Carte stellaire** : Une icône d'ascenseur ne reste plus au milieu de la carte stellaire près d'une mine.
+- **Carte stellaire** : L'icône d'un groupe de lieux n'a plus de bavure en haut.
+- **Audio** : Les pas sur l'ascenseur d'une mine jouent leur son.
+- **Interface** : Les joueurs autour voient une réparation faite sur un écran mural.
+- **Interface** : Une borne de missions ne garde plus les missions d'un autre joueur après l'avoir regardé s'en servir.
+- **Carte stellaire** : Un village est un seul marqueur sur la carte stellaire, plus un groupe avec son propre entrepôt.
+- **Carte stellaire** : Montrer le lieu d'une mission sur la carte stellaire ne dit plus que le lieu n'est pas sur la carte.
+- **Carte stellaire** : Aller à un lieu sur la carte stellaire ne dézoome plus quand vous êtes déjà plus près.
+- **Économie** : Une machine réparée refonctionne quand le service des missions tarde à répondre.
+- **Interface** : La trésorerie d'une corporation s'affiche sans appuyer sur Charger.
+- **Interface** : Le panneau de la bourse dit « Aucun échange » pour une ressource que personne ne détient ni ne demande.
+- **Interface** : Sauter devant un écran n'appuie plus de nouveau sur le dernier bouton cliqué.
+- **Joueur** : S'accroupir après s'être allongé ne met plus la vue au ras du sol.
+- **Bâtiments** : Les escaliers des habitations ont des poteaux sous leurs mains courantes, et leurs marches ne dépassent plus.
+- **Carte stellaire** : La carte stellaire ne montre plus de canyons qui n'existent pas sur le terrain.
+- **Interface** : Le DataPad ne tremble plus quand on le lit depuis un véhicule.
+- **Graphismes** : Les routes d'asphalte sont éclairées de la même façon dans les deux sens, et la route de corindon n'a plus l'air mouillée.
+
 ## [0.1.0-dev.202611121027] - 2026-11-12
 
 ### Added

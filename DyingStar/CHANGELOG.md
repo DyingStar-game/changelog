@@ -7,6 +7,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Buildings**: The garage has three vehicle terminals, each with its own bay.
+- **Economy**: A mission's sheet has a button that shows its place on the star chart, at the kiosk and on the DataPad.
+
+### Changed
+
+- **Star map**: Mine lifts and canyon lifts have their own name and colour on the star chart.
+- **Star map**: A group of places on the star chart shows the name of the one you are standing in.
+- **Star map**: A broken machine has its marker on the star chart.
+- **Economy**: A repair mission says which lift is broken and which part of it.
+
+### Fixed
+
+- **Star map**: A lift icon no longer stays in the middle of the star chart near a mine.
+- **Star map**: The icon of a group of places no longer has a smear on its top.
+- **Audio**: Footsteps on a mine's lift play their sound.
+- **Interface**: The players around see a repair made on a wall screen.
+- **Interface**: A mission kiosk no longer keeps another player's missions after you watched them use it.
+- **Star map**: A village is one marker on the star chart, not a group with its own depot.
+- **Star map**: Showing a mission's place on the star chart no longer says the place is not on the chart.
+- **Star map**: Going to a place on the star chart no longer zooms out when you are already closer.
+- **Economy**: A repaired machine works again when the mission service is slow to answer.
+- **Interface**: A corporation's treasury shows without pressing Load.
+- **Interface**: The market board says "No trading" for a resource nobody holds or asks for.
+- **Interface**: Jumping in front of a screen no longer presses its last clicked button again.
+- **Player**: Crouching after lying prone no longer puts the view on the ground.
+- **Buildings**: The housing stairs have posts under their handrails, and their steps no longer stick out.
+- **Star map**: The star chart no longer shows canyons that do not exist on the ground.
+- **Interface**: The DataPad no longer shakes when read from a vehicle.
+- **Graphics**: Asphalt roads are lit the same whichever way you drive, and the corundum highway no longer looks wet.
+
 ## [0.1.0-dev.202611121027] - 2026-11-12
 
 ### Added

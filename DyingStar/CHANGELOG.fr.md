@@ -20,6 +20,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 - **Graphismes** : La peau, les yeux et les lèvres paraissent réels : taches de rousseur, grains de beauté, rides qui viennent avec l'âge, iris coloré.
 
+### Fixed
+
+- **Graphismes** : Les routes ne sont plus noires avec un reflet qui change quand on tourne la tête.
+- **Carte stellaire** : Une icône de maintenance ne reste plus au milieu de la carte stellaire près d'une mine.
+- **Bâtiments** : On ne passe plus à travers les mains courantes des escaliers d'habitation.
+- **Graphismes** : Les montagnes lointaines ne deviennent plus noires quand on lève la tête après un trajet en véhicule.
+
 ## [0.1.0-dev.202611141220] - 2026-11-14
 
 ### Added

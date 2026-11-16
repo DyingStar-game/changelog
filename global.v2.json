@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T16:00:56.284513+00:00",
+  "generated_at": "2026-11-16T16:02:08.625182+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -138,6 +138,26 @@
               "type": "changed",
               "area": "graphics",
               "text": "Skin, eyes and lips look real: freckles, moles, wrinkles that come with age, a coloured iris."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Roads are no longer black with a glint that changes as you turn."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "A maintenance icon no longer stays in the middle of the star chart near a mine."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "You can no longer walk through the handrails of the housing stairs."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Distant mountains no longer turn black when you look up after riding a vehicle."
             }
           ],
           "fr": [
@@ -175,6 +195,26 @@
               "type": "changed",
               "area": "graphics",
               "text": "La peau, les yeux et les lèvres paraissent réels : taches de rousseur, grains de beauté, rides qui viennent avec l'âge, iris coloré."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Les routes ne sont plus noires avec un reflet qui change quand on tourne la tête."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "Une icône de maintenance ne reste plus au milieu de la carte stellaire près d'une mine."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "On ne passe plus à travers les mains courantes des escaliers d'habitation."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Les montagnes lointaines ne deviennent plus noires quand on lève la tête après un trajet en véhicule."
             }
           ]
         }

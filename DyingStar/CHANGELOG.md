@@ -20,6 +20,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Graphics**: Skin, eyes and lips look real: freckles, moles, wrinkles that come with age, a coloured iris.
 
+### Fixed
+
+- **Graphics**: Roads are no longer black with a glint that changes as you turn.
+- **Star map**: A maintenance icon no longer stays in the middle of the star chart near a mine.
+- **Buildings**: You can no longer walk through the handrails of the housing stairs.
+- **Graphics**: Distant mountains no longer turn black when you look up after riding a vehicle.
+
 ## [0.1.0-dev.202611141220] - 2026-11-14
 
 ### Added

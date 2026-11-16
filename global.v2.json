@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T16:02:08.625182+00:00",
+  "generated_at": "2026-11-16T16:10:03.846945+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -9048,23 +9048,34 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "persistence",
-              "text": "Your character's appearance is kept between sessions."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "persistence",
-              "text": "L'apparence de votre personnage est gardée d'une session à l'autre."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611161604",
+          "date": "2026-11-16",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "persistence",
+                "text": "Your character's appearance is kept between sessions."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "persistence",
+                "text": "L'apparence de votre personnage est gardée d'une session à l'autre."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611042207",
           "date": "2026-11-04",

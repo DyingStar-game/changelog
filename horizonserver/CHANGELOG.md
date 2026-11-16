@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611161604] - 2026-11-16
+
 ### Added
 
 - **Persistence**: Your character's appearance is kept between sessions.

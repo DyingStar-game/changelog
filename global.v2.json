@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-14T12:33:31.408437+00:00",
+  "generated_at": "2026-11-16T16:00:45.855820+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -8936,8 +8936,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "persistence",
+              "text": "Your character's appearance is kept between sessions."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "persistence",
+              "text": "L'apparence de votre personnage est gardée d'une session à l'autre."
+            }
+          ]
         }
       },
       "releases": [

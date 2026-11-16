@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Persistance** : L'apparence de votre personnage est gardée d'une session à l'autre.
+
 ## [0.1.0-dev.202611042207] - 2026-11-04
 
 ### Changed

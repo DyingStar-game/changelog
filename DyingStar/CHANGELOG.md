@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611161605] - 2026-11-16
+
 ### Added
 
 - **Player**: A character creator, from the main menu and when entering the game for the first time: body, face, skin, eyes, hair, beard and outfit.

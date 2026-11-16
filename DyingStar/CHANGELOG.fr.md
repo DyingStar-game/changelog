@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611161605] - 2026-11-16
+
 ### Added
 
 - **Joueur** : Un créateur de personnage, depuis le menu principal et à la première entrée en jeu : corps, visage, peau, yeux, cheveux, barbe et tenue.

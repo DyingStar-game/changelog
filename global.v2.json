@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T16:10:03.846945+00:00",
+  "generated_at": "2026-11-16T16:23:49.534550+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,123 +103,134 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "player",
-              "text": "A character creator, from the main menu and when entering the game for the first time: body, face, skin, eyes, hair, beard and outfit."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Your character can be made from photos of your face, or from your webcam on Linux."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Other players see your character as you made it, and it is kept for your next session."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Every non-player character has a face and a body of their own."
-            },
-            {
-              "type": "added",
-              "area": "graphics",
-              "text": "Hair, eyebrows and beards are made of hairs, and hair moves with the wind and with your movements."
-            },
-            {
-              "type": "added",
-              "area": "graphics",
-              "text": "Faces blink, look around and move when talking."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Skin, eyes and lips look real: freckles, moles, wrinkles that come with age, a coloured iris."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Roads are no longer black with a glint that changes as you turn."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "A maintenance icon no longer stays in the middle of the star chart near a mine."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "You can no longer walk through the handrails of the housing stairs."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Distant mountains no longer turn black when you look up after riding a vehicle."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Un créateur de personnage, depuis le menu principal et à la première entrée en jeu : corps, visage, peau, yeux, cheveux, barbe et tenue."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Votre personnage peut être créé à partir de photos de votre visage, ou de votre webcam sous Linux."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Les autres joueurs voient votre personnage tel que vous l'avez fait, et il est gardé pour votre prochaine session."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Chaque personnage non joueur a un visage et un corps bien à lui."
-            },
-            {
-              "type": "added",
-              "area": "graphics",
-              "text": "Les cheveux, les sourcils et les barbes sont faits de poils, et les cheveux bougent avec le vent et vos mouvements."
-            },
-            {
-              "type": "added",
-              "area": "graphics",
-              "text": "Les visages clignent des yeux, regardent autour d'eux et bougent quand ils parlent."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "La peau, les yeux et les lèvres paraissent réels : taches de rousseur, grains de beauté, rides qui viennent avec l'âge, iris coloré."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Les routes ne sont plus noires avec un reflet qui change quand on tourne la tête."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Une icône de maintenance ne reste plus au milieu de la carte stellaire près d'une mine."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "On ne passe plus à travers les mains courantes des escaliers d'habitation."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Les montagnes lointaines ne deviennent plus noires quand on lève la tête après un trajet en véhicule."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611161605",
+          "date": "2026-11-16",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "player",
+                "text": "A character creator, from the main menu and when entering the game for the first time: body, face, skin, eyes, hair, beard and outfit."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Your character can be made from photos of your face, or from your webcam on Linux."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Other players see your character as you made it, and it is kept for your next session."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Every non-player character has a face and a body of their own."
+              },
+              {
+                "type": "added",
+                "area": "graphics",
+                "text": "Hair, eyebrows and beards are made of hairs, and hair moves with the wind and with your movements."
+              },
+              {
+                "type": "added",
+                "area": "graphics",
+                "text": "Faces blink, look around and move when talking."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Skin, eyes and lips look real: freckles, moles, wrinkles that come with age, a coloured iris."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Roads are no longer black with a glint that changes as you turn."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "A maintenance icon no longer stays in the middle of the star chart near a mine."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "You can no longer walk through the handrails of the housing stairs."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Distant mountains no longer turn black when you look up after riding a vehicle."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Un créateur de personnage, depuis le menu principal et à la première entrée en jeu : corps, visage, peau, yeux, cheveux, barbe et tenue."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Votre personnage peut être créé à partir de photos de votre visage, ou de votre webcam sous Linux."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Les autres joueurs voient votre personnage tel que vous l'avez fait, et il est gardé pour votre prochaine session."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Chaque personnage non joueur a un visage et un corps bien à lui."
+              },
+              {
+                "type": "added",
+                "area": "graphics",
+                "text": "Les cheveux, les sourcils et les barbes sont faits de poils, et les cheveux bougent avec le vent et vos mouvements."
+              },
+              {
+                "type": "added",
+                "area": "graphics",
+                "text": "Les visages clignent des yeux, regardent autour d'eux et bougent quand ils parlent."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "La peau, les yeux et les lèvres paraissent réels : taches de rousseur, grains de beauté, rides qui viennent avec l'âge, iris coloré."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Les routes ne sont plus noires avec un reflet qui change quand on tourne la tête."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Une icône de maintenance ne reste plus au milieu de la carte stellaire près d'une mine."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "On ne passe plus à travers les mains courantes des escaliers d'habitation."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Les montagnes lointaines ne deviennent plus noires quand on lève la tête après un trajet en véhicule."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611141220",
           "date": "2026-11-14",

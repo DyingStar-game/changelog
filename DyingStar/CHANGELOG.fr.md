@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Social** : Les joueurs peuvent désormais parler aux personnes autour d'eux sur le nouveau canal « Dire (autour) » : la ligne s'affiche au-dessus de leur tête, comme cel
+
+### Changed
+
+- **Social** : Un message trop long, trop rapide ou envoyé alors que trop de lignes attendent est désormais refusé avec une explication dans le chat, au lieu d'être coupé ou ignoré sans rien dire.
+
 ## [0.1.0-dev.202611161605] - 2026-11-16
 
 ### Added

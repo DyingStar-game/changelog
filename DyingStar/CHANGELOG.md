@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Social**: Players can now speak to the people around them on the new "Say (nearby)" channel: the line appears above their head, like an NPC's.
+
+### Changed
+
+- **Social**: A message that is too long, too fast or sent while too many lines are waiting is now refused with an explanation in the chat, instead of being cut or silently dropped.
+
 ## [0.1.0-dev.202611161605] - 2026-11-16
 
 ### Added

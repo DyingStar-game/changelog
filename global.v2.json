@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T16:23:49.534550+00:00",
+  "generated_at": "2026-11-16T22:58:29.881838+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,30 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "social",
+              "text": "Players can now speak to the people around them on the new \"Say (nearby)\" channel: the line appears above their head, like an NPC's."
+            },
+            {
+              "type": "changed",
+              "area": "social",
+              "text": "A message that is too long, too fast or sent while too many lines are waiting is now refused with an explanation in the chat, instead of being cut or silently dropped."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "social",
+              "text": "Les joueurs peuvent désormais parler aux personnes autour d'eux sur le nouveau canal « Dire (autour) » : la ligne s'affiche au-dessus de leur tête, comme cel"
+            },
+            {
+              "type": "changed",
+              "area": "social",
+              "text": "Un message trop long, trop rapide ou envoyé alors que trop de lignes attendent est désormais refusé avec une explication dans le chat, au lieu d'être coupé ou ignoré sans rien dire."
+            }
+          ]
         }
       },
       "releases": [

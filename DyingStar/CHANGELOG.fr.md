@@ -7,6 +7,19 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Joueur** : Un créateur de personnage, depuis le menu principal et à la première entrée en jeu : corps, visage, peau, yeux, cheveux, barbe et tenue.
+- **Joueur** : Votre personnage peut être créé à partir de photos de votre visage, ou de votre webcam sous Linux.
+- **Joueur** : Les autres joueurs voient votre personnage tel que vous l'avez fait, et il est gardé pour votre prochaine session.
+- **Joueur** : Chaque personnage non joueur a un visage et un corps bien à lui.
+- **Graphismes** : Les cheveux, les sourcils et les barbes sont faits de poils, et les cheveux bougent avec le vent et vos mouvements.
+- **Graphismes** : Les visages clignent des yeux, regardent autour d'eux et bougent quand ils parlent.
+
+### Changed
+
+- **Graphismes** : La peau, les yeux et les lèvres paraissent réels : taches de rousseur, grains de beauté, rides qui viennent avec l'âge, iris coloré.
+
 ## [0.1.0-dev.202611141220] - 2026-11-14
 
 ### Added

@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Player**: A character creator, from the main menu and when entering the game for the first time: body, face, skin, eyes, hair, beard and outfit.
+- **Player**: Your character can be made from photos of your face, or from your webcam on Linux.
+- **Player**: Other players see your character as you made it, and it is kept for your next session.
+- **Player**: Every non-player character has a face and a body of their own.
+- **Graphics**: Hair, eyebrows and beards are made of hairs, and hair moves with the wind and with your movements.
+- **Graphics**: Faces blink, look around and move when talking.
+
+### Changed
+
+- **Graphics**: Skin, eyes and lips look real: freckles, moles, wrinkles that come with age, a coloured iris.
+
 ## [0.1.0-dev.202611141220] - 2026-11-14
 
 ### Added

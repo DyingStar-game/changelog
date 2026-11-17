@@ -15,6 +15,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Social**: A message that is too long, too fast or sent while too many lines are waiting is now refused with an explanation in the chat, instead of being cut or silently dropped.
 
+### Fixed
+
+- **Performance**: The game no longer freezes and closes ("not responding") on Windows while the main menu loads.
+- **Performance**: The main menu no longer freezes for several seconds the first time it is shown after an update.
+
 ## [0.1.0-dev.202611161605] - 2026-11-16
 
 ### Added

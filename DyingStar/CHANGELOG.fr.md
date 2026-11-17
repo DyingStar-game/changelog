@@ -15,6 +15,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 - **Social** : Un message trop long, trop rapide ou envoyé alors que trop de lignes attendent est désormais refusé avec une explication dans le chat, au lieu d'être coupé ou ignoré sans rien dire.
 
+### Fixed
+
+- **Performances** : Le jeu ne se fige plus et ne se ferme plus (« ne répond pas ») sous Windows pendant le chargement du menu principal.
+- **Performances** : Le menu principal ne se fige plus plusieurs secondes la première fois qu'il s'affiche après une mise à jour.
+
 ## [0.1.0-dev.202611161605] - 2026-11-16
 
 ### Added

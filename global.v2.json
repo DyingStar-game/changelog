@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T22:58:29.881838+00:00",
+  "generated_at": "2026-11-17T04:35:13.527874+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -113,6 +113,16 @@
               "type": "changed",
               "area": "social",
               "text": "A message that is too long, too fast or sent while too many lines are waiting is now refused with an explanation in the chat, instead of being cut or silently dropped."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "The game no longer freezes and closes (\"not responding\") on Windows while the main menu loads."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "The main menu no longer freezes for several seconds the first time it is shown after an update."
             }
           ],
           "fr": [
@@ -125,6 +135,16 @@
               "type": "changed",
               "area": "social",
               "text": "Un message trop long, trop rapide ou envoyé alors que trop de lignes attendent est désormais refusé avec une explication dans le chat, au lieu d'être coupé ou ignoré sans rien dire."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Le jeu ne se fige plus et ne se ferme plus (« ne répond pas ») sous Windows pendant le chargement du menu principal."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Le menu principal ne se fige plus plusieurs secondes la première fois qu'il s'affiche après une mise à jour."
             }
           ]
         }

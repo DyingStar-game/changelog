@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T19:29:46.277861+00:00",
+  "generated_at": "2026-11-17T19:46:58.965235+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,53 +103,64 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "A character can no longer be left without clothes: the torso and legs are always dressed."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "Volcanic rocks throw up dust and clods of earth, in the colour of the ground they hit, each time they land or bounce."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Caves with a wide, low entrance no longer hide their gallery behind a wall: the floor runs straight in."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "An error at spawn no longer stops your own character from being set up."
-            }
-          ],
-          "fr": [
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Un personnage ne peut plus se retrouver sans vêtements : le torse et les jambes sont toujours habillés."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "Les rochers volcaniques soulèvent poussière et mottes de terre, de la couleur du sol touché, à chaque impact et à chaque rebond."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Les grottes à l'entrée large et basse ne cachent plus leur galerie derrière un mur : le sol y entre de plain-pied."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Une erreur à l'apparition n'empêche plus la mise en place de votre propre personnage."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611171930",
+          "date": "2026-11-17",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "A character can no longer be left without clothes: the torso and legs are always dressed."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "Volcanic rocks throw up dust and clods of earth, in the colour of the ground they hit, each time they land or bounce."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Caves with a wide, low entrance no longer hide their gallery behind a wall: the floor runs straight in."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "An error at spawn no longer stops your own character from being set up."
+              }
+            ],
+            "fr": [
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Un personnage ne peut plus se retrouver sans vêtements : le torse et les jambes sont toujours habillés."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "Les rochers volcaniques soulèvent poussière et mottes de terre, de la couleur du sol touché, à chaque impact et à chaque rebond."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Les grottes à l'entrée large et basse ne cachent plus leur galerie derrière un mur : le sol y entre de plain-pied."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Une erreur à l'apparition n'empêche plus la mise en place de votre propre personnage."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611171246",
           "date": "2026-11-17",

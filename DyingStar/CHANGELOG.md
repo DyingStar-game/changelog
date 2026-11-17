@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611171930] - 2026-11-17
+
 ### Changed
 
 - **Player**: A character can no longer be left without clothes: the torso and legs are always dressed.

@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611171930] - 2026-11-17
+
 ### Changed
 
 - **Joueur** : Un personnage ne peut plus se retrouver sans vêtements : le torse et les jambes sont toujours habillés.

@@ -26,6 +26,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Performance**: The game no longer freezes and closes ("not responding") on Windows while the main menu loads.
 - **Performance**: The main menu no longer freezes for several seconds the first time it is shown after an update.
 
+### Security
+
+- **Player**: The game log no longer shows the player's login token, so a log shared to report a bug is safe to post.
+
 ## [0.1.0-dev.202611161605] - 2026-11-16
 
 ### Added

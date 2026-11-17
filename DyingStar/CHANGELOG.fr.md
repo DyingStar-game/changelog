@@ -26,6 +26,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Performances** : Le jeu ne se fige plus et ne se ferme plus (« ne répond pas ») sous Windows pendant le chargement du menu principal.
 - **Performances** : Le menu principal ne se fige plus plusieurs secondes la première fois qu'il s'affiche après une mise à jour.
 
+### Security
+
+- **Joueur** : Le log du jeu n'affiche plus le jeton de connexion du joueur : un log partagé pour signaler un bug peut être publié sans risque.
+
 ## [0.1.0-dev.202611161605] - 2026-11-16
 
 ### Added

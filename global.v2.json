@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T10:00:38.652285+00:00",
+  "generated_at": "2026-11-17T12:15:46.124415+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -153,6 +153,11 @@
               "type": "fixed",
               "area": "performance",
               "text": "The main menu no longer freezes for several seconds the first time it is shown after an update."
+            },
+            {
+              "type": "security",
+              "area": "player",
+              "text": "The game log no longer shows the player's login token, so a log shared to report a bug is safe to post."
             }
           ],
           "fr": [
@@ -205,6 +210,11 @@
               "type": "fixed",
               "area": "performance",
               "text": "Le menu principal ne se fige plus plusieurs secondes la première fois qu'il s'affiche après une mise à jour."
+            },
+            {
+              "type": "security",
+              "area": "player",
+              "text": "Le log du jeu n'affiche plus le jeton de connexion du joueur : un log partagé pour signaler un bug peut être publié sans risque."
             }
           ]
         }

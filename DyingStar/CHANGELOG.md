@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **PlanetTech**: Volcanic rocks throw up dust and clods of earth, in the colour of the ground they hit, each time they land or bounce.
+
 ### Fixed
 
 - **PlanetTech**: Caves with a wide, low entrance no longer hide their gallery behind a wall: the floor runs straight in.

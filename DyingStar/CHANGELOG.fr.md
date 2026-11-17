@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **PlanetTech** : Les rochers volcaniques soulèvent poussière et mottes de terre, de la couleur du sol touché, à chaque impact et à chaque rebond.
+
 ### Fixed
 
 - **PlanetTech** : Les grottes à l'entrée large et basse ne cachent plus leur galerie derrière un mur : le sol y entre de plain-pied.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T16:22:44.333241+00:00",
+  "generated_at": "2026-11-17T18:17:00.432538+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -105,6 +105,11 @@
         "entries": {
           "en": [
             {
+              "type": "changed",
+              "area": "planettech",
+              "text": "Volcanic rocks throw up dust and clods of earth, in the colour of the ground they hit, each time they land or bounce."
+            },
+            {
               "type": "fixed",
               "area": "planettech",
               "text": "Caves with a wide, low entrance no longer hide their gallery behind a wall: the floor runs straight in."
@@ -116,6 +121,11 @@
             }
           ],
           "fr": [
+            {
+              "type": "changed",
+              "area": "planettech",
+              "text": "Les rochers volcaniques soulèvent poussière et mottes de terre, de la couleur du sol touché, à chaque impact et à chaque rebond."
+            },
             {
               "type": "fixed",
               "area": "planettech",

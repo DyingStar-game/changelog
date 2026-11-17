@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Interface** : Le panneau de debug affiche votre ping avec le serveur, rafraîchi chaque seconde.
 - **Joueur** : Les personnages portent plusieurs vêtements à la fois, choisis zone par zone et couche par couche dans le créateur de personnage.
 - **Joueur** : Un vêtement choisi dans le créateur retire ceux qui ne se portent pas avec lui.
 - **Social** : Les joueurs peuvent désormais parler aux personnes autour d'eux sur le nouveau canal « Dire (autour) » : la ligne s'affiche au-dessus de leur tête, comme cel

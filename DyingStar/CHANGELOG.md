@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Interface**: The debug panel shows your ping to the server, refreshed every second.
 - **Player**: Characters wear several garments at once, chosen zone by zone and layer by layer in the character creator.
 - **Player**: A garment chosen in the creator takes off the ones it cannot be worn with.
 - **Social**: Players can now speak to the people around them on the new "Say (nearby)" channel: the line appears above their head, like an NPC's.

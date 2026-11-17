@@ -9,10 +9,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Joueur** : Les personnages portent plusieurs vêtements à la fois, choisis zone par zone et couche par couche dans le créateur de personnage.
+- **Joueur** : Un vêtement choisi dans le créateur retire ceux qui ne se portent pas avec lui.
 - **Social** : Les joueurs peuvent désormais parler aux personnes autour d'eux sur le nouveau canal « Dire (autour) » : la ligne s'affiche au-dessus de leur tête, comme cel
 
 ### Changed
 
+- **Joueur** : Les chaussures se choisissent à part des habits, et les personnages existants gardent la tenue qu'ils portaient.
 - **Social** : Un message trop long, trop rapide ou envoyé alors que trop de lignes attendent est désormais refusé avec une explication dans le chat, au lieu d'être coupé ou ignoré sans rien dire.
 
 ### Fixed

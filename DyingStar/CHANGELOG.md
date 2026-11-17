@@ -9,10 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Player**: Characters wear several garments at once, chosen zone by zone and layer by layer in the character creator.
+- **Player**: A garment chosen in the creator takes off the ones it cannot be worn with.
 - **Social**: Players can now speak to the people around them on the new "Say (nearby)" channel: the line appears above their head, like an NPC's.
 
 ### Changed
 
+- **Player**: Shoes are chosen apart from the clothes, and existing characters keep the outfit they wore.
 - **Social**: A message that is too long, too fast or sent while too many lines are waiting is now refused with an explanation in the chat, instead of being cut or silently dropped.
 
 ### Fixed

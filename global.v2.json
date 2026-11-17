@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T04:35:13.527874+00:00",
+  "generated_at": "2026-11-17T05:22:33.159941+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,8 +106,23 @@
           "en": [
             {
               "type": "added",
+              "area": "player",
+              "text": "Characters wear several garments at once, chosen zone by zone and layer by layer in the character creator."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "A garment chosen in the creator takes off the ones it cannot be worn with."
+            },
+            {
+              "type": "added",
               "area": "social",
               "text": "Players can now speak to the people around them on the new \"Say (nearby)\" channel: the line appears above their head, like an NPC's."
+            },
+            {
+              "type": "changed",
+              "area": "player",
+              "text": "Shoes are chosen apart from the clothes, and existing characters keep the outfit they wore."
             },
             {
               "type": "changed",
@@ -128,8 +143,23 @@
           "fr": [
             {
               "type": "added",
+              "area": "player",
+              "text": "Les personnages portent plusieurs vêtements à la fois, choisis zone par zone et couche par couche dans le créateur de personnage."
+            },
+            {
+              "type": "added",
+              "area": "player",
+              "text": "Un vêtement choisi dans le créateur retire ceux qui ne se portent pas avec lui."
+            },
+            {
+              "type": "added",
               "area": "social",
               "text": "Les joueurs peuvent désormais parler aux personnes autour d'eux sur le nouveau canal « Dire (autour) » : la ligne s'affiche au-dessus de leur tête, comme cel"
+            },
+            {
+              "type": "changed",
+              "area": "player",
+              "text": "Les chaussures se choisissent à part des habits, et les personnages existants gardent la tenue qu'ils portaient."
             },
             {
               "type": "changed",

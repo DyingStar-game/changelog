@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611171246] - 2026-11-17
+
 ### Added
 
 - **Interface** : Le panneau de debug affiche votre ping avec le serveur, rafraîchi chaque seconde.

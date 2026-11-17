@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T12:15:46.124415+00:00",
+  "generated_at": "2026-11-17T12:57:55.038173+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,123 +103,134 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "The debug panel shows your ping to the server, refreshed every second."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Characters wear several garments at once, chosen zone by zone and layer by layer in the character creator."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "A garment chosen in the creator takes off the ones it cannot be worn with."
-            },
-            {
-              "type": "added",
-              "area": "social",
-              "text": "Players can now speak to the people around them on the new \"Say (nearby)\" channel: the line appears above their head, like an NPC's."
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Shoes are chosen apart from the clothes, and existing characters keep the outfit they wore."
-            },
-            {
-              "type": "changed",
-              "area": "social",
-              "text": "A message that is too long, too fast or sent while too many lines are waiting is now refused with an explanation in the chat, instead of being cut or silently dropped."
-            },
-            {
-              "type": "fixed",
-              "area": "social",
-              "text": "A notification with no title shows its message again."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Roads seen from afar are no longer missing in places."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The game no longer freezes and closes (\"not responding\") on Windows while the main menu loads."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The main menu no longer freezes for several seconds the first time it is shown after an update."
-            },
-            {
-              "type": "security",
-              "area": "player",
-              "text": "The game log no longer shows the player's login token, so a log shared to report a bug is safe to post."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Le panneau de debug affiche votre ping avec le serveur, rafraîchi chaque seconde."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Les personnages portent plusieurs vêtements à la fois, choisis zone par zone et couche par couche dans le créateur de personnage."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Un vêtement choisi dans le créateur retire ceux qui ne se portent pas avec lui."
-            },
-            {
-              "type": "added",
-              "area": "social",
-              "text": "Les joueurs peuvent désormais parler aux personnes autour d'eux sur le nouveau canal « Dire (autour) » : la ligne s'affiche au-dessus de leur tête, comme cel"
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Les chaussures se choisissent à part des habits, et les personnages existants gardent la tenue qu'ils portaient."
-            },
-            {
-              "type": "changed",
-              "area": "social",
-              "text": "Un message trop long, trop rapide ou envoyé alors que trop de lignes attendent est désormais refusé avec une explication dans le chat, au lieu d'être coupé ou ignoré sans rien dire."
-            },
-            {
-              "type": "fixed",
-              "area": "social",
-              "text": "Une notification sans titre affiche de nouveau son message."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Les routes vues de loin ne disparaissent plus par endroits."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Le jeu ne se fige plus et ne se ferme plus (« ne répond pas ») sous Windows pendant le chargement du menu principal."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Le menu principal ne se fige plus plusieurs secondes la première fois qu'il s'affiche après une mise à jour."
-            },
-            {
-              "type": "security",
-              "area": "player",
-              "text": "Le log du jeu n'affiche plus le jeton de connexion du joueur : un log partagé pour signaler un bug peut être publié sans risque."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611171246",
+          "date": "2026-11-17",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "The debug panel shows your ping to the server, refreshed every second."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Characters wear several garments at once, chosen zone by zone and layer by layer in the character creator."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "A garment chosen in the creator takes off the ones it cannot be worn with."
+              },
+              {
+                "type": "added",
+                "area": "social",
+                "text": "Players can now speak to the people around them on the new \"Say (nearby)\" channel: the line appears above their head, like an NPC's."
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Shoes are chosen apart from the clothes, and existing characters keep the outfit they wore."
+              },
+              {
+                "type": "changed",
+                "area": "social",
+                "text": "A message that is too long, too fast or sent while too many lines are waiting is now refused with an explanation in the chat, instead of being cut or silently dropped."
+              },
+              {
+                "type": "fixed",
+                "area": "social",
+                "text": "A notification with no title shows its message again."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Roads seen from afar are no longer missing in places."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The game no longer freezes and closes (\"not responding\") on Windows while the main menu loads."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The main menu no longer freezes for several seconds the first time it is shown after an update."
+              },
+              {
+                "type": "security",
+                "area": "player",
+                "text": "The game log no longer shows the player's login token, so a log shared to report a bug is safe to post."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Le panneau de debug affiche votre ping avec le serveur, rafraîchi chaque seconde."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Les personnages portent plusieurs vêtements à la fois, choisis zone par zone et couche par couche dans le créateur de personnage."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Un vêtement choisi dans le créateur retire ceux qui ne se portent pas avec lui."
+              },
+              {
+                "type": "added",
+                "area": "social",
+                "text": "Les joueurs peuvent désormais parler aux personnes autour d'eux sur le nouveau canal « Dire (autour) » : la ligne s'affiche au-dessus de leur tête, comme cel"
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Les chaussures se choisissent à part des habits, et les personnages existants gardent la tenue qu'ils portaient."
+              },
+              {
+                "type": "changed",
+                "area": "social",
+                "text": "Un message trop long, trop rapide ou envoyé alors que trop de lignes attendent est désormais refusé avec une explication dans le chat, au lieu d'être coupé ou ignoré sans rien dire."
+              },
+              {
+                "type": "fixed",
+                "area": "social",
+                "text": "Une notification sans titre affiche de nouveau son message."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Les routes vues de loin ne disparaissent plus par endroits."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Le jeu ne se fige plus et ne se ferme plus (« ne répond pas ») sous Windows pendant le chargement du menu principal."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Le menu principal ne se fige plus plusieurs secondes la première fois qu'il s'affiche après une mise à jour."
+              },
+              {
+                "type": "security",
+                "area": "player",
+                "text": "Le log du jeu n'affiche plus le jeton de connexion du joueur : un log partagé pour signaler un bug peut être publié sans risque."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611161605",
           "date": "2026-11-16",

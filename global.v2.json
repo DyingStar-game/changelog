@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T12:57:55.038173+00:00",
+  "generated_at": "2026-11-17T16:22:44.333241+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,30 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Caves with a wide, low entrance no longer hide their gallery behind a wall: the floor runs straight in."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "An error at spawn no longer stops your own character from being set up."
+            }
+          ],
+          "fr": [
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Les grottes à l'entrée large et basse ne cachent plus leur galerie derrière un mur : le sol y entre de plain-pied."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Une erreur à l'apparition n'empêche plus la mise en place de votre propre personnage."
+            }
+          ]
         }
       },
       "releases": [

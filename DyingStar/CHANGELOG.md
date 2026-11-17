@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **PlanetTech**: Caves with a wide, low entrance no longer hide their gallery behind a wall: the floor runs straight in.
+- **Player**: An error at spawn no longer stops your own character from being set up.
+
 ## [0.1.0-dev.202611171246] - 2026-11-17
 
 ### Added

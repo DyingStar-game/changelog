@@ -7,6 +7,11 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **PlanetTech** : Les grottes à l'entrée large et basse ne cachent plus leur galerie derrière un mur : le sol y entre de plain-pied.
+- **Joueur** : Une erreur à l'apparition n'empêche plus la mise en place de votre propre personnage.
+
 ## [0.1.0-dev.202611171246] - 2026-11-17
 
 ### Added

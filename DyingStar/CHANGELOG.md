@@ -21,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Social**: A notification with no title shows its message again.
+- **PlanetTech**: Roads seen from afar are no longer missing in places.
 - **Performance**: The game no longer freezes and closes ("not responding") on Windows while the main menu loads.
 - **Performance**: The main menu no longer freezes for several seconds the first time it is shown after an update.
 

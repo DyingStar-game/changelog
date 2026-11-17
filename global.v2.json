@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T05:27:23.866285+00:00",
+  "generated_at": "2026-11-17T10:00:38.652285+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -136,6 +136,16 @@
             },
             {
               "type": "fixed",
+              "area": "social",
+              "text": "A notification with no title shows its message again."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Roads seen from afar are no longer missing in places."
+            },
+            {
+              "type": "fixed",
               "area": "performance",
               "text": "The game no longer freezes and closes (\"not responding\") on Windows while the main menu loads."
             },
@@ -175,6 +185,16 @@
               "type": "changed",
               "area": "social",
               "text": "Un message trop long, trop rapide ou envoyé alors que trop de lignes attendent est désormais refusé avec une explication dans le chat, au lieu d'être coupé ou ignoré sans rien dire."
+            },
+            {
+              "type": "fixed",
+              "area": "social",
+              "text": "Une notification sans titre affiche de nouveau son message."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Les routes vues de loin ne disparaissent plus par endroits."
             },
             {
               "type": "fixed",

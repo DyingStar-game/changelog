@@ -21,6 +21,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Social** : Une notification sans titre affiche de nouveau son message.
+- **PlanetTech** : Les routes vues de loin ne disparaissent plus par endroits.
 - **Performances** : Le jeu ne se fige plus et ne se ferme plus (« ne répond pas ») sous Windows pendant le chargement du menu principal.
 - **Performances** : Le menu principal ne se fige plus plusieurs secondes la première fois qu'il s'affiche après une mise à jour.
 

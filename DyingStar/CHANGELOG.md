@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Player**: A character can no longer be left without clothes: the torso and legs are always dressed.
 - **PlanetTech**: Volcanic rocks throw up dust and clods of earth, in the colour of the ground they hit, each time they land or bounce.
 
 ### Fixed

@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Joueur** : Un personnage ne peut plus se retrouver sans vêtements : le torse et les jambes sont toujours habillés.
 - **PlanetTech** : Les rochers volcaniques soulèvent poussière et mottes de terre, de la couleur du sol touché, à chaque impact et à chaque rebond.
 
 ### Fixed

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T23:13:02.840610+00:00",
+  "generated_at": "2026-11-19T23:15:55.809476+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -121,6 +121,11 @@
             },
             {
               "type": "changed",
+              "area": "performance",
+              "text": "The main menu appears a few seconds sooner at startup."
+            },
+            {
+              "type": "changed",
               "area": "economy",
               "text": "A full ARES warehouse no longer takes what you bring outside a mission: its stock screen shows what it buys no more, its shelves and its storekeeper refuse the crate, and you keep it."
             },
@@ -190,6 +195,11 @@
               "type": "added",
               "area": "planettech",
               "text": "Le sol tremble sous vos pieds près d'un volcan en éruption."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Le menu principal s'affiche quelques secondes plus tôt au démarrage."
             },
             {
               "type": "changed",

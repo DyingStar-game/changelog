@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Performance**: The main menu appears a few seconds sooner at startup.
 - **Economy**: A full ARES warehouse no longer takes what you bring outside a mission: its stock screen shows what it buys no more, its shelves and its storekeeper refuse the crate, and you keep it.
 - **PlanetTech**: The terrain features (biomes, roads, mountains, volcanoes) are streamed from the tile service instead of shipping a 1.4 GB file with the game.
 - **Buildings**: Improved road layout in factory and mining towns: new roads, better curves, improved position of various visual elements.

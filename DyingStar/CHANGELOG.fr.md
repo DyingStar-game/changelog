@@ -14,6 +14,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Graphismes** : Le jeu ne plante plus pendant la préparation du jeu au menu quand un village ou une ville ne peut pas être lu.
 - **Graphismes** : Les ombres projetées par les lampes (appartements, entrepôt, projecteurs, phares) ne disparaissent plus pour revenir quelques secondes plus tard.
 
 ## [0.1.0-dev.202611171930] - 2026-11-17

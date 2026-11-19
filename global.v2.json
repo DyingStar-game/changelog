@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T21:31:59.266068+00:00",
+  "generated_at": "2026-11-19T21:32:38.023744+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -117,6 +117,11 @@
             {
               "type": "fixed",
               "area": "graphics",
+              "text": "The game no longer crashes while preparing the game at the menu when a village or city cannot be read."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
               "text": "The shadows cast by lamps (apartments, depot, floodlights, headlights) no longer vanish and come back every few seconds."
             }
           ],
@@ -130,6 +135,11 @@
               "type": "changed",
               "area": "buildings",
               "text": "Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Le jeu ne plante plus pendant la préparation du jeu au menu quand un village ou une ville ne peut pas être lu."
             },
             {
               "type": "fixed",

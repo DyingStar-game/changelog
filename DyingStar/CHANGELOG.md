@@ -15,6 +15,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Graphics**: On weak PCs, the game no longer freezes at the menu until Windows closes it: the live menu background is off by default there.
+- **Graphics**: Entry-level GeForce GT cards now start on the Low graphics preset.
 - **Interface**: The mission terminal offers again a mission you abandoned or let expire, instead of saying you already have it.
 - **Mining**: Rock pieces no longer fall through the ground when you cut a rock or break a mine face: one that goes through is put back on the ground, or on the floor of the mine.
 - **Graphics**: The game no longer crashes while preparing the game at the menu when a village or city cannot be read.

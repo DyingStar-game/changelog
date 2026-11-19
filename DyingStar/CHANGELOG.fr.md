@@ -15,6 +15,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Graphismes** : Sur les PC peu puissants, le jeu ne gèle plus au menu jusqu'à ce que Windows le ferme : le décor animé du menu y est désactivé par défaut.
+- **Graphismes** : Les cartes GeForce GT d'entrée de gamme démarrent maintenant sur le préréglage graphique Bas.
 - **Interface** : La borne de missions repropose une mission abandonnée ou expirée, au lieu d'annoncer que vous l'avez déjà.
 - **Minage** : Les morceaux de rocher ne passent plus à travers le sol quand on coupe un rocher ou qu'on casse un front de mine : un morceau qui traverse est remis sur le sol, ou sur le sol de la mine.
 - **Graphismes** : Le jeu ne plante plus pendant la préparation du jeu au menu quand un village ou une ville ne peut pas être lu.

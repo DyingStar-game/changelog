@@ -14,6 +14,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Minage** : Les morceaux de rocher ne passent plus à travers le sol quand on coupe un rocher ou qu'on casse un front de mine : un morceau qui traverse est remis sur le sol, ou sur le sol de la mine.
 - **Graphismes** : Le jeu ne plante plus pendant la préparation du jeu au menu quand un village ou une ville ne peut pas être lu.
 - **Graphismes** : Les ombres projetées par les lampes (appartements, entrepôt, projecteurs, phares) ne disparaissent plus pour revenir quelques secondes plus tard.
 

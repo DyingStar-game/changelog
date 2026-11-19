@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T21:42:06.245883+00:00",
+  "generated_at": "2026-11-19T21:44:34.929736+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -121,6 +121,11 @@
             },
             {
               "type": "fixed",
+              "area": "performance",
+              "text": "On a first launch or after an update, the game no longer freezes for several seconds at the menu while it gets ready."
+            },
+            {
+              "type": "fixed",
               "area": "graphics",
               "text": "On weak PCs, the game no longer freezes at the menu until Windows closes it: the live menu background is off by default there."
             },
@@ -165,6 +170,11 @@
               "type": "changed",
               "area": "buildings",
               "text": "Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Au premier lancement ou après une mise à jour, le jeu ne gèle plus plusieurs secondes au menu pendant sa préparation."
             },
             {
               "type": "fixed",

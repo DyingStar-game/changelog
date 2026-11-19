@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **PlanetTech**: The terrain features (biomes, roads, mountains, volcanoes) are streamed from the tile service instead of shipping a 1.4 GB file with the game.
 - **Buildings**: Improved road layout in factory and mining towns: new roads, better curves, improved position of various visual elements.
 
 ### Fixed

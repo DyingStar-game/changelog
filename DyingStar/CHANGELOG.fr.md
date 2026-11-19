@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **PlanetTech** : Les éléments du terrain (biomes, routes, montagnes, volcans) sont chargés à la demande depuis le serveur de tuiles au lieu d'un fichier de 1,4 Go livré avec le jeu.
 - **Bâtiments** : Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs.
 
 ### Fixed

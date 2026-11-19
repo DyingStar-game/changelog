@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T21:32:56.745072+00:00",
+  "generated_at": "2026-11-19T21:33:46.430596+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -116,6 +116,11 @@
             },
             {
               "type": "fixed",
+              "area": "ui",
+              "text": "The mission terminal offers again a mission you abandoned or let expire, instead of saying you already have it."
+            },
+            {
+              "type": "fixed",
               "area": "mining",
               "text": "Rock pieces no longer fall through the ground when you cut a rock or break a mine face: one that goes through is put back on the ground, or on the floor of the mine."
             },
@@ -140,6 +145,11 @@
               "type": "changed",
               "area": "buildings",
               "text": "Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "La borne de missions repropose une mission abandonnée ou expirée, au lieu d'annoncer que vous l'avez déjà."
             },
             {
               "type": "fixed",

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T21:44:34.929736+00:00",
+  "generated_at": "2026-11-19T23:06:36.927010+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -105,6 +105,21 @@
         "entries": {
           "en": [
             {
+              "type": "added",
+              "area": "audio",
+              "text": "Volcanoes are now heard: steam near the crater, a rumble and cracking rock that rise before an eruption, then blasts for as long as it lasts."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "A distant volcano is heard late, by the time its sound takes to travel, and more muffled the farther away it is."
+            },
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "The ground shakes under your feet near an erupting volcano."
+            },
+            {
               "type": "changed",
               "area": "economy",
               "text": "A full ARES warehouse no longer takes what you bring outside a mission: its stock screen shows what it buys no more, its shelves and its storekeeper refuse the crate, and you keep it."
@@ -156,6 +171,21 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Les volcans s'entendent désormais : de la vapeur près du cratère, un grondement et des craquements de roche qui montent avant une éruption, puis des explosions tant qu'elle dure."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Un volcan lointain s'entend en retard, le temps que son bruit arrive, et de plus en plus étouffé avec la distance."
+            },
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Le sol tremble sous vos pieds près d'un volcan en éruption."
+            },
             {
               "type": "changed",
               "area": "economy",

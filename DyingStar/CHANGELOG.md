@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Audio**: Volcanoes are now heard: steam near the crater, a rumble and cracking rock that rise before an eruption, then blasts for as long as it lasts.
+- **Audio**: A distant volcano is heard late, by the time its sound takes to travel, and more muffled the farther away it is.
+- **PlanetTech**: The ground shakes under your feet near an erupting volcano.
+
 ### Changed
 
 - **Economy**: A full ARES warehouse no longer takes what you bring outside a mission: its stock screen shows what it buys no more, its shelves and its storekeeper refuse the crate, and you keep it.

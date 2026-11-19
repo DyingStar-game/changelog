@@ -7,6 +7,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Audio** : Les volcans s'entendent désormais : de la vapeur près du cratère, un grondement et des craquements de roche qui montent avant une éruption, puis des explosions tant qu'elle dure.
+- **Audio** : Un volcan lointain s'entend en retard, le temps que son bruit arrive, et de plus en plus étouffé avec la distance.
+- **PlanetTech** : Le sol tremble sous vos pieds près d'un volcan en éruption.
+
 ### Changed
 
 - **Économie** : Un entrepôt ARES plein ne prend plus ce que vous apportez hors mission : son écran de stock indique ce qu'il n'achète plus, ses étagères et son magasinier refusent la caisse, et vous la gardez.

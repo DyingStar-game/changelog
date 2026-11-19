@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T21:33:46.430596+00:00",
+  "generated_at": "2026-11-19T21:40:55.512202+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,11 @@
           "en": [
             {
               "type": "changed",
+              "area": "economy",
+              "text": "A full ARES warehouse no longer takes what you bring outside a mission: its stock screen shows what it buys no more, its shelves and its storekeeper refuse the crate, and you keep it."
+            },
+            {
+              "type": "changed",
               "area": "planettech",
               "text": "The terrain features (biomes, roads, mountains, volcanoes) are streamed from the tile service instead of shipping a 1.4 GB file with the game."
             },
@@ -136,6 +141,11 @@
             }
           ],
           "fr": [
+            {
+              "type": "changed",
+              "area": "economy",
+              "text": "Un entrepôt ARES plein ne prend plus ce que vous apportez hors mission : son écran de stock indique ce qu'il n'achète plus, ses étagères et son magasinier refusent la caisse, et vous la gardez."
+            },
             {
               "type": "changed",
               "area": "planettech",

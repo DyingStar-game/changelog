@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Économie** : Un entrepôt ARES plein ne prend plus ce que vous apportez hors mission : son écran de stock indique ce qu'il n'achète plus, ses étagères et son magasinier refusent la caisse, et vous la gardez.
 - **PlanetTech** : Les éléments du terrain (biomes, routes, montagnes, volcans) sont chargés à la demande depuis le serveur de tuiles au lieu d'un fichier de 1,4 Go livré avec le jeu.
 - **Bâtiments** : Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs.
 

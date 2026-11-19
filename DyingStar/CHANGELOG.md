@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Interface**: A bug can be reported without leaving the game: F9 takes a capture and opens a form (title, severity, description, steps, actual and expected result), sent to the QA team with your build, your machine's configuration and the end of the game's log. It works in the menus too, and a line at the bottom right of the screen recalls the key.
+- **Audio**: The truck has a new horn and the lift platforms a new running sound.
+- **Audio**: The buttons of a lift's screen make a sound when pressed, heard by the players around.
 - **Audio**: Volcanoes are now heard: steam near the crater, a rumble and cracking rock that rise before an eruption, then blasts for as long as it lasts.
 - **Audio**: A distant volcano is heard late, by the time its sound takes to travel, and more muffled the farther away it is.
 - **PlanetTech**: The ground shakes under your feet near an erupting volcano.
@@ -22,6 +25,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Vehicles**: A short press on the horn now honks; it only sounded while the key was held.
+- **Vehicles**: Teleporting while seated in a truck no longer freezes you: you travel with the truck and arrive in your seat.
+- **Buildings**: Street lamps no longer stay lit in daylight after you come back to a village.
+- **Star map**: The chart's right-click menu no longer stays on screen when you leave its tab, and the DataPad's tabs answer after a right click on the chart.
 - **Performance**: The game's preparation at the menu now finishes: in released builds it stopped partway, so places, vehicles and items were never ready ahead and froze the game when first met.
 - **Performance**: On a first launch or after an update, the game no longer freezes for several seconds at the menu while it gets ready.
 - **Graphics**: On weak PCs, the game no longer freezes at the menu until Windows closes it: the live menu background is off by default there.

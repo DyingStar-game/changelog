@@ -9,6 +9,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Interface** : Un bug se signale sans quitter le jeu : F9 prend une capture et ouvre un formulaire (titre, sévérité, description, étapes, résultat obtenu et attendu), envoyé à l'équipe QA avec votre version, la configuration de votre machine et la fin du journal du jeu. Cela marche aussi dans les menus, et une ligne en bas à droite de l'écran rappelle la touche.
+- **Audio** : Le camion a un nouveau klaxon et les plateformes d'ascenseur un nouveau bruit de marche.
+- **Audio** : Les boutons de l'écran d'un ascenseur font un son quand on les presse, entendu par les joueurs autour.
 - **Audio** : Les volcans s'entendent désormais : de la vapeur près du cratère, un grondement et des craquements de roche qui montent avant une éruption, puis des explosions tant qu'elle dure.
 - **Audio** : Un volcan lointain s'entend en retard, le temps que son bruit arrive, et de plus en plus étouffé avec la distance.
 - **PlanetTech** : Le sol tremble sous vos pieds près d'un volcan en éruption.
@@ -22,6 +25,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Véhicules** : Un appui bref sur le klaxon le fait sonner ; il ne sonnait que touche maintenue.
+- **Véhicules** : Se téléporter assis dans un camion ne fige plus le joueur : on voyage avec le camion et on arrive à sa place.
+- **Bâtiments** : Les lampadaires ne restent plus allumés en plein jour quand on revient dans un village.
+- **Carte stellaire** : Le menu du clic droit de la carte ne reste plus affiché quand on quitte son onglet, et les onglets du DataPad répondent après un clic droit sur la carte.
 - **Performances** : La préparation du jeu au menu va maintenant jusqu'au bout : dans les versions publiées elle s'arrêtait en chemin, et les lieux, véhicules et objets n'étaient jamais prêts d'avance et figeaient le jeu à leur première apparition.
 - **Performances** : Au premier lancement ou après une mise à jour, le jeu ne gèle plus plusieurs secondes au menu pendant sa préparation.
 - **Graphismes** : Sur les PC peu puissants, le jeu ne gèle plus au menu jusqu'à ce que Windows le ferme : le décor animé du menu y est désactivé par défaut.

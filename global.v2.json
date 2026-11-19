@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T23:15:55.809476+00:00",
+  "generated_at": "2026-11-19T23:18:28.885923+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,21 @@
           "en": [
             {
               "type": "added",
+              "area": "ui",
+              "text": "A bug can be reported without leaving the game: F9 takes a capture and opens a form (title, severity, description, steps, actual and expected result), sent to the QA team with your build, your machine's configuration and the end of the game's log. It works in the menus too, and a line at the bottom right of the screen recalls the key."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "The truck has a new horn and the lift platforms a new running sound."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "The buttons of a lift's screen make a sound when pressed, heard by the players around."
+            },
+            {
+              "type": "added",
               "area": "audio",
               "text": "Volcanoes are now heard: steam near the crater, a rumble and cracking rock that rise before an eruption, then blasts for as long as it lasts."
             },
@@ -138,6 +153,26 @@
               "type": "changed",
               "area": "buildings",
               "text": "Improved road layout in factory and mining towns: new roads, better curves, improved position of various visual elements."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "A short press on the horn now honks; it only sounded while the key was held."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Teleporting while seated in a truck no longer freezes you: you travel with the truck and arrive in your seat."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "Street lamps no longer stay lit in daylight after you come back to a village."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "The chart's right-click menu no longer stays on screen when you leave its tab, and the DataPad's tabs answer after a right click on the chart."
             },
             {
               "type": "fixed",
@@ -183,6 +218,21 @@
           "fr": [
             {
               "type": "added",
+              "area": "ui",
+              "text": "Un bug se signale sans quitter le jeu : F9 prend une capture et ouvre un formulaire (titre, sévérité, description, étapes, résultat obtenu et attendu), envoyé à l'équipe QA avec votre version, la configuration de votre machine et la fin du journal du jeu. Cela marche aussi dans les menus, et une ligne en bas à droite de l'écran rappelle la touche."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Le camion a un nouveau klaxon et les plateformes d'ascenseur un nouveau bruit de marche."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Les boutons de l'écran d'un ascenseur font un son quand on les presse, entendu par les joueurs autour."
+            },
+            {
+              "type": "added",
               "area": "audio",
               "text": "Les volcans s'entendent désormais : de la vapeur près du cratère, un grondement et des craquements de roche qui montent avant une éruption, puis des explosions tant qu'elle dure."
             },
@@ -215,6 +265,26 @@
               "type": "changed",
               "area": "buildings",
               "text": "Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Un appui bref sur le klaxon le fait sonner ; il ne sonnait que touche maintenue."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Se téléporter assis dans un camion ne fige plus le joueur : on voyage avec le camion et on arrive à sa place."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "Les lampadaires ne restent plus allumés en plein jour quand on revient dans un village."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "Le menu du clic droit de la carte ne reste plus affiché quand on quitte son onglet, et les onglets du DataPad répondent après un clic droit sur la carte."
             },
             {
               "type": "fixed",

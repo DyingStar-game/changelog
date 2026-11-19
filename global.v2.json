@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T23:06:36.927010+00:00",
+  "generated_at": "2026-11-19T23:13:02.840610+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -137,6 +137,11 @@
             {
               "type": "fixed",
               "area": "performance",
+              "text": "The game's preparation at the menu now finishes: in released builds it stopped partway, so places, vehicles and items were never ready ahead and froze the game when first met."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
               "text": "On a first launch or after an update, the game no longer freezes for several seconds at the menu while it gets ready."
             },
             {
@@ -200,6 +205,11 @@
               "type": "changed",
               "area": "buildings",
               "text": "Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "La préparation du jeu au menu va maintenant jusqu'au bout : dans les versions publiées elle s'arrêtait en chemin, et les lieux, véhicules et objets n'étaient jamais prêts d'avance et figeaient le jeu à leur première apparition."
             },
             {
               "type": "fixed",

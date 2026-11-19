@@ -21,6 +21,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Performances** : La préparation du jeu au menu va maintenant jusqu'au bout : dans les versions publiées elle s'arrêtait en chemin, et les lieux, véhicules et objets n'étaient jamais prêts d'avance et figeaient le jeu à leur première apparition.
 - **Performances** : Au premier lancement ou après une mise à jour, le jeu ne gèle plus plusieurs secondes au menu pendant sa préparation.
 - **Graphismes** : Sur les PC peu puissants, le jeu ne gèle plus au menu jusqu'à ce que Windows le ferme : le décor animé du menu y est désactivé par défaut.
 - **Graphismes** : Les cartes GeForce GT d'entrée de gamme démarrent maintenant sur le préréglage graphique Bas.

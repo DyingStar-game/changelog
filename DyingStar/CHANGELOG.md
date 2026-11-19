@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Performance**: The game's preparation at the menu now finishes: in released builds it stopped partway, so places, vehicles and items were never ready ahead and froze the game when first met.
 - **Performance**: On a first launch or after an update, the game no longer freezes for several seconds at the menu while it gets ready.
 - **Graphics**: On weak PCs, the game no longer freezes at the menu until Windows closes it: the live menu background is off by default there.
 - **Graphics**: Entry-level GeForce GT cards now start on the Low graphics preset.

@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Bâtiments** : Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs.
+
 ## [0.1.0-dev.202611171930] - 2026-11-17
 
 ### Changed

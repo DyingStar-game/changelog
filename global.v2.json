@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T19:46:58.965235+00:00",
+  "generated_at": "2026-11-19T21:30:13.334409+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "Improved road layout in factory and mining towns: new roads, better curves, improved position of various visual elements."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "buildings",
+              "text": "Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs."
+            }
+          ]
         }
       },
       "releases": [

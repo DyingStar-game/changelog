@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Buildings**: Improved road layout in factory and mining towns: new roads, better curves, improved position of various visual elements.
 
+### Fixed
+
+- **Graphics**: The shadows cast by lamps (apartments, depot, floodlights, headlights) no longer vanish and come back every few seconds.
+
 ## [0.1.0-dev.202611171930] - 2026-11-17
 
 ### Changed

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T21:30:13.334409+00:00",
+  "generated_at": "2026-11-19T21:31:30.323166+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -108,6 +108,11 @@
               "type": "changed",
               "area": "buildings",
               "text": "Improved road layout in factory and mining towns: new roads, better curves, improved position of various visual elements."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "The shadows cast by lamps (apartments, depot, floodlights, headlights) no longer vanish and come back every few seconds."
             }
           ],
           "fr": [
@@ -115,6 +120,11 @@
               "type": "changed",
               "area": "buildings",
               "text": "Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Les ombres projetées par les lampes (appartements, entrepôt, projecteurs, phares) ne disparaissent plus pour revenir quelques secondes plus tard."
             }
           ]
         }

@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611200651] - 2026-11-20
+
 ### Added
 
 - **Interface** : Un bug se signale sans quitter le jeu : F9 prend une capture et ouvre un formulaire (titre, sévérité, description, étapes, résultat obtenu et attendu), envoyé à l'équipe QA avec votre version, la configuration de votre machine et la fin du journal du jeu. Cela marche aussi dans les menus, et une ligne en bas à droite de l'écran rappelle la touche.

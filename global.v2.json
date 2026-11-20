@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-20T06:40:46.879486+00:00",
+  "generated_at": "2026-11-20T07:07:34.461564+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,243 +103,254 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "A bug can be reported without leaving the game: F9 takes a capture and opens a form (title, severity, description, steps, actual and expected result), sent to the QA team with your build, your machine's configuration and the end of the game's log. It works in the menus too, and a line at the bottom right of the screen recalls the key."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "The truck has a new horn and the lift platforms a new running sound."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "The buttons of a lift's screen make a sound when pressed, heard by the players around."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Volcanoes are now heard: steam near the crater, a rumble and cracking rock that rise before an eruption, then blasts for as long as it lasts."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "A distant volcano is heard late, by the time its sound takes to travel, and more muffled the farther away it is."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "The ground shakes under your feet near an erupting volcano."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "The main menu appears a few seconds sooner at startup."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "A full ARES warehouse no longer takes what you bring outside a mission: its stock screen shows what it buys no more, its shelves and its storekeeper refuse the crate, and you keep it."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "The terrain features (biomes, roads, mountains, volcanoes) are streamed from the tile service instead of shipping a 1.4 GB file with the game."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Improved road layout in factory and mining towns: new roads, better curves, improved position of various visual elements."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The game's shaders now ship ready-made: the first launch and the first launch after an update no longer freeze several seconds at a time while they compile."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "A short press on the horn now honks; it only sounded while the key was held."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Teleporting while seated in a truck no longer freezes you: you travel with the truck and arrive in your seat."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Street lamps no longer stay lit in daylight after you come back to a village."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "The chart's right-click menu no longer stays on screen when you leave its tab, and the DataPad's tabs answer after a right click on the chart."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The game's preparation at the menu now finishes: in released builds it stopped partway, so places, vehicles and items were never ready ahead and froze the game when first met."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "On a first launch or after an update, the game no longer freezes for several seconds at the menu while it gets ready."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "On weak PCs, the game no longer freezes at the menu until Windows closes it: the live menu background is off by default there."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Entry-level GeForce GT cards now start on the Low graphics preset."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The mission terminal offers again a mission you abandoned or let expire, instead of saying you already have it."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "Rock pieces no longer fall through the ground when you cut a rock or break a mine face: one that goes through is put back on the ground, or on the floor of the mine."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "The game no longer crashes while preparing the game at the menu when a village or city cannot be read."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "The shadows cast by lamps (apartments, depot, floodlights, headlights) no longer vanish and come back every few seconds."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Un bug se signale sans quitter le jeu : F9 prend une capture et ouvre un formulaire (titre, sévérité, description, étapes, résultat obtenu et attendu), envoyé à l'équipe QA avec votre version, la configuration de votre machine et la fin du journal du jeu. Cela marche aussi dans les menus, et une ligne en bas à droite de l'écran rappelle la touche."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Le camion a un nouveau klaxon et les plateformes d'ascenseur un nouveau bruit de marche."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Les boutons de l'écran d'un ascenseur font un son quand on les presse, entendu par les joueurs autour."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Les volcans s'entendent désormais : de la vapeur près du cratère, un grondement et des craquements de roche qui montent avant une éruption, puis des explosions tant qu'elle dure."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Un volcan lointain s'entend en retard, le temps que son bruit arrive, et de plus en plus étouffé avec la distance."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Le sol tremble sous vos pieds près d'un volcan en éruption."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Le menu principal s'affiche quelques secondes plus tôt au démarrage."
-            },
-            {
-              "type": "changed",
-              "area": "economy",
-              "text": "Un entrepôt ARES plein ne prend plus ce que vous apportez hors mission : son écran de stock indique ce qu'il n'achète plus, ses étagères et son magasinier refusent la caisse, et vous la gardez."
-            },
-            {
-              "type": "changed",
-              "area": "planettech",
-              "text": "Les éléments du terrain (biomes, routes, montagnes, volcans) sont chargés à la demande depuis le serveur de tuiles au lieu d'un fichier de 1,4 Go livré avec le jeu."
-            },
-            {
-              "type": "changed",
-              "area": "buildings",
-              "text": "Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Les shaders du jeu sont maintenant livrés prêts à l'emploi : le premier lancement et le premier lancement après une mise à jour ne gèlent plus plusieurs secondes d'affilée pendant leur compilation."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Un appui bref sur le klaxon le fait sonner ; il ne sonnait que touche maintenue."
-            },
-            {
-              "type": "fixed",
-              "area": "vehicles",
-              "text": "Se téléporter assis dans un camion ne fige plus le joueur : on voyage avec le camion et on arrive à sa place."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Les lampadaires ne restent plus allumés en plein jour quand on revient dans un village."
-            },
-            {
-              "type": "fixed",
-              "area": "star-map",
-              "text": "Le menu du clic droit de la carte ne reste plus affiché quand on quitte son onglet, et les onglets du DataPad répondent après un clic droit sur la carte."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "La préparation du jeu au menu va maintenant jusqu'au bout : dans les versions publiées elle s'arrêtait en chemin, et les lieux, véhicules et objets n'étaient jamais prêts d'avance et figeaient le jeu à leur première apparition."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Au premier lancement ou après une mise à jour, le jeu ne gèle plus plusieurs secondes au menu pendant sa préparation."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Sur les PC peu puissants, le jeu ne gèle plus au menu jusqu'à ce que Windows le ferme : le décor animé du menu y est désactivé par défaut."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Les cartes GeForce GT d'entrée de gamme démarrent maintenant sur le préréglage graphique Bas."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "La borne de missions repropose une mission abandonnée ou expirée, au lieu d'annoncer que vous l'avez déjà."
-            },
-            {
-              "type": "fixed",
-              "area": "mining",
-              "text": "Les morceaux de rocher ne passent plus à travers le sol quand on coupe un rocher ou qu'on casse un front de mine : un morceau qui traverse est remis sur le sol, ou sur le sol de la mine."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Le jeu ne plante plus pendant la préparation du jeu au menu quand un village ou une ville ne peut pas être lu."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Les ombres projetées par les lampes (appartements, entrepôt, projecteurs, phares) ne disparaissent plus pour revenir quelques secondes plus tard."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611200651",
+          "date": "2026-11-20",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "A bug can be reported without leaving the game: F9 takes a capture and opens a form (title, severity, description, steps, actual and expected result), sent to the QA team with your build, your machine's configuration and the end of the game's log. It works in the menus too, and a line at the bottom right of the screen recalls the key."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "The truck has a new horn and the lift platforms a new running sound."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "The buttons of a lift's screen make a sound when pressed, heard by the players around."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Volcanoes are now heard: steam near the crater, a rumble and cracking rock that rise before an eruption, then blasts for as long as it lasts."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "A distant volcano is heard late, by the time its sound takes to travel, and more muffled the farther away it is."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "The ground shakes under your feet near an erupting volcano."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "The main menu appears a few seconds sooner at startup."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "A full ARES warehouse no longer takes what you bring outside a mission: its stock screen shows what it buys no more, its shelves and its storekeeper refuse the crate, and you keep it."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "The terrain features (biomes, roads, mountains, volcanoes) are streamed from the tile service instead of shipping a 1.4 GB file with the game."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Improved road layout in factory and mining towns: new roads, better curves, improved position of various visual elements."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The game's shaders now ship ready-made: the first launch and the first launch after an update no longer freeze several seconds at a time while they compile."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "A short press on the horn now honks; it only sounded while the key was held."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Teleporting while seated in a truck no longer freezes you: you travel with the truck and arrive in your seat."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Street lamps no longer stay lit in daylight after you come back to a village."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "The chart's right-click menu no longer stays on screen when you leave its tab, and the DataPad's tabs answer after a right click on the chart."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The game's preparation at the menu now finishes: in released builds it stopped partway, so places, vehicles and items were never ready ahead and froze the game when first met."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "On a first launch or after an update, the game no longer freezes for several seconds at the menu while it gets ready."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "On weak PCs, the game no longer freezes at the menu until Windows closes it: the live menu background is off by default there."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Entry-level GeForce GT cards now start on the Low graphics preset."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The mission terminal offers again a mission you abandoned or let expire, instead of saying you already have it."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "Rock pieces no longer fall through the ground when you cut a rock or break a mine face: one that goes through is put back on the ground, or on the floor of the mine."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "The game no longer crashes while preparing the game at the menu when a village or city cannot be read."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "The shadows cast by lamps (apartments, depot, floodlights, headlights) no longer vanish and come back every few seconds."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Un bug se signale sans quitter le jeu : F9 prend une capture et ouvre un formulaire (titre, sévérité, description, étapes, résultat obtenu et attendu), envoyé à l'équipe QA avec votre version, la configuration de votre machine et la fin du journal du jeu. Cela marche aussi dans les menus, et une ligne en bas à droite de l'écran rappelle la touche."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Le camion a un nouveau klaxon et les plateformes d'ascenseur un nouveau bruit de marche."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Les boutons de l'écran d'un ascenseur font un son quand on les presse, entendu par les joueurs autour."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Les volcans s'entendent désormais : de la vapeur près du cratère, un grondement et des craquements de roche qui montent avant une éruption, puis des explosions tant qu'elle dure."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Un volcan lointain s'entend en retard, le temps que son bruit arrive, et de plus en plus étouffé avec la distance."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Le sol tremble sous vos pieds près d'un volcan en éruption."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Le menu principal s'affiche quelques secondes plus tôt au démarrage."
+              },
+              {
+                "type": "changed",
+                "area": "economy",
+                "text": "Un entrepôt ARES plein ne prend plus ce que vous apportez hors mission : son écran de stock indique ce qu'il n'achète plus, ses étagères et son magasinier refusent la caisse, et vous la gardez."
+              },
+              {
+                "type": "changed",
+                "area": "planettech",
+                "text": "Les éléments du terrain (biomes, routes, montagnes, volcans) sont chargés à la demande depuis le serveur de tuiles au lieu d'un fichier de 1,4 Go livré avec le jeu."
+              },
+              {
+                "type": "changed",
+                "area": "buildings",
+                "text": "Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Les shaders du jeu sont maintenant livrés prêts à l'emploi : le premier lancement et le premier lancement après une mise à jour ne gèlent plus plusieurs secondes d'affilée pendant leur compilation."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Un appui bref sur le klaxon le fait sonner ; il ne sonnait que touche maintenue."
+              },
+              {
+                "type": "fixed",
+                "area": "vehicles",
+                "text": "Se téléporter assis dans un camion ne fige plus le joueur : on voyage avec le camion et on arrive à sa place."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Les lampadaires ne restent plus allumés en plein jour quand on revient dans un village."
+              },
+              {
+                "type": "fixed",
+                "area": "star-map",
+                "text": "Le menu du clic droit de la carte ne reste plus affiché quand on quitte son onglet, et les onglets du DataPad répondent après un clic droit sur la carte."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "La préparation du jeu au menu va maintenant jusqu'au bout : dans les versions publiées elle s'arrêtait en chemin, et les lieux, véhicules et objets n'étaient jamais prêts d'avance et figeaient le jeu à leur première apparition."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Au premier lancement ou après une mise à jour, le jeu ne gèle plus plusieurs secondes au menu pendant sa préparation."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Sur les PC peu puissants, le jeu ne gèle plus au menu jusqu'à ce que Windows le ferme : le décor animé du menu y est désactivé par défaut."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Les cartes GeForce GT d'entrée de gamme démarrent maintenant sur le préréglage graphique Bas."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "La borne de missions repropose une mission abandonnée ou expirée, au lieu d'annoncer que vous l'avez déjà."
+              },
+              {
+                "type": "fixed",
+                "area": "mining",
+                "text": "Les morceaux de rocher ne passent plus à travers le sol quand on coupe un rocher ou qu'on casse un front de mine : un morceau qui traverse est remis sur le sol, ou sur le sol de la mine."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Le jeu ne plante plus pendant la préparation du jeu au menu quand un village ou une ville ne peut pas être lu."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Les ombres projetées par les lampes (appartements, entrepôt, projecteurs, phares) ne disparaissent plus pour revenir quelques secondes plus tard."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611171930",
           "date": "2026-11-17",

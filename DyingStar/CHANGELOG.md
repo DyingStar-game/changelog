@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611200651] - 2026-11-20
+
 ### Added
 
 - **Interface**: A bug can be reported without leaving the game: F9 takes a capture and opens a form (title, severity, description, steps, actual and expected result), sent to the QA team with your build, your machine's configuration and the end of the game's log. It works in the menus too, and a line at the bottom right of the screen recalls the key.

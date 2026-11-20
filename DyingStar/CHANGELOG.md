@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Performance**: The game's shaders now ship ready-made: the first launch and the first launch after an update no longer freeze several seconds at a time while they compile.
 - **Vehicles**: A short press on the horn now honks; it only sounded while the key was held.
 - **Vehicles**: Teleporting while seated in a truck no longer freezes you: you travel with the truck and arrive in your seat.
 - **Buildings**: Street lamps no longer stay lit in daylight after you come back to a village.

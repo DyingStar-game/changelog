@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T23:18:28.885923+00:00",
+  "generated_at": "2026-11-20T06:40:46.879486+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -156,6 +156,11 @@
             },
             {
               "type": "fixed",
+              "area": "performance",
+              "text": "The game's shaders now ship ready-made: the first launch and the first launch after an update no longer freeze several seconds at a time while they compile."
+            },
+            {
+              "type": "fixed",
               "area": "vehicles",
               "text": "A short press on the horn now honks; it only sounded while the key was held."
             },
@@ -265,6 +270,11 @@
               "type": "changed",
               "area": "buildings",
               "text": "Amélioration des routes des villes et villages miniers: nouveaux tracés, courbes améliorées, ajustement de la position de certains éléments décoratifs."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Les shaders du jeu sont maintenant livrés prêts à l'emploi : le premier lancement et le premier lancement après une mise à jour ne gèlent plus plusieurs secondes d'affilée pendant leur compilation."
             },
             {
               "type": "fixed",

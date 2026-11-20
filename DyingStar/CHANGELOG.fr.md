@@ -25,6 +25,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Performances** : Les shaders du jeu sont maintenant livrés prêts à l'emploi : le premier lancement et le premier lancement après une mise à jour ne gèlent plus plusieurs secondes d'affilée pendant leur compilation.
 - **Véhicules** : Un appui bref sur le klaxon le fait sonner ; il ne sonnait que touche maintenue.
 - **Véhicules** : Se téléporter assis dans un camion ne fige plus le joueur : on voyage avec le camion et on arrive à sa place.
 - **Bâtiments** : Les lampadaires ne restent plus allumés en plein jour quand on revient dans un village.

@@ -7,6 +7,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Changed
+
+- **Interface** : Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre.
+
+### Fixed
+
+- **Serveur** : Un ordinateur lent n'affiche plus « l'objet parent n'est jamais arrivé du serveur » alors que le monde est encore en train de charger.
+
 ## [0.1.0-dev.202611200651] - 2026-11-20
 
 ### Added

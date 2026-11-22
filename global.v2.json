@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-20T07:07:34.461564+00:00",
+  "generated_at": "2026-11-22T10:46:29.504054+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,30 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "A slow computer no longer gets \"the parent object never arrived from the server\" while the world is still loading."
+            }
+          ],
+          "fr": [
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "server",
+              "text": "Un ordinateur lent n'affiche plus « l'objet parent n'est jamais arrivé du serveur » alors que le monde est encore en train de charger."
+            }
+          ]
         }
       },
       "releases": [

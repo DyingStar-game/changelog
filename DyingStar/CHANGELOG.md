@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Interface**: When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up.
+
+### Fixed
+
+- **Server**: A slow computer no longer gets "the parent object never arrived from the server" while the world is still loading.
+
 ## [0.1.0-dev.202611200651] - 2026-11-20
 
 ### Added

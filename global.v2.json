@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T10:47:33.529627+00:00",
+  "generated_at": "2026-11-22T10:48:35.106279+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -107,6 +107,11 @@
             {
               "type": "added",
               "area": "ui",
+              "text": "The main menu warns when the graphics driver is too old to run the game safely (NVIDIA), and gives a link to download the latest one."
+            },
+            {
+              "type": "added",
+              "area": "ui",
               "text": "The bug report form shows your coordinates in the world and on the planet, and sends them with the report."
             },
             {
@@ -136,6 +141,11 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Le menu principal prévient quand le pilote graphique est trop ancien pour faire tourner le jeu sans risque (NVIDIA), avec un lien pour télécharger le dernier."
+            },
             {
               "type": "added",
               "area": "ui",

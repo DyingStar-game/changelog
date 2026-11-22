@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Interface** : Le menu principal prévient quand le pilote graphique est trop ancien pour faire tourner le jeu sans risque (NVIDIA), avec un lien pour télécharger le dernier.
 - **Interface** : Le formulaire de rapport de bug affiche vos coordonnées dans le monde et sur la planète, et les envoie avec le rapport.
 - **Interface** : Un rapport de bug peut porter jusqu'à cinq captures : « Joindre une autre capture » vous laisse aller montrer autre chose, puis rappuyer sur la touche de rapport de bug.
 - **Interface** : « Continuer plus tard » garde le rapport de bug en cours de saisie ; la touche de rapport de bug le rouvre.

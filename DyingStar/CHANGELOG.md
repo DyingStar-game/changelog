@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Interface**: The main menu warns when the graphics driver is too old to run the game safely (NVIDIA), and gives a link to download the latest one.
 - **Interface**: The bug report form shows your coordinates in the world and on the planet, and sends them with the report.
 - **Interface**: A bug report can carry up to five captures: "Attach another capture" lets you go and show something else, then press the bug report key again.
 - **Interface**: "Continue later" keeps the bug report you were typing; the bug report key brings it back.

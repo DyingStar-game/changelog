@@ -9,6 +9,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **PlanetTech** : Les plateaux de corindon de Tarsis 3 ont leur propre sol selon la roche, avec des frontières douces entre zones, et des rochers de toutes tailles posés dessus, à l'écart des routes, des bâtiments et des villages.
+- **PlanetTech** : Les niveaux de détail du terrain se fondent maintenant les uns dans les autres au lieu d'apparaître d'un coup, et le terrain lointain est plus fin.
 - **Interface** : Dans le créateur de personnage, des boutons en bas à droite du personnage le font sourire, rire ou cligner de l'œil, ou lui donnent un air surpris, triste, en colère, dégoûté ou effrayé.
 - **Interface** : Dans le créateur de personnage, chaque ligne a un dé pour la tirer au hasard et un cadenas pour la garder lors des tirages ; un menu entier peut être verrouillé d'un coup.
 - **Interface** : Dans le créateur de personnage, un bouton « Varier » bouge un peu les curseurs du menu ouvert, et « Tout déverrouiller » libère toutes les lignes verrouillées.

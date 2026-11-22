@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **PlanetTech**: Tarsis 3's corundum plateaus have their own ground per rock, with soft frontiers between zones, and rocks of every size scattered over them, away from roads, buildings and villages.
+- **PlanetTech**: The terrain's levels of detail now ease into each other instead of popping, and the far terrain is finer.
 - **Interface**: In the character creator, buttons at the bottom right of the figure make the face smile, laugh, wink, look surprised, sad, angry, disgusted or afraid.
 - **Interface**: In the character creator, every line has a die to draw it again at random and a lock to keep it through random draws; a whole menu can be locked at once.
 - **Interface**: In the character creator, a "Vary" button moves the open menu's sliders a little, and "Unlock all" frees every locked line.

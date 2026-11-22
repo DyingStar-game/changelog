@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T20:57:42.552517+00:00",
+  "generated_at": "2026-11-22T21:50:32.050245+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -104,6 +104,16 @@
         "url": null,
         "entries": {
           "en": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Tarsis 3's corundum plateaus have their own ground per rock, with soft frontiers between zones, and rocks of every size scattered over them, away from roads, buildings and villages."
+            },
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "The terrain's levels of detail now ease into each other instead of popping, and the far terrain is finer."
+            },
             {
               "type": "added",
               "area": "ui",
@@ -291,6 +301,16 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Les plateaux de corindon de Tarsis 3 ont leur propre sol selon la roche, avec des frontières douces entre zones, et des rochers de toutes tailles posés dessus, à l'écart des routes, des bâtiments et des villages."
+            },
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Les niveaux de détail du terrain se fondent maintenant les uns dans les autres au lieu d'apparaître d'un coup, et le terrain lointain est plus fin."
+            },
             {
               "type": "added",
               "area": "ui",

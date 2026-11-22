@@ -9,6 +9,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Carte stellaire** : Les rues et les chemins à l'intérieur d'un village sont dessinés sur la carte.
+- **Graphismes** : Les lampadaires et les lampes d'intérieur projettent des ombres, jusqu'à une distance réglable dans les options graphiques.
 - **Interface** : Le menu principal prévient quand le pilote graphique est trop ancien pour faire tourner le jeu sans risque (NVIDIA), avec un lien pour télécharger le dernier.
 - **Interface** : Le formulaire de rapport de bug affiche vos coordonnées dans le monde et sur la planète, et les envoie avec le rapport.
 - **Interface** : Un rapport de bug peut porter jusqu'à cinq captures : « Joindre une autre capture » vous laisse aller montrer autre chose, puis rappuyer sur la touche de rapport de bug.
@@ -17,11 +19,20 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Carte stellaire** : Les routes, chemins, autoroutes et voies ferrées sont dessinés plus larges et plus foncés sur la carte, et les canyons suivent leurs virages sans accroc.
+- **Carte stellaire** : Les pentes qui descendent dans un canyon apparaissent sur la carte, plus pâles à mesure que le canyon est moins profond.
 - **Graphismes** : Le jeu tourne sur Godot 4.7.2.
 - **Interface** : Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre.
 
 ### Fixed
 
+- **Interface** : Le formulaire de rapport de bug a son curseur de souris quand il est ouvert depuis un lit.
+- **Interface** : Le bouton sélectionné d'un écran de service montre un anneau visible.
+- **Joueur** : Allongé, la lampe torche éclaire là où vous regardez.
+- **Bâtiments** : Une téléportation vers un village vous dépose devant sa cabine de téléportation, et plus dans le dépôt.
+- **Bâtiments** : Le distributeur de rations porte les couleurs d'ARES Living.
+- **Bâtiments** : Le compte à rebours d'un distributeur démarre à la bonne seconde, quelle que soit l'heure réglée sur votre ordinateur.
+- **PlanetTech** : La bande noire en travers du haut des pentes qui descendent dans un canyon a disparu.
 - **Bâtiments** : Les monte-véhicules se chargent de nouveau dans le jeu publié : leurs paliers ne se chargeaient pas.
 - **Graphismes** : Les lampes, projecteurs et phares projettent de nouveau l'ombre de ce qui bouge sous eux, dès que ça bouge.
 - **Serveur** : Un ordinateur lent n'affiche plus « l'objet parent n'est jamais arrivé du serveur » alors que le monde est encore en train de charger.

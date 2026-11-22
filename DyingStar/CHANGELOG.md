@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Star map**: The streets and paths inside a village are drawn on the map.
+- **Graphics**: Street lamps and room lights cast shadows, up to a distance you set in the graphics options.
 - **Interface**: The main menu warns when the graphics driver is too old to run the game safely (NVIDIA), and gives a link to download the latest one.
 - **Interface**: The bug report form shows your coordinates in the world and on the planet, and sends them with the report.
 - **Interface**: A bug report can carry up to five captures: "Attach another capture" lets you go and show something else, then press the bug report key again.
@@ -17,11 +19,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Star map**: Roads, paths, highways and railways are drawn wider and darker on the map, and the canyons follow their bends smoothly.
+- **Star map**: The slopes that lead down into a canyon show on the map, paler as the canyon gets shallower.
 - **Graphics**: The game runs on Godot 4.7.2.
 - **Interface**: When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up.
 
 ### Fixed
 
+- **Interface**: The bug report form has its mouse cursor when opened from a bed.
+- **Interface**: The focused button of a service screen shows a visible ring.
+- **Player**: Lying down, the torch points where you look.
+- **Buildings**: Teleporting to a village lands you in front of its teleporter cabin instead of inside the depot.
+- **Buildings**: The ration dispenser wears the colours of ARES Living.
+- **Buildings**: A dispenser's countdown starts at the right second, whatever the time your computer is set to.
+- **PlanetTech**: The black band across the top of the slopes that lead down into a canyon is gone.
 - **Buildings**: Vehicle lifts load again in the released game: their landings failed to load.
 - **Graphics**: Lamps, floodlights and headlights cast the shadows of what moves under them again, as soon as it moves.
 - **Server**: A slow computer no longer gets "the parent object never arrived from the server" while the world is still loading.

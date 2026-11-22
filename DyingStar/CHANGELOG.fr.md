@@ -35,6 +35,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Joueur** : Les cheveux à raie sur le côté ne tracent plus de fins traits en travers des joues.
 - **Joueur** : Un visage vu de près ne se fige plus un instant quand son apparence change, et garde son expression pendant qu'on bouge un curseur du créateur.
 - **Joueur** : Les visages africains ont une bouche moins large et des lèvres moins épaisses, plus proches de vrais visages.
 - **Joueur** : Les visages est-asiatiques ont des yeux plus grands et plus ouverts, plus proches de vrais visages.

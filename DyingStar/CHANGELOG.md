@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Player**: Hair parted on one side no longer draws thin lines across the cheeks.
 - **Player**: A face seen close up no longer goes still for a moment when its look changes, and keeps its expression while a creator slider is moved.
 - **Player**: African faces have a narrower mouth and thinner lips, closer to real faces.
 - **Player**: East Asian faces have wider, more open eyes, closer to real faces.

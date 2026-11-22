@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T20:55:52.281872+00:00",
+  "generated_at": "2026-11-22T20:57:42.552517+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -207,6 +207,11 @@
             {
               "type": "fixed",
               "area": "player",
+              "text": "Hair parted on one side no longer draws thin lines across the cheeks."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
               "text": "A face seen close up no longer goes still for a moment when its look changes, and keeps its expression while a creator slider is moved."
             },
             {
@@ -385,6 +390,11 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Les cheveux à raie sur le côté ne tracent plus de fins traits en travers des joues."
             },
             {
               "type": "fixed",

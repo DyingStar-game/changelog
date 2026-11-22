@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Interface**: In the character creator, every line has a die to draw it again at random and a lock to keep it through random draws; a whole menu can be locked at once.
+- **Interface**: In the character creator, a "Vary" button moves the open menu's sliders a little, and "Unlock all" frees every locked line.
+- **Controls**: In the character creator, R or the pad's X draws the selected line at random, L or the pad's Y locks it.
 - **Player**: Random characters now have faces modelled on real European, African and East Asian faces, by sex and age.
 - **Interface**: In the character creator, face sliders stop before the face stops looking human, depending on the other sliders already moved.
 - **Interface**: In the character creator, the "Thinness" body slider stops at 80 % of its travel.
@@ -22,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Interface**: In the character creator, random draws keep the character's sex and origin unless they draw them, and draw the face's detail sliders instead of resetting them.
 - **Player**: Random faces are more natural: no more pouting lips or doll's eyes.
 - **Star map**: Roads, paths, highways and railways are drawn wider and darker on the map, and the canyons follow their bends smoothly.
 - **Star map**: The slopes that lead down into a canyon show on the map, paler as the canyon gets shallower.

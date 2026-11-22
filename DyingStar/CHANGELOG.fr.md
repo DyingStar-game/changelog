@@ -9,6 +9,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Interface** : Dans le créateur de personnage, chaque ligne a un dé pour la tirer au hasard et un cadenas pour la garder lors des tirages ; un menu entier peut être verrouillé d'un coup.
+- **Interface** : Dans le créateur de personnage, un bouton « Varier » bouge un peu les curseurs du menu ouvert, et « Tout déverrouiller » libère toutes les lignes verrouillées.
+- **Commandes** : Dans le créateur de personnage, R ou X à la manette tire la ligne sélectionnée au hasard, L ou Y la verrouille.
 - **Joueur** : Les personnages tirés au hasard ont désormais des visages inspirés de vrais visages européens, africains et est-asiatiques, selon le sexe et l'âge.
 - **Interface** : Dans le créateur de personnage, les curseurs du visage s'arrêtent avant que le visage cesse de faire humain, selon les autres curseurs déjà bougés.
 - **Interface** : Dans le créateur de personnage, le curseur « Maigreur » du corps s'arrête à 80 % de sa course.
@@ -22,6 +25,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Interface** : Dans le créateur de personnage, les tirages gardent le sexe et l'origine du personnage sauf s'ils les tirent, et tirent les curseurs de détail du visage au lieu de les remettre à zéro.
 - **Joueur** : Les visages tirés au hasard sont plus naturels : fini les lèvres boudeuses et les yeux de poupée.
 - **Carte stellaire** : Les routes, chemins, autoroutes et voies ferrées sont dessinés plus larges et plus foncés sur la carte, et les canyons suivent leurs virages sans accroc.
 - **Carte stellaire** : Les pentes qui descendent dans un canyon apparaissent sur la carte, plus pâles à mesure que le canyon est moins profond.

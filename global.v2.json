@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T20:54:20.973372+00:00",
+  "generated_at": "2026-11-22T20:54:52.725588+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,21 @@
           "en": [
             {
               "type": "added",
+              "area": "ui",
+              "text": "In the character creator, every line has a die to draw it again at random and a lock to keep it through random draws; a whole menu can be locked at once."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "In the character creator, a \"Vary\" button moves the open menu's sliders a little, and \"Unlock all\" frees every locked line."
+            },
+            {
+              "type": "added",
+              "area": "controls",
+              "text": "In the character creator, R or the pad's X draws the selected line at random, L or the pad's Y locks it."
+            },
+            {
+              "type": "added",
               "area": "player",
               "text": "Random characters now have faces modelled on real European, African and East Asian faces, by sex and age."
             },
@@ -153,6 +168,11 @@
               "type": "added",
               "area": "ui",
               "text": "A bug report can be added to a bug already reported, found by a few words in the form."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "In the character creator, random draws keep the character's sex and origin unless they draw them, and draw the face's detail sliders instead of resetting them."
             },
             {
               "type": "changed",
@@ -258,6 +278,21 @@
           "fr": [
             {
               "type": "added",
+              "area": "ui",
+              "text": "Dans le créateur de personnage, chaque ligne a un dé pour la tirer au hasard et un cadenas pour la garder lors des tirages ; un menu entier peut être verrouillé d'un coup."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Dans le créateur de personnage, un bouton « Varier » bouge un peu les curseurs du menu ouvert, et « Tout déverrouiller » libère toutes les lignes verrouillées."
+            },
+            {
+              "type": "added",
+              "area": "controls",
+              "text": "Dans le créateur de personnage, R ou X à la manette tire la ligne sélectionnée au hasard, L ou Y la verrouille."
+            },
+            {
+              "type": "added",
               "area": "player",
               "text": "Les personnages tirés au hasard ont désormais des visages inspirés de vrais visages européens, africains et est-asiatiques, selon le sexe et l'âge."
             },
@@ -305,6 +340,11 @@
               "type": "added",
               "area": "ui",
               "text": "Un rapport de bug peut être ajouté à un bug déjà signalé, retrouvé par quelques mots dans le formulaire."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Dans le créateur de personnage, les tirages gardent le sexe et l'origine du personnage sauf s'ils les tirent, et tirent les curseurs de détail du visage au lieu de les remettre à zéro."
             },
             {
               "type": "changed",

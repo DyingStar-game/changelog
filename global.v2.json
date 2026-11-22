@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T20:37:13.618345+00:00",
+  "generated_at": "2026-11-22T20:54:20.973372+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -182,6 +182,21 @@
             {
               "type": "fixed",
               "area": "player",
+              "text": "African faces have a narrower mouth and thinner lips, closer to real faces."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "East Asian faces have wider, more open eyes, closer to real faces."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Random faces are slightly less wide and their nose better shaped, closer to real faces."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
               "text": "The back no longer looks broken at the lower back and under the neck on round or thin bodies."
             },
             {
@@ -315,6 +330,21 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Les visages africains ont une bouche moins large et des lèvres moins épaisses, plus proches de vrais visages."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Les visages est-asiatiques ont des yeux plus grands et plus ouverts, plus proches de vrais visages."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Les visages tirés au hasard sont un peu moins larges et leur nez mieux formé, plus proches de vrais visages."
             },
             {
               "type": "fixed",

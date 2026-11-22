@@ -30,6 +30,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Joueur** : Les visages africains ont une bouche moins large et des lèvres moins épaisses, plus proches de vrais visages.
+- **Joueur** : Les visages est-asiatiques ont des yeux plus grands et plus ouverts, plus proches de vrais visages.
+- **Joueur** : Les visages tirés au hasard sont un peu moins larges et leur nez mieux formé, plus proches de vrais visages.
 - **Joueur** : Le dos ne paraît plus cassé au bas du dos et sous la nuque sur les corps ronds ou minces.
 - **Joueur** : Les visages européens ont une bouche plus pleine et un nez moins pincé.
 - **Interface** : Le formulaire de rapport de bug a son curseur de souris quand il est ouvert depuis un lit.

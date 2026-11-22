@@ -30,6 +30,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Player**: African faces have a narrower mouth and thinner lips, closer to real faces.
+- **Player**: East Asian faces have wider, more open eyes, closer to real faces.
+- **Player**: Random faces are slightly less wide and their nose better shaped, closer to real faces.
 - **Player**: The back no longer looks broken at the lower back and under the neck on round or thin bodies.
 - **Player**: European faces have a fuller mouth and a less pinched nose.
 - **Interface**: The bug report form has its mouse cursor when opened from a bed.

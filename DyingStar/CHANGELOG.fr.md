@@ -9,6 +9,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Joueur** : Les personnages tirés au hasard ont désormais des visages inspirés de vrais visages européens, africains et est-asiatiques, selon le sexe et l'âge.
+- **Interface** : Dans le créateur de personnage, les curseurs du visage s'arrêtent avant que le visage cesse de faire humain, selon les autres curseurs déjà bougés.
+- **Interface** : Dans le créateur de personnage, le curseur « Maigreur » du corps s'arrête à 80 % de sa course.
 - **Carte stellaire** : Les rues et les chemins à l'intérieur d'un village sont dessinés sur la carte.
 - **Graphismes** : Les lampadaires et les lampes d'intérieur projettent des ombres, jusqu'à une distance réglable dans les options graphiques.
 - **Interface** : Le menu principal prévient quand le pilote graphique est trop ancien pour faire tourner le jeu sans risque (NVIDIA), avec un lien pour télécharger le dernier.
@@ -19,6 +22,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Joueur** : Les visages tirés au hasard sont plus naturels : fini les lèvres boudeuses et les yeux de poupée.
 - **Carte stellaire** : Les routes, chemins, autoroutes et voies ferrées sont dessinés plus larges et plus foncés sur la carte, et les canyons suivent leurs virages sans accroc.
 - **Carte stellaire** : Les pentes qui descendent dans un canyon apparaissent sur la carte, plus pâles à mesure que le canyon est moins profond.
 - **Graphismes** : Le jeu tourne sur Godot 4.7.2.
@@ -26,6 +30,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Joueur** : Le dos ne paraît plus cassé au bas du dos et sous la nuque sur les corps ronds ou minces.
+- **Joueur** : Les visages européens ont une bouche plus pleine et un nez moins pincé.
 - **Interface** : Le formulaire de rapport de bug a son curseur de souris quand il est ouvert depuis un lit.
 - **Interface** : Le bouton sélectionné d'un écran de service montre un anneau visible.
 - **Joueur** : Allongé, la lampe torche éclaire là où vous regardez.

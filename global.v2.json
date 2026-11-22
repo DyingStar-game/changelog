@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T20:31:49.241367+00:00",
+  "generated_at": "2026-11-22T20:37:13.618345+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,21 @@
           "en": [
             {
               "type": "added",
+              "area": "player",
+              "text": "Random characters now have faces modelled on real European, African and East Asian faces, by sex and age."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "In the character creator, face sliders stop before the face stops looking human, depending on the other sliders already moved."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "In the character creator, the \"Thinness\" body slider stops at 80 % of its travel."
+            },
+            {
+              "type": "added",
               "area": "star-map",
               "text": "The streets and paths inside a village are drawn on the map."
             },
@@ -141,6 +156,11 @@
             },
             {
               "type": "changed",
+              "area": "player",
+              "text": "Random faces are more natural: no more pouting lips or doll's eyes."
+            },
+            {
+              "type": "changed",
               "area": "star-map",
               "text": "Roads, paths, highways and railways are drawn wider and darker on the map, and the canyons follow their bends smoothly."
             },
@@ -158,6 +178,16 @@
               "type": "changed",
               "area": "ui",
               "text": "When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "The back no longer looks broken at the lower back and under the neck on round or thin bodies."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "European faces have a fuller mouth and a less pinched nose."
             },
             {
               "type": "fixed",
@@ -213,6 +243,21 @@
           "fr": [
             {
               "type": "added",
+              "area": "player",
+              "text": "Les personnages tirés au hasard ont désormais des visages inspirés de vrais visages européens, africains et est-asiatiques, selon le sexe et l'âge."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Dans le créateur de personnage, les curseurs du visage s'arrêtent avant que le visage cesse de faire humain, selon les autres curseurs déjà bougés."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Dans le créateur de personnage, le curseur « Maigreur » du corps s'arrête à 80 % de sa course."
+            },
+            {
+              "type": "added",
               "area": "star-map",
               "text": "Les rues et les chemins à l'intérieur d'un village sont dessinés sur la carte."
             },
@@ -248,6 +293,11 @@
             },
             {
               "type": "changed",
+              "area": "player",
+              "text": "Les visages tirés au hasard sont plus naturels : fini les lèvres boudeuses et les yeux de poupée."
+            },
+            {
+              "type": "changed",
               "area": "star-map",
               "text": "Les routes, chemins, autoroutes et voies ferrées sont dessinés plus larges et plus foncés sur la carte, et les canyons suivent leurs virages sans accroc."
             },
@@ -265,6 +315,16 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Le dos ne paraît plus cassé au bas du dos et sous la nuque sur les corps ronds ou minces."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Les visages européens ont une bouche plus pleine et un nez moins pincé."
             },
             {
               "type": "fixed",

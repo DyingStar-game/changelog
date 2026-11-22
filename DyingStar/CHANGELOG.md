@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Player**: Random characters now have faces modelled on real European, African and East Asian faces, by sex and age.
+- **Interface**: In the character creator, face sliders stop before the face stops looking human, depending on the other sliders already moved.
+- **Interface**: In the character creator, the "Thinness" body slider stops at 80 % of its travel.
 - **Star map**: The streets and paths inside a village are drawn on the map.
 - **Graphics**: Street lamps and room lights cast shadows, up to a distance you set in the graphics options.
 - **Interface**: The main menu warns when the graphics driver is too old to run the game safely (NVIDIA), and gives a link to download the latest one.
@@ -19,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Player**: Random faces are more natural: no more pouting lips or doll's eyes.
 - **Star map**: Roads, paths, highways and railways are drawn wider and darker on the map, and the canyons follow their bends smoothly.
 - **Star map**: The slopes that lead down into a canyon show on the map, paler as the canyon gets shallower.
 - **Graphics**: The game runs on Godot 4.7.2.
@@ -26,6 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Player**: The back no longer looks broken at the lower back and under the neck on round or thin bodies.
+- **Player**: European faces have a fuller mouth and a less pinched nose.
 - **Interface**: The bug report form has its mouse cursor when opened from a bed.
 - **Interface**: The focused button of a service screen shows a visible ring.
 - **Player**: Lying down, the torch points where you look.

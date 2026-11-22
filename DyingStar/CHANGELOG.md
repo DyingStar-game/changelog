@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Interface**: In the character creator, buttons at the bottom right of the figure make the face smile, laugh, wink, look surprised, sad, angry, disgusted or afraid.
 - **Interface**: In the character creator, every line has a die to draw it again at random and a lock to keep it through random draws; a whole menu can be locked at once.
 - **Interface**: In the character creator, a "Vary" button moves the open menu's sliders a little, and "Unlock all" frees every locked line.
 - **Controls**: In the character creator, R or the pad's X draws the selected line at random, L or the pad's Y locks it.
@@ -34,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Player**: A face seen close up no longer goes still for a moment when its look changes, and keeps its expression while a creator slider is moved.
 - **Player**: African faces have a narrower mouth and thinner lips, closer to real faces.
 - **Player**: East Asian faces have wider, more open eyes, closer to real faces.
 - **Player**: Random faces are slightly less wide and their nose better shaped, closer to real faces.

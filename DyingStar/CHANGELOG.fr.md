@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Interface** : Dans le créateur de personnage, des boutons en bas à droite du personnage le font sourire, rire ou cligner de l'œil, ou lui donnent un air surpris, triste, en colère, dégoûté ou effrayé.
 - **Interface** : Dans le créateur de personnage, chaque ligne a un dé pour la tirer au hasard et un cadenas pour la garder lors des tirages ; un menu entier peut être verrouillé d'un coup.
 - **Interface** : Dans le créateur de personnage, un bouton « Varier » bouge un peu les curseurs du menu ouvert, et « Tout déverrouiller » libère toutes les lignes verrouillées.
 - **Commandes** : Dans le créateur de personnage, R ou X à la manette tire la ligne sélectionnée au hasard, L ou Y la verrouille.
@@ -34,6 +35,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Joueur** : Un visage vu de près ne se fige plus un instant quand son apparence change, et garde son expression pendant qu'on bouge un curseur du créateur.
 - **Joueur** : Les visages africains ont une bouche moins large et des lèvres moins épaisses, plus proches de vrais visages.
 - **Joueur** : Les visages est-asiatiques ont des yeux plus grands et plus ouverts, plus proches de vrais visages.
 - **Joueur** : Les visages tirés au hasard sont un peu moins larges et leur nez mieux formé, plus proches de vrais visages.

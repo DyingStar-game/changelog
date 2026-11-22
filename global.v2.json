@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T20:54:52.725588+00:00",
+  "generated_at": "2026-11-22T20:55:52.281872+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -107,6 +107,11 @@
             {
               "type": "added",
               "area": "ui",
+              "text": "In the character creator, buttons at the bottom right of the figure make the face smile, laugh, wink, look surprised, sad, angry, disgusted or afraid."
+            },
+            {
+              "type": "added",
+              "area": "ui",
               "text": "In the character creator, every line has a die to draw it again at random and a lock to keep it through random draws; a whole menu can be locked at once."
             },
             {
@@ -202,6 +207,11 @@
             {
               "type": "fixed",
               "area": "player",
+              "text": "A face seen close up no longer goes still for a moment when its look changes, and keeps its expression while a creator slider is moved."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
               "text": "African faces have a narrower mouth and thinner lips, closer to real faces."
             },
             {
@@ -276,6 +286,11 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Dans le créateur de personnage, des boutons en bas à droite du personnage le font sourire, rire ou cligner de l'œil, ou lui donnent un air surpris, triste, en colère, dégoûté ou effrayé."
+            },
             {
               "type": "added",
               "area": "ui",
@@ -370,6 +385,11 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "player",
+              "text": "Un visage vu de près ne se fige plus un instant quand son apparence change, et garde son expression pendant qu'on bouge un curseur du créateur."
             },
             {
               "type": "fixed",

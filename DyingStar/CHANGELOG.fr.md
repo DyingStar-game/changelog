@@ -17,10 +17,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Graphismes** : Le jeu tourne sur Godot 4.7.2.
 - **Interface** : Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre.
 
 ### Fixed
 
+- **Graphismes** : Les lampes, projecteurs et phares projettent de nouveau l'ombre de ce qui bouge sous eux, dès que ça bouge.
 - **Serveur** : Un ordinateur lent n'affiche plus « l'objet parent n'est jamais arrivé du serveur » alors que le monde est encore en train de charger.
 
 ## [0.1.0-dev.202611200651] - 2026-11-20

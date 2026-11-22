@@ -17,10 +17,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Graphics**: The game runs on Godot 4.7.2.
 - **Interface**: When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up.
 
 ### Fixed
 
+- **Graphics**: Lamps, floodlights and headlights cast the shadows of what moves under them again, as soon as it moves.
 - **Server**: A slow computer no longer gets "the parent object never arrived from the server" while the world is still loading.
 
 ## [0.1.0-dev.202611200651] - 2026-11-20

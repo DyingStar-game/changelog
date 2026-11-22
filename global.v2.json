@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T10:48:35.106279+00:00",
+  "generated_at": "2026-11-22T20:14:44.494108+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -131,8 +131,18 @@
             },
             {
               "type": "changed",
+              "area": "graphics",
+              "text": "The game runs on Godot 4.7.2."
+            },
+            {
+              "type": "changed",
               "area": "ui",
               "text": "When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Lamps, floodlights and headlights cast the shadows of what moves under them again, as soon as it moves."
             },
             {
               "type": "fixed",
@@ -168,8 +178,18 @@
             },
             {
               "type": "changed",
+              "area": "graphics",
+              "text": "Le jeu tourne sur Godot 4.7.2."
+            },
+            {
+              "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Les lampes, projecteurs et phares projettent de nouveau l'ombre de ce qui bouge sous eux, dès que ça bouge."
             },
             {
               "type": "fixed",

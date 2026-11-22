@@ -22,6 +22,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Bâtiments** : Les monte-véhicules se chargent de nouveau dans le jeu publié : leurs paliers ne se chargeaient pas.
 - **Graphismes** : Les lampes, projecteurs et phares projettent de nouveau l'ombre de ce qui bouge sous eux, dès que ça bouge.
 - **Serveur** : Un ordinateur lent n'affiche plus « l'objet parent n'est jamais arrivé du serveur » alors que le monde est encore en train de charger.
 

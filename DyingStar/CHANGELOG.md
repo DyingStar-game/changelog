@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Buildings**: Vehicle lifts load again in the released game: their landings failed to load.
 - **Graphics**: Lamps, floodlights and headlights cast the shadows of what moves under them again, as soon as it moves.
 - **Server**: A slow computer no longer gets "the parent object never arrived from the server" while the world is still loading.
 

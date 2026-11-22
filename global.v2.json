@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T20:14:44.494108+00:00",
+  "generated_at": "2026-11-22T20:26:19.077883+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -141,6 +141,11 @@
             },
             {
               "type": "fixed",
+              "area": "buildings",
+              "text": "Vehicle lifts load again in the released game: their landings failed to load."
+            },
+            {
+              "type": "fixed",
               "area": "graphics",
               "text": "Lamps, floodlights and headlights cast the shadows of what moves under them again, as soon as it moves."
             },
@@ -185,6 +190,11 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "buildings",
+              "text": "Les monte-véhicules se chargent de nouveau dans le jeu publié : leurs paliers ne se chargeaient pas."
             },
             {
               "type": "fixed",

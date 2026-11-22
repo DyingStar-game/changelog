@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Interface**: The bug report form shows your coordinates in the world and on the planet, and sends them with the report.
+- **Interface**: A bug report can carry up to five captures: "Attach another capture" lets you go and show something else, then press the bug report key again.
+- **Interface**: "Continue later" keeps the bug report you were typing; the bug report key brings it back.
+- **Interface**: A bug report can be added to a bug already reported, found by a few words in the form.
+
 ### Changed
 
 - **Interface**: When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up.

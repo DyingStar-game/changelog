@@ -7,6 +7,13 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Interface** : Le formulaire de rapport de bug affiche vos coordonnées dans le monde et sur la planète, et les envoie avec le rapport.
+- **Interface** : Un rapport de bug peut porter jusqu'à cinq captures : « Joindre une autre capture » vous laisse aller montrer autre chose, puis rappuyer sur la touche de rapport de bug.
+- **Interface** : « Continuer plus tard » garde le rapport de bug en cours de saisie ; la touche de rapport de bug le rouvre.
+- **Interface** : Un rapport de bug peut être ajouté à un bug déjà signalé, retrouvé par quelques mots dans le formulaire.
+
 ### Changed
 
 - **Interface** : Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre.

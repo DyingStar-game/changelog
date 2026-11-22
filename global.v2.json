@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T10:46:29.504054+00:00",
+  "generated_at": "2026-11-22T10:47:33.529627+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -105,6 +105,26 @@
         "entries": {
           "en": [
             {
+              "type": "added",
+              "area": "ui",
+              "text": "The bug report form shows your coordinates in the world and on the planet, and sends them with the report."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "A bug report can carry up to five captures: \"Attach another capture\" lets you go and show something else, then press the bug report key again."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "\"Continue later\" keeps the bug report you were typing; the bug report key brings it back."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "A bug report can be added to a bug already reported, found by a few words in the form."
+            },
+            {
               "type": "changed",
               "area": "ui",
               "text": "When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up."
@@ -116,6 +136,26 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Le formulaire de rapport de bug affiche vos coordonnées dans le monde et sur la planète, et les envoie avec le rapport."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Un rapport de bug peut porter jusqu'à cinq captures : « Joindre une autre capture » vous laisse aller montrer autre chose, puis rappuyer sur la touche de rapport de bug."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "« Continuer plus tard » garde le rapport de bug en cours de saisie ; la touche de rapport de bug le rouvre."
+            },
+            {
+              "type": "added",
+              "area": "ui",
+              "text": "Un rapport de bug peut être ajouté à un bug déjà signalé, retrouvé par quelques mots dans le formulaire."
+            },
             {
               "type": "changed",
               "area": "ui",

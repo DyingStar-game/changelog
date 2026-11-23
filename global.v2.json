@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T21:50:32.050245+00:00",
+  "generated_at": "2026-11-23T20:54:27.787231+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -183,6 +183,11 @@
               "type": "added",
               "area": "ui",
               "text": "A bug report can be added to a bug already reported, found by a few words in the form."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Terrain near biome zone edges is built faster, on the clients and on the server."
             },
             {
               "type": "changed",
@@ -380,6 +385,11 @@
               "type": "added",
               "area": "ui",
               "text": "Un rapport de bug peut être ajouté à un bug déjà signalé, retrouvé par quelques mots dans le formulaire."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Le terrain près des bords des zones de biome se construit plus vite, sur les clients comme sur le serveur."
             },
             {
               "type": "changed",

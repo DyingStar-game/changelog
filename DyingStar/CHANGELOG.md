@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Performance**: Terrain near biome zone edges is built faster, on the clients and on the server.
 - **Interface**: In the character creator, random draws keep the character's sex and origin unless they draw them, and draw the face's detail sliders instead of resetting them.
 - **Player**: Random faces are more natural: no more pouting lips or doll's eyes.
 - **Star map**: Roads, paths, highways and railways are drawn wider and darker on the map, and the canyons follow their bends smoothly.

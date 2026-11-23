@@ -28,6 +28,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Performances** : Le terrain près des bords des zones de biome se construit plus vite, sur les clients comme sur le serveur.
 - **Interface** : Dans le créateur de personnage, les tirages gardent le sexe et l'origine du personnage sauf s'ils les tirent, et tirent les curseurs de détail du visage au lieu de les remettre à zéro.
 - **Joueur** : Les visages tirés au hasard sont plus naturels : fini les lèvres boudeuses et les yeux de poupée.
 - **Carte stellaire** : Les routes, chemins, autoroutes et voies ferrées sont dessinés plus larges et plus foncés sur la carte, et les canyons suivent leurs virages sans accroc.

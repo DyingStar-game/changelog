@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T20:54:27.787231+00:00",
+  "generated_at": "2026-11-23T20:54:53.014466+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -104,6 +104,16 @@
         "url": null,
         "entries": {
           "en": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Tarsis 3 has weather: winds by latitude, pressure systems and dust storms sent by the weather service, the same for every player."
+            },
+            {
+              "type": "added",
+              "area": "graphics",
+              "text": "Dust devils and dust walls on Tarsis 3, following the weather: walls fall from the cliffs in the evening and run with the wind."
+            },
             {
               "type": "added",
               "area": "planettech",
@@ -306,6 +316,16 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Tarsis 3 a une météo : vents selon la latitude, dépressions, anticyclones et tempêtes de poussière envoyés par le service météo, les mêmes pour tous les joueurs."
+            },
+            {
+              "type": "added",
+              "area": "graphics",
+              "text": "Tourbillons et murs de poussière sur Tarsis 3, qui suivent la météo : les murs tombent des falaises le soir et courent avec le vent."
+            },
             {
               "type": "added",
               "area": "planettech",

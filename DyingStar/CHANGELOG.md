@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **PlanetTech**: Tarsis 3 has weather: winds by latitude, pressure systems and dust storms sent by the weather service, the same for every player.
+- **Graphics**: Dust devils and dust walls on Tarsis 3, following the weather: walls fall from the cliffs in the evening and run with the wind.
 - **PlanetTech**: Tarsis 3's corundum plateaus have their own ground per rock, with soft frontiers between zones, and rocks of every size scattered over them, away from roads, buildings and villages.
 - **PlanetTech**: The terrain's levels of detail now ease into each other instead of popping, and the far terrain is finer.
 - **Interface**: In the character creator, buttons at the bottom right of the figure make the face smile, laugh, wink, look surprised, sad, angry, disgusted or afraid.

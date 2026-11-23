@@ -9,6 +9,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **PlanetTech** : Tarsis 3 a une météo : vents selon la latitude, dépressions, anticyclones et tempêtes de poussière envoyés par le service météo, les mêmes pour tous les joueurs.
+- **Graphismes** : Tourbillons et murs de poussière sur Tarsis 3, qui suivent la météo : les murs tombent des falaises le soir et courent avec le vent.
 - **PlanetTech** : Les plateaux de corindon de Tarsis 3 ont leur propre sol selon la roche, avec des frontières douces entre zones, et des rochers de toutes tailles posés dessus, à l'écart des routes, des bâtiments et des villages.
 - **PlanetTech** : Les niveaux de détail du terrain se fondent maintenant les uns dans les autres au lieu d'apparaître d'un coup, et le terrain lointain est plus fin.
 - **Interface** : Dans le créateur de personnage, des boutons en bas à droite du personnage le font sourire, rire ou cligner de l'œil, ou lui donnent un air surpris, triste, en colère, dégoûté ou effrayé.

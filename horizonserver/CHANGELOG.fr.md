@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Maillage de serveurs** : Les serveurs de jeu démarrent désormais automatiquement quand l'affluence augmente et s'arrêtent quand elle retombe.
+
 ## [0.1.0-dev.202611161604] - 2026-11-16
 
 ### Added

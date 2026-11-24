@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T10:54:52.845425+00:00",
+  "generated_at": "2026-11-24T16:05:24.827708+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -9960,8 +9960,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "mesh",
+              "text": "Game servers are now started automatically when the crowd grows and stopped when it leaves."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "mesh",
+              "text": "Les serveurs de jeu démarrent désormais automatiquement quand l'affluence augmente et s'arrêtent quand elle retombe."
+            }
+          ]
         }
       },
       "releases": [

@@ -43,6 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Performance**: Towns no longer pay an extra few milliseconds every four seconds to keep the lamps' shadows in place.
 - **Performance**: The game no longer stays frozen when quitting after visiting a village.
 - **Graphics**: The ground of a planet keeps its look on the parts built while you were still far from it.
 - **Graphics**: The ground around the mining village's mine no longer shows patches of a plain old texture.

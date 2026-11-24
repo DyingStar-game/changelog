@@ -43,6 +43,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Performances** : Les villes ne paient plus quelques millisecondes de plus toutes les quatre secondes pour garder les ombres des lampes en place.
 - **Performances** : Le jeu ne reste plus figé en quittant après être passé dans un village.
 - **Graphismes** : Le sol d'une planète garde son aspect sur les parties construites quand on en était encore loin.
 - **Graphismes** : Le sol autour de la mine du village minier ne montre plus de plaques d'une ancienne texture unie.

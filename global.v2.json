@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T16:11:50.293630+00:00",
+  "generated_at": "2026-11-24T19:23:30.067932+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -247,6 +247,11 @@
             {
               "type": "fixed",
               "area": "performance",
+              "text": "Towns no longer pay an extra few milliseconds every four seconds to keep the lamps' shadows in place."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
               "text": "The game no longer stays frozen when quitting after visiting a village."
             },
             {
@@ -485,6 +490,11 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Les villes ne paient plus quelques millisecondes de plus toutes les quatre secondes pour garder les ombres des lampes en place."
             },
             {
               "type": "fixed",

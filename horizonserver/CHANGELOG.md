@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611241605] - 2026-11-24
+
 ### Added
 
 - **Server meshing**: Game servers are now started automatically when the crowd grows and stopped when it leaves.

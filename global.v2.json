@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T20:54:53.014466+00:00",
+  "generated_at": "2026-11-24T10:54:52.845425+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -197,6 +197,21 @@
             {
               "type": "changed",
               "area": "performance",
+              "text": "Joining the game freezes far less long when the planet and your character appear."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Better framerate and much less CPU use in the mining village; the rocks around it appear sooner."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "The whole corundum plateau of Tarsis 3 has the cracked rock ground laid in hex tiles, its stones and cracks visible in full sun too."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
               "text": "Terrain near biome zone edges is built faster, on the clients and on the server."
             },
             {
@@ -228,6 +243,21 @@
               "type": "changed",
               "area": "ui",
               "text": "When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "The game no longer stays frozen when quitting after visiting a village."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "The ground of a planet keeps its look on the parts built while you were still far from it."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "The ground around the mining village's mine no longer shows patches of a plain old texture."
             },
             {
               "type": "fixed",
@@ -409,6 +439,21 @@
             {
               "type": "changed",
               "area": "performance",
+              "text": "Rejoindre la partie fige beaucoup moins longtemps à l'apparition de la planète et de son personnage."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Meilleur framerate et bien moins de CPU utilisé dans le village minier ; les rochers alentour apparaissent plus tôt."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "Tout le plateau de corindon de Tarsis 3 a le sol de roche craquelée posé en hex-tiles, ses pierres et ses fissures visibles aussi en plein soleil."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
               "text": "Le terrain près des bords des zones de biome se construit plus vite, sur les clients comme sur le serveur."
             },
             {
@@ -440,6 +485,21 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "performance",
+              "text": "Le jeu ne reste plus figé en quittant après être passé dans un village."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Le sol d'une planète garde son aspect sur les parties construites quand on en était encore loin."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Le sol autour de la mine du village minier ne montre plus de plaques d'une ancienne texture unie."
             },
             {
               "type": "fixed",

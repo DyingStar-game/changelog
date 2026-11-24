@@ -30,6 +30,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Performance**: Joining the game freezes far less long when the planet and your character appear.
+- **Performance**: Better framerate and much less CPU use in the mining village; the rocks around it appear sooner.
+- **Graphics**: The whole corundum plateau of Tarsis 3 has the cracked rock ground laid in hex tiles, its stones and cracks visible in full sun too.
 - **Performance**: Terrain near biome zone edges is built faster, on the clients and on the server.
 - **Interface**: In the character creator, random draws keep the character's sex and origin unless they draw them, and draw the face's detail sliders instead of resetting them.
 - **Player**: Random faces are more natural: no more pouting lips or doll's eyes.
@@ -40,6 +43,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Performance**: The game no longer stays frozen when quitting after visiting a village.
+- **Graphics**: The ground of a planet keeps its look on the parts built while you were still far from it.
+- **Graphics**: The ground around the mining village's mine no longer shows patches of a plain old texture.
 - **Player**: Hair parted on one side no longer draws thin lines across the cheeks.
 - **Player**: A face seen close up no longer goes still for a moment when its look changes, and keeps its expression while a creator slider is moved.
 - **Player**: African faces have a narrower mouth and thinner lips, closer to real faces.

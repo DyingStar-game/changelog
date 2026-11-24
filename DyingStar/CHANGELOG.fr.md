@@ -30,6 +30,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Performances** : Rejoindre la partie fige beaucoup moins longtemps à l'apparition de la planète et de son personnage.
+- **Performances** : Meilleur framerate et bien moins de CPU utilisé dans le village minier ; les rochers alentour apparaissent plus tôt.
+- **Graphismes** : Tout le plateau de corindon de Tarsis 3 a le sol de roche craquelée posé en hex-tiles, ses pierres et ses fissures visibles aussi en plein soleil.
 - **Performances** : Le terrain près des bords des zones de biome se construit plus vite, sur les clients comme sur le serveur.
 - **Interface** : Dans le créateur de personnage, les tirages gardent le sexe et l'origine du personnage sauf s'ils les tirent, et tirent les curseurs de détail du visage au lieu de les remettre à zéro.
 - **Joueur** : Les visages tirés au hasard sont plus naturels : fini les lèvres boudeuses et les yeux de poupée.
@@ -40,6 +43,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Performances** : Le jeu ne reste plus figé en quittant après être passé dans un village.
+- **Graphismes** : Le sol d'une planète garde son aspect sur les parties construites quand on en était encore loin.
+- **Graphismes** : Le sol autour de la mine du village minier ne montre plus de plaques d'une ancienne texture unie.
 - **Joueur** : Les cheveux à raie sur le côté ne tracent plus de fins traits en travers des joues.
 - **Joueur** : Un visage vu de près ne se fige plus un instant quand son apparence change, et garde son expression pendant qu'on bouge un curseur du créateur.
 - **Joueur** : Les visages africains ont une bouche moins large et des lèvres moins épaisses, plus proches de vrais visages.

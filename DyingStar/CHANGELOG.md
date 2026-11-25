@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Interface**: In the bug report, a bug already fixed for the next build shows with a blue square.
 - **Performance**: Joining the game freezes far less long when the planet and your character appear.
 - **Performance**: Better framerate and much less CPU use in the mining village; the rocks around it appear sooner.
 - **Graphics**: The whole corundum plateau of Tarsis 3 has the cracked rock ground laid in hex tiles, its stones and cracks visible in full sun too.

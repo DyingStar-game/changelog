@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T20:06:13.501218+00:00",
+  "generated_at": "2026-11-25T20:08:59.319718+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -198,6 +198,11 @@
               "type": "added",
               "area": "ui",
               "text": "A bug report can be added to a bug already reported, found by a few words in the form."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "In the bug report, a bug already fixed for the next build shows with a blue square."
             },
             {
               "type": "changed",
@@ -450,6 +455,11 @@
               "type": "added",
               "area": "ui",
               "text": "Un rapport de bug peut être ajouté à un bug déjà signalé, retrouvé par quelques mots dans le formulaire."
+            },
+            {
+              "type": "changed",
+              "area": "ui",
+              "text": "Dans le rapport de bug, un bug déjà corrigé pour le prochain build s'affiche avec un carré bleu."
             },
             {
               "type": "changed",

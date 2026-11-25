@@ -31,6 +31,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Interface** : Dans le rapport de bug, un bug déjà corrigé pour le prochain build s'affiche avec un carré bleu.
 - **Performances** : Rejoindre la partie fige beaucoup moins longtemps à l'apparition de la planète et de son personnage.
 - **Performances** : Meilleur framerate et bien moins de CPU utilisé dans le village minier ; les rochers alentour apparaissent plus tôt.
 - **Graphismes** : Tout le plateau de corindon de Tarsis 3 a le sol de roche craquelée posé en hex-tiles, ses pierres et ses fissures visibles aussi en plein soleil.

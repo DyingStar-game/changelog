@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T19:23:30.067932+00:00",
+  "generated_at": "2026-11-25T20:06:13.501218+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -104,6 +104,11 @@
         "url": null,
         "entries": {
           "en": [
+            {
+              "type": "added",
+              "area": "weather",
+              "text": "A debug option shows the weather where you stand (wind in m/s and km/h, temperature, pressure, dust) and a compass with the wind's arrow."
+            },
             {
               "type": "added",
               "area": "planettech",
@@ -351,6 +356,11 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "weather",
+              "text": "Une option de débogage affiche la météo là où l'on se trouve (vent en m/s et km/h, température, pression, poussière) et une boussole avec la flèche du vent."
+            },
             {
               "type": "added",
               "area": "planettech",

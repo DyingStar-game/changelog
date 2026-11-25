@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Weather**: A debug option shows the weather where you stand (wind in m/s and km/h, temperature, pressure, dust) and a compass with the wind's arrow.
 - **PlanetTech**: Tarsis 3 has weather: winds by latitude, pressure systems and dust storms sent by the weather service, the same for every player.
 - **Graphics**: Dust devils and dust walls on Tarsis 3, following the weather: walls fall from the cliffs in the evening and run with the wind.
 - **PlanetTech**: Tarsis 3's corundum plateaus have their own ground per rock, with soft frontiers between zones, and rocks of every size scattered over them, away from roads, buildings and villages.

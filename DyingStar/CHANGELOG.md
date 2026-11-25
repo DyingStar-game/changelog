@@ -59,6 +59,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Server**: NPCs that cannot reach their destination walk as close to it as they can instead of standing still.
 - **Graphics**: At night, a volcano's plume no longer shows as a grey cloud lit by a sun that has set: its top is dark and only the lava lights it from below.
 - **Weather**: The band of wind-blown dust on the horizon no longer swells and shrinks on its own, and no longer glows at night.
 - **Performance**: Towns no longer pay an extra few milliseconds every four seconds to keep the lamps' shadows in place.

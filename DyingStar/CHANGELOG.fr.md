@@ -59,6 +59,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Serveur** : Les PNJ qui ne peuvent pas atteindre leur destination s'en approchent au plus près au lieu de rester immobiles.
 - **Graphismes** : La nuit, le panache d'un volcan n'apparaît plus comme un nuage gris éclairé par un soleil couché : son sommet est sombre et seule la lave l'éclaire par en dessous.
 - **Météo** : La bande de poussière soulevée par le vent à l'horizon ne grossit plus et ne se résorbe plus toute seule, et ne luit plus la nuit.
 - **Performances** : Les villes ne paient plus quelques millisecondes de plus toutes les quatre secondes pour garder les ombres des lampes en place.

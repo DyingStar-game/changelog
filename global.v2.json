@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T20:15:56.736966+00:00",
+  "generated_at": "2026-11-25T20:16:32.820740+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -104,6 +104,16 @@
         "url": null,
         "entries": {
           "en": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "The large scattered rocks of a planet are now solid: players and vehicles bump into them instead of driving through."
+            },
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "A debug option shows the rocks that collide as cyan boxes, with how many stand around you."
+            },
             {
               "type": "added",
               "area": "ui",
@@ -416,6 +426,16 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Les gros rochers éparpillés sur une planète sont maintenant solides : joueurs et véhicules les heurtent au lieu de passer au travers."
+            },
+            {
+              "type": "added",
+              "area": "planettech",
+              "text": "Une option de débogage montre en boîtes cyan les rochers qui ont une collision, avec leur nombre autour de vous."
+            },
             {
               "type": "added",
               "area": "ui",

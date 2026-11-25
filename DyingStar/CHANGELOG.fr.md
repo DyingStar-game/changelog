@@ -9,6 +9,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **PlanetTech** : Les gros rochers éparpillés sur une planète sont maintenant solides : joueurs et véhicules les heurtent au lieu de passer au travers.
+- **PlanetTech** : Une option de débogage montre en boîtes cyan les rochers qui ont une collision, avec leur nombre autour de vous.
 - **Interface** : Un nouveau réglage coupe les effets de secousse et de flou (séismes, ondes de choc) pour les joueurs sensibles au mal des transports.
 - **Météo** : Une option de débogage affiche la météo là où l'on se trouve (vent en m/s et km/h, température, pression, poussière) et une boussole avec la flèche du vent.
 - **PlanetTech** : Tarsis 3 a une météo : vents selon la latitude, dépressions, anticyclones et tempêtes de poussière envoyés par le service météo, les mêmes pour tous les joueurs.

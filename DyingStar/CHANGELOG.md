@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **PlanetTech**: The large scattered rocks of a planet are now solid: players and vehicles bump into them instead of driving through.
+- **PlanetTech**: A debug option shows the rocks that collide as cyan boxes, with how many stand around you.
 - **Interface**: A new setting turns off the shake and blur effects (earthquakes, shock waves) for players prone to motion sickness.
 - **Weather**: A debug option shows the weather where you stand (wind in m/s and km/h, temperature, pressure, dust) and a compass with the wind's arrow.
 - **PlanetTech**: Tarsis 3 has weather: winds by latitude, pressure systems and dust storms sent by the weather service, the same for every player.

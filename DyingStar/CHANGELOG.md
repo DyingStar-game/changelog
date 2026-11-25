@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Weather**: With the weather debug option on, the planet map shows the weather: isobars, wind arrows, highs and lows, and the weather under the cursor.
 - **PlanetTech**: The large scattered rocks of a planet are now solid: players and vehicles bump into them instead of driving through.
 - **PlanetTech**: A debug option shows the rocks that collide as cyan boxes, with how many stand around you.
 - **PlanetTech**: The large scattered rocks of a planet are now solid: players and vehicles bump into them instead of driving through.

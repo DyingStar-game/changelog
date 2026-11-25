@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T20:17:00.935972+00:00",
+  "generated_at": "2026-11-25T20:17:23.083796+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -104,6 +104,11 @@
         "url": null,
         "entries": {
           "en": [
+            {
+              "type": "added",
+              "area": "weather",
+              "text": "With the weather debug option on, the planet map shows the weather: isobars, wind arrows, highs and lows, and the weather under the cursor."
+            },
             {
               "type": "added",
               "area": "planettech",
@@ -436,6 +441,11 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "weather",
+              "text": "Avec l'option de débogage de la météo, la carte des planètes montre la météo : isobares, flèches de vent, dépressions et anticyclones, et la météo sous le curseur."
+            },
             {
               "type": "added",
               "area": "planettech",

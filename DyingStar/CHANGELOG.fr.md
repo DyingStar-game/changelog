@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Météo** : Avec l'option de débogage de la météo, la carte des planètes montre la météo : isobares, flèches de vent, dépressions et anticyclones, et la météo sous le curseur.
 - **PlanetTech** : Les gros rochers éparpillés sur une planète sont maintenant solides : joueurs et véhicules les heurtent au lieu de passer au travers.
 - **PlanetTech** : Une option de débogage montre en boîtes cyan les rochers qui ont une collision, avec leur nombre autour de vous.
 - **PlanetTech** : Les gros rochers éparpillés sur une planète sont maintenant solides : joueurs et véhicules les heurtent au lieu de passer au travers.

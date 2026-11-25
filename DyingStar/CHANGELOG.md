@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Interface**: A new setting turns off the shake and blur effects (earthquakes, shock waves) for players prone to motion sickness.
 - **Weather**: A debug option shows the weather where you stand (wind in m/s and km/h, temperature, pressure, dust) and a compass with the wind's arrow.
 - **PlanetTech**: Tarsis 3 has weather: winds by latitude, pressure systems and dust storms sent by the weather service, the same for every player.
 - **Graphics**: Dust devils and dust walls on Tarsis 3, following the weather: walls fall from the cliffs in the evening and run with the wind.
@@ -31,6 +32,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Graphics**: An erupting volcano now lights its flanks and the ground around it in orange, glows at its vent, sends incandescent flows down its slopes and throws brighter lava bombs.
+- **Graphics**: By moonlight, a volcano's plume now catches the light of the moons like the landscape, and its edge stays smooth from far away.
+- **Audio**: Strong eruptions now shake the ground with short earthquakes felt up to about twenty kilometres, and the shock wave of each explosion jolts the view as its sound arrives.
+- **Audio**: A far explosion now sounds like the dull thump of its shock wave, deeper and fainter with distance, and an earthquake rumbles under your feet.
+- **Audio**: Lava bombs and stones are now heard crashing, bouncing and rolling around you, and ash and lapilli patter down when you stand under an erupting plume.
+- **Graphics**: Under an erupting plume, ash and lapilli are now seen falling around you, carried by the wind.
+- **Graphics**: Every volcanic explosion now lights up the vent, the whole lower plume and the slopes for kilometres in a white flash turning to a red glow, seen before its sound arrives.
+- **Graphics**: The shock wave of a nearby explosion now jolts the view and ripples across the screen as it arrives.
 - **Interface**: In the bug report, a bug already fixed for the next build shows with a blue square.
 - **Performance**: Joining the game freezes far less long when the planet and your character appear.
 - **Performance**: Better framerate and much less CPU use in the mining village; the rocks around it appear sooner.
@@ -45,6 +54,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Graphics**: At night, a volcano's plume no longer shows as a grey cloud lit by a sun that has set: its top is dark and only the lava lights it from below.
 - **Weather**: The band of wind-blown dust on the horizon no longer swells and shrinks on its own, and no longer glows at night.
 - **Performance**: Towns no longer pay an extra few milliseconds every four seconds to keep the lamps' shadows in place.
 - **Performance**: The game no longer stays frozen when quitting after visiting a village.

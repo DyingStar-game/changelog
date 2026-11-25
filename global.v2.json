@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T20:14:23.022503+00:00",
+  "generated_at": "2026-11-25T20:15:56.736966+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -106,6 +106,11 @@
           "en": [
             {
               "type": "added",
+              "area": "ui",
+              "text": "A new setting turns off the shake and blur effects (earthquakes, shock waves) for players prone to motion sickness."
+            },
+            {
+              "type": "added",
               "area": "weather",
               "text": "A debug option shows the weather where you stand (wind in m/s and km/h, temperature, pressure, dust) and a compass with the wind's arrow."
             },
@@ -201,6 +206,46 @@
             },
             {
               "type": "changed",
+              "area": "graphics",
+              "text": "An erupting volcano now lights its flanks and the ground around it in orange, glows at its vent, sends incandescent flows down its slopes and throws brighter lava bombs."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "By moonlight, a volcano's plume now catches the light of the moons like the landscape, and its edge stays smooth from far away."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "Strong eruptions now shake the ground with short earthquakes felt up to about twenty kilometres, and the shock wave of each explosion jolts the view as its sound arrives."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "A far explosion now sounds like the dull thump of its shock wave, deeper and fainter with distance, and an earthquake rumbles under your feet."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "Lava bombs and stones are now heard crashing, bouncing and rolling around you, and ash and lapilli patter down when you stand under an erupting plume."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "Under an erupting plume, ash and lapilli are now seen falling around you, carried by the wind."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "Every volcanic explosion now lights up the vent, the whole lower plume and the slopes for kilometres in a white flash turning to a red glow, seen before its sound arrives."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "The shock wave of a nearby explosion now jolts the view and ripples across the screen as it arrives."
+            },
+            {
+              "type": "changed",
               "area": "ui",
               "text": "In the bug report, a bug already fixed for the next build shows with a blue square."
             },
@@ -253,6 +298,11 @@
               "type": "changed",
               "area": "ui",
               "text": "When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "At night, a volcano's plume no longer shows as a grey cloud lit by a sun that has set: its top is dark and only the lava lights it from below."
             },
             {
               "type": "fixed",
@@ -368,6 +418,11 @@
           "fr": [
             {
               "type": "added",
+              "area": "ui",
+              "text": "Un nouveau réglage coupe les effets de secousse et de flou (séismes, ondes de choc) pour les joueurs sensibles au mal des transports."
+            },
+            {
+              "type": "added",
               "area": "weather",
               "text": "Une option de débogage affiche la météo là où l'on se trouve (vent en m/s et km/h, température, pression, poussière) et une boussole avec la flèche du vent."
             },
@@ -463,6 +518,46 @@
             },
             {
               "type": "changed",
+              "area": "graphics",
+              "text": "Un volcan en éruption éclaire désormais ses flancs et le sol alentour en orange, rougeoie à sa bouche, laisse descendre des coulées incandescentes sur ses pentes et projette des bombes de lave plus lumineuses."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "Sous la lune, le panache d'un volcan prend désormais la lumière des lunes comme le paysage, et son bord reste net vu de loin."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "Les fortes éruptions secouent désormais le sol de brefs séismes ressentis jusqu'à une vingtaine de kilomètres, et l'onde de choc de chaque explosion fait sursauter la vue à l'arrivée de son bruit."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "Une explosion lointaine sonne désormais comme le coup sourd de son onde de choc, plus grave et plus faible avec la distance, et un séisme gronde sous les pieds."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "On entend désormais les bombes de lave et les pierres s'écraser, rebondir et rouler autour de soi, et la cendre et les lapilli crépiter quand on se tient sous le panache d'une éruption."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "Sous le panache d'une éruption, on voit désormais la cendre et les lapilli tomber autour de soi, portés par le vent."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "Chaque explosion volcanique illumine désormais la bouche, tout le bas du panache et les pentes sur des kilomètres d'un éclair blanc qui vire au rouge, vu avant l'arrivée de son bruit."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "L'onde de choc d'une explosion proche secoue désormais la vue et fait onduler l'écran à son arrivée."
+            },
+            {
+              "type": "changed",
               "area": "ui",
               "text": "Dans le rapport de bug, un bug déjà corrigé pour le prochain build s'affiche avec un carré bleu."
             },
@@ -515,6 +610,11 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "La nuit, le panache d'un volcan n'apparaît plus comme un nuage gris éclairé par un soleil couché : son sommet est sombre et seule la lave l'éclaire par en dessous."
             },
             {
               "type": "fixed",

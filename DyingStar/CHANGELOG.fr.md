@@ -9,6 +9,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Interface** : Un nouveau réglage coupe les effets de secousse et de flou (séismes, ondes de choc) pour les joueurs sensibles au mal des transports.
 - **Météo** : Une option de débogage affiche la météo là où l'on se trouve (vent en m/s et km/h, température, pression, poussière) et une boussole avec la flèche du vent.
 - **PlanetTech** : Tarsis 3 a une météo : vents selon la latitude, dépressions, anticyclones et tempêtes de poussière envoyés par le service météo, les mêmes pour tous les joueurs.
 - **Graphismes** : Tourbillons et murs de poussière sur Tarsis 3, qui suivent la météo : les murs tombent des falaises le soir et courent avec le vent.
@@ -31,6 +32,14 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Graphismes** : Un volcan en éruption éclaire désormais ses flancs et le sol alentour en orange, rougeoie à sa bouche, laisse descendre des coulées incandescentes sur ses pentes et projette des bombes de lave plus lumineuses.
+- **Graphismes** : Sous la lune, le panache d'un volcan prend désormais la lumière des lunes comme le paysage, et son bord reste net vu de loin.
+- **Audio** : Les fortes éruptions secouent désormais le sol de brefs séismes ressentis jusqu'à une vingtaine de kilomètres, et l'onde de choc de chaque explosion fait sursauter la vue à l'arrivée de son bruit.
+- **Audio** : Une explosion lointaine sonne désormais comme le coup sourd de son onde de choc, plus grave et plus faible avec la distance, et un séisme gronde sous les pieds.
+- **Audio** : On entend désormais les bombes de lave et les pierres s'écraser, rebondir et rouler autour de soi, et la cendre et les lapilli crépiter quand on se tient sous le panache d'une éruption.
+- **Graphismes** : Sous le panache d'une éruption, on voit désormais la cendre et les lapilli tomber autour de soi, portés par le vent.
+- **Graphismes** : Chaque explosion volcanique illumine désormais la bouche, tout le bas du panache et les pentes sur des kilomètres d'un éclair blanc qui vire au rouge, vu avant l'arrivée de son bruit.
+- **Graphismes** : L'onde de choc d'une explosion proche secoue désormais la vue et fait onduler l'écran à son arrivée.
 - **Interface** : Dans le rapport de bug, un bug déjà corrigé pour le prochain build s'affiche avec un carré bleu.
 - **Performances** : Rejoindre la partie fige beaucoup moins longtemps à l'apparition de la planète et de son personnage.
 - **Performances** : Meilleur framerate et bien moins de CPU utilisé dans le village minier ; les rochers alentour apparaissent plus tôt.
@@ -45,6 +54,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Graphismes** : La nuit, le panache d'un volcan n'apparaît plus comme un nuage gris éclairé par un soleil couché : son sommet est sombre et seule la lave l'éclaire par en dessous.
 - **Météo** : La bande de poussière soulevée par le vent à l'horizon ne grossit plus et ne se résorbe plus toute seule, et ne luit plus la nuit.
 - **Performances** : Les villes ne paient plus quelques millisecondes de plus toutes les quatre secondes pour garder les ombres des lampes en place.
 - **Performances** : Le jeu ne reste plus figé en quittant après être passé dans un village.

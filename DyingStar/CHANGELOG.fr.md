@@ -45,6 +45,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Météo** : La bande de poussière soulevée par le vent à l'horizon ne grossit plus et ne se résorbe plus toute seule, et ne luit plus la nuit.
 - **Performances** : Les villes ne paient plus quelques millisecondes de plus toutes les quatre secondes pour garder les ombres des lampes en place.
 - **Performances** : Le jeu ne reste plus figé en quittant après être passé dans un village.
 - **Graphismes** : Le sol d'une planète garde son aspect sur les parties construites quand on en était encore loin.

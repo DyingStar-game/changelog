@@ -45,6 +45,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Weather**: The band of wind-blown dust on the horizon no longer swells and shrinks on its own, and no longer glows at night.
 - **Performance**: Towns no longer pay an extra few milliseconds every four seconds to keep the lamps' shadows in place.
 - **Performance**: The game no longer stays frozen when quitting after visiting a village.
 - **Graphics**: The ground of a planet keeps its look on the parts built while you were still far from it.

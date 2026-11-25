@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T20:08:59.319718+00:00",
+  "generated_at": "2026-11-25T20:14:23.022503+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -253,6 +253,11 @@
               "type": "changed",
               "area": "ui",
               "text": "When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up."
+            },
+            {
+              "type": "fixed",
+              "area": "weather",
+              "text": "The band of wind-blown dust on the horizon no longer swells and shrinks on its own, and no longer glows at night."
             },
             {
               "type": "fixed",
@@ -510,6 +515,11 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "weather",
+              "text": "La bande de poussière soulevée par le vent à l'horizon ne grossit plus et ne se résorbe plus toute seule, et ne luit plus la nuit."
             },
             {
               "type": "fixed",

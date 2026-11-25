@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T20:17:40.275916+00:00",
+  "generated_at": "2026-11-25T20:51:45.674402+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -228,6 +228,11 @@
               "type": "added",
               "area": "ui",
               "text": "A bug report can be added to a bug already reported, found by a few words in the form."
+            },
+            {
+              "type": "changed",
+              "area": "weather",
+              "text": "Tarsis 3's winds are a little weaker and its poles milder: the climate follows the planet's corrected albedo."
             },
             {
               "type": "changed",
@@ -570,6 +575,11 @@
               "type": "added",
               "area": "ui",
               "text": "Un rapport de bug peut être ajouté à un bug déjà signalé, retrouvé par quelques mots dans le formulaire."
+            },
+            {
+              "type": "changed",
+              "area": "weather",
+              "text": "Les vents de Tarsis 3 sont un peu plus faibles et ses pôles plus doux : le climat suit l'albédo corrigé de la planète."
             },
             {
               "type": "changed",

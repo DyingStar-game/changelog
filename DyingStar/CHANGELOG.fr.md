@@ -37,6 +37,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Météo** : Les vents de Tarsis 3 sont un peu plus faibles et ses pôles plus doux : le climat suit l'albédo corrigé de la planète.
 - **Graphismes** : Un volcan en éruption éclaire désormais ses flancs et le sol alentour en orange, rougeoie à sa bouche, laisse descendre des coulées incandescentes sur ses pentes et projette des bombes de lave plus lumineuses.
 - **Graphismes** : Sous la lune, le panache d'un volcan prend désormais la lumière des lunes comme le paysage, et son bord reste net vu de loin.
 - **Audio** : Les fortes éruptions secouent désormais le sol de brefs séismes ressentis jusqu'à une vingtaine de kilomètres, et l'onde de choc de chaque explosion fait sursauter la vue à l'arrivée de son bruit.

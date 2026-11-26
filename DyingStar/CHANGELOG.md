@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611261345] - 2026-11-26
+
 ### Added
 
 - **Vehicles**: Garages can hand out a spaceship: take the pilot's seat, fly it in every direction, set its speed with the limiter, the cruise control and the mouse wheel, and read its speed on the cockpit screen.

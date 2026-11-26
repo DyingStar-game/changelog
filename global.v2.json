@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T13:19:50.689681+00:00",
+  "generated_at": "2026-11-26T14:16:46.005287+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,843 +103,854 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Garages can hand out a spaceship: take the pilot's seat, fly it in every direction, set its speed with the limiter, the cruise control and the mouse wheel, and read its speed on the cockpit screen."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "You can walk up the spaceship's ramp and move around its cabin, even while it flies; leaving the pilot's seat keeps you inside."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "The spaceship's engine, thrusters and manoeuvring jets can be heard."
-            },
-            {
-              "type": "added",
-              "area": "weather",
-              "text": "Sandbox's dust sea is drawn: a white sea of billows seen from the plateaus, and inside it a pale overcast with about a kilometre of visibility; under its base, 500 m up, the basins see about ten kilometres in its dim light."
-            },
-            {
-              "type": "added",
-              "area": "weather",
-              "text": "Seen from above in the sun, the dust sea shows a glory of coloured rings around your shadow, and its thin edges near the sun shimmer with iridescent colours."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Dust devils, dust walls and the sparks inside them can be heard: a far rumble growing as a wall nears, the blast of its front, the storm all round inside it."
-            },
-            {
-              "type": "added",
-              "area": "weather",
-              "text": "With the weather debug option on, the planet map shows the weather: isobars, wind arrows, highs and lows, and the weather under the cursor."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "The large scattered rocks of a planet are now solid: players and vehicles bump into them instead of driving through."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "A debug option shows the rocks that collide as cyan boxes, with how many stand around you."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "The large scattered rocks of a planet are now solid: players and vehicles bump into them instead of driving through."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "A debug option shows the rocks that collide as cyan boxes, with how many stand around you."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "A new setting turns off the shake and blur effects (earthquakes, shock waves) for players prone to motion sickness."
-            },
-            {
-              "type": "added",
-              "area": "weather",
-              "text": "A debug option shows the weather where you stand (wind in m/s and km/h, temperature, pressure, dust) and a compass with the wind's arrow."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Tarsis 3 has weather: winds by latitude, pressure systems and dust storms sent by the weather service, the same for every player."
-            },
-            {
-              "type": "added",
-              "area": "graphics",
-              "text": "Dust devils and dust walls on Tarsis 3, following the weather: walls fall from the cliffs in the evening and run with the wind."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Tarsis 3's corundum plateaus have their own ground per rock, with soft frontiers between zones, and rocks of every size scattered over them, away from roads, buildings and villages."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "The terrain's levels of detail now ease into each other instead of popping, and the far terrain is finer."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "In the character creator, buttons at the bottom right of the figure make the face smile, laugh, wink, look surprised, sad, angry, disgusted or afraid."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "In the character creator, every line has a die to draw it again at random and a lock to keep it through random draws; a whole menu can be locked at once."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "In the character creator, a \"Vary\" button moves the open menu's sliders a little, and \"Unlock all\" frees every locked line."
-            },
-            {
-              "type": "added",
-              "area": "controls",
-              "text": "In the character creator, R or the pad's X draws the selected line at random, L or the pad's Y locks it."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Random characters now have faces modelled on real European, African and East Asian faces, by sex and age."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "In the character creator, face sliders stop before the face stops looking human, depending on the other sliders already moved."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "In the character creator, the \"Thinness\" body slider stops at 80 % of its travel."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "The streets and paths inside a village are drawn on the map."
-            },
-            {
-              "type": "added",
-              "area": "graphics",
-              "text": "Street lamps and room lights cast shadows, up to a distance you set in the graphics options."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "The main menu warns when the graphics driver is too old to run the game safely (NVIDIA), and gives a link to download the latest one."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "The bug report form shows your coordinates in the world and on the planet, and sends them with the report."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "A bug report can carry up to five captures: \"Attach another capture\" lets you go and show something else, then press the bug report key again."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "\"Continue later\" keeps the bug report you were typing; the bug report key brings it back."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "A bug report can be added to a bug already reported, found by a few words in the form."
-            },
-            {
-              "type": "changed",
-              "area": "weather",
-              "text": "Dust walls take the colour of the ground they run over and hide the sun behind them; their wind rises in a gust after a short lull instead of all at once, and stops at their top."
-            },
-            {
-              "type": "changed",
-              "area": "weather",
-              "text": "Dust devils are rare under the dust sea, where little sunlight warms the ground."
-            },
-            {
-              "type": "changed",
-              "area": "weather",
-              "text": "Over the dust sea the sky stays light away from the sun, lit from below by the white sea; under it the sun's disc no longer shows through."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "The wind of the ground fades as you fly high above it."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "The weather's wind now slams an open vehicle door: a head wind shuts it sooner, a tail wind later, and a strong gust can slam a door left open on a parked vehicle."
-            },
-            {
-              "type": "changed",
-              "area": "weather",
-              "text": "Tarsis 3's winds are a little weaker and its poles milder: the climate follows the planet's corrected albedo."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "An erupting volcano now lights its flanks and the ground around it in orange, glows at its vent, sends incandescent flows down its slopes and throws brighter lava bombs."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "By moonlight, a volcano's plume now catches the light of the moons like the landscape, and its edge stays smooth from far away."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "Strong eruptions now shake the ground with short earthquakes felt up to about twenty kilometres, and the shock wave of each explosion jolts the view as its sound arrives."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "A far explosion now sounds like the dull thump of its shock wave, deeper and fainter with distance, and an earthquake rumbles under your feet."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "Lava bombs and stones are now heard crashing, bouncing and rolling around you, and ash and lapilli patter down when you stand under an erupting plume."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Under an erupting plume, ash and lapilli are now seen falling around you, carried by the wind."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Every volcanic explosion now lights up the vent, the whole lower plume and the slopes for kilometres in a white flash turning to a red glow, seen before its sound arrives."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "The shock wave of a nearby explosion now jolts the view and ripples across the screen as it arrives."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "In the bug report, a bug already fixed for the next build shows with a blue square."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Joining the game freezes far less long when the planet and your character appear."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Better framerate and much less CPU use in the mining village; the rocks around it appear sooner."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "The whole corundum plateau of Tarsis 3 has the cracked rock ground laid in hex tiles, its stones and cracks visible in full sun too."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Terrain near biome zone edges is built faster, on the clients and on the server."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "In the character creator, random draws keep the character's sex and origin unless they draw them, and draw the face's detail sliders instead of resetting them."
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Random faces are more natural: no more pouting lips or doll's eyes."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "Roads, paths, highways and railways are drawn wider and darker on the map, and the canyons follow their bends smoothly."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "The slopes that lead down into a canyon show on the map, paler as the canyon gets shallower."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "The game runs on Godot 4.7.2."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The DataPad, the star map and the other panels work again at a spaceship's controls, and the vehicle keys no longer act under the controls help or the bug report."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "A road redrawn on a planet appears in full, instead of stopping at the edge of ground built before it."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Scattered rocks take the colour of the ground they stand on instead of a pale beige."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "NPCs that cannot reach their destination walk as close to it as they can instead of standing still."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "At night, a volcano's plume no longer shows as a grey cloud lit by a sun that has set: its top is dark and only the lava lights it from below."
-            },
-            {
-              "type": "fixed",
-              "area": "weather",
-              "text": "The band of wind-blown dust on the horizon no longer swells and shrinks on its own, and no longer glows at night."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Towns no longer pay an extra few milliseconds every four seconds to keep the lamps' shadows in place."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "The game no longer stays frozen when quitting after visiting a village."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "The ground of a planet keeps its look on the parts built while you were still far from it."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "The ground around the mining village's mine no longer shows patches of a plain old texture."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Hair parted on one side no longer draws thin lines across the cheeks."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "A face seen close up no longer goes still for a moment when its look changes, and keeps its expression while a creator slider is moved."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "African faces have a narrower mouth and thinner lips, closer to real faces."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "East Asian faces have wider, more open eyes, closer to real faces."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Random faces are slightly less wide and their nose better shaped, closer to real faces."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "The back no longer looks broken at the lower back and under the neck on round or thin bodies."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "European faces have a fuller mouth and a less pinched nose."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The bug report form has its mouse cursor when opened from a bed."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "The focused button of a service screen shows a visible ring."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Lying down, the torch points where you look."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Teleporting to a village lands you in front of its teleporter cabin instead of inside the depot."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "The ration dispenser wears the colours of ARES Living."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "A dispenser's countdown starts at the right second, whatever the time your computer is set to."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "The black band across the top of the slopes that lead down into a canyon is gone."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Vehicle lifts load again in the released game: their landings failed to load."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Lamps, floodlights and headlights cast the shadows of what moves under them again, as soon as it moves."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "A slow computer no longer gets \"the parent object never arrived from the server\" while the world is still loading."
-            }
-          ],
-          "fr": [
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "Les garages peuvent fournir un vaisseau spatial : prenez la place du pilote, pilotez-le dans toutes les directions, réglez sa vitesse avec le limiteur, le régulateur et la molette, et lisez-la sur l'écran du cockpit."
-            },
-            {
-              "type": "added",
-              "area": "vehicles",
-              "text": "On peut monter par la rampe du vaisseau et circuler dans sa cabine, même en vol ; quitter le siège du pilote vous laisse à bord."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Le moteur, les propulseurs et les jets de manœuvre du vaisseau s'entendent."
-            },
-            {
-              "type": "added",
-              "area": "weather",
-              "text": "La mer de poussière de Sandbox est dessinée : une mer blanche de nuages bombés vue des plateaux, et dedans un ciel couvert pâle avec environ un kilomètre de visibilité ; sous sa base, à 500 m, les bassins voient à une dizaine de kilomètres dans sa pénombre."
-            },
-            {
-              "type": "added",
-              "area": "weather",
-              "text": "Vue d'en haut au soleil, la mer de poussière montre une gloire d'anneaux colorés autour de votre ombre, et ses bords fins près du soleil se parent d'irisations."
-            },
-            {
-              "type": "added",
-              "area": "audio",
-              "text": "Les tourbillons, les murs de poussière et leurs étincelles s'entendent : un grondement lointain qui enfle à l'approche d'un mur, le coup de son front, la tempête tout autour à l'intérieur."
-            },
-            {
-              "type": "added",
-              "area": "weather",
-              "text": "Avec l'option de débogage de la météo, la carte des planètes montre la météo : isobares, flèches de vent, dépressions et anticyclones, et la météo sous le curseur."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Les gros rochers éparpillés sur une planète sont maintenant solides : joueurs et véhicules les heurtent au lieu de passer au travers."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Une option de débogage montre en boîtes cyan les rochers qui ont une collision, avec leur nombre autour de vous."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Les gros rochers éparpillés sur une planète sont maintenant solides : joueurs et véhicules les heurtent au lieu de passer au travers."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Une option de débogage montre en boîtes cyan les rochers qui ont une collision, avec leur nombre autour de vous."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Un nouveau réglage coupe les effets de secousse et de flou (séismes, ondes de choc) pour les joueurs sensibles au mal des transports."
-            },
-            {
-              "type": "added",
-              "area": "weather",
-              "text": "Une option de débogage affiche la météo là où l'on se trouve (vent en m/s et km/h, température, pression, poussière) et une boussole avec la flèche du vent."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Tarsis 3 a une météo : vents selon la latitude, dépressions, anticyclones et tempêtes de poussière envoyés par le service météo, les mêmes pour tous les joueurs."
-            },
-            {
-              "type": "added",
-              "area": "graphics",
-              "text": "Tourbillons et murs de poussière sur Tarsis 3, qui suivent la météo : les murs tombent des falaises le soir et courent avec le vent."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Les plateaux de corindon de Tarsis 3 ont leur propre sol selon la roche, avec des frontières douces entre zones, et des rochers de toutes tailles posés dessus, à l'écart des routes, des bâtiments et des villages."
-            },
-            {
-              "type": "added",
-              "area": "planettech",
-              "text": "Les niveaux de détail du terrain se fondent maintenant les uns dans les autres au lieu d'apparaître d'un coup, et le terrain lointain est plus fin."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Dans le créateur de personnage, des boutons en bas à droite du personnage le font sourire, rire ou cligner de l'œil, ou lui donnent un air surpris, triste, en colère, dégoûté ou effrayé."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Dans le créateur de personnage, chaque ligne a un dé pour la tirer au hasard et un cadenas pour la garder lors des tirages ; un menu entier peut être verrouillé d'un coup."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Dans le créateur de personnage, un bouton « Varier » bouge un peu les curseurs du menu ouvert, et « Tout déverrouiller » libère toutes les lignes verrouillées."
-            },
-            {
-              "type": "added",
-              "area": "controls",
-              "text": "Dans le créateur de personnage, R ou X à la manette tire la ligne sélectionnée au hasard, L ou Y la verrouille."
-            },
-            {
-              "type": "added",
-              "area": "player",
-              "text": "Les personnages tirés au hasard ont désormais des visages inspirés de vrais visages européens, africains et est-asiatiques, selon le sexe et l'âge."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Dans le créateur de personnage, les curseurs du visage s'arrêtent avant que le visage cesse de faire humain, selon les autres curseurs déjà bougés."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Dans le créateur de personnage, le curseur « Maigreur » du corps s'arrête à 80 % de sa course."
-            },
-            {
-              "type": "added",
-              "area": "star-map",
-              "text": "Les rues et les chemins à l'intérieur d'un village sont dessinés sur la carte."
-            },
-            {
-              "type": "added",
-              "area": "graphics",
-              "text": "Les lampadaires et les lampes d'intérieur projettent des ombres, jusqu'à une distance réglable dans les options graphiques."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Le menu principal prévient quand le pilote graphique est trop ancien pour faire tourner le jeu sans risque (NVIDIA), avec un lien pour télécharger le dernier."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Le formulaire de rapport de bug affiche vos coordonnées dans le monde et sur la planète, et les envoie avec le rapport."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Un rapport de bug peut porter jusqu'à cinq captures : « Joindre une autre capture » vous laisse aller montrer autre chose, puis rappuyer sur la touche de rapport de bug."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "« Continuer plus tard » garde le rapport de bug en cours de saisie ; la touche de rapport de bug le rouvre."
-            },
-            {
-              "type": "added",
-              "area": "ui",
-              "text": "Un rapport de bug peut être ajouté à un bug déjà signalé, retrouvé par quelques mots dans le formulaire."
-            },
-            {
-              "type": "changed",
-              "area": "weather",
-              "text": "Les murs de poussière prennent la couleur du sol qu'ils traversent et cachent le soleil derrière eux ; leur vent monte en rafale après une courte accalmie au lieu d'arriver d'un coup, et s'arrête à leur sommet."
-            },
-            {
-              "type": "changed",
-              "area": "weather",
-              "text": "Les tourbillons sont rares sous la mer de poussière, où peu de soleil chauffe le sol."
-            },
-            {
-              "type": "changed",
-              "area": "weather",
-              "text": "Au-dessus de la mer de poussière, le ciel reste clair à l'opposé du soleil, éclairé par-dessous par la mer blanche ; dessous, le disque du soleil ne transparaît plus."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "Le vent du sol s'estompe quand on vole haut au-dessus."
-            },
-            {
-              "type": "changed",
-              "area": "vehicles",
-              "text": "Le vent de la météo claque désormais une portière de véhicule ouverte : un vent de face la ferme plus tôt, un vent arrière plus tard, et une forte rafale peut claquer une portière laissée ouverte sur un véhicule garé."
-            },
-            {
-              "type": "changed",
-              "area": "weather",
-              "text": "Les vents de Tarsis 3 sont un peu plus faibles et ses pôles plus doux : le climat suit l'albédo corrigé de la planète."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Un volcan en éruption éclaire désormais ses flancs et le sol alentour en orange, rougeoie à sa bouche, laisse descendre des coulées incandescentes sur ses pentes et projette des bombes de lave plus lumineuses."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Sous la lune, le panache d'un volcan prend désormais la lumière des lunes comme le paysage, et son bord reste net vu de loin."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "Les fortes éruptions secouent désormais le sol de brefs séismes ressentis jusqu'à une vingtaine de kilomètres, et l'onde de choc de chaque explosion fait sursauter la vue à l'arrivée de son bruit."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "Une explosion lointaine sonne désormais comme le coup sourd de son onde de choc, plus grave et plus faible avec la distance, et un séisme gronde sous les pieds."
-            },
-            {
-              "type": "changed",
-              "area": "audio",
-              "text": "On entend désormais les bombes de lave et les pierres s'écraser, rebondir et rouler autour de soi, et la cendre et les lapilli crépiter quand on se tient sous le panache d'une éruption."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Sous le panache d'une éruption, on voit désormais la cendre et les lapilli tomber autour de soi, portés par le vent."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Chaque explosion volcanique illumine désormais la bouche, tout le bas du panache et les pentes sur des kilomètres d'un éclair blanc qui vire au rouge, vu avant l'arrivée de son bruit."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "L'onde de choc d'une explosion proche secoue désormais la vue et fait onduler l'écran à son arrivée."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Dans le rapport de bug, un bug déjà corrigé pour le prochain build s'affiche avec un carré bleu."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Rejoindre la partie fige beaucoup moins longtemps à l'apparition de la planète et de son personnage."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Meilleur framerate et bien moins de CPU utilisé dans le village minier ; les rochers alentour apparaissent plus tôt."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Tout le plateau de corindon de Tarsis 3 a le sol de roche craquelée posé en hex-tiles, ses pierres et ses fissures visibles aussi en plein soleil."
-            },
-            {
-              "type": "changed",
-              "area": "performance",
-              "text": "Le terrain près des bords des zones de biome se construit plus vite, sur les clients comme sur le serveur."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Dans le créateur de personnage, les tirages gardent le sexe et l'origine du personnage sauf s'ils les tirent, et tirent les curseurs de détail du visage au lieu de les remettre à zéro."
-            },
-            {
-              "type": "changed",
-              "area": "player",
-              "text": "Les visages tirés au hasard sont plus naturels : fini les lèvres boudeuses et les yeux de poupée."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "Les routes, chemins, autoroutes et voies ferrées sont dessinés plus larges et plus foncés sur la carte, et les canyons suivent leurs virages sans accroc."
-            },
-            {
-              "type": "changed",
-              "area": "star-map",
-              "text": "Les pentes qui descendent dans un canyon apparaissent sur la carte, plus pâles à mesure que le canyon est moins profond."
-            },
-            {
-              "type": "changed",
-              "area": "graphics",
-              "text": "Le jeu tourne sur Godot 4.7.2."
-            },
-            {
-              "type": "changed",
-              "area": "ui",
-              "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Le DataPad, la carte stellaire et les autres panneaux fonctionnent de nouveau aux commandes d'un vaisseau, et les touches du véhicule n'agissent plus sous l'aide des commandes ou le rapport de bug."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Une route retracée sur une planète apparaît en entier, au lieu de s'arrêter au bord d'un sol construit avant elle."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "Les rochers éparpillés prennent la couleur du sol sur lequel ils reposent au lieu d'un beige pâle."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Les PNJ qui ne peuvent pas atteindre leur destination s'en approchent au plus près au lieu de rester immobiles."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "La nuit, le panache d'un volcan n'apparaît plus comme un nuage gris éclairé par un soleil couché : son sommet est sombre et seule la lave l'éclaire par en dessous."
-            },
-            {
-              "type": "fixed",
-              "area": "weather",
-              "text": "La bande de poussière soulevée par le vent à l'horizon ne grossit plus et ne se résorbe plus toute seule, et ne luit plus la nuit."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Les villes ne paient plus quelques millisecondes de plus toutes les quatre secondes pour garder les ombres des lampes en place."
-            },
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Le jeu ne reste plus figé en quittant après être passé dans un village."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Le sol d'une planète garde son aspect sur les parties construites quand on en était encore loin."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Le sol autour de la mine du village minier ne montre plus de plaques d'une ancienne texture unie."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Les cheveux à raie sur le côté ne tracent plus de fins traits en travers des joues."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Un visage vu de près ne se fige plus un instant quand son apparence change, et garde son expression pendant qu'on bouge un curseur du créateur."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Les visages africains ont une bouche moins large et des lèvres moins épaisses, plus proches de vrais visages."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Les visages est-asiatiques ont des yeux plus grands et plus ouverts, plus proches de vrais visages."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Les visages tirés au hasard sont un peu moins larges et leur nez mieux formé, plus proches de vrais visages."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Le dos ne paraît plus cassé au bas du dos et sous la nuque sur les corps ronds ou minces."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Les visages européens ont une bouche plus pleine et un nez moins pincé."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Le formulaire de rapport de bug a son curseur de souris quand il est ouvert depuis un lit."
-            },
-            {
-              "type": "fixed",
-              "area": "ui",
-              "text": "Le bouton sélectionné d'un écran de service montre un anneau visible."
-            },
-            {
-              "type": "fixed",
-              "area": "player",
-              "text": "Allongé, la lampe torche éclaire là où vous regardez."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Une téléportation vers un village vous dépose devant sa cabine de téléportation, et plus dans le dépôt."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Le distributeur de rations porte les couleurs d'ARES Living."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Le compte à rebours d'un distributeur démarre à la bonne seconde, quelle que soit l'heure réglée sur votre ordinateur."
-            },
-            {
-              "type": "fixed",
-              "area": "planettech",
-              "text": "La bande noire en travers du haut des pentes qui descendent dans un canyon a disparu."
-            },
-            {
-              "type": "fixed",
-              "area": "buildings",
-              "text": "Les monte-véhicules se chargent de nouveau dans le jeu publié : leurs paliers ne se chargeaient pas."
-            },
-            {
-              "type": "fixed",
-              "area": "graphics",
-              "text": "Les lampes, projecteurs et phares projettent de nouveau l'ombre de ce qui bouge sous eux, dès que ça bouge."
-            },
-            {
-              "type": "fixed",
-              "area": "server",
-              "text": "Un ordinateur lent n'affiche plus « l'objet parent n'est jamais arrivé du serveur » alors que le monde est encore en train de charger."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611261345",
+          "date": "2026-11-26",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Garages can hand out a spaceship: take the pilot's seat, fly it in every direction, set its speed with the limiter, the cruise control and the mouse wheel, and read its speed on the cockpit screen."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "You can walk up the spaceship's ramp and move around its cabin, even while it flies; leaving the pilot's seat keeps you inside."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "The spaceship's engine, thrusters and manoeuvring jets can be heard."
+              },
+              {
+                "type": "added",
+                "area": "weather",
+                "text": "Sandbox's dust sea is drawn: a white sea of billows seen from the plateaus, and inside it a pale overcast with about a kilometre of visibility; under its base, 500 m up, the basins see about ten kilometres in its dim light."
+              },
+              {
+                "type": "added",
+                "area": "weather",
+                "text": "Seen from above in the sun, the dust sea shows a glory of coloured rings around your shadow, and its thin edges near the sun shimmer with iridescent colours."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Dust devils, dust walls and the sparks inside them can be heard: a far rumble growing as a wall nears, the blast of its front, the storm all round inside it."
+              },
+              {
+                "type": "added",
+                "area": "weather",
+                "text": "With the weather debug option on, the planet map shows the weather: isobars, wind arrows, highs and lows, and the weather under the cursor."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "The large scattered rocks of a planet are now solid: players and vehicles bump into them instead of driving through."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "A debug option shows the rocks that collide as cyan boxes, with how many stand around you."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "The large scattered rocks of a planet are now solid: players and vehicles bump into them instead of driving through."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "A debug option shows the rocks that collide as cyan boxes, with how many stand around you."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "A new setting turns off the shake and blur effects (earthquakes, shock waves) for players prone to motion sickness."
+              },
+              {
+                "type": "added",
+                "area": "weather",
+                "text": "A debug option shows the weather where you stand (wind in m/s and km/h, temperature, pressure, dust) and a compass with the wind's arrow."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Tarsis 3 has weather: winds by latitude, pressure systems and dust storms sent by the weather service, the same for every player."
+              },
+              {
+                "type": "added",
+                "area": "graphics",
+                "text": "Dust devils and dust walls on Tarsis 3, following the weather: walls fall from the cliffs in the evening and run with the wind."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Tarsis 3's corundum plateaus have their own ground per rock, with soft frontiers between zones, and rocks of every size scattered over them, away from roads, buildings and villages."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "The terrain's levels of detail now ease into each other instead of popping, and the far terrain is finer."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "In the character creator, buttons at the bottom right of the figure make the face smile, laugh, wink, look surprised, sad, angry, disgusted or afraid."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "In the character creator, every line has a die to draw it again at random and a lock to keep it through random draws; a whole menu can be locked at once."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "In the character creator, a \"Vary\" button moves the open menu's sliders a little, and \"Unlock all\" frees every locked line."
+              },
+              {
+                "type": "added",
+                "area": "controls",
+                "text": "In the character creator, R or the pad's X draws the selected line at random, L or the pad's Y locks it."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Random characters now have faces modelled on real European, African and East Asian faces, by sex and age."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "In the character creator, face sliders stop before the face stops looking human, depending on the other sliders already moved."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "In the character creator, the \"Thinness\" body slider stops at 80 % of its travel."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "The streets and paths inside a village are drawn on the map."
+              },
+              {
+                "type": "added",
+                "area": "graphics",
+                "text": "Street lamps and room lights cast shadows, up to a distance you set in the graphics options."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "The main menu warns when the graphics driver is too old to run the game safely (NVIDIA), and gives a link to download the latest one."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "The bug report form shows your coordinates in the world and on the planet, and sends them with the report."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "A bug report can carry up to five captures: \"Attach another capture\" lets you go and show something else, then press the bug report key again."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "\"Continue later\" keeps the bug report you were typing; the bug report key brings it back."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "A bug report can be added to a bug already reported, found by a few words in the form."
+              },
+              {
+                "type": "changed",
+                "area": "weather",
+                "text": "Dust walls take the colour of the ground they run over and hide the sun behind them; their wind rises in a gust after a short lull instead of all at once, and stops at their top."
+              },
+              {
+                "type": "changed",
+                "area": "weather",
+                "text": "Dust devils are rare under the dust sea, where little sunlight warms the ground."
+              },
+              {
+                "type": "changed",
+                "area": "weather",
+                "text": "Over the dust sea the sky stays light away from the sun, lit from below by the white sea; under it the sun's disc no longer shows through."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "The wind of the ground fades as you fly high above it."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "The weather's wind now slams an open vehicle door: a head wind shuts it sooner, a tail wind later, and a strong gust can slam a door left open on a parked vehicle."
+              },
+              {
+                "type": "changed",
+                "area": "weather",
+                "text": "Tarsis 3's winds are a little weaker and its poles milder: the climate follows the planet's corrected albedo."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "An erupting volcano now lights its flanks and the ground around it in orange, glows at its vent, sends incandescent flows down its slopes and throws brighter lava bombs."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "By moonlight, a volcano's plume now catches the light of the moons like the landscape, and its edge stays smooth from far away."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "Strong eruptions now shake the ground with short earthquakes felt up to about twenty kilometres, and the shock wave of each explosion jolts the view as its sound arrives."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "A far explosion now sounds like the dull thump of its shock wave, deeper and fainter with distance, and an earthquake rumbles under your feet."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "Lava bombs and stones are now heard crashing, bouncing and rolling around you, and ash and lapilli patter down when you stand under an erupting plume."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Under an erupting plume, ash and lapilli are now seen falling around you, carried by the wind."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Every volcanic explosion now lights up the vent, the whole lower plume and the slopes for kilometres in a white flash turning to a red glow, seen before its sound arrives."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "The shock wave of a nearby explosion now jolts the view and ripples across the screen as it arrives."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "In the bug report, a bug already fixed for the next build shows with a blue square."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Joining the game freezes far less long when the planet and your character appear."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Better framerate and much less CPU use in the mining village; the rocks around it appear sooner."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "The whole corundum plateau of Tarsis 3 has the cracked rock ground laid in hex tiles, its stones and cracks visible in full sun too."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Terrain near biome zone edges is built faster, on the clients and on the server."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "In the character creator, random draws keep the character's sex and origin unless they draw them, and draw the face's detail sliders instead of resetting them."
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Random faces are more natural: no more pouting lips or doll's eyes."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "Roads, paths, highways and railways are drawn wider and darker on the map, and the canyons follow their bends smoothly."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "The slopes that lead down into a canyon show on the map, paler as the canyon gets shallower."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "The game runs on Godot 4.7.2."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The DataPad, the star map and the other panels work again at a spaceship's controls, and the vehicle keys no longer act under the controls help or the bug report."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "A road redrawn on a planet appears in full, instead of stopping at the edge of ground built before it."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Scattered rocks take the colour of the ground they stand on instead of a pale beige."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "NPCs that cannot reach their destination walk as close to it as they can instead of standing still."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "At night, a volcano's plume no longer shows as a grey cloud lit by a sun that has set: its top is dark and only the lava lights it from below."
+              },
+              {
+                "type": "fixed",
+                "area": "weather",
+                "text": "The band of wind-blown dust on the horizon no longer swells and shrinks on its own, and no longer glows at night."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Towns no longer pay an extra few milliseconds every four seconds to keep the lamps' shadows in place."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "The game no longer stays frozen when quitting after visiting a village."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "The ground of a planet keeps its look on the parts built while you were still far from it."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "The ground around the mining village's mine no longer shows patches of a plain old texture."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Hair parted on one side no longer draws thin lines across the cheeks."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "A face seen close up no longer goes still for a moment when its look changes, and keeps its expression while a creator slider is moved."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "African faces have a narrower mouth and thinner lips, closer to real faces."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "East Asian faces have wider, more open eyes, closer to real faces."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Random faces are slightly less wide and their nose better shaped, closer to real faces."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "The back no longer looks broken at the lower back and under the neck on round or thin bodies."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "European faces have a fuller mouth and a less pinched nose."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The bug report form has its mouse cursor when opened from a bed."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "The focused button of a service screen shows a visible ring."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Lying down, the torch points where you look."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Teleporting to a village lands you in front of its teleporter cabin instead of inside the depot."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "The ration dispenser wears the colours of ARES Living."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "A dispenser's countdown starts at the right second, whatever the time your computer is set to."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "The black band across the top of the slopes that lead down into a canyon is gone."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Vehicle lifts load again in the released game: their landings failed to load."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Lamps, floodlights and headlights cast the shadows of what moves under them again, as soon as it moves."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "A slow computer no longer gets \"the parent object never arrived from the server\" while the world is still loading."
+              }
+            ],
+            "fr": [
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "Les garages peuvent fournir un vaisseau spatial : prenez la place du pilote, pilotez-le dans toutes les directions, réglez sa vitesse avec le limiteur, le régulateur et la molette, et lisez-la sur l'écran du cockpit."
+              },
+              {
+                "type": "added",
+                "area": "vehicles",
+                "text": "On peut monter par la rampe du vaisseau et circuler dans sa cabine, même en vol ; quitter le siège du pilote vous laisse à bord."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Le moteur, les propulseurs et les jets de manœuvre du vaisseau s'entendent."
+              },
+              {
+                "type": "added",
+                "area": "weather",
+                "text": "La mer de poussière de Sandbox est dessinée : une mer blanche de nuages bombés vue des plateaux, et dedans un ciel couvert pâle avec environ un kilomètre de visibilité ; sous sa base, à 500 m, les bassins voient à une dizaine de kilomètres dans sa pénombre."
+              },
+              {
+                "type": "added",
+                "area": "weather",
+                "text": "Vue d'en haut au soleil, la mer de poussière montre une gloire d'anneaux colorés autour de votre ombre, et ses bords fins près du soleil se parent d'irisations."
+              },
+              {
+                "type": "added",
+                "area": "audio",
+                "text": "Les tourbillons, les murs de poussière et leurs étincelles s'entendent : un grondement lointain qui enfle à l'approche d'un mur, le coup de son front, la tempête tout autour à l'intérieur."
+              },
+              {
+                "type": "added",
+                "area": "weather",
+                "text": "Avec l'option de débogage de la météo, la carte des planètes montre la météo : isobares, flèches de vent, dépressions et anticyclones, et la météo sous le curseur."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Les gros rochers éparpillés sur une planète sont maintenant solides : joueurs et véhicules les heurtent au lieu de passer au travers."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Une option de débogage montre en boîtes cyan les rochers qui ont une collision, avec leur nombre autour de vous."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Les gros rochers éparpillés sur une planète sont maintenant solides : joueurs et véhicules les heurtent au lieu de passer au travers."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Une option de débogage montre en boîtes cyan les rochers qui ont une collision, avec leur nombre autour de vous."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Un nouveau réglage coupe les effets de secousse et de flou (séismes, ondes de choc) pour les joueurs sensibles au mal des transports."
+              },
+              {
+                "type": "added",
+                "area": "weather",
+                "text": "Une option de débogage affiche la météo là où l'on se trouve (vent en m/s et km/h, température, pression, poussière) et une boussole avec la flèche du vent."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Tarsis 3 a une météo : vents selon la latitude, dépressions, anticyclones et tempêtes de poussière envoyés par le service météo, les mêmes pour tous les joueurs."
+              },
+              {
+                "type": "added",
+                "area": "graphics",
+                "text": "Tourbillons et murs de poussière sur Tarsis 3, qui suivent la météo : les murs tombent des falaises le soir et courent avec le vent."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Les plateaux de corindon de Tarsis 3 ont leur propre sol selon la roche, avec des frontières douces entre zones, et des rochers de toutes tailles posés dessus, à l'écart des routes, des bâtiments et des villages."
+              },
+              {
+                "type": "added",
+                "area": "planettech",
+                "text": "Les niveaux de détail du terrain se fondent maintenant les uns dans les autres au lieu d'apparaître d'un coup, et le terrain lointain est plus fin."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Dans le créateur de personnage, des boutons en bas à droite du personnage le font sourire, rire ou cligner de l'œil, ou lui donnent un air surpris, triste, en colère, dégoûté ou effrayé."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Dans le créateur de personnage, chaque ligne a un dé pour la tirer au hasard et un cadenas pour la garder lors des tirages ; un menu entier peut être verrouillé d'un coup."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Dans le créateur de personnage, un bouton « Varier » bouge un peu les curseurs du menu ouvert, et « Tout déverrouiller » libère toutes les lignes verrouillées."
+              },
+              {
+                "type": "added",
+                "area": "controls",
+                "text": "Dans le créateur de personnage, R ou X à la manette tire la ligne sélectionnée au hasard, L ou Y la verrouille."
+              },
+              {
+                "type": "added",
+                "area": "player",
+                "text": "Les personnages tirés au hasard ont désormais des visages inspirés de vrais visages européens, africains et est-asiatiques, selon le sexe et l'âge."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Dans le créateur de personnage, les curseurs du visage s'arrêtent avant que le visage cesse de faire humain, selon les autres curseurs déjà bougés."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Dans le créateur de personnage, le curseur « Maigreur » du corps s'arrête à 80 % de sa course."
+              },
+              {
+                "type": "added",
+                "area": "star-map",
+                "text": "Les rues et les chemins à l'intérieur d'un village sont dessinés sur la carte."
+              },
+              {
+                "type": "added",
+                "area": "graphics",
+                "text": "Les lampadaires et les lampes d'intérieur projettent des ombres, jusqu'à une distance réglable dans les options graphiques."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Le menu principal prévient quand le pilote graphique est trop ancien pour faire tourner le jeu sans risque (NVIDIA), avec un lien pour télécharger le dernier."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Le formulaire de rapport de bug affiche vos coordonnées dans le monde et sur la planète, et les envoie avec le rapport."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Un rapport de bug peut porter jusqu'à cinq captures : « Joindre une autre capture » vous laisse aller montrer autre chose, puis rappuyer sur la touche de rapport de bug."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "« Continuer plus tard » garde le rapport de bug en cours de saisie ; la touche de rapport de bug le rouvre."
+              },
+              {
+                "type": "added",
+                "area": "ui",
+                "text": "Un rapport de bug peut être ajouté à un bug déjà signalé, retrouvé par quelques mots dans le formulaire."
+              },
+              {
+                "type": "changed",
+                "area": "weather",
+                "text": "Les murs de poussière prennent la couleur du sol qu'ils traversent et cachent le soleil derrière eux ; leur vent monte en rafale après une courte accalmie au lieu d'arriver d'un coup, et s'arrête à leur sommet."
+              },
+              {
+                "type": "changed",
+                "area": "weather",
+                "text": "Les tourbillons sont rares sous la mer de poussière, où peu de soleil chauffe le sol."
+              },
+              {
+                "type": "changed",
+                "area": "weather",
+                "text": "Au-dessus de la mer de poussière, le ciel reste clair à l'opposé du soleil, éclairé par-dessous par la mer blanche ; dessous, le disque du soleil ne transparaît plus."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "Le vent du sol s'estompe quand on vole haut au-dessus."
+              },
+              {
+                "type": "changed",
+                "area": "vehicles",
+                "text": "Le vent de la météo claque désormais une portière de véhicule ouverte : un vent de face la ferme plus tôt, un vent arrière plus tard, et une forte rafale peut claquer une portière laissée ouverte sur un véhicule garé."
+              },
+              {
+                "type": "changed",
+                "area": "weather",
+                "text": "Les vents de Tarsis 3 sont un peu plus faibles et ses pôles plus doux : le climat suit l'albédo corrigé de la planète."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Un volcan en éruption éclaire désormais ses flancs et le sol alentour en orange, rougeoie à sa bouche, laisse descendre des coulées incandescentes sur ses pentes et projette des bombes de lave plus lumineuses."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Sous la lune, le panache d'un volcan prend désormais la lumière des lunes comme le paysage, et son bord reste net vu de loin."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "Les fortes éruptions secouent désormais le sol de brefs séismes ressentis jusqu'à une vingtaine de kilomètres, et l'onde de choc de chaque explosion fait sursauter la vue à l'arrivée de son bruit."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "Une explosion lointaine sonne désormais comme le coup sourd de son onde de choc, plus grave et plus faible avec la distance, et un séisme gronde sous les pieds."
+              },
+              {
+                "type": "changed",
+                "area": "audio",
+                "text": "On entend désormais les bombes de lave et les pierres s'écraser, rebondir et rouler autour de soi, et la cendre et les lapilli crépiter quand on se tient sous le panache d'une éruption."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Sous le panache d'une éruption, on voit désormais la cendre et les lapilli tomber autour de soi, portés par le vent."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Chaque explosion volcanique illumine désormais la bouche, tout le bas du panache et les pentes sur des kilomètres d'un éclair blanc qui vire au rouge, vu avant l'arrivée de son bruit."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "L'onde de choc d'une explosion proche secoue désormais la vue et fait onduler l'écran à son arrivée."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Dans le rapport de bug, un bug déjà corrigé pour le prochain build s'affiche avec un carré bleu."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Rejoindre la partie fige beaucoup moins longtemps à l'apparition de la planète et de son personnage."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Meilleur framerate et bien moins de CPU utilisé dans le village minier ; les rochers alentour apparaissent plus tôt."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Tout le plateau de corindon de Tarsis 3 a le sol de roche craquelée posé en hex-tiles, ses pierres et ses fissures visibles aussi en plein soleil."
+              },
+              {
+                "type": "changed",
+                "area": "performance",
+                "text": "Le terrain près des bords des zones de biome se construit plus vite, sur les clients comme sur le serveur."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Dans le créateur de personnage, les tirages gardent le sexe et l'origine du personnage sauf s'ils les tirent, et tirent les curseurs de détail du visage au lieu de les remettre à zéro."
+              },
+              {
+                "type": "changed",
+                "area": "player",
+                "text": "Les visages tirés au hasard sont plus naturels : fini les lèvres boudeuses et les yeux de poupée."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "Les routes, chemins, autoroutes et voies ferrées sont dessinés plus larges et plus foncés sur la carte, et les canyons suivent leurs virages sans accroc."
+              },
+              {
+                "type": "changed",
+                "area": "star-map",
+                "text": "Les pentes qui descendent dans un canyon apparaissent sur la carte, plus pâles à mesure que le canyon est moins profond."
+              },
+              {
+                "type": "changed",
+                "area": "graphics",
+                "text": "Le jeu tourne sur Godot 4.7.2."
+              },
+              {
+                "type": "changed",
+                "area": "ui",
+                "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Le DataPad, la carte stellaire et les autres panneaux fonctionnent de nouveau aux commandes d'un vaisseau, et les touches du véhicule n'agissent plus sous l'aide des commandes ou le rapport de bug."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Une route retracée sur une planète apparaît en entier, au lieu de s'arrêter au bord d'un sol construit avant elle."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "Les rochers éparpillés prennent la couleur du sol sur lequel ils reposent au lieu d'un beige pâle."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Les PNJ qui ne peuvent pas atteindre leur destination s'en approchent au plus près au lieu de rester immobiles."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "La nuit, le panache d'un volcan n'apparaît plus comme un nuage gris éclairé par un soleil couché : son sommet est sombre et seule la lave l'éclaire par en dessous."
+              },
+              {
+                "type": "fixed",
+                "area": "weather",
+                "text": "La bande de poussière soulevée par le vent à l'horizon ne grossit plus et ne se résorbe plus toute seule, et ne luit plus la nuit."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Les villes ne paient plus quelques millisecondes de plus toutes les quatre secondes pour garder les ombres des lampes en place."
+              },
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Le jeu ne reste plus figé en quittant après être passé dans un village."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Le sol d'une planète garde son aspect sur les parties construites quand on en était encore loin."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Le sol autour de la mine du village minier ne montre plus de plaques d'une ancienne texture unie."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Les cheveux à raie sur le côté ne tracent plus de fins traits en travers des joues."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Un visage vu de près ne se fige plus un instant quand son apparence change, et garde son expression pendant qu'on bouge un curseur du créateur."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Les visages africains ont une bouche moins large et des lèvres moins épaisses, plus proches de vrais visages."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Les visages est-asiatiques ont des yeux plus grands et plus ouverts, plus proches de vrais visages."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Les visages tirés au hasard sont un peu moins larges et leur nez mieux formé, plus proches de vrais visages."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Le dos ne paraît plus cassé au bas du dos et sous la nuque sur les corps ronds ou minces."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Les visages européens ont une bouche plus pleine et un nez moins pincé."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Le formulaire de rapport de bug a son curseur de souris quand il est ouvert depuis un lit."
+              },
+              {
+                "type": "fixed",
+                "area": "ui",
+                "text": "Le bouton sélectionné d'un écran de service montre un anneau visible."
+              },
+              {
+                "type": "fixed",
+                "area": "player",
+                "text": "Allongé, la lampe torche éclaire là où vous regardez."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Une téléportation vers un village vous dépose devant sa cabine de téléportation, et plus dans le dépôt."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Le distributeur de rations porte les couleurs d'ARES Living."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Le compte à rebours d'un distributeur démarre à la bonne seconde, quelle que soit l'heure réglée sur votre ordinateur."
+              },
+              {
+                "type": "fixed",
+                "area": "planettech",
+                "text": "La bande noire en travers du haut des pentes qui descendent dans un canyon a disparu."
+              },
+              {
+                "type": "fixed",
+                "area": "buildings",
+                "text": "Les monte-véhicules se chargent de nouveau dans le jeu publié : leurs paliers ne se chargeaient pas."
+              },
+              {
+                "type": "fixed",
+                "area": "graphics",
+                "text": "Les lampes, projecteurs et phares projettent de nouveau l'ombre de ce qui bouge sous eux, dès que ça bouge."
+              },
+              {
+                "type": "fixed",
+                "area": "server",
+                "text": "Un ordinateur lent n'affiche plus « l'objet parent n'est jamais arrivé du serveur » alors que le monde est encore en train de charger."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611200651",
           "date": "2026-11-20",

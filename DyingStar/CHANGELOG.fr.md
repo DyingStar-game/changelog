@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611261345] - 2026-11-26
+
 ### Added
 
 - **Véhicules** : Les garages peuvent fournir un vaisseau spatial : prenez la place du pilote, pilotez-le dans toutes les directions, réglez sa vitesse avec le limiteur, le régulateur et la molette, et lisez-la sur l'écran du cockpit.

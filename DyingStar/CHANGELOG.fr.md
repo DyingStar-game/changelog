@@ -60,6 +60,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **PlanetTech** : Les rochers éparpillés prennent la couleur du sol sur lequel ils reposent au lieu d'un beige pâle.
 - **Serveur** : Les PNJ qui ne peuvent pas atteindre leur destination s'en approchent au plus près au lieu de rester immobiles.
 - **Graphismes** : La nuit, le panache d'un volcan n'apparaît plus comme un nuage gris éclairé par un soleil couché : son sommet est sombre et seule la lave l'éclaire par en dessous.
 - **Météo** : La bande de poussière soulevée par le vent à l'horizon ne grossit plus et ne se résorbe plus toute seule, et ne luit plus la nuit.

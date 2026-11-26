@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T20:51:45.674402+00:00",
+  "generated_at": "2026-11-26T09:40:33.593858+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -328,6 +328,11 @@
               "type": "changed",
               "area": "ui",
               "text": "When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Scattered rocks take the colour of the ground they stand on instead of a pale beige."
             },
             {
               "type": "fixed",
@@ -675,6 +680,11 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Les rochers éparpillés prennent la couleur du sol sur lequel ils reposent au lieu d'un beige pâle."
             },
             {
               "type": "fixed",

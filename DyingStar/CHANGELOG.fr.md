@@ -9,6 +9,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Véhicules** : Les garages peuvent fournir un vaisseau spatial : prenez la place du pilote, pilotez-le dans toutes les directions, réglez sa vitesse avec le limiteur, le régulateur et la molette, et lisez-la sur l'écran du cockpit.
+- **Véhicules** : On peut monter par la rampe du vaisseau et circuler dans sa cabine, même en vol ; quitter le siège du pilote vous laisse à bord.
+- **Audio** : Le moteur, les propulseurs et les jets de manœuvre du vaisseau s'entendent.
 - **Météo** : La mer de poussière de Sandbox est dessinée : une mer blanche de nuages bombés vue des plateaux, et dedans un ciel couvert pâle avec environ un kilomètre de visibilité ; sous sa base, à 500 m, les bassins voient à une dizaine de kilomètres dans sa pénombre.
 - **Météo** : Vue d'en haut au soleil, la mer de poussière montre une gloire d'anneaux colorés autour de votre ombre, et ses bords fins près du soleil se parent d'irisations.
 - **Audio** : Les tourbillons, les murs de poussière et leurs étincelles s'entendent : un grondement lointain qui enfle à l'approche d'un mur, le coup de son front, la tempête tout autour à l'intérieur.
@@ -68,6 +71,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Fixed
 
+- **Interface** : Le DataPad, la carte stellaire et les autres panneaux fonctionnent de nouveau aux commandes d'un vaisseau, et les touches du véhicule n'agissent plus sous l'aide des commandes ou le rapport de bug.
 - **PlanetTech** : Une route retracée sur une planète apparaît en entier, au lieu de s'arrêter au bord d'un sol construit avant elle.
 - **PlanetTech** : Les rochers éparpillés prennent la couleur du sol sur lequel ils reposent au lieu d'un beige pâle.
 - **Serveur** : Les PNJ qui ne peuvent pas atteindre leur destination s'en approchent au plus près au lieu de rester immobiles.

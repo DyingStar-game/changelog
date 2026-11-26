@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T12:55:40.849600+00:00",
+  "generated_at": "2026-11-26T13:19:50.689681+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -104,6 +104,21 @@
         "url": null,
         "entries": {
           "en": [
+            {
+              "type": "added",
+              "area": "vehicles",
+              "text": "Garages can hand out a spaceship: take the pilot's seat, fly it in every direction, set its speed with the limiter, the cruise control and the mouse wheel, and read its speed on the cockpit screen."
+            },
+            {
+              "type": "added",
+              "area": "vehicles",
+              "text": "You can walk up the spaceship's ramp and move around its cabin, even while it flies; leaving the pilot's seat keeps you inside."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "The spaceship's engine, thrusters and manoeuvring jets can be heard."
+            },
             {
               "type": "added",
               "area": "weather",
@@ -371,6 +386,11 @@
             },
             {
               "type": "fixed",
+              "area": "ui",
+              "text": "The DataPad, the star map and the other panels work again at a spaceship's controls, and the vehicle keys no longer act under the controls help or the bug report."
+            },
+            {
+              "type": "fixed",
               "area": "planettech",
               "text": "A road redrawn on a planet appears in full, instead of stopping at the edge of ground built before it."
             },
@@ -501,6 +521,21 @@
             }
           ],
           "fr": [
+            {
+              "type": "added",
+              "area": "vehicles",
+              "text": "Les garages peuvent fournir un vaisseau spatial : prenez la place du pilote, pilotez-le dans toutes les directions, réglez sa vitesse avec le limiteur, le régulateur et la molette, et lisez-la sur l'écran du cockpit."
+            },
+            {
+              "type": "added",
+              "area": "vehicles",
+              "text": "On peut monter par la rampe du vaisseau et circuler dans sa cabine, même en vol ; quitter le siège du pilote vous laisse à bord."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Le moteur, les propulseurs et les jets de manœuvre du vaisseau s'entendent."
+            },
             {
               "type": "added",
               "area": "weather",
@@ -765,6 +800,11 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Le DataPad, la carte stellaire et les autres panneaux fonctionnent de nouveau aux commandes d'un vaisseau, et les touches du véhicule n'agissent plus sous l'aide des commandes ou le rapport de bug."
             },
             {
               "type": "fixed",

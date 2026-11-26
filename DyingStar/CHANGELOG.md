@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Vehicles**: Garages can hand out a spaceship: take the pilot's seat, fly it in every direction, set its speed with the limiter, the cruise control and the mouse wheel, and read its speed on the cockpit screen.
+- **Vehicles**: You can walk up the spaceship's ramp and move around its cabin, even while it flies; leaving the pilot's seat keeps you inside.
+- **Audio**: The spaceship's engine, thrusters and manoeuvring jets can be heard.
 - **Weather**: Sandbox's dust sea is drawn: a white sea of billows seen from the plateaus, and inside it a pale overcast with about a kilometre of visibility; under its base, 500 m up, the basins see about ten kilometres in its dim light.
 - **Weather**: Seen from above in the sun, the dust sea shows a glory of coloured rings around your shadow, and its thin edges near the sun shimmer with iridescent colours.
 - **Audio**: Dust devils, dust walls and the sparks inside them can be heard: a far rumble growing as a wall nears, the blast of its front, the storm all round inside it.
@@ -68,6 +71,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **Interface**: The DataPad, the star map and the other panels work again at a spaceship's controls, and the vehicle keys no longer act under the controls help or the bug report.
 - **PlanetTech**: A road redrawn on a planet appears in full, instead of stopping at the edge of ground built before it.
 - **PlanetTech**: Scattered rocks take the colour of the ground they stand on instead of a pale beige.
 - **Server**: NPCs that cannot reach their destination walk as close to it as they can instead of standing still.

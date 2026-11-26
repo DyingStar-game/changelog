@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T10:02:01.877639+00:00",
+  "generated_at": "2026-11-26T12:55:40.849600+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -104,6 +104,21 @@
         "url": null,
         "entries": {
           "en": [
+            {
+              "type": "added",
+              "area": "weather",
+              "text": "Sandbox's dust sea is drawn: a white sea of billows seen from the plateaus, and inside it a pale overcast with about a kilometre of visibility; under its base, 500 m up, the basins see about ten kilometres in its dim light."
+            },
+            {
+              "type": "added",
+              "area": "weather",
+              "text": "Seen from above in the sun, the dust sea shows a glory of coloured rings around your shadow, and its thin edges near the sun shimmer with iridescent colours."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Dust devils, dust walls and the sparks inside them can be heard: a far rumble growing as a wall nears, the blast of its front, the storm all round inside it."
+            },
             {
               "type": "added",
               "area": "weather",
@@ -228,6 +243,26 @@
               "type": "added",
               "area": "ui",
               "text": "A bug report can be added to a bug already reported, found by a few words in the form."
+            },
+            {
+              "type": "changed",
+              "area": "weather",
+              "text": "Dust walls take the colour of the ground they run over and hide the sun behind them; their wind rises in a gust after a short lull instead of all at once, and stops at their top."
+            },
+            {
+              "type": "changed",
+              "area": "weather",
+              "text": "Dust devils are rare under the dust sea, where little sunlight warms the ground."
+            },
+            {
+              "type": "changed",
+              "area": "weather",
+              "text": "Over the dust sea the sky stays light away from the sun, lit from below by the white sea; under it the sun's disc no longer shows through."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "The wind of the ground fades as you fly high above it."
             },
             {
               "type": "changed",
@@ -469,6 +504,21 @@
             {
               "type": "added",
               "area": "weather",
+              "text": "La mer de poussière de Sandbox est dessinée : une mer blanche de nuages bombés vue des plateaux, et dedans un ciel couvert pâle avec environ un kilomètre de visibilité ; sous sa base, à 500 m, les bassins voient à une dizaine de kilomètres dans sa pénombre."
+            },
+            {
+              "type": "added",
+              "area": "weather",
+              "text": "Vue d'en haut au soleil, la mer de poussière montre une gloire d'anneaux colorés autour de votre ombre, et ses bords fins près du soleil se parent d'irisations."
+            },
+            {
+              "type": "added",
+              "area": "audio",
+              "text": "Les tourbillons, les murs de poussière et leurs étincelles s'entendent : un grondement lointain qui enfle à l'approche d'un mur, le coup de son front, la tempête tout autour à l'intérieur."
+            },
+            {
+              "type": "added",
+              "area": "weather",
               "text": "Avec l'option de débogage de la météo, la carte des planètes montre la météo : isobares, flèches de vent, dépressions et anticyclones, et la météo sous le curseur."
             },
             {
@@ -590,6 +640,26 @@
               "type": "added",
               "area": "ui",
               "text": "Un rapport de bug peut être ajouté à un bug déjà signalé, retrouvé par quelques mots dans le formulaire."
+            },
+            {
+              "type": "changed",
+              "area": "weather",
+              "text": "Les murs de poussière prennent la couleur du sol qu'ils traversent et cachent le soleil derrière eux ; leur vent monte en rafale après une courte accalmie au lieu d'arriver d'un coup, et s'arrête à leur sommet."
+            },
+            {
+              "type": "changed",
+              "area": "weather",
+              "text": "Les tourbillons sont rares sous la mer de poussière, où peu de soleil chauffe le sol."
+            },
+            {
+              "type": "changed",
+              "area": "weather",
+              "text": "Au-dessus de la mer de poussière, le ciel reste clair à l'opposé du soleil, éclairé par-dessous par la mer blanche ; dessous, le disque du soleil ne transparaît plus."
+            },
+            {
+              "type": "changed",
+              "area": "audio",
+              "text": "Le vent du sol s'estompe quand on vole haut au-dessus."
             },
             {
               "type": "changed",

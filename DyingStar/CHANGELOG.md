@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Weather**: Sandbox's dust sea is drawn: a white sea of billows seen from the plateaus, and inside it a pale overcast with about a kilometre of visibility; under its base, 500 m up, the basins see about ten kilometres in its dim light.
+- **Weather**: Seen from above in the sun, the dust sea shows a glory of coloured rings around your shadow, and its thin edges near the sun shimmer with iridescent colours.
+- **Audio**: Dust devils, dust walls and the sparks inside them can be heard: a far rumble growing as a wall nears, the blast of its front, the storm all round inside it.
 - **Weather**: With the weather debug option on, the planet map shows the weather: isobars, wind arrows, highs and lows, and the weather under the cursor.
 - **PlanetTech**: The large scattered rocks of a planet are now solid: players and vehicles bump into them instead of driving through.
 - **PlanetTech**: A debug option shows the rocks that collide as cyan boxes, with how many stand around you.
@@ -37,6 +40,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Weather**: Dust walls take the colour of the ground they run over and hide the sun behind them; their wind rises in a gust after a short lull instead of all at once, and stops at their top.
+- **Weather**: Dust devils are rare under the dust sea, where little sunlight warms the ground.
+- **Weather**: Over the dust sea the sky stays light away from the sun, lit from below by the white sea; under it the sun's disc no longer shows through.
+- **Audio**: The wind of the ground fades as you fly high above it.
 - **Vehicles**: The weather's wind now slams an open vehicle door: a head wind shuts it sooner, a tail wind later, and a strong gust can slam a door left open on a parked vehicle.
 - **Weather**: Tarsis 3's winds are a little weaker and its poles milder: the climate follows the planet's corrected albedo.
 - **Graphics**: An erupting volcano now lights its flanks and the ground around it in orange, glows at its vent, sends incandescent flows down its slopes and throws brighter lava bombs.

@@ -9,6 +9,9 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Added
 
+- **Météo** : La mer de poussière de Sandbox est dessinée : une mer blanche de nuages bombés vue des plateaux, et dedans un ciel couvert pâle avec environ un kilomètre de visibilité ; sous sa base, à 500 m, les bassins voient à une dizaine de kilomètres dans sa pénombre.
+- **Météo** : Vue d'en haut au soleil, la mer de poussière montre une gloire d'anneaux colorés autour de votre ombre, et ses bords fins près du soleil se parent d'irisations.
+- **Audio** : Les tourbillons, les murs de poussière et leurs étincelles s'entendent : un grondement lointain qui enfle à l'approche d'un mur, le coup de son front, la tempête tout autour à l'intérieur.
 - **Météo** : Avec l'option de débogage de la météo, la carte des planètes montre la météo : isobares, flèches de vent, dépressions et anticyclones, et la météo sous le curseur.
 - **PlanetTech** : Les gros rochers éparpillés sur une planète sont maintenant solides : joueurs et véhicules les heurtent au lieu de passer au travers.
 - **PlanetTech** : Une option de débogage montre en boîtes cyan les rochers qui ont une collision, avec leur nombre autour de vous.
@@ -37,6 +40,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Météo** : Les murs de poussière prennent la couleur du sol qu'ils traversent et cachent le soleil derrière eux ; leur vent monte en rafale après une courte accalmie au lieu d'arriver d'un coup, et s'arrête à leur sommet.
+- **Météo** : Les tourbillons sont rares sous la mer de poussière, où peu de soleil chauffe le sol.
+- **Météo** : Au-dessus de la mer de poussière, le ciel reste clair à l'opposé du soleil, éclairé par-dessous par la mer blanche ; dessous, le disque du soleil ne transparaît plus.
+- **Audio** : Le vent du sol s'estompe quand on vole haut au-dessus.
 - **Véhicules** : Le vent de la météo claque désormais une portière de véhicule ouverte : un vent de face la ferme plus tôt, un vent arrière plus tard, et une forte rafale peut claquer une portière laissée ouverte sur un véhicule garé.
 - **Météo** : Les vents de Tarsis 3 sont un peu plus faibles et ses pôles plus doux : le climat suit l'albédo corrigé de la planète.
 - **Graphismes** : Un volcan en éruption éclaire désormais ses flancs et le sol alentour en orange, rougeoie à sa bouche, laisse descendre des coulées incandescentes sur ses pentes et projette des bombes de lave plus lumineuses.

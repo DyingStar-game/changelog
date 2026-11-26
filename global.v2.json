@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T09:40:33.593858+00:00",
+  "generated_at": "2026-11-26T09:44:48.997788+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -228,6 +228,11 @@
               "type": "added",
               "area": "ui",
               "text": "A bug report can be added to a bug already reported, found by a few words in the form."
+            },
+            {
+              "type": "changed",
+              "area": "vehicles",
+              "text": "The weather's wind now slams an open vehicle door: a head wind shuts it sooner, a tail wind later, and a strong gust can slam a door left open on a parked vehicle."
             },
             {
               "type": "changed",
@@ -580,6 +585,11 @@
               "type": "added",
               "area": "ui",
               "text": "Un rapport de bug peut être ajouté à un bug déjà signalé, retrouvé par quelques mots dans le formulaire."
+            },
+            {
+              "type": "changed",
+              "area": "vehicles",
+              "text": "Le vent de la météo claque désormais une portière de véhicule ouverte : un vent de face la ferme plus tôt, un vent arrière plus tard, et une forte rafale peut claquer une portière laissée ouverte sur un véhicule garé."
             },
             {
               "type": "changed",

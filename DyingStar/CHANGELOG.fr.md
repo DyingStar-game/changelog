@@ -37,6 +37,7 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ### Changed
 
+- **Véhicules** : Le vent de la météo claque désormais une portière de véhicule ouverte : un vent de face la ferme plus tôt, un vent arrière plus tard, et une forte rafale peut claquer une portière laissée ouverte sur un véhicule garé.
 - **Météo** : Les vents de Tarsis 3 sont un peu plus faibles et ses pôles plus doux : le climat suit l'albédo corrigé de la planète.
 - **Graphismes** : Un volcan en éruption éclaire désormais ses flancs et le sol alentour en orange, rougeoie à sa bouche, laisse descendre des coulées incandescentes sur ses pentes et projette des bombes de lave plus lumineuses.
 - **Graphismes** : Sous la lune, le panache d'un volcan prend désormais la lumière des lunes comme le paysage, et son bord reste net vu de loin.

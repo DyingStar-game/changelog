@@ -37,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- **Vehicles**: The weather's wind now slams an open vehicle door: a head wind shuts it sooner, a tail wind later, and a strong gust can slam a door left open on a parked vehicle.
 - **Weather**: Tarsis 3's winds are a little weaker and its poles milder: the climate follows the planet's corrected albedo.
 - **Graphics**: An erupting volcano now lights its flanks and the ground around it in orange, glows at its vent, sends incandescent flows down its slopes and throws brighter lava bombs.
 - **Graphics**: By moonlight, a volcano's plume now catches the light of the moons like the landscape, and its edge stays smooth from far away.

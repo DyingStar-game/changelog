@@ -61,6 +61,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- **PlanetTech**: A road redrawn on a planet appears in full, instead of stopping at the edge of ground built before it.
 - **PlanetTech**: Scattered rocks take the colour of the ground they stand on instead of a pale beige.
 - **Server**: NPCs that cannot reach their destination walk as close to it as they can instead of standing still.
 - **Graphics**: At night, a volcano's plume no longer shows as a grey cloud lit by a sun that has set: its top is dark and only the lava lights it from below.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T09:44:48.997788+00:00",
+  "generated_at": "2026-11-26T10:02:01.877639+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -333,6 +333,11 @@
               "type": "changed",
               "area": "ui",
               "text": "When your character cannot appear in the world, the error message now says what is really missing, or that the computer cannot keep up."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "A road redrawn on a planet appears in full, instead of stopping at the edge of ground built before it."
             },
             {
               "type": "fixed",
@@ -690,6 +695,11 @@
               "type": "changed",
               "area": "ui",
               "text": "Quand votre personnage ne peut pas apparaître dans le monde, le message d'erreur dit maintenant ce qui manque vraiment, ou que l'ordinateur n'arrive pas à suivre."
+            },
+            {
+              "type": "fixed",
+              "area": "planettech",
+              "text": "Une route retracée sur une planète apparaît en entier, au lieu de s'arrêter au bord d'un sol construit avant elle."
             },
             {
               "type": "fixed",

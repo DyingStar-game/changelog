@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **Interface**: The game no longer stays stuck on the loading screen at start on some PCs while the main menu's scenery loads.
+
 ## [0.1.0-dev.202611270727] - 2026-11-27
 
 ### Fixed

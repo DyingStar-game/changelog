@@ -7,6 +7,10 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Fixed
+
+- **Interface** : Le jeu ne reste plus bloqué sur l'écran de chargement au démarrage sur certains PC pendant le chargement du décor du menu principal.
+
 ## [0.1.0-dev.202611270727] - 2026-11-27
 
 ### Fixed

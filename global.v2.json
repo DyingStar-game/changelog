@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-27T07:34:51.149811+00:00",
+  "generated_at": "2026-11-27T09:31:47.272414+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,20 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "The game no longer stays stuck on the loading screen at start on some PCs while the main menu's scenery loads."
+            }
+          ],
+          "fr": [
+            {
+              "type": "fixed",
+              "area": "ui",
+              "text": "Le jeu ne reste plus bloqué sur l'écran de chargement au démarrage sur certains PC pendant le chargement du décor du menu principal."
+            }
+          ]
         }
       },
       "releases": [

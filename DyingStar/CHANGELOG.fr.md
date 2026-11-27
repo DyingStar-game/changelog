@@ -7,6 +7,8 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+## [0.1.0-dev.202611270727] - 2026-11-27
+
 ### Fixed
 
 - **Performances** : Moins de micro-gels pour tout le monde sur un serveur chargé : les objets immobiles et les caisses des entrepôts ne ralentissent plus le serveur.

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-dev.202611270727] - 2026-11-27
+
 ### Fixed
 
 - **Performance**: Fewer freezes for everyone on a busy server: props lying still and warehouse crates no longer slow the server down.

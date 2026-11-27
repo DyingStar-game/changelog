@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-27T07:27:09.217987+00:00",
+  "generated_at": "2026-11-27T07:34:51.149811+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,23 +103,34 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Fewer freezes for everyone on a busy server: props lying still and warehouse crates no longer slow the server down."
-            }
-          ],
-          "fr": [
-            {
-              "type": "fixed",
-              "area": "performance",
-              "text": "Moins de micro-gels pour tout le monde sur un serveur chargé : les objets immobiles et les caisses des entrepôts ne ralentissent plus le serveur."
-            }
-          ]
+          "en": [],
+          "fr": []
         }
       },
       "releases": [
+        {
+          "version": "0.1.0-dev.202611270727",
+          "date": "2026-11-27",
+          "yanked": false,
+          "dev": true,
+          "url": null,
+          "entries": {
+            "en": [
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Fewer freezes for everyone on a busy server: props lying still and warehouse crates no longer slow the server down."
+              }
+            ],
+            "fr": [
+              {
+                "type": "fixed",
+                "area": "performance",
+                "text": "Moins de micro-gels pour tout le monde sur un serveur chargé : les objets immobiles et les caisses des entrepôts ne ralentissent plus le serveur."
+              }
+            ]
+          }
+        },
         {
           "version": "0.1.0-dev.202611261345",
           "date": "2026-11-26",

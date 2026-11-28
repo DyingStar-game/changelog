@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Controls**: The spaceship has its own keys, in a Ship tab of the controls: changing one no longer changes the truck's, the walk's or the EVA's.
+- **Vehicles**: The spaceship's rear ramp opens and closes, on foot by looking at it or from the pilot's seat, and a truck fits in its hold with the ramp closed.
+
+### Fixed
+
+- **Graphics**: Aboard a spaceship that rolls or loops, the sky, the time of day and the light no longer change.
+- **Star map**: At a spaceship's controls, the star map's view cone points where the ship faces, even when it rolls.
+- **Vehicles**: The garage hands out the spaceship far enough from its terminal for the ramp to open.
+
 ## [0.1.0-dev.202611270932] - 2026-11-27
 
 ### Fixed

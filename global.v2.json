@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-27T09:51:31.967187+00:00",
+  "generated_at": "2026-11-28T09:04:01.503115+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -103,8 +103,60 @@
       "unreleased": {
         "url": null,
         "entries": {
-          "en": [],
-          "fr": []
+          "en": [
+            {
+              "type": "added",
+              "area": "controls",
+              "text": "The spaceship has its own keys, in a Ship tab of the controls: changing one no longer changes the truck's, the walk's or the EVA's."
+            },
+            {
+              "type": "added",
+              "area": "vehicles",
+              "text": "The spaceship's rear ramp opens and closes, on foot by looking at it or from the pilot's seat, and a truck fits in its hold with the ramp closed."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "Aboard a spaceship that rolls or loops, the sky, the time of day and the light no longer change."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "At a spaceship's controls, the star map's view cone points where the ship faces, even when it rolls."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "The garage hands out the spaceship far enough from its terminal for the ramp to open."
+            }
+          ],
+          "fr": [
+            {
+              "type": "added",
+              "area": "controls",
+              "text": "Le vaisseau spatial a ses propres touches, dans un onglet Vaisseau des contrôles : en changer une ne change plus celles du camion, de la marche ou de l'EVA."
+            },
+            {
+              "type": "added",
+              "area": "vehicles",
+              "text": "La rampe arrière du vaisseau s'ouvre et se ferme, à pied en la visant ou depuis le siège du pilote, et un camion tient dans sa soute rampe fermée."
+            },
+            {
+              "type": "fixed",
+              "area": "graphics",
+              "text": "À bord d'un vaisseau qui roule ou boucle, le ciel, l'heure du jour et la lumière ne changent plus."
+            },
+            {
+              "type": "fixed",
+              "area": "star-map",
+              "text": "Aux commandes d'un vaisseau, le cône de vue de la carte stellaire indique la direction du vaisseau, même incliné."
+            },
+            {
+              "type": "fixed",
+              "area": "vehicles",
+              "text": "Le garage sort le vaisseau assez loin de sa borne pour que la rampe puisse s'ouvrir."
+            }
+          ]
         }
       },
       "releases": [

@@ -7,6 +7,17 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Non publié]
 
+### Added
+
+- **Commandes** : Le vaisseau spatial a ses propres touches, dans un onglet Vaisseau des contrôles : en changer une ne change plus celles du camion, de la marche ou de l'EVA.
+- **Véhicules** : La rampe arrière du vaisseau s'ouvre et se ferme, à pied en la visant ou depuis le siège du pilote, et un camion tient dans sa soute rampe fermée.
+
+### Fixed
+
+- **Graphismes** : À bord d'un vaisseau qui roule ou boucle, le ciel, l'heure du jour et la lumière ne changent plus.
+- **Carte stellaire** : Aux commandes d'un vaisseau, le cône de vue de la carte stellaire indique la direction du vaisseau, même incliné.
+- **Véhicules** : Le garage sort le vaisseau assez loin de sa borne pour que la rampe puisse s'ouvrir.
+
 ## [0.1.0-dev.202611270932] - 2026-11-27
 
 ### Fixed

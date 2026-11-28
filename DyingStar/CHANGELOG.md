@@ -12,6 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Controls**: The spaceship has its own keys, in a Ship tab of the controls: changing one no longer changes the truck's, the walk's or the EVA's.
 - **Vehicles**: The spaceship's rear ramp opens and closes, on foot by looking at it or from the pilot's seat, and a truck fits in its hold with the ramp closed.
 
+### Changed
+
+- **Performance**: The game uses about 500 MB less video memory in a village.
+- **Performance**: Each character met takes less video memory for their hair.
+- **Graphics**: The shine of the crushers' and refineries' metal now shows only within about 30 m of them.
+
 ### Fixed
 
 - **Graphics**: Aboard a spaceship that rolls or loops, the sky, the time of day and the light no longer change.

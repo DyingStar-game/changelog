@@ -12,6 +12,12 @@ versionnage [Semantic Versioning](https://semver.org/lang/fr/).
 - **Commandes** : Le vaisseau spatial a ses propres touches, dans un onglet Vaisseau des contrôles : en changer une ne change plus celles du camion, de la marche ou de l'EVA.
 - **Véhicules** : La rampe arrière du vaisseau s'ouvre et se ferme, à pied en la visant ou depuis le siège du pilote, et un camion tient dans sa soute rampe fermée.
 
+### Changed
+
+- **Performances** : Le jeu utilise environ 500 Mo de mémoire vidéo de moins dans un village.
+- **Performances** : Chaque personnage croisé occupe moins de mémoire vidéo pour ses cheveux.
+- **Graphismes** : Les reflets du métal des concasseurs et des raffineries ne s'affichent plus qu'à environ 30 m d'eux.
+
 ### Fixed
 
 - **Graphismes** : À bord d'un vaisseau qui roule ou boucle, le ciel, l'heure du jour et la lumière ne changent plus.

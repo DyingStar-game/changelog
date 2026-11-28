@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-28T09:04:01.503115+00:00",
+  "generated_at": "2026-11-28T09:04:43.911204+00:00",
   "types": {
     "added": {
       "en": "Added",
@@ -115,6 +115,21 @@
               "text": "The spaceship's rear ramp opens and closes, on foot by looking at it or from the pilot's seat, and a truck fits in its hold with the ramp closed."
             },
             {
+              "type": "changed",
+              "area": "performance",
+              "text": "The game uses about 500 MB less video memory in a village."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Each character met takes less video memory for their hair."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "The shine of the crushers' and refineries' metal now shows only within about 30 m of them."
+            },
+            {
               "type": "fixed",
               "area": "graphics",
               "text": "Aboard a spaceship that rolls or loops, the sky, the time of day and the light no longer change."
@@ -140,6 +155,21 @@
               "type": "added",
               "area": "vehicles",
               "text": "La rampe arrière du vaisseau s'ouvre et se ferme, à pied en la visant ou depuis le siège du pilote, et un camion tient dans sa soute rampe fermée."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Le jeu utilise environ 500 Mo de mémoire vidéo de moins dans un village."
+            },
+            {
+              "type": "changed",
+              "area": "performance",
+              "text": "Chaque personnage croisé occupe moins de mémoire vidéo pour ses cheveux."
+            },
+            {
+              "type": "changed",
+              "area": "graphics",
+              "text": "Les reflets du métal des concasseurs et des raffineries ne s'affichent plus qu'à environ 30 m d'eux."
             },
             {
               "type": "fixed",
